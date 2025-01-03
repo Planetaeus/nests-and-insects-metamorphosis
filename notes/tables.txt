@@ -33,12 +33,12 @@ Risk Generation:
 Reward Generation:
 ║ Reward                  Chance               Description                                           ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-║ 3.7.10.1 Room           100% - Level         Spend a Room to Explore, Hunt or Forage ()               ║
-║ 3.7.10.2 Shortcut       Level - 50           Takes you closer to the Job Target ()                    ║
-║ 3.7.10.4 Item (Known)   25% + Level          Find a previously identified Food Item ()               ║
-║ 3.7.10.5 Resource       15% + Level          Materials to build a Shelter for Resting and Healing () ║
-║ 3.7.10.3 Level          10% + Level          Entrance to a new, deeper Nest Level ()                 ║
-║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()             ║
+║ 3.7.10.1 Room           100% - Level         Spend a Room to Explore, Hunt or Forage ()   ║
+║ 3.7.10.2 Shortcut       Level - 50           Takes you directly to the Job Target ()      ║
+║ 3.7.10.4 Item (Known)   25% + Level          Find a previously identified Food Item ()    ║
+║ 3.7.10.5 Resource       15% + Level          Materials to build a Shelter ()              ║
+║ 3.7.10.3 Level          10% + Level          Entrance to a new, deeper Nest Level ()      ║
+║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
 
 Suppress DoS
@@ -102,35 +102,19 @@ Resist DoS
 
 Food Generation:
 ║ 1. Generate the Item's Colour.                                                            ║
-║ d12 Result    Food Colour                                                                 ║
-║ ─────────────────────────                                                                 ║
-║ 1-2           Black                                                                       ║
-║ 3-4           Blue                                                                        ║
-║ 5-6           Green                                                                       ║
-║ 7-8           Red                                                                         ║
-║ 9-10          White                                                                       ║
-║ 11-12         Yellow                                                                      ║
-║ ─────────────────────────                                                                 ║
-║ Table 10: Food Colours                                                                    ║
 ║ 2. Generate the Item's Food Type                                                          ║
-║ d8 Result    Food Type                                                                    ║
-║ ──────────────────────                                                                    ║
-║ 1            Nectar                                                                       ║
-║ 2            Honey                                                                        ║
-║ 3            Honeydew                                                                     ║
-║ 4            Fungus                                                                       ║
-║ ──────────────────────                                                                    ║
-║ Table 11: Herbivore Food Types                                                            ║
-║ d8 Result    Food Type                                                                    ║
-║ ──────────────────────                                                                    ║
-║ 5            Aphid                                                                        ║
-║ 6            Cricket                                                                      ║
-║ 7            Firefly                                                                      ║
-║ 8            Maggot                                                                       ║
-║ ──────────────────────                                                                    ║
-║ Table 11: Carnivore Food Types                                                            ║
-║                                                                                           ║
 ║ 3. Quantify the amount of the Item found.                                                 ║
+║ d12 Result    Food Colour | d8 Result    Food Type | d8 Result    Food Type               ║
+║ ───────────────────────── | ────────────────────── | ──────────────────────               ║
+║ 1-2           Black       | 1            Nectar    | 5            Aphid                   ║
+║ 3-4           Blue        | 2            Honey     | 6            Cricket                 ║
+║ 5-6           Green       | 3            Honeydew  | 7            Firefly                 ║
+║ 7-8           Red         | 4            Fungus    | 8            Maggot                  ║
+║ 9-10          White       |                        |                                      ║
+║ 11-12         Yellow      |                        |                                      ║
+║ ───────────────────────── | ────────────────────── | ──────────────────────               ║
+║ Table 10: Food Colours, Herbivore Food Types, Carnivore Food Types                        ║
+
 Generate a Food Item's Function:
 ║ 1. Generate the Item's Condition.                                                         ║
 ║ d10 Result  Condition   Description                                                       ║

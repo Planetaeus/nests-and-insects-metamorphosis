@@ -127,7 +127,7 @@ Step 1: Choose an explored room to hole up in
 Step 2: Make a Construction Roll
 Effort: Construction
 Resistance: Level
-Modifiers: Web Weaving, Building Resource Rating
+Modifiers: Web Weaving, Building Resource Rating, Darkness, Hunger
 Degree of Success      Secure a Room
 ║ ─────────────────────────────────────────────────────────────────────────────────────────
 ║ Critical Success     Room Secured, all Healing and Swarming increased by 1W
@@ -138,26 +138,51 @@ Degree of Success      Secure a Room
 ║ Critical Failure     Room Not Secured, Building Resource Exhausted
 ║ ─────────────────────────────────────────────────────────────────────────────────────────
 Step 3: Spend Experience. Each character that has XP to spend rolls a d6, and adds the result to each feature that has XP. Those features no longer have XP.
-Step 4: One person make a Boolean Healing Roll. If successful, every character heals 1 wound.
-Step 5: Each character with Swarming can make a Boolean Swarming Roll. If successful, the swarm recovers 2 units.
 Step 6: Identify Unknown Items: For each unknown item the party has, one person can attempt to identify.
 Step 7: Consume Food - Each character may consume a food item to reduce their hunger. If they do, they may also roll to reduce one effect they suffer.
+Step 4: Each player can make one Rest & Heal Roll on themselves or another player.
+Step 5: Each player with Swarming can make one Swarm Recovery Roll.
 Step 8: End Resting & Healing
+║ Degree of Success  Treat Wounds        Recover Swarm                                    ║
+║ ─────────────────────────────────────────────────────────────────────────────────────── ║
+║ Critical Success   Recover all Wounds  Recover all Swarm units                          ║
+║ Total Success      Recover 2W          Recover 2U                                       ║
+║ Partial Success    Recovers 1W         Recover 1U                                       ║
+║ Partial Failure    No effect           No effect                                        ║
+║ Total Failure      Lose 1W             Lose 1U                                          ║
+║ Critical Failure   Lose 2W             Lose 2U                                          ║
+║ ───────────────────────────────────────────────────────────────────────────────────────── ║                                                                                          ║
+║ Action         Effort          Resistance      Static Modifiers                           ║
+║ ───────────────────────────────────────────────────────────────                           ║
+║ Secure Room    Construction    Level           Web Weaving, Resource Rating               ║
+║ Treat Wounds   Healing         Level           Web Weaving, Strongest Effect              ║
+║ Recover Swarm  Swarming        Passions        Threat Rate                                ║
+║ Shake          Charms          Charmed         Passions                                   ║
+║ ───────────────────────────────────────────────────────────────                           ║
+Treat Wounds
+Effort: Healing
+Resistance: Level
+Modifiers: Web Weaving, Target's Strength, Blind, Hunger, Food Rating, Effects
+
+Recover Swarm
+Effort: Swarming
+Resistance: Level
+Modifiers: Leadership, Eusociology, Hunger, Food Rating
 
 Attack Template:
 Basic attacks are single target, and can only apply Immobilised or Bleeding.
 If a creature has Venomous, their attacks might also cause Poisoned or Agony.
 ║┌[Base Attack]──────────────────────────────┐
-║│ Name: Bite Attack | Max. Range: Close     │
+║│ Name: Bite Attack | Range: Close          │
 ║│ Keywords:                                 │
-║│ DoS │ DMG │ Additional                 │
+║│ DoS │ DMG │ Additional                    │
 ║│───────────────────────────────────────────│
-║│ CrS │ 3   │ Trg Immobilised d60, Bleeding d60 │
-║│ CoS │ 2   │ Trg Immobilised d60     │
-║│ PS  │ 1   │ Trg Immobilised d40     │
-║│ PF  │ -   │                            │
-║│ CoF │ -   │                            │
-║│ CrF │ -   │                            │
+║│ CrS │ 3   │ Immobilised d60, Bleeding d60 │
+║│ CoS │ 2   │ Immobilised d60               │
+║│ PS  │ 1   │ Immobilised d40               │
+║│ PF  │ -   │                               │
+║│ CoF │ -   │                               │
+║│ CrF │ -   │                               │
 ║└───────────────────────────────────────────┘
 
 Special Attacks
@@ -348,11 +373,10 @@ Movement = Speed / 10
 Max Swarm = Swarming / 10
 
 Sources of Experience:
-Discover a new room
-Encounter
-Identify an unknown item
-Overcome an Obstacle
-Discover a new Level.
+Encounter (All members of Exploration Party)
+Identify an unknown item (Character who rolled)
+Overcome an Obstacle (Character who rolled
+Discover a new Level. (Character who rolled)
 
 Uses for Smarts:
 - Resist Confused
