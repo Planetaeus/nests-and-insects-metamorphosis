@@ -4,11 +4,11 @@
 ╠═►Attributes◄══════════════════════════════════════════════════════════════════════════════╣
 ║  □ Speed.......:[___%] □ Strength....:[___%] □ Ken.........:[___%] □ Passions....:[___%]  ║
 ╠═►Combat Stats◄══════════╦═►Specific Abilities◄═══╦═►Effects◄══════════════════════════════╣
-║ □ Initiative....:[___%] ║ □ Carapace.....:[___%] ║ Agony.......:[___%] Immobilised:[___%] ║
-║ □ Threat Rate...:[___%] ║ □ Flying.......:[___%] ║ Bleeding....:[___%] Infected...:[___%] ║
-║ □ Survival Rate.:[___%] ║ □ Swarm........:[___%] ║ Blind.......:[___%] Paralysed..:[___%] ║
-║ □ Wounds/Max...:[__/__] ║ □ Venomous.....:[___%] ║ Charmed.....:[___%] Poisoned...:[___%] ║
-║ □ Swarm/Max....:[__/__] ║ □ Web Weaving..:[___%] ║ Confused....:[___%] Stunned....:[___%] ║
+║ Initiative......:[___%] ║ □ Carapace.....:[___%] ║ Agony.......:[___%] Immobilised:[___%] ║
+║ Threat Rate.....:[___%] ║ □ Flying.......:[___%] ║ Bleeding....:[___%] Infected...:[___%] ║
+║ Survival Rate...:[___%] ║ □ Swarm........:[___%] ║ Blind.......:[___%] Paralysed..:[___%] ║
+║ Wounds/Max.....:[__/__] ║ □ Venomous.....:[___%] ║ Charmed.....:[___%] Poisoned...:[___%] ║
+║ Swarm/Max......:[__/__] ║ □ Web Weaving..:[___%] ║ Confused....:[___%] Stunned....:[___%] ║
 ╠═►Luck◄══════════════════╩════════════════════════╩═══════════╦═►Food◄═════════════════════╣
 ║ ○[00%]X[11%]○[22%]○[33%]○[44%]○[55%]○[66%]○[77%]○[88%]○[99%] ║ Hunger:[___%]..Starving: ○ ║
 ╠═►Common Abilities◄════╦═►Inventory◄══════════════════════════╩════════════════════════════╣
