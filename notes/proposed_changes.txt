@@ -98,7 +98,7 @@ New Suppress Table: (Changes how Recoil & Advances are expressed)
 New Support Table: (Ally holds is now Partial Failure. Encourage & Rally now one action)
 ║ Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                 ║▓
 ║ ───────────────────────────────────────────────────────────────────────────────────────── ║▓
-║ Critical Success     Ally Advances 3               Remove Effect and Shift Disposition Up ║▓
+║ Critical Success     Ally Advances 3               Remove Effect and Ally Advances 1      ║▓
 ║ Complete Success     Ally Advances 2               Remove Effect (reduce to 0%)           ║▓
 ║ Partial Success      Ally Advance 1                Reduce Effect (roll to decrease)       ║▓
 ║ Partial Failure      Ally Holds                    Effect remains                         ║▓
@@ -115,21 +115,179 @@ New Support Table: (Ally holds is now Partial Failure. Encourage & Rally now one
 Hunting and Foraging Minigame
 1. Each player chooses a room to hunt or forage in. The room must have a food item or a resource in it to engage in hunting or foraging.
 2. Each player declares what they are hunting or foraging. Each item in a room can only be harvested once per Hunting and Foraging Minigame.
-3. Each player makes a Roll with the room's Level Rating as the Resistance. The effort depends on what they are harvesting. For a carnivore's food, make a Hunting Roll. For an Herbivore's food, make a Foraging Roll. For a Building Resource, make a Construction Roll. If the roll fails, the Room is depleted of that item. If the roll succeeds, the resource is still plentiful. Either way, make a Quantification Roll to set the rating of the item or resource.
-Degree of Success      Hunt or Forage Outcome	     Salvage Outcome
+3. Each player makes a Roll with the room's Level Rating as the Resistance. The effort depends on what they are harvesting. For a carnivore's food, make a Hunting Roll. For an Herbivore's food, make a Foraging Roll. For a Building Resource, make a Construction Roll.
+4. If the player finds an Item or Resource, make a Quantification roll to set the rating. Use the Room Level's quantification die for the Roll. If a 
+Degree of Success     Hunt or Forage Outcome         Salvage Outcome
 ║ ───────────────────────────────────────────────────────────────────────────────────────── ║▓
-║ Critical Success     Find Two of Item              Find Two of Building Resource          ║▓
-║ Complete Success     Find Item                     Find Building Resource                 ║▓
-║ Partial Success      Find Item, Item is Depleted   Find Depleted Building Resource
-║ Partial Failure      Find Spoiled Item             Find Nothing
-║ Complete Failure     Nothing                       Room no longer has Resource
-║ Critical Failure     Room no longer has Item       Room no longer has Resource, Take 1W
+║ Critical Success    Find Two of Item               Find Building Resource, roll twice     ║▓
+║ Complete Success    Find Item                      Find Building Resource                 ║▓
+║ Partial Success     Find Item, Item is Depleted    Find Depleted Building Resource
+║ Partial Failure     Find Spoiled Item              Find Nothing
+║ Complete Failure    Hunger increase                Room no longer has Resource
+║ Critical Failure    Room depleted, Hunger increase Room no longer has Resource, Take 1W
 ║ ───────────────────────────────────────────────────────────────────────────────────────── ║▓
-║ Action         Effort          Resistance      Static Modifiers (Choose One)              ║▓
+║ Action         Effort          Resistance      Static Modifiers (Choose Two)              ║▓
 ║ ───────────────────────────────────────────────────────────────                           ║▓
 ║ Hunt           Hunting         Room Level      Speed, Sneaking, Venomous, Web Weaving     ║▓
-║ Forage         Foraging        Room Level      Skill, Ken, Perception, Swarming           ║▓
+║ Forage         Foraging        Room Level      Healing, Ken, Perception, Swarming         ║▓
 ║ Salvage        Construction    Room Level      Strength, Smarts, Swarming, Carapace       ║▓
 ║ ───────────────────────────────────────────────────────────────                           ║▓
 
 Area Attacks: The user makes a roll against their Threat Rate. This determines whether the attack Hits or Misses. For each target in the area, use their resistance to determine if it is a partial or total hit. Then, apply all relevant modifiers for that target. Targets suffer the effects of the attack's degree of success against them, and if the attack missed against any of the targets, the attacker suffers the most egregious effects.
+
+New Proposals: Pivot rules to support more of a survival adventure game. Put more focus on establishing shelters, gathering food, and the dangers of the hive.
+
+Create standard body-part options that feed into the different types of attacks.
+To go with this, no more "Base Attack" and "Special Attack", there will just be a list of attacks that a character has access to.
+Once you have the specific body parts, the damage and additional effects of attacks will be determined by your attributes and specific abilities. Or, instead of specifying body parts, just have requirements for specific Attacks.
+Actually, I quite like that. Each character can have two different Attacks equipped at a time. During a Rest, the character can swap any of their Attacks for a different Attack they meet the pre-requisite for. This way, I can forget about trying to balance or implement a system where players have to constantly re-calculate their damage and effects any time they level up. All I need to do is have a list of pre-made attacks laid out, and then give each attack a requirement involving one or more of: Speed, Strength, Ken, Passions, Carapace, Flying, Swarm, Venomous, and Web Weaving. Maybe also Healing and Eusociology.
+
+Create new Specific Ability: Natural Blindness, which allows the character to ignore Blindness and Darkness if the rating is less than their Natural Blindness. Each player would start at a set natural blindness, and special food might increase it.
+
+Change how Exploration works:
+- Specify which costs, risks, and rewards are encountered while traveling through passages.
+- Specify which costs, risks, and rewards are tied to the specific room.
+- Change "Passage" to Risk rather than "Cost"
+
+Costs:
+3.7.8.1 Hunger      5 (Travel)
+3.7.8.4 Effects     3 (Travel)
+3.7.8.5 Darkness    2 (Room)
+3.7.8.6 Spoilage    1 (Travel)
+
+sk Generation:
+Risk                 
+─────────────────────
+4.2.1.1 Encounter     (Room)
+3.7.8.3 Passage     4 (Passage & Room)
+2.11.6.8 Item (Unknow (Room)
+3.7.9.3 Obstacle      (Room)
+3.7.9.5 Infection     (Passage & Room)
+3.7.10.6 Secret       (Passage, Room, Travel)
+─────────────────────
+
+ward Generation:
+Reward               
+─────────────────────
+3.7.10.1 Room         (Passage & Room)
+3.7.10.2 Shortcut     (Passage & Room)
+3.7.10.4 Item (Known) (Room)
+3.7.10.5 Resource     (Room)
+3.7.10.3 Level        (Passage & Room)
+3.7.10.6 Secret       (Special: Depends on what is rolled)
+
+Explore a Passage:
+Costs:
+3.7.8.1 Hunger      5 (Travel & Passage)
+3.7.8.4 Effects     3 (Travel & Passage)
+3.7.8.6 Spoilage    1 (Travel & Passage))
+		Bridge 		  (Travel & Passage)
+
+Risk:
+3.7.8.3 Passage     4 (Passage & Room)
+3.7.9.3 Obstacle      (Passage & Room)
+3.7.9.5 Infection     (Passage & Room)
+3.7.10.6 Secret       (Special: Depends on what is rolled)
+
+Reward:
+3.7.10.1 Room         (Passage & Room)
+3.7.10.2 Shortcut     (Passage & Room)
+3.7.10.3 Level        (Passage & Room)
+Cost Generation:
+║ Cost                Chance         Description                                            ║
+║ ───────────────────────────────────────────────────────────────────────────────           ║
+║ 3.7.8.1 Hunger      50% + Level    Increase Hunger, deplete Food Items, bestow Starving   ║
+║ 3.7.8.4 Effects     30% + Level    Apply, or modify the rating of deleterious Effects     ║
+║         Bridge      25% + Level    Deplete Resources or the Passage is a Dead End         ║
+║ 3.7.8.6 Spoilage    15% + Level    Food Items have a chance to become Spoiled             ║
+
+Risk Generation:
+║ Risk                    Chance         Description                                        ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                        ║
+║ 3.7.8.3 Passage         45% + Level    Grants a chance to find a new Room                 ║
+║ 2.11.6.8 Item (Unknown) 30% + Level    Find as yet unidentified Food Items ()             ║
+║ 3.7.9.3 Obstacle        20% + Level    Prevents further Exploration until removed ()      ║
+║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                    ║
+║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+
+Reward Generation:
+║ Reward                  Chance               Description                                  ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+║ 3.7.10.1 Room           100% - Level         Spend a Room to Explore, Hunt or Forage ()   ║
+║ 3.7.10.2 Shortcut       Level - 50           Takes you directly to the Job Target ()      ║
+║ 3.7.10.3 Level          10% + Level          Entrance to a new, deeper Nest Level ()      ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+
+Explore a Room:
+Risks:
+4.2.1.1 Encounter     (Room)
+3.7.8.3 Passage     4 (Room)
+3.7.8.5 Darkness    2 (Room)
+2.11.6.8 Item (Unknow (Room)
+3.7.9.3 Obstacle      (Room)
+3.7.9.5 Infection     (Passage & Room)
+3.7.10.6 Secret       (Passage, Room, Travel)
+
+Rewards:
+3.7.10.1 Room         (Passage & Room)
+3.7.10.2 Shortcut     (Passage & Room)
+3.7.10.4 Item (Known) (Room)
+3.7.10.5 Resource     (Room)
+3.7.10.3 Level        (Passage & Room)
+3.7.10.6 Secret       (Special: Depends on what is rolled)
+
+Risk Generation:
+║ Risk                    Chance         Description                                        ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                        ║
+║ 3.7.8.3 Passage         45% + Level    Grants a chance to find a new Room                 ║
+║ 2.11.6.8 Item (Unknown) 30% + Level    Find as yet unidentified Food Items ()             ║
+║ 3.7.8.5 Darkness        25% + Level    Deplete lighting Items or suffer in Darkness       ║
+║ 3.7.9.3 Obstacle        20% + Level    Prevents further Exploration until removed ()      ║
+║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                    ║
+║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+
+Reward Generation:
+║ Reward                  Chance               Description                                  ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+║ 3.7.10.1 Room           100% - Level         Spend a Room to Explore, Hunt or Forage ()   ║
+║ 3.7.10.2 Shortcut       Level - 50           Takes you directly to the Job Target ()      ║
+║ 3.7.10.4 Item (Known)   25% + Level          Find a previously identified Food Item ()    ║
+║ 3.7.10.5 Resource       15% + Level          Materials to build a Shelter ()              ║
+║ 3.7.10.3 Level          10% + Level          Entrance to a new, deeper Nest Level ()      ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+
+Travel: Players take the Travel action when they want to move from their current Room or Passage along a connected path to another known Room or Passage.
+Costs:
+3.7.8.1 Hunger      5 (Travel)
+3.7.8.4 Effects     3 (Travel)
+3.7.8.6 Spoilage    1 (Travel)
+		Bridge		  (Travel)
+		Depletion     When Depletion is rolled during travel, one unsecured room along the path is depleted of all Items and Resources.
+
+Risk:
+4.2.1.1 Encounter     (Room) When an encounter is rolled during Travel, the encounter happens in one unsecured room along the journey.
+3.7.8.3 Passage     4 (Passage & Room)
+3.7.9.3 Obstacle      (Passage & Room)
+3.7.9.5 Infection     (Passage & Room)
+3.7.10.6 Secret       (Special: Depends on what is rolled)
+Cost Generation:
+║ Cost                Chance         Description                                            ║
+║ ───────────────────────────────────────────────────────────────────────────────           ║
+║ 3.7.8.1 Hunger      50% + Level    Increase Hunger, deplete Food Items, bestow Starving   ║
+║ 3.7.8.4 Effects     35% + Level    Apply, or modify the rating of deleterious Effects     ║
+║ 3.7.8.6 Spoilage    20% + Level    Food Items have a chance to become Spoiled             ║
+║         Depletion   10% + Level    Rooms have a chance to be depleted.                    ║
+
+Risk Generation:
+║ Risk                    Chance         Description                                        ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                        ║
+║ 3.7.8.3 Passage         45% + Level    Grants a chance to find a new Room                 ║
+║ 3.7.9.3 Obstacle        20% + Level    Prevents further Exploration until removed ()      ║
+║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                    ║
+║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
