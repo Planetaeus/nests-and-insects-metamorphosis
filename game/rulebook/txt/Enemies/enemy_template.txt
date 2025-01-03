@@ -1,17 +1,15 @@
-╔═►Nests & Insects◄═══════════════════════════════════════════════════════►Character Sheet◄═╗
+╔═► Nests & Insects ◄═══════════════════════════════════════════════════► Character Sheet ◄═╗
 ║ ................................. Termite Worker Swarm .................................. ║
-╠═►Attributes◄══════════════════════════════════════════════════════════════════════════════╣
-║  □ Speed.......:[___%] □ Strength....:[___%] □ Ken.........:[___%] □ Passions....:[___%]  ║
-╠═►Combat Stats◄══════════╦═►Specific Abilities◄═══╦═►Effects◄══════════════════════════════╣
-║ Initiative......:[_14%] ║ Carapace.......:[___%] ║ Agony.......:[___%] Immobilised:[___%] ║
-║ Threat Rate.....:[_17%] ║ Flying.........:[___%] ║ Bleeding....:[___%] Infected...:[___%] ║
-║ Survival Rate...:[_17%] ║ Swarming.......:[_90%] ║ Blind.......:[100%] Paralysed..:[___%] ║
-║ Wounds/Max.....:[__/02] ║ Venomous.......:[___%] ║ Charmed.....:[___%] Poisoned...:[___%] ║
-║ Swarm/Max(d20).:[__/__] ║ Web Weaving....:[___%] ║ Confused....:[___%] Stunned....:[___%] ║
-╠═[Advance ->]════════════╩════►Disposition Track◄═╩═════════════════════════════[<-Recoil]═╣
-║ ○ Retreating ○ -40% ○ -30% ○ -20% ○ -10% ○ Holding ○ +10% ○ +20% ○ +30% ○ +40% ○ Charging ║
+╠═► Combat ◄═══════╦═► Effects ◄══════════════════════════╦═► Attributes ◄═╦═► Special ◄════╣
+║ INIT......:[___] ║ Agony.......:[___] Immobilised:[___] ║ SPEED...:[___] ║ Carapace:[___] ║ 
+║ TR........:[___] ║ Bleeding....:[___] Infected...:[___] ║ STRENGTH:[___] ║ Flight..:[___] ║ 
+║ SR........:[___] ║ Blind...:[___/___] Paralysed..:[___] ║ KEN.....:[___] ║ Swarm...:[___] ║ 
+║ WOUNDS..:[__/__] ║ Charmed.....:[___] Poisoned...:[___] ║ PASSION.:[___] ║ Venom...:[___] ║ 
+║ SWARMS..:[__/__] ║ Confused....:[___] Stunned....:[___] ║ .............. ║ Web.....:[___] ║
+╠═[Advance ->]═════╩════════════════► Disposition Track ◄═╩════════════════╩═════[<-Recoil]═╣
+║     ○ Retreating ○ -40 ○ -30 ○ -20 ○ -10 ○ Holding ○ +10 ○ +20 ○ +30 ○ +40 ○ Charging     ║
 ╠═►Attacks◄═══════════════════════════════════╦═════════════════════════════════════════════╣
-║────────────────[Base Attack]─────────—──────║───────────────[Special Attack]──────────────║
+║─────────────────[ Attack 1 ]─────────—──────║─────────────────[ Attack 2 ]────────────────║
 ║ Name:...................................... ║ Name:...................................... ║
 ║ Keywords:.................................. ║ Keywords:.................................. ║
 ║ Max. Range:................................ ║ Max. Range:................................ ║
@@ -33,9 +31,9 @@
 ║│Swarming. If the roll succeeds, new Termites arrive. Roll on the table below and choose  │║
 ║│the result with the lowest "Chance to Summon" that is higher than the roll value.        │║
 ║├─[Termite Caste]────────────────────[Numbers Summoned]──────[Chance to Summon]───────────┤║
-║│  Juvenile Worker Termites           d10 Wounds Swarm        100%                        │║
-║│  Worker Termites                    1                        70%                        │║
-║│  Juvenile Minor Termite Soldiers    5                        45%                        │║
-║│  Minor Termite Soldiers             3                        20%                        │║
+║│  Juvenile Worker Termites           d10 Wounds Swarm        100                        │║
+║│  Worker Termites                    1                        70                        │║
+║│  Juvenile Minor Termite Soldiers    5                        45                        │║
+║│  Minor Termite Soldiers             3                        20                        │║
 ║└─────────────────────────────────────────────────────────────────────────────────────────┘║
 ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
