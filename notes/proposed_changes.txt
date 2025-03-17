@@ -300,3 +300,12 @@ Additional:
 
 Maps will be on a hexagonal grid. I don't think I need to explain my reasoning.
 
+When you earn XP, choose an Attribute, Common Ability, or Special Ability with rating greater than 0. Tick the box next to the chosen Feature. 
+Gain XP from:
+Rolling Critical (Success or Failure)
+Rolling Doubles
+After removing an Effect from yourself
+When the party defeats an Encounter
+When the party spends an XP Reward
+When you consume a Food of XP
+
