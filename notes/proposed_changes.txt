@@ -289,4 +289,12 @@ Risk Generation:
 ║ 3.7.9.3 Obstacle        20% + Level    Prevents further Exploration until removed ()      ║
 ║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                    ║
 ║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
-║ ───────────────────────────────────────────────────────────────────────────               ║
+║ ───────────────────────────────────────────────────────────────────────────               ║Name
+Keywords
+Max. Range: Close, Medium, Long [Area: Charge, Circle]
+Damage
+Effect
+Additional:
+
+Maps will be on a hexagonal grid. I don't think I need to explain my reasoning.
+
