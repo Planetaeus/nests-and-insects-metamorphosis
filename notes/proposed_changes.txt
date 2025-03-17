@@ -4,13 +4,12 @@ Character Creation:
 
 Attributes: Assign the following numbers to your character's Attributes:
 25, 30, 30, 35, 45, 45, 55, 60
+25, 35, 45, 55
 
 Conditions: Conditions are calculated in the following manner. Round up each time:
-Initiative:	Speed + Smarts + Passions / 3
-Threat Rate:	Skill + Strength + Passions / 3
-Survival Rate:	Skill + Stamina + Smarts / 3
-Max Wounds: Stamina / 10
-Max Swarm: Swarming / 10
+Drop combat conditions.
+Initiative is now a Speed + Ken roll.
+Max Wounds = (Passion + Strength) / 10 (Rounded Up)
 
 Specific Abilities: When it comes to Specific Abilities, you have two options.
 
@@ -19,7 +18,7 @@ OR
 2) Choose one Specific Ability to start with a rating of 50%
 
 Common Abilities: Assign the following numbers to your character's Common Abilities:
-25, 30, 30, 35, 40, 40, 45, 50, 55, 60
+20, 25, 30, 30, 35, 35, 40, 40, 45, 50
 
 END CHARACTER CREATION
 TODO: A formalisation of Attack options, also split Base Attack and Special Attack

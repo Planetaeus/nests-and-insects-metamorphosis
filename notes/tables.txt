@@ -90,13 +90,13 @@ Resist DoS
 ║ ──────────────────────────────────────────────                                            ║
 ║ Agony              Passions                                                               ║
 ║ Bleeding           Stamina                                                                ║
-║ Blind              Smarts                                                                 ║
+║ Blind              Ken                                                                    ║
 ║ Charmed            Passions                                                               ║
-║ Confused           Smarts                                                                 ║
+║ Confused           Ken                                                                    ║
 ║ Immobilised        Strength                                                               ║
-║ Infected           Stamina                                                                ║
+║ Infected           Strength                                                               ║
 ║ Paralysed          None (cannot take Actions!)                                            ║
-║ Poisoned           Stamina                                                                ║
+║ Poisoned           Strength                                                               ║
 ║ Stunned            None (cannot resist!)                                                  ║
 ║ ──────────────────────────────────────────────                                            ║
 
@@ -143,9 +143,9 @@ Generate a Food Item's Function:
 ║ Table 14: Beneficial Abilities                                                            ║
 ║ d20 Result    Harmful Ability                                                             ║
 ║ ───────────────────────────────────────────────                                           ║
-║ 11             Agony - gain Agony                                                         ║
-║ 12             Bleeding - gain Bleeding                                                   ║
-║ 13             Blindness - gain Blind                                                     ║
+║ 11            Agony - gain Agony                                                          ║
+║ 12            Bleeding - gain Bleeding                                                    ║
+║ 13            Blindness - gain Blind                                                      ║
 ║ 14            Charming - gain Charmed                                                     ║
 ║ 15            Confusion - gain Confused                                                   ║
 ║ 16            Immobilisation - gain Immobilised                                           ║
