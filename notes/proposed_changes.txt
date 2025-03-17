@@ -192,7 +192,30 @@ Reward:
 3.7.10.1 Room         (Passage & Room)
 3.7.10.2 Shortcut     (Passage & Room)
 3.7.10.3 Level        (Passage & Room)
-Cost Generation:
+
+Explore a Passage
+
+
+║ Name of the Minigame: ............... Passage Exploration                                 ║
+║ Participating Entities: ............. One or more Characters                              ║
+║ List of Minigame Intents: ........... Explore a Passage                                   ║
+║ List of Minigame Actions: ........... Explore                                             ║
+║ Effort Variables: ................... Exploration                                         ║
+║ Resistance Variables: ............... Room Level                                          ║
+║ Modifier Variables: ................. Eusociology, Perception                             ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║ Degree of Success            Outcome                                                      ║
+║ ───────────────────────────────────────────────────                                       ║
+║ Critical Success             Reward, Reward, Reward                                       ║
+║ Total Success                Risk, Reward, Reward                                         ║
+║ Partial Success              Cost, Risk, Reward                                           ║
+║ Partial Failure              Cost, Risk, Risk                                             ║
+║ Total Failure                Cost, Cost, Risk                                             ║
+║ Critical Failure             Cost, Cost, Cost                                             ║
+║ ───────────────────────────────────────────────────                                       ║
+
+Passage Cost Generation:
 ║ Cost                Chance         Description                                            ║
 ║ ───────────────────────────────────────────────────────────────────────────────           ║
 ║ 3.7.8.1 Hunger      50% + Level    Increase Hunger, deplete Food Items, bestow Starving   ║
@@ -200,7 +223,7 @@ Cost Generation:
 ║         Bridge      25% + Level    Deplete Resources or the Passage is a Dead End         ║
 ║ 3.7.8.6 Spoilage    15% + Level    Food Items have a chance to become Spoiled             ║
 
-Risk Generation:
+Passage Risk Generation:
 ║ Risk                    Chance         Description                                        ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 ║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                        ║
@@ -211,7 +234,7 @@ Risk Generation:
 ║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 
-Reward Generation:
+Passage Reward Generation:
 ║ Reward                  Chance               Description                                  ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
 ║ 3.7.10.1 Room           100% - Level         Spend a Room to Explore, Hunt or Forage ()   ║
@@ -237,7 +260,37 @@ Rewards:
 3.7.10.3 Level        (Passage & Room)
 3.7.10.6 Secret       (Special: Depends on what is rolled)
 
-Risk Generation:
+║ Name of the Minigame: ............... Room Exploration                                    ║
+║ Participating Entities: ............. One or more Characters                              ║
+║ List of Minigame Intents: ........... Explore the contents of a Room                      ║
+║ List of Minigame Actions: ........... Search the Room                                     ║
+║ Effort Variables: ................... Perception                                          ║
+║ Resistance Variables: ............... Room Level                                          ║
+║ Modifier Variables: ................. Eusociology, Sneaking                               ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success            Outcome                                                      ║
+║ ───────────────────────────────────────────────────                                       ║
+║ Critical Success             Reward, Reward, Reward                                       ║
+║ Total Success                Risk, Reward, Reward                                         ║
+║ Partial Success              Risk, Reward                                                 ║
+║ Partial Failure              Risk                                                         ║
+║ Total Failure                Risk, Risk                                                   ║
+║ Critical Failure             Risk, Risk, Risk                                             ║
+║ ───────────────────────────────────────────────────                                       ║
+
+
+Cost Generation:
+║ Cost                Chance         Description                                            ║
+║ ───────────────────────────────────────────────────────────────────────────────           ║
+║ 3.7.8.1 Hunger      50% + Level    Increase Hunger, deplete Food Items, bestow Starving   ║
+║ 3.7.8.5 Build       45% + Level    Deplete Resources or the Room is a dead end.           ║
+║ 3.7.8.4 Effects     30% + Level    Apply, or modify the rating of deleterious Effects     ║
+║ 3.7.8.3 Passage     25% + Level    Grants a chance to find a new Room                     ║
+║ 3.7.8.6 Spoilage    15% + Level    Food Items have a chance to become Spoiled             ║
+
+Room Risk Generation:
 ║ Risk                    Chance         Description                                        ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 ║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                        ║
@@ -249,7 +302,7 @@ Risk Generation:
 ║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 
-Reward Generation:
+Room Reward Generation:
 ║ Reward                  Chance               Description                                  ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
 ║ 3.7.10.1 Room           100% - Level         Spend a Room to Explore, Hunt or Forage ()   ║
@@ -273,15 +326,36 @@ Risk:
 3.7.9.3 Obstacle      (Passage & Room)
 3.7.9.5 Infection     (Passage & Room)
 3.7.10.6 Secret       (Special: Depends on what is rolled)
-Cost Generation:
+
+║ Name of the Minigame: ............... Travel                                              ║
+║ Participating Entities: ............. One or more Characters                              ║
+║ List of Minigame Intents: ........... Move from one Room or Passage to another            ║
+║ List of Minigame Actions: ........... Travel                                              ║
+║ Effort Variables: ................... Exploration                                         ║
+║ Resistance Variables: ............... (Highest Room Level + # Rooms + # Passages)         ║
+║ Modifier Variables: ................. Sneaking, Speed                                     ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success            Outcome                                                      ║
+║ ───────────────────────────────────────────────────                                       ║
+║ Critical Success                                                                          ║
+║ Total Success                Risk                                                         ║
+║ Partial Success              Cost, Risk                                                   ║
+║ Partial Failure              Cost, Risk, Risk                                             ║
+║ Total Failure                Cost, Cost, Risk                                             ║
+║ Critical Failure             Cost, Cost, Cost                                             ║
+║ ───────────────────────────────────────────────────                                       ║
+
+Travel Cost Generation:
 ║ Cost                Chance         Description                                            ║
 ║ ───────────────────────────────────────────────────────────────────────────────           ║
 ║ 3.7.8.1 Hunger      50% + Level    Increase Hunger, deplete Food Items, bestow Starving   ║
 ║ 3.7.8.4 Effects     35% + Level    Apply, or modify the rating of deleterious Effects     ║
 ║ 3.7.8.6 Spoilage    20% + Level    Food Items have a chance to become Spoiled             ║
-║         Depletion   10% + Level    Rooms have a chance to be depleted.                    ║
+║         Depletion   10% + Level    Rooms have a chance to be depleted of items.           ║
 
-Risk Generation:
+Travel Risk Generation:
 ║ Risk                    Chance         Description                                        ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 ║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                        ║
@@ -289,7 +363,8 @@ Risk Generation:
 ║ 3.7.9.3 Obstacle        20% + Level    Prevents further Exploration until removed ()      ║
 ║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                    ║
 ║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
-║ ───────────────────────────────────────────────────────────────────────────               ║Name
+║ ───────────────────────────────────────────────────────────────────────────               ║
+
 Attack Templating:
 Name
 Keywords
@@ -309,3 +384,9 @@ When the party defeats an Encounter
 When the party spends an XP Reward
 When you consume a Food of XP
 
+Passage vs Room..?
+Explore Passages
+Hunt/Forage in Rooms
+The lowest Event that is matched by the Boolean Roll is the one that happens? No.
+Passages are a CHANCE to generate a new room in the pool. This still doesn't make much of any sense as a cost, unless it forces you to roll a room. Change out Passage as a cost with forcing the players to risk an unspent room. Call it "Collapse" or "Renovation".
+Collapse: 
