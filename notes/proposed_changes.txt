@@ -290,6 +290,8 @@ Risk Generation:
 ║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                    ║
 ║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║Name
+Attack Templating:
+Name
 Keywords
 Max. Range: Close, Medium, Long [Area: Charge, Circle]
 Damage
