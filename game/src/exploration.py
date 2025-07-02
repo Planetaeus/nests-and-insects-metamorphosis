@@ -38,7 +38,7 @@ def get_quantification_die(num):
     return die
 
 def get_intput(prompt):
-    response = get_intput(prompt)
+    response = input(prompt)
     
     try:
         response = int(response)
@@ -444,6 +444,7 @@ def handle_secret():
     3 Known Item
     4 Resource
     5 Level
+    6 Secret
     '''
     print("Secret Handled")
     return
