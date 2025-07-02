@@ -290,6 +290,24 @@ def handle_hunger():
             if !depleted -> depleted
             elif depleted -> exhausted, delete it.
     '''
+    
+    hunger_rating = get_intput("Enter Hunger Rating: ")
+    hunger_die = get_quantification_die(hunger_rating)
+    food_prompt = input("Use a Food Item? [Y/N] ")
+    
+    if yes_no(food_prompt):
+        food_rating = get_intput("Enter Food Rating: ")
+        food_roll = get_intput("Enter Consumption Roll: ")
+        if food_roll <= food_rating:
+            print("Roll ", hunger_die, " to reduce Hunger.")
+        else:
+            print("Roll ", hunger_die, " to increase Hunger.")
+        
+        print("If food item is depleted, remove from inventory.")
+        print("If food item is not depleted, mark it depleted.")
+    else:
+        print("Roll ", hunger_die, " to increase Hunger.")
+    
     input("\nHunger Handled. Press Enter to continue...")
     return
 
