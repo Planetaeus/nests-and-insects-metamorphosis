@@ -55,13 +55,16 @@ class exploration_class:
         self.explo = explo
         self.perc = perc
         self.eusoc = eusoc
-    
-def is_change():
-    change = input("Change Skills? [Y/N]")
-    if (change == "Y") or (change == "y"):
+        
+def yes_no(answer):
+    if (answer == "Y") or (answer == "y"):
         return True
     else:
         return False
+    
+def is_change():
+    change = input("Change Skills? [Y/N]")
+    return(yes_no(change))
 
 def get_information():
     
@@ -496,12 +499,12 @@ exp_action = get_information()
 is_done = 0
 do_change = False
 
-while (is_done != "Y") and (is_done != "y"):
+while not yes_no(is_done):
     if do_change:
         exp_action = get_information()
     
     exploration_action(exp_action)
     
     is_done = input("Is done? [Y/N] ")
-    if (is_done != "Y") and (is_done != "y"):
+    if not yes_no(is_done):
         do_change = is_change()
