@@ -57,7 +57,7 @@ class exploration_class:
         self.eusoc = eusoc
     
 def is_change():
-    change = get_intput("Change Skills? [Y/N]")
+    change = input("Change Skills? [Y/N]")
     if (change == "Y") or (change == "y"):
         return True
     else:
@@ -489,6 +489,8 @@ def exploration_action(exp_act):
     
     events = generate_events(exp_act,exp_out)
     
+    handle_events(exp_act.lvl, events)
+    
 exp_action = get_information()
 is_done = 0
 do_change = False
@@ -499,6 +501,6 @@ while (is_done != "Y") and (is_done != "y"):
     
     exploration_action(exp_action)
     
-    is_done = get_intput("Is done? [Y/N] ")
+    is_done = input("Is done? [Y/N] ")
     if (is_done != "Y") and (is_done != "y"):
         do_change = is_change()
