@@ -406,7 +406,7 @@ Risk Generation:
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 ║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                                 ║
 ║ 2.11.6.8 Item (Unknown) 40% + Level    Find as yet unidentified Food Items ()                      ║
-Renovation				  30% + Level	 An explored room is changed, but maybe not gone.
+║ Renovation			  30% + Level	 An explored room is changed, but maybe not gone.
 ║ 3.7.9.3 Obstacle        15% + Level    Prevents further Exploration until removed ()               ║
 ║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                             ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
