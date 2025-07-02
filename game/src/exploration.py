@@ -289,7 +289,7 @@ def handle_hunger():
     '''
     return
 
-def handle_collapse(level):
+def handle_collapse():
     print("Choose a room to be discarded from the Room Pool.")
     print("Both explored and unexplored rooms can be discarded,")
     print("including the current room.\n")
@@ -450,7 +450,7 @@ def handle_secret():
     print("Secret Handled")
     return
     
-def handle_costs(costs_list):
+def handle_costs(level, costs_list):
     
     for cost in costs_list:
         if cost == "Hunger":
@@ -460,26 +460,26 @@ def handle_costs(costs_list):
         elif cost == "Effects":
             handle_effects()
         elif cost == "Darkness":
-            handle_darkness()
+            handle_darkness(level)
         elif cost == "Renovation":
             handle_renovation()
             
     return
 
-def handle_risks(risks_list):
+def handle_risks(level, risks_list):
     return
 
-def handle_rewards(rewards_list):
+def handle_rewards(level, rewards_list):
     return
     
-def handle_events(event_lists):
+def handle_events(level, event_lists):
     for event_list in event_lists:
         if event_list(0) == "Rewards":
-            handle_rewards(event_list)
         elif event_list(0) == "Risks":
-            handle_risks(event_list)
         elif event_list(0) == "Costs":
-            handle_costs(event_list)
+            handle_rewards(level, event_list)
+            handle_risks(level, event_list)
+            handle_costs(level, event_list)
         
 
 def exploration_action(exp_act):
