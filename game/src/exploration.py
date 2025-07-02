@@ -474,11 +474,11 @@ def handle_rewards(level, rewards_list):
     
 def handle_events(level, event_lists):
     for event_list in event_lists:
-        if event_list(0) == "Rewards":
-        elif event_list(0) == "Risks":
-        elif event_list(0) == "Costs":
+        if event_list[0] == "Rewards":
             handle_rewards(level, event_list)
+        elif event_list[0] == "Risks":
             handle_risks(level, event_list)
+        elif event_list[0] == "Costs":
             handle_costs(level, event_list)
         
 
