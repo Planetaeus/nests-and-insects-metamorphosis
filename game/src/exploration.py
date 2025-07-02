@@ -252,6 +252,7 @@ def generate_events(action, outcome):
         else:
             costs = generate_costs(action.lvl)
             events.append(costs)
+    return events
 
 def handle_hunger():
     print("Hunger Handled")
