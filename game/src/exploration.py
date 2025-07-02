@@ -258,7 +258,7 @@ def generate_events(action, outcome):
     return events
 
 def handle_hunger():
-    print("Hunger Handled")
+    print("\nHunger\n")
     #3.7.8.1 Hunger
     #2.11.6.7 for consuming food items
     '''
@@ -290,17 +290,20 @@ def handle_hunger():
             if !depleted -> depleted
             elif depleted -> exhausted, delete it.
     '''
+    input("\nHunger Handled. Press Enter to continue...")
     return
 
 def handle_collapse():
+    print("\nCollapse\n")
     print("Choose a room to be discarded from the Room Pool.")
     print("Both explored and unexplored rooms can be discarded,")
     print("including the current room.\n")
     print("Room 0 cannot be discarded this way.")
-    print("Collapse Handled")
+    input("\nCollapse Handled.  Press Enter to continue...")
     return
 
 def handle_effects():
+    print("\nEffects\n")
     # Effects 3.7.8.4
     #2.11.5.3 for Checking Effects
     '''
@@ -310,7 +313,7 @@ def handle_effects():
     '''
     #2.11.5.4 - 2.11.5.13 for triggering Effects
     
-    print("Effects Handled")
+    input("\nEffects Handled.  Press Enter to continue...")
     return
 
 def handle_darkness(level):
