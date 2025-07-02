@@ -93,11 +93,13 @@ Is Blindness bad? Does being Blind somehow give you protection from the darkness
 3.4.1.7 Choosing a Quantification Die
 ║ Quantified Feature Rating    Quantification Die                                           ║▓
 ║ ───────────────────────────────────────────────                                           ║▓
-║ 01-20%                       d40                                                          ║▓
-║ 21-40%                       d60                                                          ║▓
-║ 41-60%                       d80                                                          ║▓
-║ 61-80%                       d100                                                         ║▓
-║ 81-100%                      d120                                                         ║▓
+║ 01-10%                       d20                                                          ║▓
+║ 11-30%                       d40                                                          ║▓
+║ 31-50%                       d60                                                          ║▓
+║ 51-70%                       d60                                                          ║▓
+║ 71-90%                       d100                                                         ║▓
+║ 91-110%                      d120                                                         ║▓
+║ 111-200%                     d200                                                          ║▓
 ║ ───────────────────────────────────────────────                                           ║▓
 ║ Table 20: Quantification Dice. 
 
