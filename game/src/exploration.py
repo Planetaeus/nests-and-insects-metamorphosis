@@ -464,8 +464,8 @@ def handle_secret():
     Risk:
     1 Encounter
     2 Unknown Item
-    3 Renovation 
-    4 Obstacle
+    3 Obstacle 
+    4 Spoilage
     5 Infection
     '''
     '''
