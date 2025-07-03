@@ -436,6 +436,8 @@ def handle_resource(level):
     If has building -> roll to increase (quantified by level)
     If not has building -> roll to set (quantified by level)
     '''
+    resource_die = get_quantification_die(level)
+    print("Roll a ", resource_die, " to quantify resource")
     input("\nResource Handled.  Press Enter to continue...")
     return
 
