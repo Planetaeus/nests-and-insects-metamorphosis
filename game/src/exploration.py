@@ -353,7 +353,8 @@ def handle_renovation():
     print("Choose a random explored room. It is now unexplored.")
     print("The room loses any items or resources that were found there.")
     print("The room otherwise maintains its connections to other rooms.")
-    print("\nRenovation Handled\n")
+    
+    input("\nRenovation Handled.  Press Enter to continue...")
     return
 
 def handle_encounter(level):
@@ -362,7 +363,7 @@ def handle_encounter(level):
     # Termite: 
     # Bee: (not present)
     # Ant: (not present)
-    print("Encounter Handled")
+    input("\nEncounter Handled.  Press Enter to continue...")
     return
 
 def handle_item_unknown(level):
@@ -375,7 +376,7 @@ def handle_item_unknown(level):
     3. Quantify
     '''
     
-    print("Unknown Item Handled")
+    input("\nUnknown Item Handled.  Press Enter to continue...")
     return
 
 def handle_obstacle(level):
@@ -389,11 +390,11 @@ def handle_obstacle(level):
     Players cannot move forward with the current Exploration Action until the obstacle is removed.
     If the players leave the room before clearing the obstacle, they forfeit any remaining risks or rewards.
     '''
-    print("Obstacle Handled")
+    input("\nObstacle Handled.  Press Enter to continue...")
     return
 
 def handle_spoilage():
-    print("Spoilage Handled")
+    input("\nSpoilage Handled.  Press Enter to continue...")
     return
 
 def handle_infection(level):
@@ -411,35 +412,36 @@ def handle_infection(level):
                 Roll to Increase based on Infected
     else -> Nothing. You did it!
     '''
-    print("Infection Handled")
+    input("\nInfection Handled.  Press Enter to continue...")
     return
 
 def handle_room(level):
     print("New Room on Level ", level)
-    print("Room Handled")
+    input("\nRoom Handled.  Press Enter to continue...")
     return
 
 def handle_shortcut(level):
     print("You have found the Job Target!")
+    input("\nShortcut Handled.  Press Enter to continue...")
     return
     
 def handle_item_known():
     # Randomly roll among known Items.
-    print("Known Item Handled")
+    input("\nKnown Item Handled.  Press Enter to continue...")
     return
 
-def handle_resource():
+def handle_resource(level):
     '''
     If has building -> roll to increase (quantified by level)
     If not has building -> roll to set (quantified by level)
     '''
-    print("Resource Handled")
+    input("\nResource Handled.  Press Enter to continue...")
     return
 
 def handle_level(level):
     # Roll to Increase Level
     print("New Room on Level ")
-    print("Level Handled")
+    input("\nLevel Handled.  Press Enter to continue...")
     return
 
 def handle_secret():
@@ -471,7 +473,7 @@ def handle_secret():
     5 Level
     6 Secret
     '''
-    print("Secret Handled")
+    input("\nSecret Handled.  Press Enter to continue...")
     return
     
 def handle_costs(level, costs_list):
