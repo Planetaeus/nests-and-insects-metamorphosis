@@ -428,6 +428,7 @@ def handle_shortcut():
     
 def handle_item_known():
     # Randomly roll among known Items.
+    print("Randomly roll among known Items.")
     input("\nKnown Item Handled.  Press Enter to continue...")
     return
 
