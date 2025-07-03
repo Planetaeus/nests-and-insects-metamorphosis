@@ -420,8 +420,9 @@ def handle_room(level):
     input("\nRoom Handled.  Press Enter to continue...")
     return
 
-def handle_shortcut(level):
-    print("You have found the Job Target!")
+def handle_shortcut():
+    print("To arms, you ugly bugs!")
+    print("You found the Job Target!")
     input("\nShortcut Handled.  Press Enter to continue...")
     return
     
