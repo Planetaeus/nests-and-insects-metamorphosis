@@ -477,6 +477,9 @@ def handle_secret():
     5 Level
     6 Secret
     '''
+    event_type = get_intput("Enter the event type:\n1. Cost\n2. Risk\n3. Reward\n")
+    event_roll = get_intput("Enter random # between 1-5: ")
+    
     input("\nSecret Handled.  Press Enter to continue...")
     return
     
