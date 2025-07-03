@@ -496,6 +496,21 @@ def handle_risks(level, risks_list):
     return
 
 def handle_rewards(level, rewards_list):
+     
+    for reward in rewards_list:
+        if reward == "Room":
+            handle_room(level)
+        elif reward == "Shortcut":
+            handle_shortcut()
+        elif reward == "Known Item":
+            handle_item_known()
+        elif reward == "Resource":
+            handle_resource(level)
+        elif reward == "Level":
+            handle_level()
+        elif reward == "Secret":
+            handle_secret()
+    
     return
     
 def handle_events(level, event_lists):
