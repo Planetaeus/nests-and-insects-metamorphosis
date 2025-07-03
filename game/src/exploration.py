@@ -497,6 +497,18 @@ def handle_costs(level, costs_list):
     return
 
 def handle_risks(level, risks_list):
+    for risk in risks_list:
+        if risk == "Encounter":
+            handle_encounter(level)
+        elif risk == "Unknown Item":
+            handle_item_unknown()
+        elif risk == "Obstacle":
+            handle_obstacle(level)
+        elif risk == "Spoilage":
+            handle_spoilage()
+        elif risk == "Infection":
+            handle_infection(level)
+    return
     return
 
 def handle_rewards(level, rewards_list):
