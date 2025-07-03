@@ -366,7 +366,7 @@ def handle_encounter(level):
     input("\nEncounter Handled.  Press Enter to continue...")
     return
 
-def handle_item_unknown(level):
+def handle_item_unknown():
     # Unknown Item 3.7.9.2
     # 2.11.6.8 Generating Food Items
     # 2.11.6.9 Generate Food Item Form
