@@ -473,3 +473,7 @@ Flying Movement = Fly / 10.
 Swimming Movement = Swim / 10. If a bug has no Swimming rating, their Swimming movement is 0.
 
 Success vs Failures: A successful attack does what it says on the tin. A failed attack will apply inverse effects in a way that makes sense. (EG attacker stunned/bleeding, bonus on next attack against you, heal ability poisons/bleeds/infects instead of heals)
+
+Encounter Generation:
+- Roll a die for number of enemies in the encounter
+
