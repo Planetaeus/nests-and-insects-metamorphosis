@@ -477,3 +477,4 @@ Success vs Failures: A successful attack does what it says on the tin. A failed 
 Encounter Generation:
 - Roll a die for number of enemies in the encounter
 
+XP: You gain an XP in a trait when you roll it as effort and you match it, or another creature fails to overcome it as the resistance for the roll. If you gain XP in a trait that already has XP marked, increase that trait by 1. If you would gain XP in the combat statistics, instead put that XP in one of its component attributes.
