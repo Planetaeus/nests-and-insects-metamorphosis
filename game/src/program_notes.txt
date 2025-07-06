@@ -43,3 +43,31 @@ Over Level -> +0
    -2: Comp Failure
  <=-3: Crit Failure	
 
+Cost Generation:
+║ Cost                Chance         Description
+║ ───────────────────────────────────────────────────────────────────────────────
+║ Hunger      50% + Level    Increase Hunger, deplete Food Items, bestow Starving
+║ Collapse    45% + Level    Spend Building Resources for a safe path.
+║ Effects     30% + Level    Apply, or modify the rating of deleterious Effects
+║ Darkness    25% + Level    Deplete lighting Items or suffer in Darkness
+║ Renovation  10% + Level	 Players must spend a room from the room pool.
+
+Risk Generation:
+║ Risk                    Chance         Description
+║ ───────────────────────────────────────────────────────────────────────────
+║ Encounter       50% + Level    Meet the nest's denizens
+║ Item (Unknown)  40% + Level    Find as yet unidentified Food Items
+║ Obstacle        30% + Level    Prevents further Exploration until removed
+║ Spoilage    	  15% + Level    Food Items have a chance to become Spoiled
+║ Infection       10% + Level    Players risk Infection.
+║ ───────────────────────────────────────────────────────────────────────────
+
+Reward Generation:
+║ Reward                  Chance               Description
+║ ───────────────────────────────────────────────────────────────────────────
+║ Room           100% - Level         Spend a Room to Explore, Hunt or Forage
+║ Shortcut       Level - 50           Takes you directly to the Job Target
+║ Item (Known)   25% + Level          Find a previously identified Food Item
+║ Resource       15% + Level          Materials to build a Shelter
+║ Level          10% + Level          Entrance to a new, deeper Nest Level
+║ Secret         Perception - Level   Generates a random Cost, Risk or Reward.
