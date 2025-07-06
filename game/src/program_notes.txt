@@ -12,15 +12,14 @@ Negative Modifier(s)
 d100 Roll
 
 ║ Outcomes of the six Degrees of Success and Failure:                                       ║
-║                                                                                           ║
-║ Degree of Success            Outcome                                                      ║
-║ ───────────────────────────────────────────────────                                       ║
-║ Critical Success             Reward, Reward, Reward                                       ║
-║ Complete Success             Risk, Reward, Reward                                         ║
-║ Partial Success              Cost, Risk, Reward                                           ║
-║ Partial Failure              Cost, Risk, Risk                                             ║
-║ Complete Failure             Cost, Cost, Risk                                             ║
-║ Critical Failure             Cost, Cost, Cost                                             ║
+║ Degree of Success            Outcome
+║ ───────────────────────────────────────────────────
+║ Critical Success             Reward, Reward, Reward
+║ Complete Success             Risk, Reward, Reward
+║ Partial Success              Cost, Risk, Reward
+║ Partial Failure              Cost, Risk, Risk
+║ Complete Failure             Cost, Cost, Risk
+║ Critical Failure             Cost, Cost, Cost
 ║ ───────────────────────────────────────────────────     
 
 Start at Partial Success
