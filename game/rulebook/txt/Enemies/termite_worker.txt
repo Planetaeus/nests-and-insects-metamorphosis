@@ -1,20 +1,20 @@
 ╔═►Nests & Insects◄═══════════════════════════════════════════════════════►Character Sheet◄═╗
 ║ ................................... Termite Workers ..................................... ║
 ╠═► Attributes ◄═╦═► Combat ◄════════╦═► Special ◄══════╦═► Effects ◄═══════════════════════╣
-║ □ SPE...:[_20] ║ □ INIT.....:[_10] ║ □ Carapace:[___] ║ Agony....:[___] Immobilised:[___] ║
-║ □ STR...:[_20] ║ □ TR.......:[_15] ║ □ Flight..:[___] ║ Bleeding.:[___] Infected...:[___] ║
-║ □ KEN...:[_10] ║ □ SS.......:[_15] ║ □ Swarm...:[_50] ║ Blind:[___/100] Paralysed..:[___] ║
-║ □ PAS...:[_10] ║ □ WOUNDS.:[__/02] ║ □ Venom...:[___] ║ Charmed..:[___] Poisoned...:[___] ║
-║ .............. ║ □ SWARMS.:[__/05] ║ □ Web.....:[___] ║ Confused.:[___] Stunned....:[___] ║
+║ □ SPE...:[_30] ║ □ INIT.....:[_20] ║ □ Carapace:[___] ║ Agony....:[___] Immobilised:[___] ║
+║ □ STR...:[_20] ║ □ TR.......:[_25] ║ □ Flight..:[___] ║ Bleeding.:[___] Infected...:[___] ║
+║ □ KEN...:[_20] ║ □ SR.......:[_25] ║ □ Swarm...:[_50] ║ Blind:[___/100] Paralysed..:[_25] ║
+║ □ PAS...:[_20] ║ □ WOUNDS.:[__/02] ║ □ Venom...:[___] ║ Charmed..:[___] Poisoned...:[___] ║
+║ .............. ║ □ SWARMS.:[__/05] ║ □ Web.....:[___] ║ Confused.:[___] Stunned....:[_53] ║
 ╠═[Advance ->]═══╩═════════════►Disposition Track◄══════╩════════════════════════[<-Recoil]═╣
 ║ ○ Retreating ○ -80% ○ -60% ○ -40% ○ -20% ○ Holding ○ +20% ○ +40% ○ +60% ○ +80% ○ Charging ║
 ╠═►Attacks◄═════════════════════════════════════════════════════════════════════════════════╣
 ║───────────────────────────────────────[Base Attack]────────────────────────────────—──────║
 ║ Name:.......................Mandible Attack │ Keywords:..........................Crushing ║
 ║ Max. Range:...........................Close │ ........................................... ║
-║ Critical Hit:...............Target Takes 2W │ Partial Miss:..............Attacker Recoils ║
+║ Critical Hit:...............Target Takes 2W │ Partial Miss:...............Nothing Happens ║
 ║ Total Hit:..................Target Takes 1W │ Total Miss:................Attacker Recoils ║
-║ Partial Hit:................Target Takes 1W │ Critical Miss:...........Attacker Recouls 2 ║
+║ Partial Hit:................Target Takes 0W │ Critical Miss:...........Attacker Recoils 2 ║
 ╠═►Special Rules◄═════════════════════════════╩═════════════════════════════════════════════╣
 ║┌───[Alarm Pheromones]─────────────────────—──────────────—──────────────—──────────────—─┐║
 ║│ At the start of the Workers' Turn the GQ makes a Boolean Roll against the Workers'      │║
@@ -22,7 +22,7 @@
 ║│ the result with the lowest "Chance to Summon" that is higher than the roll value.       │║
 ║│ If the caste is already present, it regains 2 Swarm instead.                            │║
 ║├─[Termite Caste]────────────────────[Numbers Summoned]──────[Chance to Summon]───────────┤║
-║│  Termite Workers                    1 with 1 Swarm           100%                       │║
-║│  Minor Termite Soldiers             1 with 1 Swarm            50%                       │║
+║│  Termite Workers                    1 with 0 Swarm           100%                       │║
+║│  Minor Termite Soldiers             1 with 0 Swarm            50%                       │║
 ║└─────────────────────────────────────────────────────────────────────────────────────────┘║
 ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
