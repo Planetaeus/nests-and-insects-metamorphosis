@@ -20,10 +20,9 @@
 ║│ At the start of the Workers' Turn the GQ makes a Boolean Roll against the Workers'      │║
 ║│ Swarming. If the roll succeeds, new Termites arrive. Roll on the table below and choose │║
 ║│ the result with the lowest "Chance to Summon" that is higher than the roll value.       │║
+║│ If the caste is already present, it regains 2 Swarm instead.                            │║
 ║├─[Termite Caste]────────────────────[Numbers Summoned]──────[Chance to Summon]───────────┤║
-║│  Juvenile Termite Workers           1 with d10 Max Swarm    100%                        │║
-║│  Termite Workers                    1 with d20 Max Swarm     70%                        │║
-║│  Juvenile Minor Termite Soldiers    2                        45%                        │║
-║│  Minor Termite Soldiers             1                        20%                        │║
+║│  Termite Workers                    1 with 1 Swarm           100%                       │║
+║│  Minor Termite Soldiers             1 with 1 Swarm            50%                       │║
 ║└─────────────────────────────────────────────────────────────────────────────────────────┘║
 ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
