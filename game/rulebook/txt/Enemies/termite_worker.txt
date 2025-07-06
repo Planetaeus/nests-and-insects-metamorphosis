@@ -5,7 +5,7 @@
 ╠═►Combat Stats◄══════════╦═►Specific Abilities◄═══╦═►Effects◄══════════════════════════════╣
 ║ Initiative......:[_10%] ║ Carapace.......:[___%] ║ Agony.......:[___%] Immobilised:[___%] ║
 ║ Threat Rate.....:[_15%] ║ Flying.........:[___%] ║ Bleeding....:[___%] Infected...:[___%] ║
-║ Survival Rate...:[_15%] ║ Swarming.......:[_90%] ║ Blind.......:[100%] Paralysed..:[___%] ║
+║ Survival Rate...:[_15%] ║ Swarming.......:[_50%] ║ Blind.......:[100%] Paralysed..:[___%] ║
 ║ Wounds/Max.....:[__/02] ║ Venomous.......:[___%] ║ Charmed.....:[___%] Poisoned...:[___%] ║
 ║ Swarm/Max(d20).:[__/__] ║ Web Weaving....:[___%] ║ Confused....:[___%] Stunned....:[___%] ║
 ╠═[Advance ->]════════════╩════►Disposition Track◄═╩═════════════════════════════[<-Recoil]═╣
