@@ -7,7 +7,7 @@
 ║ Threat Rate.....:[_15%] ║ Flying.........:[___%] ║ Bleeding....:[___%] Infected...:[___%] ║
 ║ Survival Rate...:[_15%] ║ Swarming.......:[_50%] ║ Blind.......:[100%] Paralysed..:[___%] ║
 ║ Wounds/Max.....:[__/02] ║ Venomous.......:[___%] ║ Charmed.....:[___%] Poisoned...:[___%] ║
-║ Swarm/Max(d20).:[__/__] ║ Web Weaving....:[___%] ║ Confused....:[___%] Stunned....:[___%] ║
+║ Swarm/Max......:[__/05] ║ Web Weaving....:[___%] ║ Confused....:[___%] Stunned....:[___%] ║
 ╠═[Advance ->]════════════╩════►Disposition Track◄═╩═════════════════════════════[<-Recoil]═╣
 ║ ○ Retreating ○ -80% ○ -60% ○ -40% ○ -20% ○ Holding ○ +20% ○ +40% ○ +60% ○ +80% ○ Charging ║
 ╠═►Special Rules◄═══════════════════════════════════════════════════════════════════════════╣
