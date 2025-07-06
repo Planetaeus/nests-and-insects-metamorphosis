@@ -89,9 +89,9 @@ Resist DoS
 ║ Effect             Resist with                                                            ║
 ║ ──────────────────────────────────────────────                                            ║
 ║ Agony              Passions                                                               ║
-║ Bleeding           Stamina                                                                ║
+║ Bleeding           STR                                                                ║
 ║ Blind              Ken                                                                    ║
-║ Charmed            Passions                                                               ║
+║ Charmed            STR                                                               ║
 ║ Confused           Ken                                                                    ║
 ║ Immobilised        Strength                                                               ║
 ║ Infected           Strength                                                               ║
