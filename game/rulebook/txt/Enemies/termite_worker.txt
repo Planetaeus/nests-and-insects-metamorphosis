@@ -8,7 +8,14 @@
 ║ .............. ║ □ SWARMS.:[__/05] ║ □ Web.....:[___] ║ Confused.:[___] Stunned....:[___] ║
 ╠═[Advance ->]═══╩═════════════►Disposition Track◄══════╩════════════════════════[<-Recoil]═╣
 ║ ○ Retreating ○ -80% ○ -60% ○ -40% ○ -20% ○ Holding ○ +20% ○ +40% ○ +60% ○ +80% ○ Charging ║
-╠═►Special Rules◄═══════════════════════════════════════════════════════════════════════════╣
+╠═►Attacks◄═════════════════════════════════════════════════════════════════════════════════╣
+║───────────────────────────────────────[Base Attack]────────────────────────────────—──────║
+║ Name:.......................Mandible Attack │ Keywords:..........................Crushing ║
+║ Max. Range:...........................Close │ ........................................... ║
+║ Critical Hit:...............Target Takes 2W │ Partial Miss:..............Attacker Recoils ║
+║ Total Hit:..................Target Takes 1W │ Total Miss:................Attacker Recoils ║
+║ Partial Hit:................Target Takes 1W │ Critical Miss:...........Attacker Recouls 2 ║
+╠═►Special Rules◄═════════════════════════════╩═════════════════════════════════════════════╣
 ║┌───[Alarm Pheromones]─────────────────────—──────────────—──────────────—──────────────—─┐║
 ║│ At the start of the Workers' Turn the GQ makes a Boolean Roll against the Workers'      │║
 ║│ Swarming. If the roll succeeds, new Termites arrive. Roll on the table below and choose │║
