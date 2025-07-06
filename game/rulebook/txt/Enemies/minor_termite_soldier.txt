@@ -27,11 +27,11 @@
 ║│ At the start of the Soldiers' Turn the GQ makes a Boolean Roll against the Soldiers'    │║
 ║│ Swarming. If the roll succeeds, new Termites arrive. Roll on the table below and choose │║
 ║│ the result with the lowest "Chance to Summon" that is higher than the roll value.       │║
+║│ If the caste is already present and missing Swarm, it regains 2 Swarm instead.          │║
 ║├─[Termite Caste]────────────────────[Numbers Summoned]──────[Chance to Summon]───────────┤║
-║│  Juvenile Minor Termite Soldiers    1 with 3 Max Swarm      100%                        │║
-║│  Minor Termite Soldiers             1 with 6 Max Swarm       70%                        │║
-║│  Juvenile Major Termite Soldiers    5                        45%                        │║
-║│  Juvenile Nasute Soldier            1                        20%                        │║
+║│  Termite Workers                    1 with 1 Swarm           100%                       │║
+║│  Minor Termite Soldiers             1 with 1 Swarm           60%                        │║
+║│  Major Termite Soldiers             1 with 1 Swarm           20%                        │║
 ║└─────────────────────────────────────────────────────────────────────────────────────────┘║
 ║┌───[Nest Guardians]───────────────────────—──────────────—──────────────—──────────────—─┐║
 ║│Autothyte Soldiers do not engage enemies directly, rather they stand in place in front of│║
