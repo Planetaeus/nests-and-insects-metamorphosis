@@ -20,11 +20,8 @@
 ║ Partial Hit:................Target Takes 2W ║ Partial Hit:........Targets Immobilised d20 ║
 ║ .....................Target Immobilised d20 ║ ..........................Attacker Takes 1W ║
 ║ Partial Miss:..............Attacker Recoils ║ Partial Miss:.............Attacker Takes 1W ║
-║ ........................................... ║ ........................................... ║
 ║ Total Miss:................Attacker Recoils ║ Total Miss:...............Attacker Takes 2W ║
-║ ........................................... ║ ........................................... ║
 ║ Critical Miss:.....Attacker Immobilised d60 ║ Critical Miss:............Attacker Takes 4W ║
-║ ........................................... ║ ........................................... ║
 ╠═►Special Rules◄═════════════════════════════╩═════════════════════════════════════════════╣
 ║┌───[Alarm Pheromones]─────────────────────—──────────────—──────────────—──────────────—─┐║
 ║│ At the start of the Soldiers' Turn the GQ makes a Boolean Roll against the Soldiers'    │║
