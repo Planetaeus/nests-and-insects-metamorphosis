@@ -160,10 +160,10 @@ def handle_exp_roll(exp):
     return result
 
 hunger_chc = 50
-collapse_chc = 45
-effects_chc = 30
-darkness_chc = 25
-renovation_chc = 10
+effects_chc = 45
+darkness_chc = 30
+renovation_chc = 25
+collapse_chc = 10
 
 def generate_costs(level):
     roll = get_intput("Enter Roll for Costs:")
