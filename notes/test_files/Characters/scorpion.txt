@@ -7,7 +7,7 @@
 ║  Attributes ║ INIT.(KEN+PAS)/2:[_35] ║ □ Carapace:[_20] ║ Agony....:[___] Immobile.:[___] ║
 ║ □ SPE:[_30] ║ TR...(SPE+PAS)/2:[_40] ║ □ Venom...:[_20] ║ Bleeding.:[___] Infected.:[___] ║
 ║ □ STR:[_40] ║ SR...(SPE+KEN)/2:[_25] ║ □ ........:[___] ║ Blind:[___/___] Paralysed:[___] ║
-║ □ KEN:[_20] ║ WOUNDS(STR/10):[__/03] ║ □ ........:[___] ║ Charmed..:[___] Poisoned.:[___] ║
+║ □ KEN:[_20] ║ WOUNDS(STR/10):[__/04] ║ □ ........:[___] ║ Charmed..:[___] Poisoned.:[___] ║
 ║ □ PAS:[_50] ║ SWARMS(SWA/10):[__/__] ║ □ ........:[___] ║ Confused.:[___] Stunned..:[___] ║
 ╠═► Luck ◄════╩════════════════════════╩══════════════════╩════╦═► Food ◄═══════════════════╣
 ║ ○[00] X[11] ○[22] ○[33] ○[44] ○[55] ○[66] ○[77] ○[88] ○[99]  ║ Hunger..:[___] ○ Starving  ║
