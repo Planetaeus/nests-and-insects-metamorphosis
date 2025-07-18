@@ -28,9 +28,9 @@
 ╠═►Special Rules◄═════════════════════════════╩═════════════════════════════════════════════╣
 ║┌───[Alarm Pheromones]─────────────────────—──────────────—──────────────—──────────────—─┐║
 ║│ At the start of the Soldiers' Turn the GQ makes a Boolean Roll against the Soldiers'    │║
-║│ Swarming. If the roll succeeds, new Termites arrive. Roll on the table below and choose │║
-║│ the result with the lowest "Chance to Summon" that is higher than the roll value.       │║
-║│ If the caste is already present and missing Swarm, it regains 1 Swarm instead.          │║
+║│ Swarming. If the roll succeeds, new Termites arrive with 0 Swarm. Roll on the table     │║
+║│ below and choose the result with the lowest "Chance to Summon" that is higher than the  │║
+║│ roll value. If the caste is already present, it regains 2 Swarm instead.                │║
 ║├─[Termite Caste]────────────────────[Numbers Summoned]──────[Chance to Summon]───────────┤║
 ║│  Juvenile Major Termite Soldiers    1 Worker | 1 Swarm      100%                        │║
 ║│  Major Termite Soldiers            1 Soldier | 1 Swarm       70%                        │║

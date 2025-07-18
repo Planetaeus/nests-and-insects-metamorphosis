@@ -18,11 +18,11 @@
 ╠═►Special Rules◄═════════════════════════════╩═════════════════════════════════════════════╣
 ║┌───[Alarm Pheromones]─────────────────────—──────────────—──────────────—──────────────—─┐║
 ║│ At the start of the Workers' Turn the GQ makes a Boolean Roll against the Workers'      │║
-║│ Swarming. If the roll succeeds, new Termites arrive. Roll on the table below and choose │║
-║│ the result with the lowest "Chance to Summon" that is higher than the roll value.       │║
-║│ If the caste is already present, it regains 2 Swarm instead.                            │║
+║│ Swarming. If the roll succeeds, new Termites arrive with 0 Swarm. Roll on the table     │║
+║│ below and choose the result with the lowest "Chance to Summon" that is higher than the  │║
+║│ roll value. If the caste is already present, it regains 2 Swarm instead.                │║
 ║├─[Termite Caste]────────────────────[Numbers Summoned]──────[Chance to Summon]───────────┤║
-║│  Termite Workers                    1 with 0 Swarm           100%                       │║
-║│  Minor Termite Soldiers             1 with 0 Swarm            50%                       │║
+║│  Termite Workers                    1 Worker | 2 Swarm       100%                       │║
+║│  Minor Termite Soldiers            1 Soldier | 2 Swarm        50%                       │║
 ║└─────────────────────────────────────────────────────────────────────────────────────────┘║
 ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
