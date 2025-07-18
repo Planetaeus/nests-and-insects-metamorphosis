@@ -95,9 +95,9 @@ Resist DoS
 ║ Confused           Ken                                                                    ║
 ║ Immobilised        Strength                                                               ║
 ║ Infected           Strength                                                               ║
-║ Paralysed          None (cannot take Actions!)                                            ║
+║ Paralysed          SPEED                                            ║
 ║ Poisoned           Strength                                                               ║
-║ Stunned            None (cannot resist!)                                                  ║
+║ Stunned            PASSION                                                  ║
 ║ ──────────────────────────────────────────────                                            ║
 
 Food Generation:
