@@ -35,11 +35,11 @@
 ║ .........................Target Stunned d60 ║ ........................Target in Agony d60 ║
 ║ Partial Hit:................Target Takes 2W ║ Partial Hit:................Target Takes 2W ║
 ║ .............................Target Recoils ║ .....................Target Immobilised d40 ║
-║ Partial Miss:..............Attacker Recoils ║ Partial Miss.:.............Attacker Recoils ║
+║ Partial Miss:...............Target Takes 1W ║ Partial Miss:...............Targets take 1W ║
 ║ ........................................... ║ ........................................... ║
-║ Total Miss:................Attacker Recoils ║ Total Miss:..........Attacker Recoils Twice ║
+║ Total Miss:................Attacker Recoils ║ Total Miss:................Attacker Recoils ║
 ║ ........................................... ║ ........................................... ║
-║ Critical Miss:.......Attacker Recoils Twice ║ Critical Miss:.......Attacker Recoils Twice ║
+║ Critical Miss:.......Attacker Recoils Twice ║ Critical Miss:.............Attacker Recoils ║
 ║ ........................................... ║ .......................Attacker Stunned d60 ║
 ╠═► Reminders ◄═══════════════════════════════╩═════════════════════════════════════════════╣
 ║ When you gain XP, choose a feature and check □. Spend during Rest & Healing to increase.. ║

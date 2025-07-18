@@ -35,12 +35,12 @@
 ║ ........................Target Bleeding d60 ║ .......................Targets Bleeding d60 ║
 ║ Partial Hit:................Target Takes 2W ║ Partial Hit:................Targets take 2W ║
 ║ ........................Target Bleeding d40 ║ ....................Targets Immobilised d40 ║
-║ Partial Miss:..............Attacker Recoils ║ Partial Miss:..............Attacker Recoils ║
+║ Partial Miss:...............Target Takes 1W ║ Partial Miss:...............Targets take 1W ║
 ║ ........................................... ║ ........................................... ║
-║ Total Miss:............Attacker Stunned d60 ║ Total Miss:........Attacker Immobilised d60 ║
+║ Total Miss:................Attacker Recoils ║ Total Miss:................Attacker Recoils ║
 ║ ........................................... ║ ........................................... ║
 ║ Critical Miss:.............Attacker Recoils ║ Critical Miss:.............Attacker Recoils ║
-║ .......................Attacker Stunned d60 ║ .....Attacker Immobilised d60, Bleeding d60 ║
+║ .......................Attacker Stunned d60 ║ ...................Attacker Immobilised d60 ║
 ╠═► Reminders ◄═══════════════════════════════╩═════════════════════════════════════════════╣
 ║ When you gain XP, choose a feature and check □. Spend during Rest & Healing to increase.. ║
 ║ When you roll doubles, set Luck bar to the result........................................ ║

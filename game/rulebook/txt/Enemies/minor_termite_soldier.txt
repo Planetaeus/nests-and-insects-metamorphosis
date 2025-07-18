@@ -19,7 +19,7 @@
 ║ .....................Target Immobilised d40 ║ ...........Targets Take 1W, Immobilised d40 ║
 ║ Partial Hit:................Target Takes 1W ║ Partial Hit:........Targets Immobilised d20 ║
 ║ .....................Target Immobilised d20 ║ ..........................Attacker Takes 1W ║
-║ Partial Miss:..............Attacker Recoils ║ Partial Miss:.............Attacker Takes 1W ║
+║ Partial Miss:...............Target Takes 1W ║ Partial Miss:...............Target Takes 1W ║
 ║ Total Miss:................Attacker Recoils ║ Total Miss:...............Attacker Takes 2W ║
 ║ Critical Miss:.....Attacker Immobilised d60 ║ Critical Miss:............Attacker Takes 4W ║
 ╠═►Special Rules◄═════════════════════════════╩═════════════════════════════════════════════╣

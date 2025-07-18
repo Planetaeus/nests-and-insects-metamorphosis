@@ -35,11 +35,11 @@
 ║ ..............Enemy Takes 2W, Paralysed d60 ║ ........................................... ║
 ║ Partial Hit::.................Ally Heals 1W ║ Partial Hit:........Targets Immobilised d20 ║
 ║ ............Enemy Takes 1W, Immobilised d60 ║ ........................................... ║
-║ Partial Miss:..............Attacker Recoils ║ Partial Miss:..............Attacker Recoils ║
+║ Partial Miss:...............Target Takes 1W ║ Partial Miss:......Attacker Immobilised d20 ║
 ║ ........................................... ║ ........................................... ║
-║ Total Miss:..........Attacker Recoils Twice ║ Total Miss:................Attacker Recoils ║
-║ ........................................... ║ ...................Attacker Immobilised d40 ║
-║ Critical Miss:.............Attacker Recoils ║ Critical Miss:.......Attacker Recoils Twice ║
+║ Total Miss:................Attacker Recoils ║ Total Miss:........Attacker Immobilised d40 ║
+║ ........................................... ║ ........................................... ║
+║ Critical Miss:.............Attacker Recoils ║ Critical Miss:.............Attacker Recoils ║
 ║ .......................Attacker Stunned d60 ║ ...................Attacker Immobilised d60 ║
 ╠═► Reminders ◄═══════════════════════════════╩═════════════════════════════════════════════╣
 ║ When you gain XP, choose a feature and check □. Spend during Rest & Healing to increase.. ║
