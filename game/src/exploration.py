@@ -444,7 +444,8 @@ def handle_resource(level):
 
 def handle_level(level):
     # Roll to Increase Level
-    print("New Room on Level ")
+    level_die = get_quantification_die(level)
+    print("Roll a ", level_die, ". Add a room on that level.")
     input("\nLevel Handled.  Press Enter to continue...")
     return
 
@@ -475,7 +476,6 @@ def handle_secret():
     3 Known Item
     4 Resource
     5 Level
-    6 Secret
     '''
     event_type = get_intput("Enter the event type:\n1. Cost\n2. Risk\n3. Reward\n")
     event_roll = get_intput("Enter random # between 1-5: ")
