@@ -3,7 +3,7 @@
 ║ ┌───────────────────────────────────────────────────────────────────────────────────────┐ ║
 ║ │....................................... SPIDER ........................................│ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-╠═►Core◄══════╦═►Combat◄═══════════════╦═►Special◄════════╦═►Effects◄═══════════════════════╣
+╠═► Core ◄════╦═► Combat ◄═════════════╦═► Special ◄══════╦═► Effects ◄═════════════════════╣
 ║  Attributes ║ INIT.(KEN+PAS)/2:[_35] ║ □ Venom...:[_20] ║ Agony....:[___] Immobile.:[___] ║
 ║ □ SPE:[_40] ║ TR...(SPE+PAS)/2:[_30] ║ □ Web.....:[_20] ║ Bleeding.:[___] Infected.:[___] ║
 ║ □ STR:[_30] ║ SR...(SPE+KEN)/2:[_45] ║ □ ........:[___] ║ Blind:[___/___] Paralysed:[___] ║
@@ -25,7 +25,7 @@
 ╠═[Advance ->]═════════╩════════════► Disposition Track ◄════════════════════════[<-Recoil]═╣
 ║     ○ Retreating ○ -80 ○ -60 ○ -40 ○ -20 ○ Holding ○ +20 ○ +40 ○ +60 ○ +80 ○ Charging     ║
 ╠═► Attacks ◄═════════════════════════════════╦═════════════════════════════════════════════╣
-║────────────────[Base Attack]─────────—──────║───────────────[Special Attack]──────────────║
+║────────────────[ Attack #1 ]────────────────║────────────────[ Attack #2 ]────────────────║
 ║ Name:...........................Bite Attack ║ Name:............................Web Attack ║
 ║ Keywords:.......Piercing, Venomous, Healing ║ Keywords:............Area Attack, Ensnaring ║
 ║ Max. Range:...........Close (Enemy or Ally) ║ Max. Range:.............Medium (Close Area) ║
@@ -42,7 +42,7 @@
 ║ Critical Miss:.............Attacker Recoils ║ Critical Miss:.............Attacker Recoils ║
 ║ .......................Attacker Stunned d60 ║ ...................Attacker Immobilised d60 ║
 ╠═► Reminders ◄═══════════════════════════════╩═════════════════════════════════════════════╣
-║ When you gain XP, choose a feature and check □. Spend during Rest & Healing to increase.. ║
+║ When you match a feature, mark XP. If already marked, raise feature by 1 and clear box... ║
 ║ When you roll doubles, set Luck bar to the result........................................ ║
 ║ Initiative = KEN+PAS/2, Threat Rate = SPE+PAS/2, Survival Rate = SPE+KEN/2............... ║
 ║ Max Wounds = STR/10. Max Swarms = Swarm/10. Disposition: +/- mod to all rolls in combat.. ║
