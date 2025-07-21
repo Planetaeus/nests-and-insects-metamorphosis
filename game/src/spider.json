@@ -1,0 +1,113 @@
+{
+	"name": "Spider",
+	"attributes": {
+		"speed":  {
+			"xp": false,
+			"value": 40
+		},
+		"strength":  {
+			"xp": false,
+			"value": 30
+		},
+		"ken": {
+			"xp": false,
+			"value": 50
+		},
+		"passions": {
+			"xp": false,
+			"value": 20
+		}
+	},
+	"combat": {
+		"initiative": 35,
+		"threat_rate": 30,
+		"survival_rate": 45,
+		"wounds": 3,
+		"max_wounds": 3,
+		"swarms": 0,
+		"swarms_max": 0
+	},
+	"special": {
+		"venom": {
+			"xp": false,
+			"value": 20
+		},
+		"web":  {
+			"xp": false,
+			"value": 20
+		}
+	},
+	"effects": {
+		"agony": 0,
+		"bleeding": 0,
+		"blind": 0,
+		"charmed": 0,
+		"confused": 0,
+		"immobile": 0,
+		"infected": 0,
+		"paralyzed": 0,
+		"stunned": 0
+	},
+	"common": {
+		"construction": {
+			"xp": false,
+			"value": 40
+		},
+		"eusociology": {
+			"xp": false,
+			"value": 20
+		},
+		"exploration": {
+			"xp": false,
+			"value": 25
+		},
+		"foraging": {
+			"xp": false,
+			"value": 10
+		},
+		"healing": {
+			"xp": false,
+			"value": 30
+		},
+		"hunting": {
+			"xp": false,
+			"value": 50
+		},
+		"leadership": {
+			"xp": false,
+			"value": 35
+		},
+		"perception": {
+			"xp": false,
+			"value": 45
+		},
+		"signalling": {
+			"xp": false,
+			"value": 15
+		},
+		"sneaking": {
+			"xp": false,
+			"value": 30
+		}
+	},
+	"inventory": [],
+	"disposition": 0,
+	"attack": {
+		"name": "Bite",
+		"keywords": ["Piercing", "Venomous", "Healing"],
+		"range": "Close",
+		"area": "Single",
+		"target": "Any"
+		"hit": {
+		"hit_critical":,
+		"hit_total":,
+		"hit_partial":
+		},
+		"miss": {
+		"miss_critical":,
+		"miss_total":,
+		"miss_partial":,
+		}
+		
+	}
+}
