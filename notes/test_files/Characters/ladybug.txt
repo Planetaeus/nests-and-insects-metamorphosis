@@ -6,7 +6,7 @@
 ╠═►Core◄══════╦═►Combat◄═══════════════╦═►Special◄════════╦═►Effects◄═══════════════════════╣
 ║  Attributes ║ INIT.(KEN+PAS)/2:[_25] ║ □ Carapace:[_20] ║ Agony....:[___] Immobile.:[___] ║
 ║ □ SPE:[_50] ║ TR...(SPE+PAS)/2:[_40] ║ □ Flight..:[_20] ║ Bleeding.:[___] Infected.:[___] ║
-║ □ STR:[_40] ║ SR...(SPE+KEN)/2:[_30] ║ □ ........:[___] ║ Blind:[___/___] Paralysed:[___] ║
+║ □ STR:[_40] ║ SR...(SPE+KEN)/2:[_35] ║ □ ........:[___] ║ Blind:[___/___] Paralysed:[___] ║
 ║ □ KEN:[_20] ║ WOUNDS(STR/10):[__/04] ║ □ ........:[___] ║ Charmed..:[___] Poisoned.:[___] ║
 ║ □ PAS:[_30] ║ SWARMS(SWA/10):[__/__] ║ □ ........:[___] ║ Confused.:[___] Stunned..:[___] ║
 ╠═► Luck ◄════╩════════════════════════╩══════════════════╩════╦═► Food ◄═══════════════════╣
