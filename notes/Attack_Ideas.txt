@@ -1,0 +1,87 @@
+Bite
+Bash
+Crash
+Crush
+Sting
+Slash
+Shred
+Impale
+Venom
+
+Just hit it
+Hit it with more on a Crit
+Hit it multiple times (total hit/critical hit allows another attack)
+Scratch it
+Cut it with more on a critical
+Hit it with wind
+Bind it in place, wrap it up
+whip it
+kick it, but twice
+sting it with poison
+Sting it to poison it twice.
+Projectile
+Projectiles, many
+Acid (venom), degrades defenses
+Burn them
+Water pistol
+Peck them from above
+Attack them and heal from it.
+Flaming webs
+Electric shock
+Throw something at them.
+Sound & hypnosis
+Just hit them fast
+Do more damage based if attacker has wounds
+Paralyzing lick/contact/excretion
+Poison gas
+Crush with claw or shell or carapace
+trap in a bubble of sap or other fluid
+hit them, but also take damage.
+hit them with mud or other fluid
+use a sword
+Roll'em (carapace)
+Attack, then attack again if they move before your next turn.
+Clear obstacles from an area
+Incorporate minerals and metals into body to enhance attacks.
+Twister, toss people about.
+Smash through creatures and obstacles.
+Spin them with water, keeping them spinning.
+Block their next attack
+Roll into them, but cold this time.
+kick up sand
+hit them with foods
+Do more damage to something that hit you
+Air pressure cavitation bubble
+electrick charge
+skid along across water surface
+knock down flying enemies
+run with fire
+hit them and set up positive modifier on your next move.
+Throw your swarmlings at them.
+Shoot your carapace at them
+Do more damage based on current swarm
+Move does not miss, always gets at least a Partial Hit.
+
+Spew water, fire, acid, fungus, ice, fungus, electricity
+Focused light
+Shake the ground
+Advance self
+Recoil enemy
+Autothysis
+Take advantage of creatures with conditions
+Eat, destroy, drop inventory item.
+Positive modifier for ally
+Heal self
+Heal Ally
+Heal OR Harm
+Hit and run
+Charge them
+More damage if target is poisoned
+Sing and they die
+High power, but take a drawback
+Do more damage for not having wounds.
+Ignore carapace, ignore any modifiers other than SR
+Immobilise
+Bite the mind
+Autothysis with flavor
+Tool Use... Weapon use? Requires Ken
