@@ -1,0 +1,207 @@
+Name
+Range
+Target
+Requires
+Effort
+Modifiers
+Critical Hit
+Total Hit
+Partial Hit
+Partial Miss
+Total Miss
+Cricical Miss
+
+Name: 			Kenned Strike
+Range: 			Close
+Target: 		One Enemy
+Requires: 		KEN 40
+Effort: 		KEN
+Modifiers: 		Perception, Leadership
+Critical Hit	2W, Twice Perception as mod on next attack
+Total Hit		2W, Perception as mod on next attack
+Partial Hit		1W, Half Perception as mod on next attack
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, Perception as negative mod on next attack
+
+Name: 			Speedy Strike
+Range: 			Medium Charge
+Target: 		One Enemy
+Requires: 		SPE 40
+Effort: 		SPE
+Modifiers: 		Sneaking, Flight
+Critical Hit	2W, Confusion d60
+Total Hit		2W, Confusion d40
+Partial Hit		1W, Confusion d20
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User recoils, Confusion d40
+
+Name: 			Strong Strike
+Range: 			Close
+Target: 		One Enemy
+Requires: 		STR 40
+Effort: 		STR
+Modifiers: 		Hunting, Carapace
+Critical Hit	3W, slide target 3
+Total Hit		2W, slide target 2
+Partial Hit		2W, slide target 1
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, slide 2 in a random direction
+
+Name: 			Passionate Strike
+Range: 			Close
+Target: 		One Enemy
+Requires: 		PAS 40
+Effort: 		PAS
+Modifiers: 		Signaling, Leadership
+Critical Hit	3W, target recoils 3
+Total Hit		2W, target recoils 2
+Partial Hit		2W, target recoils
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils 2
+
+Name			Webbed Strike
+Range			Medium
+Target			One Enemy
+Requires		Web 20
+Effort			SPE
+Modifiers		Web, Hunting
+Critical Hit	2W, target immobile d60
+Total Hit		1W, target immobile d40
+Partial Hit		1W, target immobile d20
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, immobile d40
+
+Name			Armor Slam
+Range			Close
+Target			One or two adjacent enemies
+Requires		Carapace 20
+Effort			STR
+Modifiers		Carapace, SPE
+Critical Hit	3W, target stunned d60
+Total Hit		2W, target stunned d40
+Partial Hit		2W, target stunned d20
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, stunned d40
+
+Name			Swarming Strike
+Range			Medium
+Target			Close Area
+Requires		Swarm 20
+Effort			KEN
+Modifiers		Swarm, Leadership
+Critical Hit	2W + SWARM
+Total Hit		1W + 1/2 SWARM
+Partial Hit		1/2 SWARM
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, loses 1/2 Swarm
+
+Name			Venomous Strike
+Range			Close
+Target			One enemy
+Requires		Venom 20
+Effort			PAS
+Modifiers		Venom, Hunting
+Critical Hit	3W, Poisoned d60
+Total Hit		2W, Poisoned d40
+Partial Hit		2W, Poisoned d20
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, Poisoned d40
+
+Name			Flying Charge			
+Range			Long Charge
+Target			One Enemy
+Requires		Flight 20
+Effort			SPE
+Modifiers		Flight, Carapace
+Critical Hit	2W, user and target slide 4
+Total Hit		1W, user and target slide 3
+Partial Hit		1W, user and target slide 2
+Partial Miss	User and target slide 1
+Total Miss		User Recoils
+Cricical Miss	User Recoils and slides 3 in a random direction.
+
+Name			Healing Sting
+Range			Close
+Target			One Ally
+Requires		Venom 30, Healing 40
+Effort			KEN
+Modifiers		Venom, Healing
+Critical Hit	Ally heals 3W and removes one effect
+Total Hit		Ally heals 2W and reduces one effect
+Partial Hit		Ally heals 1W and reduces one effect
+Partial Miss	Ally reduces one effect
+Total Miss		User Recoils
+Cricical Miss	User and Ally Recoil.
+
+Name			Frenzied Attack
+Range			Close
+Target			One Enemy
+Requires		SPE 50
+Effort			SPE
+Modifiers		Hunting, PAS
+Critical Hit	3W, User attacks again for 1 less W
+Total Hit		2W, User attacks again for 1 less W
+Partial Hit		1W
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, Paralyzed d60
+
+Name			Flying Horn Attack
+Range			Medium Charge
+Target			Close Area
+Requires		Flight 40, Carapace 40
+Effort			STR
+Modifiers		Flight, Carapace
+Critical Hit	4W, Bleeding d80
+Total Hit		3W, Bleeding d60
+Partial Hit		2W, Bleeding d40
+Partial Miss	1W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, Bleeding d60
+
+Name			Venom's Kiss
+Range			Close
+Target			One Enemy
+Requires		Venom 60
+Effort			SPE
+Modifiers		Venom, PAS
+Critical Hit	Target Killed (Swarms take 6W, Poisoned d100)
+Total Hit		4W, Poisoned d80
+Partial Hit		3W, Poisoned d60
+Partial Miss	2W
+Total Miss		User Recoils
+Cricical Miss	User Recoils, Poisoned d80
+
+Name
+Range
+Target
+Requires
+Effort
+Modifiers
+Critical Hit
+Total Hit
+Partial Hit
+Partial Miss
+Total Miss
+Cricical Miss
+
+Name
+Range
+Target
+Requires
+Effort
+Modifiers
+Critical Hit
+Total Hit
+Partial Hit
+Partial Miss
+Total Miss
+Cricical Miss
