@@ -46,5 +46,5 @@
 ║ When you roll doubles, set Luck bar to the result........................................ ║
 ║ Initiative = KEN+PAS/2, Threat Rate = SPE+PAS/2, Survival Rate = SPE+KEN/2............... ║
 ║ Max Wounds = STR/10. Max Swarm = Swarming/10. Disposition: +/- mod to all rolls in combat ║
-║ Items: [D]epleted, [S]poiled, [F]ood, [B]uilding, [L]ight. Diets: [H]erbivore/[C]arnivore ║
+║ Items: [D]epleted, [S]poiled, [B]uilding, [L]ight. Diets: [H]erbivore/[C]arnivore........ ║
 ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
