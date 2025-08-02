@@ -213,7 +213,7 @@ def generate_risks(level):
 room_chc = 100
 shortcut_chc = -50
 item_knw_chc = 30
-resource_chc = 15
+resource_chc = 20
 level_chc = 10
 
 def generate_rewards(level, perception):
