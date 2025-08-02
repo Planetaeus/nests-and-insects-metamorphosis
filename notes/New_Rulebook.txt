@@ -1,0 +1,84 @@
+1.0.0.0 Overview
+
+	Not to the Reader:
+		This Section is a short introduction to the setting, the game, and the system of Nests & Insects. It is designed to give you a general idea of the game. It is not designed to give you everything you need to play the game. That information is found in the text that follows this Overview Chapter.
+
+	Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One player assumes the role of the Game Queen and describes the game world to the other players. The other players control characters who explore and interact with the game world.
+
+	1.1.0.0 The Setting
+		Players' characters are arthropods. Six pre-built Classes are provided in this document: Spider, Wasp, Scorpion, Ladybug, Betle, and Ants. The characters are mercenaries; assassins and thugs, hired to invade a Nest and carry out a Job on behalf of some arthropod client. Nests are the homes of eusocial insects: the nests of Bees, Ants, and Termites. Common Jobs are to assassinate the Nest's Royalty; steal special food resources; steal or kill larvae; and retrieve an arthropod of interes.
+		At the beginning of a new game, the players' characters enter a Nest to carry out their Job armed with their natrual weapons and armor: mandibles, pincers, stingers, carapaces, wings, venoms, webs. During a Job, characters must survive combat with the soldier castes guarding the Nests. They must also hunt or forage for food to avoid weakening and starving to death. While foraging, characters may find food items, such as nectar and fungi, that can provide not only sustenance, but also healing and enhanced abilities.
+		
+	1.2.0.0
+		Nests & Insects is a Roguelike TTRPG. It is inspired by computer roleplaying games ofthe Roguelike genre, like Nethack, Angband, Moria, Ancient Domains of Mystery, and later games like Diablo and Darkest Dungeon.Nests & Insects: Metamorphosis is also inspired by Pokemon Mystery Dungeon and Dungeons & Dragons.
+		
+		Nests & Insects is designed to be played with no preparation other than reading some of the rules. At the start of a new game, players either choose a class that determines all of a character's beginning stats (collectively called features), or takes steps to craft their own character. The Game Queen (GQ) then rolls to procedurally generate the first Room in the entrance to the first Level of the Nest, and the characters enter to begin their Job. After visiting a Room and defeating its challenges, characters get a chance to rest and recoup their strength, and players can use their experience to gain new and powerful attacks. The game ends when the characters fulfill the terms of the Job, surrender to the Nest, run away, or die.
+		
+		Everything encountered by characters during a Job is procedurally generated. If the GQ wishes, she can create hand-crafted Rooms, Levels, enemies, items, etc, and include them in the game, but that is not strictly necessary.
+		
+	1.3.0.0 The System
+			
+		║ Roll matches Effort    Roll beats Resistance    Degree of Success                         ║
+		║ ─────────────────────────────────────────────────────────────────                         ║
+		║ True                   True                     Complete Success                          ║
+		║ True                   False                    Partial Success                           ║
+		║ False                  True                     Partial Failure                           ║
+		║ False                  False                    Complete Failure                          ║
+		║ ─────────────────────────────────────────────────────────────────                         ║
+		║ Table 1: Initial four Degrees of Success.                                                 ║
+
+	Nests & Insects' roleplaying system is called Fuzzy d100 (fd100). fd100 is designed to eliminate mental arithmetic from the process used to determine the outcome of characters' actions. It is a percentile system where characters are defined by Features rated on a scale from 1 to 100, and where a d100 is rolled for action resolution. the d100 in fd100 generates results from "00" to "99".
+
+	The "Fuyzzy" in the fd100 name refers to the six possible Degrees of Success or Failure of an action (DoS). To determine the DoS of an action, players describe their character's Intent, then roll a d100 and compare it to two target numbers, "Effort", and "Resistance".
+
+	To roll under or equal to Effort is to "Match" Effort. To roll over Resistance is to "Beat" Resistance. If the d100 roll matches Effort, the initial DoS is a Success, otherwise it is a Failure. If the d100 roll Beats Resistance, the initial DoS is a Complete Success or a Partial Failure, otherwise it is a Partial Success or a Complete Failure. Table 1 lists the four initial DoS and how they can be achieved.
+
+	1.3.1.0 Modifiers
+		Critical Success
+		Total Success
+		Partial Success
+		Partial Failure
+		Total Failure
+		Critical Failure
+		
+		The initial DoS of an Action is determined by comparing a d100 roll with Effort and Resistance. This initial DoS may change, or "Shift", up or down, by further comparing the same d100 roll with additional target numbers, called "modifiers".
+		Modifiers can be either positive (+__%) or negative (-__%). Matching a Positive Modifier confers a "Shift Up" to the initial DoS. Failing to beat a negative modifier confers a "Shift Down" to the initial DoS. 
+		
+		A Shift Up moves the DoS from worse to better, and a shift Down moves it from better to worse. With enough Shifts Up, the initial DoS may improve beyond Complete Success and become a Critical Success. With enough Shifts Down, the initial DoS may worsen beyond Total Failure and become a Critical Failure. Table 2 illustrates the hierarchy of the Six Degrees of Success.
+		
+		Note
+			The way that modifiers work in fd100 is a bit of a departure from the standard in TTRPGs, where a modifier is usually a number added to a roll, or to a character's stat. In fd100, modifiers are instead target numbers compared to a d100 roll, in the same way as Efort and Resistance. The purpose of this reform is to avoid mental arithmetic during the most involved moments of play, for instance, during Combat.
+
+	1.3.2.0 Describing Results
+		What the DoS of an action means depends on a player's description of her character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the character's Intent.
+		
+	1.3.3.0 Decile Dice
+
+
+		║ Decile die    Range       Tens die    Numbered      Ones die    Numbered                  ║
+		║ ──────────────────────────────────────────────────────────────────────────                ║
+		║ d20           0 to 19     Not any!                  d20         0,1,...,19                ║
+		║ d40           0 to 39     d4          0,1,...,3     d10         0,1,...,9                 ║
+		║ d60           0 to 59     d6          0,1,...,5     d10         0,1,...,9                 ║
+		║ d80           0 to 79     d8          0,1,...,7     d10         0,1,...,9                 ║
+		║ d100          0 to 99     d10         0,1,...,9     d10         0,1,...,9                 ║
+		║ d120          0 to 119    d12         0,1,...,11    d10         0,1,...,9                 ║
+		║ ──────────────────────────────────────────────────────────────────────────                ║
+		║ Table 3: Decile dice, used for quantification of percentile effects. d100 is also a       ║
+		║ decile die. The d20 does not need a "tens" die and is rolled on its own.                  ║
+
+		Some actions require quantification of their results. To quantify the results of actions on the same percentile scale as character's Features, Nests & Insects uses decile dice: the d20, d40, d60, d80, d120, and the d100 itself. The d20 is a single, twenty-sided die, with faces numbered 0, 1, .. 19. The d40, d60, d80, d100, and d120 are composite dice, comprised of a d4, d6, d8, d10, and d12 as the "tens" die, and a d10 as the "ones" die. Both the ones and tens dice have faces numbered 0, 1, ..., n-1, where "n" is the number of faces on the die.
+
+	1.3.4.0 Minigames
+		The fd100 rules outlined in the previous sections suffice to resolve most actions a character may take. To add more variety, and more detail, to the basic rules, fd100 defines a number of "minigames".
+		
+		Minigames are special sets of rules for situations that are of special interest to a game. There are four minigames in Nests & Insects: Combat, Survival & Exploration; Hunting & Foraging; and Resting & Healing.
+		
+		Minigames are described in detail in Section "Minigames" of the "System" Chapter.
+	
+2.0.0.0 Characters
+	In Nests & Insects, players each control a Character: an arthropod mercenary on a Job to infiltrate a Nest. Players control their characters by describing their character's actions, then the players roll the dice to find out what happens. The Game Queen (GQ) rests the dice and determines the outcome of the character's actions.
+	
+	Nests & Insects: Metamorphosis provides rules for players to create their own bugs of death. Players may also choose a character from one of six classes: Ants, Beetle, Ladybug, Scorpion, Spider, and Wasp.
+	
+	The following sections describe the Nests & Insects characters, their classes, their Features, and the character sheets that record their Features.
