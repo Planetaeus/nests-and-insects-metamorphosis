@@ -186,7 +186,7 @@ def generate_costs(level):
 encounter_chc = 50
 item_unk_chc = 40
 obstacle_chc = 30
-spoilage_chc = 15
+spoilage_chc = 20
 infection_chc = 10
 
 def generate_risks(level):
