@@ -396,23 +396,23 @@ Cost Generation:
 ║ Cost                Chance         Description                                            ║
 ║ ───────────────────────────────────────────────────────────────────────────────           ║
 ║ 3.7.8.1 Hunger      50% + Level    Increase Hunger, deplete Food Items, bestow Starving   ║
-║ 3.7.8.3 Collapse    45% + Level    A room is removed from the Room Pool.                     ║
+║ 3.7.8.3 Collapse    45% + Level    A room is removed from the Room Pool.                  ║
 ║ 3.7.8.4 Effects     30% + Level    Apply, or modify the rating of deleterious Effects     ║
 ║ 3.7.8.5 Darkness    25% + Level    Deplete lighting Items or suffer in Darkness           ║
 ║ 3.7.8.6 Spoilage    15% + Level    Food Items have a chance to become Spoiled             ║
 
 Risk Generation:
-║ Risk                    Chance         Description                                              ║
+║ Risk                    Chance         Description                                        ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
-║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                                 ║
-║ 2.11.6.8 Item (Unknown) 40% + Level    Find as yet unidentified Food Items ()                      ║
+║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                        ║
+║ 2.11.6.8 Item (Unknown) 40% + Level    Find as yet unidentified Food Items ()             ║
 ║ Renovation			  30% + Level	 An explored room is changed, but maybe not gone.
-║ 3.7.9.3 Obstacle        15% + Level    Prevents further Exploration until removed ()               ║
-║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                             ║
+║ 3.7.9.3 Obstacle        15% + Level    Prevents further Exploration until removed ()      ║
+║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                    ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 
 Reward Generation:
-║ Reward                  Chance               Description                                           ║
+║ Reward                  Chance               Description                                  ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
 ║ 3.7.10.1 Room           100% - Level         Spend a Room to Explore, Hunt or Forage ()   ║
 ║ 3.7.10.2 Shortcut       Level - 50           Takes you directly to the Job Target ()      ║
