@@ -297,6 +297,21 @@ Also adjust Swarming Summons tables, as well as Swarming stats.
 ║ Alates - Queen, primary               Level - 100%   Big honcho. Common Job target        ║▓
 ║ ────────────────────────────────────────────────────────────────────────────────────      ║▓
 
+
+
+║                                                                                           ║
+║ Encounter                             Chance         Description                          ║
+║ ────────────────────────────────────────────────────────────────────────────────────      ║
+║ Worker Termite                        100%            Worker caste                        ║
+║ Minor Termite Soldier - Autothyte     50% + Level    Soldier caste                        ║
+║ Major Termite Soldier - Authothyte    25% + Level    Bigger soldier caste                 ║
+║ Nasute Soldier                        Level          Scarier soldier caste                ║
+║ Alates - King                         Level - 10%    Commander of the Soldier castes      ║
+║ Alates - Queen, tertiary              Level - 40%    Cute Termite princess. Aaaw!         ║
+║ Alates - Queen, secondary             Level - 70%    Second in command                    ║
+║ Alates - Queen, primary               Level - 100%    Big honcho. Common Job target       ║
+║ ────────────────────────────────────────────────────────────────────────────────────      ║
+║ Table 32: Termite Nest Encounter Table                                                    ║
 Thoughts: Have an "enemies" die that you roll in each level range?
       Level Die
 	  0-20. d4
@@ -312,6 +327,18 @@ Or: Have fixed numbers of enemies per level range.
 	 61-80. 8
 	81-100. 10
 Have certain classes be fixed chance levels.
+Just have number of enemies for the current decade.
+0-10. 1
+11-20. 2
+21-30. 3
+31-40. 4
+41-50. 5
+
+No, just doing things... well...
+Change starting Wounds. Change starting Swarms.
+Later stage enemies should have higher INIT scores so that they can break up the party.
+I'm fine with static INIT modifiers, I just need some enemies to get gooder at it.
+
 
 Reduce to 4 stats?
 Speed + Skill -> Speed
