@@ -26,21 +26,20 @@
 ║     ○ Retreating ○ -80 ○ -60 ○ -40 ○ -20 ○ Holding ○ +20 ○ +40 ○ +60 ○ +80 ○ Charging     ║
 ╠═► Attacks ◄═════════════════════════════════╦═════════════════════════════════════════════╣
 ║────────────────[ Attack #1 ]────────────────║────────────────[ Attack #2 ]────────────────║
-║ Name:...........................Bite Attack ║ Name:............................Web Attack ║
-║ Keywords:.......Piercing, Venomous, Healing ║ Keywords:............Area Attack, Ensnaring ║
-║ Max. Range:...........Close (Enemy or Ally) ║ Max. Range:.............Medium (Close Area) ║
-║ Critical Hit:.......Ally Heals 3W, Advances ║ Critical Hit:.......Targets Immobilised d40 ║
-║ ..............Enemy Takes 3W, Paralysed d80 ║ .......................Targets Poisoned d40 ║
-║ Total Hit:....................Ally Heals 2W ║ Total Hit:..........Targets Immobilised d40 ║
-║ ..............Enemy Takes 2W, Paralysed d60 ║ ........................................... ║
-║ Partial Hit::.................Ally Heals 1W ║ Partial Hit:........Targets Immobilised d20 ║
-║ ............Enemy Takes 1W, Immobilised d60 ║ ........................................... ║
-║ Partial Miss:...............Target Takes 1W ║ Partial Miss:......Attacker Immobilised d20 ║
+║ Name:..Kenned Strike, Effort:...........KEN ║ Name:..Webbed Strike, Effort:...........SPE ║
+║ Max. Range:...............Close (One Enemy) ║ Max. Range:..............Medium (One Enemy) ║
+║ Critical Hit:......2W, 2x Perception as mod ║ Critical Hit:..............2W, Immobile d60 ║
+║ ............to Ally's next attack on target ║ ........................................... ║
+║ Total Hit:............1W, Perception as mod ║ Total Hit:.................1W, Immobile d40 ║
+║ ............to Ally's next attack on target ║ ........................................... ║
+║ Partial Hit:......1W, 1/2 Perception as mod ║ Partial Hit:...............1W, Immobile d20 ║
+║ ............to Ally's next attack on target ║ ........................................... ║
+║ Partial Miss:............................1W ║ Partial Miss:............................1W ║
 ║ ........................................... ║ ........................................... ║
-║ Total Miss:................Attacker Recoils ║ Total Miss:........Attacker Immobilised d40 ║
+║ Total Miss:....................User Recoils ║ Total Miss:....................User Recoils ║
 ║ ........................................... ║ ........................................... ║
-║ Critical Miss:.............Attacker Recoils ║ Critical Miss:.............Attacker Recoils ║
-║ .......................Attacker Stunned d60 ║ ...................Attacker Immobilised d60 ║
+║ Critical Miss:.................User Recoils ║ Critical Miss:...User Recoils, Immobile d40 ║
+║ .......Perception as neg mod on next attack ║ ........................................... ║
 ╠═► Reminders ◄═══════════════════════════════╩═════════════════════════════════════════════╣
 ║ When you match a feature, mark XP. If already marked, raise feature by 1 and clear box... ║
 ║ When you roll doubles, set Luck bar to the result........................................ ║
