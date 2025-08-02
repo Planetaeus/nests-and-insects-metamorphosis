@@ -478,3 +478,9 @@ Encounter Generation:
 - Roll a die for number of enemies in the encounter
 
 When a roll is made with the chosen stat as the effort, resistance, or as a modifier, if the roll is equal or lower to the stat, you get an XP
+
+Moves that:
+- Heal status conditions on self, allies
+- Advance or recoil self, enemies, allies
+- Move self, enemies, allies
+- Include field to have Special and Common abilities as modifiers on attacks.
