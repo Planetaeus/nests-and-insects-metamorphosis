@@ -400,6 +400,7 @@ Cost Generation:
 ║ 3.7.8.4 Effects     30% + Level    Apply, or modify the rating of deleterious Effects     ║
 ║ 3.7.8.5 Darkness    25% + Level    Deplete lighting Items or suffer in Darkness           ║
 ║ 3.7.8.6 Spoilage    15% + Level    Food Items have a chance to become Spoiled             ║
+║ 3.7.8.3 Collapse    45% + Level    A room is removed from the Room Pool.                  ║
 
 Risk Generation:
 ║ Risk                    Chance         Description                                        ║
