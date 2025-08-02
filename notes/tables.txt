@@ -167,6 +167,8 @@ Generate a Food Item's Function:
 ║ Alates - King                         Level - 20%    Commander of the Soldier castes      ║
 ║ Alates - Queen, tertiary              Level - 40%    Cute Termite princess. Aaaw!         ║
 ║ Alates - Queen, secondary             Level - 60%    Second in command                    ║
-║ Alates - Queen, primary               Level - 80%    Big honcho. Common Job target       ║
+║ Alates - Queen, primary               Level - 80%    Big honcho. Common Job target        ║
+║ Nest Invader         			        30%		       Armoured and venomous                ║
+║ Termitophile		                    15%		       Charming and affable                 ║
 ║ ────────────────────────────────────────────────────────────────────────────────────      ║
 ║ Table 32: Termite Nest Encounter Table                                                    ║
