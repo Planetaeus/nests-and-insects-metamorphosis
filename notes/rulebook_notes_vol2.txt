@@ -1,0 +1,569 @@
+ Arthropods
+	Six classes
+		Spider
+		Wasp
+		Scorpion
+		Ladybug
+		Beetle
+		Ants
+	Mercenaries
+	Assassins
+	Thugs
+	Hired to invade a Nest on behalf of a client
+	
+Nests
+	Bees, Ants, Termites
+Jobs
+	Assassinate Queen/King
+	Steal resources
+	Steal or kill larvae
+
+Begin game with natural weapons
+	Survive combat
+	Food can sustain, heal, or enhance
+	
+Procedurally generate the nests
+
+Fuzzy d100 (fd100)
+	Roll d100 and compare against Effort and Resistance
+	"Match Effort" = Roll at or under Effort
+	"Beat Resistance" = Roll above Resistance
+	Match & Beat => TS
+	Match & !Beat => PS
+	!Match & Beat => PF
+	!Match & !Beat => TF
+	
+ADD Survival Rate and Initiative have INITIAL values based on Core, but after that they are XP-driven.
+
+Four Minigames:
+Combat
+Survival & Exploration
+ADD Hunting & Foraging
+ADD Resting & Healing
+
+Character Selection
+Six pre-generated characters
+ADD Blank Character Sheet with rules for character creation
+
+Only mechanical punishment for death is fresh character without XP or items.
+
+Luck Bar: Take it out of rolls, it's too many modifiers to keep track of.
+Instead, when you roll doubles ON A D100, you fill that bubble and gain an XP in an attribute of your choice. You cannot mark the same doubles again until you've filled all the bubbles. When you fill all the bubbles, you empty all bubbles and can now fill them again.
+This puts the characters in cycles of faster and slower XP gain.
+
+Speed & Skill -> Speed: How fast can you move + precision and fine manipulation
+Strength & Stamina -> Strength: Physical strength and endurance
+Smarts & Ken -> Ken: Intelligence, problem solving, knowledge of the world
+Charms & Passions -> Passions: Charisma, communication talent, strength of spirit.
+
+Condition Box (Combat)
+	Initiative -> Keep. Starts as avg of SPEED & Ken
+	Threat Rate -> Drop. Each attribute will be the Effort for attacks
+	SR -> Keep. Starts as avg of STR & Passions
+	Wounds/Max -> Max Wounds = SR / 10 rounded down.
+	
+Attack Boxes These are going to change even more than I already have. The attacks will be listed as strips across the sheet so it will be easier to copy/paste them into a sheet, and possibly to give them more room.
+
+Hunger & Starving: Break out from just a number to a bar. In increments of 20, Hunger becomes a negative modifier on rolls.
+
+Specific Abilities -> Special Abilities
+There are five special abilities that can be chosen at character creation:
+	Carapace: A hardened carapace that protects her in combat.
+	Flying: Flying characters are harder to hid in combat by terrestrial attackers.
+	Swarms: A swarm of individual insects, or can summon conspecifics
+	Venom: Venomous bite or sting that can bestow Agony, Immobile, Paralyzed, or Poisoned
+	Web: Weave webs to set traps or secure an area.
+
+Common Abilities
+	Construction:	Make traps, secure a room for Resting & Healing
+	Eusociology:	Knowledge of the ways of Nests & their inhabitants
+	Exploration:	Search a room or scout ahead to unexplored Rooms
+	Foraging		Search for Herbivorous sustenance
+	Healing			Remove Wounds or detrimental Effects
+	Hunting			Hunt prey for sustenance or other uses
+	Leadership		Support allies and improve their Disposition in Combat
+	Perception		Find secrets and hidden items and Rooms
+	Signaling		Display aposematic markings, emit pheromonic signals
+	Sneaking		Move and act with stealth
+
+Effects
+	Agony		Must overcome pain to act.
+	Bleeding	Takes a wound each turn
+	Blind		Can't See.
+	Charmed		Will not attack, may take other actions
+	Confused	Will only attack, will not take other actions
+	Immobilised	Cannot move. Can only make Close Range attacks.
+	Infected	Acquires a random effect each turn
+	Paralysed	Cannot take any Actions
+	Poisoned	Negative modifier on all actions
+	Stunned		Loses next turn in combat
+	
+Attributes: TBD
+
+Combat Conditions: TBD
+
+Survival Features: TBD
+
+Abilities: TBD
+
+Effects
+	Agony
+		When triggered, boolean roll with Agony as Resistance
+		If beat, nothing happens
+		If match, you are stunned. Quantify with Agony.
+	Bleeding
+		When triggered, take 1W
+	Charmed
+		When a charmed effect triggers, the subject cannot use Attacks this turn.
+	Confused
+		When a Confused effect triggers, the character can only move and use Attacks. It selects targets randomly from among those in range of its attack.
+	Immobilised
+		Character can either use an Attack or a Maneuver this turn, not both.
+	Infected
+		Choose an effect at random. Roll to set or increase that effect, Quantify with Infected.
+	Paralyzed
+		Nothing happens. A Paralyzed character cannot take actions until no longer paralyzed.
+	Poisoned
+		Roll to increase, Quantify with Poisoned.
+	Stunned
+		The character can only roll to resist Stunned.
+
+Item Types
+	Companion
+	Food
+	Hint
+	Light
+	Materials
+	Message
+	
+	When you eat an item that has multiple types, it is only food.
+	
+	Consuming Items
+		If you match the food item, roll to decrease.
+		If you beat, roll to decrease, and becomes depleted.
+		If you beat and already depleted, item is exhausted and removed.
+		
+	Consuming Foods
+		Make a consumption roll.
+		Roll to reduce Hunger, Quantify with Hunger.
+	
+	Generating Food Items:
+		1. Color the Food
+		2. Generate Type
+			Nectar
+			Honey
+			Honeydew
+			Fungus
+			Aphids
+			Crickets
+			Fireflies
+			Worms
+		3. Quantify with Level
+	Identifying Food in two ways:
+		1. Boolean roll, using Ken or Foraging
+			On a success, know what it does.
+			On a failure, character cannot attempt to identify again. Others can attempt.
+		2. Consume
+			Eat it, and find out.
+	Generate Food Item
+		1. Condition
+			Ordinary
+			Blessed
+			Cursed
+			Spoiled
+			Nutritious
+		2. Item Conditions
+			GOOD
+				Healing
+				Relief
+				Restoration
+				Shielding
+				Standard Special
+				Weird Special
+				Courage
+				Rage
+				Venom
+				Clarity
+			BAD
+				Agony
+				Bleeding
+				Blindness
+				Charming
+				Confusion
+				Immobilisation
+				Infection
+				Paralysis
+				Poisoning
+				Stunning
+
+Modifiers
+	No more than two dramatic modifiers to a single actions
+
+Quantification
+	01 - 10 	=> d20
+	11 - 30 	=> d40
+	31 - 50 	=> d60
+	51 - 70 	=> d80
+	71 - 90 	=> d100
+	90 - 110 	=> d120
+	111+ 		=> d200
+	
+Boolean roll: Simple, just roll against Effort
+Contested Boolean Roll: Effort + Resistance
+But this is different from a full qualification roll
+
+Acting in Tandem: TBD
+
+Minigames:
+- Combat
+	Fight stuff
+- Survival & Exploration
+	Procedurally generate a nests
+- Hunting & Foraging
+	Find sustenance and medicinal food items
+- Resting & Healing
+	Healing, reduce Effects, consume food
+	
+Combat Steps:
+1. Who's fighting and on what side
+2. Starting Disposition
+	Make a boolean check against Initiative
+3. Determine initiative Order
+	If multiple people are tied with initiative, roll a die/flip a coin
+4. Combat Round Begins
+	Two Actions. Only one Action can be an Attack.
+	Action Types
+		Attack
+		Suppress
+		Support
+		Resist
+		Manoeuver
+		Move
+	You can hold one of your actions. If you do, you can Suppress or Support another character at the start of that character's turn.
+5. Step through each combatant in Initiative Order
+6. Repeat the round until all are retreating or killed
+7. Combat ends
+
+Attack Action
+	Carapace: May be applied as a negative modifier against physical attacks
+	Flying: May be applied as a negative modifier against ranged and area attacks.
+Suppress Action
+	Intimidate: Roll to reduce enemy disposition (Resisted with Passions)
+	Charm: Roll to bestow Charmed (Resisted with Passions)
+	Confuse: Roll to bestow Confused (Resisted with Ken)
+Support Action
+	Rally: Roll Leadership vs Passions to improve Disposition
+	Focus: Roll Ken v Confused to reduce Confused
+	Shake: Roll Passions v Charmed to reduce Charmed
+Resist Action
+	Roll EFFORT v Effect to try and reduce Effect
+Manoeuver
+	Make a roll to do a cool thing, you can argue this, but the Manoeuver doesn't do damage.
+	Example Manoeuvers
+		Roll STR v STR to make them lose a turn of combat
+		Flying + STR v STR to give Stunned
+		Ken + Signaling/Perception v Ken to give Ally a positive modifier to next Attack
+		SPE v SPE to postpone enemy's turn to end of Round
+		Construction or Web to give modifiers on Sneaking or Ranged
+		Boolean vs Initiative. If success, you can run away and take other actions. If fails, can't.
+Move
+	The character uses one of their movement modes to move up to Rating/10 squares.
+
+Can't eat during combat, have to break out of it first.
+Anybody can join, and come in during the next round.
+
+Survival and Exploration
+	Environment
+		Nest Levels
+			Percentile rating used as resistance to exploration, and some procedural generation
+			Characters not in it for money, but power
+		Rooms
+			Rewards that are generated when a character explores
+			Area, Height, Darkness
+			Can have resources
+			Can be changed or removed by Cost and Risk events.
+		Passages
+			Not actually generated, but used to mark the connections between rooms. More of an abstract.
+		Shortcut between level and job target
+			Reward that connects current room to job target's level.
+		Shafts between levels
+	Event Generation
+		Roll Exploration v Level to determine how many costs/risks/rewards you generate.
+		Roll for Events 1
+		Roll for Events 2
+		Roll for Events 3
+	Level Rating
+		Screw the three dice, keep high rewards with high risks/costs.
+		When you spend a Level Reward, Roll Level's Quantification die to increase Level.
+	Environment Pool
+		Name the room
+		Is it spent?
+		Where did you find it?
+		Where does it lead?
+		What's in it?
+		Starting Room can be spent for multiple Exploration actions.
+	Steps
+		1. Spend a Room
+		2. Roll Exploration
+			CS	Reward, Reward, Reward
+			TS	Risk, Reward, Reward
+			PS	Cost, Risk, Reward
+			PF	Cost, Risk, Risk
+			TF	Cost, Cost, Risk
+			CF	Cost, Cost, Cost
+		3. Generate Event 1
+		4. Generate Event 2
+		5. Generate Event 3
+		
+║ Cost                Chance         Description                                            ║
+║ ───────────────────────────────────────────────────────────────────────────────           ║
+║ 3.7.8.1 Hunger      50% + Level    Increase Hunger, deplete Food Items, bestow Starving   ║
+║ 3.7.8.4 Effects     45% + Level    Apply, or modify the rating of deleterious Effects     ║
+║ 3.7.8.5 Darkness    25% + Level    Deplete lighting Items or suffer in Darkness           ║
+║ 3.7.8.3 Collapse    10% + Level    A room is removed from the Room Pool.                  ║
+
+Risk Generation:
+║ Risk                    Chance         Description                                        ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+║ 4.2.1.1 Encounter       50% + Level    Meet the nest's denizens ()                        ║
+║ 2.11.6.8 Item (Unknown) 40% + Level    Find as yet unidentified Food Items ()             ║
+║ 3.7.9.3 Obstacle        30% + Level    Prevents further Exploration until removed ()      ║
+║ 3.7.8.6 Spoilage    	  20% + Level    Food Items have a chance to become Spoiled         ║
+║ 3.7.9.5 Infection       10% + Level    Bestows the Infection Effect ()                    ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+
+Reward Generation:
+║ Reward                  Chance               Description                                  ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+║ 3.7.10.1 Room           100% - Level         Spend a Room to Explore, Hunt or Forage ()   ║
+║ 3.7.10.2 Shortcut       Level - 50           Takes you directly to the Job Target ()      ║
+║ 3.7.10.4 Item (Known)   30% + Level          Find a previously identified Food Item ()    ║
+║ 3.7.10.5 Resource       20% + Level          Materials to build a Shelter ()              ║
+║ 3.7.10.3 Level          10% + Level          Entrance to a new, deeper Nest Level ()      ║
+║ 3.7.10.6 Secret         Perception - Level   Generates a random Cost, Risk or Reward. ()  ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+		
+Costs
+	Hunger
+		Either consume a Food Item or:
+		If starving, you die.
+		If at 100%, you are starving.
+		If less than 100%, roll to increase.
+	Effects
+		Check all Effects
+	Darkness
+		Consume a Light item, or the room is shrouded in Darkness.
+		Darkness is a negative modifier on all rolls that require Vision
+	Spoilage -> Moved to Risks
+	Collapse
+		Make a Boolean Roll, Resist with current Level.
+		If the roll beats, nothing happens.
+		If the roll matches, you must remove a room from the Environment Pool. Any room can be removed, except for the Start. If the current room is Collapsed, the current Exploration Turn ends, and the characters retreat to the nearest room.
+
+Risks
+	Encounter
+		Encounter does not ALWAYS have to end in Combat. I guess. If you're BORING.
+		Roll on the Encounter table for the current type of Nest.
+		To generate, make a Boolean Roll, and compare it against the Encounter table. Each encounter whose Chance is matched by the Encounter Roll are generated.
+	Unknown Item
+		Form is known, Function needs to be identified.
+		Generate a food item's form.
+	Obstacle
+		Quantify the Obstacle with Level.
+		An obstacle with rating 0% is torn down.
+		Characters may roll Construction vs Obstruction.
+		Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
+║ Degree of Success    Outcome                                                      		║
+║ ───────────────────────────────────────────────────────────────────────                   ║
+║ Critical Success     Obstruction 0%. Receive Building Resources, Quantify with Level.		║
+║ Complete Success     Obstruction 0%.			                   							║
+║ Partial Success      Roll to reduce Obstruction.                               			║
+║ Partial Failure      Nothing Happens                              						║
+║ Complete Failure     The character takes 1W                  		                		║
+║ Critical Failure     The character takes 1W, roll to Increase Obstruction         		║
+║ ───────────────────────────────────────────────────────────────────────                   ║
+	Spoilage
+		Each character makes a single Boolean Roll. Compare the roll to each Food Item's Rating.
+		If the roll beats, the Food Item is a-okay.
+		If the roll matches, the Food Item becomes spoiled.
+		Spoiled Food
+			First, consume the item as normal.
+			Then, Roll STR vs. Food Rating:
+║ Degree of Success            Outcome                                                      ║
+║ ───────────────────────────────────────────────────────────────────────                   ║
+║ Critical Success             The character is healed of 1 Wound                           ║
+║ Complete Success             The character enjoys her Spoiled Food Item                   ║
+║ Partial Success              The character is Poisoned: d40                               ║
+║ Partial Failure              The character is Infected: d60                               ║
+║ Complete Failure             The character is Blind: d80                                  ║
+║ Critical Failure             The character takes 1 Wound.                                 ║
+║ ───────────────────────────────────────────────────────────────────────                   ║
+	Infection
+		Each character makes a Boolean Roll resist with Level.
+		If the Roll beats, nothing happens and the Character is not Infected.
+		If the Roll matches, the infection takes hold.
+			If the character is already infected, their Infection triggers.
+			If the character is not already infected, roll to Quantify Infection with Level.
+
+Rewards
+	Room
+		Add a room to the Environment Pool
+	Shortcut
+		Buckle up you ugly bugs: It's time to party
+	Level
+		Roll to set level of new room. Quantify with Current Level.
+		Only one Level reward per Exploration Action? No. Dumb. I don't like it.
+	Known Item
+		Randomly choose an item from among Known Food Items. That food Item can be found in this room.
+	Resource
+		One character Acquires Building Resource
+		If already have, roll to increase, Quantify with Level.
+		If not already, roll to set, Quantify with Level.
+	Secret
+		Generate a random Cost, Risk, or Reward.
+			1. Cost
+				1. Hunger
+				2. Effects
+				3. Darkness
+				4. Collapse
+			2. Risk
+				1. Encounter
+				2. Unknown Item
+				3. Obstacle
+				4. Spoilage
+				5. Infection
+			3. Reward
+				1. Room
+				2. Shortcut
+				3. Level
+				4. Known Item
+				5. Resource
+
+Hunting & Foraging (TBD)
+	Pick an explored room with one or more found items.
+
+║ Name of the Minigame: ............... Hunting & Foraging                                  ║
+║ Participating Entities: ............. A Character, Food Items.	                        ║
+║ List of Minigame Intents: ........... Hunt, Forage, Gather                                ║
+║ List of Minigame Actions: ........... Search for Food Items                               ║
+║ Effort Variables: ................... Hunting (Insects), Foraging (Plants, Fungus)        ║
+║ Resistance Variables: ............... Room's Level                                        ║
+║ Modifier Variables: ................. None                                                ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success            Outcome                                                      ║
+║ ───────────────────────────────────────────────────────────────────────                   ║
+║ Critical Success             Roll to Set/Increase Food, then roll to Increase.            ║
+║ Complete Success             Roll to Set/Increase Food.                                   ║
+║ Partial Success              Roll to Set/Increase Food. Room is Depleted of Item.         ║
+║ Partial Failure              Room is Depleted of Item.                                    ║
+║ Complete Failure             Room is Depleted of Item.                                    ║
+║ Critical Failure             Room is Exhausted of Item.                                   ║
+║ ───────────────────────────────────────────────────────────────────────                   ║
+
+Resting & Healing (TBD)
+	Pick an explored Room.
+	Spend Building Resources, or choose a character with Web.
+
+║ Name of the Minigame: ............... Secure a Room                                  		║
+║ Participating Entities: ............. A Character, Room.	                         		║
+║ List of Minigame Intents: ........... Secure, Camp, Build                                 ║
+║ List of Minigame Actions: ........... Secure the Room                             	    ║
+║ Effort Variables: ................... Construction			                            ║
+║ Resistance Variables: ............... Room's Level                                        ║
+║ Modifier Variables: ................. Building Resource Rating, Web                       ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success            Outcome                                                      ║
+║ ───────────────────────────────────────────────────────────────────────                   ║
+║ Critical Success             Room is Secured. Roll to Increase Resource Rating with Level ║
+║ Complete Success             Room is Secured.                                   			║
+║ Partial Success              Room is Secured. Roll to Reduce Building Resource.           ║
+║ Partial Failure              Roll to Reduce Building Resource.       						║
+║ Complete Failure             Roll to Reduce Building Resource. Resource is Depleted.      ║
+║ Critical Failure             Roll to Reduce Building Resource. Resource is Exhausted.     ║
+║ ───────────────────────────────────────────────────────────────────────                   ║
+
+	Once in a Secured Room.
+		Each character who wants to heal or be healed must Consume a Food Item.
+		Each character may make a Boolean Roll, Healing as Effort.
+			On a Success, the character heals all wounds taken by themself or an ally.
+		For each Effect on a character, that Character may roll to Resist that Effect. (See Resisting Effects)
+		Characters with Swarming can make a Boolean Swarming Roll.
+			On a Success, the Character restores all Swarms.
+		Characters can change Attacks. Characters must qualify for an Attack to change to it.
+		
+Setting (TBD)
+
+Clients and Jobs (TBD)
+	Job Board.
+		Present three random Jobs to the Characters.
+			Roll for a random Nest.
+				1. Ants
+				2. Bees
+				3. Termites
+			Determine Job Target
+				Find & Retrieve Item
+					Roll to determine Food Form and Function.
+					Roll to set minimum Food Item rating.
+				Reach Level
+					Roll a d200 to determine Level.
+				Find & Retrieve Character
+					In the given Nest, choose an Encounter at Random. The party must find and extract the chosen character, alive.
+				Find & Kill Character
+					In the given Nest, choose an Encounter at Random. The party must find and kill the chosen character.
+Environment (TBD)
+	
+	Nests (TBD)
+		Ant Nests
+		
+		Bee Hives
+		
+		Termite Nests
+			Soil, wood, other soft materials
+			Could be
+				Fully underground
+				hang from trees
+				start underground and go overground - Termite Cathedral
+			Direct assault is just asking for trouble, as more and more termites show up.
+	
+║                                                                                           ║
+║ Encounter                             Chance         Description                          ║
+║ ────────────────────────────────────────────────────────────────────────────────────      ║
+║ Worker Termite                        100%            Worker caste                        ║
+║ Minor Termite Soldier - Autothyte     50% + Level    Soldier caste                        ║
+║ Major Termite Soldier - Authothyte    25% + Level    Bigger soldier caste                 ║
+║ Nasute Soldier                        Level          Scarier soldier caste                ║
+║ Alates - King                         Level - 20%    Commander of the Soldier castes      ║
+║ Alates - Queen, tertiary              Level - 40%    Cute Termite princess. Aaaw!         ║
+║ Alates - Queen, secondary             Level - 60%    Second in command                    ║
+║ Alates - Queen, primary               Level - 80%    Big honcho. Common Job target        ║
+║ Nest Invader         			        30%		       Armoured and venomous                ║
+║ Termitophile		                    15%		       Charming and affable                 ║
+║ ────────────────────────────────────────────────────────────────────────────────────      ║
+║ Table 32: Termite Nest Encounter Table                                                    ║
+
+	Termites
+		Detritivores
+		Worker Termite
+		Minor Termite Soldier
+		Major Termite Soldier
+		Nasute Soldier
+			Fontanellar Gun
+		Alates - King
+		Alates - Queen
+		Termitophiles
+		Inquilines
+		Parasites
+
+	Items
+		Food Items
+			Fungi
+			Honey
+			Noneydew
+			Nectar
+		Prey
+			
+		Other Items
