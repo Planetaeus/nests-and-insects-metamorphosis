@@ -90,7 +90,7 @@ New Suppress Table: (Changes how Recoil & Advances are expressed)
 ║ Action        Effort        Resistance    Static Modifiers                                ║▓
 ║ ──────────────────────────────────────────────────────────────                            ║▓
 ║ Charm         Charms        Passions      Smarts, Confused                                ║▓
-║ Confuse       Smarts        Ken           Leadership, Passions                            ║▓
+║ Confuse       Ken           Ken           Leadership, Passions                            ║▓
 ║ Intimidate    Signalling    Passions      Leadership, Swarming                            ║▓
 ║ ──────────────────────────────────────────────────────────────                            ║▓
 
@@ -106,9 +106,9 @@ New Support Table: (Ally holds is now Partial Failure. Encourage & Rally now one
 ║ ───────────────────────────────────────────────────────────────────────────────────────── ║▓                                                                                          ║▓
 ║ Action         Effort          Resistance      Static Modifiers                           ║▓
 ║ ───────────────────────────────────────────────────────────────                           ║▓
-║ Rally          Leadership      Passions        Smarts                                     ║▓
-║ Focus          Smarts          Confused        Charms                                     ║▓
-║ Shake          Charms          Charmed         Passions                                   ║▓
+║ Rally          Leadership      Passions        Threat Rate                                ║▓
+║ Focus          KEN             Confused        Passion                                    ║▓
+║ Shake          Passion         Charmed         Leadership                                 ║▓
 ║ ───────────────────────────────────────────────────────────────                           ║▓
 
 Hunting and Foraging Minigame
