@@ -161,8 +161,7 @@ def handle_exp_roll(exp):
 
 hunger_chc = 50
 effects_chc = 45
-darkness_chc = 30
-renovation_chc = 25
+darkness_chc = 25
 collapse_chc = 10
 
 def generate_costs(level):
@@ -173,14 +172,12 @@ def generate_costs(level):
     
     if roll <= hunger_chc + level:
         costs.append("Hunger")
-    if roll <= collapse_chc + level:
-        costs.append("Collapse")
     if roll <= effects_chc + level:
         costs.append("Effects")
     if roll <= darkness_chc + level:
         costs.append("Darkness")
-    if roll <= renovation_chc + level:
-        costs.append("Renovation")
+    if roll <= collapse_chc + level:
+        costs.append("Collapse")
     
     print("Costs: ", costs)
     
