@@ -3,18 +3,18 @@
 	Not to the Reader:
 		This Section is a short introduction to the setting, the game, and the system of Nests & Insects. It is designed to give you a general idea of the game. It is not designed to give you everything you need to play the game. That information is found in the text that follows this Overview Chapter.
 
-	Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One player assumes the role of the Game Queen and describes the game world to the other players. The other players control characters who explore and interact with the game world.
+	Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One player assumes the role of the Game Queen and describes the game world to the other players. The other players control Characters who explore and interact with the game world.
 
 	1.1.0.0 The Setting
-		Players' characters are arthropods. Six pre-built Classes are provided in this document: Spider, Wasp, Scorpion, Ladybug, Betle, and Ants. The characters are mercenaries; assassins and thugs, hired to invade a Nest and carry out a Job on behalf of some arthropod client. Nests are the homes of eusocial insects: the nests of Bees, Ants, and Termites. Common Jobs are to assassinate the Nest's Royalty; steal special food resources; steal or kill larvae; and retrieve an arthropod of interes.
-		At the beginning of a new game, the players' characters enter a Nest to carry out their Job armed with their natrual weapons and armor: mandibles, pincers, stingers, carapaces, wings, venoms, webs. During a Job, characters must survive combat with the soldier castes guarding the Nests. They must also hunt or forage for food to avoid weakening and starving to death. While foraging, characters may find food items, such as nectar and fungi, that can provide not only sustenance, but also healing and enhanced abilities.
+		Players' Characters are arthropods. Six pre-built Classes are provided in this document: Spider, Wasp, Scorpion, Ladybug, Betle, and Ants. The Characters are mercenaries; assassins and thugs, hired to invade a Nest and carry out a Job on behalf of some arthropod client. Nests are the homes of eusocial insects: the nests of Bees, Ants, and Termites. Common Jobs are to assassinate the Nest's Royalty; steal special food resources; steal or kill larvae; and retrieve an arthropod of interes.
+		At the beginning of a new game, the players' Characters enter a Nest to carry out their Job armed with their natrual weapons and armor: mandibles, pincers, stingers, carapaces, wings, venoms, webs. During a Job, Characters must survive combat with the soldier castes guarding the Nests. They must also hunt or forage for food to avoid weakening and starving to death. While foraging, Characters may find food items, such as nectar and fungi, that can provide not only sustenance, but also healing and enhanced abilities.
 		
 	1.2.0.0
 		Nests & Insects is a Roguelike TTRPG. It is inspired by computer roleplaying games ofthe Roguelike genre, like Nethack, Angband, Moria, Ancient Domains of Mystery, and later games like Diablo and Darkest Dungeon.Nests & Insects: Metamorphosis is also inspired by Pokemon Mystery Dungeon and Dungeons & Dragons.
 		
-		Nests & Insects is designed to be played with no preparation other than reading some of the rules. At the start of a new game, players either choose a class that determines all of a character's beginning stats (collectively called features), or takes steps to craft their own character. The Game Queen (GQ) then rolls to procedurally generate the first Room in the entrance to the first Level of the Nest, and the characters enter to begin their Job. After visiting a Room and defeating its challenges, characters get a chance to rest and recoup their strength, and players can use their experience to gain new and powerful attacks. The game ends when the characters fulfill the terms of the Job, surrender to the Nest, run away, or die.
+		Nests & Insects is designed to be played with no preparation other than reading some of the rules. At the start of a new game, players either choose a class that determines all of a Character's beginning stats (collectively called features), or takes steps to craft their own Character. The Game Queen (GQ) then rolls to procedurally generate the first Room in the entrance to the first Level of the Nest, and the Characters enter to begin their Job. After visiting a Room and defeating its challenges, Characters get a chance to rest and recoup their strength, and players can use their experience to gain new and powerful attacks. The game ends when the Characters fulfill the terms of the Job, surrender to the Nest, run away, or die.
 		
-		Everything encountered by characters during a Job is procedurally generated. If the GQ wishes, she can create hand-crafted Rooms, Levels, enemies, items, etc, and include them in the game, but that is not strictly necessary.
+		Everything encountered by Characters during a Job is procedurally generated. If the GQ wishes, she can create hand-crafted Rooms, Levels, enemies, items, etc, and include them in the game, but that is not strictly necessary.
 		
 	1.3.0.0 The System
 			
@@ -27,9 +27,9 @@
 		║ ─────────────────────────────────────────────────────────────────                         ║
 		║ Table 1: Initial four Degrees of Success.                                                 ║
 
-	Nests & Insects' roleplaying system is called Fuzzy d100 (fd100). fd100 is designed to eliminate mental arithmetic from the process used to determine the outcome of characters' actions. It is a percentile system where characters are defined by Features rated on a scale from 1 to 100, and where a d100 is rolled for action resolution. the d100 in fd100 generates results from "00" to "99".
+	Nests & Insects' roleplaying system is called Fuzzy d100 (fd100). fd100 is designed to eliminate mental arithmetic from the process used to determine the outcome of Characters' actions. It is a percentile system where Characters are defined by Features rated on a scale from 1 to 100, and where a d100 is rolled for action resolution. the d100 in fd100 generates results from "00" to "99".
 
-	The "Fuyzzy" in the fd100 name refers to the six possible Degrees of Success or Failure of an action (DoS). To determine the DoS of an action, players describe their character's Intent, then roll a d100 and compare it to two target numbers, "Effort", and "Resistance".
+	The "Fuyzzy" in the fd100 name refers to the six possible Degrees of Success or Failure of an action (DoS). To determine the DoS of an action, players describe their Character's Intent, then roll a d100 and compare it to two target numbers, "Effort", and "Resistance".
 
 	To roll under or equal to Effort is to "Match" Effort. To roll over Resistance is to "Beat" Resistance. If the d100 roll matches Effort, the initial DoS is a Success, otherwise it is a Failure. If the d100 roll Beats Resistance, the initial DoS is a Complete Success or a Partial Failure, otherwise it is a Partial Success or a Complete Failure. Table 1 lists the four initial DoS and how they can be achieved.
 
@@ -47,10 +47,10 @@
 		A Shift Up moves the DoS from worse to better, and a shift Down moves it from better to worse. With enough Shifts Up, the initial DoS may improve beyond Complete Success and become a Critical Success. With enough Shifts Down, the initial DoS may worsen beyond Total Failure and become a Critical Failure. Table 2 illustrates the hierarchy of the Six Degrees of Success.
 		
 		Note
-			The way that modifiers work in fd100 is a bit of a departure from the standard in TTRPGs, where a modifier is usually a number added to a roll, or to a character's stat. In fd100, modifiers are instead target numbers compared to a d100 roll, in the same way as Efort and Resistance. The purpose of this reform is to avoid mental arithmetic during the most involved moments of play, for instance, during Combat.
+			The way that modifiers work in fd100 is a bit of a departure from the standard in TTRPGs, where a modifier is usually a number added to a roll, or to a Character's stat. In fd100, modifiers are instead target numbers compared to a d100 roll, in the same way as Efort and Resistance. The purpose of this reform is to avoid mental arithmetic during the most involved moments of play, for instance, during Combat.
 
 	1.3.2.0 Describing Results
-		What the DoS of an action means depends on a player's description of her character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the character's Intent.
+		What the DoS of an action means depends on a player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
 		
 	1.3.3.0 Decile Dice
 
@@ -67,18 +67,629 @@
 		║ Table 3: Decile dice, used for quantification of percentile effects. d100 is also a       ║
 		║ decile die. The d20 does not need a "tens" die and is rolled on its own.                  ║
 
-		Some actions require quantification of their results. To quantify the results of actions on the same percentile scale as character's Features, Nests & Insects uses decile dice: the d20, d40, d60, d80, d120, and the d100 itself. The d20 is a single, twenty-sided die, with faces numbered 0, 1, .. 19. The d40, d60, d80, d100, and d120 are composite dice, comprised of a d4, d6, d8, d10, and d12 as the "tens" die, and a d10 as the "ones" die. Both the ones and tens dice have faces numbered 0, 1, ..., n-1, where "n" is the number of faces on the die.
+		Some actions require quantification of their results. To quantify the results of actions on the same percentile scale as Character's Features, Nests & Insects uses decile dice: the d20, d40, d60, d80, d120, and the d100 itself. The d20 is a single, twenty-sided die, with faces numbered 0, 1, .. 19. The d40, d60, d80, d100, and d120 are composite dice, comprised of a d4, d6, d8, d10, and d12 as the "tens" die, and a d10 as the "ones" die. Both the ones and tens dice have faces numbered 0, 1, ..., n-1, where "n" is the number of faces on the die.
 
 	1.3.4.0 Minigames
-		The fd100 rules outlined in the previous sections suffice to resolve most actions a character may take. To add more variety, and more detail, to the basic rules, fd100 defines a number of "minigames".
+		The fd100 rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more variety, and more detail, to the basic rules, fd100 defines a number of "minigames".
 		
 		Minigames are special sets of rules for situations that are of special interest to a game. There are four minigames in Nests & Insects: Combat, Survival & Exploration; Hunting & Foraging; and Resting & Healing.
 		
 		Minigames are described in detail in Section "Minigames" of the "System" Chapter.
 	
 2.0.0.0 Characters
-	In Nests & Insects, players each control a Character: an arthropod mercenary on a Job to infiltrate a Nest. Players control their characters by describing their character's actions, then the players roll the dice to find out what happens. The Game Queen (GQ) rests the dice and determines the outcome of the character's actions.
+	In Nests & Insects, players each control a Character: an arthropod mercenary on a Job to infiltrate a Nest. Players control their Characters by describing their Character's actions, then the players roll the dice to find out what happens. The Game Queen (GQ) rests the dice and determines the outcome of the Character's actions.
 	
-	Nests & Insects: Metamorphosis provides rules for players to create their own bugs of death. Players may also choose a character from one of six classes: Ants, Beetle, Ladybug, Scorpion, Spider, and Wasp.
+	Nests & Insects: Metamorphosis provides rules for players to create their own bugs of death. Players may also choose a Character from one of six classes: Ants, Beetle, Ladybug, Scorpion, Spider, and Wasp.
 	
-	The following sections describe the Nests & Insects characters, their classes, their Features, and the character sheets that record their Features.
+	The following sections describe the Nests & Insects Characters, their classes, their Features, and the Character sheets that record their Features.
+	
+	2.1.0.0 Character Selection
+		To begin playing the game, players can select one of the six Character classes. The class determines the Character's starting Features.
+		
+		If the players and the GQ prefer, a blank sheet is provided for creating custom starting Characters. Rules for Character creation can be found later in this Chapter.
+		
+	2.2.0.0 Character Death
+		When a Character dies, the player is free to select or create a new Character.
+		
+		The new Character begins in the same Room of the Nest as the other players' Characters.
+		
+		The new Character can start as the same class as the old Character, even if it was a custom class.
+		
+		2.2.1.0 The Cost of Death
+			The only mechanical consequence of Character death is that a player must start with a fresh Character, with base stats, without XP, and without any Items (though some of the Items in a dead Character's Inventory may remain on the floor of the Nest).
+			
+			If playing a custom class, it can be helpful to keep a record of what your Character looked like at creation if you intend to come back as the same class upon death.
+		
+	2.3.0.0 Character Sheet
+		In Nests & Insects, Characters are describe dby percentile-rated Features, listed in a Character sheet specific to that Character.
+		
+		MAY BE REWORKED> NOT SETTLED YET.
+		There are five categories of Features: Core, Combat, Survival, Abilities, and Inventory. These are covered in more detail in the "System" Chapter. They are briefly covered here as they relate to the Character sheets.
+		
+		2.3.1.0 Class Header
+			The first area in a Character sheet is its Class Header, listing the name of the game and the name of a Character's class.
+			
+			INSERT FIGURE HERE
+			
+		2.3.2.0 Core Attributes Area
+			Under the Class Header is the Core Attributes Area. Core Attributes are Features that represent innate abilities of Characters in a Class.
+			
+			Nests & Insects: Metamorphosis Characters have four Core Attributes
+			
+			
+║ Attribute      Description                                                                ║
+║ ───────────────────────────────────────────────────────────────────────────────────────   ║
+║ Speed          How fast the Character can move; Dexterity, precision, fine manipulation.  ║
+║ Strength       Physical strength and toughness; Push, pull, break, and endure harm.       ║
+║ Ken            Wisdom and Logic; reasoning and knowledge of the world.                    ║
+║ Passions       Willpower, morale, strength of spirit, courage, and influence              ║
+║ ───────────────────────────────────────────────────────────────────────────────────────   ║
+
+			- XP Tickboxes. In the Core Attributes Area each attribute is listed with an empty tickbox to the left. This is an Experience (XP) Tickbox. XP tickboxes are also found next to Combat Conditions, Survival Features, and Common Abilities.
+			An XP tickbox is ticked to indicate that the relevant Feature has received XP and can increase. More information on XP can be found in LATER SECTION.
+			
+		2.3.3.0 Combat Condition Box
+			The Combat box lists a Character's Initiative, Survival Rate and Wounds. This is also where a Character with Swarming will keep track of their Swarms.
+			
+		2.3.4.0 Special Abilities Box
+			The Special Abilities box lists Abilities that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Specific Abilities ratings.
+			
+			There are five Specific Abilities that Character classes can have at creation/selection: Carapace, Flight, Swarming, Venom, or Web. These are briefly described below.
+			
+			* Carapace: the Character has a hardened carapace that protects her in combat. Beetle, Ladybug, and Scorpion have Carapace.
+			
+			* Flying: the Character can fly. Flying Characters are harder to hit in Combat by ranged attackers. Beetle, Ladybug, and Wasp have Flying.
+			
+			* Swarming: the Character is a swarm of individual insects, or can summon conspecifics to assist her. In Combat, a Character with Swarming loses individuals from the Swarm before taking Wounds. Ants have Swarming.
+			
+			* Venom: the Character has a venomous bite or sting that can bestow Effects such as Agony, Immobilised, Paralysed, or Poisoned to enemies.
+			
+			* Web: The Character can weave webs. Webs can be used to set traps or secure an area. Spider has Web Weaving.
+			
+		2.3.5.0 Effects Box
+			The Effects Box lists ten Effects that a Character can be subject to.
+			
+			Effects are generally detrimental conditions that can affect a Character as a result of attacks in Combat, and other minigames. The ten Effects in the Effect Box are listed below with a brief description of each.
+			
+
+║ Effect           The Character...                                                         ║
+║ ────────────────────────────────────────────────────────────────────────────              ║
+║ Agony            ...is in agony and must overcome her pain to act                         ║
+║ Bleeding         ...automatically takes a Wound each Combat Turn                          ║
+║ Blind            ...can't see. Inherent Blindness ignores darkness and applied blindness. ║
+║ Charmed          ...will not Attack, but may take other Actions.                          ║
+║ Confused         ...will only Attack and Move, will not take other actions.               ║
+║ Immobilised      ...cannot move and can only Attack in close range                        ║
+║ Infected         ...acquires a random Effect each Turn this Effect Applies                ║
+║ Paralysed        ...cannot take any Actions                                               ║
+║ Poisoned         ...has a negative modifier equal to Poisoned to all Actions              ║
+║ Stunned          ...loses her next Turn in Combat                                         ║
+║ ────────────────────────────────────────────────────────────────────────────              ║
+
+		2.3.6.0 Attack Boxes
+			
+			The Attack boxes list the details of a Character's two Attacks. Each Character Class starts with its own two Attacks. As their Features improve, Characters can learn new and stronger Attacks.
+		
+		2.3.7.0 Disposition Track
+		
+			The Disposition Track follows a Character's Disposition, a representation of both position and morale in Combat.
+			
+			The Disposition Track includes reminder text to point out the direction in which Disposition Advances (increases) or Recoils (decreases) in Combat. Disposition is better the further it moves towards "Charging".
+			
+			In Combat, Disposition acts as a positive or negative modifier on all Actions. At "Retreating", a Character is running away from combat and cannot take Actions other than Move. At "Charging", all of a Character's Actions Shift Up 1.
+		
+		2.3.8.0 Common Abilities Box
+			
+			The Common Abilities box lists Abilities common to all Character classes.
+			
+			Like Attributes and Conditions, Common Abilities have an XP Tickbox and can be improved with experience, TABLE briefly describes Common Abilities and their use.
+			
+║ Common Ability        Description                                                         ║
+║ ─────────────────────────────────────────────────────────────────────────────────         ║
+║ Construction          Make traps, secure a Room for Resting and Healing                   ║
+║ Eusociology           Knowledge of the ways of Nests and their inhabitants                ║
+║ Exploration           Search a Room, or scout ahead to unvisited Rooms                    ║
+║ Foraging              Search for sustenance, or Food Items with special abilities         ║
+║ Healing               Remove Wounds or detrimental Effects                                ║
+║ Hunting               Hunt prey for sustenance or other uses                              ║
+║ Leadership            Support allies and improve their Disposition in Combat              ║
+║ Perception            Find secrets and hidden items and Rooms                             ║
+║ Signalling            Display aposematic markings, emit pheromonic signals                ║
+║ Sneaking              Move and act with stealth                                           ║
+║ ─────────────────────────────────────────────────────────────────────────────────         ║
+		
+		2.3.9.0 Luck Box
+		
+			The Luck Box (Figure 10) lists the Character's Luck. Luck is used as a Positive Modifier to all of a Character's Actions and Attacks in the game. The current Luck Rating is marked by the radio button next to the number.
+			
+			Characters start the game with 11% Luck. During the game, a Character's Luck Rating changes whenever the player rolls a d100 and the same digit appears on both d10s. This is known as "rolling a double". When a double is rolled, the Luck marker is moved to the rating that matches the double, and the Character assigns XP into the Feature of their choice.
+			
+		2.3.10.0 Inventory & Hunger
+			
+			2.3.10.1 Inventory
+				The Inventory Box lists a Character's possessions such as Food items, slaved Prey, and other items.
+				
+				Each line in the Inventory box has a "Depleted" tickbox that indicates whether the item has been depleted as a result of its use.
+				
+				Characters can only carry as many Items as there are lines in the Inventory box: that is 9 lines for 9 items.
+				
+			2.3.10.2 Hunger Box
+				
+				The Food box lists the Character's Hunger rating and has a radio-button for the Starving Effect. Starving is ticked when Hunger reaches 100%. While Starving, a Character takes a penalty in the DoS of all minigame Actions.
+║                                                                                           ║
+║ ┌[Food]───────────────────┐                                                               ║
+║ │ ○ Hunger........[___0%] │                                                               ║
+║ └<^Starving>──────────────┘                                                               ║
+║ ───────────────────────────                                                               ║
+
+	2.4.0.0 Character Classes (TBD)
+	
+		2.4.1.0 Ants
+		
+		2.4.2.0 Beetle
+		
+		2.4.3.0 Ladybug
+		
+		2.4.4.0 Scorpion
+		
+		2.4.5.0 Spider
+		
+		2.4.6.0 Wasp
+		
+	2.5.0.0 Character Creation
+	
+		2.5.1.0 Selecting Species
+			
+			_Diet_
+		
+		2.5.2.0 Assigning Core Attributes
+			
+			2.5.2.1 Calculating Combat Conditions
+		
+		2.5.3.0 Selecting Special Abilities
+		
+			2.5.3.1 Swarming
+		
+		2.5.4.0 Assigning Common Abilities
+		
+		2.5.5.0 Selecting Attacks
+		
+		2.5.6.0 Starting Inventory
+		
+	2.6.0.0 Character Features (TBD)
+	
+		2.6.1.0 Attributes (TBD)
+		
+			2.6.1.1 Speed
+			
+			2.6.1.2 Strength
+
+			2.6.1.3 Ken
+			
+			2.6.1.4 Passions
+			
+		2.6.2.0 Combat Conditions
+		
+			2.6.2.1 Initiative
+			
+			2.6.2.2 Survival Rate
+			
+			2.6.2.3 Wounds
+			
+		2.6.3.0 Special Abilities
+			
+			2.6.3.1 Blind
+			
+			2.6.3.2 Carapace
+			
+			2.6.3.3 Flight
+			
+			2.6.3.4 Swarming
+			
+			2.6.3.5 Venom
+			
+			2.6.3.6 Web
+			
+		2.6.4.0 Common Abilities
+		
+			2.6.4.1 Construction
+			
+			2.6.4.2 Eusociology
+			
+			2.6.4.3 Exploration
+			
+			2.6.4.4 Foraging
+			
+			2.6.4.5 Healing
+			
+			2.6.4.6 Hunting
+			
+			2.6.4.7 Leadership
+			
+			2.6.4.8 Perception
+			
+			2.6.4.9 Signalling
+			
+			2.6.4.10 Sneaking
+			
+		2.6.5.0 Survival Features
+		
+			2.6.4.1 Inventory
+			
+			2.6.4.2 Hunger
+			
+			2.6.4.3 Luck
+		
+		2.6.6.0 Attacks
+		
+			See SECTION for a list of available Attacks and their requirements.
+			
+		2.6.7.0 Effects
+		
+			This Section defines the rules for handling Effects. Effects are physical or mental conditions that may affect a Character during the course of a game.
+			
+			The Effects rules rely on the rules for Boolean Rolls in Section 3.4.2.1, and the rules for Quantification in Section 3.4.1.6.
+			
+			2.6.7.1 Effects Ratings
+			
+				Nests & Insects Characters may be subject to ten Effects, all of which are detrimental. The ten Effects are listed in the Character sheet, in the Effects box.
+				
+				Each Effect has a Rating. When the rating of an Effect on a Character's sheet is more than 0%, we say that the Character is "subject to" the Effect. Alternatively, we say that the Effect "applies to" the Character.
+				
+			2.6.7.2 Acquiring Effects
+			
+				Characters start with all Effects in their Character Sheet rated at 0%. A Character may acquire an Effect turing the course of the game. Characters acquire effects as a result of:
+				
+				* their Actions,
+				
+				* the Actions of enemies,
+				
+				* the Events that occur while they Explore the Nest.
+				
+				When a Character acquires an effect, we say that the Effect is "bestowed" on the character. When an effect is bestowed on a character, the Effect's rating may increase above 0% and the Character may become subject to the Effect.
+				
+			2.6.7.3 Checking Effects
+				
+				When a Character is subject to one or more Effects, those Effects must be checked during Combat, Survival & Exploration, or Hunting & Foraging. Each minigame determines when Effects must be "checked".
+				
+				When the rules of a minigame say that Effects must be checked, all Effects a Character is subject to are checked simultaneously. To check all Effects a Character is subject to, make a single Boolean Roll. The character's player makes the roll.
+				
+				Compare the result of the Roll against each Effect, using the Effect's Rating as Resistance. For each Effect checked this way:
+				
+				* If the Boolean Roll beats the Effect's rating, the character rolls to reduce that Effect.
+				
+				*If the Boolean Roll does not Beat the Effect's Rating, that Effect "Triggers".
+				
+				The next Section describes how to handle Triggered Effects.
+				
+			2.6.7.4 Agony
+			
+				When an Agony Effect Triggers, the subject Character has a chance to become Stunned.
+				
+				Make a Boolean Roll with Agony as Resistance.
+				
+				* If the roll Beats, nothing happens.
+				
+				* If the roll does not beat, you are Stunned. Quantify with Agony.
+				
+			2.6.7.5 Bleeding
+				
+				When a Bleeding Effect Triggers, the Character takes 1 Wound.
+				
+			2.6.7.6 Blinded
+				
+				When a Blinded Effect Triggers, nothing happens.
+				
+				However, a Blinded Character receives a Negative Modifier as if they were subject to Darkness of the same Rating.
+				
+			2.6.7.7 Charmed
+				
+				When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. They may take other Actions and Manoeuvers as normal.
+				
+			2.6.7.8 Confused
+				
+				When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack and Move Actions during their turn. Targets for Attacks are selected at random. If no targets are within range, the Character Moves towards the nearest target.
+				
+				If the Character is not participating in Combat, Combat begins between the Confused Character and the other Characters in the Room.
+				
+			2.6.7.9 Immobilised
+				
+				When an Immobilised Effect triggers, nothing special happens.
+				
+				However, an Immobilised Character cannot take any Actions that would initiate a Survival & Exploration or Hunting & Foraging minigame.
+				
+				In Combat, an Immobilised Character cannot move, and can only make Close Range Attacks.
+			
+			2.6.7.10 Infected
+			
+				When an Infected Effect triggers, the subject Character is bestowed a random Effect.
+				
+				Select an Effect at random (roll a die). Roll to Set or Increase the selected Effect, Quantify with Infected.
+				
+				Write the new Effect's rating on the Character sheet.
+				
+				The bestowed Effect triggers.
+				
+			2.6.7.11 Paralyzed
+			
+				When a Paralyzed Effect Triggers, nothing special happens.
+				
+				However, a Paralyzed Character cannot take any actions until she is no longer Paralyzed.
+				
+			2.6.7.12 Poisoned
+			
+				When a Poisoned Effect triggers, Roll to Increase Poisoning.
+				
+				A character subject to a Poisoned Effect has a static, negative modifier equal to her Poisoned rating to all Actions.
+				
+			2.6.7.13 Stunned
+			
+				When a Stunned Effect triggers, the subject Character cannot take any Actions until the next time Effects are Checked.
+				
+		2.6.8.0 Inventory Items
+			
+			Inventory Items are the Characters' Features representing consumable resources carried by a Character and that the character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing minigames.
+			
+			Players' Characters start with one Inventory Item each, determined by their Class. Characters may also find and pick up new Items during Survival & Exploration and Hunting & Foraging.
+			
+			Inventory Items carried by a Character are recorded on the Character's sheet, in the Inventory box.
+			
+			Like all Features, Inventory Items have a descriptive name and a rating that represents the amount of the relevant resource. Items also have types that describe their use, recorded in parentheses next to the Item's name. One type of Item are Food Items that can be eaten to fend off Hunger, or grant Special Abilities.
+			
+			2.6.8.1 Carrying Items
+			
+				Inventory Items are carried about the Character's insect and kept track of in the Character's Inventory. A Character can only carry as many Items as there are entry "slots" in her Inventory. Characters' Inventories have nine Slots.
+				
+				Inventory Slots are blank lines with a rating field and a depleted indicator (See Section "Consuming Items", later in this Chapter.
+				
+			2.6.8.2 Acquiring Items
+			
+				Characters acquire Inventory Items in one of two ways:
+				
+				* All Character classes start with one Inventory Item recorded on their Character sheet. In that case, an Item's initial rating and its Types are listed on the Character sheet.
+				
+				* Characters may find new Inventory Items as Risks or Rewards generated during the Survival & Exploration, or Hunting & Foraging minigames. In that case, an Item's initial Rating is generated by a Quantification Roll according to the rules of the minigame.
+				
+				_Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the character's Inventory).
+				
+			2.6.8.3 Dropping Items
+				
+				Items may be "dropped" from a Character's Inventory either automatically, when the Character picks up an Item and her Inventory is already full; or voluntarily, when a player decides it.
+				
+				_Dropped Items_ Dropped Items are removed from a Character's Inventory and cannot be used anymore, unless they are picked up again.
+				
+				_Automatically Dropping Items_ When a Character tries to pick up a new Item and her Inventory is already full, the item is "dropped" instead. No entry is made for the Item in the Character's Inventory.
+				
+				_Voluntarily Dropping Items_ A Character is free to drop Items from her Inventory at any time.
+				
+				_Inert Items_ When an Inventory Item is Dropped, it is left lying on the floor of the Nest in the current Room. Characters, including the Character who dropped an Item), or Nest Denizens, may pick up dropped Items and add them to their own Inventory.
+				
+				_Lost Items_ Dropped Items stay on the floor of a Room where they were dropped, but have a chance to be lost. Lost Items disappear, and they can no longer be found or picked up. When All Characters leave a Room where an Item was dropped (by anyone), the GQ makes a Boolean Roll with Resistance equal to Level. If the roll Beats, the item remains on the Room floor. If the Roll does not Beat, the Item is lost.
+				
+				_Cursed Items_ Some Items are cursed, and may not be removed from a Character's Inventory until their curse is lifted.
+				
+			2.6.8.4 Item Types
+			
+				Inventory Items can belong to one of six types. An Item's type is recorded next to its name on a character's sheet, in square brackets. The six item types are listed in TABLE. below, along with a type symbol used to record the Item's type in a Character's Inventory, and a brief description of each type:
+				
+║ Item Type    Symbol    Description                                                        ║
+║ ──────────────────────────────────────────────────────────────────────────────────────    ║
+║ Companion    [C]       A creature accompanying a character. May be edible.                ║
+║ Food         [F]       Used to pay a Hunger Cost. May bestow Effects, grant Abilities.    ║
+║ Hint         [H]       May provide useful information.                                    ║
+║ Light        [L]       Used to pay a Darkness Cost. May be edible.                        ║
+║ Materials    [M]       Used to build a Shelter for Resting and Healing.                   ║
+║ Message      [S]       Must be collected or delivered as part of a Job.                   ║
+║ ──────────────────────────────────────────────────────────────────────────────────────    ║
+
+				_Recording Item Types_ To record an item's type on a Character's Sheet, write its type symbol in square brackets next to the Item's Name in the Character's Inventory.
+				
+				_Items with Multiple Types_ Some Items may have multiple types, the "Food" type, and one or more other types. Such Items can be used to pay a Hunger Cost and perform another function, such as paying a Darkness Cost.
+				
+			2.6.8.5 Changing Item Types
+			
+				The types of an Item may change. This happens when an Item is eaten, or when it spoils.
+				
+				_Eaten Items_ When a Food item is eaten, all types it has other than Food are removed from it and the Item can henceforth only be used as a Food Item. The Item's name is changed to indicate it is only Food, by appending the word "Carcass" or "Remains" to its original name.
+				
+║ ┌[Example 2]────────────────────────────────────────────────────────────────────────────┐ ║
+║ │ Cody's Spider character has a Gloworm: 45% Item in her Inventory. The Gloworm Item    │ ║
+║ │ has types Food and Light. Spider must pay a Hunger Cost and Cody decides that she     │ ║
+║ │ will eat some of the Gloworm to pay it. The Gloworm is now no longer a Light Item.    │ ║
+║ │ Cody changes the Gloworm's name on Spider's character sheet to "Gloworm Carcass" as a │ ║
+║ │ reminder that the Gloworm is now only useable as Food.                                │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                                           ║
+║ ○ Gloworm [L,F]_________________:[__45%] │  ○ Gloworm Carcass [F]___________:[__45%] │    ║
+║ ──────────────────────────────────────────  ──────────────────────────────────────────    ║
+║ Figure 20: Spider's Gloworm (left) and its Carcass (right) after it was eaten.            ║
+
+				_Spoiled Items_ Food Items can become Spoiled as the result of paying a Spoilage Cost during the Survival & Exploration or Hunting & Foraging minigames. Spoiled Items are past their expiry date and cannot be consumed without risking adverse effects. Make sure to include "Spoiled" in the item's name.
+				
+			2.6.8.6 Consuming Items
+				
+				Inventory Items are "consumed" and may become "depleted" or "exhausted" as a result of taking an Action or paying a Cost. A depleted Item can still be used, but if it is depleted again, it becomes exhausted.
+				
+				_Consumption Roll_ To consume an Inventory Item to take an Action or pay a Cost, make a Boolean Roll. The Effort for the Roll is the Item's Rating. The Roll is made immediately after the Action is resolved, or in the process of paying the Cost.
+				
+				* If the Roll succeeds, roll to reduce the Item, Quantify with Item Rating.
+				
+				* If the Roll fails, roll to reduce the Item, and it becomes Depleted.
+				
+				* If the Roll fails and the item is already depleted, the Item becomes Exhausted. Remove the Item from the Character's Inventory.
+				
+				_Exhausted Items_ When an Inventory Item is exhausted, it can no longer be consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other characters.
+				
+			2.6.8.7.0 Food Items
+				
+				2.6.8.7.1 Consuming Food Items
+					
+					When a Food Item is consumed, the Hunger of the Character consuming the Item may be reduced.
+					
+					When a Character consumes a Food Item:
+					
+					* Make a Consumption Roll as described in Section
+					
+					* Then, make a Quantification Roll to reduce the Character's Hunger Rating. Quantify with Hunger.
+					
+					_Effects of Consuming Food Items_ Some Food Items bestow an Effect or grant an Ability to the consuming Character. Such Items' Effects trigger as soon as an Item is consumed. Refer to SECTION for the rules of triggering Effects.
+					
+				2.6.8.7.2 Generating Food Items
+				
+					Nests & Insects Food Items are procedurally generated like everything else encountered during a Job.
+					
+					Generating a Food Item is done in two steps:
+					
+					1.	Generate the Food Item's Form.
+					
+						When a Food Item is first generated, all a Character knows of the Item is what it looks like.
+						
+						A Food Item's Form includes: a) the Item's colour; b) the Item's type; and c) the amount of the Item found.
+						
+					2. 	Generate the Food Item's Function.
+					
+						When a Food Item is first generated, the Item is "Unknown" and a character must examine it, or consume it, to determine its Function.
+						
+						In general, to determine a Food Item's Function is to "Identify" the Food Item.
+						
+						When a Food Item is Identified, the following Functions are generated: a) the Item's Condition; b) its Alignment; and c) its Abilities.
+						
+					_Known Items_ Once a Food Item is Identified, it becomes a "Known" Item. Known Items are generated by simple randomisation. The circumstances in which Known or Unknown Food Items are described in SECTION. Unknown Food Items are generated as Risks while Known Food Items are generated as Rewards. TABLES in SECTION list the Chance to generate Food Items as Risks or Rewards during the Survival & Exploration minigame.
+					
+					The following Sections describe how to generate Food Items' Form and Function.
+					
+				2.6.8.7.3 Generating a Food Item's Form
+						
+					When an Item is first found, roll to generate the Item's Form, as follows:
+					
+					1. Generate the Item's Colour.
+					
+						Roll a d6 and match the result on the Food Colour Table below.
+				
+║ d6        Food Colour                                                                     ║
+║ ─────────────────────────                                                                 ║
+║ 1         Black                                                                           ║
+║ 2         Blue                                                                            ║
+║ 3         Green                                                                           ║
+║ 4         Red                                                                             ║
+║ 5         White                                                                           ║
+║ 6         Yellow                                                                          ║
+║ ─────────────────────────                                                                 ║
+║ Table 10: Food Colours                                                                    ║
+					
+					2. Generate the Item's Food Type
+					
+						Roll a d10 and match the result on the Food Type Table below.
+						
+
+║ d10        Food Type    d10       Food Type                                               ║
+║ ──────────────────────  ──────────────────────                                            ║
+║   1        Nectar         6       Aphid                                                   ║
+║   2        Honey          7       Cricket                                                 ║
+║   3        Honeydew       8       Fly                                                     ║
+║   4        Fungus         9       Worm                                                    ║
+║   5        Leaf          10       Larva                                                   ║
+║ ──────────────────────  ──────────────────────                                            ║
+║ Table 11: Food Types                                                                      ║
+
+					3. Quantify the amount of the Item found.
+					
+						Roll to Set the new Item's Rating. Quantify with Level.
+						
+				2.6.8.7.4 Identifying Food Items
+				
+					Food Items start out as Unknown Items, whose Form is known, but whose Function is not known. A Character can identify a Food Item in one of two ways:
+					
+					1.	Make a Boolean Roll to identify the Item's Function.
+					
+						The Player's Character uses Ken as the Effort for the Roll. They may instead use Foraging to Identify an herbivore Food Item, or Hunting to Identify an insectivore Food Item.
+						
+						If the Roll succeeds, the GQ rolls to generate the Item's Function. the Item becomes Known to the Character who Identified it.
+						
+						Otherwise, the Item remains Unknown. The Character may now only Identify the Item by consuming it, as described below.
+						
+						Other Characters are free to attempt to Identify the Item using their own Rolls.
+						
+					2.	Consume the Item and note its Effects.
+						
+						If the Boolean Roll to identify aFood Item's Function fails, the Item can only be Identified by consuming it, either while paying a Hunger Cost or during a Resting & Healing minigame.
+						
+						Obviously, consuming the Unknown Food Item carries a risk.
+						
+						If a Character consumes an Item to Identify it, generate the Item's Function as described in the following Section.
+						
+						Any Effects determined by a Food Item's Function trigger when the Item is consumed.
+						
+						Once all Effects caused by consuming an unknown Food Item have triggered, the Item is a Known Item.
+						
+				2.6.8.7.5 Generating a Food Item's Function
+				
+					When an Item is Identified in one of the two ways described in the previous Section, roll to generate the Item's Function, as follows:
+					
+					1.	Generate the Item's Condition.
+					
+						Roll a d10 and match the Result on the Item Condition Table below.
+║ d10 Result  Condition   Description                                                       ║
+║ ──────────────────────────────────────────────────────────────────────────────────        ║
+║ 0-1         Ordinary    Nothing special, an ordinary Item                                 ║
+║ 2-3         Blessed     Roll to increase amount if Beneficial; decrease if Harmful        ║
+║ 4-5         Cursed      Roll to increase amount if Harmful; cannot be dropped             ║
+║ 6-7         Spoiled     May bestow Infected when consumed.                                ║
+║ 8-9         Nutritious  Roll twice to decrease Hunger when consumed.                      ║
+║ ──────────────────────────────────────────────────────────────────────────────────        ║
+║ Table 12: Item Conditions                                                                 ║
+
+					2. Generate the Item's Alignment and Abilities
+					
+					
+║ d20 Result    Beneficial Ability                                                          ║
+║ ──────────────────────────────────────────────────────────────────────────────────────    ║
+║ 1-4           Mutation - Gain a Special Ability (TABLE). Exhausted once Consumed.         ║
+║   5           Healing - reduce Wounds by 1                                                ║
+║   6           Relief - reduce one Effect's rating to 0% (choose the Effect at random)     ║
+║   7           Restoration - reduce Wounds by 1, reduce a chosen Effect's rating to 0%     ║
+║   8           Courage - start next Combat in Charging Disposition.                        ║
+║   9           Rage - start next Combat in Charging Disposition, take a Wound              ║
+║  10           Clarity - +d80 to next Exploration, Foraging, Hunting or Perception Roll    ║
+║ ──────────────────────────────────────────────────────────────────────────────────────    ║
+║ Table 14: Beneficial Abilities                                                            ║
+║ d20 Result    Harmful Ability                                                             ║
+║ ───────────────────────────────────────────────                                           ║
+║ 11            Agony - gain Agony                                                          ║
+║ 12            Bleeding - gain Bleeding                                                    ║
+║ 13            Blindness - gain Blinded                                                    ║
+║ 14            Charming - gain Charmed                                                     ║
+║ 15            Confusion - gain Confused                                                   ║
+║ 16            Immobilisation - gain Immobilised                                           ║
+║ 17            Infection - gain Infected                                                   ║
+║ 18            Paralysis - gain Paralysed                                                  ║
+║ 19            Poisonning - gain Poisoned                                                  ║
+║ 20            Stunning - gain Stunned                                                     ║
+║ ───────────────────────────────────────────────                                           ║
+║ Table 15: Harmful Abilities                                                               ║
+
+List of Special Abilities:
+
+║ d20 Result    Special Ability                                                             ║
+║ ───────────────────────────────────────────────                                           ║
+║ 1-2           Blindsense - Gain Blindness                                                 ║
+║ 3-4           Armor - Gain Carapace                                                       ║
+║ 5-6           Flight - Gain Flight                                                        ║
+║ 7-8           Swarms - Gain Swarming                                                      ║
+║ 9-10          Venom - Gain Venom                                                          ║
+║ 11-12         Webs - Gain Web                                                             ║
+║ 13            Sacrifice - Gain Autothysis                                                 ║
+║ 14            Chill - Gain Chill                                                          ║
+║ 15            Heat - Gain Heat                                                            ║
+║ 16            Hydro - Gain Hydro                                                          ║
+║ 17            Poles - Gain Magnet                                                         ║
+║ 18            Plants - Gain Plant                                                         ║
+║ 19            Charge - Gain Static                                                        ║
+║ 20            Vibes - Gain Vibe                                                           ║
+║ ───────────────────────────────────────────────                                           ║
+
+					_Food Item Abilities_ Food Items' Abilities take effect immediately upon being consumed. This is true for both Known and Unknown Items.
+					
+					_Gaining Abilities_ When a Character gains a new Ability, such as Flying or Carapace, roll to set or increase the Ability's Rating. Quantify with the Ability's Current Rating.
+					
+					_Gaining Effects_ When a Character gains an Effect, such as Agony or Bleeding, roll to set or increase the Effect's Rating. Quantify with Food Item Rating.
