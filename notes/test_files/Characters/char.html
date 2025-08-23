@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Character Sheet</title>
+		<style>
+			.form-group {
+				display: flex;
+				align-items: left;
+				margin-right: 20px;
+			}
+			label {
+				display: inline-block;
+				width: 100px;
+			}
+			
+			label[class="disp-label"] {
+				width: auto;
+				text-align: left;
+			}
+			
+			input[type="text"] {
+				width: 93px;
+			}
+			input[type="text"][class="long-text"] {
+				width: 315px;
+			}
+			input[type=checkbox] {
+				appearance: none;
+                width: 10px;
+                height: 10px;
+                border: 1px solid black;
+                border-radius: 50%;
+			}
+			input[type=checkbox]:checked {
+				background: red;
+			}
+			
+			.form-row {
+				display: flex;
+				align-items: left;
+			}
+			.area-div {
+				margin-left: 20px;
+				margin-top: 30px;
+			}
+			div[id="atks-inner"] {
+				display: flex;
+				alighn-items: left;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<div class="area-div">
+			<input type="file" id="inputfile">
+			<script>
+				document.getElementById('inputfile')
+					.addEventListener('change', function () {
+
+						let fr = new FileReader();
+						fr.onload = function () {
+							let strData = fr.result;
+							let jsonData = JSON.parse(strData);
+									
+							loadFromJSON(jsonData);
+						}
+
+						fr.readAsText(this.files[0]);
+					})
+					
+				function loadFromJSON(jData) {
+					let form = document.getElementById("char-form");
+					let formData = {};
+					for (let i = 0; i < form.elements.length; i++) {
+						let element = form.elements[i];
+						if(element.type == "checkbox") {
+							element.checked = jData[element.name]
+						}
+						else if (element.type !== "submit") {
+							element.value = jData[element.name]
+						}
+					}
+				}
+			</script>
+			<form id="char-form">
+				<br>
+				<div id="name-div">
+					<label for="char_name" class="label_text">Char name:</label>
+					<input type="text" id="char_name" name="char_name" placeholder="John Insect">
+				</div>
+				<div id="core-div">
+					<br>
+					<strong>Core Attributes</strong>
+					<div class="form-row">
+						<div class="form-group">
+							<label for="SPE">Speed:</label>
+								<input type="checkbox" id="spe-c0" name="spe-c0">
+								<input type="checkbox" id="spe-c1" name="spe-c1">
+								<input type="checkbox" id="spe-c2" name="spe-c2">
+								<input type="checkbox" id="spe-c3" name="spe-c3">
+								<input type="checkbox" id="spe-c4" name="spe-c4">
+								<input type="checkbox" id="spe-c5" name="spe-c5">
+								<input type="checkbox" id="spe-c6" name="spe-c6">
+								<input type="checkbox" id="spe-c7" name="spe-c7">
+								<input type="checkbox" id="spe-c8" name="spe-c8">
+								<input type="checkbox" id="spe-c9" name="spe-c9">
+						</div>
+						<div class="form-group">
+							<label for="STR">Strength:</label>
+								<input type="checkbox" id="str-c0" name="str-c0">
+								<input type="checkbox" id="str-c1" name="str-c1">
+								<input type="checkbox" id="str-c2" name="str-c2">
+								<input type="checkbox" id="str-c3" name="str-c3">
+								<input type="checkbox" id="str-c4" name="str-c4">
+								<input type="checkbox" id="str-c5" name="str-c5">
+								<input type="checkbox" id="str-c6" name="str-c6">
+								<input type="checkbox" id="str-c7" name="str-c7">
+								<input type="checkbox" id="str-c8" name="str-c8">
+								<input type="checkbox" id="str-c9" name="str-c9">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group">
+							<label for="KEN">Ken:</label>
+								<input type="checkbox" id="ken-c0" name="ken-c0">
+								<input type="checkbox" id="ken-c1" name="ken-c1">
+								<input type="checkbox" id="ken-c2" name="ken-c2">
+								<input type="checkbox" id="ken-c3" name="ken-c3">
+								<input type="checkbox" id="ken-c4" name="ken-c4">
+								<input type="checkbox" id="ken-c5" name="ken-c5">
+								<input type="checkbox" id="ken-c6" name="ken-c6">
+								<input type="checkbox" id="ken-c7" name="ken-c7">
+								<input type="checkbox" id="ken-c8" name="ken-c8">
+								<input type="checkbox" id="ken-c9" name="ken-c9">
+						</div>
+						<div class="form-group">
+							<label for="PAS">Passions:</label>
+								<input type="checkbox" id="pas-c0" name="pas-c0">
+								<input type="checkbox" id="pas-c1" name="pas-c1">
+								<input type="checkbox" id="pas-c2" name="pas-c2">
+								<input type="checkbox" id="pas-c3" name="pas-c3">
+								<input type="checkbox" id="pas-c4" name="pas-c4">
+								<input type="checkbox" id="pas-c5" name="pas-c5">
+								<input type="checkbox" id="pas-c6" name="pas-c6">
+								<input type="checkbox" id="pas-c7" name="pas-c7">
+								<input type="checkbox" id="pas-c8" name="pas-c8">
+								<input type="checkbox" id="pas-c9" name="pas-c9">
+						</div>
+					</div>
+				</div>
+				<div id="combat-div">
+					<br>
+					<strong>Combat Attributes</strong>
+					<div class="form-row">
+						<div class="form-group">
+							<label for="Init">Initiative:</label>
+								<input type="checkbox" id="init-c0" name="init-c0">
+								<input type="checkbox" id="init-c1" name="init-c1">
+								<input type="checkbox" id="init-c2" name="init-c2">
+								<input type="checkbox" id="init-c3" name="init-c3">
+								<input type="checkbox" id="init-c4" name="init-c4">
+								<input type="checkbox" id="init-c5" name="init-c5">
+								<input type="checkbox" id="init-c6" name="init-c6">
+								<input type="checkbox" id="init-c7" name="init-c7">
+								<input type="checkbox" id="init-c8" name="init-c8">
+								<input type="checkbox" id="init-c9" name="init-c9">
+						</div>
+						<div class="form-group">
+							<label for="tr">Threat Rate:</label>
+								<input type="checkbox" id="tr-c0" name="tr-c0">
+								<input type="checkbox" id="tr-c1" name="tr-c1">
+								<input type="checkbox" id="tr-c2" name="tr-c2">
+								<input type="checkbox" id="tr-c3" name="tr-c3">
+								<input type="checkbox" id="tr-c4" name="tr-c4">
+								<input type="checkbox" id="tr-c5" name="tr-c5">
+								<input type="checkbox" id="tr-c6" name="tr-c6">
+								<input type="checkbox" id="tr-c7" name="tr-c7">
+								<input type="checkbox" id="tr-c8" name="tr-c8">
+								<input type="checkbox" id="tr-c9" name="tr-c9">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group">
+							<label for="KEN">Survival Rate:</label>
+								<input type="checkbox" id="sr-c0" name="sr-c0">
+								<input type="checkbox" id="sr-c1" name="sr-c1">
+								<input type="checkbox" id="sr-c2" name="sr-c2">
+								<input type="checkbox" id="sr-c3" name="sr-c3">
+								<input type="checkbox" id="sr-c4" name="sr-c4">
+								<input type="checkbox" id="sr-c5" name="sr-c5">
+								<input type="checkbox" id="sr-c6" name="sr-c6">
+								<input type="checkbox" id="sr-c7" name="sr-c7">
+								<input type="checkbox" id="sr-c8" name="sr-c8">
+								<input type="checkbox" id="sr-c9" name="sr-c9">
+						</div>
+						<div class="form-group">
+							<label for="PAS">Wounds:</label>
+								<input type="checkbox" id="wound-c0" name="wound-c0">
+								<input type="checkbox" id="wound-c1" name="wound-c1">
+								<input type="checkbox" id="wound-c2" name="wound-c2">
+								<input type="checkbox" id="wound-c3" name="wound-c3">
+								<input type="checkbox" id="wound-c4" name="wound-c4">
+								<input type="checkbox" id="wound-c5" name="wound-c5">
+								<input type="checkbox" id="wound-c6" name="wound-c6">
+								<input type="checkbox" id="wound-c7" name="wound-c7">
+								<input type="checkbox" id="wound-c8" name="wound-c8">
+								<input type="checkbox" id="wound-c9" name="wound-c9">
+						</div>
+					</div>
+				</div>
+				<div id="special-div">
+					<br>
+					<strong> Attributes</strong>
+					<div class="form-row">
+						<div class="form-group">
+							<input type="text" id="special_1" name="special_1" placeholder="Special 1">
+								<input type="checkbox" id="special1-c0" name="special1-c0">
+								<input type="checkbox" id="special1-c1" name="special1-c1">
+								<input type="checkbox" id="special1-c2" name="special1-c2">
+								<input type="checkbox" id="special1-c3" name="special1-c3">
+								<input type="checkbox" id="special1-c4" name="special1-c4">
+								<input type="checkbox" id="special1-c5" name="special1-c5">
+								<input type="checkbox" id="special1-c6" name="special1-c6">
+								<input type="checkbox" id="special1-c7" name="special1-c7">
+								<input type="checkbox" id="special1-c8" name="special1-c8">
+								<input type="checkbox" id="special1-c9" name="special1-c9">
+						</div>
+						<div class="form-group">
+							<input type="text" id="special_2" name="special_2" placeholder="Special 2">
+								<input type="checkbox" id="special2-c0" name="special2-c0">
+								<input type="checkbox" id="special2-c1" name="special2-c1">
+								<input type="checkbox" id="special2-c2" name="special2-c2">
+								<input type="checkbox" id="special2-c3" name="special2-c3">
+								<input type="checkbox" id="special2-c4" name="special2-c4">
+								<input type="checkbox" id="special2-c5" name="special2-c5">
+								<input type="checkbox" id="special2-c6" name="special2-c6">
+								<input type="checkbox" id="special2-c7" name="special2-c7">
+								<input type="checkbox" id="special2-c8" name="special2-c8">
+								<input type="checkbox" id="special2-c9" name="special2-c9">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group">
+							<input type="text" id="special_3" name="special_3" placeholder="Special 3">
+								<input type="checkbox" id="special3-c0" name="special3-c0">
+								<input type="checkbox" id="special3-c1" name="special3-c1">
+								<input type="checkbox" id="special3-c2" name="special3-c2">
+								<input type="checkbox" id="special3-c3" name="special3-c3">
+								<input type="checkbox" id="special3-c4" name="special3-c4">
+								<input type="checkbox" id="special3-c5" name="special3-c5">
+								<input type="checkbox" id="special3-c6" name="special3-c6">
+								<input type="checkbox" id="special3-c7" name="special3-c7">
+								<input type="checkbox" id="special3-c8" name="special3-c8">
+								<input type="checkbox" id="special3-c9" name="special3-c9">
+						</div>
+						<div class="form-group">
+							<input type="text" id="special_4" name="special_4" placeholder="Special 4">
+								<input type="checkbox" id="special4-c0" name="special4-c0">
+								<input type="checkbox" id="special4-c1" name="special4-c1">
+								<input type="checkbox" id="special4-c2" name="special4-c2">
+								<input type="checkbox" id="special4-c3" name="special4-c3">
+								<input type="checkbox" id="special4-c4" name="special4-c4">
+								<input type="checkbox" id="special4-c5" name="special4-c5">
+								<input type="checkbox" id="special4-c6" name="special4-c6">
+								<input type="checkbox" id="special4-c7" name="special4-c7">
+								<input type="checkbox" id="special4-c8" name="special4-c8">
+								<input type="checkbox" id="special4-c9" name="special4-c9">
+						</div>
+					</div>
+				</div>
+				<div id="common-div">
+					<br>
+					<strong>Effects</strong>
+					<div class="form-row">
+						<div>
+							<div class="form-group">
+								<label for="construction">Construction:</label>
+									<input type="checkbox" id="construction-c0" name="construction-c0">
+									<input type="checkbox" id="construction-c1" name="construction-c1">
+									<input type="checkbox" id="construction-c2" name="construction-c2">
+									<input type="checkbox" id="construction-c3" name="construction-c3">
+									<input type="checkbox" id="construction-c4" name="construction-c4">
+									<input type="checkbox" id="construction-c5" name="construction-c5">
+									<input type="checkbox" id="construction-c6" name="construction-c6">
+									<input type="checkbox" id="construction-c7" name="construction-c7">
+									<input type="checkbox" id="construction-c8" name="construction-c8">
+									<input type="checkbox" id="construction-c9" name="construction-c9">
+							</div>
+							<div class="form-group">
+							<label for="eusociology">Eusociology:</label>
+								<input type="checkbox" id="eusociology-c0" name="eusociology-c0">
+								<input type="checkbox" id="eusociology-c1" name="eusociology-c1">
+								<input type="checkbox" id="eusociology-c2" name="eusociology-c2">
+								<input type="checkbox" id="eusociology-c3" name="eusociology-c3">
+								<input type="checkbox" id="eusociology-c4" name="eusociology-c4">
+								<input type="checkbox" id="eusociology-c5" name="eusociology-c5">
+								<input type="checkbox" id="eusociology-c6" name="eusociology-c6">
+								<input type="checkbox" id="eusociology-c7" name="eusociology-c7">
+								<input type="checkbox" id="eusociology-c8" name="eusociology-c8">
+								<input type="checkbox" id="eusociology-c9" name="eusociology-c9">
+							</div>
+							<div class="form-group">
+							<label for="KEN">Exploration:</label>
+								<input type="checkbox" id="exploration-c0" name="exploration-c0">
+								<input type="checkbox" id="exploration-c1" name="exploration-c1">
+								<input type="checkbox" id="exploration-c2" name="exploration-c2">
+								<input type="checkbox" id="exploration-c3" name="exploration-c3">
+								<input type="checkbox" id="exploration-c4" name="exploration-c4">
+								<input type="checkbox" id="exploration-c5" name="exploration-c5">
+								<input type="checkbox" id="exploration-c6" name="exploration-c6">
+								<input type="checkbox" id="exploration-c7" name="exploration-c7">
+								<input type="checkbox" id="exploration-c8" name="exploration-c8">
+								<input type="checkbox" id="exploration-c9" name="exploration-c9">
+							</div>
+							<div class="form-group">
+								<label for="PAS">Foraging:</label>
+									<input type="checkbox" id="foraging-c0" name="foraging-c0">
+									<input type="checkbox" id="foraging-c1" name="foraging-c1">
+									<input type="checkbox" id="foraging-c2" name="foraging-c2">
+									<input type="checkbox" id="foraging-c3" name="foraging-c3">
+									<input type="checkbox" id="foraging-c4" name="foraging-c4">
+									<input type="checkbox" id="foraging-c5" name="foraging-c5">
+									<input type="checkbox" id="foraging-c6" name="foraging-c6">
+									<input type="checkbox" id="foraging-c7" name="foraging-c7">
+									<input type="checkbox" id="foraging-c8" name="foraging-c8">
+									<input type="checkbox" id="foraging-c9" name="foraging-c9">
+							</div>
+							<div class="form-group">
+								<label for="PAS">Healing:</label>
+									<input type="checkbox" id="healing-c0" name="healing-c0">
+									<input type="checkbox" id="healing-c1" name="healing-c1">
+									<input type="checkbox" id="healing-c2" name="healing-c2">
+									<input type="checkbox" id="healing-c3" name="healing-c3">
+									<input type="checkbox" id="healing-c4" name="healing-c4">
+									<input type="checkbox" id="healing-c5" name="healing-c5">
+									<input type="checkbox" id="healing-c6" name="healing-c6">
+									<input type="checkbox" id="healing-c7" name="healing-c7">
+									<input type="checkbox" id="healing-c8" name="healing-c8">
+									<input type="checkbox" id="healing-c9" name="healing-c9">
+							</div>
+						</div>
+						<div>
+							<div class="form-group">
+								<label for="PAS">Hunting:</label>
+									<input type="checkbox" id="hunting-c0" name="hunting-c0">
+									<input type="checkbox" id="hunting-c1" name="hunting-c1">
+									<input type="checkbox" id="hunting-c2" name="hunting-c2">
+									<input type="checkbox" id="hunting-c3" name="hunting-c3">
+									<input type="checkbox" id="hunting-c4" name="hunting-c4">
+									<input type="checkbox" id="hunting-c5" name="hunting-c5">
+									<input type="checkbox" id="hunting-c6" name="hunting-c6">
+									<input type="checkbox" id="hunting-c7" name="hunting-c7">
+									<input type="checkbox" id="hunting-c8" name="hunting-c8">
+									<input type="checkbox" id="hunting-c9" name="hunting-c9">
+							</div>
+							<div class="form-group">
+							<label for="PAS">Leadership:</label>
+								<input type="checkbox" id="leadership-c0" name="leadership-c0">
+								<input type="checkbox" id="leadership-c1" name="leadership-c1">
+								<input type="checkbox" id="leadership-c2" name="leadership-c2">
+								<input type="checkbox" id="leadership-c3" name="leadership-c3">
+								<input type="checkbox" id="leadership-c4" name="leadership-c4">
+								<input type="checkbox" id="leadership-c5" name="leadership-c5">
+								<input type="checkbox" id="leadership-c6" name="leadership-c6">
+								<input type="checkbox" id="leadership-c7" name="leadership-c7">
+								<input type="checkbox" id="leadership-c8" name="leadership-c8">
+								<input type="checkbox" id="leadership-c9" name="leadership-c9">
+							</div>
+							<div class="form-group">
+							<label for="PAS">Perception:</label>
+								<input type="checkbox" id="perception-c0" name="perception-c0">
+								<input type="checkbox" id="perception-c1" name="perception-c1">
+								<input type="checkbox" id="perception-c2" name="perception-c2">
+								<input type="checkbox" id="perception-c3" name="perception-c3">
+								<input type="checkbox" id="perception-c4" name="perception-c4">
+								<input type="checkbox" id="perception-c5" name="perception-c5">
+								<input type="checkbox" id="perception-c6" name="perception-c6">
+								<input type="checkbox" id="perception-c7" name="perception-c7">
+								<input type="checkbox" id="perception-c8" name="perception-c8">
+								<input type="checkbox" id="perception-c9" name="perception-c9">
+							</div>
+							<div class="form-group">
+								<label for="PAS">Signaling:</label>
+									<input type="checkbox" id="signaling-c0" name="signaling-c0">
+									<input type="checkbox" id="signaling-c1" name="signaling-c1">
+									<input type="checkbox" id="signaling-c2" name="signaling-c2">
+									<input type="checkbox" id="signaling-c3" name="signaling-c3">
+									<input type="checkbox" id="signaling-c4" name="signaling-c4">
+									<input type="checkbox" id="signaling-c5" name="signaling-c5">
+									<input type="checkbox" id="signaling-c6" name="signaling-c6">
+									<input type="checkbox" id="signaling-c7" name="signaling-c7">
+									<input type="checkbox" id="signaling-c8" name="signaling-c8">
+									<input type="checkbox" id="signaling-c9" name="signaling-c9">
+							</div>
+							<div class="form-group">
+								<label for="PAS">Sneaking:</label>
+									<input type="checkbox" id="sneaking-c0" name="sneaking-c0">
+									<input type="checkbox" id="sneaking-c1" name="sneaking-c1">
+									<input type="checkbox" id="sneaking-c2" name="sneaking-c2">
+									<input type="checkbox" id="sneaking-c3" name="sneaking-c3">
+									<input type="checkbox" id="sneaking-c4" name="sneaking-c4">
+									<input type="checkbox" id="sneaking-c5" name="sneaking-c5">
+									<input type="checkbox" id="sneaking-c6" name="sneaking-c6">
+									<input type="checkbox" id="sneaking-c7" name="sneaking-c7">
+									<input type="checkbox" id="sneaking-c8" name="sneaking-c8">
+									<input type="checkbox" id="sneaking-c9" name="sneaking-c9">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="disposition-div">
+					<br>
+					<strong>Disposition Track</strong>
+					<br>
+					<input type="radio" id="retreat" name="disposition" value="Retreating">
+						<label for="retreat" class="disp-label">: Retreating |</label>
+					<input type="radio" id="neg4" name="disposition" value="-4">
+						<label for="neg4" class="disp-label">: -4 |</label>
+					<input type="radio" id="neg3" name="disposition" value="-3">
+						<label for="neg3" class="disp-label">: -3 |</label>
+					<input type="radio" id="neg2" name="disposition" value="-2">
+						<label for="neg2" class="disp-label">: -2 |</label>
+					<input type="radio" id="neg1" name="disposition" value="-1">
+						<label for="neg1" class="disp-label">: -1 |</label>
+					<input type="radio" id="hold" name="disposition" value="0" checked>
+						<label for="hold" class="disp-label">: Holding |</label>
+					<input type="radio" id="pos1" name="disposition" value="+1">
+						<label for="pos1" class="disp-label">: +1 |</label>
+					<input type="radio" id="pos2" name="disposition" value="+2">
+						<label for="pos2" class="disp-label">: +2 |</label>
+					<input type="radio" id="pos3" name="disposition" value="+3">
+						<label for="pos3" class="disp-label">: +3 |</label>
+					<input type="radio" id="pos4" name="disposition" value="+4">
+						<label for="pos4" class="disp-label">: +4 |</label>
+					<input type="radio" id="charge" name="disposition" value="Charging">
+						<label for="charge" class="disp-label">: Charging |</label>
+				</div>
+				<div id="xp-div">
+					<br>
+					<strong>Experience</strong>
+					<input type="checkbox" id="xp-c0" name="xp-c0">
+					<input type="checkbox" id="xp-c1" name="xp-c1">
+					<input type="checkbox" id="xp-c2" name="xp-c2">
+					<input type="checkbox" id="xp-c3" name="xp-c3">
+					<input type="checkbox" id="xp-c4" name="xp-c4">
+					<input type="checkbox" id="xp-c5" name="xp-c5">
+					<input type="checkbox" id="xp-c6" name="xp-c6">
+					<input type="checkbox" id="xp-c7" name="xp-c7">
+					<input type="checkbox" id="xp-c8" name="xp-c8">
+					<input type="checkbox" id="xp-c9" name="xp-c9">
+				</div>
+				<div id="atks-div">
+					<br>
+					<div id="atks-inner">
+						<div>
+							<strong>Attack #1</strong>
+							<div class="form-row">
+								<div class="form-group">
+									<label for="atk1-name">Name:</label>
+									<input type="text" id="atk1-name" name="atk1-name" placeholder="Slam Attack">
+								</div>
+								<div class="form-group">
+									<label for="atk1-effort">Effort:</label>
+									<input type="text" id="atk1-effort" name="atk1-effort" placeholder="Strength">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group">
+									<label for="atk1-range">Max. Range:</label>
+									<input type="text" id="atk1-range" name="atk1-range" placeholder="Close">
+								</div>
+								<div class="form-group">
+									<label for="atk1-target">Target: </label>
+									<input type="text" id="atk1-target" name="atk1-target" placeholder="One Enemy">
+								</div>
+							</div>
+							<div class="form-group">
+								<br>
+								<label for="atk1-phit">Partial Hit:</label>
+								<input type="text" id="atk1-phit" name="atk1-phit" placeholder="Slide Target 1" class="long-text">
+								</div>
+							<div class="form-group">
+								<br>
+								<label for="atk1-thit">Total Hit:</label>
+								<input type="text" id="atk1-thit" name="atk1-thit" placeholder="Slide Target 2" class="long-text">
+							</div>
+							<div class="form-group">
+								<br>
+								<label for="atk1-chit">Critical Hit:</label>
+								<input type="text" id="atk1-chit" name="atk1-chit" placeholder="Slide Target 3" class="long-text">
+							</div>
+						</div>
+						<div>
+							<strong>Attack #2</strong>
+							<div class="form-row">
+								<div class="form-group">
+									<label for="atk2-name">Name:</label>
+									<input type="text" id="atk2-name" name="atk2-name" placeholder="Slam Attack">
+								</div>
+								<div class="form-group">
+									<label for="atk2-effort">Effort:</label>
+									<input type="text" id="atk2-effort" name="atk2-effort" placeholder="Strength">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group">
+									<label for="atk2-range">Max. Range:</label>
+									<input type="text" id="atk2-range" name="atk2-range" placeholder="Close">
+								</div>
+								<div class="form-group">
+									<label for="atk2-target">Target: </label>
+									<input type="text" id="atk2-target" name="atk2-target" placeholder="One Enemy">
+								</div>
+							</div>
+							<div class="form-group">
+								<br>
+								<label for="atk2-phit">Partial Hit:</label>
+								<input type="text" id="atk2-phit" name="atk2-phit" placeholder="Slide Target 1" class="long-text">
+								</div>
+							<div class="form-group">
+								<br>
+								<label for="atk2-thit">Total Hit:</label>
+								<input type="text" id="atk2-thit" name="atk2-thit" placeholder="Slide Target 2" class="long-text">
+							</div>
+							<div class="form-group">
+								<br>
+								<label for="atk2-chit">Critical Hit:</label>
+								<input type="text" id="atk2-chit" name="atk2-chit" placeholder="Slide Target 3" class="long-text">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="surv-div">
+					<br>
+					<div class="form-row">
+						<div id="inv-div">
+							<strong>Inventory</strong>
+							<div class="form-group">
+								<input type="text" id="item1" name="item1">
+								<input type="checkbox" id="item1-c0" name="item1-c0">
+								<input type="checkbox" id="item1-c1" name="item1-c1">
+								<input type="checkbox" id="item1-c2" name="item1-c2">
+								<input type="checkbox" id="item1-c3" name="item1-c3">
+								<input type="checkbox" id="item1-c4" name="item1-c4">
+								<input type="checkbox" id="item1-c5" name="item1-c5">
+								<input type="checkbox" id="item1-c6" name="item1-c6">
+								<input type="checkbox" id="item1-c7" name="item1-c7">
+								<input type="checkbox" id="item1-c8" name="item1-c8">
+								<input type="checkbox" id="item1-c9" name="item1-c9">
+							</div>
+							<div class="form-group">
+								<input type="text" id="item2" name="item2">
+								<input type="checkbox" id="item2-c0" name="item2-c0">
+								<input type="checkbox" id="item2-c1" name="item2-c1">
+								<input type="checkbox" id="item2-c2" name="item2-c2">
+								<input type="checkbox" id="item2-c3" name="item2-c3">
+								<input type="checkbox" id="item2-c4" name="item2-c4">
+								<input type="checkbox" id="item2-c5" name="item2-c5">
+								<input type="checkbox" id="item2-c6" name="item2-c6">
+								<input type="checkbox" id="item2-c7" name="item2-c7">
+								<input type="checkbox" id="item2-c8" name="item2-c8">
+								<input type="checkbox" id="item2-c9" name="item2-c9">
+							</div>
+							<div class="form-group">
+								<input type="text" id="item3" name="item3">
+								<input type="checkbox" id="item3-c0" name="item3-c0">
+								<input type="checkbox" id="item3-c1" name="item3-c1">
+								<input type="checkbox" id="item3-c2" name="item3-c2">
+								<input type="checkbox" id="item3-c3" name="item3-c3">
+								<input type="checkbox" id="item3-c4" name="item3-c4">
+								<input type="checkbox" id="item3-c5" name="item3-c5">
+								<input type="checkbox" id="item3-c6" name="item3-c6">
+								<input type="checkbox" id="item3-c7" name="item3-c7">
+								<input type="checkbox" id="item3-c8" name="item3-c8">
+								<input type="checkbox" id="item3-c9" name="item3-c9">
+							</div>
+							<div class="form-group">
+								<input type="text" id="item4" name="item4">
+								<input type="checkbox" id="item4-c0" name="item4-c0">
+								<input type="checkbox" id="item4-c1" name="item4-c1">
+								<input type="checkbox" id="item4-c2" name="item4-c2">
+								<input type="checkbox" id="item4-c3" name="item4-c3">
+								<input type="checkbox" id="item4-c4" name="item4-c4">
+								<input type="checkbox" id="item4-c5" name="item4-c5">
+								<input type="checkbox" id="item4-c6" name="item4-c6">
+								<input type="checkbox" id="item4-c7" name="item4-c7">
+								<input type="checkbox" id="item4-c8" name="item4-c8">
+								<input type="checkbox" id="item4-c9" name="item4-c9">
+							</div>
+							<div class="form-group">
+								<input type="text" id="item5" name="item5">
+								<input type="checkbox" id="item5-c0" name="item5-c0">
+								<input type="checkbox" id="item5-c1" name="item5-c1">
+								<input type="checkbox" id="item5-c2" name="item5-c2">
+								<input type="checkbox" id="item5-c3" name="item5-c3">
+								<input type="checkbox" id="item5-c4" name="item5-c4">
+								<input type="checkbox" id="item5-c5" name="item5-c5">
+								<input type="checkbox" id="item5-c6" name="item5-c6">
+								<input type="checkbox" id="item5-c7" name="item5-c7">
+								<input type="checkbox" id="item5-c8" name="item5-c8">
+								<input type="checkbox" id="item5-c9" name="item5-c9">
+							</div>
+						</div>
+						<div id="hunger-div">
+							<div class="form-group">
+								<label for="hunger"><strong>Hunger:</strong></label>
+								<input type="checkbox" id="hunger-c0" name="hunger-c0">
+								<input type="checkbox" id="hunger-c1" name="hunger-c1">
+								<input type="checkbox" id="hunger-c2" name="hunger-c2">
+								<input type="checkbox" id="hunger-c3" name="hunger-c3">
+								<input type="checkbox" id="hunger-c4" name="hunger-c4">
+								<input type="checkbox" id="hunger-c5" name="hunger-c5">
+								<input type="checkbox" id="hunger-c6" name="hunger-c6">
+								<input type="checkbox" id="hunger-c7" name="hunger-c7">
+								<input type="checkbox" id="hunger-c8" name="hunger-c8">
+								<input type="checkbox" id="hunger-c9" name="hunger-c9">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="effects-div">
+					<br>
+					<strong>Effects</strong>
+					<div class="form-row">
+						<div>
+							<div class="form-group">
+								<label for="agony">Agony:</label>
+									<input type="checkbox" id="agony-c0" name="agony-c0">
+									<input type="checkbox" id="agony-c1" name="agony-c1">
+									<input type="checkbox" id="agony-c2" name="agony-c2">
+									<input type="checkbox" id="agony-c3" name="agony-c3">
+									<input type="checkbox" id="agony-c4" name="agony-c4">
+									<input type="checkbox" id="agony-c5" name="agony-c5">
+									<input type="checkbox" id="agony-c6" name="agony-c6">
+									<input type="checkbox" id="agony-c7" name="agony-c7">
+									<input type="checkbox" id="agony-c8" name="agony-c8">
+									<input type="checkbox" id="agony-c9" name="agony-c9">
+							</div>
+							<div class="form-group">
+							<label for="bleeding">Bleeding:</label>
+								<input type="checkbox" id="bleed-c0" name="bleed-c0">
+								<input type="checkbox" id="bleed-c1" name="bleed-c1">
+								<input type="checkbox" id="bleed-c2" name="bleed-c2">
+								<input type="checkbox" id="bleed-c3" name="bleed-c3">
+								<input type="checkbox" id="bleed-c4" name="bleed-c4">
+								<input type="checkbox" id="bleed-c5" name="bleed-c5">
+								<input type="checkbox" id="bleed-c6" name="bleed-c6">
+								<input type="checkbox" id="bleed-c7" name="bleed-c7">
+								<input type="checkbox" id="bleed-c8" name="bleed-c8">
+								<input type="checkbox" id="bleed-c9" name="bleed-c9">
+							</div>
+							<div class="form-group">
+							<label for="KEN">Blind:</label>
+								<input type="checkbox" id="blind-c0" name="blind-c0">
+								<input type="checkbox" id="blind-c1" name="blind-c1">
+								<input type="checkbox" id="blind-c2" name="blind-c2">
+								<input type="checkbox" id="blind-c3" name="blind-c3">
+								<input type="checkbox" id="blind-c4" name="blind-c4">
+								<input type="checkbox" id="blind-c5" name="blind-c5">
+								<input type="checkbox" id="blind-c6" name="blind-c6">
+								<input type="checkbox" id="blind-c7" name="blind-c7">
+								<input type="checkbox" id="blind-c8" name="blind-c8">
+								<input type="checkbox" id="blind-c9" name="blind-c9">
+							</div>
+							<div class="form-group">
+								<label for="PAS">Charmed:</label>
+									<input type="checkbox" id="charm-c0" name="charm-c0">
+									<input type="checkbox" id="charm-c1" name="charm-c1">
+									<input type="checkbox" id="charm-c2" name="charm-c2">
+									<input type="checkbox" id="charm-c3" name="charm-c3">
+									<input type="checkbox" id="charm-c4" name="charm-c4">
+									<input type="checkbox" id="charm-c5" name="charm-c5">
+									<input type="checkbox" id="charm-c6" name="charm-c6">
+									<input type="checkbox" id="charm-c7" name="charm-c7">
+									<input type="checkbox" id="charm-c8" name="charm-c8">
+									<input type="checkbox" id="charm-c9" name="charm-c9">
+							</div>
+							<div class="form-group">
+								<label for="PAS">Confused:</label>
+									<input type="checkbox" id="confused-c0" name="confused-c0">
+									<input type="checkbox" id="confused-c1" name="confused-c1">
+									<input type="checkbox" id="confused-c2" name="confused-c2">
+									<input type="checkbox" id="confused-c3" name="confused-c3">
+									<input type="checkbox" id="confused-c4" name="confused-c4">
+									<input type="checkbox" id="confused-c5" name="confused-c5">
+									<input type="checkbox" id="confused-c6" name="confused-c6">
+									<input type="checkbox" id="confused-c7" name="confused-c7">
+									<input type="checkbox" id="confused-c8" name="confused-c8">
+									<input type="checkbox" id="confused-c9" name="confused-c9">
+							</div>
+						</div>
+						<div>
+							<div class="form-group">
+								<label for="PAS">Immobile:</label>
+									<input type="checkbox" id="immobile-c0" name="immobile-c0">
+									<input type="checkbox" id="immobile-c1" name="immobile-c1">
+									<input type="checkbox" id="immobile-c2" name="immobile-c2">
+									<input type="checkbox" id="immobile-c3" name="immobile-c3">
+									<input type="checkbox" id="immobile-c4" name="immobile-c4">
+									<input type="checkbox" id="immobile-c5" name="immobile-c5">
+									<input type="checkbox" id="immobile-c6" name="immobile-c6">
+									<input type="checkbox" id="immobile-c7" name="immobile-c7">
+									<input type="checkbox" id="immobile-c8" name="immobile-c8">
+									<input type="checkbox" id="immobile-c9" name="immobile-c9">
+							</div>
+							<div class="form-group">
+							<label for="PAS">Infected:</label>
+								<input type="checkbox" id="infected-c0" name="infected-c0">
+								<input type="checkbox" id="infected-c1" name="infected-c1">
+								<input type="checkbox" id="infected-c2" name="infected-c2">
+								<input type="checkbox" id="infected-c3" name="infected-c3">
+								<input type="checkbox" id="infected-c4" name="infected-c4">
+								<input type="checkbox" id="infected-c5" name="infected-c5">
+								<input type="checkbox" id="infected-c6" name="infected-c6">
+								<input type="checkbox" id="infected-c7" name="infected-c7">
+								<input type="checkbox" id="infected-c8" name="infected-c8">
+								<input type="checkbox" id="infected-c9" name="infected-c9">
+							</div>
+							<div class="form-group">
+							<label for="PAS">Paralyzed:</label>
+								<input type="checkbox" id="paralyzed-c0" name="paralyzed-c0">
+								<input type="checkbox" id="paralyzed-c1" name="paralyzed-c1">
+								<input type="checkbox" id="paralyzed-c2" name="paralyzed-c2">
+								<input type="checkbox" id="paralyzed-c3" name="paralyzed-c3">
+								<input type="checkbox" id="paralyzed-c4" name="paralyzed-c4">
+								<input type="checkbox" id="paralyzed-c5" name="paralyzed-c5">
+								<input type="checkbox" id="paralyzed-c6" name="paralyzed-c6">
+								<input type="checkbox" id="paralyzed-c7" name="paralyzed-c7">
+								<input type="checkbox" id="paralyzed-c8" name="paralyzed-c8">
+								<input type="checkbox" id="paralyzed-c9" name="paralyzed-c9">
+							</div>
+							<div class="form-group">
+								<label for="PAS">Poisoned:</label>
+									<input type="checkbox" id="poisoned-c0" name="poisoned-c0">
+									<input type="checkbox" id="poisoned-c1" name="poisoned-c1">
+									<input type="checkbox" id="poisoned-c2" name="poisoned-c2">
+									<input type="checkbox" id="poisoned-c3" name="poisoned-c3">
+									<input type="checkbox" id="poisoned-c4" name="poisoned-c4">
+									<input type="checkbox" id="poisoned-c5" name="poisoned-c5">
+									<input type="checkbox" id="poisoned-c6" name="poisoned-c6">
+									<input type="checkbox" id="poisoned-c7" name="poisoned-c7">
+									<input type="checkbox" id="poisoned-c8" name="poisoned-c8">
+									<input type="checkbox" id="poisoned-c9" name="poisoned-c9">
+							</div>
+							<div class="form-group">
+								<label for="PAS">Stunned:</label>
+									<input type="checkbox" id="stunned-c0" name="stunned-c0">
+									<input type="checkbox" id="stunned-c1" name="stunned-c1">
+									<input type="checkbox" id="stunned-c2" name="stunned-c2">
+									<input type="checkbox" id="stunned-c3" name="stunned-c3">
+									<input type="checkbox" id="stunned-c4" name="stunned-c4">
+									<input type="checkbox" id="stunned-c5" name="stunned-c5">
+									<input type="checkbox" id="stunned-c6" name="stunned-c6">
+									<input type="checkbox" id="stunned-c7" name="stunned-c7">
+									<input type="checkbox" id="stunned-c8" name="stunned-c8">
+									<input type="checkbox" id="stunned-c9" name="stunned-c9">
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<br>
+				<button type="button" onclick="convertToJson()">Submit</button>
+				<script>
+
+					function convertToJson() {
+						let form = document.getElementById("char-form");
+						let formData = {};
+						for (let i = 0; i < form.elements.length; i++) {
+							let element = form.elements[i];
+							if(element.type == "checkbox") {
+								formData[element.name] = element.checked
+							}
+							else if (element.type !== "submit") {
+								formData[element.name] = element.value;
+							}
+						}
+						let jsonData = JSON.stringify(formData);
+						let blob = new Blob([jsonData], { type: 'application/json' });
+						//let jsonOutput = document.getElementById("jsonOutput");
+						//jsonOutput.innerHTML = "<pre>" + jsonData + "</pre>";	
+						downloadFileUniversal(jsonData, "char.json", 'application/json');
+					}
+					
+					function downloadFileUniversal(dataContent, fileName, mimeType) {
+						const blobData = new Blob([dataContent], { type: mimeType });
+
+						if (window.navigator.msSaveOrOpenBlob) {
+							// For IE10+
+							window.navigator.msSaveOrOpenBlob(blobData, fileName);
+						} else {
+							// For other modern browsers
+							const anchorElement = document.createElement("a");
+							const fileUrl = URL.createObjectURL(blobData);
+
+							anchorElement.href = fileUrl;
+							anchorElement.download = fileName;
+							document.body.appendChild(anchorElement);
+							anchorElement.click();
+
+							// Clean up by removing the anchor and revoking the URL
+							setTimeout(() => {
+								document.body.removeChild(anchorElement);
+								URL.revokeObjectURL(fileUrl);
+							}, 0);
+						}
+					}
+				</script>
+			</form>
+		</div>
+		<div id="jsonOutput"></div>
+	</body>
+</html>
