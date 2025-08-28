@@ -387,6 +387,10 @@ Risks
 ║ ───────────────────────────────────────────────────────────────────────                   ║
 	Spoilage
 		Each character makes a single Boolean Roll. Compare the roll to each Food Item's Rating.
+		
+		Roll for each food item.
+			For each success, reduce that food item's rating by 1.
+			If no successes are rolled, the food is not reduced, but it becomes spoiled.
 		If the roll beats, the Food Item is a-okay.
 		If the roll matches, the Food Item becomes spoiled.
 		Spoiled Food
