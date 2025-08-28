@@ -1,30 +1,24 @@
 ╔═►Nests & Insects◄═══════════════════════════════════════════════════════►Character Sheet◄═╗
 ║ ................................ Major Termite Soldiers ................................. ║
 ╠═► Attributes ◄═╦═► Combat ◄════════╦═► Special ◄══════╦═► Effects ◄═══════════════════════╣
-║ □ SPE...:[_40] ║ □ INIT.....:[_35] ║ □ Carapace:[_60] ║ Agony....:[___] Immobilised:[___] ║
-║ □ STR...:[_60] ║ □ TR.......:[_40] ║ □ Flight..:[___] ║ Bleeding.:[___] Infected...:[___] ║
-║ □ KEN...:[_30] ║ □ SR.......:[_35] ║ □ Swarm...:[_30] ║ Blind:[___/100] Paralysed..:[___] ║
-║ □ PAS...:[_40] ║ □ WOUNDS.:[__/06] ║ □ Venom...:[___] ║ Charmed..:[___] Poisoned...:[___] ║
-║ .............. ║ □ SWARMS.:[__/03] ║ □ Web.....:[___] ║ Confused.:[___] Stunned....:[___] ║
+║ □ SPE...:[_3] ║ □ INIT.....:[_4] ║ □ Carapace:[_6] ║ Agony....:[___] Immobilised:[___] ║
+║ □ STR...:[_4] ║ □ TR.......:[_4] ║ □ Flight..:[___] ║ Bleeding.:[___] Infected...:[___] ║
+║ □ KEN...:[_2] ║ □ SR.......:[_4] ║ □ Swarm...:[_3] ║ Blind:[___/100] Paralysed..:[___] ║
+║ □ PAS...:[_3] ║ □ WOUNDS.:[__/06] ║ □ Venom...:[___] ║ Charmed..:[___] Poisoned...:[3] ║
+║ .............. ║ □ SWARMS.:[3/03] ║ □ Web.....:[___] ║ Confused.:[___] Stunned....:[___] ║
 ╠═[Advance ->]═══╩═════════════►Disposition Track◄══════╩════════════════════════[<-Recoil]═╣
-║ ○ Retreating ○ -80% ○ -60% ○ -40% ○ -20% ○ Holding ○ +20% ○ +40% ○ +60% ○ +80% ○ Charging ║
+║ ○ Retreating ○ -80% ○ -60% ○ -40% ○ -20% ○ Holding x +20% ○ +40% ○ +60% ○ +80% ○ Charging ║
 ╠═►Attacks◄═══════════════════════════════════╦═════════════════════════════════════════════╣
 ║────────────────[Base Attack]─────────—──────║───────────────[Special Attack]──────────────║
 ║ Name:.......................Mandible Attack ║ Name:............................Autothysis ║
 ║ Keywords:..........................Crushing ║ Keywords:..............Area Attack, Noxious ║
 ║ Max. Range:...........................Close ║ Max. Range:.............Close (Medium Area) ║
 ║ Critical Hit:...............Target Takes 4W ║ Critical Hit:.............Attacker takes 1W ║
-║ .....................Target Immobilised d80 ║ ...............Target Dies (Swarms take 3W) ║
+║ .....................Target Immobilised 4 ║ ...............Target Dies (Swarms take 3W) ║
 ║ Total Hit:..................Target Takes 3W ║ Total Hit:................Attacker takes 1W ║
-║ .....................Target Immobilised d60 ║ .............Targets Take 3W, Paralysed d60 ║
+║ .....................Target Immobilised 3 ║ .............Targets Take 3W, Paralysed 3 ║
 ║ Partial Hit:................Target Takes 2W ║ Partial Hit:..............Attacker takes 1W ║
-║ .....................Target Immobilised d40 ║ .............Targets take 2W, Paralysed d40 ║
-║ Partial Miss:...............Target Takes 1W ║ Partial Miss:.............Attacker takes 1W ║
-║ ........................................... ║ ............................Targets take 1W ║
-║ Total Miss:................Attacker Recoils ║ Total Miss:...............Attacker takes 2W ║
-║ ........................................... ║ ....................Targets Immobilised d40 ║
-║ Critical Miss:.....Attacker Immobilised d60 ║ Critical Miss:............Attacker takes 4W ║
-║ ........................................... ║ ........................................... ║
+║ .....................Target Immobilised 2 ║ .............Targets take 2W, Paralysed 2 ║
 ╠═►Special Rules◄═════════════════════════════╩═════════════════════════════════════════════╣
 ║┌───[Alarm Pheromones]─────────────────────—──────────────—──────────────—──────────────—─┐║
 ║│ At the start of the Soldiers' Turn the GQ makes a Boolean Roll against the Soldiers'    │║

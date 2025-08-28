@@ -1,20 +1,20 @@
 ╔═►Nests & Insects◄═══════════════════════════════════════════════════════►Character Sheet◄═╗
 ║ ................................... Termite Workers ..................................... ║
 ╠═► Attributes ◄═╦═► Combat ◄════════╦═► Special ◄══════╦═► Effects ◄═══════════════════════╣
-║ □ SPE...:[_30] ║ □ INIT.....:[_20] ║ □ Carapace:[___] ║ Agony....:[___] Immobilised:[___] ║
-║ □ STR...:[_20] ║ □ TR.......:[_25] ║ □ Flight..:[___] ║ Bleeding.:[___] Infected...:[___] ║
-║ □ KEN...:[_20] ║ □ SR.......:[_25] ║ □ Swarm...:[_50] ║ Blind:[___/100] Paralysed..:[___] ║
-║ □ PAS...:[_20] ║ □ WOUNDS.:[__/02] ║ □ Venom...:[___] ║ Charmed..:[___] Poisoned...:[___] ║
-║ .............. ║ □ SWARMS.:[__/05] ║ □ Web.....:[___] ║ Confused.:[___] Stunned....:[___] ║
+║ □ SPE...:[_2] ║ □ INIT.....:[_2] ║ □ Carapace:[___] ║ Agony....:[___] Immobilised:[___] ║
+║ □ STR...:[_2] ║ □ TR.......:[_2] ║ □ Flight..:[___] ║ Bleeding.:[___] Infected...:[___] ║
+║ □ KEN...:[_2] ║ □ SR.......:[_2] ║ □ Swarm...:[_5] ║ Blind:[___/10] Paralysed..:[___] ║
+║ □ PAS...:[_2] ║ □ WOUNDS.:[__/02] ║ □ Venom...:[___] ║ Charmed..:[___] Poisoned...:[___] ║
+║ .............. ║ □ SWARMS:[__/05] ║ □ Web.....:[___] ║ Confused.:[___] Stunned....:[___] ║
 ╠═[Advance ->]═══╩═════════════►Disposition Track◄══════╩════════════════════════[<-Recoil]═╣
-║ ○ Retreating ○ -80% ○ -60% ○ -40% ○ -20% ○ Holding ○ +20% ○ +40% ○ +60% ○ +80% ○ Charging ║
+║ ○ Retreating ○ -80% ○ -60% ○ -40% ○ -20% x Holding ○ +20% ○ +40% ○ +60% ○ +80% ○ Charging ║
 ╠═►Attacks◄═════════════════════════════════════════════════════════════════════════════════╣
 ║───────────────────────────────────────[Base Attack]────────────────────────────────—──────║
-║ Name:.......................Mandible Attack │ Keywords:..........................Crushing ║
-║ Max. Range:...........................Close │ ........................................... ║
-║ Critical Hit:...............Target Takes 2W │ Partial Miss:...............Target Takes 1W ║
-║ Total Hit:..................Target Takes 1W │ Total Miss:................Attacker Recoils ║
-║ Partial Hit:................Target Takes 1W │ Critical Miss:...........Attacker Recoils 2 ║
+║ Name:.......................Mandible Attack │  ║
+║ Max. Range:...........................Close │  ║
+║ Critical Hit:...............Target Takes 2W │  ║
+║ Total Hit:..................Target Takes 1W │  ║
+║ Partial Hit:................Target Takes 1W │  ║
 ╠═►Special Rules◄═════════════════════════════╩═════════════════════════════════════════════╣
 ║┌───[Alarm Pheromones]─────────────────────—──────────────—──────────────—──────────────—─┐║
 ║│ At the start of the Workers' Turn the GQ makes a Boolean Roll against the Workers'      │║
