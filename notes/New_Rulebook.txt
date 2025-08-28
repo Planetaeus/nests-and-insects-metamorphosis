@@ -146,7 +146,7 @@
 ║ ────────────────────────────────────────────────────────────────────────────              ║
 ║ Agony            ...is in agony and must overcome her pain to act                         ║
 ║ Bleeding         ...automatically takes a Wound each Combat Turn                          ║
-║ Blind            ...can't see. Inherent Blindness ignores darkness and applied blindness. ║
+║ Blinded          ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
 ║ Charmed          ...will not Attack, but may take other Actions.                          ║
 ║ Confused         ...will only Attack and Move, will not take other actions.               ║
 ║ Immobilised      ...cannot move and can only Attack in close range                        ║
@@ -268,9 +268,9 @@
 			
 		2.6.3.0 Special Abilities
 			
-			2.6.3.1 Blind
+			2.6.3.1 Carapace
 			
-			2.6.3.2 Carapace
+			2.6.3.2 Flight
 			
 			2.6.3.3 Flight
 			
@@ -370,7 +370,8 @@
 				
 				When a Blinded Effect Triggers, nothing happens.
 				
-				However, a Blinded Character receives a Negative Modifier as if they were subject to Darkness of the same Rating.
+				However, a Blinded Character receives a Negative Modifier on rolls that require awareness of their surroundings.
+				This includes Attacking, Defending, and Perception rolls, but may also include other rolls as the GQ sees fit.
 				
 			2.6.7.7 Charmed
 				
