@@ -119,11 +119,12 @@ Generate a Food Item's Function:
 ║ 1. Generate the Item's Condition.                                                         ║
 ║ d10 Result  Condition   Description                                                       ║
 ║ ──────────────────────────────────────────────────────────────────────────────────        ║
-║ 0-1         Ordinary    Nothing special, an ordinary Item                                 ║
-║ 2-3         Blessed     Roll to increase amount if Beneficial; decrease if Harmful        ║
-║ 4-5         Cursed      Roll to increase amount if Harmful; cannot be dropped             ║
-║ 6-7         Spoiled     May bestow Infected when consumed.                                ║
-║ 8-9         Nutritious  Roll twice to decrease Hunger when consumed.                      ║
+║   1         Ordinary    Nothing special, an ordinary Item                                 ║
+║   2         Blessed     Roll to increase amount if Beneficial; decrease if Harmful        ║
+║   3         Cursed      Roll to increase amount if Harmful; cannot be dropped             ║
+║   4         Spoiled     May bestow Infected when consumed.                                ║
+║   5         Nutritious  Roll twice to decrease Hunger when consumed.                      ║
+║   6         Extra       Roll Twice to determine Conditions.                               ║
 ║ ──────────────────────────────────────────────────────────────────────────────────        ║
 ║ Table 12: Item Conditions                                                                 ║
 ║ 2. Generate the Item's Alignment and Abilities                                            ║
