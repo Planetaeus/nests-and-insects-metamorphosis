@@ -143,7 +143,7 @@ Generate a Food Item's Function:
 ║ ───────────────────────────────────────────────                                           ║
 ║ 11            Agony - gain Agony                                                          ║
 ║ 12            Bleeding - gain Bleeding                                                    ║
-║ 13            Blindness - gain Blind                                                      ║
+║ 13            Blindness - gain Blinded                                                    ║
 ║ 14            Charming - gain Charmed                                                     ║
 ║ 15            Confusion - gain Confused                                                   ║
 ║ 16            Immobilisation - gain Immobilised                                           ║
