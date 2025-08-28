@@ -438,7 +438,7 @@ Rewards
 				5. Infection
 			3. Reward
 				1. Room
-				2. Shortcut
+				2. Bonus: Roll twice more, ignoring any other Bonuses.
 				3. Level
 				4. Known Item
 				5. Resource
