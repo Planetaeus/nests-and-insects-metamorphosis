@@ -406,11 +406,8 @@ Risks
 ║ Critical Failure             The character takes 1 Wound.                                 ║
 ║ ───────────────────────────────────────────────────────────────────────                   ║
 	Infection
-		Each character makes a Boolean Roll resist with Level.
-		If the Roll beats, nothing happens and the Character is not Infected.
-		If the Roll matches, the infection takes hold.
-			If the character is already infected, their Infection triggers.
-			If the character is not already infected, roll to Quantify Infection with Level.
+		Each character rolls STR + Healing vs. Level + Infected. If a Character failes the roll, they gain Infected equal to the amount the roll failed by.
+		A character Infected this way gains 1 XP.
 
 Rewards
 	Room
