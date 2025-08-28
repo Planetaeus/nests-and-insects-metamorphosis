@@ -18,12 +18,14 @@
 		
 	1.3.0.0 The System
 			
-		║ Roll matches Effort    Roll beats Resistance    Degree of Success                         ║
+		║ Net Hits    Degree of Success                         ║
 		║ ─────────────────────────────────────────────────────────────────                         ║
-		║ True                   True                     Complete Success                          ║
-		║ True                   False                    Partial Success                           ║
-		║ False                  True                     Partial Failure                           ║
-		║ False                  False                    Complete Failure                          ║
+		║ +2 or more  Critical Success                          ║
+		║ +1          Complete Success                          ║
+		║ +0          Partial Success                           ║
+		║ -1          Partial Failure                           ║
+		║ -2          Complete Failure                          ║
+		║ -3 or less  Critical Failure                          ║
 		║ ─────────────────────────────────────────────────────────────────                         ║
 		║ Table 1: Initial four Degrees of Success.                                                 ║
 
