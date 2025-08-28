@@ -371,9 +371,10 @@ Risks
 		Form is known, Function needs to be identified.
 		Generate a food item's form.
 	Obstacle
-		Quantify the Obstacle with Level.
-		An obstacle with rating 0% is torn down.
-		Characters may roll Construction vs Obstruction.
+		The Obstacle has an Obstruction rating equal to the current Level's Difficulty.
+		An obstacle with rating 0% is torn down, and the Characters gain 1 XP.
+		Characters may roll Construction vs Obstruction, reducing the Obstacle's rating by the number of net successes.
+		If a character fails the roll, they receive 1W.
 		Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
 ║ Degree of Success    Outcome                                                      		║
 ║ ───────────────────────────────────────────────────────────────────────                   ║
