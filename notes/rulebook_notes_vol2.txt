@@ -364,6 +364,9 @@ Risks
 		Encounter does not ALWAYS have to end in Combat. I guess. If you're BORING.
 		Roll on the Encounter table for the current type of Nest.
 		To generate, make a Boolean Roll, and compare it against the Encounter table. Each encounter whose Chance is matched by the Encounter Roll are generated.
+		When an Encounter is completed (by combat or other means), the characters gain 1 XP.
+		If all players leave the room without completing the Encounter, no further events are generated in this room. The room is already spent, and cannot be re-explored.
+		The players may return to the room later to complete the encounter and receive XP for doing so.
 	Unknown Item
 		Form is known, Function needs to be identified.
 		Generate a food item's form.
