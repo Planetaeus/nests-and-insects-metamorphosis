@@ -29,11 +29,7 @@
 		║ ─────────────────────────────────────────────────────────────────                         ║
 		║ Table 1: Initial four Degrees of Success.                                                 ║
 
-	Nests & Insects' roleplaying system is called Fuzzy d100 (fd100). fd100 is designed to eliminate mental arithmetic from the process used to determine the outcome of Characters' actions. It is a percentile system where Characters are defined by Features rated on a scale from 1 to 100, and where a d100 is rolled for action resolution. the d100 in fd100 generates results from "00" to "99".
-
-	The "Fuyzzy" in the fd100 name refers to the six possible Degrees of Success or Failure of an action (DoS). To determine the DoS of an action, players describe their Character's Intent, then roll a d100 and compare it to two target numbers, "Effort", and "Resistance".
-
-	To roll under or equal to Effort is to "Match" Effort. To roll over Resistance is to "Beat" Resistance. If the d100 roll matches Effort, the initial DoS is a Success, otherwise it is a Failure. If the d100 roll Beats Resistance, the initial DoS is a Complete Success or a Partial Failure, otherwise it is a Partial Success or a Complete Failure. Table 1 lists the four initial DoS and how they can be achieved.
+		Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have abilities rated from 0 to 10. Whenever the players take an action, the Game Queen declares the difficulty of the roll. The player determines the size of their dice pool based on one or more Character abilities, then roll that many d6.	The number of dice that come up as a "5" or a "6" are counted as successes. The number of successes is compared against the difficulty to decide the outcome of the Action.
 
 	1.3.1.0 Modifiers
 		
