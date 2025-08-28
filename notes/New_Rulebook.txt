@@ -36,21 +36,13 @@
 	To roll under or equal to Effort is to "Match" Effort. To roll over Resistance is to "Beat" Resistance. If the d100 roll matches Effort, the initial DoS is a Success, otherwise it is a Failure. If the d100 roll Beats Resistance, the initial DoS is a Complete Success or a Partial Failure, otherwise it is a Partial Success or a Complete Failure. Table 1 lists the four initial DoS and how they can be achieved.
 
 	1.3.1.0 Modifiers
-		Critical Success
-		Total Success
-		Partial Success
-		Partial Failure
-		Total Failure
-		Critical Failure
 		
-		The initial DoS of an Action is determined by comparing a d100 roll with Effort and Resistance. This initial DoS may change, or "Shift", up or down, by further comparing the same d100 roll with additional target numbers, called "modifiers".
-		Modifiers can be either positive (+__%) or negative (-__%). Matching a Positive Modifier confers a "Shift Up" to the initial DoS. Failing to beat a negative modifier confers a "Shift Down" to the initial DoS. 
+		The initial dice pool for an Action is usually standard. Attacks use an Ability + Threat Rate, for example. Circumstances and strategic decisions by the players can result in one or more positive or negative modifiers being applied to a roll.
 		
-		A Shift Up moves the DoS from worse to better, and a shift Down moves it from better to worse. With enough Shifts Up, the initial DoS may improve beyond Complete Success and become a Critical Success. With enough Shifts Down, the initial DoS may worsen beyond Total Failure and become a Critical Failure. Table 2 illustrates the hierarchy of the Six Degrees of Success.
+		Positive modifiers add extra dice to the player's dice pool. They increase the odds of the player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
 		
-		Note
-			The way that modifiers work in fd100 is a bit of a departure from the standard in TTRPGs, where a modifier is usually a number added to a roll, or to a Character's stat. In fd100, modifiers are instead target numbers compared to a d100 roll, in the same way as Efort and Resistance. The purpose of this reform is to avoid mental arithmetic during the most involved moments of play, for instance, during Combat.
-
+		Negative modifiers are added to the GQ's dice pool. At the same time that the player makes their roll, the GQ rolls dice for each negative modifier to the roll. The number of successes that the GQ rolls are added to the difficulty of the Player's roll, possibly turning a success into a failure.
+		
 	1.3.2.0 Describing Results
 		What the DoS of an action means depends on a player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
 		
