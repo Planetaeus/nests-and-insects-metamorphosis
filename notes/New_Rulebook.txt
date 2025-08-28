@@ -91,7 +91,7 @@
 			If playing a custom class, it can be helpful to keep a record of what your Character looked like at creation if you intend to come back as the same class upon death.
 		
 	2.3.0.0 Character Sheet
-		In Nests & Insects, Characters are describe dby percentile-rated Features, listed in a Character sheet specific to that Character.
+		In Nests & Insects, Characters are described by Features rated 0-10, listed in a Character sheet specific to that Character.
 		
 		MAY BE REWORKED> NOT SETTLED YET.
 		There are five categories of Features: Core, Combat, Survival, Abilities, and Inventory. These are covered in more detail in the "System" Chapter. They are briefly covered here as they relate to the Character sheets.
