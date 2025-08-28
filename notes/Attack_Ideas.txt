@@ -8,13 +8,13 @@ Shred
 Impale
 Venom
 
-Just hit it
-Hit it with more on a Crit
-Hit it multiple times (total hit/critical hit allows another attack)
+Just hit it (basic)
+Hit it with more on a Crit (strength)
+Hit it multiple times (total hit/critical hit allows another attack) (speed)
 Scratch it
-Cut it with more on a critical
-Hit it with wind
-Bind it in place, wrap it up
+Cut it with more on a critical (speed)
+Hit it with wind (flight)
+Bind it in place, wrap it up (strength)
 whip it
 kick it, but twice
 sting it with poison
@@ -42,8 +42,8 @@ use a sword
 Roll'em (carapace)
 Attack, then attack again if they move before your next turn.
 Clear obstacles from an area
-Incorporate minerals and metals into body to enhance attacks.
-Twister, toss people about.
+Incorporate minerals and metals into body to enhance attacks. (Carapace)
+Twister, toss people about. (Flight)
 Smash through creatures and obstacles.
 Spin them with water, keeping them spinning.
 Block their next attack
