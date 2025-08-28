@@ -305,8 +305,6 @@
 			2.6.4.1 Inventory
 			
 			2.6.4.2 Hunger
-			
-			2.6.4.3 Luck
 		
 		2.6.6.0 Attacks
 		
