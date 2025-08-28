@@ -272,13 +272,11 @@
 			
 			2.6.3.2 Flight
 			
-			2.6.3.3 Flight
+			2.6.3.3 Swarming
 			
-			2.6.3.4 Swarming
+			2.6.3.4 Venom
 			
-			2.6.3.5 Venom
-			
-			2.6.3.6 Web
+			2.6.3.5 Web
 			
 		2.6.4.0 Common Abilities
 		
