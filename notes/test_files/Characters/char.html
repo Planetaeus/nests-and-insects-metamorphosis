@@ -179,8 +179,6 @@
 								<input type="checkbox" id="tr-c8" name="tr-c8">
 								<input type="checkbox" id="tr-c9" name="tr-c9">
 						</div>
-					</div>
-					<div class="form-row">
 						<div class="form-group">
 							<label for="KEN">Survival Rate:</label>
 								<input type="checkbox" id="sr-c0" name="sr-c0">
@@ -194,19 +192,33 @@
 								<input type="checkbox" id="sr-c8" name="sr-c8">
 								<input type="checkbox" id="sr-c9" name="sr-c9">
 						</div>
-						<div class="form-group">
-							<label for="PAS">Wounds:</label>
-								<input type="checkbox" id="wound-c0" name="wound-c0">
-								<input type="checkbox" id="wound-c1" name="wound-c1">
-								<input type="checkbox" id="wound-c2" name="wound-c2">
-								<input type="checkbox" id="wound-c3" name="wound-c3">
-								<input type="checkbox" id="wound-c4" name="wound-c4">
-								<input type="checkbox" id="wound-c5" name="wound-c5">
-								<input type="checkbox" id="wound-c6" name="wound-c6">
-								<input type="checkbox" id="wound-c7" name="wound-c7">
-								<input type="checkbox" id="wound-c8" name="wound-c8">
-								<input type="checkbox" id="wound-c9" name="wound-c9">
-						</div>
+					</div>
+					<div class="form-group">
+						<label for="PAS">Max Wounds:</label>
+							<input type="checkbox" id="wound-max-c0" name="wound-max-c0">
+							<input type="checkbox" id="wound-max-c1" name="wound-max-c1">
+							<input type="checkbox" id="wound-max-c2" name="wound-max-c2">
+							<input type="checkbox" id="wound-max-c3" name="wound-max-c3">
+							<input type="checkbox" id="wound-max-c4" name="wound-max-c4">
+							<input type="checkbox" id="wound-max-c5" name="wound-max-c5">
+							<input type="checkbox" id="wound-max-c6" name="wound-max-c6">
+							<input type="checkbox" id="wound-max-c7" name="wound-max-c7">
+							<input type="checkbox" id="wound-max-c8" name="wound-max-c8">
+							<input type="checkbox" id="wound-max-c9" name="wound-max-c9">
+					</div>
+					<div class="form-group">
+						<label for="PAS">Wounds:</label>
+							<input type="checkbox" id="wound-current-c0" name="wound-current-c0">
+							<input type="checkbox" id="wound-current-c1" name="wound-current-c1">
+							<input type="checkbox" id="wound-current-c2" name="wound-current-c2">
+							<input type="checkbox" id="wound-current-c3" name="wound-current-c3">
+							<input type="checkbox" id="wound-current-c4" name="wound-current-c4">
+							<input type="checkbox" id="wound-current-c5" name="wound-current-c5">
+							<input type="checkbox" id="wound-current-c6" name="wound-current-c6">
+							<input type="checkbox" id="wound-current-c7" name="wound-current-c7">
+							<input type="checkbox" id="wound-current-c8" name="wound-current-c8">
+							<input type="checkbox" id="wound-current-c9" name="wound-current-c9">
+					</div>
 					</div>
 				</div>
 				<div id="special-div">
@@ -778,9 +790,10 @@
 						}
 						let jsonData = JSON.stringify(formData);
 						let blob = new Blob([jsonData], { type: 'application/json' });
+						let charName = document.getElementById("char_name").value;
 						//let jsonOutput = document.getElementById("jsonOutput");
 						//jsonOutput.innerHTML = "<pre>" + jsonData + "</pre>";	
-						downloadFileUniversal(jsonData, "char.json", 'application/json');
+						downloadFileUniversal(jsonData, charName + ".json", 'application/json');
 					}
 					
 					function downloadFileUniversal(dataContent, fileName, mimeType) {
