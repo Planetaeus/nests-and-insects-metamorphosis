@@ -239,7 +239,7 @@ Combat Steps:
 		Resist
 		Manoeuver
 		Move
-	You can hold one of your actions. If you do, you can Suppress or Support another character at the start of that character's turn.
+	You can hold one of your actions. If you do, declare another Character that you are going to Support or Suppress at the start of that Character's turn.
 5. Step through each combatant in Initiative Order
 6. Repeat the round until all are retreating or killed
 7. Combat ends
