@@ -1072,3 +1072,20 @@ List of Special Abilities:
 ║ spaces inside the Nests, the creatures that roam them, and items that populate them.      ║
   Nest & Insects: Metamorphosis provides rules for the basic procedural generation of Rooms and Floor Plans.
   
+		3.7.1.0 How Procedural Generation Works
+		
+			The core mechanic of procedural generation is rolling on tables. The players or the GQ roll a d10 and cross-reference the result with the rows of a table. The table lists what the characters find and what happens to them while they Explore the Nest.
+			
+║ _Exploration Action_ Survival and Exploration starts with an Exploration Action. This     ║
+║ Action is resolved by a full Qualification Roll and its outcome determines the types, and ║
+║ numbers, of Events that occur as the characters explore the Nest. There are three types   ║
+║ of Events: Costs, Risks and Rewards. Each Exploration Action may cause up to three Events  ║
+║ to occur. A better DoS to the Exploration Action causes more Rewards to occur while a     ║
+║ worse one causes more Costs and Risks to occur.                                           ║
+			
+			_Chance of Events_ The Chance for an Event to occur can change depending on the current Nest Level. Each Event has a base number, and either adds or subtracts the current Nest Level. In this way, Events become more likely the further the Characters venture further, while some become less likely.
+			
+			_Rolling for Events_ Once the type and number of Events is determined, the players roll on the relevant Event tables to find which specific events occur. For each Event to be generated, roll a d10 and look up the result on the relevant Table. Each Event with a Chance greater than or equal to the d10 roll is generated. Thus, multiple Events may occur as a result of a single Exploration Action.
+			
+			Events are listed in TABLES in SECTION. Nest Level ratings and their Quantification Dice are listed in TABLE, in SECTION.
+			
