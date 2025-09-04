@@ -659,9 +659,9 @@ List of Special Abilities:
 
 ║ d20 Result    Special Ability                                                             ║
 ║ ───────────────────────────────────────────────                                           ║
-║ 1-2           Blindsense - Gain Blindness                                                 ║
-║ 3-4           Armor - Gain Carapace                                                       ║
-║ 5-6           Flight - Gain Flight                                                        ║
+║ 1-2           Armor - Gain Carapace                                                       ║
+║ 3-4           Flight - Gain Flight                                                        ║
+║ 5-6           Glowing - Gain Light                                                        ║
 ║ 7-8           Swarms - Gain Swarming                                                      ║
 ║ 9-10          Venom - Gain Venom                                                          ║
 ║ 11-12         Webs - Gain Web                                                             ║
