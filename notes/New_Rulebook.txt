@@ -749,3 +749,315 @@ List of Special Abilities:
 ║ ───────────────────────────────────────────────────────                                   ║
 ║ Figure 23: Minigame Formula Template.                                                     ║
 
+	3.6.0.0 Combat
+		3.6.1.0 Combat Summary
+			Combat begins when the characters and a group of enemies attack one another. Combat is divided into Rounds, divided into Turns in which characters and enemies participating on Combat (Combatants) get to act, and players and the GQ roll dice to decide the outcome of Combatants' Actions.
+			
+			At the start of Combat, before the first Round, Combatants' starting Disposition and Initiative Order are decided, then the first Round begins and Combatants take Turns in order of their Initiative. Combatants can take actions out of Turn, for example to Suppress an enemy; support an ally; or Resist an Effect.
+			
+			Players decide their characters' Actions and the GQ decides the Actions of Enemies.
+			
+			The Goals of Combat Actions are to:
+			
+			* Wound and Kill Enemies
+			* Reduce enemies' effectiveness in combat
+			* Cause enemies to Retreat.
+			
+			When a Character has as many or more Wounds as their Max Wounds rating, they are Killed. Reduced Disposition imposes negative modifiers to subsequent Actions. Once a character or Enemy's Disposition reaches Retreating, the Combatant cannot take Actions other than fleeing from Combat.
+			
+			Combat ends when all Combatants on one side are either Killed or Retreating.
+			
+		3.6.2.0 Combat Steps
+			The Combat Minigame plays out in NUMBER steps, two of which repeat until Combat ends. The NUMBER Combat Steps are summarised in the Rules Summary below, and discussed in detail in the following Sections.
+			
+║ ┌[Rules Summary 21: Combat Steps]───────────────────────────────────────────────────────┐ ║
+║ │                                                                                       │ ║
+║ │ 1. Determine Combat participants (Combatants) and the Sides they fight on.            │ ║
+║ │                                                                                       │ ║
+║ │ 2. Determine all Combatants' starting Disposition.                                    │ ║
+║ │                                                                                       │ ║
+║ │ 3. Determine Combatants' Initiative Order.                                            │ ║
+║ │                                                                                       │ ║
+║ │ 4. A new Combat Round begins.                                                         │ ║
+║ │                                                                                       │ ║
+║ │ 5. A new Combat Turn begins.                                                          │ ║
+║ │                                                                                       │ ║
+║ │ 6. The next Combatant in the Initiative Order takes a Turn.                           │ ║
+║ │                                                                                       │ ║
+║ │ 7. Repeat from Step 5 until all Combatants have taken a Turn, or passed.              │ ║
+║ │                                                                                       │ ║
+║ │ 8. Repeat from Step 4 until all Combatants on one side of Combat are killed, or       │ ║
+║ │    Retreating.                                                                        │ ║
+║ │                                                                                       │ ║
+║ │ 9. Combat Ends.                                                                       │ ║
+║ │                                                                                       │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+
+			3.6.2.1 Determine Combatants and Sides
+				Combat begins when either the characters or Nest creatures attack one another.
+				
+				All characters in the Room where Combat is taking place make up one Side of Combat.
+				
+				All creatures of the same Species as the creature attacking or attacked by the Characters and in the same Room as that creature make up the other Side of Combat.
+				
+				Characters or creatures on the same Side are "Allies", and those on the opposide Side are "Enemies"
+				
+				All the creatures on the two Sides of Combat are Combatants for the duration of Combat.
+				
+				It is possible for a creature to be in the same room as Combat and not be a Combatant. These Bystanders can be recruited or incited to fight for either Side.
+				
+			3.6.2.2 Starting Disposition
+				Before the start of the first Combat Round, each player makes an uncontested Roll using their Character's Initiative. The GQ makes a similar roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances their Disposition for each Success in their Initiative Roll. If a Combatant rolls 0 Successes, their Disposition Recoiles 1.
+				
+	║ Initiative Roll Result        Starting Disposition                                        ║
+	║ ──────────────────────────────────────────────────                                        ║
+	║ Success                       Advance 1 for each Success                                  ║
+	║ Failure                       Recoil 1.                                                   ║
+	║ ──────────────────────────────────────────────────                                        ║
+	║ Table 23: Starting Disposition.                                                           ║
+
+			3.6.2.3 Initiative Order
+				Before the start of the first Combat Round, and after Starting Disposition is Determined, the GQ decides the Initiative Order for all Combatants.
+				
+				Combats take Turns in order of the count of Successes from their Initiative Roll. The Combatant with the Highest Initiative Order takes the First Turn, the one with the next highest Initiative Order takes the Second Turn, and so on.
+				
+				Initiative Order is determined as follows:
+				
+				* For Each Combatant, their Initiative Order is equal to their Successes from the Initiative Roll.
+				
+				* If two Combatants are tied for Initiative Successes, the Combatant with the highest Initiative Rating takes a Turn before the other Combatants.
+				
+				* If two or more Combatants are still tied after the Initiative and Disposition are compared, the GQ rolls a die to break the tie.
+				
+			3.6.2.4 Combat Rounds
+				
+				Once Initiative Order is determined, the first Round of Combat begins and Combatants take Actions in Turn, in order of Initiative.
+				
+				Combatants can take up to two Actions per Round:
+				
+				* Attack an Enemy to inflict Wounds.
+				
+				* Resist an Effect.
+				
+				* Negotiate a Manoeuver.
+				
+				* Hold an Action to Support or Suppress.
+				
+				* Move up to her Speed.
+				
+				Characters can pass the chance to take one or both of their Actions and can take them in any combination, with the restriction that a Character can only make one Attack Action per round.
+				
+				_Acting out of Turn_ Combatants can Hold one of their Actions to declare an Ally they want to Support or an Enemy they want to Suppress. If they do so, they take the declared Action at the start of the declared Combatant's Turn.
+				
+				_Movement_ If using a grid, the Character may move a number of spaces up to their Speed rating. A Character with a Flight rating can move additional spaces up to their Flight rating. If playing without a grid, assume that the Character can move to the manner of position they want to take.
+				
+			3.6.2.5 Attack Action
+				
+				In her Turn, a Combatant can take one Attack Action targeting an enemy with either of her Attacks.
+				
+				To determine the outcome of an Attack, make a contested roll using the Attack's Effort and Resistance. Characters with a nonzero Carapace rating add it as a positive modifier to their Resistance against Melee attacks. Characters with a nonzero Flying rating add it as a Positive Modifier to their Resistance againse Ranged Attacks.
+				
+				Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort is usually one of the four Core Attributes + Threat Rate, and Resistance is usually one of the four Core Attributes + Survival Rate. Certain Attacks may list other combinations of Features instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
+				
+				Once each the Effort and Resistance Dice Pools are established, the dice are rolled. If the Effort rolls more Successes than Resistance, the Attack Hits and the target takes a number of Wounds equal to the difference. Many Attacks also have additional effects on a Hit. If the Resistance rolls more Successes than Effort, the Attack misses and the attacker recoils. If the Resistance and Effort roll the same number of Successes, the Attack results in a stalemate and nothing happens.
+				
+				_Carapace_ If an Attack is Close Range and the target has a Carapace rating, the target's Carapace rating is a Positive Modifier to the Resistance of the Attack.
+				
+				_Flying_ If an Attack is Ranged and the target has a Flight rating, the target's Flight rating is a Positive Modifier to the Resistance of the Attack.
+				
+				_Targeting Allies_ Some Attacks Heal or Help rather than Harm. These Attacks can target Allies, but may be more difficult when targeting more capable Allies.
+				
+				Attacks are listed in SECTION. Each Attack has the following information:
+				
+				
+	║ Name ................ The Name of the Attack                                              ║
+	║ Effort .............. What Features make up the Effort Dice Pool.                         ║
+	║ Resistance .......... What Features make up the Resistance Dice Pool.                     ║
+	║ Range ............... How far away can the Target be?                                     ║
+	║ Target .............. The Target Creature(s), or Target Area.                             ║
+	║ Effect .............. The additional effects of the Attack (if any).                      ║
+
+			3.6.2.6 Suppress Action
+				
+				A Combatant can take one of the following Suppress Actions on an Enemy's turn:
+				
+				1. Attempt to Confuse the Enemy: roll Ken vs. Ken to bestow a Confused Effect.
+				
+				2. Attempt to Charm the Enemy: Roll Passions vs. Passions to bestow a Charmed Effect.
+				
+				3. Attempt to Intimidate the enemy: Roll Signaling vs. Passions to shift Disposition Down.
+				
+				Following is the Combat Minigame Formula for the Suppress Action.
+				
+║ Name of the Minigame ................ Combat                                              ║
+║ Participating Entities .............. Characters, Enemies                                 ║
+║ List of Minigame Intents ............ Suppress enemy                                      ║
+║ List of Minigame Actions ............ Confuse, Charm, Intimidate                          ║
+║ Effort Variables .................... Action-specific (see below)                         ║
+║ Resistance Variables ................ Action-specific                                     ║
+║ Modifier Variables .................. Action-specific                                     ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success    Intimidate Outcome    Charm or Confuse Outcome                       ║
+║ ──────────────────────────────────────────────────────────────────────────────            ║
+║ Critical Success     Target Recoils 3      Bestow Charmed / Confused: 3                   ║
+║ Complete Success     Target Recoils 2      Bestow Charmed / Confused: 2                   ║
+║ Partial Success      Target Recoils 1      Bestow Charmed / Confused: 1                   ║
+║ Partial Failure      Target Holds          Bestow Confused: 1                             ║
+║ Complete Failure     Target Advances 1     Bestow Confused: 2                             ║
+║ Critical Failure     Target Advances 2     Bestow Confused: 3                             ║
+║ ──────────────────────────────────────────────────────────────────────────────            ║
+║                                                                                           ║
+║ Suppress Action-specific Effort, Resistance and modifier Features:                        ║
+║                                                                                           ║
+║ Action        Effort                    Resistance                                        ║
+║ ──────────────────────────────────────────────────────────────                            ║
+║ Charm         Passions                  Passions                                          ║
+║ Confuse       Ken                       Ken                                               ║
+║ Intimidate    Signaling                 Passions                                          ║
+║ ──────────────────────────────────────────────────────────────                            ║
+
+			3.6.2.7 Support Action
+				A Combatant can take the following Support Actions at the start of an Ally's Turn:
+				
+				1. Attempt to Rally the Ally: Roll Leadership vs. Passions.
+				
+				2. Attempt to Focus the Confused Ally's mind: Roll Ken vs. the Ally's Confused.
+				
+				3. Attempt to shake the Charmed Ally out of it: roll Passions vs. the Ally's Charmed.
+				
+				Following is the Combat minigame Formula for the Support Action:
+				
+║ Name of the Minigame: ................ Combat                                             ║
+║ Participating Entities: .............. Characters, Allies                                 ║
+║ List of Minigame Intents: ............ Support Ally                                       ║
+║ List of Minigame Actions: ............ Rally, Encourage, Focus, Shake                     ║
+║ Effort Variables: .................... Action-specific (listed below)                     ║
+║ Resistance Variables: ................ Action-specific                                    ║
+║ Modifier Variables: .................. Action-specific                                    ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                 ║
+║ ───────────────────────────────────────────────────────────────────────────────────────── ║
+║ Critical Success     Ally Charges                  Remove Effect and Shift Disposition Up ║
+║ Complete Success     Ally Advances                 Remove Effect (reduce to 0%)           ║
+║ Partial Success      Ally Holds                    Reduce Effect (roll to decrease)       ║
+║ Partial Failure      Ally Recoils                  Effect remains                         ║
+║ Complete Failure     Ally Recoils                  Effect is enhanced (roll to increase)  ║
+║ Critical Failure     Ally Retreats                 Effect is maximised (set to 100%)      ║
+║ ───────────────────────────────────────────────────────────────────────────────────────── ║
+║                                                                                           ║
+║ Support Action-specific Effort, Resistance and modifier Features:                         ║
+║                                                                                           ║
+║ Action         Effort          Resistance                                                 ║
+║ ───────────────────────────────────────────────────────────────                           ║
+║ Encourage      Leadership      Passions                                                   ║
+║ Focus          Ken             Confused                                                   ║
+║ Shake          Passions        Charmed                                                    ║
+║ ───────────────────────────────────────────────────────────────                           ║
+
+			3.6.2.8 Resisting Effects
+			
+				A Combatant can take a Resist Action during their turn to overcome a single Effect.
+				
+║ Name of the Minigame: ................ Combat                                             ║
+║ Participating Entities: .............. Character or enemy                                 ║
+║ List of Minigame Intents: ............ Ignore Effect temporarily                          ║
+║ List of Minigame Actions: ............ Resist Effect                                      ║
+║ Effort Variables: .................... Effect-specific (see below)                        ║
+║ Resistance Variables: ................ Effect-specific                                    ║
+║ Modifier Variables: .................. None                                               ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success        Outcome                                                          ║
+║ ───────────────────────────────────────────────────────────────                           ║
+║ Critical Success         Remove Effect and Shift Disposition Up                           ║
+║ Complete Success         Remove Effect (reduce to 0%)                                     ║
+║ Partial Success          Reduce Effect (roll to decrease)                                 ║
+║ Partial Failure          Effect remains                                                   ║
+║ Complete Failure         Effect is enhanced (roll to increase)                            ║
+║ Critical Failure         Effect is maximised (set to 100%)                                ║
+║ ───────────────────────────────────────────────────────────────                           ║
+║                                                                                           ║
+║ Effect-specific Effort variables:                                                         ║
+║                                                                                           ║
+║ Effect             Resist with                                                            ║
+║ ──────────────────────────────────────────────                                            ║
+║ Agony              Passions                                                               ║
+║ Bleeding           Strength                                                               ║
+║ Blind              Ken                                                                    ║
+║ Charmed            Passions                                                               ║
+║ Confused           Ken                                                                    ║
+║ Immobilised        Speed                                                                  ║
+║ Infected           Strength                                                               ║
+║ Paralysed          Speed                                                                  ║
+║ Poisoned           Strength                                                               ║
+║ Stunned            Strength                                                               ║
+║ ──────────────────────────────────────────────                                            ║
+
+			3.6.2.9 Manoeuver Action
+				
+				ManoeuverActions provide a mechanism for players' Characters and Enemies controlled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for ManoeuverActions and no minigame formula for them. The GQ comes up with special rules on the fly.
+				
+				To take a Manoeuver Action, describe the Combatant's Intent, then choose Effort and Resistance, and resolve the Action with a Qualification Roll, a Boolean Roll, or a Contested Boolean Roll. Feel free to add a Quantification Roll and bestow an Effect as a result of a Manoeuver. Any of a Combatant's Features can be used to take a Manoeuver Action. Below are some example Manoeuvers
+				
+║ * Lift an enemy off the ground and throw her behind her allies' lines: roll Strength vs.  ║
+║   the enemy's Strength. If the Roll succeeds, the enemy is moved.          ║
+║                                                                                           ║
+║ * Lift an enemy off the ground, carry her, flying, behind her allies lines and drop her   ║
+║   there: Roll Flight + Strength vs. the enemy's Strength. If the Roll succeeds, the enemy  ║
+║   acquires Stunned.                                                                  ║
+║                                                                                           ║
+║ * Direct an ally to hit an enemy where she has been previously wounded: Roll Ken +        ║
+║   Signalling vs. Ken. If the Action succeeds, the ally gets a positive                    ║
+║   static modifier to her next Attack. Roll d40 to Quantify the modifier.                  ║
+║                                                                                           ║
+║ * Give an enemy the old run-around: Roll Speed vs. Speed to evade an enemy taking an      ║
+║   Attack Action targeting the character. If the Roll Succeeds, the enemy's Turn is        ║
+║   postponed until the end of the Round.                                                   ║
+║                                                                                           ║
+║ * Bash together a barrier to protect the character and her allies: Make a Boolean Roll    ║
+║   vs. Construction or Web Weaving. If the Roll succeeds, the character and one ally can   ║
+║   take cover behind the barrier, and the next Ranged Attack targeting them has a          ║
+║   negative modifier equal to the number of Successes on the Roll. After an Attack targets the characters behind the barrier, the barrier is destroyed.                                                      ║
+║                                                                                           ║
+║ ┌[Houseruling Manoeuvers]───────────────────────────────────────────────────────────────┐ ║
+║ │ Manoeuvers are an opportunity for players to use their imagination to come up with    │ ║
+║ │ creative ways to gain an advantage in Combat, or for the GQ to use hers to create     │ ║
+║ │ interesting and challenging situations for the players to overcome. A character's     │ ║
+║ │ Intent, as described by her player, should guide the GQ to "houserule" the            │ ║
+║ │ character's Actions. Accordingly the GQ should not hesitate to play the Nest's        │ ║
+║ │ guardians as more than dumb automata, who can also use their (simple) insectoid       │ ║
+║ │ brains to protect their home.                                                         │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+
+			3.6.2.10 Breaking from Combat
+				
+				A Combatant can Break from Combat as a Move Action once during her Turn.
+				
+				To have a Combatant Break from Combat, make a Boolean Roll with the Character's Initiative as Effort. If the Roll Succeeds, the Combatant is no longer in Combat and can take Actions other than Formulaic Combat Actions, as usual. If the Roll Fails, the Combatant remains a Combatant and cannot attempt to Break from Combat until her next Turn.
+				
+			3.6.2.11 Consuming Food in Combat
+			
+				There is no Formulaic Combat Action that allows a Combatant to consume a Food Item during Combat. War is no picnic! Combatants are also not allowed to consume Food as a Manoeuver.
+				
+				If a Combatant wishes to consume a Food Item, the Combatant must first Break from Combat.
+				
+			3.6.2.12 Joining Combat.
+			
+				A creature who is not in Combat can always Join Combat. The Creature may have Broeken from Combat previously, or she may have been hiding, or not in the same Room as her friends when Combat began. It doesn't really matter: a Creature can always join Combat.
+				
+				Joining Combat requires no Roll. A creature who is not a Combatant joins Combat at the start of the next Combat Round. At the start of that Round, before any Combatants' Turn, determine the new Combatant's Disposition and Initiative Order, then she takes her first Turn in Initiative Order, as normal.
+║ ┌[Note 5]───────────────────────────────────────────────────────────────────────────────┐ ║
+║ │ A common reason for new Combatants to join Combat is when the Nest's Guardians summon │ ║
+║ │ their conspecifics to help them repell the intruders. In that case, when the summoned │ ║
+║ │ allies arrive, they Join Combat as described above.                                   │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+
+			3.6.2.13 Combat Ends
+				
+				When Combat ends, all Combatants cease to be Combatants and the two Sides cease to exist for rules purposes.
+				
