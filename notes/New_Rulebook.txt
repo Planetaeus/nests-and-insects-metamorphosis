@@ -1247,3 +1247,249 @@ Reward Generation:
 ║ Environment. In the example in Table 28 above, the players have noted that a Shelter was  ║
 ║ built into the Red Room, and the connections between Environments found so-far.           ║
 
+		3.7.7.0	Survival & Exploration Steps
+		
+			
+║ The Survival and Exploration minigame is carried out in distinct steps, listed below.     ║
+║ Unlike Combat, Survival and Exploration is not divided into Rounds or Turns. Instead,     ║
+║ each of the steps listed below is taken in the order in which it is listed, then the      ║
+║ minigame ends. A new Survival and Exploration minigame can begin immediately afterwards,  ║
+║ if the players so wish; otherwise, the players are free to control their characters as    ║
+║ they see fit.                                                                             ║
+║                                                                                           ║
+║ ┌[Survival and Exploration Steps]───────────────────────────────────────────────────────┐ ║
+║ │                                                                                       │ ║
+║ │ 1. Begin Survival and Exploration.                                                    │ ║
+║ │                                                                                       │ ║
+║ │ 2. Form an Exploration Party (decide which characters go exploring).                  │ ║
+║ │                                                                                       │ ║
+║ │ 3. Spend a Room to pay the cost of the Exploration Action.                            │ ║
+║ │                                                                                       │ ║
+║ │ 4. Resolve the Exploration Action.                                                    │ ║
+║ │                                                                                       │ ║
+║ │ 5. Generate, then play Event 1, determined by the Exploration Action.                 │ ║
+║ │                                                                                       │ ║
+║ │ 6. Generate, then play Event 2, determined by the Exploration Action.                 │ ║
+║ │                                                                                       │ ║
+║ │ 7. Generate, then play Event 3, determined by the Exploration Action.                 │ ║
+║ │                                                                                       │ ║
+║ │ 8. Survival and Exploration Ends.                                                     │ ║
+║ │                                                                                       │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                                           ║
+║ Each of the Steps in the Survival and Exploration Steps box above are described in detail ║
+║ in the following Sections.                                                                ║
+
+║ 3.7.7.1 Begin Survival and Exploration                                                    ║
+║                                                                                           ║
+║ Survival and Exploration begins when a player declares that her character's Intent is to  ║
+║ "Explore the Nest".                                                                       ║
+║                                                                                           ║
+║ "Explore the Nest" is the formulaic Intent of the Exploration Action (described in        ║
+║ Section 3.7.7.4). A player is free to express her character's Intent to explore the Nest  ║
+║ in her own words, as long as it's clear that the characer wants to go exploring. If       ║
+║ that's not clear, the GQ can always ask the player to clarify. If the player isn't sure   ║
+║ what her character's Intent means in mechanical terms, the decision is made by the GQ     ║
+║ whether to start a Survival and Exploration minigame, or not.                             ║
+║                                                                                           ║
+║ If more than one player wish their characters to explore the Nest, they can say so at     ║
+║ this point. Otherwise they can do so in the next Step.                                    ║
+
+║ 3.7.7.2 Form an Exploration Party                                                         ║
+║                                                                                           ║
+║ It's common for more than one character to explore the Nest at a time. In particular, all ║
+║ the player characters may go exploring together, or the players may split their           ║
+║ characters into groups that will explore the Nest separately.                             ║
+║                                                                                           ║
+║ A group of characters exploring the Nest is an Exploration Party. To form an Exploration  ║
+║ Party the players decide between then which characters explore the Nest together. For     ║
+║ each such group, one Exploration Party is formed.                                         ║
+║                                                                                           ║
+║ For each Exploration Party, a separate Survival and Exploration Action is taken.          ║
+║ Nominate one character in each Exploration Party to be the "Scout" of the Party. The      ║
+║ Scout's Exploration Feature is used as the Effort for the subsequent Exploration Action.  ║
+║                                                                                           ║
+║ _Tracking Exploration Parties_ To facilitate the distinction between Exploration Parties, ║
+║ if more than one are formed, the GQ or the players can assign names to each party, or     ║
+║ describe the direction where a party is heading (this is despite the fact that Nest       ║
+║ environments do not specify clear directions). Tere are no specific rules for this. As an ║
+║ example, if the characters split into two Exploration Parties, the players can declare    ║
+║ that one party is exploring "to the North" and the other "to the South". Then the GQ and  ║
+║ the players can refer to the two parties as "the North Party" and the "South Party". The  ║
+║ GQ will probably want to make a note of what characters are in each Exploration Party.    ║
+
+
+║ 3.7.7.3 Spend a Room to take an Exploration Action                                        ║
+║                                                                                           ║
+║ For one or more characters to take an Exploration Action, their players must spend a free ║
+║ Room from their Environment Pool. Mark a Room as "explored" in the pool, so that it is not    ║
+║ spent again later. Then resolve the Exploration Action as described in the following      ║
+║ Section.                                                                                  ║
+
+
+║ 3.7.7.4 Resolve the Exploration Action                                                    ║
+║                                                                                           ║
+║ As described in earlier Sections, the Survival and Exploration minigame is initiated when ║
+║ one or more players decides that their characters will go exploring the Nest. During the  ║
+║ Survival and Exploration minigame an Exploration Action is taken by the exploring         ║
+║ character, or characters. This Section defines the formula for the Exploration Action.    ║
+║                                                                                           ║
+║ _Party Scout_ When more than one characters take part in the same Exploration Action,     ║
+║ i.e. when an Exploration Party is formed, one character is nominated as the Scout. Each
+  Player in the Exploration Party takes turns being the Party Scout.
+║                                                                                           ║
+║ The outcome of the Exploration Action determines the number, and type of Events that      ║
+║ occur as a result of the Action. Three Events of up to three different types will occur,  ║
+║ depending on the DoS of the Exploration Action. The formula for the Exploration Action is ║
+║ listed below.                                                                             ║
+║                                                                                           ║
+║ Name of the Minigame: ............... Survival and Exploration                            ║
+║ Participating Entities: ............. Characters, Nest Environment                        ║
+║ List of Minigame Intents: ........... Explore the Nest                                    ║
+║ List of Minigame Actions: ........... Explore                                             ║
+║ Effort Variables: ................... Exploration                                         ║
+║ Resistance Variables: ............... Nest Level                                          ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success            Outcome                                                      ║
+║ ───────────────────────────────────────────────────                                       ║
+║ Critical Success             Reward, Reward, Reward                                       ║
+║ Complete Success             Risk, Reward, Reward                                         ║
+║ Partial Success              Cost, Risk, Reward                                           ║
+║ Partial Failure              Cost, Risk, Risk                                             ║
+║ Complete Failure             Cost, Cost, Risk                                             ║
+║ Critical Failure             Cost, Cost, Cost                                             ║
+║ ───────────────────────────────────────────────────                                       ║
+║ Figure 24: Exploration Action Formula.                                                    ║
+║                                                                                           ║
+║ The acting character, or the Party Scout, may add her Eusociology and Perception as       ║
+║ static positive modifiers to the Exploration Roll.                                        ║
+
+
+║ 3.7.7.5 Generate and pay Costs                                                            ║
+║                                                                                           ║
+║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
+║ includes one or more instances of the word "Cost", follow the steps below to generate,    ║
+║ and pay Costs.                                                                            ║
+║                                                                                           ║
+║    1. For each instance of the word "Cost":                                               ║
+║                                                                                           ║
+║    2. Roll d10.                                                                          ║
+║                                                                                           ║
+║    3. Look up the result on the Costs Table.                                              ║
+║                                                                                           ║
+║    4. Each Cost with a Chance that is equal to, or higher than the result of the d10     ║
+║    Roll is "generated".                                                                   ║
+║                                                                                           ║
+║    Costs are generated in the order in which they appear in the Costs table, Table        ║
+║    23, starting with the first Cost (Hunger) in the top row of the Table.                 ║
+║                                                                                           ║
+║    5. Each character in the Exploration Party pays each generated Cost in order of        ║
+║    generation.                                                                            ║
+
+║ The Costs Table is reproduced below as Table 29 for the reader's convenience.             ║
+║                                                                                           ║
+║ Cost                Chance         Description                                            ║
+║ ───────────────────────────────────────────────────────────────────────────────           ║
+║ 3.7.8.1 Hunger      5 + Level      Increase Hunger, deplete Food Items, bestow Starving   ║
+║ 3.7.8.4 Effects     4 + Level      Apply, or modify the rating of deleterious Effects     ║
+║ 3.7.8.5 Darkness    3 + Level      Deplete lighting Items or suffer in Darkness           ║
+║ 3.7.8.3 Collapse    2 + Level      A room is removed from the Room Pool.                  ║
+║ Table 29: Costs.                                                                          ║
+
+
+║ 3.7.7.6 Generate and face Risks                                                           ║
+║                                                                                           ║
+║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
+║ includes one or more instances of the word "Risk", follow the steps below to generate,    ║
+║ and face Risks.                                                                           ║
+║                                                                                           ║
+║    1. For each instance of the word "Risk":                                               ║
+║                                                                                           ║
+║    2. Roll d10.                                                                          ║
+║                                                                                           ║
+║    3. Look up the result on the Risks Table.                                              ║
+║                                                                                           ║
+║    4. Each Risk with a Chance that is equal to, or higher than the result of the          ║
+║       d10 Roll is "generated".                                                           ║
+║                                                                                           ║
+║       Risks are generated in the order in which they appear in the Risks table, Table     ║
+║       23, starting with the first Risk (Encounter) in the top row of the Table.           ║
+║                                                                                           ║
+║    5. All characters in the Exploration Party face the first generated Risk; once the     ║
+║       first Risk is faced and all Actions or minigames resulting are resolved, all        ║
+║       characters in the Exploration Party face the second generated Risk; and so on,      ║
+║       until all generated Risks have been faced.                                          ║
+║                                                                                           ║
+║ The Risks Table is reproduced below as Table 30 for the reader's convenience.             ║
+║                                                                                           ║
+║ Risk                    Chance         Description                                        ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+║ 3.7.9.3 Obstacle        8              Prevents further Exploration until removed (       ║
+║ 2.11.6.8 Item (Unknown) 6 - Level      Find as yet unidentified Food Items ()             ║
+║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
+║ 3.7.8.6 Spoilage    	  2 + Level      Food Items have a chance to become Spoiled         ║
+║ 3.7.9.5 Infection       1 + Level      Bestows the Infection Effect ()                    ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+║ Table 30: Risks.                                                                          ║
+║                                                                                           ║
+║ _Combat Risk_ Risks include the "Encounter" Event which may cause a Combat minigame to    ║
+║ begin. In that case, subsequent Risks are only faced once the Combat minigame has ended.  ║
+║                                                                                           ║
+║ _Missing Characters_ If some of the characters in the Exploration Party that faced the    ║
+║ original Encounter Risk that initiated a Combat minigame are no longer in the same Room   ║
+║ as the rest of the Party (usually because they are fleeing from Combat) those missing     ║
+║ characters do not face any subsequent Risks until they return to that Room.               ║
+
+║ 3.7.7.7 Generate and reap Rewards                                                         ║
+║                                                                                           ║
+║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
+║ includes one or more instances of the word "Reward", follow the steps below to generate,  ║
+║ and reap Rewards.                                                                         ║
+║                                                                                           ║
+║    1. For each instance of the word "Reward":                                             ║
+║                                                                                           ║
+║    2. Roll d10.                                                                          ║
+║                                                                                           ║
+║    3. Look up the result on the Rewards Table.                                            ║
+║                                                                                           ║
+║    4. Each Reward with a Chance that is equal to, or higher than the result of the d10   ║
+║       Roll is "generated".                                                                ║
+║                                                                                           ║
+║       Rewards are generated in the order in which they appear in the Rewards table,       ║
+║       Table 31, starting with the first Reward (Room) in the top row of the Table.        ║
+║                                                                                           ║
+║    5. If a generated Reward is an Item, any character may add the Item to her Inventory.  ║
+║       If no character adds the Item to her Inventory the Item remains on the Room floor   ║
+║       as a "dropped" Item.                                                                ║
+║                                                                                           ║
+║       Which character picks up which Item is left to the players to decide. There are no  ║
+║       specific rules to manage that decision.                                             ║
+║                                                                                           ║
+║    6. If a generated Reward is a Room, Shortcut, or Level, the Reward is added to the     ║
+║       player characters' communal Environment Pool.                                       ║
+║                                                                                           ║
+║    7. If a generated Reward is a Secret, follow the description of the Secret Event: this ║
+║       usually means that a new Event is generated.                                        ║
+║                                                                                           ║
+║ The Rewards Table is reproduced below as Table 31 for the reader's convenience.           ║
+║                                                                                           ║
+║ Reward                  Chance               Description                                  ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+║ 3.7.10.1 Room           10 - Level           Spend a Room to Explore, Hunt or Forage ()   ║
+║ 3.7.10.4 Item (Known)   8 - Level            Find a previously identified Food Item ()    ║
+║ 3.7.10.5 Resource       6 - Level            Materials to build a Shelter ()              ║
+║ 3.7.10.3 Level          1 + Level            Entrance to a new, deeper Nest Level ()      ║
+║ 3.7.10.2 Shortcut       Level - 5            Takes you directly to the Job Target ()      ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+║ Table 31: Rewards.                                                                        ║
+
+
+║ 3.7.7.8 Survival and Exploration Ends                                                     ║
+║                                                                                           ║
+║ Once all Costs, Risks and Rewards, are generated and dealt with as described in the       ║
+║ previous Sections, the Survival and Exploration minigame ends.                            ║
+║                                                                                           ║
+║ Nothing special happens when Survival and Exploration ends. Players are free to control   ║
+║ their characters as before.                                                               ║
