@@ -561,6 +561,7 @@ Environment (TBD)
 			Direct assault is just asking for trouble, as more and more termites show up.
 	
 ║                                                                                           ║
+║ Encounter                             SUCCESSES         Description                          ║
 ║ ────────────────────────────────────────────────────────────────────────────────────      ║
 ║ Worker Termite                           0    Worker caste                         ║
 ║ Termitophile		                       1	Charming and affable                 ║
