@@ -693,3 +693,21 @@ List of Special Abilities:
 	
 	Finally, the results of actions may need to be quantified. The Game Queen (GQ) then describes the outcome of the action according to the character's Intent and the Degree of Success of the Action.
 	
+	3.1.0.0 Decile Dice
+		3.1.1.0 Implementing Decile Dice
+	3.2.0.0 Six Degrees of Success and Failure
+	3.3.0.0 Percentile Features
+	3.4.0.0 Taking Actions
+		3.4.1.0 Action resolution steps
+			3.4.1.1 Describing Intent
+			3.4.1.2 Effort and Resistance
+			3.4.1.3 Qualification
+			3.4.1.4 Modification
+			3.4.1.5 Choosing Modifiers
+			3.4.1.6 Quantification
+			3.4.1.7 Choosing a Quantification Die
+			3.4.1.8 Resolution
+		3.4.2.0 Simplified Rolls
+			3.4.2.1 Boolean Roll
+			3.4.2.2 Contested Boolean Roll
+		3.4.3.0 Acting in Tandem
