@@ -561,20 +561,25 @@ Environment (TBD)
 			Direct assault is just asking for trouble, as more and more termites show up.
 	
 ║                                                                                           ║
-║ Encounter                             Chance         Description                          ║
 ║ ────────────────────────────────────────────────────────────────────────────────────      ║
-║ Worker Termite                        100%            Worker caste                        ║
-║ Minor Termite Soldier - Autothyte     50% + Level    Soldier caste                        ║
-║ Major Termite Soldier - Authothyte    25% + Level    Bigger soldier caste                 ║
-║ Nasute Soldier                        Level          Scarier soldier caste                ║
-║ Alates - King                         Level - 20%    Commander of the Soldier castes      ║
-║ Alates - Queen, tertiary              Level - 40%    Cute Termite princess. Aaaw!         ║
-║ Alates - Queen, secondary             Level - 60%    Second in command                    ║
-║ Alates - Queen, primary               Level - 80%    Big honcho. Common Job target        ║
-║ Nest Invader         			        30%		       Armoured and venomous                ║
-║ Termitophile		                    15%		       Charming and affable                 ║
+║ Worker Termite                           0    Worker caste                         ║
+║ Termitophile		                       1	Charming and affable                 ║
+║ Minor Termite Soldier - Autothyte        2    Soldier caste                        ║
+║ Major Termite Soldier - Authothyte       3    Bigger soldier caste                 ║
+║ Nasute Soldier                           4    Scarier soldier caste                ║
+║ Nest Invader         			           5	Armoured and venomous                ║
+║ Alates - King                            6    Commander of the Soldier castes      ║
+║ Alates - Queen, tertiary                 7    Cute Termite princess. Aaaw!         ║
+║ Alates - Queen, secondary                8    Second in command                    ║
+║ Alates - Queen, primary                  9    Big honcho. Common Job target        ║
 ║ ────────────────────────────────────────────────────────────────────────────────────      ║
 ║ Table 32: Termite Nest Encounter Table                                                    ║
+REWORK ENCOUNTER TABLE TO USE DICE POOL SUCCESSES INSTEAD OF PERCENTILES?
+
+	Multiple Tables???
+		Or just roll more times as you go higher up?
+		The rules of Exploration prevent them from XP farming bc they need to explore more to get more encounter.
+		Only 1 XP per encounter.
 
 	Termites
 		Detritivores
