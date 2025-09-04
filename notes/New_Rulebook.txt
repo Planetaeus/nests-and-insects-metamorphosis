@@ -1493,3 +1493,4 @@ Reward Generation:
 ║                                                                                           ║
 ║ Nothing special happens when Survival and Exploration ends. Players are free to control   ║
 ║ their characters as before.                                                               ║
+
