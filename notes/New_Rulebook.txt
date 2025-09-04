@@ -20,12 +20,12 @@
 			
 		║ Net Hits    Degree of Success                         ║
 		║ ─────────────────────────────────────────────────────────────────                         ║
-		║ +2 or more  Critical Success                          ║
-		║ +1          Complete Success                          ║
-		║ +0          Partial Success                           ║
-		║ -1          Partial Failure                           ║
-		║ -2          Complete Failure                          ║
-		║ -3 or less  Critical Failure                          ║
+		║ +3 or more  Critical Success                          ║
+		║ +2          Complete Success                          ║
+		║ +1          Partial Success                           ║
+		║ +0          Partial Failure                           ║
+		║ -1          Complete Failure                          ║
+		║ -2 or less  Critical Failure                          ║
 		║ ─────────────────────────────────────────────────────────────────                         ║
 		║ Table 1: Initial four Degrees of Success.                                                 ║
 
