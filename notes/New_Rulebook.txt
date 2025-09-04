@@ -599,7 +599,7 @@
 						
 					2.	Consume the Item and note its Effects.
 						
-						If the Boolean Roll to identify aFood Item's Function fails, the Item can only be Identified by consuming it, either while paying a Hunger Cost or during a Resting & Healing minigame.
+						If the Boolean Roll to identify a Food Item's Function fails, the Item can only be Identified by consuming it, either while paying a Hunger Cost or during a Resting & Healing minigame.
 						
 						Obviously, consuming the Unknown Food Item carries a risk.
 						
