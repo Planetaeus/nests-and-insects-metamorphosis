@@ -1196,3 +1196,54 @@ Reward Generation:
 			
 			_Increasing Level Ratings_ The rating of the Nest Level changes every time a Character spends a Level Reward to explore a new Nest Level. At this time, the Characters add a new Room to their Environment Pool one level higher than their current Level.
 			
+		3.7.6.0 The Environment Pool
+		
+			As described in earlier Sections, Environments can be used as resources to pay Costs, reap Rewards, or initiate a Minigame. To track the Environments generated so-far in the game, Players have a communal Environment Pool. This pool is simply a list of all the Environments generated so far, and their properties.
+║ ┌[Tracking the Environment Pool]────────────────────────────────────────────────────────┐ ║
+║ │ Players are free to track their Environment Pool as best suits them, for example by   │ ║
+║ │ drawing a map of Environments and their connections and contents, etc.                │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                                           ║
+║ One way to track an Environment Pool is to tabulate its contents. Table 28 gives an       ║
+║ example of such tabulation.                                                               ║
+║                                                                                           ║
+║ Environment Id   Spent?   Found In     Connections   Notes                                ║
+║ ─────────────────────────────────────────────────────────────────────────────────────     ║
+║ Entrance Room    Yes      Start        Red Room                                           ║
+║ Red Room         Yes      Entrance     Black Room    Shelter built                        ║
+║ Black Room       No       Red Room     Red Room                                           ║
+║ Shortcut 1       Yes      Black Room   Level 30%     Connects Black Room to Level 30%     ║
+║ Level 43%        Yes      Black Room                                                      ║
+║ Passage Right    Yes      Entrance                   Connects Entrance to Red Room        ║
+║ Passage Left     Yes      Red Room                   Connects Red Room to Black Room      ║
+║ Passage Up       No       Red Room                                                        ║
+║ ─────────────────────────────────────────────────────────────────────────────────────     ║
+║ Table 28: Environment Pool                                                                ║
+║                                                                                           ║
+║ In Table 28, the "Environment Id" column lists a descriptive name for each generated      ║
+║ Environment (though one that should preferrably be kept short). This name is up to the    ║
+║ players to come up with. For example, a Room may be the "Black Fungus Room", because      ║
+║ Black Fungus was found while Foraging in it; or a Room may be the "Sad Aphids Farm",      ║
+║ because Aphids were found penned in the Room and they looked sad; and so on.              ║
+║                                                                                           ║
+║ The "Spent" column records whether an Environment has been spent: either to pay a Cost,   ║
+║ or to reap a Reward, or to initiate a Survival and Exploration, Hunting and Foraging or   ║
+║ Resting and Healing minigame.                                                             ║
+║                                                                                           ║
+║ _Going Back_ Environments can only be spent once from the Environment Pool, but           ║
+║ characters are free to visit them again for whatever reason, for example to try and harvest  ║
+║ an Item found in the Room. Additionally, a character, or an enemy, may be    ║
+║ forced to retreat during Combat, in which case they will likely end up in a Room already  ║
+║ visited. In such cases a character can move back in an Environment that has already been  ║
+║ spent, without spending it again.                                                         ║
+║ The "Found In" column notes the Room in which an Environment was generated as the result  ║
+║ of an Exploration Action.                                                                 ║
+║                                                                                           ║
+║ The "Connections" column notes the other Environments to which an Environment is          ║
+║ connected. "Connected" means that there exists: a Passage; or a Shortcut; or a Shaft;     ║
+║ that leads to the connected Environment.                                                  ║
+║                                                                                           ║
+║ The "Notes" column is for players to mark down anything they wish to remember about the   ║
+║ Environment. In the example in Table 28 above, the players have noted that a Shelter was  ║
+║ built into the Red Room, and the connections between Environments found so-far.           ║
+
