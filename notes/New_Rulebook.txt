@@ -1188,7 +1188,11 @@ Reward Generation:
 ║ │ Brody's Wasp must first pay the Hunger Cost, then the Effects Cost must be paid.      │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
+		3.7.5.0 Level Rating
 			
+			When an Event or a Feature of the Nest Environment needs to be Quantified, the Quantification depends on the Nest Level. An example of a Nest Environment Feature that requires Quantification is the rating of Darkness in a Room, or the rating of an Obstacle.
 			
+			Each Nest Level has a decile rating equal to its Level. Some Events use this number as the rating for their Features, other Events require a Roll to be made using the Level Rating and use the number of Successes to determine the rating of their Feature.
 			
+			_Increasing Level Ratings_ The rating of the Nest Level changes every time a Character spends a Level Reward to explore a new Nest Level. At this time, the Characters add a new Room to their Environment Pool one level higher than their current Level.
 			
