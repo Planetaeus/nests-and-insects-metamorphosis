@@ -1061,3 +1061,14 @@ List of Special Abilities:
 				
 				When Combat ends, all Combatants cease to be Combatants and the two Sides cease to exist for rules purposes.
 				
+	3.7.0.0 Survival and Exploration
+	
+║ The Survival and Exploration minigame defines rules for the procedural generation of a    ║
+║ Nest's environment. During the Survival and Exploration minigame, characters explore the  ║
+║ Nest, while players and the GQ roll dice to determine what the characters find.           ║
+
+║ In Nests & Insects procedural generation is an abstraction: no floor plans or maps are    ║
+║ generated. Instead what is generated are the Features of game entities, including the     ║
+║ spaces inside the Nests, the creatures that roam them, and items that populate them.      ║
+  Nest & Insects: Metamorphosis provides rules for the basic procedural generation of Rooms and Floor Plans.
+  
