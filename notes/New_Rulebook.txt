@@ -1095,33 +1095,40 @@ List of Special Abilities:
 			
 			Levels, Rooms, and Shortcuts are all generated as Events during the Survival and Exploration Minigame. They are collectively known as Nest Environment Events, or Environments.
 			
-			In Mechanical Terms, Environments act as resources that can be spent to initiate Minigames, or to pay Costs. In particular, in order to initiate the Survival and Exploration Minigame itself, a Room must be spent. The characters always start the game with three rooms on Level 0, each connected to the Entrance of the Nest.
+			In Mechanical Terms, Environments act as resources that can be spent to initiate Minigames, or to pay Costs. In particular, in order to initiate the Survival and Exploration Minigame itself, a Room must be spent. The characters always start the game with a room on Level 0: the Entrance of the Nest.
 			
-		3.7.2.1 Nest Levels
-		
-			A Nest Level is a group of Rooms connected to each other by Passages and connected by Shortcuts and Shafts to different Levels. Rooms in the same Level are situated at about the same distance from the ground, much like a floor in a multi-story house.
+			3.7.2.1 Nest Levels
 			
-			In mechanical terms, Levels have a decile rating that is used as the Resistance to Exploration Actions. The Level is also used to quantify the results of certain Events, such as Obstacles or Hunger. As the Characters delve further into the Nest, the Nest Level of the Rooms they visit increases. With it, the chance for Cost and Risk Events to occur increases, and the chance for Reward Events to occur decreases. Some Jobs will specify a Level where the Job Target may be found.
-			
-║ ┌[Note 7]───────────────────────────────────────────────────────────────────────────────┐ ║
-║ │ Remember that the players' characters do not visit a Nest to loot. Rather, they are   │ ║
-║ │ hired to carry out a Job. Accordingly, Rewards they find during Exploration are not   │ ║
-║ │ treasures and riches, rather they are things that help the characters get their Job   │ ║
-║ │ done.                                                                                 │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+				A Nest Level is a group of Rooms connected to each other by Passages and connected by Shortcuts and Shafts to different Levels. Rooms in the same Level are situated at about the same distance from the ground, much like a floor in a multi-story house.
+				
+				In mechanical terms, Levels have a decile rating that is used as the Resistance to Exploration Actions. The Level is also used to quantify the results of certain Events, such as Obstacles or Hunger. As the Characters delve further into the Nest, the Nest Level of the Rooms they visit increases. With it, the chance for Cost and Risk Events to occur increases, and the chance for Reward Events to occur decreases. Some Jobs will specify a Level where the Job Target may be found.
+				
+	║ ┌[Note 7]───────────────────────────────────────────────────────────────────────────────┐ ║
+	║ │ Remember that the players' characters do not visit a Nest to loot. Rather, they are   │ ║
+	║ │ hired to carry out a Job. Accordingly, Rewards they find during Exploration are not   │ ║
+	║ │ treasures and riches, rather they are things that help the characters get their Job   │ ║
+	║ │ done.                                                                                 │ ║
+	║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
-			_Shafts_ A Shaft is a tunnel heading downwards, or upwards, further into the Nest. A Shaft connects a Room from one level to a Room on another Level.
+				_Shafts_ A Shaft is a tunnel heading downwards, or upwards, further into the Nest. A Shaft connects a Room from one level to a Room on another Level.
+				
+			3.7.2.2 Rooms
 			
-		3.7.2.2 Rooms
+				A Room is an enclosed area within a Level. In truth, eusocial insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans. 
+				
+				Room Events are Rewards and are only generated when a Character takes an Exploration Action.
+				
+				Rooms have Features such as their Area, Height, or Darkness that require Quantification.
+				
+				_Passages_ A Passage is a tunnel or opening or some other kind of entryway connecting two Rooms in the same Level. Passages serve to remind the Players which Rooms are connected to each other.
+				
+			3.7.2.3 Shortcuts
+				
+				A Shortcut is a tunnel connecting the current Level with a level closer to the Job Target. In mechanical terms, a Shortcut is a Reward Event that can be spent to immediately find the target of the current Job.
+				
 		
-			A Room is an enclosed area within a Level. In truth, eusocial insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans. 
 			
-			Room Events are Rewards and are only generated when a Character takes an Exploration Action.
 			
-			Rooms have Features such as their Area, Height, or Darkness that require Quantification.
 			
-			_Passages_ A Passage is a tunnel or opening or some other kind of entryway connecting two Rooms in the same Level. Passages serve to remind the Players which Rooms are connected to each other.
 			
-		3.7.2.3 Shortcuts
 			
-			A Shortcut is a tunnel connecting the current Level with a level closer to the Job Target. In mechanical terms, a Shortcut is a Reward Event that can be spent to immediately find the target of the current Job.
