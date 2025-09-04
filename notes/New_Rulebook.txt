@@ -711,3 +711,41 @@ List of Special Abilities:
 			3.4.2.1 Boolean Roll
 			3.4.2.2 Contested Boolean Roll
 		3.4.3.0 Acting in Tandem
+	3.5.0.0 Minigames
+		Nests & Insects is organised around four "minigames". A minigame is a set of special rules for a special game situation that Nests & Insects: Metamorphosis wants to model with more detail than its standard system. Combat is the most detailed and elaborate of Nests & Insects' minigames. The other three are Survival and Exploration; Hunting and Foraging; and Resting and Healing. Brief descriptions are listed below.
+		
+		* The Combat minigame defines rules for skirmishes between the players' characters and a Nest's denizens.
+		
+		* The Survival and Exploration minigame defines rules for characters to explore, and the GQ to roll the dice to procedurally generate, a Nest.
+		
+		* The Hunting and foraging minigame defines rules for finding sustenance and medicinal Food Items.
+		
+		* The Resting & Healing minigame defines rules for healing from wounds and Effects, consuming Food Items to reduce Hunger, and using XP to improve a characters' Features.
+		
+		3.5.1.0 Minigame Formulaic Actions
+		
+		Each minigame is characterised by a set of standard Actions that characters typically take during the circumstances modelled by the minigame. For example, during Combat, Characters typically attack Enemies. Such Actions are a minigame's "formulaic" Actions.
+		
+		Minigames define each of their formulaic Actions by means of a Formula that includes at least a listing of Effort, Resistance, and Modifier features and a table listing the outcome of a formulaic Action for each DoS of a Qualification Roll. The Minigame Formula Template figure below illustrates the tamplate used to define minigame formulae.
+		
+║ Name of the Minigame: ............... (The minigame that defines this formula)            ║
+║ Participating Entities: ............. (Characters, enemies or other game entities)        ║
+║ List of Minigame Intents: ........... (Pre-determined character Intents)                  ║
+║ List of Minigame Actions: ........... (Formulaic minigame Actions)                        ║
+║ Effort Variables: ................... (The names of Features used as Effort)              ║
+║ Resistance Variables: ............... (The names of Features used as Resistance)          ║
+║ Modifier Variables: ................. (The names of Features used as static modifiers)    ║
+║                                                                                           ║
+║ Outcomes of the six Degrees of Success and Failure:                                       ║
+║                                                                                           ║
+║ Degree of Success            Outcome                                                      ║
+║ ───────────────────────────────────────────────────────                                   ║
+║ Critical Success             (Critical Success outcome)                                   ║
+║ Complete Success             (Complete Success outcome)                                   ║
+║ Partial Success              (Partial Success outcome)                                    ║
+║ Partial Failure              (Partial Failure outcome)                                    ║
+║ Complete Failure             (Complete Failure outcome)                                   ║
+║ Critical Failure             (Critical Failure outcome)                                   ║
+║ ───────────────────────────────────────────────────────                                   ║
+║ Figure 23: Minigame Formula Template.                                                     ║
+
