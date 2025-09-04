@@ -376,7 +376,7 @@ Costs
 		If already at 10 hunger, you die.
 		If less than 10, roll Level to increase Hunger and the Character gains 1 XP.
 	Effects
-		Check all Effects
+		Check all Effects.
 	Darkness
 		Consume a Light item, or the room is shrouded in Darkness.
 		Darkness is a negative modifier on all rolls that require Vision
