@@ -373,9 +373,8 @@ Reward Generation:
 Costs
 	Hunger
 		Either consume a Food Item or:
-		If starving, you die.
-		If at 100%, you are starving.
-		If less than 100%, roll to increase.
+		If already at 10 hunger, you die.
+		If less than 10, roll Level to increase Hunger and the Character gains 1 XP.
 	Effects
 		Check all Effects
 	Darkness
