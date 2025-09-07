@@ -391,7 +391,7 @@
 			
 				When an Infected Effect triggers, the subject Character is bestowed a random Effect.
 				
-				Select an Effect at random (roll a die). Roll to Set or Increase the selected Effect, Quantify with Infected.
+				Select an Effect at random (roll a die). Roll the Character's Infected Rating to Set or Increase the selected Effect by the number of Successes.
 				
 				Write the new Effect's rating on the Character sheet.
 				
