@@ -1156,8 +1156,8 @@ Cost Generation:
 ║ Cost                Chance         Description                                            ║
 ║ ───────────────────────────────────────────────────────────────────────────────           ║
 ║ 3.7.8.1 Hunger      5 + Level      Increase Hunger, deplete Food Items, bestow Starving   ║
-║ 3.7.8.4 Effects     4 + Level      Apply, or modify the rating of deleterious Effects     ║
 ║ 3.7.8.5 Darkness    3 + Level      Deplete lighting Items or suffer in Darkness           ║
+║ 3.7.8.6 Spoilage    3 + Level      Food Items have a chance to become Spoiled             ║
 ║ 3.7.8.3 Collapse    2 + Level      A room is removed from the Room Pool.                  ║
 
 Risk Generation:
@@ -1166,7 +1166,7 @@ Risk Generation:
 ║ 3.7.9.3 Obstacle        8              Prevents further Exploration until removed (       ║
 ║ 2.11.6.8 Item (Unknown) 6 - Level      Find as yet unidentified Food Items ()             ║
 ║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
-║ 3.7.8.6 Spoilage    	  2 + Level      Food Items have a chance to become Spoiled         ║
+║ 3.7.8.4 Effects         2 + Level      Apply, or modify the rating of deleterious Effects ║
 ║ 3.7.9.5 Infection       1 + Level      Bestows the Infection Effect ()                    ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 
@@ -1393,9 +1393,10 @@ Reward Generation:
 ║ Cost                Chance         Description                                            ║
 ║ ───────────────────────────────────────────────────────────────────────────────           ║
 ║ 3.7.8.1 Hunger      5 + Level      Increase Hunger, deplete Food Items, bestow Starving   ║
-║ 3.7.8.4 Effects     4 + Level      Apply, or modify the rating of deleterious Effects     ║
 ║ 3.7.8.5 Darkness    3 + Level      Deplete lighting Items or suffer in Darkness           ║
+║ 3.7.8.6 Spoilage    3 + Level      Food Items have a chance to become Spoiled             ║
 ║ 3.7.8.3 Collapse    2 + Level      A room is removed from the Room Pool.                  ║
+║ ───────────────────────────────────────────────────────────────────────────────           ║
 ║ Table 29: Costs.                                                                          ║
 
 
@@ -1429,8 +1430,8 @@ Reward Generation:
 ║ 3.7.9.3 Obstacle        8              Prevents further Exploration until removed (       ║
 ║ 2.11.6.8 Item (Unknown) 6 - Level      Find as yet unidentified Food Items ()             ║
 ║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
-║ 3.7.8.6 Spoilage    	  2 + Level      Food Items have a chance to become Spoiled         ║
-║ 3.7.9.5 Infection       1 + Level      Bestows the Infection Effect ()                    ║
+║ 3.7.8.4 Effects         2 + Level      Apply, or modify the rating of deleterious Effects ║
+║ 3.7.9.5 Infection       0 + Level      Bestows the Infection Effect ()                    ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 ║ Table 30: Risks.                                                                          ║
 ║                                                                                           ║
