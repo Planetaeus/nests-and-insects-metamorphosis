@@ -1495,3 +1495,182 @@ Reward Generation:
 ║ Nothing special happens when Survival and Exploration ends. Players are free to control   ║
 ║ their characters as before.                                                               ║
 
+
+║ 3.7.8.0 Cost Events                                                                       ║
+║ -------------------                                                                       ║
+║                                                                                           ║
+║ Cost Events stress the characters' resources and test their endurance and resilience      ║
+║ while exploring the Nest.                                                                 ║
+║                                                                                           ║
+║ The following Sections define the rules for the various Cost Events generated during the  ║
+║ Survival and Exploration minigame.                                                        ║
+
+	There are four types of Cost Events:
+		
+		* Hunger
+		
+		* Darkness
+		
+		* Spoilage
+		
+		* Collapse
+
+║ 3.7.8.1 Hunger                                                                            ║
+║                                                                                           ║
+║ ┌[Effects of Hunger]────────────────────────────────────────────────────────────────────┐ ║
+║ │ Hunger can make a character weak. Prolongued Hunger leads to starvation, which leads  │ ║
+║ │ to death from starvation.                                                             │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                                           ║
+║ When a Hunger Cost is paid, the character paying the Cost may choose to consume one Food Item from ║
+║ her Inventory.                                                                            ║
+║                                                                                           ║
+║ If the character consumes a Food Item, make a Quantification Roll to reduce the           ║
+║ character's Hunger rating. See Section 2.11.6.7. for the rules of consuming Food Items.   ║
+
+If the Character does not Consume a Food Item, then:
+	
+	* If the Character is at Hunger Rating 10, the Character DIES of starvation.
+	
+	* If the Character is at less than Hunger Rating 10, the Character rolls Level and increases their Hunger rating by a number equal to the Successes of the Roll. If this brings the Character to Hunger Rating 10, they are starving and are at risk of DEATH. 
+	
+	While a Character is Starving, they suffer a -1 modifier to each of their rolls.
+		
+3.7.8.2 Darkness
+
+
+║ ┌[Effects of Darkness]──────────────────────────────────────────────────────────────────┐ ║
+║ │ Darkness makes it harder to see things and to do things that require vision.          │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                                           ║
+║ When a Darkness Cost is paid, the character paying the Cost must consume one Light Item   ║
+║ from her Inventory.                                                                       ║
+║                                                                                           ║
+║ A character who does not have a Light Item in her Inventory cannot pay a Darkness Cost.   ║
+║                                                                                           ║
+║ A player may decide that her character will not consume any Light Items to pay a Darkness ║
+║ Cost (even if the character has a Light Item in her Inventory).                           ║
+║                                                                                           ║
+║ If a character cannot (or her player will her not to) pay a Darkness Cost, that character ║
+║ has no light source.                                                                      ║
+║                                                                                           ║
+║ If all of a character's Light Items become exhausted, that character has no light source. ║
+║                                                                                           ║
+║ If none of the characters in a Room has a light source, the Room is in Darkness. The GQ rolls Level to set the Darkness for the Room.
+║                                                                                           ║
+║ While a Room is in Darkness, all characters in the Room suffer a negative         ║
+║ modifier equal to the Room's Darkness rating to all their Actions that require vision.    ║
+║                                                                                           ║
+║ _Blindness_ If a Character is affected by both Darkness and Blindness, only the greater of the two is applied as a Negative Modifier to their rolls.
+
+	3.7.8.3 Spoilage
+	
+		When a Spoilage Cost is paid, the Characters' Food Items will be depleted, and may become Spoiled.
+		
+		To pay a Spoilage Cost, a Player makes a separate Spoilage Roll for each Food Item in their Inventory. To do this, the Player rolls with the Food Item's Rating. For each Success in the Roll, reduce the Food Item's Rating by 1. If no Successes are Rolled, the Food becomes Spoiled.
+		
+		Spoiled Food is food that is expired, riddled with rot and mould and other unsavory microbes. As unappetizing as it is, Spoiled Food can still be Consumed as any other Food Item. Doing so comes with a risk, however. When a Character Consumes a Spoiled Food Item, they roll to reduce Hunger as normal. Then, they roll Strength vs. the Spoiled Food's Rating. If the Roll fails, the Character acquires Infected equal to the amount the Roll failed by.
+		
+		
+		
+3.7.8.4 Collapse
+	
+	When a Collapse Cost is paid, a Room is selected at random and removed from the Environment Pool. Any Items in the room are lost. Any Characters currently in the room choose a connected Room to escape to. If the current Room is removed as part of the Collapse Cost, no more Costs, Risks, or Rewards are generated as a result of this Exploration Action.
+	
+	_Salvaged Passages_ Characters trapped by a Collapse can still find their way to the connected Passages of a Room. To do so, they must clear the Passage as if it was an Obstacle (See SECTION).
+	
+3.7.9.0 Risk Events
+	
+	
+║ Risk Events add a frisson of excitement to the otherwise drab and boring act of slogging  ║
+║ through a Nest looking for the subject of a Job.                                          ║
+║                                                                                           ║
+║ The following Sections define the rules for the various Risk Events generated during the  ║
+║ Survival and Exploration minigame.                                                        ║
+
+There are five types of Risk Events:
+
+	* Obstacle
+	* Item (Unknown)
+	* Encounter
+	* Spoilage
+	* Infection
+	
+	3.7.9.1 Obstacle
+	
+		When an Obstacle Risk is faced, the Obstacle starts with an Obstruction Rating equal to the current Level.
+		An Obstacle with a Rating of 0 is torn down.
+		
+		A Character may roll Construction vs. Obstruction. If they succeed, they reduce the Obstruction Rating by the number of net Successes.
+		
+		If a Character fails the roll, they suffer 1 Wound.
+		
+		If a Character Succeeds the roll and reduces the Obstruction Rating to 0, the Obstacle is cleared.
+		The Players gain 1 XP.
+		
+		Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
+		
+	3.7.9.2 Unknown Item (Risk)
+	
+║ ┌[Finding Unknown Food Items]───────────────────────────────────────────────────────────┐ ║
+║ │ Food Items can be found while exploring a Nest. At first those Items are Unknown,     │ ║
+║ │ meaning that while their Form is known, their Function must be Identified.            │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                                           ║
+║ When an Unknown Food Item Risk is faced, generate a new Food Item's Form, as explained in ║
+║ Sections 2.11.6.8 and 2.11.6.9.                                                           ║
+
+	3.7.9.3 Encounter
+	
+		
+║ ┌[Nest Encounters]──────────────────────────────────────────────────────────────────────┐ ║
+║ │ An "Encounter" is an impromptu meeting with a Nest's denizens: its guardians, or      │ ║
+║ │ their (wanted or unwanted) guests.                                                    │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                                           ║
+║ When an Encounter Risk is faced, generate an Encounter according to the Encounter         ║
+║ Table for the type of Nest in which the characters are currently located.                 ║
+║                                                                                           ║
+║ Encounter Tables are specific to each kind of Nest. Look for Encounter Tables in the      ║
+║ Sections, later in this rulebook, on Termite, Bee, and Ant nests.                         ║
+
+	To Generate an Encounter, Roll Level a number of times depending on the current Nest Level. Then, compare the number of successes against the relevant Encounter Table to see which Encounter(s) are generated.
+	
+	Level			Encounter Rolls
+	0-1				1
+	2-4				2
+	5-7				3
+	8-10			4
+	
+3.7.8.2 Effects (Risk)
+
+	When an Effects Risk is faced, the Character facing the Risk must check all Effects she is subject to.
+	
+	When an Effect is Checked, there is a chance that it will Trigger.
+	
+	Refer to SECTION for the rules of Checking Effects. Refer to SECTIONS for the rules of Triggering Effects.
+	
+	A Character gains 1 XP if at least one of their Effects were Triggered.
+
+║ 3.7.9.5 Infection                                                                         ║
+║                                                                                           ║
+║ ┌[Effects of Infection]─────────────────────────────────────────────────────────────────┐ ║
+║ │ A character facing an Infection Risk may become Infected. If the character is already │ ║
+║ │ Infected, her Infection may get worse.                                                │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+║                                                                                           ║
+║ When an Infection Risk is faced, roll Strength + Healing vs. Level. If a Character is already Infected, they add their current Infected Rating as a Positive Modifier to the Roll's Resistance.
+
+	If the Character fails the Roll, they gain Infected equal to the amount the Roll failed by. The Character gains 1 XP.
+	
+	See SECTION for the rules of the Infected Effect.
+	
+║ ┌[Note 9]───────────────────────────────────────────────────────────────────────────────┐ ║
+║ │ The risk of Infection while exploring a Nest comes from disease-causing               │ ║
+║ │ microorgranisms that inhabit the Nest. Common sources of infections are fungi and     │ ║
+║ │ bacteria that live in the soil or the air of the Nest. Characters may become Infected │ ║
+║ │ simply by walking into a new Room and coming into contact with the microorganisms     │ ║
+║ │ living in the Room.                                                                   │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+
+	
