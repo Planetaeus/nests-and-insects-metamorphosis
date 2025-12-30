@@ -39,6 +39,8 @@
 		
 		Negative modifiers are added to the GQ's dice pool. At the same time that the player makes their roll, the GQ rolls dice for each negative modifier to the roll. The number of successes that the GQ rolls are added to the difficulty of the Player's roll, possibly turning a success into a failure.
 		
+		Positive and Negative modifiers can cancel each other out. If a Character receives both a Positive and a Negative modifier(s) to the same roll, the resulting modifier is the dice of all Positive Modifiers minus the dice of all Negative Modifiers. As examples, if the same roll has +3d and -2d, the result is +1d, but if a roll has +1d and -4d, the result is -3d.
+		
 	1.3.2.0 Describing Results
 		What the DoS of an action means depends on a player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
 		
@@ -53,14 +55,15 @@
 		║ d80           0 to 79     d8          0,1,...,7     d10         0,1,...,9                 ║
 		║ d100          0 to 99     d10         0,1,...,9     d10         0,1,...,9                 ║
 		║ d120          0 to 119    d12         0,1,...,11    d10         0,1,...,9                 ║
+		║ d200          0 to 199    d20         0,1,...,19    d10         0,1,...,9                 ║
 		║ ──────────────────────────────────────────────────────────────────────────                ║
 		║ Table 3: Decile dice, used for quantification of percentile effects. d100 is also a       ║
 		║ decile die. The d20 does not need a "tens" die and is rolled on its own.                  ║
 
-		Some actions require quantification of their results. To quantify the results of actions on the same percentile scale as Character's Features, Nests & Insects uses decile dice: the d20, d40, d60, d80, d120, and the d100 itself. The d20 is a single, twenty-sided die, with faces numbered 0, 1, .. 19. The d40, d60, d80, d100, and d120 are composite dice, comprised of a d4, d6, d8, d10, and d12 as the "tens" die, and a d10 as the "ones" die. Both the ones and tens dice have faces numbered 0, 1, ..., n-1, where "n" is the number of faces on the die.
+		Some actions require quantification of their results. To quantify the results of actions on the same percentile scale as Character's Features, Nests & Insects uses decile dice: the d20, d40, d60, d80, d120, d200, and the d100 itself. The d20 is a single, twenty-sided die, with faces numbered 0, 1, .. 19. The d40, d60, d80, d100, d120, and d200 are composite dice, comprised of a d4, d6, d8, d10, d12, and d20 as the "tens" die, and a d10 as the "ones" die. Both the ones and tens dice have faces numbered 0, 1, ..., n-1, where "n" is the number of faces on the die.
 
 	1.3.4.0 Minigames
-		The fd100 rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more variety, and more detail, to the basic rules, fd100 defines a number of "minigames".
+		The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more variety, and more detail, to the basic rules, Nests & Insects defines a number of "minigames".
 		
 		Minigames are special sets of rules for situations that are of special interest to a game. There are four minigames in Nests & Insects: Combat, Survival & Exploration; Hunting & Foraging; and Resting & Healing.
 		
