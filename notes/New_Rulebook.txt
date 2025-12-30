@@ -258,6 +258,21 @@
 		
 			Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 3, 2, 1, 1
 		
+		2.5.3.0 Selecting Special Attributes
+		
+			Characters start with one or two Special Attributes, choosing from the following list:
+			
+			* Carapace
+			
+			* Flying
+			
+			* Swarming
+			
+			* Venom
+			
+			* Web
+			
+			The Player chooses one or two Special Attributes from the list above. If the Character starts with one Special Attribute, it starts with a rating of 4. If the Character starts with two Special Attributes, they each start with a rating of 2.
 		
 			2.5.3.1 Swarming
 		
