@@ -280,10 +280,15 @@
 		
 			The Player chooses seven Common Attributes and distributes the following ratings among them as they choose: 3, 2, 2, 2, 1, 1, 1
 		
-		2.5.6.0 Starting Inventory
 		2.5.5.0 Assigning Combat Conditions
 		
 			Each Character starts with a rating of 1 in Initiative, Threat Rate, and Survival Rate.
+			
+		2.5.6.0 Selecting Attacks
+		
+		2.5.7.0 Starting Inventory
+		
+			Each Character starts with a Rating-4 food item in their inventory that matches their diet. This starting food has no special properties.
 		
 	2.6.0.0 Character Features (TBD)
 	
