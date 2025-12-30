@@ -581,6 +581,7 @@ REWORK ENCOUNTER TABLE TO USE DICE POOL SUCCESSES INSTEAD OF PERCENTILES?
 		Or just roll more times as you go higher up?
 		The rules of Exploration prevent them from XP farming bc they need to explore more to get more encounter.
 		Only 1 XP per encounter.
+		Worker Termites have Swarms = to Nest Level.
 
 	Termites
 		Detritivores
