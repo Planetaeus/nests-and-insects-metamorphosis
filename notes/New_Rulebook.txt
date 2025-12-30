@@ -276,9 +276,9 @@
 		
 			2.5.3.1 Swarming
 		
-		2.5.4.0 Assigning Common Abilities
+		2.5.4.0 Assigning Common Attributes
 		
-		2.5.5.0 Selecting Attacks
+			The Player chooses seven Common Attributes and distributes the following ratings among them as they choose: 3, 2, 2, 2, 1, 1, 1
 		
 		2.5.6.0 Starting Inventory
 		2.5.5.0 Assigning Combat Conditions
