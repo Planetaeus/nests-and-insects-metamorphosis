@@ -110,12 +110,12 @@
 			Nests & Insects: Metamorphosis Characters have four Core Attributes
 			
 			
-║ Attribute      Description                                                                ║
+║ Core Attribute  Description                                                               ║
 ║ ───────────────────────────────────────────────────────────────────────────────────────   ║
-║ Speed          How fast the Character can move; Dexterity, precision, fine manipulation.  ║
-║ Strength       Physical strength and toughness; Push, pull, break, and endure harm.       ║
-║ Ken            Wisdom and Logic; reasoning and knowledge of the world.                    ║
-║ Passions       Willpower, morale, strength of spirit, courage, and influence              ║
+║ Speed    (SPE)  How fast the Character can move; Dexterity, precision, fine manipulation. ║
+║ Strength (STR)  Physical strength and toughness; Push, pull, break, and endure harm.      ║
+║ Ken      (KEN)  Wisdom and Logic; reasoning and knowledge of the world.                   ║
+║ Passions (PAS)  Willpower, morale, strength of spirit, courage, and influence             ║
 ║ ───────────────────────────────────────────────────────────────────────────────────────   ║
 
 			- XP Tickboxes. In the Core Attributes Area each attribute is listed with an empty tickbox to the left. This is an Experience (XP) Tickbox. XP tickboxes are also found next to Combat Conditions, Survival Features, and Common Abilities.
