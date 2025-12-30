@@ -337,9 +337,9 @@ Reward Generation:
 ║ Reward                  Chance               Description                                  ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
 ║ 3.7.10.1 Room                100%         Spend a Room to Explore, Hunt or Forage ()   ║
-║ 3.7.10.4 Item (Known)         70%         Find a previously identified Food Item ()    ║
-║ 3.7.10.5 Resource             40%         Materials to build a Shelter ()              ║
-║ 3.7.10.3 Level                20%         Entrance to a new, deeper Nest Level ()      ║
+║ 3.7.10.4 Item (Known)         75%         Find a previously identified Food Item ()    ║
+║ 3.7.10.5 Resource             50%         Materials to build a Shelter ()              ║
+║ 3.7.10.3 Level                25%         Entrance to a new, deeper Nest Level ()      ║
 ║ 3.7.10.2 Shortcut       Level-50%         Takes you directly to the Job Target ()      ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
 		
