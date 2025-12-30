@@ -255,8 +255,6 @@
 			_Diet_
 		
 		2.5.2.0 Assigning Core Attributes
-			
-			2.5.2.1 Calculating Combat Conditions
 		
 		2.5.3.0 Selecting Special Abilities
 		
@@ -267,6 +265,9 @@
 		2.5.5.0 Selecting Attacks
 		
 		2.5.6.0 Starting Inventory
+		2.5.5.0 Assigning Combat Conditions
+		
+			Each Character starts with a rating of 1 in Initiative, Threat Rate, and Survival Rate.
 		
 	2.6.0.0 Character Features (TBD)
 	
