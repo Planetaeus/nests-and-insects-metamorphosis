@@ -382,31 +382,29 @@
 				
 				When a Character is subject to one or more Effects, those Effects must be checked during Combat, Survival & Exploration, or Hunting & Foraging. Each minigame determines when Effects must be "checked".
 				
-				When the rules of a minigame say that Effects must be checked, all Effects a Character is subject to are checked simultaneously. To check all Effects a Character is subject to, make a single Boolean Roll. The character's player makes the roll.
+				When the rules of a minigame say that Effects must be checked, all Effects a Character is subject to are checked simultaneously. To check all Effects a Character is subject to, make a single Roll using the Effect with the highest rating.
 				
-				Compare the result of the Roll against each Effect, using the Effect's Rating as Resistance. For each Effect checked this way:
+				Compare the result of the Roll against the Rating of each Effect. Each Effect that the Roll Beats triggers.
 				
-				* If the Boolean Roll beats the Effect's rating, the character rolls to reduce that Effect.
-				
-				*If the Boolean Roll does not Beat the Effect's Rating, that Effect "Triggers".
-				
-				The next Section describes how to handle Triggered Effects.
+				The next Sections describe how to handle Triggered Effects.
 				
 			2.6.7.4 Agony
 			
+				Resist with: KEN
+				
 				When an Agony Effect Triggers, the subject Character has a chance to become Stunned.
 				
-				Make a Boolean Roll with Agony as Resistance.
-				
-				* If the roll Beats, nothing happens.
-				
-				* If the roll does not beat, you are Stunned. Quantify with Agony.
+				Make a roll using Agony. You receive Stunned equal to the number of Successes.
 				
 			2.6.7.5 Bleeding
+			
+				Resist with: STR
 				
 				When a Bleeding Effect Triggers, the Character takes 1 Wound.
 				
-			2.6.7.6 Blinded
+			2.6.7.6 Blind
+			
+				Resist with: KEN
 				
 				When a Blinded Effect Triggers, nothing happens.
 				
@@ -414,16 +412,22 @@
 				This includes Attacking, Defending, and Perception rolls, but may also include other rolls as the GQ sees fit.
 				
 			2.6.7.7 Charmed
+			
+				Resist with: PAS
 				
 				When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. They may take other Actions and Manoeuvers as normal.
 				
 			2.6.7.8 Confused
+			
+				Resist with: KEN
 				
 				When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack and Move Actions during their turn. Targets for Attacks are selected at random. If no targets are within range, the Character Moves towards the nearest target.
 				
 				If the Character is not participating in Combat, Combat begins between the Confused Character and the other Characters in the Room.
 				
 			2.6.7.9 Immobilised
+			
+				Resist with: SPE
 				
 				When an Immobilised Effect triggers, nothing special happens.
 				
@@ -433,27 +437,33 @@
 			
 			2.6.7.10 Infected
 			
+				Resist with: STR
+			
 				When an Infected Effect triggers, the subject Character is bestowed a random Effect.
 				
 				Select an Effect at random (roll a die). Roll the Character's Infected Rating to Set or Increase the selected Effect by the number of Successes.
-				
-				Write the new Effect's rating on the Character sheet.
 				
 				The bestowed Effect triggers.
 				
 			2.6.7.11 Paralyzed
 			
+				Resist with: SPE
+			
 				When a Paralyzed Effect Triggers, nothing special happens.
 				
-				However, a Paralyzed Character cannot take any actions until she is no longer Paralyzed.
+				However, a Paralyzed Character can only take the Resist Action until she is no longer Paralyzed.
 				
 			2.6.7.12 Poisoned
 			
+				Resist with: STR
+			
 				When a Poisoned Effect triggers, Roll to Increase Poisoning.
 				
-				A character subject to a Poisoned Effect has a static, negative modifier equal to her Poisoned rating to all Actions.
+				A character subject to a Poisoned Effect has a negative modifier equal to her Poisoned rating to all Actions in Combat.
 				
 			2.6.7.13 Stunned
+			
+				Resist with: PAS
 			
 				When a Stunned Effect triggers, the subject Character cannot take any Actions until the next time Effects are Checked.
 				
