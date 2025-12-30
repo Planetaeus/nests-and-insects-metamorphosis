@@ -135,9 +135,10 @@
 			
 			* Swarming: the Character is a swarm of individual insects, or can summon conspecifics to assist her. In Combat, a Character with Swarming loses individuals from the Swarm before taking Wounds. Ants have Swarming.
 			
-			* Venom: the Character has a venomous bite or sting that can bestow Effects such as Agony, Immobilised, Paralysed, or Poisoned to enemies.
+			* Venom: the Character has a venomous bite or sting that can bestow Effects such as Agony, Immobilised, Paralysed, or Poisoned to enemies. Scorpion, Spider, and Wasp have Venom.
 			
-			* Web: The Character can weave webs. Webs can be used to set traps or secure an area. Spider has Web Weaving.
+			* Web: The Character can weave webs. Webs can be used to set traps, bind enemies, or secure an area. Spider has Web.
+			
 			
 		2.3.5.0 Effects Box
 			The Effects Box lists ten Effects that a Character can be subject to.
