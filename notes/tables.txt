@@ -53,8 +53,8 @@ Suppress DoS
 ║ ────────────────────────────────────────────────────────────────────────────── 
 ║ Action        Effort        Resistance    Static Modifiers                                ║
 ║ ──────────────────────────────────────────────────────────────                            ║
-║ Charm         Charms        Passions      Smarts, Confused                                ║
-║ Confuse       Smarts        Ken           Leadership, Passions                            ║
+║ Charm         Passions      Passions      Smarts, Confused                                ║
+║ Confuse       Ken           Ken           Leadership, Passions                            ║
 ║ Intimidate    Signalling    Passions      Leadership, Swarming                            ║
 ║ ──────────────────────────────────────────────────────────────   
 
