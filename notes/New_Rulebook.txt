@@ -256,7 +256,8 @@
 		
 		2.5.2.0 Assigning Core Attributes
 		
-		2.5.3.0 Selecting Special Abilities
+			Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 3, 2, 1, 1
+		
 		
 			2.5.3.1 Swarming
 		
