@@ -168,7 +168,7 @@
 ║ Confused         ...will only Attack and Move, will not take other actions.               ║
 ║ Immobilised      ...cannot move and can only Attack in close range                        ║
 ║ Infected         ...acquires a random Effect each Turn this Effect Applies                ║
-║ Paralysed        ...cannot take any Actions                                               ║
+║ Paralysed        ...cannot take any Actions except to Resist                              ║
 ║ Poisoned         ...has a negative modifier equal to Poisoned to all Actions              ║
 ║ Stunned          ...loses her next Turn in Combat                                         ║
 ║ ────────────────────────────────────────────────────────────────────────────              ║
