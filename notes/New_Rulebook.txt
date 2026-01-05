@@ -712,20 +712,19 @@ List of Special Abilities:
 
 ║ d20 Result    Special Ability                                                             ║
 ║ ───────────────────────────────────────────────                                           ║
-║ 1-2           Armor - Gain Carapace                                                       ║
-║ 3-4           Flight - Gain Flight                                                        ║
-║ 5-6           Glowing - Gain Light                                                        ║
-║ 7-8           Swarms - Gain Swarming                                                      ║
-║ 9-10          Venom - Gain Venom                                                          ║
-║ 11-12         Webs - Gain Web                                                             ║
-║ 13            Sacrifice - Gain Autothysis                                                 ║
-║ 14            Chill - Gain Chill                                                          ║
-║ 15            Heat - Gain Heat                                                            ║
-║ 16            Hydro - Gain Hydro                                                          ║
-║ 17            Poles - Gain Magnet                                                         ║
-║ 18            Plants - Gain Plant                                                         ║
-║ 19            Charge - Gain Static                                                        ║
-║ 20            Vibes - Gain Vibe                                                           ║
+║ 1-3           Armor - Gain Carapace    ║
+║ 4-6           Flight - Gain Flight     ║
+║ 7-8           Swarms - Gain Swarming   ║
+║ 9-10          Venom - Gain Venom       ║
+║ 11-12         Webs - Gain Web          ║
+║ 13            Chill - Gain Chill       ║
+║ 14            Heat - Gain Heat         ║
+║ 15            Hydro - Gain Hydro       ║
+║ 16            Glowing - Gain Light     ║
+║ 17            Minds - Gain Psycho      ║
+║ 18            Plants - Gain Plant      ║
+║ 19            Charge - Gain Static     ║
+║ 20            Vibes - Gain Vibe        ║
 ║ ───────────────────────────────────────────────                                           ║
 
 					_Food Item Abilities_ Food Items' Abilities take effect immediately upon being consumed. This is true for both Known and Unknown Items.
