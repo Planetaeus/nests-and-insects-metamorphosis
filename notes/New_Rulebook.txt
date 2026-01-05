@@ -26,10 +26,10 @@
 		║ +0          Partial Failure                           ║
 		║ -1          Complete Failure                          ║
 		║ -2 or less  Critical Failure                          ║
-		║ Table 1: Initial four Degrees of Success.                                                 ║
 		║ ───────────────────────────────────────────────────── ║
+		║ Table 1: Four Degrees of Success.                     ║
 
-		Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have abilities rated from 0 to 10. Whenever the players take an action, the Game Queen declares the difficulty of the roll. The player determines the size of their dice pool based on one or more Character abilities, then roll that many d6.	The number of dice that come up as a "5" or a "6" are counted as successes. The number of successes is compared against the difficulty to decide the outcome of the Action.
+		Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have Attributes rated from 0 to 10. Whenever the players take an action, the Game Queen declares the difficulty of the roll. The player determines the size of their dice pool based on one or more Character Attributes, then roll that many d6. The number of dice that come up as a "5" or a "6" are counted as successes. The number of successes is compared against the difficulty to decide the outcome of the Action.
 
 	1.3.1.0 Modifiers
 		
@@ -37,7 +37,7 @@
 		
 		Positive modifiers add extra dice to the player's dice pool. They increase the odds of the player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
 		
-		Negative modifiers are added to the GQ's dice pool. At the same time that the player makes their roll, the GQ rolls dice for each negative modifier to the roll. The number of successes that the GQ rolls are added to the difficulty of the Player's roll, possibly turning a success into a failure.
+		Negative modifiers add dice to the GQ's dice pool. At the same time that the player makes their roll, the GQ rolls dice for each negative modifier to the roll. The number of successes that the GQ rolls are added to the difficulty of the Player's roll, possibly turning a success into a failure.
 		
 		Positive and Negative modifiers can cancel each other out. If a Character receives both a Positive and a Negative modifier(s) to the same roll, the resulting modifier is the dice of all Positive Modifiers minus the dice of all Negative Modifiers. As examples, if the same roll has +3d and -2d, the result is +1d, but if a roll has +1d and -4d, the result is -3d.
 		
