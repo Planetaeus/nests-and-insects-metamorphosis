@@ -1415,9 +1415,6 @@ Reward Generation:
 ║ Critical Failure             Cost, Cost, Cost                                             ║
 ║ ───────────────────────────────────────────────────                                       ║
 ║ Figure 24: Exploration Action Formula.                                                    ║
-║                                                                                           ║
-║ The acting character, or the Party Scout, may add her Eusociology and Perception as       ║
-║ static positive modifiers to the Exploration Roll.                                        ║
 
 
 ║ 3.7.7.5 Generate and pay Costs                                                            ║
