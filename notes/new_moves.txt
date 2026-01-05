@@ -1,10 +1,10 @@
 Armored Charge
 
-Move in a line of hexes up to your SPE. Roll Carapace + SPE. Each insect in that line must roll SPE + SR to resist. Each insect you succeed against gains wounds equal to the net successes and is pushed that many hexes in a direction you choose.
+Move in a line of hexes up to your SPE. Roll Carapace + SPE. Each insect in that line must roll SPE + SR to resist. Each insect you succeed against gains wounds for each net success and is pushed that many hexes in a direction you choose.
 
 Brittle touch
 
-Roll Chill + TR against an enemy's Carapace + SR. The target gains wounds and Chilled equal to the net successes.
+Roll Chill + TR against an enemy's Carapace + SR. The target gains wounds and Chilled for each net success.
 
 Ground Slam
 
@@ -16,11 +16,11 @@ Touch an adjacent insect and roll Heat + TR vs. SPE + SR. The target gains Burns
 
 Water Pistol
 
-Roll Hydro + TR vs. SPE + SR against a target up to 5 hexes away. The target gains wounds equal to the net successes and is pushed away from you by the same number of hexes.
+Roll Hydro + TR vs. SPE + SR against a target up to 5 hexes away. The target gains wounds for each net success and is pushed away from you by the same number of hexes.
 
 Planned Strike
 
-Roll KEN + TR vs. SR against an adjacent insect. The target gains wounds equal to the net successes. This move ignores Carapace.
+Roll KEN + TR vs. SR against an adjacent insect. The target gains wounds for each net success. This move ignores Carapace.
 
 Focused Light
 
@@ -28,7 +28,7 @@ Roll Light + TR vs. SPE against a target up to 5 hexes away. The target gains Wo
 
 Fury
 
-Roll PAS + TR + Current Wounds vs. STR + SR against an adjacent insect. The target gains wounds equal to the net successes. On a success, advance self one.
+Roll PAS + TR + Current Wounds vs. STR + SR against an adjacent insect. The target gains wounds for each net success. On a success, advance self one.
 
 Infestation
 
@@ -40,28 +40,28 @@ Roll KEN + Psycho vs. KEN + PAS against an insect up to 10 hexes away. The targe
 
 Hit and Run
 
-Roll SPE + TR vs. SPE + SR against an adjacent insect. The target gains wounds equal to the net successes. On a success, you move up to your SPE.
+Roll SPE + TR vs. SPE + SR against an adjacent insect. The target gains wounds for each net success. On a success, you move up to your SPE.
 
 Two Pole Strike
 
-Roll Static + TR vs. SPE + Static against two target insects each up to 3 hexes away. The targets gain wounds and Shocked equal to the net successes.
+Roll Static + TR vs. SPE + Static against two target insects each up to 3 hexes away. The targets gain wounds and Shocked for each net success.
 
 Reckless Bash.
 
-Roll STR + TR + Max Wounds vs. STR + SR against an adjacent insect. The target gains wounds eqal to the net successes, and you gain 1 wound for every three net successes.
+Roll STR + TR + Max Wounds vs. STR + SR against an adjacent insect. The target gains wounds for each net success, and you gain 1 wound for every three net successes.
 
 Autothysis
 
-Sacrifice a number of Swarms. Roll Swarms + TR + the number of sacrifices and choose a hex up to 4 hexes away. Each insect within one hex of the chosen hex rolls SPE + SR, gaining wounds equal to the net successes.
+Sacrifice a number of Swarms. Roll Swarms + TR + the number of sacrifices and choose a hex up to 4 hexes away. Each insect within one hex of the chosen hex rolls SPE + SR, gaining wounds for each net success.
 
 Venom Sting
 
-Roll Venom + TR vs. SR against an adjacent insect. The target gains Wounds and Infected equal to the net successes.
+Roll Venom + TR vs. SR against an adjacent insect. The target gains Wounds and Infected for each net success.
 
 Vibro Wave
 
-Roll PAS + Vibe vs. PAS against an insect up to 3 hexes away. The target gains wounds and Stunned equal to the net successes.
+Roll PAS + Vibe vs. PAS against an insect up to 3 hexes away. The target gains wounds and Stunned for each net success.
 
 Web Shot
 
-Roll WEB + TR vs. SPE against an insect up to 4 hexes away. The target gains wounds and Immobilised equal to the net successes.
+Roll WEB + TR vs. SPE against an insect up to 4 hexes away. The target gains wounds and Immobilised for each net success.
