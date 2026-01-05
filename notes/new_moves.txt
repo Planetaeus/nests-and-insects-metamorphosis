@@ -20,7 +20,7 @@ Roll Hydro + TR vs. SPE + SR against a target up to 5 hexes away. The target gai
 
 Planned Strike
 
-Roll KEN + TR vs. SR against an adjacent insect. The target gains wounds equal to the net successes.
+Roll KEN + TR vs. SR against an adjacent insect. The target gains wounds equal to the net successes. This move ignores Carapace.
 
 Focused Light
 
