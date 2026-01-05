@@ -1,6 +1,6 @@
 1.0.0.0 Overview
 
-	Not to the Reader:
+	Note to the Reader:
 		This Section is a short introduction to the setting, the game, and the system of Nests & Insects. It is designed to give you a general idea of the game. It is not designed to give you everything you need to play the game. That information is found in the text that follows this Overview Chapter.
 
 	Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One player assumes the role of the Game Queen and describes the game world to the other players. The other players control Characters who explore and interact with the game world.
@@ -19,15 +19,15 @@
 	1.3.0.0 The System
 			
 		║ Net Hits    Degree of Success                         ║
-		║ ─────────────────────────────────────────────────────────────────                         ║
+		║ ───────────────────────────────────────────────────── ║
 		║ +3 or more  Critical Success                          ║
 		║ +2          Complete Success                          ║
 		║ +1          Partial Success                           ║
 		║ +0          Partial Failure                           ║
 		║ -1          Complete Failure                          ║
 		║ -2 or less  Critical Failure                          ║
-		║ ─────────────────────────────────────────────────────────────────                         ║
 		║ Table 1: Initial four Degrees of Success.                                                 ║
+		║ ───────────────────────────────────────────────────── ║
 
 		Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have abilities rated from 0 to 10. Whenever the players take an action, the Game Queen declares the difficulty of the roll. The player determines the size of their dice pool based on one or more Character abilities, then roll that many d6.	The number of dice that come up as a "5" or a "6" are counted as successes. The number of successes is compared against the difficulty to decide the outcome of the Action.
 
@@ -45,7 +45,6 @@
 		What the DoS of an action means depends on a player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
 		
 	1.3.3.0 Roll Difficulties and Ratings
-
 
 		║ Decile die    Range       Tens die    Numbered      Ones die    Numbered                  ║
 		║ ──────────────────────────────────────────────────────────────────────────                ║
@@ -607,31 +606,31 @@
 					
 						Roll a d6 and match the result on the Food Colour Table below.
 				
-║ d6        Food Colour                                                                     ║
-║ ─────────────────────────                                                                 ║
-║ 1         Black                                                                           ║
-║ 2         Blue                                                                            ║
-║ 3         Green                                                                           ║
-║ 4         Red                                                                             ║
-║ 5         White                                                                           ║
-║ 6         Yellow                                                                          ║
-║ ─────────────────────────                                                                 ║
-║ Table 10: Food Colours                                                                    ║
+║ d6        Food Colour     ║
+║ ───────────────────────── ║
+║ 1         Black           ║
+║ 2         Blue            ║
+║ 3         Green           ║
+║ 4         Red             ║
+║ 5         White           ║
+║ 6         Yellow          ║
+║ ───────────────────────── ║
+║ Table 10: Food Colours    ║
 					
 					2. Generate the Item's Food Type
 					
 						Roll a d10 and match the result on the Food Type Table below.
 						
 
-║ d10        Food Type    d10       Food Type                                               ║
-║ ──────────────────────  ──────────────────────                                            ║
-║   1        Nectar         6       Aphid                                                   ║
-║   2        Honey          7       Cricket                                                 ║
-║   3        Honeydew       8       Fly                                                     ║
-║   4        Fungus         9       Worm                                                    ║
-║   5        Leaf          10       Larva                                                   ║
-║ ──────────────────────  ──────────────────────                                            ║
-║ Table 11: Food Types                                                                      ║
+║ d10        Food Type    d10       Food Type    ║
+║ ──────────────────────  ────────────────────── ║
+║   1        Nectar         6       Aphid        ║
+║   2        Honey          7       Cricket      ║
+║   3        Honeydew       8       Fly          ║
+║   4        Fungus         9       Worm         ║
+║   5        Leaf          10       Larva        ║
+║ ──────────────────────  ────────────────────── ║
+║ Table 11: Food Types                           ║
 
 					3. Quantify the amount of the Item found.
 					
