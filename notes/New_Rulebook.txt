@@ -694,18 +694,18 @@
 ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
 ║ Table 14: Beneficial Abilities                                                            ║
 ║ d20 Result    Harmful Ability                                                             ║
-║ ───────────────────────────────────────────────                                           ║
-║ 11            Agony - gain Agony                                                          ║
-║ 12            Bleeding - gain Bleeding                                                    ║
-║ 13            Blindness - gain Blinded                                                    ║
-║ 14            Charming - gain Charmed                                                     ║
-║ 15            Confusion - gain Confused                                                   ║
-║ 16            Immobilisation - gain Immobilised                                           ║
-║ 17            Infection - gain Infected                                                   ║
-║ 18            Paralysis - gain Paralysed                                                  ║
-║ 19            Poisonning - gain Poisoned                                                  ║
-║ 20            Stunning - gain Stunned                                                     ║
-║ ───────────────────────────────────────────────                                           ║
+║ ─────────────────────────────────────────────── ║
+║ 11            Agony - gain Agony                ║
+║ 12            Bleeding - gain Bleeding          ║
+║ 13            Blindness - gain Blinded          ║
+║ 14            Charming - gain Charmed           ║
+║ 15            Confusion - gain Confused         ║
+║ 16            Immobilisation - gain Immobilised ║
+║ 17            Infection - gain Infected         ║
+║ 18            Paralysis - gain Paralysed        ║
+║ 19            Poisonning - gain Poisoned        ║
+║ 20            Stunning - gain Stunned           ║
+║ ─────────────────────────────────────────────── ║
 ║ Table 15: Harmful Abilities                                                               ║
 
 List of Special Abilities:
