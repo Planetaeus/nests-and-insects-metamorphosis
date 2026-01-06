@@ -2,7 +2,7 @@ Name: Termite Soldier, Nasute
 
 Attributes    ║ Special       ║ Combat             ║ ○ Charging
 SPEED...:[_5] ║ Swarm...:[_3] ║ INIT.........:[_3] ║ ○ +2d
-STRENGTH:[_3] ║ Carapace:[__] ║ TR...........:[_5] ║ ○ +2d
+STRENGTH:[_3] ║ Carapace:[_5] ║ TR...........:[_5] ║ ○ +2d
 KEN.....:[_3] ║ ........:[__] ║ SR...........:[_4] ║ ○ +1d  
 PASSIONS:[_3] ║ ........:[__] ║ WOUNDS..:[__]/[_5] ║ ○ +1d 
               ║ ........:[__] ║ SWARMS..:[_3]/[_3] ║ ○ Holding
