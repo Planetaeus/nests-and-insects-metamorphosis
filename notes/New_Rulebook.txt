@@ -690,7 +690,7 @@
 ║   7           Restoration - reduce Wounds by 1, reduce a chosen Effect's rating to 0%     ║
 ║   8           Courage - start next Combat in Charging Disposition.                        ║
 ║   9           Rage - start next Combat in Charging Disposition, take a Wound              ║
-║  10           Clarity - +d80 to next Exploration, Foraging, Hunting or Perception Roll    ║
+║  10           Clarity - Consume to add food rating to Exploration, Foraging, Hunting or Perception Roll    ║
 ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
 ║ Table 14: Beneficial Abilities                                                            ║
 ║ d20 Result    Harmful Ability                                                             ║
