@@ -1441,10 +1441,10 @@ Reward Generation:
 ║                                                                                           ║
 ║ Cost                Chance         Description                                            ║
 ║ ───────────────────────────────────────────────────────────────────────────────           ║
-║ 3.7.8.1 Hunger      5 + Level      Increase Hunger, deplete Food Items, bestow Starving   ║
-║ 3.7.8.5 Darkness    3 + Level      Deplete lighting Items or suffer in Darkness           ║
+║ 3.7.8.1 Hunger      10             Increase Hunger, deplete Food Items, bestow Starving   ║
+║ 3.7.8.5 Darkness    5 + Level      Deplete lighting Items or suffer in Darkness           ║
 ║ 3.7.8.6 Spoilage    3 + Level      Food Items have a chance to become Spoiled             ║
-║ 3.7.8.3 Collapse    2 + Level      A room is removed from the Room Pool.                  ║
+║ 3.7.8.3 Collapse    1 + Level      A room is removed from the Room Pool.                  ║
 ║ ───────────────────────────────────────────────────────────────────────────────           ║
 ║ Table 29: Costs.                                                                          ║
 
@@ -1476,11 +1476,11 @@ Reward Generation:
 ║                                                                                           ║
 ║ Risk                    Chance         Description                                        ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
-║ 3.7.9.3 Obstacle        8              Prevents further Exploration until removed (       ║
-║ 2.11.6.8 Item (Unknown) 6 - Level      Find as yet unidentified Food Items ()             ║
+║ 3.7.9.3 Obstacle        10              Prevents further Exploration until removed (       ║
+║ 2.11.6.8 Item (Unknown) 8 - Level      Find as yet unidentified Food Items ()             ║
 ║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
 ║ 3.7.8.4 Effects         2 + Level      Apply, or modify the rating of deleterious Effects ║
-║ 3.7.9.5 Infection       0 + Level      Bestows the Infection Effect ()                    ║
+║ 3.7.9.5 Infection       Level          Bestows the Infection Effect ()                    ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 ║ Table 30: Risks.                                                                          ║
 ║                                                                                           ║
@@ -1527,10 +1527,10 @@ Reward Generation:
 ║                                                                                           ║
 ║ Reward                  Chance               Description                                  ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-║ 3.7.10.1 Room           10 - Level           Spend a Room to Explore, Hunt or Forage ()   ║
+║ 3.7.10.1 Room           11 - Level           Spend a Room to Explore, Hunt or Forage ()   ║
 ║ 3.7.10.4 Item (Known)   8 - Level            Find a previously identified Food Item ()    ║
-║ 3.7.10.5 Resource       6 - Level            Materials to build a Shelter ()              ║
-║ 3.7.10.3 Level          1 + Level            Entrance to a new, deeper Nest Level ()      ║
+║ 3.7.10.5 Resource       5 - Level            Materials to build a Shelter ()              ║
+║ 3.7.10.3 Level          Level            Entrance to a new, deeper Nest Level ()      ║
 ║ 3.7.10.2 Shortcut       Level - 5            Takes you directly to the Job Target ()      ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
 ║ Table 31: Rewards.                                                                        ║
