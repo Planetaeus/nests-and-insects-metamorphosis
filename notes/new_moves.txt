@@ -1,6 +1,6 @@
 Armored Charge
 
-Move in a line of hexes up to your SPE. Roll Carapace + SPE. Each insect in that line must roll SPE + SR to resist. Each insect you succeed against gains wounds for each net success and is pushed that many hexes in a direction you choose.
+Move in a line of hexes up to your SPE. Roll Carapace + STR. Each insect in that line must roll SPE + SR to resist. Each insect you succeed against gains wounds for each net success and is pushed that many hexes in a direction you choose.
 
 Brittle touch
 
@@ -8,7 +8,7 @@ Roll Chill + TR against an enemy's Carapace + SR. The target gains wounds and Ch
 
 Ground Slam
 
-Land on the ground beneath you and roll STR + Flight. Each insect within a number of hexes equal to your successes must roll SPE + SR to resist, taking damage equal to the of net successes.
+Land on the ground beneath you and roll STR + Flight. Each insect within a number of hexes equal to your successes must roll SPE + SR to resist, taking one wound for each net success.
 
 Heat Exchange
 
@@ -16,11 +16,11 @@ Touch an adjacent insect and roll Heat + TR vs. SPE + SR. The target gains Burns
 
 Water Pistol
 
-Roll Hydro + TR vs. SPE + SR against a target up to 5 hexes away. The target gains wounds for each net success and is pushed away from you by the same number of hexes.
+Roll Hydro + TR vs. STR + SR against a target up to 5 hexes away. The target gains wounds for each net success and is pushed away from you by the same number of hexes.
 
 Planned Strike
 
-Roll KEN + TR vs. SR against an adjacent insect. The target gains wounds for each net success. This move ignores Carapace.
+Roll KEN + TR vs. KEN + SR against an adjacent insect. The target gains wounds for each net success. This move ignores Carapace.
 
 Focused Light
 
@@ -48,7 +48,11 @@ Roll Static + TR vs. SPE + Static against two target insects each up to 3 hexes 
 
 Reckless Bash.
 
-Roll STR + TR + Max Wounds vs. STR + SR against an adjacent insect. The target gains wounds for each net success, and you gain 1 wound for every three net successes.
+Roll Max Wounds + TR vs. STR + SR against an adjacent insect. The target gains wounds for each net success, and you gain 1 wound for every three net successes.
+
+Hercules Toss
+
+Roll STR + TR vs. STR + SR against an adjacent insect. The target gains wounds and is pushed 1 for each net success. If the insect collides with another insect, both take 1 wound.
 
 Autothysis
 
