@@ -1,0 +1,23 @@
+Name:
+
+Attributes    ║ Special       ║ Combat             ║ ○ Charging
+SPEED...:[_2] ║ SWARMS..:[_5] ║ INIT.........:[_1] ║ ○ +2d
+STRENGTH:[_2] ║ ........:[__] ║ TR...........:[_1] ║ ○ +2d
+KEN.....:[_2] ║ ........:[__] ║ SR...........:[_1] ║ ○ +1d  
+PASSIONS:[_2] ║ ........:[__] ║ WOUNDS..:[__]/[__] ║ ○ +1d 
+              ║ ........:[__] ║ SWARMS..:[__]/[_5] ║ ○ Holding
+Effects                                            ║ ○ -1d 
+...........:[__] ...........:[__]                  ║ ○ -1d
+...........:[__] ...........:[__]                  ║ ○ -2d
+...........:[__] ...........:[__]                  ║ ○ -2d
+...........:[__] ...........:[__]                  ║ ○ Retreating
+...........:[__] ...........:[__]                  ║
+
+
+║─────────────────[ Attack ]──────────────────║─────────────────[ Manoeuver ]───────────────║
+║ Name:........................Weak Mandibles ║ Name:.........................Swarming Call ║
+║ Details:...Roll STR + TR vs. SR against.... ║ Details:...Roll SWARMS. On success, regain. ║
+║ adjacent insect. Target gain one wound for. ║ two Swarms. On three or more successes also ║
+║ for each net success....................... ║ summon one Minor Termite Soldiers. On five. ║
+║ ........................................... ║ successes also summon one Major Termite.... ║
+║ ........................................... ║ Soldiers................................... ║

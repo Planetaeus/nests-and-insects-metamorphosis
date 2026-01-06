@@ -1,0 +1,30 @@
+Name: Termite Soldiers, Major
+
+Attributes    ║ Special       ║ Combat             ║ ○ Charging
+SPEED...:[_3] ║ Swarm...:[_4] ║ INIT.........:[_4] ║ ○ +2d
+STRENGTH:[_4] ║ Carapace:[_6] ║ TR...........:[_4] ║ ○ +2d
+KEN.....:[_2] ║ ........:[__] ║ SR...........:[_4] ║ ○ +1d  
+PASSIONS:[_3] ║ ........:[__] ║ WOUNDS..:[__]/[_6] ║ ○ +1d 
+              ║ ........:[__] ║ SWARMS..:[_3]/[_3] ║ ○ Holding
+Effects                                            ║ ○ -1d 
+...........:[__] ...........:[__]                  ║ ○ -1d
+...........:[__] ...........:[__]                  ║ ○ -2d
+...........:[__] ...........:[__]                  ║ ○ -2d
+...........:[__] ...........:[__]                  ║ ○ Retreating
+...........:[__] ...........:[__]                  ║
+
+
+║─────────────────[ Attack 1 ]────────────────║─────────────────[ Manoeuver ]───────────────║
+║ Name:.............................Mandibles ║ Name:.........................Swarming Call ║
+║ Details:...Roll STR + TR vs. SR against.... ║ Details:...Roll SWARMS. On success, regain. ║
+║ adjacent insect. Target gains wounds for... ║ two Swarms. On three successes also summon. ║
+║ each net success........................... ║ one Nasute Termite Soldiers................ ║
+║ ........................................... ║ ........................................... ║
+║ ........................................... ║ ........................................... ║
+║─────────────────[ Attack 2 ]────────────────║
+║ Name:............................Autothysis ║
+║ Details:.Choose a hex within 5 hexes. Roll. ║
+║ Current SWARMS+TR. Insect within one hex of ║
+║ chosen hex must roll SPE+SR. Insects gain.  ║
+║ wounds and Immobilised for each net success ║
+║ Lose one SWARM............................. ║
