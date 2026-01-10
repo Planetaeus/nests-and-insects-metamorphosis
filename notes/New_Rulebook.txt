@@ -1223,42 +1223,6 @@ List of Special Abilities:
 ║                                                                                           ║
 ║ Tables 24-26, below, list Events along with a brief description of each. Detailed         ║
 ║ descriptions and mechanics for each kind of Event follow in a subsequent Section.         ║
-	
-Cost Generation:	
-║ Cost                Chance         Description                                            ║
-║ ───────────────────────────────────────────────────────────────────────────────           ║
-║ 3.7.8.1 Hunger      10      Increase Hunger, deplete Food Items, bestow Starving   ║
-║ 3.7.8.5 Darkness    5 + Level      Deplete lighting Items or suffer in Darkness           ║
-║ 3.7.8.6 Spoilage    3 + Level      Food Items have a chance to become Spoiled             ║
-║ 3.7.8.3 Collapse    Level      A room is removed from the Room Pool.                  ║
-
-Risk Generation:
-║ Risk                    Chance         Description                                        ║
-║ ───────────────────────────────────────────────────────────────────────────               ║
-║ 3.7.9.3 Obstacle        10              Prevents further Exploration until removed (       ║
-║ 2.11.6.8 Item (Unknown) 8 - Level      Find as yet unidentified Food Items ()             ║
-║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
-║ 3.7.8.4 Effects         2 + Level      Apply, or modify the rating of deleterious Effects ║
-║ 3.7.9.5 Infection       Level      Bestows the Infection Effect ()                    ║
-║ ───────────────────────────────────────────────────────────────────────────               ║
-
-Reward Generation:
-║ Reward                  Chance               Description                                  ║
-║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-║ 3.7.10.1 Room           10 - Level           Spend a Room to Explore, Hunt or Forage ()   ║
-║ 3.7.10.4 Item (Known)   8 - Level            Find a previously identified Food Item ()    ║
-║ 3.7.10.5 Resource       6 - Level            Materials to build a Shelter ()              ║
-║ 3.7.10.3 Level          Level            Entrance to a new, deeper Nest Level ()      ║
-║ 3.7.10.2 Shortcut       Level - 5            Takes you directly to the Job Target ()      ║
-║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-
-║ ┌[Example 12]───────────────────────────────────────────────────────────────────────────┐ ║
-║ │ Brody's Wasp character must pay a Cost as the result of an Exploration Action. Brody  │ ║
-║ │ rolls a d10 and references the result on the Costs table (Table 24). The d10 result   │ ║
-║ │ is 4. This matches the Chance of the Hunger and Effects Costs, thus a Hunger Event    │ ║
-║ │ and a Effects Event are generated. Hunger comes before Effects in Table 24, thus      │ ║
-║ │ Brody's Wasp must first pay the Hunger Cost, then the Effects Cost must be paid.      │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
 		3.7.5.0 Level Rating
 			
@@ -1435,6 +1399,41 @@ Reward Generation:
 ║ ───────────────────────────────────────────────────                                       ║
 ║ Figure 24: Exploration Action Formula.                                                    ║
 
+Cost Generation:	
+║ Cost                Chance         Description                                            ║
+║ ───────────────────────────────────────────────────────────────────────────────           ║
+║ 3.7.8.1 Hunger      10             Increase Hunger, deplete Food Items, bestow Starving   ║
+║ 3.7.8.5 Darkness    5 + Level      Deplete lighting Items or suffer in Darkness           ║
+║ 3.7.8.6 Spoilage    3 + Level      Food Items have a chance to become Spoiled             ║
+║ 3.7.8.3 Collapse    Level          A room is removed from the Room Pool.                  ║
+
+Risk Generation:
+║ Risk                    Chance         Description                                        ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+║ 3.7.8.4 Effects         10             Apply, or modify the rating of deleterious Effects ║
+║ 2.11.6.8 Item (Unknown) 8 - Level      Find as yet unidentified Food Items ()             ║
+║ 3.7.9.3 Obstacle        6 + Level      Prevents further Exploration until removed (       ║
+║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
+║ 3.7.9.5 Infection       Level          Bestows the Infection Effect ()                    ║
+║ ───────────────────────────────────────────────────────────────────────────               ║
+
+Reward Generation:
+║ Reward                  Chance               Description                                  ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+║ 3.7.10.1 Room           11 - Level           Spend a Room to Explore, Hunt or Forage ()   ║
+║ 3.7.10.4 Item (Known)   9 - Level            Find a previously identified Food Item ()    ║
+║ 3.7.10.5 Resource       5 - Level            Materials to build a Shelter ()              ║
+║ 3.7.10.3 Level          Level                Entrance to a new, deeper Nest Level ()      ║
+║ 3.7.10.2 Shortcut       Level - 5            Takes you directly to the Job Target ()      ║
+║ ────────────────────────────────────────────────────────────────────────────────────────  ║
+
+║ ┌[Example 12]───────────────────────────────────────────────────────────────────────────┐ ║
+║ │ Brody's Wasp Character must pay a Cost as the result of an Exploration Action. Brody  │ ║
+║ │ rolls a d10 and references the result on the Costs table (Table 24). The d10 result   │ ║
+║ │ is 4. This matches the Chance of the Hunger and Effects Costs, thus a Hunger Event    │ ║
+║ │ and a Effects Event are generated. Hunger comes before Effects in Table 24, thus      │ ║
+║ │ Brody's Wasp must first pay the Hunger Cost, then the Effects Cost must be paid.      │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
 ║ 3.7.7.5 Generate and pay Costs                                                            ║
 ║                                                                                           ║
@@ -1456,17 +1455,6 @@ Reward Generation:
 ║                                                                                           ║
 ║    5. Each Character in the Exploration Party pays each generated Cost in order of        ║
 ║    generation.                                                                            ║
-
-║ The Costs Table is reproduced below as Table 29 for the reader's convenience.             ║
-║                                                                                           ║
-║ Cost                Chance         Description                                            ║
-║ ───────────────────────────────────────────────────────────────────────────────           ║
-║ 3.7.8.1 Hunger      10             Increase Hunger, deplete Food Items, bestow Starving   ║
-║ 3.7.8.5 Darkness    5 + Level      Deplete lighting Items or suffer in Darkness           ║
-║ 3.7.8.6 Spoilage    3 + Level      Food Items have a chance to become Spoiled             ║
-║ 3.7.8.3 Collapse    Level      A room is removed from the Room Pool.                  ║
-║ ───────────────────────────────────────────────────────────────────────────────           ║
-║ Table 29: Costs.                                                                          ║
 
 
 ║ 3.7.7.6 Generate and face Risks                                                           ║
@@ -1491,18 +1479,6 @@ Reward Generation:
 ║       first Risk is faced and all Actions or minigames resulting are resolved, all        ║
 ║       characters in the Exploration Party face the second generated Risk; and so on,      ║
 ║       until all generated Risks have been faced.                                          ║
-║                                                                                           ║
-║ The Risks Table is reproduced below as Table 30 for the reader's convenience.             ║
-║                                                                                           ║
-║ Risk                    Chance         Description                                        ║
-║ ───────────────────────────────────────────────────────────────────────────               ║
-║ 3.7.9.3 Obstacle        10              Prevents further Exploration until removed (       ║
-║ 2.11.6.8 Item (Unknown) 8 - Level      Find as yet unidentified Food Items ()             ║
-║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
-║ 3.7.8.4 Effects         2 + Level      Apply, or modify the rating of deleterious Effects ║
-║ 3.7.9.5 Infection       Level          Bestows the Infection Effect ()                    ║
-║ ───────────────────────────────────────────────────────────────────────────               ║
-║ Table 30: Risks.                                                                          ║
 ║                                                                                           ║
 ║ _Combat Risk_ Risks include the "Encounter" Event which may cause a Combat minigame to    ║
 ║ begin. In that case, subsequent Risks are only faced once the Combat minigame has ended.  ║
@@ -1542,19 +1518,6 @@ Reward Generation:
 ║                                                                                           ║
 ║    7. If a generated Reward is a Secret, follow the description of the Secret Event: this ║
 ║       usually means that a new Event is generated.                                        ║
-║                                                                                           ║
-║ The Rewards Table is reproduced below as Table 31 for the reader's convenience.           ║
-║                                                                                           ║
-║ Reward                  Chance               Description                                  ║
-║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-║ 3.7.10.1 Room           11 - Level           Spend a Room to Explore, Hunt or Forage ()   ║
-║ 3.7.10.4 Item (Known)   8 - Level            Find a previously identified Food Item ()    ║
-║ 3.7.10.5 Resource       5 - Level            Materials to build a Shelter ()              ║
-║ 3.7.10.3 Level          Level            Entrance to a new, deeper Nest Level ()      ║
-║ 3.7.10.2 Shortcut       Level - 5            Takes you directly to the Job Target ()      ║
-║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-║ Table 31: Rewards.                                                                        ║
-
 
 ║ 3.7.7.8 Survival and Exploration Ends                                                     ║
 ║                                                                                           ║
