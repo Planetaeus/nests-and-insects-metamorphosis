@@ -1590,26 +1590,26 @@ If the Character does not Consume a Food Item, then:
 ║                                                                                           ║
 ║ If none of the characters in a Room has a light source, the Room is in Darkness. The GQ rolls Level to set the Darkness for the Room.
 ║                                                                                           ║
-║ While a Room is in Darkness, all characters in the Room suffer a negative         ║
-║ modifier equal to the Room's Darkness rating to all their Actions that require vision.    ║
+║ While a Room has a Darkness rating, it applies as a Negative Modifier to all Actions that ║
+║ require vision.                                                                           ║
 ║                                                                                           ║
-║ _Blindness_ If a Character is affected by both Darkness and Blindness, only the greater of the two is applied as a Negative Modifier to their rolls.
+║ _Blind in the Dark_ If a Blind Character is affected by Darkness, only the greater of the two ratings is applied as a Negative Modifier to their rolls.
 
 	3.7.8.3 Spoilage
 	
 		When a Spoilage Cost is paid, the Characters' Food Items will be depleted, and may become Spoiled.
 		
-		To pay a Spoilage Cost, a Player makes a separate Spoilage Roll for each Food Item in their Inventory. To do this, the Player rolls with the Food Item's Rating. For each Success in the Roll, reduce the Food Item's Rating by 1. If no Successes are Rolled, the Food becomes Spoiled.
+		To pay a Spoilage Cost, a Player makes a separate Spoilage Roll for each Food Item in their Inventory. To do this, the Player rolls the Food Item's Rating. The new Rating of the Food is the number of successes. If no successes are rolled, the food's Rating does not change, but now the food is Spoiled.
 		
 		Spoiled Food is food that is expired, riddled with rot and mould and other unsavory microbes. As unappetizing as it is, Spoiled Food can still be Consumed as any other Food Item. Doing so comes with a risk, however. When a Character Consumes a Spoiled Food Item, they roll to reduce Hunger as normal. Then, they roll Strength vs. the Spoiled Food's Rating. If the Roll fails, the Character acquires Infected equal to the amount the Roll failed by.
 		
+	3.7.8.4 Collapse
 		
+		A Collapse cost represents the structure of the Nest changing. This can be due to renovations by the Nest Denizens, or destruction caused by outside forces, like water damage.
 		
-3.7.8.4 Collapse
-	
-	When a Collapse Cost is paid, a Room is selected at random and removed from the Environment Pool. Any Items in the room are lost. Any Characters currently in the room choose a connected Room to escape to. If the current Room is removed as part of the Collapse Cost, no more Costs, Risks, or Rewards are generated as a result of this Exploration Action.
-	
-	_Salvaged Passages_ Characters trapped by a Collapse can still find their way to the connected Passages of a Room. To do so, they must clear the Passage as if it was an Obstacle (See SECTION).
+		When a Collapse Cost is paid, a Room in the Environment Pool is selected at random and removed from the game. Any Items in the room are lost. Any Characters currently in the room choose a connected Room to escape to. If the current Room is removed as part of the Collapse Cost, no more Costs, Risks, or Rewards are generated as a result of this Exploration Action.
+		
+		_Salvaged Passages_ Characters trapped by a Collapse can still find their way to the connected Passages of a Room. To do so, they must clear the Passage as if it was an Obstacle (See SECTION).
 	
 3.7.9.0 Risk Events
 	
