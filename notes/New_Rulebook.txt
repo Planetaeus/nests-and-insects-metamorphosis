@@ -3,7 +3,7 @@
 	Note to the Reader:
 		This Section is a short introduction to the setting, the game, and the system of Nests & Insects. It is designed to give you a general idea of the game. It is not designed to give you everything you need to play the game. That information is found in the text that follows this Overview Chapter.
 
-	Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One player assumes the role of the Game Queen and describes the game world to the other players. The other players control Characters who explore and interact with the game world.
+	Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One Player assumes the role of the Game Queen and describes the game world to the other players. The other players control Characters who explore and interact with the game world.
 
 	1.1.0.0 The Setting
 		Players' Characters are arthropods. Six pre-built Classes are provided in this document: Spider, Wasp, Scorpion, Ladybug, Betle, and Ants. The Characters are mercenaries; assassins and thugs, hired to invade a Nest and carry out a Job on behalf of some arthropod client. Nests are the homes of eusocial insects: the nests of Bees, Ants, and Termites. Common Jobs are to assassinate the Nest's Royalty; steal special food resources; steal or kill larvae; and retrieve an arthropod of interes.
@@ -35,7 +35,7 @@
 		
 		The initial dice pool for an Action is usually standard. Attacks use an Ability + Threat Rate, for example. Circumstances and strategic decisions by the players can result in one or more positive or negative modifiers being applied to a roll.
 		
-		Positive modifiers add extra dice to the player's dice pool. They increase the odds of the player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
+		Positive modifiers add extra dice to the Character's dice pool. They increase the odds of the Player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
 		
 		Negative modifiers add dice to the GQ's dice pool. At the same time that the player makes their roll, the GQ rolls dice for each negative modifier to the roll. The number of successes that the GQ rolls are added to the difficulty of the Player's roll, possibly turning a success into a failure.
 		
@@ -81,14 +81,14 @@
 		If the players and the GQ prefer, a blank sheet is provided for creating custom starting Characters. Rules for Character creation can be found later in this Chapter.
 		
 	2.2.0.0 Character Death
-		When a Character dies, the player is free to select or create a new Character.
+		When a Character dies, the Player is free to select or create a new Character.
 		
 		The new Character begins in the same Room of the Nest as the other players' Characters.
 		
 		The new Character can start as the same class as the old Character, even if it was a custom class.
 		
 		2.2.1.0 The Cost of Death
-			The only mechanical consequence of Character death is that a player must start with a fresh Character, with base stats, without XP, and without any Items (though some of the Items in a dead Character's Inventory may remain on the floor of the Nest).
+			The only mechanical consequence of Character death is that a Player must start with a fresh Character, with base stats, without XP, and without any Items (though some of the Items in a dead Character's Inventory may remain on the floor of the Nest).
 			
 			If playing a custom class, it can be helpful to keep a record of what your Character looked like at creation if you intend to come back as the same class upon death.
 		
@@ -183,17 +183,17 @@
 		2.3.7.0 Combat Attributes Box
 			The Combat box lists a Character's Initiative, Threat Rate, Survival Rate and Wounds. This is also where a Character with Swarming will keep track of their Swarms.
 			
-			* Initiative: Used to determine a character's turn placement in Combat, as well as determine initial disposition when Combat begins.
+			* Initiative: Used to determine a Character's turn placement in Combat, as well as determine initial disposition when Combat begins.
 			
 			* Threat Rate: An attribute used to roll for most attacks.
 			
 			* Survival Rate: Used as the difficulty for most attacks.
 			
-			* Max Wounds: The maximum number of wounds a character can take before death.
+			* Max Wounds: The maximum number of wounds a Character can take before death.
 			
-			* Wounds: The current number of wounds a character has received.
+			* Wounds: The current number of wounds a Character has received.
 			
-			* Swarms: Characters with the Swarming ability lose Swarms before taking Wounds. The maximum number of Swarms a character can have is equal to their Swarming rating.
+			* Swarms: Characters with the Swarming ability lose Swarms before taking Wounds. The maximum number of Swarms a Character can have is equal to their Swarming rating.
 		
 		2.3.8.0 Attack Boxes
 			
@@ -375,7 +375,7 @@
 				
 				* the Events that occur while they Explore the Nest.
 				
-				When a Character acquires an effect, we say that the Effect is "bestowed" on the character. When an effect is bestowed on a character, the Effect's rating may increase above 0% and the Character may become subject to the Effect.
+				When a Character acquires an effect, we say that the Effect is "bestowed" on the Character. When an effect is bestowed on a Character, the Effect's rating may increase above 0% and the Character may become subject to the Effect.
 				
 			2.6.7.3 Checking Effects
 				
@@ -458,7 +458,7 @@
 			
 				When a Poisoned Effect triggers, Roll to Increase Poisoning.
 				
-				A character subject to a Poisoned Effect has a negative modifier equal to her Poisoned rating to all Actions in Combat.
+				A Character subject to a Poisoned Effect has a negative modifier equal to her Poisoned rating to all Actions in Combat.
 				
 			2.6.7.13 Stunned
 			
@@ -468,7 +468,7 @@
 				
 		2.6.8.0 Inventory Items
 			
-			Inventory Items are the Characters' Features representing consumable resources carried by a Character and that the character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing minigames.
+			Inventory Items are the Characters' Features representing consumable resources carried by a Character and that the Character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing minigames.
 			
 			Players' Characters start with one Inventory Item each, determined by their Class. Characters may also find and pick up new Items during Survival & Exploration and Hunting & Foraging.
 			
@@ -490,11 +490,11 @@
 				
 				* Characters may find new Inventory Items as Risks or Rewards generated during the Survival & Exploration, or Hunting & Foraging minigames. In that case, an Item's initial Rating is generated by a Quantification Roll according to the rules of the minigame.
 				
-				_Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the character's Inventory).
+				_Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the Character's Inventory).
 				
 			2.6.8.3 Dropping Items
 				
-				Items may be "dropped" from a Character's Inventory either automatically, when the Character picks up an Item and her Inventory is already full; or voluntarily, when a player decides it.
+				Items may be "dropped" from a Character's Inventory either automatically, when the Character picks up an Item and her Inventory is already full; or voluntarily, when a Player decides it.
 				
 				_Dropped Items_ Dropped Items are removed from a Character's Inventory and cannot be used anymore, unless they are picked up again.
 				
@@ -510,11 +510,11 @@
 				
 			2.6.8.4 Item Types
 			
-				Inventory Items can belong to one of six types. An Item's type is recorded next to its name on a character's sheet, in square brackets. The six item types are listed in TABLE. below, along with a type symbol used to record the Item's type in a Character's Inventory, and a brief description of each type:
+				Inventory Items can belong to one of six types. An Item's type is recorded next to its name on a Character's sheet, in square brackets. The six item types are listed in TABLE. below, along with a type symbol used to record the Item's type in a Character's Inventory, and a brief description of each type:
 				
 ║ Item Type    Symbol    Description                                                        ║
 ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-║ Companion    [C]       A creature accompanying a character. May be edible.                ║
+║ Companion    [C]       A creature accompanying a Character. May be edible.                ║
 ║ Food         [F]       Used to pay a Hunger Cost. May bestow Effects, grant Abilities.    ║
 ║ Hint         [H]       May provide useful information.                                    ║
 ║ Light        [L]       Used to pay a Darkness Cost. May be edible.                        ║
@@ -533,10 +533,10 @@
 				_Eaten Items_ When a Food item is eaten, all types it has other than Food are removed from it and the Item can henceforth only be used as a Food Item. The Item's name is changed to indicate it is only Food, by appending the word "Carcass" or "Remains" to its original name.
 				
 ║ ┌[Example 2]────────────────────────────────────────────────────────────────────────────┐ ║
-║ │ Cody's Spider character has a Gloworm: 45% Item in her Inventory. The Gloworm Item    │ ║
+║ │ Cody's Spider Character has a Gloworm: 45% Item in her Inventory. The Gloworm Item    │ ║
 ║ │ has types Food and Light. Spider must pay a Hunger Cost and Cody decides that she     │ ║
 ║ │ will eat some of the Gloworm to pay it. The Gloworm is now no longer a Light Item.    │ ║
-║ │ Cody changes the Gloworm's name on Spider's character sheet to "Gloworm Carcass" as a │ ║
+║ │ Cody changes the Gloworm's name on Spider's Character sheet to "Gloworm Carcass" as a │ ║
 ║ │ reminder that the Gloworm is now only useable as Food.                                │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
@@ -588,7 +588,7 @@
 						
 					2. 	Generate the Food Item's Function.
 					
-						When a Food Item is first generated, the Item is "Unknown" and a character must examine it, or consume it, to determine its Function.
+						When a Food Item is first generated, the Item is "Unknown" and a Character must examine it, or consume it, to determine its Function.
 						
 						In general, to determine a Food Item's Function is to "Identify" the Food Item.
 						
@@ -739,11 +739,11 @@ List of Special Abilities:
 	
 	Metamorphosis uses a dice pool system, where characters are described in terms of Features rated 0 - 10 and the number of d6 rolled to determine the success or failure of characters' actions is based on the total of their applicable Features and Modifiers. Successes are counted by the number of d6s that come up as a 5 or a 6. Rolls can be made in opposition to another Feature, such as tearing down an obstacle or attacking an enemy. For opposed rolls, the GQ rolls for the opposing feature and subtracts her number of successes from the Player's successes to determine the outcome. When a Feature or Effect needs to be quantified, the GQ determines the number of d6s and then rolls them.
 	
-	To determine the outcome of a character's actions, a player begins by describing the character's intent. The GQ interprets her intent and tells the player the Effort and Resistance, and any applicable modifiers. Effort is generally determined by the Player's Features, and Resistance by the enemies or the Nest environment. The Player's Effort is the size of her dice pool, and she rolls that many d6 then counts the number of dice that come up as a 5 or a 6, which marks her successes. If the roll has a Resistance, the GQ does the same and counts her successes. The Effort successes are compared against the Resistance successes to determine the Degree of Success for the action: Critical Failure, Total Failure, Partial Failure, Partial Success, Total Success, or Critical Success, in order from worst to best.
+	To determine the outcome of a Character's actions, a Player begins by describing the Character's intent. The GQ interprets her intent and tells the Player the Effort and Resistance, and any applicable modifiers. Effort is generally determined by the Player's Features, and Resistance by the enemies or the Nest environment. The Player's Effort is the size of her dice pool, and she rolls that many d6 then counts the number of dice that come up as a 5 or a 6, which marks her successes. If the roll has a Resistance, the GQ does the same and counts her successes. The Effort successes are compared against the Resistance successes to determine the Degree of Success for the action: Critical Failure, Total Failure, Partial Failure, Partial Success, Total Success, or Critical Success, in order from worst to best.
 	
 	Depending on the Player's declared actions and the circumstances, the GQ might determine that one or more modifiers apply to the Action Roll. Positive modifiers increase the dice pool for either the Effort or Resistance. Players with a Positive Modifier to Effort are more likely to do better, but Positive Modifiers to Resistance makes the roll more challenging. Negative modifiers decrease the dice pool for either the Effort or Resistance. Players with a Negative Modifier to Effort are less likely to do well, while Negative Modifiers to Resistance can lessen the challenge. Attacks, Effects, and Manoeuvers can bestow Positive or Negative Modifiers to the Players and their Enemies.
 	
-	Finally, the results of actions may need to be quantified. The Game Queen (GQ) then describes the outcome of the action according to the character's Intent and the Degree of Success of the Action.
+	Finally, the results of actions may need to be quantified. The Game Queen (GQ) then describes the outcome of the action according to the Character's Intent and the Degree of Success of the Action.
 	
 	3.1.0.0 Decile Dice
 		3.1.1.0 Implementing Decile Dice
@@ -782,7 +782,7 @@ List of Special Abilities:
 		
 ║ Name of the Minigame: ............... (The minigame that defines this formula)            ║
 ║ Participating Entities: ............. (Characters, enemies or other game entities)        ║
-║ List of Minigame Intents: ........... (Pre-determined character Intents)                  ║
+║ List of Minigame Intents: ........... (Pre-determined Character Intents)                  ║
 ║ List of Minigame Actions: ........... (Formulaic minigame Actions)                        ║
 ║ Effort Variables: ................... (The names of Features used as Effort)              ║
 ║ Resistance Variables: ............... (The names of Features used as Resistance)          ║
@@ -815,7 +815,7 @@ List of Special Abilities:
 			* Reduce enemies' effectiveness in combat
 			* Cause enemies to Retreat.
 			
-			When a Character has as many or more Wounds as their Max Wounds rating, they are Killed. Reduced Disposition imposes negative modifiers to subsequent Actions. Once a character or Enemy's Disposition reaches Retreating, the Combatant cannot take Actions other than fleeing from Combat.
+			When a Character has as many or more Wounds as their Max Wounds rating, they are Killed. Reduced Disposition imposes negative modifiers to subsequent Actions. Once a Character or Enemy's Disposition reaches Retreating, the Combatant cannot take Actions other than fleeing from Combat.
 			
 			Combat ends when all Combatants on one side are either Killed or Retreating.
 			
@@ -859,7 +859,7 @@ List of Special Abilities:
 				It is possible for a creature to be in the same room as Combat and not be a Combatant. These Bystanders can be recruited or incited to fight for either Side.
 				
 			3.6.2.2 Starting Disposition
-				Before the start of the first Combat Round, each player makes an uncontested Roll using their Character's Initiative. The GQ makes a similar roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances their Disposition for each Success in their Initiative Roll. If a Combatant rolls 0 Successes, their Disposition Recoiles 1.
+				Before the start of the first Combat Round, each Player makes an uncontested Roll using their Character's Initiative. The GQ makes a similar roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances their Disposition for each Success in their Initiative Roll. If a Combatant rolls 0 Successes, their Disposition Recoiles 1.
 				
 	║ Initiative Roll Result        Starting Disposition                                        ║
 	║ ──────────────────────────────────────────────────                                        ║
@@ -1068,20 +1068,20 @@ List of Special Abilities:
 ║   static modifier to her next Attack. Roll d40 to Quantify the modifier.                  ║
 ║                                                                                           ║
 ║ * Give an enemy the old run-around: Roll Speed vs. Speed to evade an enemy taking an      ║
-║   Attack Action targeting the character. If the Roll Succeeds, the enemy's Turn is        ║
+║   Attack Action targeting the Character. If the Roll Succeeds, the enemy's Turn is        ║
 ║   postponed until the end of the Round.                                                   ║
 ║                                                                                           ║
-║ * Bash together a barrier to protect the character and her allies: Make a Boolean Roll    ║
-║   vs. Construction or Web Weaving. If the Roll succeeds, the character and one ally can   ║
+║ * Bash together a barrier to protect the Character and her allies: Make a Boolean Roll    ║
+║   vs. Construction or Web Weaving. If the Roll succeeds, the Character and one ally can   ║
 ║   take cover behind the barrier, and the next Ranged Attack targeting them has a          ║
 ║   negative modifier equal to the number of Successes on the Roll. After an Attack targets the characters behind the barrier, the barrier is destroyed.                                                      ║
 ║                                                                                           ║
 ║ ┌[Houseruling Manoeuvers]───────────────────────────────────────────────────────────────┐ ║
 ║ │ Manoeuvers are an opportunity for players to use their imagination to come up with    │ ║
 ║ │ creative ways to gain an advantage in Combat, or for the GQ to use hers to create     │ ║
-║ │ interesting and challenging situations for the players to overcome. A character's     │ ║
-║ │ Intent, as described by her player, should guide the GQ to "houserule" the            │ ║
-║ │ character's Actions. Accordingly the GQ should not hesitate to play the Nest's        │ ║
+║ │ interesting and challenging situations for the players to overcome. A Character's     │ ║
+║ │ Intent, as described by her Player, should guide the GQ to "houserule" the            │ ║
+║ │ Character's Actions. Accordingly the GQ should not hesitate to play the Nest's        │ ║
 ║ │ guardians as more than dumb automata, who can also use their (simple) insectoid       │ ║
 ║ │ brains to protect their home.                                                         │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
@@ -1181,7 +1181,7 @@ List of Special Abilities:
 		3.7.3.0 Event Generation
 		
 			
-║ Costs, Risks, and Rewards are generated every time a character takes an Exploration       ║
+║ Costs, Risks, and Rewards are generated every time a Character takes an Exploration       ║
 ║ Action. The Qualification Roll for the Exploration Action sets the number and type of     ║
 ║ Events that occur during the Action. Then the players or the GQ roll to generate Events   ║
 ║ of the indicated types.                                                                   ║
@@ -1284,9 +1284,9 @@ Reward Generation:
 ║                                                                                           ║
 ║ _Going Back_ Environments can only be spent once from the Environment Pool, but           ║
 ║ characters are free to visit them again for whatever reason, for example to try and harvest  ║
-║ an Item found in the Room. Additionally, a character, or an enemy, may be    ║
+║ an Item found in the Room. Additionally, a Character, or an enemy, may be    ║
 ║ forced to retreat during Combat, in which case they will likely end up in a Room already  ║
-║ visited. In such cases a character can move back in an Environment that has already been  ║
+║ visited. In such cases a Character can move back in an Environment that has already been  ║
 ║ spent, without spending it again.                                                         ║
 ║ The "Found In" column notes the Room in which an Environment was generated as the result  ║
 ║ of an Exploration Action.                                                                 ║
@@ -1334,23 +1334,23 @@ Reward Generation:
 
 ║ 3.7.7.1 Begin Survival and Exploration                                                    ║
 ║                                                                                           ║
-║ Survival and Exploration begins when a player declares that her character's Intent is to  ║
+║ Survival and Exploration begins when a Player declares that her Character's Intent is to  ║
 ║ "Explore the Nest".                                                                       ║
 ║                                                                                           ║
 ║ "Explore the Nest" is the formulaic Intent of the Exploration Action (described in        ║
-║ Section 3.7.7.4). A player is free to express her character's Intent to explore the Nest  ║
+║ Section 3.7.7.4). A Player is free to express her Character's Intent to explore the Nest  ║
 ║ in her own words, as long as it's clear that the characer wants to go exploring. If       ║
-║ that's not clear, the GQ can always ask the player to clarify. If the player isn't sure   ║
-║ what her character's Intent means in mechanical terms, the decision is made by the GQ     ║
+║ that's not clear, the GQ can always ask the Player to clarify. If the Player isn't sure   ║
+║ what her Character's Intent means in mechanical terms, the decision is made by the GQ     ║
 ║ whether to start a Survival and Exploration minigame, or not.                             ║
 ║                                                                                           ║
-║ If more than one player wish their characters to explore the Nest, they can say so at     ║
+║ If more than one Player wish their characters to explore the Nest, they can say so at     ║
 ║ this point. Otherwise they can do so in the next Step.                                    ║
 
 ║ 3.7.7.2 Form an Exploration Party                                                         ║
 ║                                                                                           ║
-║ It's common for more than one character to explore the Nest at a time. In particular, all ║
-║ the player characters may go exploring together, or the players may split their           ║
+║ It's common for more than one Character to explore the Nest at a time. In particular, all ║
+║ the Player characters may go exploring together, or the players may split their           ║
 ║ characters into groups that will explore the Nest separately.                             ║
 ║                                                                                           ║
 ║ A group of characters exploring the Nest is an Exploration Party. To form an Exploration  ║
@@ -1358,7 +1358,7 @@ Reward Generation:
 ║ each such group, one Exploration Party is formed.                                         ║
 ║                                                                                           ║
 ║ For each Exploration Party, a separate Survival and Exploration Action is taken.          ║
-║ Nominate one character in each Exploration Party to be the "Scout" of the Party. The      ║
+║ Nominate one Character in each Exploration Party to be the "Scout" of the Party. The      ║
 ║ Scout's Exploration Feature is used as the Effort for the subsequent Exploration Action.  ║
 ║                                                                                           ║
 ║ _Tracking Exploration Parties_ To facilitate the distinction between Exploration Parties, ║
@@ -1384,10 +1384,10 @@ Reward Generation:
 ║ As described in earlier Sections, the Survival and Exploration minigame is initiated when ║
 ║ one or more players decides that their characters will go exploring the Nest. During the  ║
 ║ Survival and Exploration minigame an Exploration Action is taken by the exploring         ║
-║ character, or characters. This Section defines the formula for the Exploration Action.    ║
+║ Character, or characters. This Section defines the formula for the Exploration Action.    ║
 ║                                                                                           ║
 ║ _Party Scout_ When more than one characters take part in the same Exploration Action,     ║
-║ i.e. when an Exploration Party is formed, one character is nominated as the Scout. Each
+║ i.e. when an Exploration Party is formed, one Character is nominated as the Scout. Each
   Player in the Exploration Party takes turns being the Party Scout.
 ║                                                                                           ║
 ║ The outcome of the Exploration Action determines the number, and type of Events that      ║
@@ -1434,7 +1434,7 @@ Reward Generation:
 ║    Costs are generated in the order in which they appear in the Costs table, Table        ║
 ║    23, starting with the first Cost (Hunger) in the top row of the Table.                 ║
 ║                                                                                           ║
-║    5. Each character in the Exploration Party pays each generated Cost in order of        ║
+║    5. Each Character in the Exploration Party pays each generated Cost in order of        ║
 ║    generation.                                                                            ║
 
 ║ The Costs Table is reproduced below as Table 29 for the reader's convenience.             ║
@@ -1500,25 +1500,25 @@ Reward Generation:
 ║                                                                                           ║
 ║    1. For each instance of the word "Reward":                                             ║
 ║                                                                                           ║
-║    2. Roll d10.                                                                          ║
+║    2. Roll d10.                                                                           ║
 ║                                                                                           ║
 ║    3. Look up the result on the Rewards Table.                                            ║
 ║                                                                                           ║
-║    4. Each Reward with a Chance that is equal to, or higher than the result of the d10   ║
+║    4. Each Reward with a Chance that is equal to, or higher than the result of the d10    ║
 ║       Roll is "generated".                                                                ║
 ║                                                                                           ║
 ║       Rewards are generated in the order in which they appear in the Rewards table,       ║
 ║       Table 31, starting with the first Reward (Room) in the top row of the Table.        ║
 ║                                                                                           ║
-║    5. If a generated Reward is an Item, any character may add the Item to her Inventory.  ║
-║       If no character adds the Item to her Inventory the Item remains on the Room floor   ║
+║    5. If a generated Reward is an Item, any Character may add the Item to her Inventory.  ║
+║       If no Character adds the Item to her Inventory the Item remains on the Room floor   ║
 ║       as a "dropped" Item.                                                                ║
 ║                                                                                           ║
-║       Which character picks up which Item is left to the players to decide. There are no  ║
+║       Which Character picks up which Item is left to the players to decide. There are no  ║
 ║       specific rules to manage that decision.                                             ║
 ║                                                                                           ║
 ║    6. If a generated Reward is a Room, Shortcut, or Level, the Reward is added to the     ║
-║       player characters' communal Environment Pool.                                       ║
+║       Player characters' communal Environment Pool.                                       ║
 ║                                                                                           ║
 ║    7. If a generated Reward is a Secret, follow the description of the Secret Event: this ║
 ║       usually means that a new Event is generated.                                        ║
@@ -1567,15 +1567,15 @@ Reward Generation:
 ║ 3.7.8.1 Hunger                                                                            ║
 ║                                                                                           ║
 ║ ┌[Effects of Hunger]────────────────────────────────────────────────────────────────────┐ ║
-║ │ Hunger can make a character weak. Prolongued Hunger leads to starvation, which leads  │ ║
+║ │ Hunger can make a Character weak. Prolongued Hunger leads to starvation, which leads  │ ║
 ║ │ to death from starvation.                                                             │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
-║ When a Hunger Cost is paid, the character paying the Cost may choose to consume one Food Item from ║
+║ When a Hunger Cost is paid, the Character paying the Cost may choose to consume one Food Item from ║
 ║ her Inventory.                                                                            ║
 ║                                                                                           ║
-║ If the character consumes a Food Item, make a Quantification Roll to reduce the           ║
-║ character's Hunger rating. See Section 2.11.6.7. for the rules of consuming Food Items.   ║
+║ If the Character consumes a Food Item, make a Quantification Roll to reduce the           ║
+║ Character's Hunger rating. See Section 2.11.6.7. for the rules of consuming Food Items.   ║
 
 If the Character does not Consume a Food Item, then:
 	
@@ -1592,18 +1592,18 @@ If the Character does not Consume a Food Item, then:
 ║ │ Darkness makes it harder to see things and to do things that require vision.          │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
-║ When a Darkness Cost is paid, the character paying the Cost must consume one Light Item   ║
+║ When a Darkness Cost is paid, the Character paying the Cost must consume one Light Item   ║
 ║ from her Inventory.                                                                       ║
 ║                                                                                           ║
-║ A character who does not have a Light Item in her Inventory cannot pay a Darkness Cost.   ║
+║ A Character who does not have a Light Item in her Inventory cannot pay a Darkness Cost.   ║
 ║                                                                                           ║
-║ A player may decide that her character will not consume any Light Items to pay a Darkness ║
-║ Cost (even if the character has a Light Item in her Inventory).                           ║
+║ A Player may decide that her Character will not consume any Light Items to pay a Darkness ║
+║ Cost (even if the Character has a Light Item in her Inventory).                           ║
 ║                                                                                           ║
-║ If a character cannot (or her player will her not to) pay a Darkness Cost, that character ║
+║ If a Character cannot (or her Player will her not to) pay a Darkness Cost, that Character ║
 ║ has no light source.                                                                      ║
 ║                                                                                           ║
-║ If all of a character's Light Items become exhausted, that character has no light source. ║
+║ If all of a Character's Light Items become exhausted, that Character has no light source. ║
 ║                                                                                           ║
 ║ If none of the characters in a Room has a light source, the Room is in Darkness. The GQ rolls Level to set the Darkness for the Room.
 ║                                                                                           ║
@@ -1704,7 +1704,7 @@ There are five types of Risk Events:
 ║ 3.7.9.5 Infection                                                                         ║
 ║                                                                                           ║
 ║ ┌[Effects of Infection]─────────────────────────────────────────────────────────────────┐ ║
-║ │ A character facing an Infection Risk may become Infected. If the character is already │ ║
+║ │ A Character facing an Infection Risk may become Infected. If the Character is already │ ║
 ║ │ Infected, her Infection may get worse.                                                │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
