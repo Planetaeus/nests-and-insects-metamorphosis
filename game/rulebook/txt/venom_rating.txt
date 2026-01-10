@@ -1,0 +1,28 @@
+Rating	LD50 (g/kg) Range
+10		V <=0.00015
+9		0.00015 < V <= 0.0003		
+8		0.0003 < V <= 0.0009
+7		0.0009 < V <= 0.0021
+6		0.0021 < V <= 0.0054
+5		0.0054 < V <= 0.012
+4		0.012 < V <= 0.030
+3		0.030 < V <= 0.070
+2		0.070 < V <= 0.150
+1		0.150 < V, where species produces venom
+
+Examples:
+Widow Spider 10
+Poison Dart Frog 10
+Funnel-web Spider 10
+Bufo toad 10
+Blister Beetle 9
+Androctonus australis
+Leiurus quinquestriatus
+Babycurus jacksoni
+Buthus Ibericus
+Centuroides Gracilis
+Grosphus Grandidieri
+Hadurus Arizonensis
+Iurus dufoureius
+Heterometrus laoticus
+Pandinus imperator
