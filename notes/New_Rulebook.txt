@@ -46,9 +46,25 @@
 		Positive and Negative modifiers can cancel each other out. If a Character receives both a Positive and a Negative modifier(s) to the same roll, the resulting modifier is the dice of all Positive Modifiers minus the dice of all Negative Modifiers. As examples, if the same roll has +3d and -2d, the result is +1d, but if a roll has +1d and -4d, the result is -3d.
 		
 	1.3.2.0 Describing Results
-		What the DoS of an action means depends on a player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
+		What the DoS of an action means depends on a Player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
 		
-	1.3.3.0 Roll Difficulties and Ratings
+		The following table can be used as a guideline for how to describe different degrees of success.
+		
+		║ Degree of Success  Does it work?          ║
+		║ ───────────────────────────────────────── ║
+		║ Critical Success   Yes, and...            ║
+		║ Total Success      Yes                    ║
+		║ Partial Success    Yes, but...            ║
+		║ Partial Failure    No, but...             ║
+		║ Total Failure      No                     ║
+		║ Critical Failure   No and...              ║
+		║ ───────────────────────────────────────── ║
+		
+		On a Critical Success, the Character achieves their objective as well as an additional reward that they were not trying to achieve. On a Total Success, the Character is able to pull of exactly what they were trying to do. On a Partial Success, they manage to succeed, but there is an unintended consequence.
+		
+		On a Partial Failure, the Character does not succeed, but there is an unintended boon that they have earned that keeps things moving forward. On a Total Failure, the player suffers the obvious consequences of failing their action. On a Critical Failure, the character suffers the obvious consequences, in addition to an unexpected consequence that makes the situation more trying.
+		
+	1.3.3.0 Roll Difficulties and Ratings (Remove decile dice?)
 
 		║ Decile die    Range       Tens die    Numbered      Ones die    Numbered                  ║
 		║ ──────────────────────────────────────────────────────────────────────────                ║
