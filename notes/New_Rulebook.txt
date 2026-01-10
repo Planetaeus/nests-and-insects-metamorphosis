@@ -1704,3 +1704,38 @@ There are five types of Risk Events:
 ║ │ living in the Room.                                                                   │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
+║     3.7.10.0 Reward Events............................................................135 ║
+		Reward Events give the characters the resources they need to complete their Job successfully.
+		
+		Remember that the Characters are not invading a Nest to become rich. Arthropod society does not understand the concept of "riches". They are here to prove their skills and complete a Job. Accordingly, the Reward Events generated while exploring a Nest are only designed to help the Characters complete their Job.
+		
+		The following Sections define the rules for the various Reward Events generated during the Survival and Exploration minigame.
+	
+║       3.7.10.1 Room (Reward)..........................................................136 ║
+
+			When a Character reaps a Room Reward, add a Room to the Environment Pool.
+			
+║       3.7.10.2 Shortcut...............................................................137 ║
+			
+			When a Character reaps a Shortcut Reward, they have discovered a Passage that leads directly to the Level of the Job Target. Look alive you ugly bugs, it's go time!
+			
+║       3.7.10.3 Level (Reward).........................................................138 ║
+			
+			When a Character reaps a Level Reward, roll Level.
+			
+			Add a Room to the Environment Pool. This new Room represents the Entrance to the new Level.
+			
+║       3.7.10.4 Known Item.............................................................139 ║
+
+			When a Character reaps a Known Item Reward, make a Roll to generate a Known Food Item.
+			
+			Unlike other generated game entities and Features, there is no table to roll on to generate Known Food Items. This is because the list of Known Food Items will change during a game and between games, as new Items are generated and Identified.
+			
+			Players begin knowing their starting Food Items. As their Characters explore the Nest and Identify new Food Items, the list of Known Food Items expands.
+			
+			To generate a Known Food Item, randomly select one of the Food Items that any Character has Identified so far. The Room now has that Food Item among its resources that can be harvested in Hunting & Foraging.
+			
+║       3.7.10.5 Resource...............................................................140 ║
+
+			When a Character reaps a Resource Reward, the Room now has Building Resources among its resources that can be harvested during Hunting & Foraging.
+
