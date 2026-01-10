@@ -1613,7 +1613,6 @@ If the Character does not Consume a Food Item, then:
 	
 3.7.9.0 Risk Events
 	
-	
 ║ Risk Events add a frisson of excitement to the otherwise drab and boring act of slogging  ║
 ║ through a Nest looking for the subject of a Job.                                          ║
 ║                                                                                           ║
@@ -1628,20 +1627,16 @@ There are five types of Risk Events:
 	* Spoilage
 	* Infection
 	
-	3.7.9.1 Obstacle
+	3.7.9.1 Effects (Risk)
+
+		When an Effects Risk is faced, the Character facing the Risk must check all Effects she is subject to.
+		
+		When an Effect is Checked, there is a chance that it will Trigger.
+		
+		Refer to SECTION for the rules of Checking Effects. Refer to SECTIONS for the rules of Triggering Effects.
+		
+		A Character gains 1 XP if at least one of their Effects were Triggered.
 	
-		When an Obstacle Risk is faced, the Obstacle starts with an Obstruction Rating equal to the current Level.
-		An Obstacle with a Rating of 0 is torn down.
-		
-		A Character may roll Construction vs. Obstruction. If they succeed, they reduce the Obstruction Rating by the number of net Successes.
-		
-		If a Character fails the roll, they suffer 1 Wound.
-		
-		If a Character Succeeds the roll and reduces the Obstruction Rating to 0, the Obstacle is cleared.
-		The Players gain 1 XP.
-		
-		Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
-		
 	3.7.9.2 Unknown Item (Risk)
 	
 ║ ┌[Finding Unknown Food Items]───────────────────────────────────────────────────────────┐ ║
@@ -1650,11 +1645,24 @@ There are five types of Risk Events:
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
 ║ When an Unknown Food Item Risk is faced, generate a new Food Item's Form, as explained in ║
-║ Sections 2.11.6.8 and 2.11.6.9.                                                           ║
-
-	3.7.9.3 Encounter
+║ Sections 2.6.8.7.2 and 2.6.8.7.3.                                                         ║
 	
+	3.7.9.4 Obstacle
+	
+		When an Obstacle Risk is faced, the Obstacle starts with an Obstruction Rating equal to the current Level.
+		An Obstacle with a Rating of 0 is torn down.
 		
+		The Characters may roll Construction vs. Obstruction. If they succeed, they reduce the Obstruction Rating by the number of net Successes. If a Character fails the roll, they suffer 1 Wound.
+		
+		Each Character in the room must attempt the Construction roll before any Character can try again.
+		
+		If a Character Succeeds the roll and reduces the Obstruction Rating to 0, the Obstacle is cleared.
+		The Players gain 1 XP.
+		
+		Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
+		
+	3.7.9.4 Encounter
+
 ║ ┌[Nest Encounters]──────────────────────────────────────────────────────────────────────┐ ║
 ║ │ An "Encounter" is an impromptu meeting with a Nest's denizens: its guardians, or      │ ║
 ║ │ their (wanted or unwanted) guests.                                                    │ ║
@@ -1674,15 +1682,6 @@ There are five types of Risk Events:
 	5-7				3
 	8-10			4
 	
-3.7.8.2 Effects (Risk)
-
-	When an Effects Risk is faced, the Character facing the Risk must check all Effects she is subject to.
-	
-	When an Effect is Checked, there is a chance that it will Trigger.
-	
-	Refer to SECTION for the rules of Checking Effects. Refer to SECTIONS for the rules of Triggering Effects.
-	
-	A Character gains 1 XP if at least one of their Effects were Triggered.
 
 ║ 3.7.9.5 Infection                                                                         ║
 ║                                                                                           ║
@@ -1691,9 +1690,9 @@ There are five types of Risk Events:
 ║ │ Infected, her Infection may get worse.                                                │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
-║ When an Infection Risk is faced, roll Strength + Healing vs. Level. If a Character is already Infected, they add their current Infected Rating as a Positive Modifier to the Roll's Resistance.
+║ When an Infection Risk is faced, roll Strength + Healing vs. Level. Characters suffer a negative modifier on the roll equal to their current Infected Rating, if any.
 
-	If the Character fails the Roll, they gain Infected equal to the amount the Roll failed by. The Character gains 1 XP.
+	If the Character fails the Roll, they gain Infected equal to the net successes. The Character gains 1 XP.
 	
 	See SECTION for the rules of the Infected Effect.
 	
@@ -1705,4 +1704,3 @@ There are five types of Risk Events:
 ║ │ living in the Room.                                                                   │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
-	
