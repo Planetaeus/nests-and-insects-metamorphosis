@@ -20,16 +20,20 @@
 			
 		║ Net Hits    Degree of Success                         ║
 		║ ───────────────────────────────────────────────────── ║
-		║ +3 or more  Critical Success                          ║
-		║ +2          Complete Success                          ║
-		║ +1          Partial Success                           ║
-		║ +0          Partial Failure                           ║
-		║ -1          Complete Failure                          ║
-		║ -2 or less  Critical Failure                          ║
+		║ +5 or more  Critical Success                          ║
+		║ +3, +4      Total Success                             ║
+		║ +1, +2      Partial Success                           ║
+		║ -1, 0       Partial Failure                           ║
+		║ -2, -3      Total Failure                             ║
+		║ -4 or less  Critical Failure                          ║
 		║ ───────────────────────────────────────────────────── ║
 		║ Table 1: Four Degrees of Success.                     ║
 
-		Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have Attributes rated from 0 to 10. Whenever the players take an action, the Game Queen declares the difficulty of the roll. The player determines the size of their dice pool based on one or more Character Attributes, then roll that many d6. The number of dice that come up as a "4", "5", or a "6" are counted as successes. The number of successes is compared against the difficulty to decide the outcome of the Action.
+		Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have Attributes rated from 0 to 10. Whenever the players take an action, the Game Queen declares the difficulty of the roll. The Player determines the size of their dice pool based on one or more Character Attributes, then roll that many d6. The number of dice that come up as a "4", "5", or a "6" are counted as successes. The difficulty of the roll is subracted from the number of successes to obtain the net successes. If the net successes are greater than zero, the roll succeeds. If there are zero or negative net successes, the roll fails.
+		
+		In some cases, the GQ may decide that the degree of success matters to determine the outcome of the roll. This represents situations where the effectiveness of an action can be measured in more detail than a simple pass/fail.  In these cases, it can help to categorize the Degree of Success (DoS). There are six stages of DoS: Critical Failure, Total Failure, Partial Failure, Partial Success, Total Success, and Critical Success. Table 1 shows how the net successes of a roll translates into the DoS of the result.
+		
+		In other cases, the number of net successes can directly be used to determine the outcome. When a Character makes a successful attack, the net successes determine the Wounds bestowed on the targets.
 
 	1.3.1.0 Modifiers
 		
