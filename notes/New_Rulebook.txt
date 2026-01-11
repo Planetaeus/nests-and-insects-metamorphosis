@@ -1770,3 +1770,59 @@ There are five types of Risk Events:
 	  
 		Gathering Building Resources uses the Construction Attribute. The Character Rolls STR + Construction vs Level.
 	  
+║   3.9.0.0 Resting & Healing (TBD)...................................................143 ║
+
+		In between the dangers of exploring the Nest and Encounters with its Denizens, the Characters need some well-earned time to rest, recover, and reflect on how they've grown. This is encompassed by the Resting and Healing minigame.
+		
+		Before the Characters can rest, they need to first make a safe space to do so. Characters will have to choose a Room that has been cleared of all Risks and Secure it using Building Resources. Once they have a safe space, the Characters can Resist their Effects, Heal from Wounds, and Spend XP. During this safe time, they may also choose to swap their known Attacks.
+		
+		3.9.1.0 Resting & Healing Steps
+		
+			The Resting & Healing minigame follows a formulaic set of steps in a given order:
+			
+			1. The Characters spend Building Resources to Secure a Room.
+			
+			2. Each Character who wants to Heal their Wounds must consume Food, then rolls Healing.
+			
+			3. Characters with the Swarms Attribute can use Food to call on more Swarmlings.
+			
+			4. Each Character has an opportunity to Resist Effects.
+			
+			5. Each Character has an opportunity to Spend XP to improve their Attributes.
+			
+			6. Characters can change their set of Known Attacks.
+			
+			After all steps are complete, the Resting and Healing minigame is ended. Players are free to start a new Resting & Healing action immediately, or continue on their Job.
+			
+		3.9.2.0 Secure a Room
+		
+			A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To Secure a Room, the Characters must Consume Building Resources. Once they do, they can Roll Construction + STR or KEN versus Level. On a Success, the room is Secured, and Resting & Healing can continue in that room. There are no consequences for Failure except for the waste of Consumed Resources. Once a Room has been Secured, it can be used for Resting & Healing again at a later time.
+			
+			3.9.2.1 Secure a Room with Web
+			
+				The Characters do not need Building Resources if one of them has the Web Attribute. Instead, the Web-savvy Character Rolls Web + Construction vs Level. On a Success, the Room is Secured. On a Failure, the Character with Web gains 1 Hunger.
+		
+		3.9.3.0 Heal from Wounds
+		
+			If a Character wishes to Heal from Wounds, they must first Consume a Food Item. This Consumption does not affect her Hunger Rating, as the nutrition is spent healing from injuries.
+			
+			To Heal from Wounds, the Character Rolls KEN + Healing vs Wounds. On a Success, the Character Heals one Wound for each Net Success. On a Failure, the Character wallows in her wasted Food.
+		
+		3.9.4.0 Summon Swarmlings
+		
+			To attract and sustain a Swarm, Food is a must. To summon more Swarmlings to her aid, a Character must Consume a Food Item. This Consumption does not affect her Hunger Rating, as the nutrition goes to attracting the Swarm.
+			
+			To summon Swarmlings, the Character Rolls Swarms + Leadership or Eusociology vs Level. On a Success, the Character regains one Swarms for each Net Success.
+		
+		3.9.5.0 Resist Effects
+		
+			Characters in the Resting & Healing minigame have an opportunity to Resist Effects. See SECTION for the rules on Resisting Effects.
+		
+		3.9.6.0 Spend XP
+		
+			If a Character has any XP that they wish to spend, they may do so. See SECTION for the rules on spending XP.
+		
+		3.9.7.0 Change Attacks
+		
+			A Character may decide to change their list of Known Attacks. See SECTION for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
+		
