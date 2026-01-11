@@ -1739,3 +1739,34 @@ There are five types of Risk Events:
 
 			When a Character reaps a Resource Reward, the Room now has Building Resources among its resources that can be harvested during Hunting & Foraging.
 
+║   3.8.0.0 Hunting and Foraging (TBD)..................................................142 ║
+	  
+	  In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
+	  
+	  Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they roll the appropriate Attribute for that type of Item. The following Sections describe the different harvesting methods for Insectivore Food, Herbivore Food, and Building Resources.
+	  
+		║ Degree of Success  Outcome                       ║
+		║ ───────────────────────────────────────── ║
+		║ Critical Success   Add Level to Item Rating                  ║
+		║ Total Success      Roll Level to Increase Item Rating        ║
+		║ Partial Success    Add 1 to Item rating                      ║
+		║ Partial Failure    Increase Hunger 1                                         ║
+		║ Total Failure      Increase Hunger 1, Room Depleted of Item.                 ║
+		║ Critical Failure   Increase Hunger by Level, Room Depleted of Item.          ║
+		║ ───────────────────────────────────────── ║
+		║ Table 1: Four Degrees of Success.                     ║
+	 
+	  The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts are wasted, shown by an increase in the Hunger rating. On a Total Failure, the Character is hungry, but they have also depleted any remnants of that Item that could be found in the Room. The Item can no longer be harvested in this Room. On a Critical Failure, the Character's Hunger is increased substantially on top of the Room being depleted of the Item.
+	  
+	  3.1.0.0 Foraging Plants
+	  
+		Harvesting an Herbivore Food Item uses the Foraging Attribute. The Character Rolls KEN + Foraging vs Level.
+	  
+	  3.2.0.0 Hunting Bugs
+	 
+		Harvesting an Insectivore Food Item uses the Hunting Attribute. The Character Rolls SPE + Hunting vs Level.
+	  
+	  3.2.0.0 Collecting Building Resources
+	  
+		Gathering Building Resources uses the Construction Attribute. The Character Rolls STR + Construction vs Level.
+	  
