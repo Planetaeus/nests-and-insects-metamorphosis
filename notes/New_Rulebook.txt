@@ -1737,12 +1737,9 @@ There are five types of Risk Events:
 	
 	3.7.9.4 Obstacle
 	
-		When an Obstacle Risk is faced, the Obstacle starts with an Obstruction Rating equal to the current Level.
-		An Obstacle with a Rating of 0 is torn down.
+		When an Obstacle Risk is faced, the Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
 		
-		The Characters may roll Construction vs. Obstruction. If they succeed, they reduce the Obstruction Rating by the number of net Successes. If a Character fails the roll, they suffer 1 Wound.
-		
-		Each Character in the room must attempt the Construction roll before any Character can try again.
+		The Characters may roll STR + Construction vs. Obstruction. If they succeed, they reduce the Obstruction Rating by the number of net Successes. If a Character fails the roll, they suffer 1 Wound. Each Character in the room must attempt the Construction roll before any Character can try again. 
 		
 		If a Character Succeeds the roll and reduces the Obstruction Rating to 0, the Obstacle is cleared. The Players gain XP equal to Level, and have a chance to gain Building Resources. Roll Level. One Character adds Building Resources equal to the successes.
 		
