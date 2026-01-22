@@ -23,49 +23,49 @@ Cost Generation:
 Risk Generation:
 ║ Risk                    Chance         Description                                        ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
-║ 3.7.9.3 Obstacle        10              Prevents further Exploration until removed (       ║
+║ 3.7.9.3 Obstacle        10             Prevents further Exploration until removed (       ║
 ║ 2.11.6.8 Item (Unknown) 8 - Level      Find as yet unidentified Food Items ()             ║
 ║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
 ║ 3.7.8.4 Effects         2 + Level      Apply, or modify the rating of deleterious Effects ║
-║ 3.7.9.5 Infection       Level      Bestows the Infection Effect ()                    ║
+║ 3.7.9.5 Infection       Level          Bestows the Infection Effect ()                    ║
 ║ ───────────────────────────────────────────────────────────────────────────               ║
 
 Reward Generation:
 ║ Reward                  Chance               Description                                  ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-║ 3.7.10.1 Room           10 - Level           Spend a Room to Explore, Hunt or Forage ()   ║
+║ 3.7.10.1 Room           10                   Spend a Room to Explore, Hunt or Forage ()   ║
 ║ 3.7.10.4 Item (Known)   8 - Level            Find a previously identified Food Item ()    ║
 ║ 3.7.10.5 Resource       6 - Level            Materials to build a Shelter ()              ║
-║ 3.7.10.3 Level          Level            Entrance to a new, deeper Nest Level ()      ║
+║ 3.7.10.3 Level          Level                Entrance to a new, deeper Nest Level ()      ║
 ║ 3.7.10.2 Shortcut       Level - 5            Takes you directly to the Job Target ()      ║
 ║ ────────────────────────────────────────────────────────────────────────────────────────  ║
 
 Suppress DoS
 ║ Degree of Success    Intimidate Outcome    Charm or Confuse Outcome                       ║
 ║ ──────────────────────────────────────────────────────────────────────────────            ║
-║ Critical Success     Target Retreats       Bestow Charmed / Confused: d80                 ║
-║ Total Success	       Target Recoils        Bestow Charmed / Confused: d60                 ║
-║ Partial Success      Target Recoils        Bestow Charmed / Confused: d40                 ║
-║ Partial Failure      Target Holds          Bestow Confused: d40 on random Ally            ║
-║ Total Failure        Target Advances       Bestow Confused: d60 on random Ally            ║
-║ Critical Failure     Target Charges        Bestow Confused: d80 on random Ally            ║
+║ Critical Success     Target Recoils 3      Bestow Charmed / Confused 3                    ║
+║ Total Success	       Target Recoils 2      Bestow Charmed / Confused 2                    ║
+║ Partial Success      Target Recoils 1      Bestow Charmed / Confused 1                    ║
+║ Partial Failure      No Effect             No Effect                                      ║
+║ Total Failure        Target Advances 1     Target Advances 1                              ║
+║ Critical Failure     Target Advances 2     Target Advances 2                              ║
 ║ ────────────────────────────────────────────────────────────────────────────── 
 ║ Action        Effort        Resistance    Static Modifiers                                ║
 ║ ──────────────────────────────────────────────────────────────                            ║
-║ Charm         Passions      Passions      Smarts, Confused                                ║
-║ Confuse       Ken           Ken           Leadership, Passions                            ║
-║ Intimidate    Signalling    Passions      Leadership, Swarming                            ║
+║ Charm         PAS + Eusociology  Passions                                                 ║
+║ Confuse       KEN + Signaling    Ken                                                      ║
+║ Intimidate    PAS + Signaling    Passions                                                 ║
 ║ ──────────────────────────────────────────────────────────────   
 
 Support DoS
 ║ Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                 ║
 ║ ───────────────────────────────────────────────────────────────────────────────────────── ║
-║ Critical Success     Ally Advances Thrice          Remove Effect and Shift Disposition Up ║
-║ Total Success        Ally Advances Twice           Remove Effect (reduce to 0%)           ║
-║ Partial Success      Ally Advances                 Reduce Effect (roll to decrease)       ║
-║ Partial Failure      Ally Holds                    Effect remains                         ║
-║ Total Failure        Ally Recoils                  Effect is enhanced (roll to increase)  ║
-║ Critical Failure     Ally Recoils Twice            Effect is maximised (set to 100%)      ║
+║ Critical Success     Ally Advances 3               Remove Effect and Shift Disposition Up ║
+║ Total Success        Ally Advances 2               Remove Effect (reduce to 0%)           ║
+║ Partial Success      Ally Advances 1               Reduce Effect (roll to decrease)       ║
+║ Partial Failure      No Effect                     Effect remains                         ║
+║ Total Failure        Ally Recoils 1                Effect is enhanced (roll to increase)  ║
+║ Critical Failure     Ally Recoils 2                Effect is maximised (set to 100%)      ║
 ║ ───────────────────────────────────────────────────────────────────────────────────────── ║                                                                                          ║
 ║ Action         Effort          Resistance      Static Modifiers                           ║
 ║ ───────────────────────────────────────────────────────────────                           ║
@@ -139,13 +139,11 @@ Generate a Food Item's Function:
 ║ 2. Generate the Item's Alignment and Abilities                                            ║
 ║ d20 Result    Beneficial Ability                                                          ║
 ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-║ 1-4           Mutation - Gain a Special Ability (TABLE). Exhausted once Consumed.         ║
-║   5           Healing - reduce Wounds by 1                                                ║
-║   6           Relief - reduce one Effect's rating to 0% (choose the Effect at random)     ║
-║   7           Restoration - reduce Wounds by 1, reduce a chosen Effect's rating to 0%     ║
-║   8           Courage - start next Combat in Charging Disposition.                        ║
-║   9           Rage - start next Combat in Charging Disposition, take a Wound              ║
-║  10           Clarity - +d80 to next Exploration, Foraging, Hunting or Perception Roll    ║
+║ 1-6           Mutation - Gain a Special Ability (TABLE). Exhausted once Consumed.         ║
+║   7           Healing - reduces Wounds by Net Successes when Consumed.                    ║
+║   8           Relief - reduce one Effect's rating to 0% (choose the Effect at random)     ║
+║   9           Courage - start next Combat in Charging Disposition.                        ║
+║  10           Light - can be used as a Light item.                                        ║
 ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
 ║ Table 14: Beneficial Abilities                                                            ║
 ║ d20 Result    Harmful Ability                                                             ║
@@ -165,16 +163,17 @@ Generate a Food Item's Function:
 
 
 ║                                                                                           ║
-║ Encounter                             Chance         Description                          ║
+║ Encounter                             Roll         Description                          ║
 ║ ────────────────────────────────────────────────────────────────────────────────────      ║
-║ Worker Termite                        10             Worker caste                        ║
-║ Minor Termite Soldier - Autothyte     5 + Level      Soldier caste                        ║
-║ Major Termite Soldier - Authothyte    3 + Level      Bigger soldier caste                 ║
-║ Nasute Soldier                        Level          Scarier soldier caste                ║
-║ Alates - King                         Level - 2      Commander of the Soldier castes      ║
-║ Alates - Queen, tertiary              Level - 4      Cute Termite princess. Aaaw!         ║
-║ Alates - Queen, secondary             Level - 6      Second in command                    ║
-║ Alates - Queen, primary               Level - 8      Big honcho. Common Job target        ║
+║ Worker Termite                        0      Worker caste                        ║
+║ Minor Termite Soldier - Autothyte     1      Soldier caste                        ║
+║ Major Termite Soldier - Authothyte    2      Bigger soldier caste                 ║
+║ Nasute Soldier                        3      Scarier soldier caste                ║
+║ Alates - King                         4      Commander of the Soldier castes      ║
+║ Alates - Queen, tertiary              5      Cute Termite princess. Aaaw!         ║
+║ Alates - Queen, secondary             6      Second in command                    ║
+║ Alates - Queen, primary               7      Big honcho. Common Job target        ║
+
 ║ Nest Invader         			        3		       Armoured and venomous                ║
 ║ Termitophile		                    2		       Charming and affable                 ║
 ║ ────────────────────────────────────────────────────────────────────────────────────      ║
