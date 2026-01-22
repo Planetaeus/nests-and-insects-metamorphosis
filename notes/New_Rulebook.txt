@@ -1151,7 +1151,7 @@ List of Special Abilities:
 ║ Blind              Ken                                             ║
 ║ Charmed            Passions                                        ║
 ║ Confused           Ken                                             ║
-║ Immobilised        Speed                                           ║
+║ Immobilised        Strength                                        ║
 ║ Infected           Strength                                        ║
 ║ Paralysed          Speed                                           ║
 ║ Poisoned           Strength                                        ║
