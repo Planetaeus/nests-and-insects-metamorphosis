@@ -1723,7 +1723,7 @@ There are five types of Risk Events:
 		
 		Refer to SECTION for the rules of Checking Effects. Refer to SECTIONS for the rules of Triggering Effects.
 		
-		A Character gains 1 XP if at least one of their Effects were Triggered.
+		A Character gains XP equal to Level if at least one of their Effects were Triggered.
 	
 	3.7.9.2 Unknown Item (Risk)
 	
@@ -1744,8 +1744,7 @@ There are five types of Risk Events:
 		
 		Each Character in the room must attempt the Construction roll before any Character can try again.
 		
-		If a Character Succeeds the roll and reduces the Obstruction Rating to 0, the Obstacle is cleared.
-		The Players gain 1 XP.
+		If a Character Succeeds the roll and reduces the Obstruction Rating to 0, the Obstacle is cleared. The Players gain XP equal to Level, and have a chance to gain Building Resources. Roll Level. One Character adds Building Resources equal to the successes.
 		
 		Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
 		
@@ -1770,6 +1769,7 @@ There are five types of Risk Events:
 	5-7				3
 	8-10			4
 	
+		When all enemies in the Encounter are defeated or retreated, the Encounter has been cleared. The Characters gain XP equal to Level.
 
 ║ 3.7.9.5 Infection                                                                         ║
 ║                                                                                           ║
@@ -1780,7 +1780,7 @@ There are five types of Risk Events:
 ║                                                                                           ║
 ║ When an Infection Risk is faced, roll Strength + Healing vs. Level. Characters suffer a negative modifier on the roll equal to their current Infected Rating, if any.
 
-	If the Character fails the Roll, they gain Infected equal to the net successes. The Character gains 1 XP.
+	If the Character fails the Roll, they gain Infected equal to the net successes. The Character gains XP equal to Level.
 	
 	See SECTION for the rules of the Infected Effect.
 	
