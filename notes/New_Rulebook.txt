@@ -558,6 +558,14 @@
 				
 				A Character subject to a Poisoned Effect has a negative modifier equal to her Poisoned rating to all Actions in Combat.
 				
+			2.6.7.15 Shocks
+			
+				Resist with: PAS
+				
+				When a Shocks Effect Triggers, nothing special happens.
+				
+				However, a Shocked Character cannot use Ranged Attacks.
+			
 			2.6.7.13 Stunned
 			
 				Resist with: PAS
