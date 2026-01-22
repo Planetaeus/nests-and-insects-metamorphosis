@@ -516,7 +516,7 @@
 				
 				When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. They may take other Actions and Manoeuvers as normal.
 				
-			2.6.7.8 Confused
+			2.6.7.10 Confused
 			
 				Resist with: KEN
 				
@@ -532,7 +532,7 @@
 				
 				However, an Immobilised Character received a penalty to their Speed and Flight equal to their Immobilised rating.
 			
-			2.6.7.10 Infected
+			2.6.7.12 Infected
 			
 				Resist with: STR
 			
@@ -542,7 +542,7 @@
 				
 				The bestowed Effect triggers.
 				
-			2.6.7.11 Paralyzed
+			2.6.7.13 Paralyzed
 			
 				Resist with: SPE
 			
@@ -550,7 +550,7 @@
 				
 				However, a Paralyzed Character can only take the Resist Action until she is no longer Paralyzed.
 				
-			2.6.7.12 Poisoned
+			2.6.7.14 Poisoned
 			
 				Resist with: STR
 			
@@ -572,7 +572,7 @@
 			
 				When a Stunned Effect triggers, the subject Character cannot take any Actions until the next time Effects are Checked.
 				
-		2.6.8.0 Inventory Items
+		2.6.9.0 Inventory Items
 			
 			Inventory Items are the Characters' Features representing consumable resources carried by a Character and that the Character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing minigames.
 			
@@ -582,13 +582,13 @@
 			
 			Like all Features, Inventory Items have a descriptive name and a rating that represents the amount of the relevant resource. Items also have types that describe their use, recorded in parentheses next to the Item's name. One type of Item are Food Items that can be eaten to fend off Hunger, or grant Special Abilities.
 			
-			2.6.8.1 Carrying Items
+			2.6.9.1 Carrying Items
 			
 				Inventory Items are carried about the Character's insect and kept track of in the Character's Inventory. A Character can only carry as many Items as there are entry "slots" in her Inventory. Characters' Inventories have nine Slots.
 				
 				Inventory Slots are blank lines with a rating field and a depleted indicator (See Section "Consuming Items", later in this Chapter.
 				
-			2.6.8.2 Acquiring Items
+			2.6.9.2 Acquiring Items
 			
 				Characters acquire Inventory Items in one of two ways:
 				
@@ -598,7 +598,7 @@
 				
 				_Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the Character's Inventory).
 				
-			2.6.8.3 Dropping Items
+			2.6.9.3 Dropping Items
 				
 				Items may be "dropped" from a Character's Inventory either automatically, when the Character picks up an Item and her Inventory is already full; or voluntarily, when a Player decides it.
 				
@@ -614,7 +614,7 @@
 				
 				_Cursed Items_ Some Items are cursed, and may not be removed from a Character's Inventory until their curse is lifted.
 				
-			2.6.8.4 Item Types
+			2.6.9.4 Item Types
 			
 				Inventory Items can belong to one of six types. An Item's type is recorded next to its name on a Character's sheet, in square brackets. The six item types are listed in TABLE. below, along with a type symbol used to record the Item's type in a Character's Inventory, and a brief description of each type:
 				
@@ -632,7 +632,7 @@
 				
 				_Items with Multiple Types_ Some Items may have multiple types, the "Food" type, and one or more other types. Such Items can be used to pay a Hunger Cost and perform another function, such as paying a Darkness Cost.
 				
-			2.6.8.5 Changing Item Types
+			2.6.9.5 Changing Item Types
 			
 				The types of an Item may change. This happens when an Item is eaten, or when it spoils.
 				
@@ -652,7 +652,7 @@
 
 				_Spoiled Items_ Food Items can become Spoiled as the result of paying a Spoilage Cost during the Survival & Exploration or Hunting & Foraging minigames. Spoiled Items are past their expiry date and cannot be consumed without risking adverse effects. Make sure to include "Spoiled" in the item's name.
 				
-			2.6.8.6 Consuming Items
+			2.6.9.6 Consuming Items
 				
 				Inventory Items are "consumed" and may become "depleted" or "exhausted" as a result of taking an Action or paying a Cost. A depleted Item can still be used, but if it is depleted again, it becomes exhausted.
 				
@@ -666,9 +666,9 @@
 				
 				_Exhausted Items_ When an Inventory Item is exhausted, it can no longer be consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other characters.
 				
-			2.6.8.7.0 Food Items
+			2.6.9.7.0 Food Items
 				
-				2.6.8.7.1 Consuming Food Items
+				2.6.9.7.1 Consuming Food Items
 					
 					When a Food Item is consumed, the Hunger of the Character consuming the Item may be reduced.
 					
@@ -680,7 +680,7 @@
 					
 					_Effects of Consuming Food Items_ Some Food Items bestow an Effect or grant an Ability to the consuming Character. Such Items' Effects trigger as soon as an Item is consumed. Refer to SECTION for the rules of triggering Effects.
 					
-				2.6.8.7.2 Generating Food Items
+				2.6.9.7.2 Generating Food Items
 				
 					Nests & Insects Food Items are procedurally generated like everything else encountered during a Job.
 					
@@ -704,7 +704,7 @@
 					
 					The following Sections describe how to generate Food Items' Form and Function.
 					
-				2.6.8.7.3 Generating a Food Item's Form
+				2.6.9.7.3 Generating a Food Item's Form
 						
 					When an Item is first found, roll to generate the Item's Form, as follows:
 					
@@ -742,7 +742,7 @@
 					
 						Roll to Set the new Item's Rating. Quantify with Level.
 						
-				2.6.8.7.4 Identifying Food Items
+				2.6.9.7.4 Identifying Food Items
 				
 					Food Items start out as Unknown Items, whose Form is known, but whose Function is not known. A Character can identify a Food Item in one of two ways:
 					
