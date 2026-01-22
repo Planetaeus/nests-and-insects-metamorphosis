@@ -60,7 +60,7 @@ Roll STR + TR vs. STR + SR against an adjacent insect. The insect gains Wounds a
 
 Autothysis
 
-Sacrifice a number of Swarms. Roll Swarms + TR + the number of sacrifices and choose a hex up to 4 hexes away. Each insect within one hex of the chosen hex rolls SPE + SR, gaining wounds for each net success.
+Roll Current Swarms + TR and choose a hex up to 4 hexes away. Each insect within one hex of the chosen hex rolls SPE + SR, gaining Wounds for each net success. Lose one Swarms.
 
 Venom Sting
 
