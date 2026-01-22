@@ -1,6 +1,6 @@
 Armored Charge
 
-Move in a line of hexes up to your SPE. Roll Carapace + STR. Each insect in that line must roll SPE + SR to resist. Each insect you succeed against gains wounds for each net success and is pushed that many hexes in a direction you choose.
+Move in a line of hexes up to your SPE. Roll Carapace + STR. Each insect in that line must roll SPE + SR to resist. Each insect you succeed against gains Wounds and is pushed 1 for each net success.
 
 Brittle touch
 
@@ -16,7 +16,7 @@ Touch an adjacent insect and roll Heat + TR vs. SPE + SR. The target gains Burns
 
 Water Pistol
 
-Roll Hydro + TR vs. STR + SR against a target up to 5 hexes away. The target gains wounds for each net success and is pushed away from you by the same number of hexes.
+Roll Hydro + TR vs. STR + SR against an insect up to 5 hexes away. The insect gains Wounds and is pushed 1 for each net success.
 
 Planned Strike
 
