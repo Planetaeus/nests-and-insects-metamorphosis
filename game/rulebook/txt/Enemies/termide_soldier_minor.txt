@@ -1,11 +1,11 @@
 Name: Termite Soldiers, Minor
 
 Attributes    ║ Special       ║ Combat             ║ ○ Charging
-SPEED...:[_3] ║ Swarm...:[_4] ║ INIT.........:[_2] ║ ○ +2d
-STRENGTH:[_3] ║ ........:[__] ║ TR...........:[_2] ║ ○ +2d
+SPEED...:[_3] ║ Swarm...:[Lv] ║ INIT.........:[_2] ║ ○ +2d
+STRENGTH:[_3] ║ DARKNESS:[_2] ║ TR...........:[_2] ║ ○ +2d
 KEN.....:[_3] ║ ........:[__] ║ SR...........:[_2] ║ ○ +1d  
 PASSIONS:[_3] ║ ........:[__] ║ WOUNDS..:[__]/[_2] ║ ○ +1d 
-              ║ ........:[__] ║ SWARMS..:[_4]/[_4] ║ ○ Holding
+              ║ ........:[__] ║ SWARMS..:[__]/[Lv] ║ ○ Holding
 Effects                                            ║ ○ -1d 
 ...........:[__] ...........:[__]                  ║ ○ -1d
 ...........:[__] ...........:[__]                  ║ ○ -2d
@@ -14,14 +14,14 @@ Effects                                            ║ ○ -1d
 ...........:[__] ...........:[__]                  ║
 
 
-║─────────────────[ Attack 1 ]────────────────║─────────────────[ Manoeuver ]───────────────║
+║─────────────────[ Attack 1 ]────────────────║─────────────────[ Attack 2 ]────────────────║
 ║ Name:.............................Mandibles ║ Name:.........................Swarming Call ║
-║ Details:...Roll STR + TR vs. SR against.... ║ Details:...Roll SWARMS. On success, regain. ║
+║ Details:.Roll STR + TR vs. STR + SR against ║ Details:...Roll SWARMS. On success, regain. ║
 ║ adjacent insect. Target gains wounds for... ║ two Swarms. On three or more successes also ║
 ║ each net success........................... ║ summon one Major Termite Soldiers.......... ║
 ║ ........................................... ║ ........................................... ║
 ║ ........................................... ║ ........................................... ║
-║─────────────────[ Attack 2 ]────────────────║
+║─────────────────[ Attack 3 ]────────────────║
 ║ Name:............................Autothysis ║
 ║ Details:.Choose a hex within 5 hexes. Roll. ║
 ║ Current SWARMS+TR. Insect within one hex of ║

@@ -1,11 +1,11 @@
 Name: Termite Soldier, Nasute
 
 Attributes    ║ Special       ║ Combat             ║ ○ Charging
-SPEED...:[_5] ║ Swarm...:[_3] ║ INIT.........:[_3] ║ ○ +2d
+SPEED...:[_5] ║ Swarm...:[Lv] ║ INIT.........:[_3] ║ ○ +2d
 STRENGTH:[_3] ║ Carapace:[_5] ║ TR...........:[_5] ║ ○ +2d
-KEN.....:[_3] ║ ........:[__] ║ SR...........:[_4] ║ ○ +1d  
+KEN.....:[_3] ║ DARKNESS:[_3] ║ SR...........:[_4] ║ ○ +1d  
 PASSIONS:[_3] ║ ........:[__] ║ WOUNDS..:[__]/[_5] ║ ○ +1d 
-              ║ ........:[__] ║ SWARMS..:[_3]/[_3] ║ ○ Holding
+              ║ ........:[__] ║ SWARMS..:[__]/[Lv] ║ ○ Holding
 Effects                                            ║ ○ -1d 
 ...........:[__] ...........:[__]                  ║ ○ -1d
 ...........:[__] ...........:[__]                  ║ ○ -2d
@@ -14,14 +14,14 @@ Effects                                            ║ ○ -1d
 ...........:[__] ...........:[__]                  ║
 
 
-║─────────────────[ Attack 1 ]────────────────║─────────────────[ Manoeuver ]───────────────║
+║─────────────────[ Attack 1 ]────────────────║─────────────────[ Attack 2 ]────────────────║
 ║ Name:.......................Fontanellar Gun ║ Name:.........................Swarming Call ║
-║ Details:...Roll SPE + TR vs. SPE+SR against ║ Details:...Roll SWARMS. On success, regain. ║
+║ Details:.Roll SPE + TR vs. SPE + SR against ║ Details:...Roll SWARMS. On success, regain. ║
 ║ insect within five hexes. Target gains..... ║ two Swarms. On three or more successes also ║
 ║ wounds and Immobilised for each net success ║ summon one Major Termite Soldiers.......... ║
 ║ Recoil one................................. ║ ........................................... ║
 ║ ........................................... ║ ........................................... ║
-║─────────────────[ Attack 2 ]────────────────║
+║─────────────────[ Attack 3 ]────────────────║
 ║ Name:................Fontanellar Detonation ║
 ║ Details:.Roll SPE+TR+Current SWARMS. Each.. ║
 ║ insect within two hexes must roll SPE+SR... ║

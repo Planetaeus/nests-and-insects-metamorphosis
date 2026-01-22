@@ -1,22 +1,22 @@
 Name:
 
 Attributes    ║ Special       ║ Combat             ║ ○ Charging
-SPEED...:[_1] ║ SWARMS..:[_5] ║ INIT.........:[_1] ║ ○ +2d
-STRENGTH:[_1] ║ ........:[__] ║ TR...........:[_1] ║ ○ +2d
+SPEED...:[_1] ║ SWARMS..:[Lv] ║ INIT.........:[_1] ║ ○ +2d
+STRENGTH:[_2] ║ DARKNESS:[_1] ║ TR...........:[_1] ║ ○ +2d
 KEN.....:[_1] ║ ........:[__] ║ SR...........:[_1] ║ ○ +1d  
 PASSIONS:[_1] ║ ........:[__] ║ WOUNDS..:[__]/[_1] ║ ○ +1d 
-              ║ ........:[__] ║ SWARMS..:[_2]/[_3] ║ ○ Holding
+              ║ ........:[__] ║ SWARMS..:[__]/[Lv] ║ ○ Holding
 Effects                                            ║ ○ -1d 
-...........:[__] ...........:[__]                  ║ ○ -1d
+Infected...:[_1] ...........:[__]                  ║ ○ -1d
 ...........:[__] ...........:[__]                  ║ ○ -2d
 ...........:[__] ...........:[__]                  ║ ○ -2d
 ...........:[__] ...........:[__]                  ║ ○ Retreating
 ...........:[__] ...........:[__]                  ║
 
 
-║─────────────────[ Attack ]──────────────────║─────────────────[ Manoeuver ]───────────────║
+║─────────────────[ Attack ]──────────────────║──────────────────[ Attack ]─────────────────║
 ║ Name:........................Weak Mandibles ║ Name:.........................Swarming Call ║
-║ Details:...Roll STR + TR vs. SR against.... ║ Details:...Roll SWARMS. On success, regain. ║
+║ Details:.Roll STR + TR vs. STR + SR against ║ Details:...Roll SWARMS. On success, regain. ║
 ║ adjacent insect. Target gain one wound for. ║ two Swarms. On three successes also summon. ║
 ║ for each net success....................... ║ one Minor Termite Soldiers................. ║
 ║ ........................................... ║ ........................................... ║
