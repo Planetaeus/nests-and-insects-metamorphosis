@@ -435,11 +435,11 @@
 			
 			2.6.4.2 Hunger
 		
-		2.6.6.0 Attacks
+		2.6.7.0 Attacks
 		
 			See SECTION for a list of available Attacks and their requirements.
 			
-		2.6.7.0 Effects
+		2.6.8.0 Effects
 		
 			This Section defines the rules for handling Effects. Effects are physical or mental conditions that may affect a Character during the course of a game.
 			
