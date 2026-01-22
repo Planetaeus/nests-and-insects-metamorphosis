@@ -768,7 +768,9 @@
 						
 						Once all Effects caused by consuming an unknown Food Item have triggered, the Item is a Known Item.
 						
-				2.6.8.7.5 Generating a Food Item's Function
+						When an Item is Identified, the Identifying Character gains 1 XP.
+						
+				2.6.9.7.5 Generating a Food Item's Function
 				
 					When an Item is Identified in one of the two ways described in the previous Section, roll to generate the Item's Function, as follows:
 					
