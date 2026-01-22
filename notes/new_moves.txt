@@ -4,7 +4,8 @@ Move in a line of hexes up to your SPE. Roll Carapace + STR. Each insect in that
 
 Brittle touch
 
-Roll Chill + TR against an enemy's Carapace + SR. The target gains wounds and Chilled for each net success.
+Roll Chill + TR vs. Carapace + SR against adjacent insect. The insect gains Wounds and Chilled for each net success.
+
 Umbra
 
 Roll Darkness + TR vs KEN + SR against adjacent insect. The insect gains Wounds and Blind for each net success.
