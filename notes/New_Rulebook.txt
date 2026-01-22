@@ -185,7 +185,7 @@
 ║ Blinded          ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
 ║ Charmed          ...will not Attack, but may take other Actions.                          ║
 ║ Confused         ...will only Attack and Move, will not take other actions.               ║
-║ Immobilised      ...cannot move and can only Attack in close range                        ║
+║ Immobilised      ...movement, Speed, and Flight restricted.                               ║
 ║ Infected         ...acquires a random Effect each Turn this Effect Applies                ║
 ║ Paralysed        ...cannot take any Actions except to Resist                              ║
 ║ Poisoned         ...has a negative modifier equal to Poisoned to all Actions              ║
@@ -444,15 +444,13 @@
 				
 				If the Character is not participating in Combat, Combat begins between the Confused Character and the other Characters in the Room.
 				
-			2.6.7.9 Immobilised
+			2.6.7.11 Immobilised
 			
-				Resist with: SPE
+				Resist with: STR
 				
 				When an Immobilised Effect triggers, nothing special happens.
 				
-				However, an Immobilised Character cannot take any Actions that would initiate a Survival & Exploration or Hunting & Foraging minigame.
-				
-				In Combat, an Immobilised Character cannot move, and can only make Close Range Attacks.
+				However, an Immobilised Character received a penalty to their Speed and Flight equal to their Immobilised rating.
 			
 			2.6.7.10 Infected
 			
