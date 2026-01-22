@@ -1912,6 +1912,76 @@ There are five types of Risk Events:
 			A Character may decide to change their list of Known Attacks. See SECTION for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
 		
 	3.10.0.0 Travel
+		
+		Once the Characters have explored a Room, they may wish to return. Perhaps there are Items they wish to harvest, or they wish to Explore a connected Room. The journey is relatively safe, as the Characters have probably cleared most of the Risks along the way.
+		The journey is not without its own costs, however. Characters have a chance to gain Hunger along the way.
+		
+		3.10.1.0 Steps of Travel
+		
+			The Travel minigame follows a short series of steps.
+			
+			1. Begin Travel.
+			
+			2. Choose Destination Room.
+			
+			3. Form Traveling Party.
+			
+			4. Determine Risks faced along the route.
+			
+			5. Arrive at Destination.
+			
+			6. Roll for Hunger.
+			
+			7. Check Effects.
+			
+			8. End of Travel.
+			
+			The following Sections describe these steps in more detail.
+			
+		3.10.2.0 Begin Travel
+			
+			The Travel minigame begins when a Player expresses an intent to leave the current Room without starting Survival & Exploration.
+			
+		3.10.3.0 Choose Destination
+		
+			The Character who initiated Travel declares which Room in the Environment Pool they would like to set as their destination.
+			
+		3.10.4.0 Form Traveling Party
+		
+			An Traveling Party consists of all Characters in the same Room who want to commence Travel to the same destination.
+			
+		3.10.5.0 Risks Along the Route
+		
+			Sometimes the Characters will leave a Room without dealing decisively with the Risks they faced there. The two major examples of this are hostile Encounters that were fled or avoided, and the Infection Risk.
+			
+			For each Room along the Route with an unfinished Encounter, the Characters will have to deal with that Encounter again before they can pass through that Room.
+			
+			For each Room along the Route with an Infection Risk, the Characters will have to face the Infection Risk again as they pass through that Room.
+			
+		3.10.6.0 Arrive at Destination
+		
+			The Characters arrive at their destination, and the strain of their journey takes its toll on them. They realize how Hungry they have gotten, and their Effects may trigger.
+			
+			3.10.6.1 Roll for Hunger
+				
+				The GQ makes a Roll to increase the Hunger for the Traveling Party. The dice pool is equal to the number of Rooms traversed during the Travel.
+				
+				Any Character may consume a Food at this time to reduce her Hunger.
+				
+				If a Characer's Hunger is not reduced by consuming Food:
+				
+					* If a Character is Starving, she dies of starvation.
+				
+					* If a Character is not Starving and the Roll would bring her to Hunger 10 or more, she is at Hunger 10 and she is Starving.
+					
+			3.10.6.2 Check Effects
+			
+				Each Character rolls to check her Effects. See SECTION for the rules of checking Effects.
+				
+		3.10.7.0 End Travel
+		
+			Once the Traveling Party has arrived and has paid the costs of Travel, the minigame is over. Characters are free to take other Actions and initiate other minigames.
+			
 ║                                                                                           ║
 ║ 4.0.0.0 Setting (TBD).................................................................144 ║
 ║   4.1.0.0 Clients and Jobs (TBD)......................................................145 ║
