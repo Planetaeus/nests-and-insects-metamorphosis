@@ -279,7 +279,7 @@
 		
 		2.5.2.0 Assigning Core Attributes
 		
-			Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 3, 2, 1, 1
+			Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 4, 3, 2, 1
 		
 		2.5.3.0 Selecting Special Attributes
 		
