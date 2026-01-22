@@ -298,9 +298,7 @@
 			* Web
 			
 			The Player chooses one or two Special Attributes from the list above. If the Character starts with one Special Attribute, it starts with a rating of 4. If the Character starts with two Special Attributes, they each start with a rating of 2.
-		
-			2.5.3.1 Swarming
-		
+			
 		2.5.4.0 Assigning Common Attributes
 		
 			The Player chooses seven Common Attributes and distributes the following ratings among them as they choose: 3, 2, 2, 2, 1, 1, 1
