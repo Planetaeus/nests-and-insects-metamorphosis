@@ -55,37 +55,37 @@
 		<div class="area-div">
 			<div>
 				<strong>Nests & Insects: Metamorphosis</strong>
-			</div>
-			<input type="file" id="inputfile">
-			<script>
-				document.getElementById('inputfile')
-					.addEventListener('change', function () {
+				<input type="file" id="inputfile">
+				<script>
+					document.getElementById('inputfile')
+						.addEventListener('change', function () {
 
-						let fr = new FileReader();
-						fr.onload = function () {
-							let strData = fr.result;
-							let jsonData = JSON.parse(strData);
-									
-							loadFromJSON(jsonData);
-						}
+							let fr = new FileReader();
+							fr.onload = function () {
+								let strData = fr.result;
+								let jsonData = JSON.parse(strData);
+										
+								loadFromJSON(jsonData);
+							}
 
-						fr.readAsText(this.files[0]);
-					})
-					
-				function loadFromJSON(jData) {
-					let form = document.getElementById("char-form");
-					let formData = {};
-					for (let i = 0; i < form.elements.length; i++) {
-						let element = form.elements[i];
-						if(element.type == "checkbox") {
-							element.checked = jData[element.name]
-						}
-						else if (element.type !== "submit") {
-							element.value = jData[element.name]
+							fr.readAsText(this.files[0]);
+						})
+						
+					function loadFromJSON(jData) {
+						let form = document.getElementById("char-form");
+						let formData = {};
+						for (let i = 0; i < form.elements.length; i++) {
+							let element = form.elements[i];
+							if(element.type == "checkbox") {
+								element.checked = jData[element.name]
+							}
+							else if (element.type !== "submit") {
+								element.value = jData[element.name]
+							}
 						}
 					}
-				}
-			</script>
+				</script>
+			</div>
 			<form id="char-form">
 				<br>
 				<div id="name-div" class="form-row">
@@ -96,55 +96,104 @@
 					<div id="core-div">
 						<br>
 						<strong>Core Attributes</strong>
-						<div class="form-row">
-							<div class="form-group">
-								<label for="SPE">Speed:</label>
-								<input type="number" id="SPE" name="SPE" min="0" max="10" value="0">
-							</div>
-							<div class="form-group">
-								<label for="STR">Strength:</label>
-								<input type="number" id="STR" name="STR" min="0" max="10" value="0">
-							</div>
+						<br>
+						<br>
+						<div class="form-group">
+							<label for="SPE">Speed:</label>
+							<input type="number" id="SPE" name="SPE" min="0" max="10" value="0">
 						</div>
-						<div class="form-row">
-							<div class="form-group">
-								<label for="KEN">Ken:</label>
-								<input type="number" id="KEN" name="KEN" min="0" max="10" value="0">
-							</div>
-							<div class="form-group">
-								<label for="PAS">Passions:</label>
-								<input type="number" id="PAS" name="PAS" min="0" max="10" value="0">
-							</div>
+						<div class="form-group">
+							<label for="STR">Strength:</label>
+							<input type="number" id="STR" name="STR" min="0" max="10" value="0">
+						</div>
+						<div class="form-group">
+							<label for="KEN">Ken:</label>
+							<input type="number" id="KEN" name="KEN" min="0" max="10" value="0">
+						</div>
+						<div class="form-group">
+							<label for="PAS">Passions:</label>
+							<input type="number" id="PAS" name="PAS" min="0" max="10" value="0">
 						</div>
 					</div>
 					<div id="special-div">
 						<br>
 						<strong>Special Attributes</strong>
+						<br>
+						(Cost 3 XP to start)
+						<div class="form-group">
+							<label for="carapace-val">Carapace:</label>
+							<input type="number" id="carapace-val" name="carapace-val" min="0" max="10" value="0">
+						</div>
+						<div class="form-group">
+							<label for="darkness-val">Darkness:</label>
+							<input type="number" id="darkness-val" name="darkness-val" min="0" max="10" value="0">
+						</div>
+						<div class="form-group">
+							<label for="flight-val">Flight:</label>
+							<input type="number" id="flight-val" name="flight-val" min="0" max="10" value="0">
+						</div>
+						<div class="form-group">
+							<label for="swarming-val">Swarming:</label>
+							<input type="number" id="swarming-val" name="swarming-val" min="0" max="10" value="0">
+						</div>
+						<div class="form-group">
+							<label for="venom-val">Venom:</label>
+							<input type="number" id="venom-val" name="venom-val" min="0" max="10" value="0">
+						</div>
+						<div class="form-group">
+							<label for="web-val">Web:</label>
+							<input type="number" id="web-val" name="web-val" min="0" max="10" value="0">
+						</div>
+					</div>
+					<div id="advanced-div">
+						<br>
+						<strong>Advanced Attributes</strong>
+						<br>
+						(Cost 5 XP to start)
 						<div class="form-row">
 							<div class="form-group">
-								<input type="text" id="special_1" name="special_1" placeholder="Special 1">
-								<input type="number" id="special_1" name="special_1" min="0" max="10" value="0">
+								<label for="chill-val">Chill:</label>
+								<input type="number" id="chill-val" name="chill-val" min="0" max="10" value="0">
 							</div>
 							<div class="form-group">
-								<input type="text" id="special_2" name="special_2" placeholder="Special 2">
-								<input type="number" id="special_2" name="special_2" min="0" max="10" value="0">
+								<label for="plant-val">Plant:</label>
+								<input type="number" id="plant-val" name="plant-val" min="0" max="10" value="0">
 							</div>
 						</div>
 						<div class="form-row">
 							<div class="form-group">
-								<input type="text" id="special_3" name="special_3" placeholder="Special 3">
-								<input type="number" id="special_3" name="special_3" min="0" max="10" value="0">
+								<label for="heat-val">Heat:</label>
+								<input type="number" id="heat-val" name="heat-val" min="0" max="10" value="0">
 							</div>
 							<div class="form-group">
-								<input type="text" id="special_4" name="special_4" placeholder="Special 4">
-								<input type="number" id="special_4" name="special_4" min="0" max="10" value="0">
+								<label for="static-val">Static:</label>
+								<input type="number" id="static-val" name="static-val" min="0" max="10" value="0">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group">
+								<label for="hydro-val">Hydro:</label>
+								<input type="number" id="hydro-val" name="hydro-val" min="0" max="10" value="0">
+							</div>
+							<div class="form-group">
+								<label for="psycho-val">Psycho:</label>
+								<input type="number" id="psycho-val" name="psycho-val" min="0" max="10" value="0">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group">
+								<label for="light-val">Light:</label>
+								<input type="number" id="light-val" name="light-val" min="0" max="10" value="0">
+							</div>
+							<div class="form-group">
+								<label for="vibe-val">Vibe:</label>
+								<input type="number" id="vibe-val" name="vibe-val" min="0" max="10" value="0">
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="form-row">
 					<div id="common-div">
-						<br>
 						<strong>Common Attributes</strong>
 						<div class="form-row">
 							<div>
@@ -194,63 +243,62 @@
 						</div>
 					</div>
 					<div id="effects-div">
-					<br>
-					<strong>Effects</strong>
+						<strong>Effects</strong>
 						<div class="form-row">
 							<div>
 								<div class="form-group">
-									<label for="agony">Agony:</label>
+									<label for="agony">1. Agony:</label>
 									<input type="number" id="agony" name="agony" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="bleed">Bleeding:</label>
+									<label for="bleed">2. Bleeding:</label>
 									<input type="number" id="bleed" name="bleed" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="blind">Blind:</label>
+									<label for="blind">3. Blind:</label>
 									<input type="number" id="blind" name="blind" min="0" max="10" value="0">
+								</div>
+								<div class="form-group">
+									<label for="charm">4. Charmed:</label>
+									<input type="number" id="charm" name="charm" min="0" max="10" value="0">
+								</div>
+								<div class="form-group">
+									<label for="confused">5. Confused:</label>
+									<input type="number" id="confused" name="confused" min="0" max="10" value="0">
+								</div>
+								<div class="form-group">
+									<label for="brittle">Brittle:</label>
+									<input type="number" id="brittle" name="brittle" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
 									<label for="burns">Burns:</label>
 									<input type="number" id="burns" name="burns" min="0" max="10" value="0">
 								</div>
-								<div class="form-group">
-									<label for="charm">Charmed:</label>
-									<input type="number" id="charm" name="charm" min="0" max="10" value="0">
-								</div>
-								<div class="form-group">
-									<label for="chill">Chills:</label>
-									<input type="number" id="chill" name="chill" min="0" max="10" value="0">
-								</div>
-								<div class="form-group">
-									<label for="confused">Confused:</label>
-									<input type="number" id="confused" name="confused" min="0" max="10" value="0">
-								</div>
 							</div>
 							<div>
 								<div class="form-group">
-									<label for="immobile">Immobile:</label>
+									<label for="immobile">6. Immobile:</label>
 									<input type="number" id="immobile" name="immobile" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="infected">Infected:</label>
+									<label for="infected">7. Infected:</label>
 									<input type="number" id="infected" name="infected" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="paralyzed">Paralyzed:</label>
+									<label for="paralyzed">8. Paralyzed:</label>
 									<input type="number" id="paralyzed" name="paralyzed" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="poisoned">Poisoned:</label>
+									<label for="poisoned">9. Poisoned:</label>
 									<input type="number" id="poisoned" name="poisoned" min="0" max="10" value="0">
+								</div>
+								<div class="form-group">
+									<label for="stunned">10. Stunned:</label>
+									<input type="number" id="stunned" name="stunned" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
 									<label for="shocks">Shocks:</label>
 									<input type="number" id="shocks" name="shocks" min="0" max="10" value="0">
-								</div>
-								<div class="form-group">
-									<label for="stunned">Stunned:</label>
-									<input type="number" id="stunned" name="stunned" min="0" max="10" value="0">
 								</div>
 							</div>
 						</div>
@@ -259,28 +307,20 @@
 				<div id="disposition-div">
 					<strong>Disposition Track</strong>
 					<br>
-					<input type="radio" id="retreat" name="disposition" value="Retreating">
-						<label for="retreat" class="disp-label">: Retreating |</label>
-					<input type="radio" id="neg4" name="disposition" value="-4">
-						<label for="neg4" class="disp-label">: -2d |</label>
-					<input type="radio" id="neg3" name="disposition" value="-3">
-						<label for="neg3" class="disp-label">: -2d |</label>
+					<input type="radio" id="retreat" name="disposition" value="-3">
+					<label for="retreat" class="disp-label">: Retreat |</label>
 					<input type="radio" id="neg2" name="disposition" value="-2">
-						<label for="neg2" class="disp-label">: -1d |</label>
+					<label for="neg2" class="disp-label">: -2d |</label>
 					<input type="radio" id="neg1" name="disposition" value="-1">
-						<label for="neg1" class="disp-label">: -1d |</label>
+					<label for="neg1" class="disp-label">: -1d |</label>
 					<input type="radio" id="hold" name="disposition" value="0" checked>
-						<label for="hold" class="disp-label">Holding: +0d |</label>
+					<label for="hold" class="disp-label">Hold: +0d |</label>
 					<input type="radio" id="pos1" name="disposition" value="+1">
-						<label for="pos1" class="disp-label">: +1d |</label>
-					<input type="radio" id="pos2" name="disposition" value="+2">
-						<label for="pos2" class="disp-label">: +1d |</label>
-					<input type="radio" id="pos3" name="disposition" value="+3">
-						<label for="pos3" class="disp-label">: +2d |</label>
-					<input type="radio" id="pos4" name="disposition" value="+4">
-						<label for="pos4" class="disp-label">: +2d |</label>
-					<input type="radio" id="pos5" name="disposition" value="+5">
-						<label for="pos5" class="disp-label">: Charging</label>
+					<label for="pos1" class="disp-label">: +1d |</label>
+					<input type="radio" id="pos3" name="disposition" value="+2">
+					<label for="pos2" class="disp-label">: +2d |</label>
+					<input type="radio" id="charge" name="disposition" value="+3">
+					<label for="charge" class="disp-label">: Charge</label>
 				</div>
 
 				<div id="combat-div">
@@ -317,70 +357,41 @@
 						</div>
 					</div>
 				</div>
-
 				<div id="atks-div">
 					<br>
 					<div id="atks-inner">
 						<div>
 							<strong>Attack #1</strong>
-							<div class="form-row">
-								<div class="form-group">
-									<label for="atk1-name">Name:</label>
-									<input type="text" id="atk1-name" name="atk1-name" placeholder="Slam Attack" class="long-text">
-								</div>
-							</div>
-							<div class="form-group">
-								<br>
-								<label for="atk1-text">Attack Details:</label>
-								<textarea id="atk1-text" name="atk1-text" rows = "4" cols = "38">Place the details of the attack here.</textarea>
-							</div>
+							<br>
+							<input type="text" id="atk1-name" name="atk1-name" placeholder="Slam Attack" class="long-text">
+							<br>
+							<textarea id="atk1-text" name="atk1-text" rows = "5" cols = "41">Place the details of the attack here.</textarea>
 						</div>
 						<div>
 							<strong>Attack #2</strong>
-							<div class="form-row">
-								<div class="form-group">
-									<label for="atk2-name">Name:</label>
-									<input type="text" id="atk2-name" name="atk2-name" placeholder="Slam Attack" class="long-text">
-								</div>
-							</div>
-							<div class="form-group">
-								<br>
-								<label for="atk2-text">Attack Details:</label>
-								<textarea id="atk2-text" name="atk2-text" rows = "4" cols = "38">Place the details of the attack here.</textarea>
-							</div>
+							<br>
+							<input type="text" id="atk2-name" name="atk2-name" placeholder="Slam Attack" class="long-text">
+							<br>
+							<textarea id="atk2-text" name="atk2-text" rows = "5" cols = "41">Place the details of the attack here.</textarea>
 						</div>
+
 					</div>
 					<div id="atks-inner">
 						<div>
 							<strong>Attack #3</strong>
-							<div class="form-row">
-								<div class="form-group">
-									<label for="atk3-name">Name:</label>
-									<input type="text" id="atk3-name" name="atk3-name" placeholder="Slam Attack" class="long-text">
-								</div>
-							</div>
-							<div class="form-group">
-								<br>
-								<label for="atk3-text">Attack Details:</label>
-								<textarea id="atk3-text" name="atk3-text" rows = "4" cols = "38">Place the details of the attack here.</textarea>
-							</div>
+							<br>
+							<input type="text" id="atk3-name" name="atk3-name" placeholder="Slam Attack" class="long-text">
+							<br>
+							<textarea id="atk3-text" name="atk3-text" rows = "5" cols = "41">Place the details of the attack here.</textarea>
 						</div>
 						<div>
 							<strong>Attack #4</strong>
-							<div class="form-row">
-								<div class="form-group">
-									<label for="atk4-name">Name:</label>
-									<input type="text" id="atk4-name" name="atk4-name" placeholder="Slam Attack" class="long-text">
-								</div>
-							</div>
-							<div class="form-group">
-								<br>
-								<label for="atk4-text">Attack Details:</label>
-								<textarea id="atk4-text" name="atk4-text" rows = "4" cols = "38">Place the details of the attack here.</textarea>
-							</div>
+							<br>
+							<input type="text" id="atk4-name" name="atk4-name" placeholder="Slam Attack" class="long-text">
+							<br>
+							<textarea id="atk4-text" name="atk4-text" rows = "5" cols = "41">Place the details of the attack here.</textarea>
 						</div>
 					</div>
-				</div>
 				</div>
 				<div id="surv-div">
 					<br>
@@ -388,23 +399,23 @@
 						<div id="inv-div">
 							<strong>Inventory</strong>
 							<div class="form-group">
-								<input type="text" id="item1" name="item1">
+								<input type="text" id="item1" name="item1" class="long-text">
 								<input type="number" id="item1-val" name="item1-val" min="0" max="10" value="0">
 							</div>
 							<div class="form-group">
-								<input type="text" id="item2" name="item2">
+								<input type="text" id="item2" name="item2" class="long-text">
 								<input type="number" id="item2-val" name="item2-val" min="0" max="10" value="0">
 							</div>
 							<div class="form-group">
-								<input type="text" id="item3" name="item3">
+								<input type="text" id="item3" name="item3" class="long-text">
 								<input type="number" id="item3-val" name="item3-val" min="0" max="10" value="0">
 							</div>
 							<div class="form-group">
-								<input type="text" id="item4" name="item4">
+								<input type="text" id="item4" name="item4" class="long-text">
 								<input type="number" id="item4-val" name="item4-val" min="0" max="10" value="0">
 							</div>
 							<div class="form-group">
-								<input type="text" id="item5" name="item5">
+								<input type="text" id="item5" name="item5" class="long-text">
 								<input type="number" id="item5-val" name="item5-val" min="0" max="10" value="0">
 							</div>
 						</div>
@@ -424,7 +435,6 @@
 						</div>
 					</div>
 				</div>
-				
 				
 				<br>
 				<button type="button" onclick="convertToJson()">Submit</button>
