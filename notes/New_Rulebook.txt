@@ -321,11 +321,21 @@
 		
 			2.6.1.1 Speed
 			
+				Speed represents how fast a Character moves. This encapsulates moving across a distance as well as agility and maneuverability. Many Attacks will ask the Defender to make a roll using Speed in order to move out of the way. Another common use for Speed is the Initiative Attribute.
+				
+				_Hex Grids_ If using gridded maps in Combat, Speed determines how many hexes a Character can move when they take the Move Action.
+			
 			2.6.1.2 Strength
+			
+				Strength represents the ability of the Character to exert force on their surroundings. Strength is used in the Construction roll to break down an Obstacle. Strength is the basis for many attacks that are about physically moving other Characters. Any time a Character tries to lift or move something heavy, they will probably have to make a Strength roll.
 
 			2.6.1.3 Ken
 			
+				Ken represents a Character's quick-thinking, collection of knowledge, and situational awareness. When a Player wants to know if their Character can know some information or solve a puzzle, the GQ may ask them to make some kind of Ken roll. Ken is also used in Combat to Confuse enemies with quick thinking and fancy words.
+			
 			2.6.1.4 Passions
+			
+				Passions is the unbridled fury of a bug against the world. Passions is the strength of a leader, or the aggression of a warrior. Passions is all about enforcing the Character's will on others. In Combat, Passions is used to Charm or Intimidate enemies.
 			
 		2.6.2.0 Combat Conditions
 		
