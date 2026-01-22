@@ -496,7 +496,21 @@
 				However, a Blinded Character receives a Negative Modifier on rolls that require awareness of their surroundings.
 				This includes Attacking, Defending, and Perception rolls, but may also include other rolls as the GQ sees fit.
 				
-			2.6.7.7 Charmed
+			2.6.7.7 Burning
+			
+				Resist with: SPE
+				
+				When a Burning Effect Triggers, the Character takes 1 Wound and their Burning Rating decreases by 1.
+				
+			2.6.7.8 Brittle
+			
+				Resist with: STR
+				
+				When a Brittle Effect Triggers, nothing happens.
+				
+				However, a Brittle Character receives a penalty to their Survival Rating and Carapace equal to their Brittle Rating.
+				
+			2.6.7.9 Charmed
 			
 				Resist with: PAS
 				
