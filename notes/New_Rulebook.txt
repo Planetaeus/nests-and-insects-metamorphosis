@@ -1828,12 +1828,12 @@ There are five types of Risk Events:
 	  
 	  In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
 	  
-	  Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they roll the appropriate Attribute for that type of Item. The following Sections describe the different harvesting methods for Insectivore Food, Herbivore Food, and Building Resources.
+	  Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they roll the appropriate Attribute for that type of Item. Each Item in a Room can only be harvested by one Character at a time. The following Sections describe the different harvesting methods for Insectivore Food, Herbivore Food, and Building Resources.
 	  
 		║ Degree of Success  Outcome                       ║
 		║ ───────────────────────────────────────── ║
-		║ Critical Success   Add Level to Item Rating                  ║
-		║ Total Success      Roll Level to Increase Item Rating        ║
+		║ Critical Success   Add Level to Item Rating                 ║
+		║ Total Success      Add 2 to Item Rating        ║
 		║ Partial Success    Add 1 to Item rating                      ║
 		║ Partial Failure    Increase Hunger 1                                         ║
 		║ Total Failure      Increase Hunger 1, Room Depleted of Item.                 ║
