@@ -1761,8 +1761,8 @@ There are five types of Risk Events:
 	To Generate an Encounter, Roll Level a number of times depending on the current Nest Level. Then, compare the number of successes against the relevant Encounter Table to see which Encounter(s) are generated.
 	
 	Level			Encounter Rolls
-	0-1				1
-	2-4				2
+	1-2				1
+	3-4				2
 	5-7				3
 	8-10			4
 	
