@@ -287,7 +287,9 @@
 			
 			* Carapace
 			
-			* Flying
+			* Darkness
+			
+			* Flight
 			
 			* Swarming
 			
@@ -332,20 +334,8 @@
 			2.6.2.2 Survival Rate
 			
 			2.6.2.3 Wounds
-			
-		2.6.3.0 Special Abilities
-			
-			2.6.3.1 Carapace
-			
-			2.6.3.2 Flight
-			
-			2.6.3.3 Swarming
-			
-			2.6.3.4 Venom
-			
-			2.6.3.5 Web
-			
-		2.6.4.0 Common Abilities
+		
+		2.6.3.0 Common Abilities
 		
 			2.6.4.1 Construction
 			
@@ -367,7 +357,69 @@
 			
 			2.6.4.10 Sneaking
 			
-		2.6.5.0 Survival Features
+		2.6.4.0 Special Abilities
+			
+			2.6.3.1 Carapace
+			
+				The armored warrior is favored in a battle. A Character adds their Carapace rating as a positive modifier to any rolls made to defend against Close range Attacks.
+			
+			2.6.3.2 Darkness
+			
+				Some Insects were born in the Darkness, molded by it. An Insect with a Darkness rating can ignore part of the negative modifiers imposed by Blind or a Room's Darkness rating, up to a number of dice equal to the Character's Darkness rating. For example, an Insect with a Rating of 2 would completely negate the penalty in a Darkness 2 Room, but would suffer a negative modifier of 1 in a Darkness 3 Room.
+			
+			2.6.3.3 Flight
+			
+				Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character receives her Flight rating as a positive modifier to any rolls made to defend against Ranged Attacks, not including Area Attacks.
+			
+			2.6.3.4 Swarming
+			
+				Swarming Characters can summon conspecifics to aid them on her Job. These conspecifics can soak up Wounds and unleash powerful group attacks on her enemies. However, this benefit leaves them more susceptible to Area Attacks. 
+				
+				_Swarms_ A Swarming Character starts with a number of Swarms equal to her Swarming rating. When a Character with Swarming takes Wounds, they can choose to lose that many Swarms instead. Once they reach zero Swarms, they take Wounds as normal. Attacks that use Swarming also reference the number of Current Swarms. A Swarming Character receives her Current Swarms as a negative modifier to her roll to defend against Area Attacks.
+			
+			2.6.3.5 Venom
+			
+				Venom is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being envenomed. Unless it heals them. But it's still a weird experience.
+			
+			2.6.3.6 Web
+			
+				Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk.
+				
+		2.6.5.0 Advanced Abilities
+		
+			2.6.5.1 Chill
+				
+				Chill represents a Character's control of endothermic reactions. By absorbing heat from their surroundings, the Character can cause a dramatic drop in temperature. This can result in Characters gaining the Brittle Effect, which weakens their defenses.
+			
+			2.6.5.2 Heat
+			
+				Heat represents a Character's control of ectothermic reactions. Either by rapid vibrations or chemical reactions, the Character builds up a significant amount of Heat energy and disperses it into their unwitting foes. Attacks that use Heat often bestow the Burning Effect, which does damage over time.
+			
+			2.6.5.3 Hydro
+			
+				Hydro represents a Character's affinity for fluids, typically water. This can be used to spout high-pressure bursts of fluid, like a Nasute Termite's Fontanellar Gun Attack. This can also be used to represent a Character's ability to survive and move in water.
+			
+			2.6.5.4 Light
+			
+				Bioluminescence. The art of life making light. This Attribute can be used to negate the effects of Darkness in a Room. It can also be used to shoot high-powered lasers at your enemies, Burning or Blinding them. Nature truly is beautiful.
+			
+			2.6.5.5 Plant
+			
+				Characters with Plant have a close relationship with plants and fungus. They are more resistant to the Poisoned and Infected conditions. They can also use plants and fungus for more insidious purposes, like trapping an enemy in crushing roots.
+			
+			2.6.5.6 Static
+			
+				Zap. A terror of the bug world, given power. Bugs with Static are able to generate large electrostatic potentials and discharge them as blasts of lightning. Static can also be used to see beyond sight by sensing the electricity of life. I know it's more of an eel thing to generate electricity, but, come on. It's cool.
+			
+			2.6.5.7 Psycho
+			
+				Psycho is an enhancement of the mind. Psychokinesis, Telepathy, Mind Control, all are possible for a Psycho Insect.
+			
+			2.6.5.8 Vibe
+			
+				Vibe is a Character's ability to generate loud, and sometimes focused, sounds. Loud enough to rupture the organs of unprepared insects. Characters with Vibe are also more sensitive to sounds.
+			
+		2.6.6.0 Survival Features
 		
 			2.6.4.1 Inventory
 			
