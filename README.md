@@ -75,11 +75,10 @@ Nests & Insects: Metamorphosis also derives
 Reading the rulebook
 --------------------
 
-The text-based rulebook is in the following path:
+The in-progress new rulebook is in the following path:
 ```
-<project root>/game/rulebook/txt/nests_and_insects.txt
+<project root>/notes/New_Rulebook.txt
 ```
-
 
 License matters
 ---------------
