@@ -1,8 +1,21 @@
 Nests & Insects: Metamorphosis
 ===============
 
-This is the repository for the rulebooks and code of Nests & Insects, a Roguelike
-Tabletop Roleplaying Game.
+This is the repository for the rulebooks and code of Nests & Insects: Metamorphosis, 
+a Roguelike Tabletop Roleplaying Game.
+
+Nests & Insects: What's this Metamorphosis?
+---------------
+
+Nests & Insects: Metamorphosis is built upon and inspired by the original system
+for Nests & Insects. The aim of Metamorphosis was to take the game as it existed
+re-shape it into a different vision, and polish it into something to share with
+the world. Credit for the original Nests & Insects goes to YeGoblynQueenne;
+Playtesters A.D.A., Lost Body, and Jimmy; and Cover Page Artist LDA (Mistigris).
+
+Nests & Insects: Metamorphosis forks from the original repository, and all changes
+therein are made by Planetaeus with input from close friends and family. You can
+reach Planetaeus at galinndan.dawnfire@gmail.com.
 
 The Game
 --------
@@ -67,18 +80,6 @@ The text-based rulebook is in the following path:
 <project root>/game/rulebook/txt/nests_and_insects.txt
 ```
 
-Nests & Insects: What's this Metamorphosis?
----------------
-
-Nests & Insects: Metamorphosis is built upon and inspired by the original system
-for Nests & Insects. The aim of Metamorphosis was to take the game as it existed
-re-shape it into a different vision, and polish it into something to share with
-the world. Credit for the original Nests & Insects goes to YeGoblynQueenne;
-Playtesters A.D.A., Lost Body, and Jimmy; and Cover Page Artist LDA (Mistigris).
-
-Nests & Insects: Metamorphosis forks from the original repository, and all changes
-therein are made by Planetaeus with input from close friends and family. You can
-reach Planetaeus at galinndan.dawnfire@gmail.com.
 
 License matters
 ---------------
