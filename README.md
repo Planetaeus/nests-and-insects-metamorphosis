@@ -17,6 +17,14 @@ Nests & Insects: Metamorphosis forks from the original repository, and all chang
 therein are made by Planetaeus with input from close friends and family. You can
 reach Planetaeus at galinndan.dawnfire@gmail.com.
 
+Reading the rulebook
+--------------------
+
+The in-progress new rulebook is in the following path:
+```
+<project root>/notes/New_Rulebook.txt
+```
+
 The Game
 --------
 
@@ -71,14 +79,6 @@ over-engineered rules; unclear motivation to learn yet another roleplaying
 system; and crunch Crunch CRrRUNCH!
 
 Nests & Insects: Metamorphosis also derives
-
-Reading the rulebook
---------------------
-
-The in-progress new rulebook is in the following path:
-```
-<project root>/notes/New_Rulebook.txt
-```
 
 License matters
 ---------------
