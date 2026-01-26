@@ -115,14 +115,14 @@
 			
 			Nests & Insects: Metamorphosis Characters have four Core Attributes
 			
-			
-║ Core Attribute  Description                                                               ║
-║ ───────────────────────────────────────────────────────────────────────────────────────   ║
-║ Speed    (SPE)  How fast the Character can move; Dexterity, precision, fine manipulation. ║
-║ Strength (STR)  Physical strength and toughness; Push, pull, break, and endure harm.      ║
-║ Ken      (KEN)  Wisdom and Logic; reasoning and knowledge of the world.                   ║
-║ Passions (PAS)  Willpower, morale, strength of spirit, courage, and influence             ║
-║ ───────────────────────────────────────────────────────────────────────────────────────   ║
+						
+			║ Core Attribute  Description                                                               ║
+			║ ───────────────────────────────────────────────────────────────────────────────────────   ║
+			║ Speed    (SPE)  How fast the Character can move; Dexterity, precision, fine manipulation. ║
+			║ Strength (STR)  Physical strength and toughness; Push, pull, break, and endure harm.      ║
+			║ Ken      (KEN)  Wisdom and Logic; reasoning and knowledge of the world.                   ║
+			║ Passions (PAS)  Willpower, morale, strength of spirit, courage, and influence             ║
+			║ ───────────────────────────────────────────────────────────────────────────────────────   ║
 
 		2.3.3.0 Special Abilities Box
 			The Special Abilities box lists Abilities that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Specific Abilities ratings.
@@ -145,19 +145,19 @@
 			
 			TABLE briefly describes Common Attributes and their use.
 			
-║ Common Attributes        Description                                                         ║
-║ ─────────────────────────────────────────────────────────────────────────────────         ║
-║ Construction          Make traps, secure a Room for Resting and Healing                   ║
-║ Eusociology           Knowledge of the ways of Nests and their inhabitants                ║
-║ Exploration           Search a Room, or scout ahead to unvisited Rooms                    ║
-║ Foraging              Search for sustenance, or Food Items with special abilities         ║
-║ Healing               Remove Wounds or detrimental Effects                                ║
-║ Hunting               Hunt prey for sustenance or other uses                              ║
-║ Leadership            Support allies and improve their Disposition in Combat              ║
-║ Perception            Find secrets and hidden items and Rooms                             ║
-║ Signalling            Display aposematic markings, emit pheromonic signals                ║
-║ Sneaking              Move and act with stealth                                           ║
-║ ─────────────────────────────────────────────────────────────────────────────────         ║
+			║ Common Attributes        Description                                                         ║
+			║ ─────────────────────────────────────────────────────────────────────────────────         ║
+			║ Construction          Make traps, secure a Room for Resting and Healing                   ║
+			║ Eusociology           Knowledge of the ways of Nests and their inhabitants                ║
+			║ Exploration           Search a Room, or scout ahead to unvisited Rooms                    ║
+			║ Foraging              Search for sustenance, or Food Items with special abilities         ║
+			║ Healing               Remove Wounds or detrimental Effects                                ║
+			║ Hunting               Hunt prey for sustenance or other uses                              ║
+			║ Leadership            Support allies and improve their Disposition in Combat              ║
+			║ Perception            Find secrets and hidden items and Rooms                             ║
+			║ Signalling            Display aposematic markings, emit pheromonic signals                ║
+			║ Sneaking              Move and act with stealth                                           ║
+			║ ─────────────────────────────────────────────────────────────────────────────────         ║
 		
 		2.3.5.0 Effects Box
 			The Effects Box lists ten Effects that a Character can be subject to.
@@ -165,19 +165,19 @@
 			Effects are generally detrimental conditions that can affect a Character as a result of attacks in Combat, and other minigames. The ten Effects in the Effect Box are listed below with a brief description of each.
 			
 
-║ Effect           The Character...                                                         ║
-║ ────────────────────────────────────────────────────────────────────────────              ║
-║ Agony            ...is in agony and must overcome her pain to act                         ║
-║ Bleeding         ...automatically takes a Wound each Combat Turn                          ║
-║ Blinded          ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
-║ Charmed          ...will not Attack, but may take other Actions.                          ║
-║ Confused         ...will only Attack and Move, will not take other actions.               ║
-║ Immobilised      ...movement, Speed, and Flight restricted.                               ║
-║ Infected         ...acquires a random Effect each Turn this Effect Applies                ║
-║ Paralysed        ...cannot take any Actions except to Resist                              ║
-║ Poisoned         ...has a negative modifier equal to Poisoned to all Actions              ║
-║ Stunned          ...loses her next Turn in Combat                                         ║
-║ ────────────────────────────────────────────────────────────────────────────              ║
+			║ Effect           The Character...                                                         ║
+			║ ────────────────────────────────────────────────────────────────────────────              ║
+			║ Agony            ...is in agony and must overcome her pain to act                         ║
+			║ Bleeding         ...automatically takes a Wound each Combat Turn                          ║
+			║ Blinded          ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
+			║ Charmed          ...will not Attack, but may take other Actions.                          ║
+			║ Confused         ...will only Attack and Move, will not take other actions.               ║
+			║ Immobilised      ...movement, Speed, and Flight restricted.                               ║
+			║ Infected         ...acquires a random Effect each Turn this Effect Applies                ║
+			║ Paralysed        ...cannot take any Actions except to Resist                              ║
+			║ Poisoned         ...has a negative modifier equal to Poisoned to all Actions              ║
+			║ Stunned          ...loses her next Turn in Combat                                         ║
+			║ ────────────────────────────────────────────────────────────────────────────              ║
 
 		2.3.6.0 Disposition Track
 		
@@ -229,11 +229,11 @@
 				
 				The Food box lists the Character's Hunger rating and has a radio-button for the Starving Effect. Starving is ticked when Hunger reaches 100%. While Starving, a Character takes a penalty in the DoS of all minigame Actions.
 				
-║                              ║
-║ ┌[Food]───────────────────┐  ║
-║ │ ○ Hunger........[___0%] │  ║
-║ └<^Starving>──────────────┘  ║
-║ ───────────────────────────  ║
+				║                              ║
+				║ ┌[Food]───────────────────┐  ║
+				║ │ ○ Hunger...........[_0] │  ║
+				║ └<^Starving>──────────────┘  ║
+				║ ───────────────────────────  ║
 			
 			2.3.9.3 Experience Point (XP) Track
 				
@@ -602,16 +602,16 @@
 			2.6.9.4 Item Types
 			
 				Inventory Items can belong to one of six types. An Item's type is recorded next to its name on a Character's sheet, in square brackets. The six item types are listed in TABLE. below, along with a type symbol used to record the Item's type in a Character's Inventory, and a brief description of each type:
-				
-║ Item Type    Symbol    Description                                                        ║
-║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-║ Companion    [C]       A creature accompanying a Character. May be edible.                ║
-║ Food         [F]       Used to pay a Hunger Cost. May bestow Effects, grant Abilities.    ║
-║ Hint         [H]       May provide useful information.                                    ║
-║ Light        [L]       Used to pay a Darkness Cost. May be edible.                        ║
-║ Materials    [M]       Used to build a Shelter for Resting and Healing.                   ║
-║ Message      [S]       Must be collected or delivered as part of a Job.                   ║
-║ ──────────────────────────────────────────────────────────────────────────────────────    ║
+								
+				║ Item Type    Symbol    Description                                                        ║
+				║ ──────────────────────────────────────────────────────────────────────────────────────    ║
+				║ Companion    [C]       A creature accompanying a Character. May be edible.                ║
+				║ Food         [F]       Used to pay a Hunger Cost. May bestow Effects, grant Abilities.    ║
+				║ Hint         [H]       May provide useful information.                                    ║
+				║ Light        [L]       Used to pay a Darkness Cost. May be edible.                        ║
+				║ Materials    [M]       Used to build a Shelter for Resting and Healing.                   ║
+				║ Message      [S]       Must be collected or delivered as part of a Job.                   ║
+				║ ──────────────────────────────────────────────────────────────────────────────────────    ║
 
 				_Recording Item Types_ To record an item's type on a Character's Sheet, write its type symbol in square brackets next to the Item's Name in the Character's Inventory.
 				
@@ -623,17 +623,17 @@
 				
 				_Eaten Items_ When a Food item is eaten, all types it has other than Food are removed from it and the Item can henceforth only be used as a Food Item. The Item's name is changed to indicate it is only Food, by appending the word "Carcass" or "Remains" to its original name.
 				
-║ ┌[Example 2]────────────────────────────────────────────────────────────────────────────┐ ║
-║ │ Cody's Spider Character has a Gloworm: 45% Item in her Inventory. The Gloworm Item    │ ║
-║ │ has types Food and Light. Spider must pay a Hunger Cost and Cody decides that she     │ ║
-║ │ will eat some of the Gloworm to pay it. The Gloworm is now no longer a Light Item.    │ ║
-║ │ Cody changes the Gloworm's name on Spider's Character sheet to "Gloworm Carcass" as a │ ║
-║ │ reminder that the Gloworm is now only useable as Food.                                │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-║                                                                                           ║
-║ ○ Gloworm [L,F]_________________:[__45%] │  ○ Gloworm Carcass [F]___________:[__45%] │    ║
-║ ──────────────────────────────────────────  ──────────────────────────────────────────    ║
-║ Figure 20: Spider's Gloworm (left) and its Carcass (right) after it was eaten.            ║
+				║ ┌[Example 2]────────────────────────────────────────────────────────────────────────────┐ ║
+				║ │ Cody's Spider Character has a Gloworm: 45% Item in her Inventory. The Gloworm Item    │ ║
+				║ │ has types Food and Light. Spider must pay a Hunger Cost and Cody decides that she     │ ║
+				║ │ will eat some of the Gloworm to pay it. The Gloworm is now no longer a Light Item.    │ ║
+				║ │ Cody changes the Gloworm's name on Spider's Character sheet to "Gloworm Carcass" as a │ ║
+				║ │ reminder that the Gloworm is now only useable as Food.                                │ ║
+				║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+				║                                                                                           ║
+				║ ○ Gloworm [L,F]_________________:[__45%] │  ○ Gloworm Carcass [F]___________:[__45%] │    ║
+				║ ──────────────────────────────────────────  ──────────────────────────────────────────    ║
+				║ Figure 20: Spider's Gloworm (left) and its Carcass (right) after it was eaten.            ║
 
 				_Spoiled Items_ Food Items can become Spoiled as the result of paying a Spoilage Cost during the Survival & Exploration or Hunting & Foraging minigames. Spoiled Items are past their expiry date and cannot be consumed without risking adverse effects. Make sure to include "Spoiled" in the item's name.
 				
@@ -697,35 +697,31 @@
 					
 						Roll a d6 and match the result on the Food Colour Table below.
 				
-║ d6        Food Colour     ║
-║ ───────────────────────── ║
-║ 1         Black           ║
-║ 2         Blue            ║
-║ 3         Green           ║
-║ 4         Red             ║
-║ 5         White           ║
-║ 6         Yellow          ║
-║ ───────────────────────── ║
-║ Table 10: Food Colours    ║
+					║ d6        Food Colour     ║
+					║ ───────────────────────── ║
+					║ 1         Black           ║
+					║ 2         Blue            ║
+					║ 3         Green           ║
+					║ 4         Red             ║
+					║ 5         White           ║
+					║ 6         Yellow          ║
+					║ ───────────────────────── ║
+					║ Table 10: Food Colours    ║
 					
 					2. Generate the Item's Food Type
 					
 						Roll a d10 and match the result on the Food Type Table below.
-						
+											
 
-║ d10        Food Type    d10       Food Type    ║
-║ ──────────────────────  ────────────────────── ║
-║   1        Nectar         6       Aphid        ║
-║   2        Honey          7       Cricket      ║
-║   3        Honeydew       8       Fly          ║
-║   4        Fungus         9       Worm         ║
-║   5        Leaf          10       Larva        ║
-║ ──────────────────────  ────────────────────── ║
-║ Table 11: Food Types                           ║
-
-					3. Quantify the amount of the Item found.
-					
-						Roll to Set the new Item's Rating. Quantify with Level.
+					║ d10        Food Type    d10       Food Type    ║
+					║ ──────────────────────  ────────────────────── ║
+					║   1        Nectar         6       Aphid        ║
+					║   2        Honey          7       Cricket      ║
+					║   3        Honeydew       8       Fly          ║
+					║   4        Fungus         9       Worm         ║
+					║   5        Leaf          10       Larva        ║
+					║ ──────────────────────  ────────────────────── ║
+					║ Table 11: Food Types                           ║
 						
 				2.6.9.7.4 Identifying Food Items
 				
@@ -774,51 +770,50 @@
 
 					2. Generate the Item's Alignment and Abilities
 					
-					
-║ d20 Result    Beneficial Ability                                                          ║
-║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-║ 1-4           Mutation - Gain a Special Ability (TABLE). Exhausted once Consumed.         ║
-║   5           Healing - reduce Wounds by 1                                                ║
-║   6           Relief - reduce one Effect's rating to 0% (choose the Effect at random)     ║
-║   7           Restoration - reduce Wounds by 1, reduce a chosen Effect's rating to 0%     ║
-║   8           Courage - start next Combat in Charging Disposition.                        ║
-║   9           Rage - start next Combat in Charging Disposition, take a Wound              ║
-║  10           Clarity - Consume to add food rating to Exploration, Foraging, Hunting or Perception Roll    ║
-║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-║ Table 14: Beneficial Abilities                                                            ║
-║ d20 Result    Harmful Ability                                                             ║
-║ ─────────────────────────────────────────────── ║
-║ 11            Agony - gain Agony                ║
-║ 12            Bleeding - gain Bleeding          ║
-║ 13            Blindness - gain Blinded          ║
-║ 14            Charming - gain Charmed           ║
-║ 15            Confusion - gain Confused         ║
-║ 16            Immobilisation - gain Immobilised ║
-║ 17            Infection - gain Infected         ║
-║ 18            Paralysis - gain Paralysed        ║
-║ 19            Poisonning - gain Poisoned        ║
-║ 20            Stunning - gain Stunned           ║
-║ ─────────────────────────────────────────────── ║
-║ Table 15: Harmful Abilities                                                               ║
+						Roll a d20 and match the Result on the Item Ability Table below.
+						
+					║ d20 Result    Beneficial Ability                                                          ║
+					║ ──────────────────────────────────────────────────────────────────────────────────────    ║
+					║ 1-6           Mutation - Gain a Special or Advanced Ability. Exhausted once Consumed.     ║
+					║   7           Healing - reduces Wounds by Net Successes when Consumed.                    ║
+					║   8           Relief - reduce one Effect's rating to 0% (choose the Effect at random)     ║
+					║   9           Courage - start next Combat in Charging Disposition.                        ║
+					║  10           Light - can be used as a Light item.                                        ║
+					║ ──────────────────────────────────────────────────────────────────────────────────────    ║
+					║ Table 14: Beneficial Abilities                                                            ║
+					║ d20 Result    Harmful Ability                                                             ║
+					║ ─────────────────────────────────────────────── ║
+					║ 11            Agony - gain Agony                ║
+					║ 12            Bleeding - gain Bleeding          ║
+					║ 13            Blindness - gain Blinded          ║
+					║ 14            Charming - gain Charmed           ║
+					║ 15            Confusion - gain Confused         ║
+					║ 16            Immobilisation - gain Immobilised ║
+					║ 17            Infection - gain Infected         ║
+					║ 18            Paralysis - gain Paralysed        ║
+					║ 19            Poisonning - gain Poisoned        ║
+					║ 20            Stunning - gain Stunned           ║
+					║ ─────────────────────────────────────────────── ║
+					║ Table 15: Harmful Abilities                                                               ║
 
-List of Special Abilities:
+					List of Special Abilities:
 
-║ d20 Result    Special Ability                                                             ║
-║ ───────────────────────────────────────────────                                           ║
-║ 1-3           Armor - Gain Carapace    ║
-║ 4-6           Flight - Gain Flight     ║
-║ 7-8           Swarms - Gain Swarming   ║
-║ 9-10          Venom - Gain Venom       ║
-║ 11-12         Webs - Gain Web          ║
-║ 13            Chill - Gain Chill       ║
-║ 14            Heat - Gain Heat         ║
-║ 15            Hydro - Gain Hydro       ║
-║ 16            Glowing - Gain Light     ║
-║ 17            Minds - Gain Psycho      ║
-║ 18            Plants - Gain Plant      ║
-║ 19            Charge - Gain Static     ║
-║ 20            Vibes - Gain Vibe        ║
-║ ───────────────────────────────────────────────                                           ║
+					║ d20 Result    Special Ability                                                             ║
+					║ ───────────────────────────────────────────────                                           ║
+					║ 1-3           Armor - Gain Carapace    ║
+					║ 4-6           Flight - Gain Flight     ║
+					║ 7-8           Swarms - Gain Swarming   ║
+					║ 9-10          Venom - Gain Venom       ║
+					║ 11-12         Webs - Gain Web          ║
+					║ 13            Chill - Gain Chill       ║
+					║ 14            Heat - Gain Heat         ║
+					║ 15            Hydro - Gain Hydro       ║
+					║ 16            Glowing - Gain Light     ║
+					║ 17            Minds - Gain Psycho      ║
+					║ 18            Plants - Gain Plant      ║
+					║ 19            Charge - Gain Static     ║
+					║ 20            Vibes - Gain Vibe        ║
+					║ ───────────────────────────────────────────────                                           ║
 
 					_Food Item Abilities_ Food Items' Abilities take effect immediately upon being consumed. This is true for both Known and Unknown Items.
 					
@@ -873,29 +868,29 @@ List of Special Abilities:
 		
 		Minigames define each of their formulaic Actions by means of a Formula that includes at least a listing of Effort, Resistance, and Modifier features and a table listing the outcome of a formulaic Action for each DoS of a Qualification Roll. The Minigame Formula Template figure below illustrates the tamplate used to define minigame formulae.
 		
-║ Name of the Minigame: ............... (The minigame that defines this formula)            ║
-║ Participating Entities: ............. (Characters, enemies or other game entities)        ║
-║ List of Minigame Intents: ........... (Pre-determined Character Intents)                  ║
-║ List of Minigame Actions: ........... (Formulaic minigame Actions)                        ║
-║ Effort Variables: ................... (The names of Features used as Effort)              ║
-║ Resistance Variables: ............... (The names of Features used as Resistance)          ║
-║ Modifier Variables: ................. (The names of Features used as static modifiers)    ║
-║                                                                                           ║
-║ Outcomes of the six Degrees of Success and Failure:                                       ║
-║                                                                                           ║
-║ Degree of Success            Outcome                                                      ║
-║ ───────────────────────────────────────────────────────                                   ║
-║ Critical Success             (Critical Success outcome)                                   ║
-║ Complete Success             (Complete Success outcome)                                   ║
-║ Partial Success              (Partial Success outcome)                                    ║
-║ Partial Failure              (Partial Failure outcome)                                    ║
-║ Complete Failure             (Complete Failure outcome)                                   ║
-║ Critical Failure             (Critical Failure outcome)                                   ║
-║ ───────────────────────────────────────────────────────                                   ║
-║ Figure 23: Minigame Formula Template.                                                     ║
+		║ Name of the Minigame: ............... (The minigame that defines this formula)            ║
+		║ Participating Entities: ............. (Characters, enemies or other game entities)        ║
+		║ List of Minigame Intents: ........... (Pre-determined Character Intents)                  ║
+		║ List of Minigame Actions: ........... (Formulaic minigame Actions)                        ║
+		║ Effort Variables: ................... (The names of Features used as Effort)              ║
+		║ Resistance Variables: ............... (The names of Features used as Resistance)          ║
+		║ Modifier Variables: ................. (The names of Features used as static modifiers)    ║
+		║                                                                                           ║
+		║ Outcomes of the six Degrees of Success and Failure:                                       ║
+		║                                                                                           ║
+		║ Degree of Success            Outcome                                                      ║
+		║ ───────────────────────────────────────────────────────                                   ║
+		║ Critical Success             (Critical Success outcome)                                   ║
+		║ Complete Success             (Complete Success outcome)                                   ║
+		║ Partial Success              (Partial Success outcome)                                    ║
+		║ Partial Failure              (Partial Failure outcome)                                    ║
+		║ Complete Failure             (Complete Failure outcome)                                   ║
+		║ Critical Failure             (Critical Failure outcome)                                   ║
+		║ ───────────────────────────────────────────────────────                                   ║
+		║ Figure 23: Minigame Formula Template.                                                     ║
 
-	3.6.0.0 Combat
-		3.6.1.0 Combat Summary
+	3.5.0.0 Combat
+		3.5.1.0 Combat Summary
 			Combat begins when the characters and a group of enemies attack one another. Combat is divided into Rounds, divided into Turns in which characters and enemies participating on Combat (Combatants) get to act, and players and the GQ roll dice to decide the outcome of Combatants' Actions.
 			
 			At the start of Combat, before the first Round, Combatants' starting Disposition and Initiative Order are decided, then the first Round begins and Combatants take Turns in order of their Initiative. Combatants can take actions out of Turn, for example to Suppress an enemy; support an ally; or Resist an Effect.
@@ -915,30 +910,30 @@ List of Special Abilities:
 		3.6.2.0 Combat Steps
 			The Combat Minigame plays out in NUMBER steps, two of which repeat until Combat ends. The NUMBER Combat Steps are summarised in the Rules Summary below, and discussed in detail in the following Sections.
 			
-║ ┌[Rules Summary 21: Combat Steps]───────────────────────────────────────────────────────┐ ║
-║ │                                                                                       │ ║
-║ │ 1. Determine Combat participants (Combatants) and the Sides they fight on.            │ ║
-║ │                                                                                       │ ║
-║ │ 2. Determine all Combatants' starting Disposition.                                    │ ║
-║ │                                                                                       │ ║
-║ │ 3. Determine Combatants' Initiative Order.                                            │ ║
-║ │                                                                                       │ ║
-║ │ 4. A new Combat Round begins.                                                         │ ║
-║ │                                                                                       │ ║
-║ │ 5. A new Combat Turn begins.                                                          │ ║
-║ │                                                                                       │ ║
-║ │ 6. The next Combatant in the Initiative Order takes a Turn.                           │ ║
-║ │                                                                                       │ ║
-║ │ 7. Repeat from Step 5 until all Combatants have taken a Turn, or passed.              │ ║
-║ │                                                                                       │ ║
-║ │ 8. Repeat from Step 4 until all Combatants on one side of Combat are killed, or       │ ║
-║ │    Retreating.                                                                        │ ║
-║ │                                                                                       │ ║
-║ │ 9. Combat Ends.                                                                       │ ║
-║ │                                                                                       │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-
 			3.6.2.1 Determine Combatants and Sides
+			║ ┌[Rules Summary 21: Combat Steps]───────────────────────────────────────────────────────┐ ║
+			║ │                                                                                       │ ║
+			║ │ 1. Determine Combat participants (Combatants) and the Sides they fight on.            │ ║
+			║ │                                                                                       │ ║
+			║ │ 2. Determine all Combatants' starting Disposition.                                    │ ║
+			║ │                                                                                       │ ║
+			║ │ 3. Determine Combatants' Initiative Order.                                            │ ║
+			║ │                                                                                       │ ║
+			║ │ 4. A new Combat Round begins.                                                         │ ║
+			║ │                                                                                       │ ║
+			║ │ 5. A new Combat Turn begins.                                                          │ ║
+			║ │                                                                                       │ ║
+			║ │ 6. The next Combatant in the Initiative Order takes a Turn.                           │ ║
+			║ │                                                                                       │ ║
+			║ │ 7. Repeat from Step 5 until all Combatants have taken a Turn, or passed.              │ ║
+			║ │                                                                                       │ ║
+			║ │ 8. Repeat from Step 4 until all Combatants on one side of Combat are killed, or       │ ║
+			║ │    Retreating.                                                                        │ ║
+			║ │                                                                                       │ ║
+			║ │ 9. Combat Ends.                                                                       │ ║
+			║ │                                                                                       │ ║
+			║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+
 				Combat begins when either the characters or Nest creatures attack one another.
 				
 				All characters in the Room where Combat is taking place make up one Side of Combat.
@@ -954,12 +949,12 @@ List of Special Abilities:
 			3.6.2.2 Starting Disposition
 				Before the start of the first Combat Round, each Player makes an uncontested Roll using their Character's Initiative. The GQ makes a similar roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances their Disposition for each Success in their Initiative Roll. If a Combatant rolls 0 Successes, their Disposition Recoiles 1.
 				
-	║ Initiative Roll Result        Starting Disposition                                        ║
-	║ ──────────────────────────────────────────────────                                        ║
-	║ Success                       Advance 1 for each Success                                  ║
-	║ Failure                       Recoil 1.                                                   ║
-	║ ──────────────────────────────────────────────────                                        ║
-	║ Table 23: Starting Disposition.                                                           ║
+				║ Initiative Roll Result        Starting Disposition                                        ║
+				║ ──────────────────────────────────────────────────                                        ║
+				║ Success                       Advance 1 for every 2 Successes                             ║
+				║ Failure                       Recoil 1.                                                   ║
+				║ ──────────────────────────────────────────────────                                        ║
+				║ Table 23: Starting Disposition.                                                           ║
 
 			3.6.2.3 Initiative Order
 				Before the start of the first Combat Round, and after Starting Disposition is Determined, the GQ decides the Initiative Order for all Combatants.
@@ -1034,36 +1029,36 @@ List of Special Abilities:
 				
 				Following is the Combat Minigame Formula for the Suppress Action.
 				
-║ Name of the Minigame ................ Combat                                              ║
-║ Participating Entities .............. Characters, Enemies                                 ║
-║ List of Minigame Intents ............ Suppress enemy                                      ║
-║ List of Minigame Actions ............ Confuse, Charm, Intimidate                          ║
-║ Effort Variables .................... Action-specific (see below)                         ║
-║ Resistance Variables ................ Action-specific                                     ║
-║ Modifier Variables .................. Action-specific                                     ║
-║                                                                                           ║
-║ Outcomes of the six Degrees of Success and Failure:                                       ║
-║                                                                                           ║
-║ Degree of Success    Intimidate Outcome    Charm or Confuse Outcome                       ║
-║ ──────────────────────────────────────────────────────────────────────────────            ║
-║ Critical Success     Target Recoils 3      Bestow Charmed / Confused: 3                   ║
-║ Complete Success     Target Recoils 2      Bestow Charmed / Confused: 2                   ║
-║ Partial Success      Target Recoils 1      Bestow Charmed / Confused: 1                   ║
-║ Partial Failure      Target Holds          Bestow Confused: 1                             ║
-║ Complete Failure     Target Advances 1     Bestow Confused: 2                             ║
-║ Critical Failure     Target Advances 2     Bestow Confused: 3                             ║
-║ ──────────────────────────────────────────────────────────────────────────────            ║
-║                                                                                           ║
-║ Suppress Action-specific Effort, Resistance and modifier Features:                        ║
-║                                                                                           ║
-║ Action        Effort                    Resistance                                        ║
-║ ──────────────────────────────────────────────────────────────                            ║
-║ Charm         Passions                  Passions                                          ║
-║ Confuse       Ken                       Ken                                               ║
-║ Intimidate    Signaling                 Passions                                          ║
-║ ──────────────────────────────────────────────────────────────                            ║
-
 			3.6.2.7 Support Action
+				║ Name of the Minigame ................ Combat                                              ║
+				║ Participating Entities .............. Characters, Enemies                                 ║
+				║ List of Minigame Intents ............ Suppress enemy                                      ║
+				║ List of Minigame Actions ............ Confuse, Charm, Intimidate                          ║
+				║ Effort Variables .................... Action-specific (see below)                         ║
+				║ Resistance Variables ................ Action-specific                                     ║
+				║ Modifier Variables .................. Action-specific                                     ║
+				║                                                                                           ║
+				║ Outcomes of the six Degrees of Success and Failure:                                       ║
+				║                                                                                           ║
+				║ Degree of Success    Intimidate Outcome    Charm or Confuse Outcome                       ║
+				║ ──────────────────────────────────────────────────────────────────────────────            ║
+				║ Critical Success     Target Recoils 3      Bestow Charmed / Confused: 3                   ║
+				║ Complete Success     Target Recoils 2      Bestow Charmed / Confused: 2                   ║
+				║ Partial Success      Target Recoils 1      Bestow Charmed / Confused: 1                   ║
+				║ Partial Failure      Target Holds          Bestow Confused: 1                             ║
+				║ Complete Failure     Target Advances 1     Bestow Confused: 2                             ║
+				║ Critical Failure     Target Advances 2     Bestow Confused: 3                             ║
+				║ ──────────────────────────────────────────────────────────────────────────────            ║
+				║                                                                                           ║
+				║ Suppress Action-specific Effort, Resistance and modifier Features:                        ║
+				║                                                                                           ║
+				║ Action        Effort                    Resistance                                        ║
+				║ ──────────────────────────────────────────────────────────────                            ║
+				║ Charm         Passions + Leadership     Passions                                          ║
+				║ Confuse       Ken + Eusociology         Ken                                               ║
+				║ Intimidate    Passions + Signaling      Passions                                          ║
+				║ ──────────────────────────────────────────────────────────────                            ║
+
 				A Combatant can take the following Support Actions at the start of an Ally's Turn:
 				
 				1. Attempt to Rally the Ally: Roll Leadership vs. Passions.
@@ -1074,112 +1069,112 @@ List of Special Abilities:
 				
 				Following is the Combat minigame Formula for the Support Action:
 				
-║ Name of the Minigame: ................ Combat                                             ║
-║ Participating Entities: .............. Characters, Allies                                 ║
-║ List of Minigame Intents: ............ Support Ally                                       ║
-║ List of Minigame Actions: ............ Rally, Encourage, Focus, Shake                     ║
-║ Effort Variables: .................... Action-specific (listed below)                     ║
-║ Resistance Variables: ................ Action-specific                                    ║
-║ Modifier Variables: .................. Action-specific                                    ║
-║                                                                                           ║
-║ Outcomes of the six Degrees of Success and Failure:                                       ║
-║                                                                                           ║
-║ Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                 ║
-║ ───────────────────────────────────────────────────────────────────────────────────────── ║
-║ Critical Success     Ally Charges                  Remove Effect and Shift Disposition Up ║
-║ Complete Success     Ally Advances                 Remove Effect (reduce to 0%)           ║
-║ Partial Success      Ally Holds                    Reduce Effect (roll to decrease)       ║
-║ Partial Failure      Ally Recoils                  Effect remains                         ║
-║ Complete Failure     Ally Recoils                  Effect is enhanced (roll to increase)  ║
-║ Critical Failure     Ally Retreats                 Effect is maximised (set to 100%)      ║
-║ ───────────────────────────────────────────────────────────────────────────────────────── ║
-║                                                                                           ║
-║ Support Action-specific Effort, Resistance and modifier Features:                         ║
-║                                                                                           ║
-║ Action         Effort          Resistance                                                 ║
-║ ───────────────────────────────────────────────────────────────                           ║
-║ Encourage      Leadership      Passions                                                   ║
-║ Focus          Ken             Confused                                                   ║
-║ Shake          Passions        Charmed                                                    ║
-║ ───────────────────────────────────────────────────────────────                           ║
-
 			3.6.2.8 Resisting Effects
+				║ Name of the Minigame: ................ Combat                                             ║
+				║ Participating Entities: .............. Characters, Allies                                 ║
+				║ List of Minigame Intents: ............ Support Ally                                       ║
+				║ List of Minigame Actions: ............ Rally, Encourage, Focus, Shake                     ║
+				║ Effort Variables: .................... Action-specific (listed below)                     ║
+				║ Resistance Variables: ................ Action-specific                                    ║
+				║ Modifier Variables: .................. Action-specific                                    ║
+				║                                                                                           ║
+				║ Outcomes of the six Degrees of Success and Failure:                                       ║
+				║                                                                                           ║
+				║ Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                 ║
+				║ ───────────────────────────────────────────────────────────────────────────────────────── ║
+				║ Critical Success     Ally Advances 3               Remove Effect and Shift Disposition Up ║
+				║ Total Success        Ally Advances 2               Roll to Reduce Effect                  ║
+				║ Partial Success      Ally Advances 1               Reduce Effect 1				        ║
+				║ Partial Failure      No Effect                     Effect remains                         ║
+				║ Total Failure        Ally Recoils 1                Effect is increased 1				    ║
+				║ Critical Failure     Ally Recoils 2                Roll to Increase Effect			    ║
+				║ ───────────────────────────────────────────────────────────────────────────────────────── ║                                                                                          ║
+				║                                                                                           ║
+				║ Support Action-specific Effort, Resistance and modifier Features:                         ║
+				║                                                                                           ║
+				║ Action         Effort          			Resistance                                      ║
+				║ ───────────────────────────────────────────────────────────────                           ║
+				║ Encourage      Passions + Leadership      Passions                                        ║
+				║ Focus          Ken + Signaling   			Confused                                        ║
+				║ Shake          Passions + Eusociology 	Charmed                                         ║
+				║ ───────────────────────────────────────────────────────────────                           ║
+
 			
 				A Combatant can take a Resist Action during their turn to overcome a single Effect.
 				
-║ Name of the Minigame: ................ Combat                      ║
-║ Participating Entities: .............. Character or enemy          ║
-║ List of Minigame Intents: ............ Ignore Effect temporarily   ║
-║ List of Minigame Actions: ............ Resist Effect               ║
-║ Effort Variables: .................... Effect-specific (see below) ║
-║ Resistance Variables: ................ Effect-specific             ║
-║ Modifier Variables: .................. None                        ║
-║                                                                    ║
-║ Outcomes of the six Degrees of Success and Failure:                ║
-║                                                                    ║
-║ Degree of Success        Outcome                                   ║
-║ ───────────────────────────────────────────────────────────────    ║
-║ Critical Success         Remove Effect and Shift Disposition Up    ║
-║ Complete Success         Remove Effect (reduce to 0%)              ║
-║ Partial Success          Reduce Effect (roll to decrease)          ║
-║ Partial Failure          Effect remains                            ║
-║ Complete Failure         Effect is enhanced (roll to increase)     ║
-║ Critical Failure         Effect is maximised (set to 100%)         ║
-║ ───────────────────────────────────────────────────────────────    ║
-║                                                                    ║
-║ Effect-specific Effort variables:                                  ║
-║                                                                    ║
-║ Effect             Resist with                                     ║
-║ ──────────────────────────────────────────────                     ║
-║ Agony              Ken                                             ║
-║ Bleeding           Strength                                        ║
-║ Blind              Ken                                             ║
-║ Charmed            Passions                                        ║
-║ Confused           Ken                                             ║
-║ Immobilised        Strength                                        ║
-║ Infected           Strength                                        ║
-║ Paralysed          Speed                                           ║
-║ Poisoned           Strength                                        ║
-║ Stunned            Passions                                        ║
-║ ──────────────────────────────────────────────                     ║
-
 			3.6.2.9 Manoeuver Action
+				║ Name of the Minigame: ................ Combat                      ║
+				║ Participating Entities: .............. Character or enemy          ║
+				║ List of Minigame Intents: ............ Ignore Effect temporarily   ║
+				║ List of Minigame Actions: ............ Resist Effect               ║
+				║ Effort Variables: .................... Effect-specific (see below) ║
+				║ Resistance Variables: ................ Effect-specific             ║
+				║ Modifier Variables: .................. None                        ║
+				║                                                                    ║
+				║ Outcomes of the six Degrees of Success and Failure:                ║
+				║                                                                    ║
+				║ Degree of Success        Outcome                                   ║
+				║ ───────────────────────────────────────────────────────────────    ║
+				║ Critical Success         Remove Effect and Shift Disposition Up    ║
+				║ Complete Success         Remove Effect (reduce to 0%)              ║
+				║ Partial Success          Reduce Effect (roll to decrease)          ║
+				║ Partial Failure          Effect remains                            ║
+				║ Complete Failure         Effect is enhanced (roll to increase)     ║
+				║ Critical Failure         Effect is maximised (set to 100%)         ║
+				║ ───────────────────────────────────────────────────────────────    ║
+				║                                                                    ║
+				║ Effect-specific Effort variables:                                  ║
+				║                                                                    ║
+				║ Effect             Resist with                                     ║
+				║ ──────────────────────────────────────────────                     ║
+				║ Agony              Ken                                             ║
+				║ Bleeding           Strength                                        ║
+				║ Blind              Ken                                             ║
+				║ Charmed            Passions                                        ║
+				║ Confused           Ken                                             ║
+				║ Immobilised        Strength                                        ║
+				║ Infected           Strength                                        ║
+				║ Paralysed          Speed                                           ║
+				║ Poisoned           Strength                                        ║
+				║ Stunned            Passions                                        ║
+				║ ──────────────────────────────────────────────                     ║
+
 				
 				ManoeuverActions provide a mechanism for players' Characters and Enemies controlled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for ManoeuverActions and no minigame formula for them. The GQ comes up with special rules on the fly.
 				
 				To take a Manoeuver Action, describe the Combatant's Intent, then choose Effort and Resistance, and resolve the Action with a Qualification Roll, a Boolean Roll, or a Contested Boolean Roll. Feel free to add a Quantification Roll and bestow an Effect as a result of a Manoeuver. Any of a Combatant's Features can be used to take a Manoeuver Action. Below are some example Manoeuvers
 				
-║ * Lift an enemy off the ground and throw her behind her allies' lines: roll Strength vs.  ║
-║   the enemy's Strength. If the Roll succeeds, the enemy is moved.          ║
-║                                                                                           ║
-║ * Lift an enemy off the ground, carry her, flying, behind her allies lines and drop her   ║
-║   there: Roll Flight + Strength vs. the enemy's Strength. If the Roll succeeds, the enemy  ║
-║   acquires Stunned.                                                                  ║
-║                                                                                           ║
-║ * Direct an ally to hit an enemy where she has been previously wounded: Roll Ken +        ║
-║   Signalling vs. Ken. If the Action succeeds, the ally gets a positive                    ║
-║   static modifier to her next Attack. Roll d40 to Quantify the modifier.                  ║
-║                                                                                           ║
-║ * Give an enemy the old run-around: Roll Speed vs. Speed to evade an enemy taking an      ║
-║   Attack Action targeting the Character. If the Roll Succeeds, the enemy's Turn is        ║
-║   postponed until the end of the Round.                                                   ║
-║                                                                                           ║
-║ * Bash together a barrier to protect the Character and her allies: Make a Boolean Roll    ║
-║   vs. Construction or Web Weaving. If the Roll succeeds, the Character and one ally can   ║
-║   take cover behind the barrier, and the next Ranged Attack targeting them has a          ║
-║   negative modifier equal to the number of Successes on the Roll. After an Attack targets the characters behind the barrier, the barrier is destroyed.                                                      ║
-║                                                                                           ║
-║ ┌[Houseruling Manoeuvers]───────────────────────────────────────────────────────────────┐ ║
-║ │ Manoeuvers are an opportunity for players to use their imagination to come up with    │ ║
-║ │ creative ways to gain an advantage in Combat, or for the GQ to use hers to create     │ ║
-║ │ interesting and challenging situations for the players to overcome. A Character's     │ ║
-║ │ Intent, as described by her Player, should guide the GQ to "houserule" the            │ ║
-║ │ Character's Actions. Accordingly the GQ should not hesitate to play the Nest's        │ ║
-║ │ guardians as more than dumb automata, who can also use their (simple) insectoid       │ ║
-║ │ brains to protect their home.                                                         │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-
 			3.6.2.10 Breaking from Combat
+				║ * Lift an enemy off the ground and throw her behind her allies' lines: roll Strength vs.  ║
+				║   the enemy's Strength. The enemy is moved one hex for each Net Success.          		║
+				║                                                                                           ║
+				║ * Lift an enemy off the ground, carry her, flying, behind her allies lines and drop her   ║
+				║   there: Roll Flight + Strength vs. the enemy's Strength. If the Roll succeeds, the enemy ║
+				║   acquires Stunned.                                                           	        ║
+				║                                                                                           ║
+				║ * Direct an ally to hit an enemy where she has been previously wounded: Roll Ken +        ║
+				║   Signaling vs. Ken. If the Action succeeds, the ally ignores SR on her next attack.      ║
+				║                                                                                           ║
+				║ * Give an enemy the old run-around: Roll Speed vs. Speed to evade an enemy taking an      ║
+				║   Attack Action targeting the Character. If the Roll Succeeds, the enemy's Turn is        ║
+				║   postponed until the end of the Round.                                                   ║
+				║                                                                                           ║
+				║ * Bash together a barrier to protect the Character and her allies: Make a Boolean Roll    ║
+				║   using Strength + Construction or Ken + Web Weaving. If the Roll succeeds, the Character ║
+				║   and one ally can take cover behind the barrier, and the next Ranged Attack targeting    ║
+				║   them has a negative modifier equal to the number of Successes on the Roll. After an     ║
+				║   Attack targets the characters behind the barrier, the barrier is destroyed.             ║
+				║                                                                                           ║
+				║ ┌[Houseruling Manoeuvers]───────────────────────────────────────────────────────────────┐ ║
+				║ │ Manoeuvers are an opportunity for players to use their imagination to come up with    │ ║
+				║ │ creative ways to gain an advantage in Combat, or for the GQ to use hers to create     │ ║
+				║ │ interesting and challenging situations for the players to overcome. A Character's     │ ║
+				║ │ Intent, as described by her Player, should guide the GQ to "houserule" the            │ ║
+				║ │ Character's Actions. Accordingly the GQ should not hesitate to play the Nest's        │ ║
+				║ │ guardians as more than dumb automata, who can also use their (simple) insectoid       │ ║
+				║ │ brains to protect their home.                                                         │ ║
+				║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+
 				
 				A Combatant can Break from Combat as a Move Action once during her Turn.
 				
@@ -1196,37 +1191,38 @@ List of Special Abilities:
 				A creature who is not in Combat can always Join Combat. The Creature may have Broeken from Combat previously, or she may have been hiding, or not in the same Room as her friends when Combat began. It doesn't really matter: a Creature can always join Combat.
 				
 				Joining Combat requires no Roll. A creature who is not a Combatant joins Combat at the start of the next Combat Round. At the start of that Round, before any Combatants' Turn, determine the new Combatant's Disposition and Initiative Order, then she takes her first Turn in Initiative Order, as normal.
-║ ┌[Note 5]───────────────────────────────────────────────────────────────────────────────┐ ║
-║ │ A common reason for new Combatants to join Combat is when the Nest's Guardians summon │ ║
-║ │ their conspecifics to help them repell the intruders. In that case, when the summoned │ ║
-║ │ allies arrive, they Join Combat as described above.                                   │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+				
+				║ ┌[Note 5]───────────────────────────────────────────────────────────────────────────────┐ ║
+				║ │ A common reason for new Combatants to join Combat is when the Nest's Guardians summon │ ║
+				║ │ their conspecifics to help them repell the intruders. In that case, when the summoned │ ║
+				║ │ allies arrive, they Join Combat as described above.                                   │ ║
+				║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
 			3.6.2.13 Combat Ends
 				
 				When Combat ends, all Combatants cease to be Combatants and the two Sides cease to exist for rules purposes.
 				
 	3.7.0.0 Survival and Exploration
-	
-║ The Survival and Exploration minigame defines rules for the procedural generation of a    ║
-║ Nest's environment. During the Survival and Exploration minigame, characters explore the  ║
-║ Nest, while players and the GQ roll dice to determine what the characters find.           ║
+			
+		║ The Survival and Exploration minigame defines rules for the procedural generation of a    ║
+		║ Nest's environment. During the Survival and Exploration minigame, characters explore the  ║
+		║ Nest, while players and the GQ roll dice to determine what the characters find.           ║
 
-║ In Nests & Insects procedural generation is an abstraction: no floor plans or maps are    ║
-║ generated. Instead what is generated are the Features of game entities, including the     ║
-║ spaces inside the Nests, the creatures that roam them, and items that populate them.      ║
-  Nest & Insects: Metamorphosis provides rules for the basic procedural generation of Rooms and Floor Plans.
+		║ In Nests & Insects procedural generation is an abstraction: no floor plans or maps are    ║
+		║ generated. Instead what is generated are the Features of game entities, including the     ║
+		║ spaces inside the Nests, the creatures that roam them, and items that populate them.      ║
+		Nest & Insects: Metamorphosis provides rules for the basic procedural generation of Rooms and Floor Plans.
   
 		3.7.1.0 How Procedural Generation Works
 		
 			The core mechanic of procedural generation is rolling on tables. The players or the GQ roll a d10 and cross-reference the result with the rows of a table. The table lists what the characters find and what happens to them while they Explore the Nest.
 			
-║ _Exploration Action_ Survival and Exploration starts with an Exploration Action. This     ║
-║ Action is resolved by a full Qualification Roll and its outcome determines the types, and ║
-║ numbers, of Events that occur as the characters explore the Nest. There are three types   ║
-║ of Events: Costs, Risks and Rewards. Each Exploration Action may cause up to three Events  ║
-║ to occur. A better DoS to the Exploration Action causes more Rewards to occur while a     ║
-║ worse one causes more Costs and Risks to occur.                                           ║
+			║ _Exploration Action_ Survival and Exploration starts with an Exploration Action. This     ║
+			║ Action is resolved by a full Qualification Roll and its outcome determines the types, and ║
+			║ numbers, of Events that occur as the characters explore the Nest. There are three types   ║
+			║ of Events: Costs, Risks and Rewards. Each Exploration Action may cause up to three Events  ║
+			║ to occur. A better DoS to the Exploration Action causes more Rewards to occur while a     ║
+			║ worse one causes more Costs and Risks to occur.                                           ║
 			
 			_Chance of Events_ The Chance for an Event to occur can change depending on the current Nest Level. Each Event has a base number, and either adds or subtracts the current Nest Level. In this way, Events become more likely the further the Characters venture further, while some become less likely.
 			
@@ -1248,12 +1244,12 @@ List of Special Abilities:
 				
 				In mechanical terms, Levels have a decile rating that is used as the Resistance to Exploration Actions. The Level is also used to quantify the results of certain Events, such as Obstacles or Hunger. As the Characters delve further into the Nest, the Nest Level of the Rooms they visit increases. With it, the chance for Cost and Risk Events to occur increases, and the chance for Reward Events to occur decreases. Some Jobs will specify a Level where the Job Target may be found.
 				
-	║ ┌[Note 7]───────────────────────────────────────────────────────────────────────────────┐ ║
-	║ │ Remember that the players' characters do not visit a Nest to loot. Rather, they are   │ ║
-	║ │ hired to carry out a Job. Accordingly, Rewards they find during Exploration are not   │ ║
-	║ │ treasures and riches, rather they are things that help the characters get their Job   │ ║
-	║ │ done.                                                                                 │ ║
-	║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+				║ ┌[Note 7]───────────────────────────────────────────────────────────────────────────────┐ ║
+				║ │ Remember that the players' characters do not visit a Nest to loot. Rather, they are   │ ║
+				║ │ hired to carry out a Job. Accordingly, Rewards they find during Exploration are not   │ ║
+				║ │ treasures and riches, rather they are things that help the characters get their Job   │ ║
+				║ │ done.                                                                                 │ ║
+				║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
 				_Shafts_ A Shaft is a tunnel heading downwards, or upwards, further into the Nest. A Shaft connects a Room from one level to a Room on another Level.
 				
@@ -1272,32 +1268,31 @@ List of Special Abilities:
 				A Shortcut is a tunnel connecting the current Level with a level closer to the Job Target. In mechanical terms, a Shortcut is a Reward Event that can be spent to immediately find the target of the current Job.
 				
 		3.7.3.0 Event Generation
-		
-			
-║ Costs, Risks, and Rewards are generated every time a Character takes an Exploration       ║
-║ Action. The Qualification Roll for the Exploration Action sets the number and type of     ║
-║ Events that occur during the Action. Then the players or the GQ roll to generate Events   ║
-║ of the indicated types.                                                                   ║
-║                                                                                           ║
-║ To generate Events, the players or the GQ make a d10 Roll and reference the result on ║
-║ the appropriate Event tables, Tables 24-26 in the following Section.                      ║
-║                                                                                           ║
-║ Each Event table has a "Chance" column, listing the Chance for each Event to occur, as a  ║
-║ decile rating. This Chance rating is compared against the d10 Roll to                     ║
-║ generate Events. When the result of the d10 Roll is referenced on an Event table, all     ║
-║ Events in that table with a Chance that meet or exceet the Roll are generated.            ║
-║                                                                                           ║
-║ If multiple entries from a table are generated by the same                                ║
-║ d10 Roll, those Events are dealt with one-by-one, in the order in which they appear       ║
-║ in their respective Event table, starting with the Event at the top row of the table.     ║
-
-║ 3.7.4.0 Costs, Risks and Rewards                                                          ║
-║ --------------------------------                                                          ║
-║                                                                                           ║
-║ Tables 24-26, below, list Events along with a brief description of each. Detailed         ║
-║ descriptions and mechanics for each kind of Event follow in a subsequent Section.         ║
-
 		3.7.5.0 Level Rating
+						
+			║ Costs, Risks, and Rewards are generated every time a Character takes an Exploration       ║
+			║ Action. The Qualification Roll for the Exploration Action sets the number and type of     ║
+			║ Events that occur during the Action. Then the players or the GQ roll to generate Events   ║
+			║ of the indicated types.                                                                   ║
+			║                                                                                           ║
+			║ To generate Events, the players or the GQ make a d10 Roll and reference the result on ║
+			║ the appropriate Event tables, Tables 24-26 in the following Section.                      ║
+			║                                                                                           ║
+			║ Each Event table has a "Chance" column, listing the Chance for each Event to occur, as a  ║
+			║ decile rating. This Chance rating is compared against the d10 Roll to                     ║
+			║ generate Events. When the result of the d10 Roll is referenced on an Event table, all     ║
+			║ Events in that table with a Chance that meet or exceet the Roll are generated.            ║
+			║                                                                                           ║
+			║ If multiple entries from a table are generated by the same                                ║
+			║ d10 Roll, those Events are dealt with one-by-one, in the order in which they appear       ║
+			║ in their respective Event table, starting with the Event at the top row of the table.     ║
+
+			║ 3.7.4.0 Costs, Risks and Rewards                                                          ║
+			║ --------------------------------                                                          ║
+			║                                                                                           ║
+			║ Tables 24-26, below, list Events along with a brief description of each. Detailed         ║
+			║ descriptions and mechanics for each kind of Event follow in a subsequent Section.         ║
+
 			
 			When an Event or a Feature of the Nest Environment needs to be Quantified, the Quantification depends on the Nest Level. An example of a Nest Environment Feature that requires Quantification is the rating of Darkness in a Room, or the rating of an Obstacle.
 			
@@ -1308,103 +1303,102 @@ List of Special Abilities:
 		3.7.6.0 The Environment Pool
 		
 			As described in earlier Sections, Environments can be used as resources to pay Costs, reap Rewards, or initiate a Minigame. To track the Environments generated so-far in the game, Players have a communal Environment Pool. This pool is simply a list of all the Environments generated so far, and their properties.
-║ ┌[Tracking the Environment Pool]────────────────────────────────────────────────────────┐ ║
-║ │ Players are free to track their Environment Pool as best suits them, for example by   │ ║
-║ │ drawing a map of Environments and their connections and contents, etc.                │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-║                                                                                           ║
-║ One way to track an Environment Pool is to tabulate its contents. Table 28 gives an       ║
-║ example of such tabulation.                                                               ║
-║                                                                                           ║
-║ Environment Id   Spent?   Found In     Connections   Notes                                ║
-║ ─────────────────────────────────────────────────────────────────────────────────────     ║
-║ Entrance Room    Yes      Start        Red Room                                           ║
-║ Red Room         Yes      Entrance     Black Room    Shelter built                        ║
-║ Black Room       No       Red Room     Red Room                                           ║
-║ Shortcut 1       Yes      Black Room   Level 30%     Connects Black Room to Level 30%     ║
-║ Level 43%        Yes      Black Room                                                      ║
-║ Passage Right    Yes      Entrance                   Connects Entrance to Red Room        ║
-║ Passage Left     Yes      Red Room                   Connects Red Room to Black Room      ║
-║ Passage Up       No       Red Room                                                        ║
-║ ─────────────────────────────────────────────────────────────────────────────────────     ║
-║ Table 28: Environment Pool                                                                ║
-║                                                                                           ║
-║ In Table 28, the "Environment Id" column lists a descriptive name for each generated      ║
-║ Environment (though one that should preferrably be kept short). This name is up to the    ║
-║ players to come up with. For example, a Room may be the "Black Fungus Room", because      ║
-║ Black Fungus was found while Foraging in it; or a Room may be the "Sad Aphids Farm",      ║
-║ because Aphids were found penned in the Room and they looked sad; and so on.              ║
-║                                                                                           ║
-║ The "Spent" column records whether an Environment has been spent: either to pay a Cost,   ║
-║ or to reap a Reward, or to initiate a Survival and Exploration, Hunting and Foraging or   ║
-║ Resting and Healing minigame.                                                             ║
-║                                                                                           ║
-║ _Going Back_ Environments can only be spent once from the Environment Pool, but           ║
-║ characters are free to visit them again for whatever reason, for example to try and harvest  ║
-║ an Item found in the Room. Additionally, a Character, or an enemy, may be    ║
-║ forced to retreat during Combat, in which case they will likely end up in a Room already  ║
-║ visited. In such cases a Character can move back in an Environment that has already been  ║
-║ spent, without spending it again.                                                         ║
-║ The "Found In" column notes the Room in which an Environment was generated as the result  ║
-║ of an Exploration Action.                                                                 ║
-║                                                                                           ║
-║ The "Connections" column notes the other Environments to which an Environment is          ║
-║ connected. "Connected" means that there exists: a Passage; or a Shortcut; or a Shaft;     ║
-║ that leads to the connected Environment.                                                  ║
-║                                                                                           ║
-║ The "Notes" column is for players to mark down anything they wish to remember about the   ║
-║ Environment. In the example in Table 28 above, the players have noted that a Shelter was  ║
-║ built into the Red Room, and the connections between Environments found so-far.           ║
+			║ ┌[Tracking the Environment Pool]────────────────────────────────────────────────────────┐ ║
+			║ │ Players are free to track their Environment Pool as best suits them, for example by   │ ║
+			║ │ drawing a map of Environments and their connections and contents, etc.                │ ║
+			║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+			║                                                                                           ║
+			║ One way to track an Environment Pool is to tabulate its contents. Table 28 gives an       ║
+			║ example of such tabulation.                                                               ║
+			║                                                                                           ║
+			║ Environment Id   Spent?   Found In     Connections   Notes                                ║
+			║ ─────────────────────────────────────────────────────────────────────────────────────     ║
+			║ Entrance Room    Yes      Start        Red Room                                           ║
+			║ Red Room         Yes      Entrance     Black Room    Shelter built                        ║
+			║ Black Room       No       Red Room     Red Room                                           ║
+			║ Shortcut 1       Yes      Black Room   Level 30%     Connects Black Room to Level 30%     ║
+			║ Level 43%        Yes      Black Room                                                      ║
+			║ Passage Right    Yes      Entrance                   Connects Entrance to Red Room        ║
+			║ Passage Left     Yes      Red Room                   Connects Red Room to Black Room      ║
+			║ Passage Up       No       Red Room                                                        ║
+			║ ─────────────────────────────────────────────────────────────────────────────────────     ║
+			║ Table 28: Environment Pool                                                                ║
+			║                                                                                           ║
+			║ In Table 28, the "Environment Id" column lists a descriptive name for each generated      ║
+			║ Environment (though one that should preferrably be kept short). This name is up to the    ║
+			║ players to come up with. For example, a Room may be the "Black Fungus Room", because      ║
+			║ Black Fungus was found while Foraging in it; or a Room may be the "Sad Aphids Farm",      ║
+			║ because Aphids were found penned in the Room and they looked sad; and so on.              ║
+			║                                                                                           ║
+			║ The "Spent" column records whether an Environment has been spent: either to pay a Cost,   ║
+			║ or to reap a Reward, or to initiate a Survival and Exploration, Hunting and Foraging or   ║
+			║ Resting and Healing minigame.                                                             ║
+			║                                                                                           ║
+			║ _Going Back_ Environments can only be spent once from the Environment Pool, but           ║
+			║ characters are free to visit them again for whatever reason, for example to try and harvest  ║
+			║ an Item found in the Room. Additionally, a Character, or an enemy, may be    ║
+			║ forced to retreat during Combat, in which case they will likely end up in a Room already  ║
+			║ visited. In such cases a Character can move back in an Environment that has already been  ║
+			║ spent, without spending it again.                                                         ║
+			║ The "Found In" column notes the Room in which an Environment was generated as the result  ║
+			║ of an Exploration Action.                                                                 ║
+			║                                                                                           ║
+			║ The "Connections" column notes the other Environments to which an Environment is          ║
+			║ connected. "Connected" means that there exists: a Passage; or a Shortcut; or a Shaft;     ║
+			║ that leads to the connected Environment.                                                  ║
+			║                                                                                           ║
+			║ The "Notes" column is for players to mark down anything they wish to remember about the   ║
+			║ Environment. In the example in Table 28 above, the players have noted that a Shelter was  ║
+			║ built into the Red Room, and the connections between Environments found so-far.           ║
 
-		3.7.7.0	Survival & Exploration Steps
+		3.6.6.0	Survival & Exploration Steps
 		
-			
-║ The Survival and Exploration minigame is carried out in distinct steps, listed below.     ║
-║ Unlike Combat, Survival and Exploration is not divided into Rounds or Turns. Instead,     ║
-║ each of the steps listed below is taken in the order in which it is listed, then the      ║
-║ minigame ends. A new Survival and Exploration minigame can begin immediately afterwards,  ║
-║ if the players so wish; otherwise, the players are free to control their characters as    ║
-║ they see fit.                                                                             ║
-║                                                                                           ║
-║ ┌[Survival and Exploration Steps]───────────────────────────────────────────────────────┐ ║
-║ │                                                                                       │ ║
-║ │ 1. Begin Survival and Exploration.                                                    │ ║
-║ │                                                                                       │ ║
-║ │ 2. Form an Exploration Party (decide which characters go exploring).                  │ ║
-║ │                                                                                       │ ║
-║ │ 3. Spend a Room to pay the cost of the Exploration Action.                            │ ║
-║ │                                                                                       │ ║
-║ │ 4. Resolve the Exploration Action.                                                    │ ║
-║ │                                                                                       │ ║
-║ │ 5. Generate, then play Event 1, determined by the Exploration Action.                 │ ║
-║ │                                                                                       │ ║
-║ │ 6. Generate, then play Event 2, determined by the Exploration Action.                 │ ║
-║ │                                                                                       │ ║
-║ │ 7. Generate, then play Event 3, determined by the Exploration Action.                 │ ║
-║ │                                                                                       │ ║
-║ │ 8. Survival and Exploration Ends.                                                     │ ║
-║ │                                                                                       │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-║                                                                                           ║
-║ Each of the Steps in the Survival and Exploration Steps box above are described in detail ║
-║ in the following Sections.                                                                ║
+			║ The Survival and Exploration minigame is carried out in distinct steps, listed below.     ║
+			║ Unlike Combat, Survival and Exploration is not divided into Rounds or Turns. Instead,     ║
+			║ each of the steps listed below is taken in the order in which it is listed, then the      ║
+			║ minigame ends. A new Survival and Exploration minigame can begin immediately afterwards,  ║
+			║ if the players so wish; otherwise, the players are free to control their characters as    ║
+			║ they see fit.                                                                             ║
+			║                                                                                           ║
+			║ ┌[Survival and Exploration Steps]───────────────────────────────────────────────────────┐ ║
+			║ │                                                                                       │ ║
+			║ │ 1. Begin Survival and Exploration.                                                    │ ║
+			║ │                                                                                       │ ║
+			║ │ 2. Form an Exploration Party (decide which characters go exploring).                  │ ║
+			║ │                                                                                       │ ║
+			║ │ 3. Spend a Room to pay the cost of the Exploration Action.                            │ ║
+			║ │                                                                                       │ ║
+			║ │ 4. Resolve the Exploration Action.                                                    │ ║
+			║ │                                                                                       │ ║
+			║ │ 5. Generate, then play Event 1, determined by the Exploration Action.                 │ ║
+			║ │                                                                                       │ ║
+			║ │ 6. Generate, then play Event 2, determined by the Exploration Action.                 │ ║
+			║ │                                                                                       │ ║
+			║ │ 7. Generate, then play Event 3, determined by the Exploration Action.                 │ ║
+			║ │                                                                                       │ ║
+			║ │ 8. Survival and Exploration Ends.                                                     │ ║
+			║ │                                                                                       │ ║
+			║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+			║                                                                                           ║
+			║ Each of the Steps in the Survival and Exploration Steps box above are described in detail ║
+			║ in the following Sections.                                                                ║
 
-║ 3.7.7.1 Begin Survival and Exploration                                                    ║
-║                                                                                           ║
-║ Survival and Exploration begins when a Player declares that her Character's Intent is to  ║
-║ "Explore the Nest".                                                                       ║
-║                                                                                           ║
-║ "Explore the Nest" is the formulaic Intent of the Exploration Action (described in        ║
-║ Section 3.7.7.4). A Player is free to express her Character's Intent to explore the Nest  ║
-║ in her own words, as long as it's clear that the characer wants to go exploring. If       ║
-║ that's not clear, the GQ can always ask the Player to clarify. If the Player isn't sure   ║
-║ what her Character's Intent means in mechanical terms, the decision is made by the GQ     ║
-║ whether to start a Survival and Exploration minigame, or not.                             ║
-║                                                                                           ║
-║ If more than one Player wish their characters to explore the Nest, they can say so at     ║
-║ this point. Otherwise they can do so in the next Step.                                    ║
+		║ 3.6.6.1 Begin Survival and Exploration                                                    ║
+		║                                                                                           ║
+		║ Survival and Exploration begins when a Player declares that her Character's Intent is to  ║
+		║ "Explore the Nest".                                                                       ║
+		║                                                                                           ║
+		║ "Explore the Nest" is the formulaic Intent of the Exploration Action (described in        ║
+		║ Section 3.7.7.4). A Player is free to express her Character's Intent to explore the Nest  ║
+		║ in her own words, as long as it's clear that the characer wants to go exploring. If       ║
+		║ that's not clear, the GQ can always ask the Player to clarify. If the Player isn't sure   ║
+		║ what her Character's Intent means in mechanical terms, the decision is made by the GQ     ║
+		║ whether to start a Survival and Exploration minigame, or not.                             ║
+		║                                                                                           ║
+		║ If more than one Player wish their characters to explore the Nest, they can say so at     ║
+		║ this point. Otherwise they can do so in the next Step.                                    ║
 
-║ 3.7.7.2 Form an Exploration Party                                                         ║
+║ 3.6.6.2 Form an Exploration Party                                                         ║
 ║                                                                                           ║
 ║ It's common for more than one Character to explore the Nest at a time. In particular, all ║
 ║ the Player characters may go exploring together, or the players may split their           ║
