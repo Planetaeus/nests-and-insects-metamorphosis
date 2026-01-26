@@ -227,7 +227,7 @@
 				
 			2.3.9.2 Hunger Track
 				
-				The Food box lists the Character's Hunger rating and has a radio-button for the Starving Effect. Starving is ticked when Hunger reaches 100%. While Starving, a Character takes a penalty in the DoS of all minigame Actions.
+				The Food box lists the Character's Hunger rating. A Character is Starving when her Hunger rating reaches 10. While Starving, a Character reduces the outcome of all her Actions by 2 successes. If a Character receives more Hunger while Starving, she Dies.
 				
 				║                              ║
 				║ ┌[Food]───────────────────┐  ║
