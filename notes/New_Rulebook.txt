@@ -1631,26 +1631,20 @@ If the Character does not Consume a Food Item, then:
 ║ ┌[Effects of Darkness]──────────────────────────────────────────────────────────────────┐ ║
 ║ │ Darkness makes it harder to see things and to do things that require vision.          │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-║                                                                                           ║
-║ When a Darkness Cost is paid, the Character paying the Cost must consume one Light Item   ║
-║ from her Inventory.                                                                       ║
-║                                                                                           ║
-║ A Character who does not have a Light Item in her Inventory cannot pay a Darkness Cost.   ║
-║                                                                                           ║
-║ A Player may decide that her Character will not consume any Light Items to pay a Darkness ║
-║ Cost (even if the Character has a Light Item in her Inventory).                           ║
-║                                                                                           ║
-║ If a Character cannot (or her Player will her not to) pay a Darkness Cost, that Character ║
-║ has no light source.                                                                      ║
-║                                                                                           ║
-║ If all of a Character's Light Items become exhausted, that Character has no light source. ║
-║                                                                                           ║
-║ If none of the Characters in a Room has a light source, the Room is in Darkness. The GQ Rolls Level to set the Darkness for the Room.
-║                                                                                           ║
-║ While a Room has a Darkness rating, it applies as a Negative Modifier to all Actions that ║
-║ require vision.                                                                           ║
-║                                                                                           ║
-║ _Blind in the Dark_ If a Blind Character is affected by Darkness, only the greater of the two ratings is applied as a Negative Modifier to their Rolls.
+
+The Room has a Darkness Rating equal to Level. While a Room has a Darkness rating, it applies as a Negative Modifier to all Actions that require vision.
+
+When a Darkness Cost is paid, the Character paying the Cost may choose one Light Item from her Inventory. A Character who does not have a Light Item in her Inventory cannot pay a Darkness Cost.
+
+If a Character has a Light Rating, she may herself act as a Light Source.
+
+Once a Light Source has been chosen, the Character Rolls Light Source Rating. Each Success reduces the Darkness Rating by one.
+
+If a Light Item was used as the Light Source, make a Consumption Roll for that Item. Each Success on the Consumption Roll reduces the Darkness Rating by one.
+
+If a Character used her Light Rating as the Light Source, she gains 1 Hunger and Rolls Light. Each Success reduces the Darkness Rating by one.
+
+_Blind in the Dark_ If a Blind Character is affected by Darkness, only the greater of the two ratings is applied as a Negative Modifier to their Rolls.
 
 	3.6.7.3 Spoilage
 	
