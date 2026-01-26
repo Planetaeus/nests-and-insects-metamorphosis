@@ -821,9 +821,9 @@
 
 					_Food Item Abilities_ Food Items' Abilities take effect immediately upon being consumed. This is true for both Known and Unknown Items.
 					
-					_Gaining Abilities_ When a Character gains a new Ability, such as Flying or Carapace, roll to set or increase the Ability's Rating. Quantify with the Ability's Current Rating.
+					_Gaining Attributes_ When a Character consumes a Food Item that grants an Attribute, she increases her rating in that Attribute by one, up to the rating of the Food Item she just consumed.
 					
-					_Gaining Effects_ When a Character gains an Effect, such as Agony or Bleeding, roll to set or increase the Effect's Rating. Quantify with Food Item Rating.
+					_Gaining Effects_ When a Character gains an Effect, such as Agony or Bleeding, Roll the Food Item's Rating to quantify the Effect bestowed.
 
 3.0.0.0 System
 	
