@@ -258,6 +258,7 @@
 	
 		2.5.1.0 Selecting Species
 			
+			Your arthropod merc can be any kind of bug an entomologist can list, or even some they can't! Choose a real-world arthropod to base your Character on, or come up with a new, strange form of bug all your own!
 			
 			
 			_Diet_ Insects have a variety of diets. Nests & Insects: Metamorphosis simplifies these diets into three classes: Herbivore, Insectivore, and Omnivore. These determine what kinds of food items an insect can consume. Herbivores can only consume plant-based foods, such as nectar or honey, while Insectivores can only consume pieces of other bugs. Omnivores are able to mix their diet between Herbivore and Insectivore options.
