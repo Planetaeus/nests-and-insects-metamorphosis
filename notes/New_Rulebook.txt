@@ -597,8 +597,6 @@
 				
 				_Inert Items_ When an Inventory Item is Dropped, it is left lying on the floor of the Nest in the current Room. Characters, including the Character who dropped an Item), or Nest Denizens, may pick up dropped Items and add them to their own Inventory.
 				
-				_Lost Items_ Dropped Items stay on the floor of a Room where they were dropped, but have a chance to be lost. Lost Items disappear, and they can no longer be found or picked up. When All Characters leave a Room where an Item was dropped (by anyone), the GQ makes a Boolean Roll with Resistance equal to Level. If the roll Beats, the item remains on the Room floor. If the Roll does not Beat, the Item is lost.
-				
 				_Cursed Items_ Some Items are cursed, and may not be removed from a Character's Inventory until their curse is lifted.
 				
 			2.6.9.4 Item Types
