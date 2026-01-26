@@ -304,7 +304,7 @@
 		
 	2.6.0.0 Character Features (TBD)
 	
-		2.6.1.0 Attributes (TBD)
+		2.6.1.0 Core Attributes
 		
 			2.6.1.1 Speed
 			
@@ -324,7 +324,7 @@
 			
 				Passions is the unbridled fury of a bug against the world. Passions is the strength of a leader, or the aggression of a warrior. Passions is all about enforcing the Character's will on others. In Combat, Passions is used to Charm or Intimidate enemies.
 			
-		2.6.2.0 Combat Conditions
+		2.6.2.0 Combat Attributes
 		
 			2.6.2.1 Initiative
 			
@@ -332,7 +332,7 @@
 			
 			2.6.2.3 Wounds
 		
-		2.6.3.0 Common Abilities
+		2.6.3.0 Common Attributes
 		
 			2.6.4.1 Construction
 			
