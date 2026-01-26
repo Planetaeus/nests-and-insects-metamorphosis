@@ -639,17 +639,11 @@
 				
 			2.6.9.6 Consuming Items
 				
-				Inventory Items are "consumed" and may become "depleted" or "exhausted" as a result of taking an Action or paying a Cost. A depleted Item can still be used, but if it is depleted again, it becomes exhausted.
+				Inventory Items are "consumed" and may become "exhausted" as a result of taking an Action or paying a Cost.
 				
-				_Consumption Roll_ To consume an Inventory Item to take an Action or pay a Cost, make a Boolean Roll. The Effort for the Roll is the Item's Rating. The Roll is made immediately after the Action is resolved, or in the process of paying the Cost.
+				_Consumption Roll_ To consume an Inventory Item to take an Action or pay a Cost, Roll the Item's Rating. The Roll is made immediately after the Action is resolved, or in the process of paying the Cost. The number of Successes on the Roll determines the Item's new Rating. An Item with a Rating of zero is Exhausted.
 				
-				* If the Roll succeeds, Roll to reduce the Item, Quantify with Item Rating.
-				
-				* If the Roll fails, Roll to reduce the Item, and it becomes Depleted.
-				
-				* If the Roll fails and the item is already depleted, the Item becomes Exhausted. Remove the Item from the Character's Inventory.
-				
-				_Exhausted Items_ When an Inventory Item is exhausted, it can no longer be consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other Characters.
+				_Exhausted Items_ When an Inventory Item is Exhausted, it can no longer be Consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other Characters.
 				
 			2.6.9.7.0 Food Items
 				
