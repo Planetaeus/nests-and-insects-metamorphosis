@@ -993,7 +993,7 @@
 				
 				Characters can pass the chance to take one or both of her Actions and can take them in any combination, with the restriction that a Character can only make one Attack Action per round.
 				
-				_Movement_ If using a grid, the Character may move a number of spaces up to their Speed rating. A Character with a Flight rating can move additional spaces up to their Flight rating. If playing without a grid, assume that the Character can move to the manner of position they want to take.
+				_Movement_ If using a grid, the Character may move a number of spaces up to her Speed rating. A Character with a Flight rating can move additional spaces up to her Flight rating. If playing without a grid, assume that the Character can move to the manner of position she wants to take.
 				
 			3.6.2.5 Attack Action
 				
