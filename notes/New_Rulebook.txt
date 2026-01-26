@@ -1176,8 +1176,6 @@
 				
 				A Combatant can Break from Combat as a Move Action once during her Turn.
 				
-				To have a Combatant Break from Combat, make a Boolean Roll with the Character's Initiative as Effort. If the Roll Succeeds, the Combatant is no longer in Combat and can take Actions other than Formulaic Combat Actions, as usual. If the Roll Fails, the Combatant remains a Combatant and cannot attempt to Break from Combat until her next Turn.
-				
 			3.6.2.11 Consuming Food in Combat
 			
 				There is no Formulaic Combat Action that allows a Combatant to consume a Food Item during Combat. War is no picnic! Combatants are also not allowed to consume Food as a Manoeuver.
