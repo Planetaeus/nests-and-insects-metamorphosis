@@ -266,11 +266,11 @@
 			
 			_Selecting Diet_ If your Character is based on a real-world insect, feel free to research its diet and classify it using the real-world species. Otherwise, choose Herbivore, Insectivore, or Omnivore, and consult with your GQ if the diet makes sense for your Character.
 		
-		2.5.2.0 Assigning Core Attributes
+		2.5.3.0 Assigning Core Attributes
 		
 			Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 4, 3, 2, 1
 		
-		2.5.3.0 Selecting Special Attributes
+		2.5.4.0 Selecting Special Attributes
 		
 			Characters start with one or two Special Attributes, choosing from the following list:
 			
@@ -288,21 +288,21 @@
 			
 			The Player chooses one or two Special Attributes from the list above. If the Character starts with one Special Attribute, it starts with a rating of 4. If the Character starts with two Special Attributes, they each start with a rating of 2.
 			
-		2.5.4.0 Assigning Common Attributes
+		2.5.5.0 Assigning Common Attributes
 		
 			The Player chooses seven Common Attributes and distributes the following ratings among them as they choose: 3, 2, 2, 2, 1, 1, 1
 		
-		2.5.5.0 Assigning Combat Conditions
+		2.5.6.0 Assigning Combat Conditions
 		
 			Each Character starts with a rating of 1 in Initiative, Threat Rate, and Survival Rate.
 			
-		2.5.6.0 Selecting Attacks
+		2.5.7.0 Selecting Attacks
 		
-		2.5.7.0 Starting Inventory
+		2.5.8.0 Starting Inventory
 		
 			Each Character starts with a Rating-4 food item in their inventory that matches their diet. This starting food has no special properties.
 		
-	2.6.0.0 Character Features (TBD)
+	2.6.0.0 Character Features
 	
 		2.6.1.0 Core Attributes
 		
@@ -334,51 +334,51 @@
 		
 		2.6.3.0 Common Attributes
 		
-			2.6.4.1 Construction
+			2.6.3.1 Construction
 			
-			2.6.4.2 Eusociology
+			2.6.3.2 Eusociology
 			
-			2.6.4.3 Exploration
+			2.6.3.3 Exploration
 			
-			2.6.4.4 Foraging
+			2.6.3.4 Foraging
 			
-			2.6.4.5 Healing
+			2.6.3.5 Healing
 			
-			2.6.4.6 Hunting
+			2.6.3.6 Hunting
 			
-			2.6.4.7 Leadership
+			2.6.3.7 Leadership
 			
-			2.6.4.8 Perception
+			2.6.3.8 Perception
 			
-			2.6.4.9 Signalling
+			2.6.3.9 Signalling
 			
-			2.6.4.10 Sneaking
+			2.6.3.10 Sneaking
 			
 		2.6.4.0 Special Attributes
 			
-			2.6.3.1 Carapace
+			2.6.4.1 Carapace
 			
 				The armored warrior is favored in a battle. A Character adds their Carapace rating as a positive modifier to any rolls made to defend against Close range Attacks.
 			
-			2.6.3.2 Darkness
+			2.6.4.2 Darkness
 			
 				Some Insects were born in the Darkness, molded by it. An Insect with a Darkness rating can ignore part of the negative modifiers imposed by Blind or a Room's Darkness rating, up to a number of dice equal to the Character's Darkness rating. For example, an Insect with a Rating of 2 would completely negate the penalty in a Darkness 2 Room, but would suffer a negative modifier of 1 in a Darkness 3 Room.
 			
-			2.6.3.3 Flight
+			2.6.4.3 Flight
 			
 				Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character receives her Flight rating as a positive modifier to any rolls made to defend against Ranged Attacks, not including Area Attacks.
 			
-			2.6.3.4 Swarming
+			2.6.4.4 Swarming
 			
 				Swarming Characters can summon conspecifics to aid them on her Job. These conspecifics can soak up Wounds and unleash powerful group attacks on her enemies. However, this benefit leaves them more susceptible to Area Attacks. 
 				
 				_Swarms_ A Swarming Character starts with a number of Swarms equal to her Swarming rating. When a Character with Swarming takes Wounds, they can choose to lose that many Swarms instead. Once they reach zero Swarms, they take Wounds as normal. Attacks that use Swarming also reference the number of Current Swarms. A Swarming Character receives her Current Swarms as a negative modifier to her roll to defend against Area Attacks.
 			
-			2.6.3.5 Venom
+			2.6.4.5 Venom
 			
 				Venom is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being envenomed. Unless it heals them. But it's still a weird experience.
 			
-			2.6.3.6 Web
+			2.6.4.6 Web
 			
 				Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk.
 				
@@ -432,13 +432,13 @@
 			
 			The Effects rules rely on the rules for Boolean Rolls in Section 3.4.2.1, and the rules for Quantification in Section 3.4.1.6.
 			
-			2.6.7.1 Effects Ratings
+			2.6.8.1 Effects Ratings
 			
 				Nests & Insects Characters may be subject to ten Effects, all of which are detrimental. The ten Effects are listed in the Character sheet, in the Effects box.
 				
 				Each Effect has a Rating. When the rating of an Effect on a Character's sheet is more than 0%, we say that the Character is "subject to" the Effect. Alternatively, we say that the Effect "applies to" the Character.
 				
-			2.6.7.2 Acquiring Effects
+			2.6.8.2 Acquiring Effects
 			
 				Characters start with all Effects in their Character Sheet rated at 0%. A Character may acquire an Effect turing the course of the game. Characters acquire effects as a result of:
 				
@@ -450,7 +450,7 @@
 				
 				When a Character acquires an effect, we say that the Effect is "bestowed" on the Character. When an effect is bestowed on a Character, the Effect's rating may increase above 0% and the Character may become subject to the Effect.
 				
-			2.6.7.3 Checking Effects
+			2.6.8.3 Checking Effects
 				
 				When a Character is subject to one or more Effects, those Effects must be checked during Combat, Survival & Exploration, or Hunting & Foraging. Each minigame determines when Effects must be "checked".
 				
@@ -460,7 +460,7 @@
 				
 				The next Sections describe how to handle Triggered Effects.
 				
-			2.6.7.4 Agony
+			2.6.8.4 Agony
 			
 				Resist with: KEN
 				
@@ -468,13 +468,13 @@
 				
 				Make a roll using Agony. You receive Stunned equal to the number of Successes.
 				
-			2.6.7.5 Bleeding
+			2.6.8.5 Bleeding
 			
 				Resist with: STR
 				
 				When a Bleeding Effect Triggers, the Character takes 1 Wound.
 				
-			2.6.7.6 Blind
+			2.6.8.6 Blind
 			
 				Resist with: KEN
 				
@@ -483,13 +483,13 @@
 				However, a Blinded Character receives a Negative Modifier on rolls that require awareness of their surroundings.
 				This includes Attacking, Defending, and Perception rolls, but may also include other rolls as the GQ sees fit.
 				
-			2.6.7.7 Burning
+			2.6.8.7 Burning
 			
 				Resist with: SPE
 				
 				When a Burning Effect Triggers, the Character takes 1 Wound and their Burning Rating decreases by 1.
 				
-			2.6.7.8 Brittle
+			2.6.8.8 Brittle
 			
 				Resist with: STR
 				
@@ -497,13 +497,13 @@
 				
 				However, a Brittle Character receives a penalty to their Survival Rating and Carapace equal to their Brittle Rating.
 				
-			2.6.7.9 Charmed
+			2.6.8.9 Charmed
 			
 				Resist with: PAS
 				
 				When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. They may take other Actions and Manoeuvers as normal.
 				
-			2.6.7.10 Confused
+			2.6.8.10 Confused
 			
 				Resist with: KEN
 				
@@ -511,7 +511,7 @@
 				
 				If the Character is not participating in Combat, Combat begins between the Confused Character and the other Characters in the Room.
 				
-			2.6.7.11 Immobilised
+			2.6.8.11 Immobilised
 			
 				Resist with: STR
 				
@@ -519,7 +519,7 @@
 				
 				However, an Immobilised Character received a penalty to their Speed and Flight equal to their Immobilised rating.
 			
-			2.6.7.12 Infected
+			2.6.8.12 Infected
 			
 				Resist with: STR
 			
@@ -529,7 +529,7 @@
 				
 				The bestowed Effect triggers.
 				
-			2.6.7.13 Paralyzed
+			2.6.8.13 Paralyzed
 			
 				Resist with: SPE
 			
@@ -537,7 +537,7 @@
 				
 				However, a Paralyzed Character can only take the Resist Action until she is no longer Paralyzed.
 				
-			2.6.7.14 Poisoned
+			2.6.8.14 Poisoned
 			
 				Resist with: STR
 			
@@ -545,7 +545,7 @@
 				
 				A Character subject to a Poisoned Effect has a negative modifier equal to her Poisoned rating to all Actions in Combat.
 				
-			2.6.7.15 Shocks
+			2.6.8.15 Shocks
 			
 				Resist with: PAS
 				
@@ -553,7 +553,7 @@
 				
 				However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Ranged Attacks.
 			
-			2.6.7.13 Stunned
+			2.6.8.16 Stunned
 			
 				Resist with: PAS
 			
@@ -837,25 +837,21 @@
 	
 	Finally, the results of actions may need to be quantified. The Game Queen (GQ) then describes the outcome of the action according to the Character's Intent and the Degree of Success of the Action.
 	
-	3.1.0.0 Decile Dice
-		3.1.1.0 Implementing Decile Dice
-	3.2.0.0 Six Degrees of Success and Failure
-	3.3.0.0 Percentile Features
-	3.4.0.0 Taking Actions
-		3.4.1.0 Action resolution steps
-			3.4.1.1 Describing Intent
-			3.4.1.2 Effort and Resistance
-			3.4.1.3 Qualification
-			3.4.1.4 Modification
-			3.4.1.5 Choosing Modifiers
-			3.4.1.6 Quantification
-			3.4.1.7 Choosing a Quantification Die
-			3.4.1.8 Resolution
-		3.4.2.0 Simplified Rolls
-			3.4.2.1 Boolean Roll
-			3.4.2.2 Contested Boolean Roll
+	3.1.0.0 Six Degrees of Success and Failure
+	3.2.0.0 Attribute Ratings
+	3.3.0.0 Taking Actions
+		3.3.1.0 Action resolution steps
+			3.3.1.1 Describing Intent
+			3.3.1.2 Effort and Resistance
+			3.3.1.3 Choosing Modifiers
+			3.3.1.4 Qualification
+			3.3.1.5 Quantification
+			3.3.1.6 Resolution
+		3.3.2.0 Simplified Rolls
+			3.3.2.1 Boolean Roll
+			3.3.2.2 Contested Boolean Roll
 		3.4.3.0 Acting in Tandem
-	3.5.0.0 Minigames
+	3.4.0.0 Minigames
 		Nests & Insects is organised around four "minigames". A minigame is a set of special rules for a special game situation that Nests & Insects: Metamorphosis wants to model with more detail than its standard system. Combat is the most detailed and elaborate of Nests & Insects' minigames. The other three are Survival and Exploration; Hunting and Foraging; and Resting and Healing. Brief descriptions are listed below.
 		
 		* The Combat minigame defines rules for skirmishes between the players' characters and a Nest's denizens.
@@ -911,10 +907,9 @@
 			
 			Combat ends when all Combatants on one side are either Killed or Retreating.
 			
-		3.6.2.0 Combat Steps
+		3.5.2.0 Combat Steps
 			The Combat Minigame plays out in NUMBER steps, two of which repeat until Combat ends. The NUMBER Combat Steps are summarised in the Rules Summary below, and discussed in detail in the following Sections.
 			
-			3.6.2.1 Determine Combatants and Sides
 			║ ┌[Rules Summary 21: Combat Steps]───────────────────────────────────────────────────────┐ ║
 			║ │                                                                                       │ ║
 			║ │ 1. Determine Combat participants (Combatants) and the Sides they fight on.            │ ║
@@ -938,6 +933,7 @@
 			║ │                                                                                       │ ║
 			║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
+			3.5.2.1 Determine Combatants and Sides
 				Combat begins when either the characters or Nest creatures attack one another.
 				
 				All characters in the Room where Combat is taking place make up one Side of Combat.
@@ -950,7 +946,7 @@
 				
 				It is possible for a creature to be in the same room as Combat and not be a Combatant. These Bystanders can be recruited or incited to fight for either Side.
 				
-			3.6.2.2 Starting Disposition
+			3.5.2.2 Starting Disposition
 				Before the start of the first Combat Round, each Player makes an uncontested Roll using their Character's Initiative. The GQ makes a similar roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances their Disposition for every two Successes in their Initiative Roll. If a Combatant rolls 0 Successes, she Recoils 1.
 				
 				║ Initiative Roll Result        Starting Disposition                                        ║
@@ -960,7 +956,7 @@
 				║ ──────────────────────────────────────────────────                                        ║
 				║ Table 23: Starting Disposition.                                                           ║
 
-			3.6.2.3 Initiative Order
+			3.5.2.3 Initiative Order
 				Before the start of the first Combat Round, and after Starting Disposition is Determined, the GQ decides the Initiative Order for all Combatants.
 				
 				Combats take Turns in order of the count of Successes from their Initiative Roll. The Combatant with the Highest Initiative Order takes the First Turn, the one with the next highest Initiative Order takes the Second Turn, and so on.
@@ -973,7 +969,7 @@
 				
 				* If two or more Combatants are still tied after the Initiative and Disposition are compared, the GQ rolls a die to break the tie.
 				
-			3.6.2.4 Combat Rounds
+			3.5.2.4 Combat Rounds
 				
 				Once Initiative Order is determined, the first Round of Combat begins and Combatants take Actions in Turn, in order of Initiative.
 				
@@ -995,7 +991,7 @@
 				
 				_Movement_ If using a grid, the Character may move a number of spaces up to her Speed rating. A Character with a Flight rating can move additional spaces up to her Flight rating. If playing without a grid, assume that the Character can move to the manner of position she wants to take.
 				
-			3.6.2.5 Attack Action
+			3.5.2.5 Attack Action
 				
 				In her Turn, a Combatant can take one Attack Action targeting an enemy with either of her Attacks.
 				
@@ -1027,7 +1023,6 @@
 				
 				Following is the Combat Minigame Formula for the Suppress Action.
 				
-			3.6.2.7 Support Action
 				║ Name of the Minigame ................ Combat                                              ║
 				║ Participating Entities .............. Characters, Enemies                                 ║
 				║ List of Minigame Intents ............ Suppress enemy                                      ║
@@ -1057,6 +1052,7 @@
 				║ Intimidate    Passions + Signaling      Passions                                          ║
 				║ ──────────────────────────────────────────────────────────────                            ║
 
+			3.5.2.7 Support Action
 				A Combatant can take the following Support Actions at the start of an Ally's Turn:
 				
 				1. Attempt to Rally the Ally: Roll Leadership vs. Passions.
@@ -1067,7 +1063,6 @@
 				
 				Following is the Combat minigame Formula for the Support Action:
 				
-			3.6.2.8 Resisting Effects
 				║ Name of the Minigame: ................ Combat                                             ║
 				║ Participating Entities: .............. Characters, Allies                                 ║
 				║ List of Minigame Intents: ............ Support Ally                                       ║
@@ -1097,10 +1092,10 @@
 				║ Shake          Passions + Eusociology 	Charmed                                         ║
 				║ ───────────────────────────────────────────────────────────────                           ║
 
+			3.5.2.8 Resisting Effects
 			
 				A Combatant can take a Resist Action during their turn to overcome a single Effect.
 				
-			3.6.2.9 Manoeuver Action
 				║ Name of the Minigame: ................ Combat                      ║
 				║ Participating Entities: .............. Character or enemy          ║
 				║ List of Minigame Intents: ............ Ignore Effect temporarily   ║
@@ -1137,12 +1132,12 @@
 				║ Stunned            Passions                                        ║
 				║ ──────────────────────────────────────────────                     ║
 
+			3.5.2.9 Manoeuver Action
 				
 				ManoeuverActions provide a mechanism for players' Characters and Enemies controlled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for ManoeuverActions and no minigame formula for them. The GQ comes up with special rules on the fly.
 				
 				To take a Manoeuver Action, describe the Combatant's Intent, then choose Effort and Resistance, and resolve the Action with a Qualification Roll, a Boolean Roll, or a Contested Boolean Roll. Feel free to add a Quantification Roll and bestow an Effect as a result of a Manoeuver. Any of a Combatant's Features can be used to take a Manoeuver Action. Below are some example Manoeuvers
 				
-			3.6.2.10 Breaking from Combat
 				║ * Lift an enemy off the ground and throw her behind her allies' lines: roll Strength vs.  ║
 				║   the enemy's Strength. The enemy is moved one hex for each Net Success.          		║
 				║                                                                                           ║
@@ -1173,16 +1168,17 @@
 				║ │ brains to protect their home.                                                         │ ║
 				║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
+			3.5.2.10 Breaking from Combat
 				
 				A Combatant can Break from Combat as a Move Action once during her Turn.
-				
-			3.6.2.11 Consuming Food in Combat
+								
+			3.5.2.11 Consuming Food in Combat
 			
 				There is no Formulaic Combat Action that allows a Combatant to consume a Food Item during Combat. War is no picnic! Combatants are also not allowed to consume Food as a Manoeuver.
 				
 				If a Combatant wishes to consume a Food Item, the Combatant must first Break from Combat.
 				
-			3.6.2.12 Joining Combat.
+			3.5.2.12 Joining Combat.
 			
 				A creature who is not in Combat can always Join Combat. The Creature may have Broeken from Combat previously, or she may have been hiding, or not in the same Room as her friends when Combat began. It doesn't really matter: a Creature can always join Combat.
 				
@@ -1194,11 +1190,11 @@
 				║ │ allies arrive, they Join Combat as described above.                                   │ ║
 				║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
-			3.6.2.13 Combat Ends
+			3.5.2.13 Combat Ends
 				
 				When Combat ends, all Combatants cease to be Combatants and the two Sides cease to exist for rules purposes.
 				
-	3.7.0.0 Survival and Exploration
+	3.6.0.0 Survival and Exploration
 			
 		║ The Survival and Exploration minigame defines rules for the procedural generation of a    ║
 		║ Nest's environment. During the Survival and Exploration minigame, characters explore the  ║
@@ -1209,7 +1205,7 @@
 		║ spaces inside the Nests, the creatures that roam them, and items that populate them.      ║
 		Nest & Insects: Metamorphosis provides rules for the basic procedural generation of Rooms and Floor Plans.
   
-		3.7.1.0 How Procedural Generation Works
+		3.6.1.0 How Procedural Generation Works
 		
 			The core mechanic of procedural generation is rolling on tables. The players or the GQ roll a d10 and cross-reference the result with the rows of a table. The table lists what the characters find and what happens to them while they Explore the Nest.
 			
@@ -1226,7 +1222,7 @@
 			
 			Events are listed in TABLES in SECTION. Nest Level ratings and their Quantification Dice are listed in TABLE, in SECTION.
 			
-		3.7.2.0 The Nest Environment
+		3.6.2.0 The Nest Environment
 		
 			A Nest is an environment that consists of multiple Nest Levels,each comprised of one or more Rooms, as well as Passages, Shortcuts, and Shafts connecting Rooms between them, and connecting a Level to other Levels.
 			
@@ -1234,7 +1230,7 @@
 			
 			In Mechanical Terms, Environments act as resources that can be spent to initiate Minigames, or to pay Costs. In particular, in order to initiate the Survival and Exploration Minigame itself, a Room must be spent. The characters always start the game with a room on Level 0: the Entrance of the Nest.
 			
-			3.7.2.1 Nest Levels
+			3.6.2.1 Nest Levels
 			
 				A Nest Level is a group of Rooms connected to each other by Passages and connected by Shortcuts and Shafts to different Levels. Rooms in the same Level are situated at about the same distance from the ground, much like a floor in a multi-story house.
 				
@@ -1249,7 +1245,7 @@
 
 				_Shafts_ A Shaft is a tunnel heading downwards, or upwards, further into the Nest. A Shaft connects a Room from one level to a Room on another Level.
 				
-			3.7.2.2 Rooms
+			3.6.2.2 Rooms
 			
 				A Room is an enclosed area within a Level. In truth, eusocial insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans. 
 				
@@ -1259,12 +1255,11 @@
 				
 				_Passages_ A Passage is a tunnel or opening or some other kind of entryway connecting two Rooms in the same Level. Passages serve to remind the Players which Rooms are connected to each other.
 				
-			3.7.2.3 Shortcuts
+			3.6.2.3 Shortcuts
 				
 				A Shortcut is a tunnel connecting the current Level with a level closer to the Job Target. In mechanical terms, a Shortcut is a Reward Event that can be spent to immediately find the target of the current Job.
 				
-		3.7.3.0 Event Generation
-		3.7.5.0 Level Rating
+		3.6.3.0 Event Generation
 						
 			║ Costs, Risks, and Rewards are generated every time a Character takes an Exploration       ║
 			║ Action. The Qualification Roll for the Exploration Action sets the number and type of     ║
@@ -1289,6 +1284,7 @@
 			║ Tables 24-26, below, list Events along with a brief description of each. Detailed         ║
 			║ descriptions and mechanics for each kind of Event follow in a subsequent Section.         ║
 
+		3.6.4.0 Level Rating
 			
 			When an Event or a Feature of the Nest Environment needs to be Quantified, the Quantification depends on the Nest Level. An example of a Nest Environment Feature that requires Quantification is the rating of Darkness in a Room, or the rating of an Obstacle.
 			
@@ -1296,7 +1292,7 @@
 			
 			_Increasing Level Ratings_ The rating of the Nest Level changes every time a Character spends a Level Reward to explore a new Nest Level. At this time, the Characters add a new Room to their Environment Pool one level higher than their current Level.
 			
-		3.7.6.0 The Environment Pool
+		3.6.5.0 The Environment Pool
 		
 			As described in earlier Sections, Environments can be used as resources to pay Costs, reap Rewards, or initiate a Minigame. To track the Environments generated so-far in the game, Players have a communal Environment Pool. This pool is simply a list of all the Environments generated so far, and their properties.
 			║ ┌[Tracking the Environment Pool]────────────────────────────────────────────────────────┐ ║
@@ -1418,7 +1414,7 @@
 ║ GQ will probably want to make a note of what characters are in each Exploration Party.    ║
 
 
-║ 3.7.7.3 Spend a Room to take an Exploration Action                                        ║
+║ 3.6.6.3 Spend a Room to take an Exploration Action                                        ║
 ║                                                                                           ║
 ║ For one or more characters to take an Exploration Action, their players must spend a free ║
 ║ Room from their Environment Pool. Mark a Room as "explored" in the pool, so that it is not    ║
@@ -1426,7 +1422,7 @@
 ║ Section.                                                                                  ║
 
 
-║ 3.7.7.4 Resolve the Exploration Action                                                    ║
+║ 3.6.6.4 Resolve the Exploration Action                                                    ║
 ║                                                                                           ║
 ║ As described in earlier Sections, the Survival and Exploration minigame is initiated when ║
 ║ one or more players decides that their characters will go exploring the Nest. During the  ║
@@ -1498,7 +1494,7 @@ Reward Generation:
 ║ │ Brody's Wasp must first pay the Hunger Cost, then the Effects Cost must be paid.      │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
-║ 3.7.7.5 Generate and pay Costs                                                            ║
+║ 3.6.6.5 Generate and pay Costs                                                            ║
 ║                                                                                           ║
 ║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
 ║ includes one or more instances of the word "Cost", follow the steps below to generate,    ║
@@ -1520,7 +1516,7 @@ Reward Generation:
 ║    generation.                                                                            ║
 
 
-║ 3.7.7.6 Generate and face Risks                                                           ║
+║ 3.6.6.6 Generate and face Risks                                                           ║
 ║                                                                                           ║
 ║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
 ║ includes one or more instances of the word "Risk", follow the steps below to generate,    ║
@@ -1551,7 +1547,7 @@ Reward Generation:
 ║ as the rest of the Party (usually because they are fleeing from Combat) those missing     ║
 ║ characters do not face any subsequent Risks until they return to that Room.               ║
 
-║ 3.7.7.7 Generate and reap Rewards                                                         ║
+║ 3.6.6.7 Generate and reap Rewards                                                         ║
 ║                                                                                           ║
 ║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
 ║ includes one or more instances of the word "Reward", follow the steps below to generate,  ║
@@ -1582,7 +1578,7 @@ Reward Generation:
 ║    7. If a generated Reward is a Secret, follow the description of the Secret Event: this ║
 ║       usually means that a new Event is generated.                                        ║
 
-║ 3.7.7.8 Survival and Exploration Ends                                                     ║
+║ 3.6.6.8 Survival and Exploration Ends                                                     ║
 ║                                                                                           ║
 ║ Once all Costs, Risks and Rewards, are generated and dealt with as described in the       ║
 ║ previous Sections, the Survival and Exploration minigame ends.                            ║
@@ -1591,7 +1587,7 @@ Reward Generation:
 ║ their characters as before.                                                               ║
 
 
-║ 3.7.8.0 Cost Events                                                                       ║
+║ 3.6.7.0 Cost Events                                                                       ║
 ║ -------------------                                                                       ║
 ║                                                                                           ║
 ║ Cost Events stress the characters' resources and test their endurance and resilience      ║
@@ -1610,7 +1606,7 @@ Reward Generation:
 		
 		* Collapse
 
-║ 3.7.8.1 Hunger                                                                            ║
+║ 3.6.7.1 Hunger                                                                            ║
 ║                                                                                           ║
 ║ ┌[Effects of Hunger]────────────────────────────────────────────────────────────────────┐ ║
 ║ │ Hunger can make a Character weak. Prolongued Hunger leads to starvation, which leads  │ ║
@@ -1631,7 +1627,7 @@ If the Character does not Consume a Food Item, then:
 	
 	While a Character is Starving, they suffer a -1 modifier to each of their rolls.
 		
-3.7.8.2 Darkness
+3.6.7.2 Darkness
 
 
 ║ ┌[Effects of Darkness]──────────────────────────────────────────────────────────────────┐ ║
@@ -1658,7 +1654,7 @@ If the Character does not Consume a Food Item, then:
 ║                                                                                           ║
 ║ _Blind in the Dark_ If a Blind Character is affected by Darkness, only the greater of the two ratings is applied as a Negative Modifier to their rolls.
 
-	3.7.8.3 Spoilage
+	3.6.7.3 Spoilage
 	
 		When a Spoilage Cost is paid, the Characters' Food Items will be depleted, and may become Spoiled.
 		
@@ -1666,7 +1662,7 @@ If the Character does not Consume a Food Item, then:
 		
 		Spoiled Food is food that is expired, riddled with rot and mould and other unsavory microbes. As unappetizing as it is, Spoiled Food can still be Consumed as any other Food Item. Doing so comes with a risk, however. When a Character Consumes a Spoiled Food Item, they roll to reduce Hunger as normal. Then, they roll Strength vs. the Spoiled Food's Rating. If the Roll fails, the Character acquires Infected equal to the amount the Roll failed by.
 		
-	3.7.8.4 Collapse
+	3.6.7.4 Collapse
 		
 		A Collapse cost represents the structure of the Nest changing. This can be due to renovations by the Nest Denizens, or destruction caused by outside forces, like water damage.
 		
@@ -1674,7 +1670,7 @@ If the Character does not Consume a Food Item, then:
 		
 		_Salvaged Passages_ Characters trapped by a Collapse can still find their way to the connected Passages of a Room. To do so, they must clear the Passage as if it was an Obstacle (See SECTION).
 	
-3.7.9.0 Risk Events
+3.6.8.0 Risk Events
 	
 ║ Risk Events add a frisson of excitement to the otherwise drab and boring act of slogging  ║
 ║ through a Nest looking for the subject of a Job.                                          ║
@@ -1690,7 +1686,7 @@ There are five types of Risk Events:
 	* Spoilage
 	* Infection
 	
-	3.7.9.1 Effects (Risk)
+	3.6.8.1 Effects (Risk)
 
 		When an Effects Risk is faced, the Character facing the Risk must check all Effects she is subject to.
 		
@@ -1700,7 +1696,7 @@ There are five types of Risk Events:
 		
 		A Character gains XP equal to Level if at least one of their Effects were Triggered.
 	
-	3.7.9.2 Unknown Item (Risk)
+	3.6.8.2 Unknown Item (Risk)
 	
 ║ ┌[Finding Unknown Food Items]───────────────────────────────────────────────────────────┐ ║
 ║ │ Food Items can be found while exploring a Nest. At first those Items are Unknown,     │ ║
@@ -1710,7 +1706,7 @@ There are five types of Risk Events:
 ║ When an Unknown Food Item Risk is faced, generate a new Food Item's Form, as explained in ║
 ║ Sections 2.6.8.7.2 and 2.6.8.7.3.                                                         ║
 	
-	3.7.9.4 Obstacle
+	3.6.8.4 Obstacle
 	
 		When an Obstacle Risk is faced, the Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
 		
@@ -1720,7 +1716,7 @@ There are five types of Risk Events:
 		
 		Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
 		
-	3.7.9.4 Encounter
+	3.6.8.4 Encounter
 
 ║ ┌[Nest Encounters]──────────────────────────────────────────────────────────────────────┐ ║
 ║ │ An "Encounter" is an impromptu meeting with a Nest's denizens: its guardians, or      │ ║
@@ -1743,7 +1739,7 @@ There are five types of Risk Events:
 	
 		When all enemies in the Encounter are defeated or retreated, the Encounter has been cleared. The Characters gain XP equal to Level.
 
-║ 3.7.9.5 Infection                                                                         ║
+║ 3.6.8.5 Infection                                                                         ║
 ║                                                                                           ║
 ║ ┌[Effects of Infection]─────────────────────────────────────────────────────────────────┐ ║
 ║ │ A Character facing an Infection Risk may become Infected. If the Character is already │ ║
@@ -1764,28 +1760,28 @@ There are five types of Risk Events:
 ║ │ living in the Room.                                                                   │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
-║     3.7.10.0 Reward Events............................................................135 ║
+║     3.6.9.0 Reward Events............................................................135 ║
 		Reward Events give the characters the resources they need to complete their Job successfully.
 		
 		Remember that the Characters are not invading a Nest to become rich. Arthropod society does not understand the concept of "riches". They are here to prove their skills and complete a Job. Accordingly, the Reward Events generated while exploring a Nest are only designed to help the Characters complete their Job.
 		
 		The following Sections define the rules for the various Reward Events generated during the Survival and Exploration minigame.
 	
-║       3.7.10.1 Room (Reward)..........................................................136 ║
+║       3.6.9.1 Room (Reward)..........................................................136 ║
 
 			When a Character reaps a Room Reward, add a Room to the Environment Pool.
 			
-║       3.7.10.2 Shortcut...............................................................137 ║
+║       3.6.9.2 Shortcut...............................................................137 ║
 			
 			When a Character reaps a Shortcut Reward, they have discovered a Passage that leads directly to the Level of the Job Target. Look alive you ugly bugs, it's go time!
 			
-║       3.7.10.3 Level (Reward).........................................................138 ║
+║       3.6.9.3 Level (Reward).........................................................138 ║
 			
 			When a Character reaps a Level Reward, roll Level.
 			
 			Add a Room to the Environment Pool. This new Room represents the Entrance to the new Level.
 			
-║       3.7.10.4 Known Item.............................................................139 ║
+║       3.6.9.4 Known Item.............................................................139 ║
 
 			When a Character reaps a Known Item Reward, make a Roll to generate a Known Food Item.
 			
@@ -1795,11 +1791,11 @@ There are five types of Risk Events:
 			
 			To generate a Known Food Item, randomly select one of the Food Items that any Character has Identified so far. The Room now has that Food Item among its resources that can be harvested in Hunting & Foraging.
 			
-║       3.7.10.5 Resource...............................................................140 ║
+║       3.6.9.5 Resource...............................................................140 ║
 
 			When a Character reaps a Resource Reward, the Room now has Building Resources among its resources that can be harvested during Hunting & Foraging.
 
-║   3.8.0.0 Hunting and Foraging (TBD)..................................................142 ║
+║   3.7.0.0 Hunting and Foraging (TBD)..................................................142 ║
 	  
 	  In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
 	  
@@ -1818,25 +1814,25 @@ There are five types of Risk Events:
 	 
 	  The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts are wasted, shown by an increase in the Hunger rating. On a Total Failure, the Character is hungry, but they have also depleted any remnants of that Item that could be found in the Room. The Item can no longer be harvested in this Room. On a Critical Failure, the Character's Hunger is increased substantially on top of the Room being depleted of the Item.
 	  
-	  3.1.0.0 Foraging Plants
+	  3.7.1.0 Foraging Plants
 	  
 		Harvesting an Herbivore Food Item uses the Foraging Attribute. The Character Rolls KEN + Foraging vs Level.
 	  
-	  3.2.0.0 Hunting Bugs
+	  3.7.2.0 Hunting Bugs
 	 
 		Harvesting an Insectivore Food Item uses the Hunting Attribute. The Character Rolls SPE + Hunting vs Level.
 	  
-	  3.2.0.0 Collecting Building Resources
+	  3.7.3.0 Collecting Building Resources
 	  
 		Gathering Building Resources uses the Construction Attribute. The Character Rolls STR + Construction vs Level.
 	  
-║   3.9.0.0 Resting & Healing (TBD)...................................................143 ║
+║   3.8.0.0 Resting & Healing (TBD)...................................................143 ║
 
 		In between the dangers of exploring the Nest and Encounters with its Denizens, the Characters need some well-earned time to rest, recover, and reflect on how they've grown. This is encompassed by the Resting and Healing minigame.
 		
 		Before the Characters can rest, they need to first make a safe space to do so. Characters will have to choose a Room that has been cleared of all Risks and Secure it using Building Resources. Once they have a safe space, the Characters can Resist their Effects, Heal from Wounds, and Spend XP. During this safe time, they may also choose to swap their known Attacks.
 		
-		3.9.1.0 Resting & Healing Steps
+		3.8.1.0 Resting & Healing Steps
 		
 			The Resting & Healing minigame follows a formulaic set of steps in a given order:
 			
@@ -1854,44 +1850,44 @@ There are five types of Risk Events:
 			
 			After all steps are complete, the Resting and Healing minigame is ended. Players are free to start a new Resting & Healing action immediately, or continue on their Job.
 			
-		3.9.2.0 Secure a Room
+		3.8.2.0 Secure a Room
 		
 			A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To Secure a Room, the Characters must Consume Building Resources. Once they do, they can Roll Construction + STR or KEN versus Level. On a Success, the room is Secured, and Resting & Healing can continue in that room. There are no consequences for Failure except for the waste of Consumed Resources. Once a Room has been Secured, it can be used for Resting & Healing again at a later time.
 			
-			3.9.2.1 Secure a Room with Web
+			3.8.2.1 Secure a Room with Web
 			
 				The Characters do not need Building Resources if one of them has the Web Attribute. Instead, the Web-savvy Character Rolls Web + Construction vs Level. On a Success, the Room is Secured. On a Failure, the Character with Web gains 1 Hunger.
 		
-		3.9.3.0 Heal from Wounds
+		3.8.3.0 Heal from Wounds
 		
 			If a Character wishes to Heal from Wounds, they must first Consume a Food Item. This Consumption does not affect her Hunger Rating, as the nutrition is spent healing from injuries.
 			
 			To Heal from Wounds, the Character Rolls Food Rating + Healing vs Wounds. On a Success, the Character Heals one Wound for each Net Success. On a Failure, the Character wallows in her wasted Food.
 		
-		3.9.4.0 Summon Swarmlings
+		3.8.4.0 Summon Swarmlings
 		
 			To attract and sustain a Swarm, Food is a must. To summon more Swarmlings to her aid, a Character must Consume a Food Item. This Consumption does not affect her Hunger Rating, as the nutrition goes to attracting the Swarm.
 			
 			To summon Swarmlings, the Character Rolls Swarms + Leadership or Eusociology vs Level. On a Success, the Character regains one Swarms for each Net Success.
 		
-		3.9.5.0 Resist Effects
+		3.8.5.0 Resist Effects
 		
 			Characters in the Resting & Healing minigame have an opportunity to Resist Effects. See SECTION for the rules on Resisting Effects.
 		
-		3.9.6.0 Spend XP
+		3.8.6.0 Spend XP
 		
 			If a Character has any XP that they wish to spend, they may do so. See SECTION for the rules on spending XP.
 		
-		3.9.7.0 Change Attacks
+		3.8.7.0 Change Attacks
 		
 			A Character may decide to change their list of Known Attacks. See SECTION for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
 		
-	3.10.0.0 Travel
+	3.9.0.0 Travel
 		
 		Once the Characters have explored a Room, they may wish to return. Perhaps there are Items they wish to harvest, or they wish to Explore a connected Room. The journey is relatively safe, as the Characters have probably cleared most of the Risks along the way.
 		The journey is not without its own costs, however. Characters have a chance to gain Hunger along the way.
 		
-		3.10.1.0 Steps of Travel
+		3.9.1.0 Steps of Travel
 		
 			The Travel minigame follows a short series of steps.
 			
@@ -1913,19 +1909,19 @@ There are five types of Risk Events:
 			
 			The following Sections describe these steps in more detail.
 			
-		3.10.2.0 Begin Travel
+		3.9.2.0 Begin Travel
 			
 			The Travel minigame begins when a Player expresses an intent to leave the current Room without starting Survival & Exploration.
 			
-		3.10.3.0 Choose Destination
+		3.9.3.0 Choose Destination
 		
 			The Character who initiated Travel declares which Room in the Environment Pool they would like to set as their destination.
 			
-		3.10.4.0 Form Traveling Party
+		3.9.4.0 Form Traveling Party
 		
 			An Traveling Party consists of all Characters in the same Room who want to commence Travel to the same destination.
 			
-		3.10.5.0 Risks Along the Route
+		3.9.5.0 Risks Along the Route
 		
 			Sometimes the Characters will leave a Room without dealing decisively with the Risks they faced there. The two major examples of this are hostile Encounters that were fled or avoided, and the Infection Risk.
 			
@@ -1933,11 +1929,11 @@ There are five types of Risk Events:
 			
 			For each Room along the Route with an Infection Risk, the Characters will have to face the Infection Risk again as they pass through that Room.
 			
-		3.10.6.0 Arrive at Destination
+		3.9.6.0 Arrive at Destination
 		
 			The Characters arrive at their destination, and the strain of their journey takes its toll on them. They realize how Hungry they have gotten, and their Effects may trigger.
 			
-			3.10.6.1 Roll for Hunger
+			3.9.6.1 Roll for Hunger
 				
 				The GQ makes a Roll to increase the Hunger for the Traveling Party. The dice pool is equal to the number of Rooms traversed during the Travel.
 				
@@ -1949,11 +1945,11 @@ There are five types of Risk Events:
 				
 					* If a Character is not Starving and the Roll would bring her to Hunger 10 or more, she is at Hunger 10 and she is Starving.
 					
-			3.10.6.2 Check Effects
+			3.9.6.2 Check Effects
 			
 				Each Character rolls to check her Effects. See SECTION for the rules of checking Effects.
 				
-		3.10.7.0 End Travel
+		3.9.7.0 End Travel
 		
 			Once the Traveling Party has arrived and has paid the costs of Travel, the minigame is over. Characters are free to take other Actions and initiate other minigames.
 			
