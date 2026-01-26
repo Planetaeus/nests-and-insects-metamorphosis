@@ -985,13 +985,13 @@
 				
 				* Negotiate a Manoeuver.
 				
-				* Hold an Action to Support or Suppress.
+				* Support an Ally.
+
+				* Suppress an Enemy.
 				
 				* Move up to her Speed.
 				
-				Characters can pass the chance to take one or both of their Actions and can take them in any combination, with the restriction that a Character can only make one Attack Action per round.
-				
-				_Acting out of Turn_ Combatants can Hold one of their Actions to declare an Ally they want to Support or an Enemy they want to Suppress. If they do so, they take the declared Action at the start of the declared Combatant's Turn.
+				Characters can pass the chance to take one or both of her Actions and can take them in any combination, with the restriction that a Character can only make one Attack Action per round.
 				
 				_Movement_ If using a grid, the Character may move a number of spaces up to their Speed rating. A Character with a Flight rating can move additional spaces up to their Flight rating. If playing without a grid, assume that the Character can move to the manner of position they want to take.
 				
