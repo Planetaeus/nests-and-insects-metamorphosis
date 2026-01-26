@@ -1017,7 +1017,7 @@
 				
 			3.5.2.6 Suppress Action
 				
-				A Combatant can take one of the following Suppress Actions on an Enemy's turn:
+				A Combatant can take one of the following Suppress Actions on her turn:
 				
 				1. Attempt to Confuse the Enemy: roll Ken vs. Ken to bestow a Confused Effect.
 				
