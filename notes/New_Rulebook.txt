@@ -1003,16 +1003,17 @@
 				
 				Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort is usually one of the four Core Attributes + Threat Rate (TR), and Resistance is usually one of the four Core Attributes + Survival Rate (SR). Certain Attacks may list other combinations of Attributes instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
 				
-				Once each the Effort and Resistance Dice Pools are established, the dice are rolled. If the Effort rolls more Successes than Resistance, the Attack Hits and the target takes a number of Wounds equal to the difference. Many Attacks also have additional effects on a Hit. If the Resistance rolls more Successes than Effort, the Attack misses and the attacker recoils. If the Resistance and Effort roll the same number of Successes, the Attack results in a stalemate and nothing happens.
+				Once each the Effort and Resistance Dice Pools are established, the dice are rolled. If the Effort rolls more Successes than Resistance, the Attack Hits. Each Attack describes what happens when it Hits, such as how much damage the target takes. If the Resistance successes meet or exceed the Effort, the Attack misses and nothing happens. Some Attacks have penalties for a Miss.
 				
-				_Carapace_ If an Attack is Close Range and the target has a Carapace rating, the target's Carapace rating is a Positive Modifier to the Resistance of the Attack.
+				_Carapace_ If an Attack is Close Range and the target has a Carapace rating, the target's Carapace rating is a Positive Modifier to her Resistance against the Attack.
 				
-				_Flying_ If an Attack is Ranged and the target has a Flight rating, the target's Flight rating is a Positive Modifier to the Resistance of the Attack.
+				_Flying_ If an Attack is Ranged and the target has a Flight rating, the target's Flight rating is a Positive Modifier to her Resistance against the Attack.
+				
+				_Swarming_ If a Character with Swarms is affected by an Area Attack, the target's Current Swarms is a Negative Modifier to her Resistance against the attack.
 				
 				_Targeting Allies_ Some Attacks Heal or Help rather than Harm. These Attacks can target Allies, but may be more difficult when targeting more capable Allies.
 				
-				Attacks are listed in SECTION. Each Attack has the following information:
-				
+				Attacks are listed in SECTION. Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
 				
 	║ Name ................ The Name of the Attack                                              ║
 	║ Effort .............. What Features make up the Effort Dice Pool.                         ║
