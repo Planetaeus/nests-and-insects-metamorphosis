@@ -551,7 +551,7 @@
 				
 				When a Shocks Effect Triggers, nothing special happens.
 				
-				However, a Shocked Character cannot use Ranged Attacks.
+				However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Ranged Attacks.
 			
 			2.6.7.13 Stunned
 			
