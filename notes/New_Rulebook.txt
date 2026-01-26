@@ -37,13 +37,13 @@
 
 		1.3.1.0 Modifiers
 			
-			The initial dice pool for an Action is usually standard. Attacks use an Ability + Threat Rate, for example. Circumstances and strategic decisions by the players can result in one or more positive or negative modifiers being applied to a roll.
+			The initial dice pool for an Action is usually standard. Attacks use an Ability + Threat Rate, for example. Circumstances and strategic decisions by the players can result in one or more positive or negative modifiers being applied to a Roll.
 			
-			Positive modifiers add extra dice to the Character's dice pool. They increase the odds of the Player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
+			Positive Modifiers add extra dice to the Character's dice pool. They increase the odds of the Player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
 			
-			Negative modifiers remove dice from the Character's dice pool. Negative Modifiers represent conditions that reduce the effectiveness of the Character's actions, possibly turning an easy task into a real challenge. If a Character has enough negative modifiers, they may end up not rolling any dice at all!
+			Negative modifiers remove dice from the Character's dice pool. Negative Modifiers represent conditions that reduce the effectiveness of the Character's actions, possibly turning an easy task into a real challenge. If a Character has enough negative modifiers, they may end up not Rolling any dice at all!
 			
-			When a Character receives both a Positive and a Negative modifier to the same roll, they are applied in order. First the Character adds the Positive Modifier dice to their dice pool, and then removes the number of dice dictated by the Negative Modifier.
+			When a Character receives both a Positive and a Negative Modifier to the same Roll, they are applied in order. First the Character adds any Positive Modifier dice to their dice pool, and then removes the number of dice dictated by any Negative Modifiers.
 		
 		1.3.2.0 Describing Results
 			What the DoS of an action means depends on a Player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
