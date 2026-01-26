@@ -1807,7 +1807,7 @@ There are five types of Risk Events:
 	  
 		║ Degree of Success  Outcome                       ║
 		║ ───────────────────────────────────────── ║
-		║ Critical Success   Add Level to Item Rating                 ║
+		║ Critical Success   Add 1 + Level to Item Rating                 ║
 		║ Total Success      Add 2 to Item Rating        ║
 		║ Partial Success    Add 1 to Item rating                      ║
 		║ Partial Failure    Increase Hunger 1                                         ║
