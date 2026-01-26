@@ -354,7 +354,7 @@
 			
 			2.6.4.10 Sneaking
 			
-		2.6.4.0 Special Abilities
+		2.6.4.0 Special Attributes
 			
 			2.6.3.1 Carapace
 			
