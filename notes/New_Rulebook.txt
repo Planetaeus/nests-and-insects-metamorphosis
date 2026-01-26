@@ -1001,7 +1001,7 @@
 				
 				To determine the outcome of an Attack, make a contested roll using the Attack's Effort and Resistance. Characters with a nonzero Carapace rating add it as a positive modifier to their Resistance against Melee attacks. Characters with a nonzero Flying rating add it as a Positive Modifier to their Resistance againse Ranged Attacks.
 				
-				Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort is usually one of the four Core Attributes + Threat Rate, and Resistance is usually one of the four Core Attributes + Survival Rate. Certain Attacks may list other combinations of Features instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
+				Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort is usually one of the four Core Attributes + Threat Rate (TR), and Resistance is usually one of the four Core Attributes + Survival Rate (SR). Certain Attacks may list other combinations of Attributes instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
 				
 				Once each the Effort and Resistance Dice Pools are established, the dice are rolled. If the Effort rolls more Successes than Resistance, the Attack Hits and the target takes a number of Wounds equal to the difference. Many Attacks also have additional effects on a Hit. If the Resistance rolls more Successes than Effort, the Attack misses and the attacker recoils. If the Resistance and Effort roll the same number of Successes, the Attack results in a stalemate and nothing happens.
 				
