@@ -1015,14 +1015,7 @@
 				
 				Attacks are listed in SECTION. Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
 				
-	║ Name ................ The Name of the Attack                                              ║
-	║ Effort .............. What Features make up the Effort Dice Pool.                         ║
-	║ Resistance .......... What Features make up the Resistance Dice Pool.                     ║
-	║ Range ............... How far away can the Target be?                                     ║
-	║ Target .............. The Target Creature(s), or Target Area.                             ║
-	║ Effect .............. The additional effects of the Attack (if any).                      ║
-
-			3.6.2.6 Suppress Action
+			3.5.2.6 Suppress Action
 				
 				A Combatant can take one of the following Suppress Actions on an Enemy's turn:
 				
