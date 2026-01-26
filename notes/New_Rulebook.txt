@@ -382,7 +382,7 @@
 			
 				Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk.
 				
-		2.6.5.0 Advanced Abilities
+		2.6.5.0 Advanced Attributes
 		
 			2.6.5.1 Chill
 				
