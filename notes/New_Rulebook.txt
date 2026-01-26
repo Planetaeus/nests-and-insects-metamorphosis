@@ -951,7 +951,7 @@
 				It is possible for a creature to be in the same room as Combat and not be a Combatant. These Bystanders can be recruited or incited to fight for either Side.
 				
 			3.6.2.2 Starting Disposition
-				Before the start of the first Combat Round, each Player makes an uncontested Roll using their Character's Initiative. The GQ makes a similar roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances their Disposition for each Success in their Initiative Roll. If a Combatant rolls 0 Successes, their Disposition Recoiles 1.
+				Before the start of the first Combat Round, each Player makes an uncontested Roll using their Character's Initiative. The GQ makes a similar roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances their Disposition for every two Successes in their Initiative Roll. If a Combatant rolls 0 Successes, she Recoils 1.
 				
 				║ Initiative Roll Result        Starting Disposition                                        ║
 				║ ──────────────────────────────────────────────────                                        ║
