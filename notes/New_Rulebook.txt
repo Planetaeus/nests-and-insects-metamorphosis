@@ -35,51 +35,38 @@
 		
 		In other cases, the number of net successes can directly be used to determine the outcome. When a Character makes a successful attack, the net successes determine the Wounds bestowed on the targets.
 
-	1.3.1.0 Modifiers
+		1.3.1.0 Modifiers
+			
+			The initial dice pool for an Action is usually standard. Attacks use an Ability + Threat Rate, for example. Circumstances and strategic decisions by the players can result in one or more positive or negative modifiers being applied to a roll.
+			
+			Positive modifiers add extra dice to the Character's dice pool. They increase the odds of the Player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
+			
+			Negative modifiers remove dice from the Character's dice pool. Negative Modifiers represent conditions that reduce the effectiveness of the Character's actions, possibly turning an easy task into a real challenge. If a Character has enough negative modifiers, they may end up not rolling any dice at all!
+			
+			When a Character receives both a Positive and a Negative modifier to the same roll, they are applied in order. First the Character adds the Positive Modifier dice to their dice pool, and then removes the number of dice dictated by the Negative Modifier.
 		
-		The initial dice pool for an Action is usually standard. Attacks use an Ability + Threat Rate, for example. Circumstances and strategic decisions by the players can result in one or more positive or negative modifiers being applied to a roll.
-		
-		Positive modifiers add extra dice to the Character's dice pool. They increase the odds of the Player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
-		
-		Negative modifiers remove dice from the Character's dice pool. Negative Modifiers represent conditions that reduce the effectiveness of the Character's actions, possibly turning an easy task into a real challenge. If a Character has enough negative modifiers, they may end up not rolling any dice at all!
-		
-		When a Character receives both a Positive and a Negative modifier to the same roll, they are applied in order. First the Character adds the Positive Modifier dice to their dice pool, and then removes the number of dice dictated by the Negative Modifier.
-		
-	1.3.2.0 Describing Results
-		What the DoS of an action means depends on a Player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
-		
-		The following table can be used as a guideline for how to describe different degrees of success.
-		
-		║ Degree of Success  Does it work?          ║
-		║ ───────────────────────────────────────── ║
-		║ Critical Success   Yes, and...            ║
-		║ Total Success      Yes                    ║
-		║ Partial Success    Yes, but...            ║
-		║ Partial Failure    No, but...             ║
-		║ Total Failure      No                     ║
-		║ Critical Failure   No and...              ║
-		║ ───────────────────────────────────────── ║
-		
-		On a Critical Success, the Character achieves their objective as well as an additional reward that they were not trying to achieve. On a Total Success, the Character is able to pull of exactly what they were trying to do. On a Partial Success, they manage to succeed, but there is an unintended consequence.
-		
-		On a Partial Failure, the Character does not succeed, but there is an unintended boon that they have earned that keeps things moving forward. On a Total Failure, the player suffers the obvious consequences of failing their action. On a Critical Failure, the character suffers the obvious consequences, in addition to an unexpected consequence that makes the situation more trying.
-		
-	1.3.3.0 Roll Difficulties and Ratings (Remove decile dice?)
+		1.3.2.0 Describing Results
+			What the DoS of an action means depends on a Player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
+			
+			The following table can be used as a guideline for how to describe different degrees of success.
+			
+			║ Degree of Success  Does it work?          ║
+			║ ───────────────────────────────────────── ║
+			║ Critical Success   Yes, and...            ║
+			║ Total Success      Yes                    ║
+			║ Partial Success    Yes, but...            ║
+			║ Partial Failure    No, but...             ║
+			║ Total Failure      No                     ║
+			║ Critical Failure   No and...              ║
+			║ ───────────────────────────────────────── ║
+			
+			On a Critical Success, the Character achieves their objective as well as an additional reward that they were not trying to achieve. On a Total Success, the Character is able to pull of exactly what they were trying to do. On a Partial Success, they manage to succeed, but there is an unintended consequence.
+			
+			On a Partial Failure, the Character does not succeed, but there is an unintended boon that they have earned that keeps things moving forward. On a Total Failure, the player suffers the obvious consequences of failing their action. On a Critical Failure, the character suffers the obvious consequences, in addition to an unexpected consequence that makes the situation more trying.
+			
+		1.3.3.0 Quantification of Results.
 
-		║ Decile die    Range       Tens die    Numbered      Ones die    Numbered                  ║
-		║ ──────────────────────────────────────────────────────────────────────────                ║
-		║ d20           0 to 19     Not any!                  d20         0,1,...,19                ║
-		║ d40           0 to 39     d4          0,1,...,3     d10         0,1,...,9                 ║
-		║ d60           0 to 59     d6          0,1,...,5     d10         0,1,...,9                 ║
-		║ d80           0 to 79     d8          0,1,...,7     d10         0,1,...,9                 ║
-		║ d100          0 to 99     d10         0,1,...,9     d10         0,1,...,9                 ║
-		║ d120          0 to 119    d12         0,1,...,11    d10         0,1,...,9                 ║
-		║ d200          0 to 199    d20         0,1,...,19    d10         0,1,...,9                 ║
-		║ ──────────────────────────────────────────────────────────────────────────                ║
-		║ Table 3: Decile dice, used for quantification of percentile effects. d100 is also a       ║
-		║ decile die. The d20 does not need a "tens" die and is rolled on its own.                  ║
-
-		Some actions require quantification of their results. To quantify the results of actions on the same percentile scale as Character's Features, Nests & Insects uses decile dice: the d20, d40, d60, d80, d120, d200, and the d100 itself. The d20 is a single, twenty-sided die, with faces numbered 0, 1, .. 19. The d40, d60, d80, d100, d120, and d200 are composite dice, comprised of a d4, d6, d8, d10, d12, and d20 as the "tens" die, and a d10 as the "ones" die. Both the ones and tens dice have faces numbered 0, 1, ..., n-1, where "n" is the number of faces on the die.
+			Some Actions require Quantification of their results to see how great or how wicked their outcomes are. Some outcomes require a Quantification Roll, where the GQ or the Player rolls a number of d6 based on an Attribute rating and counts the successes. Others use set numbers. Finally, some outcomes simply use the number of Net Successes from the original Action's Roll.
 
 	1.3.4.0 Minigames
 		The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more variety, and more detail, to the basic rules, Nests & Insects defines a number of "minigames".
