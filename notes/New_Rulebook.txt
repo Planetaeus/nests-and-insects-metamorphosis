@@ -192,9 +192,9 @@
 			
 			* Initiative: Used to determine a Character's turn placement in Combat, as well as determine initial disposition when Combat begins.
 			
-			* Threat Rate: An attribute used to roll for most attacks.
+			* Threat Rate: An attribute used in the Effort for most Attacks.
 			
-			* Survival Rate: Used as the difficulty for most attacks.
+			* Survival Rate: Used in the Resistance for most Attacks.
 			
 			* Max Wounds: The maximum number of wounds a Character can take before death.
 			
