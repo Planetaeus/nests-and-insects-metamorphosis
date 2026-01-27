@@ -1609,6 +1609,7 @@ Reward Generation:
 ║ │ to death from starvation.                                                             │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
+║ When a Hunger Cost is paid, the GQ Rolls Level to increase the Hunger of the Characters paying the Cost.
 
 Each Character may choose to Consume one Food Item from her Inventory. Each Success on the Consumption Roll reduces her Hunger by one.
 
