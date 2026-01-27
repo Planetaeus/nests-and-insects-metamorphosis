@@ -499,7 +499,7 @@
 				
 				The next Sections describe how to handle Triggered Effects.
 				
-			2.6.8.4 Agony
+			2.6.8.5 Agony
 			
 				Resist with: KEN
 				
@@ -507,13 +507,13 @@
 				
 				Make a Roll using Agony. You receive Stunned equal to the number of Successes.
 				
-			2.6.8.5 Bleeding
+			2.6.8.6 Bleeding
 			
 				Resist with: STR
 				
 				When a Bleeding Effect Triggers, the Character takes 1 Wound.
 				
-			2.6.8.6 Blind
+			2.6.8.7 Blind
 			
 				Resist with: KEN
 				
@@ -521,12 +521,6 @@
 				
 				However, a Blinded Character receives a Negative Modifier on Rolls that require awareness of their surroundings.
 				This includes Attacking, Defending, and Perception Rolls, but may also include other Rolls as the GQ sees fit.
-				
-			2.6.8.7 Burning
-			
-				Resist with: SPE
-				
-				When a Burning Effect Triggers, the Character takes 1 Wound and their Burning Rating decreases by 1.
 				
 			2.6.8.8 Brittle
 			
@@ -536,13 +530,19 @@
 				
 				However, a Brittle Character receives a penalty to their Survival Rating and Carapace equal to their Brittle Rating.
 				
-			2.6.8.9 Charmed
+			2.6.8.9 Burning
+			
+				Resist with: SPE
+				
+				When a Burning Effect Triggers, the Character takes 1 Wound and their Burning Rating decreases by 1.
+				
+			2.6.8.10 Charmed
 			
 				Resist with: PAS
 				
 				When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. They may take other Actions and Manoeuvers as normal.
 				
-			2.6.8.10 Confused
+			2.6.8.11 Confused
 			
 				Resist with: KEN
 				
@@ -550,7 +550,7 @@
 				
 				If the Character is not participating in Combat, Combat begins between the Confused Character and the other Characters in the Room.
 				
-			2.6.8.11 Immobilised
+			2.6.8.12 Immobilised
 			
 				Resist with: STR
 				
@@ -558,7 +558,7 @@
 				
 				However, an Immobilised Character received a penalty to their Speed and Flight equal to their Immobilised rating.
 			
-			2.6.8.12 Infected
+			2.6.8.13 Infected
 			
 				Resist with: STR
 			
@@ -568,15 +568,15 @@
 				
 				The bestowed Effect triggers.
 				
-			2.6.8.13 Paralyzed
+			2.6.8.14 Paralysed
 			
 				Resist with: SPE
 			
-				When a Paralyzed Effect Triggers, nothing special happens.
+				When a Paralysed Effect Triggers, nothing special happens.
 				
-				However, a Paralyzed Character can only take the Resist Action until she is no longer Paralyzed.
+				However, a Paralysed Character can only take the Resist Action until she is no longer Paralysed.
 				
-			2.6.8.14 Poisoned
+			2.6.8.15 Poisoned
 			
 				Resist with: STR
 			
@@ -584,7 +584,7 @@
 				
 				A Character subject to a Poisoned Effect has a negative modifier equal to her Poisoned rating to all Actions in Combat.
 				
-			2.6.8.15 Shocks
+			2.6.8.16 Shocked
 			
 				Resist with: PAS
 				
@@ -592,7 +592,7 @@
 				
 				However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Ranged Attacks.
 			
-			2.6.8.16 Stunned
+			2.6.8.17 Stunned
 			
 				Resist with: PAS
 			
