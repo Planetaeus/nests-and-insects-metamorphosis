@@ -1943,7 +1943,7 @@ There are five types of Risk Events:
 					
 			3.9.6.2 Check Effects
 			
-				Each Character Rolls to check her Effects. See SECTION for the rules of checking Effects.
+				Each Character Rolls to check her Effects. See 2.6.8.4 for the rules of checking Effects.
 				
 		3.9.7.0 End Travel
 		
