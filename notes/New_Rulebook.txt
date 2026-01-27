@@ -450,9 +450,48 @@
 				
 				When a Character acquires an effect, we say that the Effect is "bestowed" on the Character. When an effect is bestowed on a Character, the Effect's rating may increase above 0% and the Character may become subject to the Effect.
 				
-			2.6.8.3 Checking Effects
-				
-				When a Character is subject to one or more Effects, those Effects must be checked during Combat, Survival & Exploration, or Hunting & Foraging. Each minigame determines when Effects must be "checked".
+			2.6.8.3 Resisting Effects
+			
+				║ Name of the Minigame: ................ Combat                      ║
+				║ Participating Entities: .............. Character or enemy          ║
+				║ List of Minigame Intents: ............ Ignore Effect temporarily   ║
+				║ List of Minigame Actions: ............ Resist Effect               ║
+				║ Effort Variables: .................... Effect-specific (see below) ║
+				║ Resistance Variables: ................ Effect-specific             ║
+				║ Modifier Variables: .................. None                        ║
+				║                                                                    ║
+				║ Outcomes of the six Degrees of Success and Failure:                ║
+				║                                                                    ║
+				║ Degree of Success        Outcome                                   ║
+				║ ───────────────────────────────────────────────────────────────    ║
+				║ Critical Success         Remove Effect                             ║
+				║ Complete Success         Reduce Effect 2                           ║
+				║ Partial Success          Reduce Effect 1                           ║
+				║ Partial Failure          Effect remains                            ║
+				║ Complete Failure         Effect Triggers.                          ║
+				║ Critical Failure         Increase Effect 1. Effect Triggers.       ║
+				║ ───────────────────────────────────────────────────────────────    ║
+				║                                                                    ║
+				║ Effect-specific Effort variables:                                  ║
+				║                                                                    ║
+				║ Effect             Resist with                                     ║
+				║ ──────────────────────────────────────────────                     ║
+				║ Agony              Ken                                             ║
+				║ Bleeding           Strength                                        ║
+				║ Blind              Ken                                             ║
+				║ Brittle            Strength                                        ║
+				║ Burning            Speed                                           ║
+				║ Charmed            Passions                                        ║
+				║ Confused           Ken                                             ║
+				║ Immobilised        Strength                                        ║
+				║ Infected           Strength                                        ║
+				║ Paralysed          Speed                                           ║
+				║ Poisoned           Strength                                        ║
+				║ Shocked            Passions                                        ║
+				║ Stunned            Passions                                        ║
+				║ ──────────────────────────────────────────────                     ║
+			
+			2.6.8.4 Checking Effects
 				
 				When the rules of a minigame say that Effects must be checked, all Effects a Character is subject to are checked simultaneously. To check all Effects a Character is subject to, make a single Roll using the Effect with the highest rating.
 				
