@@ -600,7 +600,7 @@
 				
 		2.6.9.0 Inventory Items
 			
-			Inventory Items are the Characters' Features representing consumable resources carried by a Character and that the Character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing minigames.
+			Inventory Items are the Characters' Features representing Consumable resources carried by a Character and that the Character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing minigames.
 			
 			Players' Characters start with one Inventory Item each, determined by their Class. Characters may also find and pick up new Items during Survival & Exploration and Hunting & Foraging.
 			
@@ -674,13 +674,13 @@
 				║ ──────────────────────────────────────────  ──────────────────────────────────────────    ║
 				║ Figure 20: Spider's Gloworm (left) and its Carcass (right) after it was eaten.            ║
 
-				_Spoiled Items_ Food Items can become Spoiled as the result of paying a Spoilage Cost during the Survival & Exploration or Hunting & Foraging minigames. Spoiled Items are past their expiry date and cannot be consumed without risking adverse effects. Make sure to include "Spoiled" in the item's name.
+				_Spoiled Items_ Food Items can become Spoiled as the result of paying a Spoilage Cost during the Survival & Exploration or Hunting & Foraging minigames. Spoiled Items are past their expiry date and cannot be Consumed without risking adverse effects. Make sure to include "Spoiled" in the item's name.
 				
 			2.6.9.6 Consuming Items
 				
-				Inventory Items are "consumed" and may become "exhausted" as a result of taking an Action or paying a Cost.
+				Inventory Items are "Consumed" and may become "Exhausted" as a result of taking an Action or paying a Cost.
 				
-				_Consumption Roll_ To consume an Inventory Item to take an Action or pay a Cost, Roll the Item's Rating. The Roll is made immediately after the Action is resolved, or in the process of paying the Cost. The number of Successes on the Roll determines the Item's new Rating. An Item with a Rating of zero is Exhausted.
+				_Consumption Roll_ To Consume an Inventory Item to take an Action or pay a Cost, Roll the Item's Rating. The Roll is made immediately after the Action is resolved, or in the process of paying the Cost. The number of Successes on the Roll determines the Item's new Rating. An Item with a Rating of zero is Exhausted.
 				
 				_Exhausted Items_ When an Inventory Item is Exhausted, it can no longer be Consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other Characters.
 				
@@ -688,15 +688,15 @@
 				
 				2.6.9.7.1 Consuming Food Items
 					
-					When a Food Item is consumed, the Hunger of the Character consuming the Item may be reduced.
+					When a Food Item is Consumed, the Hunger of the Character Consuming the Item may be reduced.
 					
-					When a Character consumes a Food Item:
+					When a Character Consumes a Food Item:
 					
 					* Make a Consumption Roll as described in Section
 					
 					* Then, make a Quantification Roll to reduce the Character's Hunger Rating. Quantify with Hunger.
 					
-					_Effects of Consuming Food Items_ Some Food Items bestow an Effect or grant an Ability to the consuming Character. Such Items' Effects trigger as soon as an Item is consumed. Refer to SECTION for the rules of triggering Effects.
+					_Effects of Consuming Food Items_ Some Food Items bestow an Effect or grant an Ability to the Consuming Character. Such Items' Effects trigger as soon as an Item is Consumed. Refer to SECTION for the rules of triggering Effects.
 					
 				2.6.9.7.2 Generating Food Items
 				
@@ -712,7 +712,7 @@
 						
 					2. 	Generate the Food Item's Function.
 					
-						When a Food Item is first generated, the Item is "Unknown" and a Character must examine it, or consume it, to determine its Function.
+						When a Food Item is first generated, the Item is "Unknown" and a Character must examine it, or Consume it, to determine its Function.
 						
 						In general, to determine a Food Item's Function is to "Identify" the Food Item.
 						
@@ -766,21 +766,21 @@
 						
 						If the Roll succeeds, the GQ Rolls to generate the Item's Function. the Item becomes Known to the Character who Identified it.
 						
-						Otherwise, the Item remains Unknown. The Character may now only Identify the Item by consuming it, as described below.
+						Otherwise, the Item remains Unknown. The Character may now only Identify the Item by Consuming it, as described below.
 						
 						Other Characters are free to attempt to Identify the Item using their own Rolls.
 						
 					2.	Consume the Item and note its Effects.
 						
-						If the Boolean Roll to identify a Food Item's Function fails, the Item can only be Identified by consuming it, either while paying a Hunger Cost or during a Resting & Healing minigame.
+						If the Boolean Roll to identify a Food Item's Function fails, the Item can only be Identified by Consuming it, either while paying a Hunger Cost or during a Resting & Healing minigame.
 						
-						Obviously, consuming the Unknown Food Item carries a risk.
+						Obviously, Consuming the Unknown Food Item carries a risk.
 						
-						If a Character consumes an Item to Identify it, generate the Item's Function as described in the following Section.
+						If a Character Consumes an Item to Identify it, generate the Item's Function as described in the following Section.
 						
-						Any Effects determined by a Food Item's Function trigger when the Item is consumed.
+						Any Effects determined by a Food Item's Function trigger when the Item is Consumed.
 						
-						Once all Effects caused by consuming an unknown Food Item have triggered, the Item is a Known Item.
+						Once all Effects caused by Consuming an unknown Food Item have triggered, the Item is a Known Item.
 						
 						When an Item is Identified, the Identifying Character gains 1 XP.
 						
@@ -797,8 +797,8 @@
 					║   1         Ordinary    Nothing special, an ordinary Item                                 ║
 					║   2         Blessed     Roll to increase amount if Beneficial; decrease if Harmful        ║
 					║   3         Cursed      Roll to increase amount if Harmful; cannot be dropped             ║
-					║   4         Spoiled     May bestow Infected when consumed.                                ║
-					║   5         Nutritious  Roll twice to decrease Hunger when consumed.                      ║
+					║   4         Spoiled     May bestow Infected when Consumed.                                ║
+					║   5         Nutritious  Roll twice to decrease Hunger when Consumed.                      ║
 					║   6         Extra       Roll Twice to determine Conditions.                               ║
 					║ ──────────────────────────────────────────────────────────────────────────────────        ║
 					║ Table 12: Item Conditions                                                                 ║
@@ -850,9 +850,9 @@
 					║ 20            Vibes - Gain Vibe        ║
 					║ ───────────────────────────────────────────────                                           ║
 
-					_Food Item Abilities_ Food Items' Abilities take effect immediately upon being consumed. This is true for both Known and Unknown Items.
+					_Food Item Abilities_ Food Items' Abilities take effect immediately upon being Consumed. This is true for both Known and Unknown Items.
 					
-					_Gaining Attributes_ When a Character consumes a Food Item that grants an Attribute, she increases her rating in that Attribute by one, up to the rating of the Food Item she just consumed.
+					_Gaining Attributes_ When a Character Consumes a Food Item that grants an Attribute, she increases her rating in that Attribute by one, up to the rating of the Food Item she just Consumed.
 					
 					_Gaining Effects_ When a Character gains an Effect, such as Agony or Bleeding, Roll the Food Item's Rating to quantify the Effect bestowed.
 
@@ -891,7 +891,7 @@
 		
 		* The Hunting and foraging minigame defines rules for finding sustenance and medicinal Food Items.
 		
-		* The Resting & Healing minigame defines rules for healing from wounds and Effects, consuming Food Items to reduce Hunger, and using XP to improve a Characters' Features.
+		* The Resting & Healing minigame defines rules for healing from wounds and Effects, Consuming Food Items to reduce Hunger, and using XP to improve a Characters' Features.
 		
 		3.5.1.0 Minigame Formulaic Actions
 		
@@ -1170,9 +1170,9 @@
 								
 			3.5.2.11 Consuming Food in Combat
 			
-				There is no Formulaic Combat Action that allows a Combatant to consume a Food Item during Combat. War is no picnic! Combatants are also not allowed to consume Food as a Manoeuver.
+				There is no Formulaic Combat Action that allows a Combatant to Consume a Food Item during Combat. War is no picnic! Combatants are also not allowed to Consume Food as a Manoeuver.
 				
-				If a Combatant wishes to consume a Food Item, the Combatant must first Break from Combat.
+				If a Combatant wishes to Consume a Food Item, the Combatant must first Break from Combat.
 				
 			3.5.2.12 Joining Combat.
 			
@@ -1609,19 +1609,16 @@ Reward Generation:
 ║ │ to death from starvation.                                                             │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
-║ When a Hunger Cost is paid, the Character paying the Cost may choose to consume one Food Item from ║
-║ her Inventory.                                                                            ║
-║                                                                                           ║
-║ If the Character consumes a Food Item, make a Quantification Roll to reduce the           ║
-║ Character's Hunger rating. See Section 2.11.6.7. for the rules of consuming Food Items.   ║
+║ When a Hunger Cost is paid, the Character paying the Cost may choose to Consume one Food Item from ║
+║ her Inventory. Each Success on the Consumption Roll reduces her Hunger by one.                     ║
 
 If the Character does not Consume a Food Item, then:
 	
 	* If the Character is at Hunger Rating 10, the Character DIES of starvation.
 	
-	* If the Character is at less than Hunger Rating 10, the Character Rolls Level and increases their Hunger rating by a number equal to the Successes of the Roll. If this brings the Character to Hunger Rating 10, they are starving and are at risk of DEATH. 
+	* If the Character is at less than Hunger Rating 10, the Character adds Level to her Hunger. If this brings the Character to Hunger Rating 10, she is starving and is at risk of DEATH. 
 	
-	While a Character is Starving, they suffer a -1 modifier to each of their Rolls.
+	While a Character is Starving, she suffers a -1 modifier to each of her Rolls.
 		
 3.6.7.2 Darkness
 
@@ -1935,9 +1932,9 @@ There are five types of Risk Events:
 				
 				The GQ makes a Roll to increase the Hunger for the Traveling Party. The dice pool is equal to the number of Rooms traversed during the Travel.
 				
-				Any Character may consume a Food at this time to reduce her Hunger.
+				Any Character may Consume a Food at this time to reduce her Hunger.
 				
-				If a Characer's Hunger is not reduced by consuming Food:
+				If a Characer's Hunger is not reduced by Consuming Food:
 				
 					* If a Character is Starving, she dies of starvation.
 				
