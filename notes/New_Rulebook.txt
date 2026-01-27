@@ -493,9 +493,9 @@
 			
 			2.6.8.4 Checking Effects
 				
-				When the rules of a minigame say that Effects must be checked, all Effects a Character is subject to are checked simultaneously. To check all Effects a Character is subject to, make a single Roll using the Effect with the highest rating.
+				When a Character is subject to one or more Effects, those Effects must be checked during Combat, Survival & Exploration, or Travel. Each minigame determines when Effects must be "checked".
 				
-				Compare the result of the Roll against the Rating of each Effect. Each Effect that the Roll Beats triggers.
+				When the rules of a minigame say that Effects must be checked, all Effects a Character is subject to are checked simultaneously. For each Effect, make a Boolean Roll using that Effect's Rating. On a Success, the Effect Triggers.
 				
 				The next Sections describe how to handle Triggered Effects.
 				
