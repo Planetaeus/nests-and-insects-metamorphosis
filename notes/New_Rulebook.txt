@@ -1127,41 +1127,6 @@
 			
 				A Combatant can take a Resist Action during their turn to overcome a single Effect.
 				
-				║ Name of the Minigame: ................ Combat                      ║
-				║ Participating Entities: .............. Character or enemy          ║
-				║ List of Minigame Intents: ............ Ignore Effect temporarily   ║
-				║ List of Minigame Actions: ............ Resist Effect               ║
-				║ Effort Variables: .................... Effect-specific (see below) ║
-				║ Resistance Variables: ................ Effect-specific             ║
-				║ Modifier Variables: .................. None                        ║
-				║                                                                    ║
-				║ Outcomes of the six Degrees of Success and Failure:                ║
-				║                                                                    ║
-				║ Degree of Success        Outcome                                   ║
-				║ ───────────────────────────────────────────────────────────────    ║
-				║ Critical Success         Remove Effect and Shift Disposition Up    ║
-				║ Complete Success         Remove Effect (reduce to 0%)              ║
-				║ Partial Success          Reduce Effect (Roll to decrease)          ║
-				║ Partial Failure          Effect remains                            ║
-				║ Complete Failure         Effect is enhanced (Roll to increase)     ║
-				║ Critical Failure         Effect is maximised (set to 100%)         ║
-				║ ───────────────────────────────────────────────────────────────    ║
-				║                                                                    ║
-				║ Effect-specific Effort variables:                                  ║
-				║                                                                    ║
-				║ Effect             Resist with                                     ║
-				║ ──────────────────────────────────────────────                     ║
-				║ Agony              Ken                                             ║
-				║ Bleeding           Strength                                        ║
-				║ Blind              Ken                                             ║
-				║ Charmed            Passions                                        ║
-				║ Confused           Ken                                             ║
-				║ Immobilised        Strength                                        ║
-				║ Infected           Strength                                        ║
-				║ Paralysed          Speed                                           ║
-				║ Poisoned           Strength                                        ║
-				║ Stunned            Passions                                        ║
-				║ ──────────────────────────────────────────────                     ║
 
 			3.5.2.9 Manoeuver Action
 				
