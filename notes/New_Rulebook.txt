@@ -1123,7 +1123,7 @@
 				║ Shake          Passions + Eusociology 	Charmed                                         ║
 				║ ───────────────────────────────────────────────────────────────                           ║
 
-			3.5.2.8 Resisting Effects
+			3.5.2.8 Resist Action
 			
 				A Combatant can take a Resist Action during their turn to overcome a single Effect.
 				
