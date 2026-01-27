@@ -1841,7 +1841,7 @@ There are five types of Risk Events:
 			
 		3.8.2.0 Secure a Room
 		
-			A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To Secure a Room, the Characters must Consume Building Resources. Once they do, they can Roll Construction + STR or KEN versus Level. On a Success, the room is Secured, and Resting & Healing can continue in that room. There are no consequences for Failure except for the waste of Consumed Resources. Once a Room has been Secured, it can be used for Resting & Healing again at a later time.
+			A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To Secure a Room, the Characters must Consume Building Resources. Once they do, they can Roll Construction + STR or KEN vs Level. On a Success, the room is Secured, and Resting & Healing can continue in that room. There are no consequences for Failure except for the waste of Consumed Resources. Once a Room has been Secured, it can be used for Resting & Healing again at a later time.
 			
 			3.8.2.1 Secure a Room with Web
 			
