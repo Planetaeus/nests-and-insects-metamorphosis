@@ -398,7 +398,7 @@
 			
 			2.6.4.1 Carapace
 			
-				The armored warrior is favored in a battle. A Character adds their Carapace rating as a positive modifier to any Rolls made to defend against Close range Attacks.
+				The armored warrior is favored in battle, and Carapace represents an Insect's reinforced exoskeleton. A Character adds their Carapace rating as a positive modifier to any Rolls made to defend against Close range Attacks. Attacks that use Carapace take advantage of the Character's hardened surface to keep her protected in otherwise risky techniques.
 			
 			2.6.4.2 Darkness
 			
@@ -410,17 +410,17 @@
 			
 			2.6.4.4 Swarming
 			
-				Swarming Characters can summon conspecifics to aid them on her Job. These conspecifics can soak up Wounds and unleash powerful group Attacks on her enemies. However, this benefit leaves them more susceptible to Area Attacks. 
+				Swarming Characters can summon conspecifics to aid them on her Job. These conspecifics can soak up Wounds and unleash powerful group Attacks on her enemies. However, this benefit leaves them more susceptible to Area Attacks: Characters with Swarming receive their Current Swarms as a Negative Modifier to Resist Area Attacks. Attacks that use Swarming tend to cost Swarms to achieve their effects. But it is all worth it, as the sacrifice of the few leads to the victory of the many. Or at least the Character in charge of the Swarm.
 				
 				_Swarms_ A Swarming Character starts with a number of Swarms equal to her Swarming rating. When a Character with Swarming takes Wounds, they can choose to lose that many Swarms instead. Once they reach zero Swarms, they take Wounds as normal. Attacks that use Swarming also reference the number of Current Swarms. A Swarming Character receives her Current Swarms as a negative modifier to her Roll to defend against Area Attacks.
 			
 			2.6.4.5 Venom
 			
-				Venom is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being envenomed. Unless it heals them. But it's still a weird experience.
+				Venom is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being envenomed. Unless it heals them. But it's still a weird experience. Attacks with Venom apply various Effects, like Agony, Poisoned, Infected, or Paralysed.
 			
 			2.6.4.6 Web
 			
-				Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk.
+				Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk. Web can be used to aid in the Construction of barriers and defenses, and can also be used to trap or bind Enemies. Web-based Attacks inflict the Immobilised Condition.
 				
 		2.6.5.0 Advanced Attributes
 		
