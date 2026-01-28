@@ -518,15 +518,15 @@
 				║ Agony              Ken                                             ║
 				║ Bleeding           Strength                                        ║
 				║ Blind              Ken                                             ║
-				║ Brittle            Strength                                        ║
-				║ Burning            Speed                                           ║
-				║ Charmed            Passions                                        ║
-				║ Confused           Ken                                             ║
+				║ Brittle            Strength + Heat                                 ║
+				║ Burning            Speed + Chill                                   ║
+				║ Charmed            Passions + Psycho                               ║
+				║ Confused           Ken + Psycho                                    ║
 				║ Immobilised        Strength                                        ║
-				║ Infected           Strength                                        ║
+				║ Infected           Strength + Plant                                ║
 				║ Paralysed          Speed                                           ║
-				║ Poisoned           Strength                                        ║
-				║ Shocked            Passions                                        ║
+				║ Poisoned           Strength + Plant                                ║
+				║ Shocked            Passions + Static                               ║
 				║ Stunned            Passions                                        ║
 				║ ──────────────────────────────────────────────                     ║
 			
