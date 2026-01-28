@@ -325,12 +325,28 @@
 				Passions is the unbridled fury of a bug against the world. Passions is the strength of a leader, or the aggression of a warrior. Passions is all about enforcing the Character's will on others. In Combat, Passions is used to Charm or Intimidate enemies.
 			
 		2.6.2.0 Combat Attributes
+			
+			Combat relies on four Attributes: Initiative, Threat Rate, Survival Rate, and Wounds. The Character Sheet also provides a place to keep track of Swarms.
 		
 			2.6.2.1 Initiative
 			
-			2.6.2.2 Survival Rate
+				Initiative dictates how quick a Character is to act, and their readiness to do so. When Combat begins, each Character Rolls their Initiative to determine their starting Disposition, which can determine the outcome of battle. The Initiative Rating then determines the order of Initiative, followed by Disposition.
 			
-			2.6.2.3 Wounds
+			2.6.2.2 Threat Rate
+			
+				Threat Rate is the fighting instinct of an Insect. It is used as part of the Effort for most Attacks.
+			
+			2.6.2.3 Survival Rate
+			
+				Survival Rate is the combined might of an Insects reflexes and defenses. It is used as part of the Resistance for most Attacks.
+			
+			2.6.2.4 Wounds
+			
+				Wounds mark how close an Insect is to DEATH. Each Character has a Max Wounds Rating. When her Wounds reaches her Max Wounds, she DIES. There is no penalty for having Wounds, other than being closer to DEATH.
+			
+			2.6.2.5 Swarms
+			
+				Swarming Characters have Swarms. The maximum Swarms a Character can have at any time is equal to her Swarming Rating. See the note in Section 2.6.4.4 for more information on Swarms.
 		
 		2.6.3.0 Common Attributes
 		
