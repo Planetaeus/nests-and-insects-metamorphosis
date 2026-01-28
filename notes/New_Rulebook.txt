@@ -350,25 +350,47 @@
 		
 		2.6.3.0 Common Attributes
 		
+			Common Attributes represent aspects that are relatively common among Insects. 
+		
 			2.6.3.1 Construction
+			
+				Construction represents an Insect's ability to create barriers in their surroundings, and to knock them down in turn. Construction is used to destroy Obstacles during Survival & Exploration, as well as to Secure Rooms during Resting & Healing. During Combat, Characters may use Construction as part of manoeuvers to create shields, pits, or other obstructions to their Enemies.
 			
 			2.6.3.2 Eusociology
 			
+				Eusociology is an Insect's knowledge of eusociety. This includes Bees, Wasps, Hornets, Ants, and Termites. This can be used to glean insight into the workings of a eucocial Insect's mind, or know things about a Nest. In Combat, Eusociology can be used to Confuse enemies with cunning application of what you know.
+			
 			2.6.3.3 Exploration
+			
+				Exploration is the drive for food and everything good in the world. It represents an instinct to avoid danger and seek bounty. Exploration's main use is in Survival & Exploration, where an Exploration Roll determines the Costs, Risks, and Rewards found along the way.
 			
 			2.6.3.4 Foraging
 			
+				Foraging is an Insect's knowledge and instincts for harvesting edible plant and fungus parts. It can be used to Identify unknown Herbivore Food Items, and is also used in Hunting & Foraging to gather such Items.
+			
 			2.6.3.5 Healing
+			
+				Healing is an Insect's medical knowledge. In the "Real World", Insects have a difficult time recovering from many injuries. In Nests & Insects, the bugs know how to apply patches and salves to cover up wounds and keep their insides inside. During the Resting & Healing minigame, a Character can Roll Healing to reduce her Wounds or another Insect's Wounds.
 			
 			2.6.3.6 Hunting
 			
+				Hunting is an Insect's knowledge of prey and instincts for hunting them down. It can be used to Identify unknown Insectivore Food Items, and is also used in Hunting & Foraging to gather such items. At the GQ's discretion, Hunting may be used in place of Eusociology for certain Rolls.
+			
 			2.6.3.7 Leadership
+			
+				Leadership. A single implacable quality that defines a personality that Insects can Rally behind. Leadership is used to Rally allies in Combat to improve their Disposition, but it can also be used to try and persuade Insects that you are their friend, through the Charmed Effect. Powerful Leadership can keep the whole Team Charging and Enemies in awe of your cause.
 			
 			2.6.3.8 Perception
 			
-			2.6.3.9 Signalling
+				Perception is a collection of all of an Insect's senses. Sight, smell, hearing, pheromone reception, electrosensitivity, all are covered by Perception. The most common use for Perception is to spot Sneaking Insects, but it can also be used to temporarily negate the effects of Darkness or point out an Enemy's weak spots.
+			
+			2.6.3.9 Signaling
+			
+				Signaling is an Insect's communication with the world around her. It covers sending secret pheromone messages to allies, as well as intimidating displays of color and aposematism. In Combat, Signaling is used to Intimidate enemies to reduce their Disposition. It can also be used to communicate secret tactics without the knowledge of the Enemy.
 			
 			2.6.3.10 Sneaking
+			
+				Sneaking is the age-old art of not being noticed. It can be used to escape overwhelming threats, or to get the jump on unsuspecting prey. Sneaking can be used to circumnavigate an Encounter. In such an Encounter, it can also be used to give Positive Modifiers to your Attacks, or Negative Modifiers to your Attackers.
 			
 		2.6.4.0 Special Attributes
 			
