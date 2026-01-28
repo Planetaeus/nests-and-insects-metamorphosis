@@ -450,7 +450,7 @@
 			
 			2.6.5.7 Psycho
 			
-				Psycho is an enhancement of the mind. Psychokinesis, Telepathy, Mind Control, all are possible for a Psycho Insect.
+				Psycho is an enhancement of the mind. Psychokinesis, Telepathy, Mind Control, all are possible for a Psycho Insect. Insects with Psycho have stronger wills, and add Psycho as a Positive Modifier to their Resistance against Charm, Confuse, and Intimidate.
 			
 			2.6.5.8 Vibe
 			
