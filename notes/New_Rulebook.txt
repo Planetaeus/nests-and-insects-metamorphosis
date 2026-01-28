@@ -290,7 +290,7 @@
 			
 		2.5.5.0 Assigning Common Attributes
 		
-			The Player chooses seven Common Attributes and distributes the following ratings among them as they choose: 3, 2, 2, 2, 1, 1, 1
+			The Player chooses seven Common Attributes and distributes the following ratings among them as they choose: 4, 3, 3, 2, 2, 1, 1.
 		
 		2.5.6.0 Assigning Combat Conditions
 		
