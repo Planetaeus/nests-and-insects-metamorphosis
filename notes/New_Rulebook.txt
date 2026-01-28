@@ -298,6 +298,8 @@
 			
 		2.5.7.0 Selecting Attacks
 		
+			Characters can know up to four Attacks. Many Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (SECTION) and selects up to four Attacks for which her Character qualifies.
+		
 		2.5.8.0 Starting Inventory
 		
 			Each Character starts with a Rating-4 food item in their inventory that matches their diet. This starting food has no special properties.
