@@ -1030,13 +1030,13 @@
 			3.5.2.3 Initiative Order
 				Before the start of the first Combat Round, and after Starting Disposition is Determined, the GQ decides the Initiative Order for all Combatants.
 				
-				Combats take Turns in order of the count of Successes from their Initiative Roll. The Combatant with the Highest Initiative Order takes the First Turn, the one with the next highest Initiative Order takes the Second Turn, and so on.
+				Combatants take Turns in order of their Initiative Ratings. The Combatant with the highest Initiative Order takes the First Turn, the one with the next highest Initiative Order takes the Second Turn, and so on.
 				
 				Initiative Order is determined as follows:
 				
-				* For Each Combatant, her Initiative Order is equal to her starting Disposition.
+				* For Each Combatant, her Initiative Order is equal to her Initiative Rating.
 				
-				* If two or more Combatants are tied for Starting Disposition, the Combatant with the highest Initiative Rating takes a Turn before the other Combatants.
+				* If two or more Combatants are tied for Initiative Rating, the Combatant with the highest Starting Disposition takes a Turn before the other Combatants.
 				
 				* If two or more Combatants are still tied after the Initiative and Disposition are compared, the GQ Rolls a die to break the tie.
 				
