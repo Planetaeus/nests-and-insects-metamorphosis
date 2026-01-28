@@ -1118,9 +1118,9 @@
 				║                                                                                           ║
 				║ Action        Effort                    Resistance                                        ║
 				║ ──────────────────────────────────────────────────────────────                            ║
-				║ Charm         Passions + Leadership     Passions                                          ║
-				║ Confuse       Ken + Eusociology         Ken                                               ║
-				║ Intimidate    Passions + Signaling      Passions                                          ║
+				║ Charm         Passions + Leadership     Passions + Psycho                                 ║
+				║ Confuse       Ken + Eusociology         Ken + Psycho                                      ║
+				║ Intimidate    Passions + Signaling      Passions + Psycho                                 ║
 				║ ──────────────────────────────────────────────────────────────                            ║
 
 			3.5.2.7 Support Action
