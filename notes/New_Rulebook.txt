@@ -564,7 +564,7 @@
 				
 			2.6.8.8 Brittle
 			
-				Resist with: STR
+				Resist with: STR + Heat
 				
 				When a Brittle Effect Triggers, nothing happens.
 				
@@ -572,19 +572,19 @@
 				
 			2.6.8.9 Burning
 			
-				Resist with: SPE
+				Resist with: SPE + Chill
 				
 				When a Burning Effect Triggers, the Character takes 1 Wound and their Burning Rating decreases by 1.
 				
 			2.6.8.10 Charmed
 			
-				Resist with: PAS
+				Resist with: PAS + Psycho
 				
 				When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. They may take other Actions and Manoeuvers as normal.
 				
 			2.6.8.11 Confused
 			
-				Resist with: KEN
+				Resist with: KEN + Psycho
 				
 				When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack and Move Actions during their turn. Targets for Attacks are selected at random. If no targets are within range, the Character Moves towards the nearest target.
 				
@@ -600,7 +600,7 @@
 			
 			2.6.8.13 Infected
 			
-				Resist with: STR
+				Resist with: STR + Plant
 			
 				When an Infected Effect triggers, the subject Character is bestowed a random Effect.
 				
@@ -618,7 +618,7 @@
 				
 			2.6.8.15 Poisoned
 			
-				Resist with: STR
+				Resist with: STR + Plant
 			
 				When a Poisoned Effect triggers, Roll to Increase Poisoning.
 				
@@ -626,7 +626,7 @@
 				
 			2.6.8.16 Shocked
 			
-				Resist with: PAS
+				Resist with: PAS + Static
 				
 				When a Shocks Effect Triggers, nothing special happens.
 				
