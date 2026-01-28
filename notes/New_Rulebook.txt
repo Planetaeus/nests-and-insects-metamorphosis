@@ -237,8 +237,7 @@
 			
 			2.3.9.3 Experience Point (XP) Track
 				
-				Certain events in the course of exploring a Nest grant the Characters XP. While Resting, Characters can spend XP to increase their Abilities and Attributes. To increase an Ability or Attribute costs a number of XP equal to the current rating plus one: It costs 6 XP to go from 5 to 6, but it costs 7 XP to go from 6 to 7.
-				A Character can hold up to 10 XP at any time.
+				Certain events in the course of exploring a Nest grant the Characters XP. During Resting & Healing (SECTION), Characters can spend XP to increase their Abilities and Attributes.
 				
 	2.4.0.0 Character Classes (TBD)
 	
@@ -1912,7 +1911,9 @@ There are five types of Risk Events:
 		
 		3.8.7.0 Spend XP
 		
-			If a Character has any XP that they wish to spend, they may do so. See SECTION for the rules on spending XP.
+			If a Character has any XP that they wish to spend, they may do so. To increase an Ability or Attribute costs a number of XP equal to the current rating plus one: It costs 6 XP to go from 5 to 6, but it costs 7 XP to go from 6 to 7.
+			
+			_Gaining New Attributes_ Characters can spend XP to gain new Attributes starting at Rating 1. Common Attributes cost 1 XP to start. Special Attributes cost 3 XP to start. Advanced Attributes cost 5 XP to start.
 		
 		3.8.8.0 Change Attacks
 		
