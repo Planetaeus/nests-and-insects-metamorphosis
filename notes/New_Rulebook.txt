@@ -430,7 +430,7 @@
 			
 			2.6.5.2 Heat
 			
-				Heat represents a Character's control of ectothermic reactions. Either by rapid vibrations or chemical reactions, the Character builds up a significant amount of Heat energy and disperses it into their unwitting foes. Attacks that use Heat often bestow the Burning Effect, which does damage over time.
+				Heat represents a Character's control of exothermic reactions. Either by rapid vibrations or chemical reactions, the Character builds up a significant amount of Heat energy and disperses it into their unwitting foes. Attacks that use Heat often bestow the Burning Effect, which does damage over time.
 			
 			2.6.5.3 Hydro
 			
