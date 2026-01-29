@@ -267,7 +267,9 @@
 		
 		2.5.3.0 Assigning Core Attributes
 		
-			Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 4, 3, 2, 1
+			Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 4, 3, 2, 1.
+			
+			See Section 2.6.1.0 for more details on Core Attributes.
 		
 		2.5.4.0 Selecting Special Attributes
 		
@@ -287,13 +289,17 @@
 			
 			The Player chooses one or two Special Attributes from the list above. If the Character starts with one Special Attribute, it starts with a rating of 4. If the Character starts with two Special Attributes, they each start with a rating of 2.
 			
+			See Section 2.6.4.0 for more details on Special Attributes.
+			
 		2.5.5.0 Assigning Common Attributes
 		
 			The Player chooses seven Common Attributes and distributes the following ratings among them as they choose: 4, 3, 3, 2, 2, 1, 1.
+			
+			See Section 2.6.3.0 for more details on Common Attributes.
 		
 		2.5.6.0 Assigning Combat Conditions
 		
-			Each Character starts with a rating of 1 in Initiative, Threat Rate, and Survival Rate.
+			Each Character starts with a rating of 1 in Initiative, Threat Rate, and Survival Rate. See Section 2.6.2.0 for more details on Combat Attributes.
 			
 		2.5.7.0 Selecting Attacks
 		
@@ -301,7 +307,7 @@
 		
 		2.5.8.0 Starting Inventory
 		
-			Each Character starts with a Rating-4 food item in their inventory that matches their diet. This starting food has no special properties.
+			Each Character starts with a Rating-4 food item in their inventory that matches their diet. This starting food has no special properties, other than being delicious!
 		
 	2.6.0.0 Character Features
 	
