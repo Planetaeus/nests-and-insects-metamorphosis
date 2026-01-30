@@ -573,7 +573,7 @@
 				
 				When a Brittle Effect Triggers, nothing happens.
 				
-				However, a Brittle Character receives a penalty to their Survival Rating and Carapace equal to their Brittle Rating.
+				However, a Brittle Character receives a penalty to both their Survival Rating and Carapace equal to their Brittle Rating.
 				
 			2.6.8.9 Burning
 			
