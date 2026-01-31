@@ -429,7 +429,7 @@
 			
 			2.6.5.2 Heat
 			
-				Heat represents a Character's control of exothermic reactions. Either by rapid vibrations or chemical reactions, the Character builds up a significant amount of Heat energy and disperses it into their unwitting foes. Attacks that use Heat often bestow the Burning Effect, which does damage over time.
+				Heat represents a Character's control of exothermic reactions. Either by rapid vibrations or chemical reactions, the Character builds up a significant amount of Heat energy and disperses it into their unwitting foes. Attacks that use Heat often bestow the Burns Effect, which does damage over time.
 			
 			2.6.5.3 Hydro
 			
@@ -437,7 +437,7 @@
 			
 			2.6.5.4 Light
 			
-				Bioluminescence. The art of life making light. This Attribute can be used to negate the effects of Darkness in a Room. It can also be used to shoot high-powered lasers at your enemies, Burning or Blinding them. Nature truly is beautiful.
+				Bioluminescence. The art of life making light. This Attribute can be used to negate the effects of Darkness in a Room. It can also be used to shoot high-powered lasers at your enemies, Burns or Blinding them. Nature truly is beautiful.
 			
 			2.6.5.5 Plant
 			
@@ -519,7 +519,7 @@
 				║ Bleeding           Strength                                        ║
 				║ Blind              Ken                                             ║
 				║ Brittle            Strength + Heat                                 ║
-				║ Burning            Speed + Chill                                   ║
+				║ Burns            Speed + Chill                                   ║
 				║ Charmed            Passions + Psycho                               ║
 				║ Confused           Ken + Psycho                                    ║
 				║ Immobilised        Strength                                        ║
@@ -569,11 +569,11 @@
 				
 				However, a Brittle Character receives a penalty to both their Survival Rating and Carapace equal to their Brittle Rating.
 				
-			2.6.8.9 Burning
+			2.6.8.9 Burns
 			
 				Resist with: SPE + Chill
 				
-				When a Burning Effect Triggers, the Character takes 1 Wound and their Burning Rating decreases by 1.
+				When a Burns Effect Triggers, the Character takes 1 Wound and their Burns Rating decreases by 1.
 				
 			2.6.8.10 Charmed
 			
@@ -2216,12 +2216,12 @@ There are five types of Risk Events:
 		Burning Blaze
 		Range: Area
 		Requirements: Heat 5
-		Roll Heat + TR. Each insect within Successes hexes Rolls SPE + TR to Resist, then gains Wounds and Burning for each Net Success.
+		Roll Heat + TR. Each insect within Successes hexes Rolls SPE + TR to Resist, then gains Wounds and Burns for each Net Success.
 		
 		Burning Blow
 		Range: Close
 		Requirements: Heat 3
-		Roll Heat + TR vs. SPE + TR against an adjacent insect. The target gains Wounds and Burning for each Net Success.
+		Roll Heat + TR vs. SPE + TR against an adjacent insect. The target gains Wounds and Burns for each Net Success.
 		
 		Chilling Blast
 		Range: Area
@@ -2241,7 +2241,7 @@ There are five types of Risk Events:
 		Flaming Webs
 		Range: Area
 		Requirements: Heat 6, Web 6
-		Choose a hex within Web hexes and Roll Heat + Web + TR. Each insect within Successes hexes Rolls SPE + SR to Resist, then gains Wounds, Burning, and Immobilised equal to the Net Successes.
+		Choose a hex within Web hexes and Roll Heat + Web + TR. Each insect within Successes hexes Rolls SPE + SR to Resist, then gains Wounds, Burns, and Immobilised equal to the Net Successes.
 		
 		Flythrough
 		Range: Close
@@ -2256,7 +2256,7 @@ There are five types of Risk Events:
 		Fontanellar Gun
 		Range: Ranged
 		Requirements: Hydro 3
-		Choose an insect within Hydro hexes. Roll Hydro + TR vs. SPE + SR. The target gains Wounds, Reduces Burning, and is Pushed 1 for each Net Success.
+		Choose an insect within Hydro hexes. Roll Hydro + TR vs. SPE + SR. The target gains Wounds, Reduces Burns, and is Pushed 1 for each Net Success.
 		
 		Fungal Bungle
 		Range: Close
@@ -2291,7 +2291,7 @@ There are five types of Risk Events:
 		Hot-othysis
 		Range: Area
 		Requirements: Heat 6, Swarming 6
-		Roll Swarming + TR and choose a hex within Swarming hexes. Each insect in or adjacent the chosen hex rolls SPE + SR to Resist, gaining Wounds and Burning for each Net Success. Lose one Swarms.
+		Roll Swarming + TR and choose a hex within Swarming hexes. Each insect in or adjacent the chosen hex rolls SPE + SR to Resist, gaining Wounds and Burns for each Net Success. Lose one Swarms.
 		
 		Inflict Stillness
 		Range: Close
