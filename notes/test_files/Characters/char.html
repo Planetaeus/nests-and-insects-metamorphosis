@@ -22,7 +22,10 @@
 				width: 93px;
 			}
 			input[type="text"][class="long-text"] {
-				width: 315px;
+				width: 351px;
+			}
+			input[type="text"][class="inv-text"] {
+				width: 645px;
 			}
 			input[type=checkbox] {
 				appearance: none;
@@ -249,57 +252,53 @@
 						<div class="form-row">
 							<div>
 								<div class="form-group">
-									<label for="agony">1. Agony:</label>
-									<input type="number" id="agony" name="agony" min="0" max="10" value="0">
-								</div>
-								<div class="form-group">
-									<label for="bleed">2. Bleeding:</label>
+									<label for="bleed">1. Bleeding:</label>
 									<input type="number" id="bleed" name="bleed" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="blind">3. Blind:</label>
+									<label for="blind">2. Blind:</label>
 									<input type="number" id="blind" name="blind" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="charm">4. Charmed:</label>
-									<input type="number" id="charm" name="charm" min="0" max="10" value="0">
-								</div>
-								<div class="form-group">
-									<label for="confused">5. Confused:</label>
-									<input type="number" id="confused" name="confused" min="0" max="10" value="0">
-								</div>
-								<div class="form-group">
-									<label for="brittle">Brittle:</label>
+									<label for="brittle">3. Brittle:</label>
 									<input type="number" id="brittle" name="brittle" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="burns">Burns:</label>
+									<label for="burns">4. Burns:</label>
 									<input type="number" id="burns" name="burns" min="0" max="10" value="0">
+								</div>
+								<div class="form-group">
+									<label for="charm">5. Charmed:</label>
+									<input type="number" id="charm" name="charm" min="0" max="10" value="0">
+								</div>
+								<div class="form-group">
+									<label for="confused">6. Confused:</label>
+									<input type="number" id="confused" name="confused" min="0" max="10" value="0">
 								</div>
 							</div>
 							<div>
 								<div class="form-group">
-									<label for="immobile">6. Immobile:</label>
+									<label for="immobile">7. Immobile:</label>
 									<input type="number" id="immobile" name="immobile" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="infected">7. Infected:</label>
+									<label for="infected">8. Infected:</label>
 									<input type="number" id="infected" name="infected" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="paralyzed">8. Paralyzed:</label>
+									<label for="paralyzed">9. Paralyzed:</label>
 									<input type="number" id="paralyzed" name="paralyzed" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="poisoned">9. Poisoned:</label>
+									<label for="poisoned">10. Poisoned:</label>
 									<input type="number" id="poisoned" name="poisoned" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="stunned">10. Stunned:</label>
+									<label for="stunned">11. Stunned:</label>
 									<input type="number" id="stunned" name="stunned" min="0" max="10" value="0">
 								</div>
 								<div class="form-group">
-									<label for="shocks">Shocks:</label>
+									<label for="shocks">12. Shocks:</label>
 									<input type="number" id="shocks" name="shocks" min="0" max="10" value="0">
 								</div>
 							</div>
@@ -324,12 +323,11 @@
 					<input type="radio" id="charge" name="disposition" value="+3">
 					<label for="charge" class="disp-label">: Charge</label>
 				</div>
-
-				<div id="combat-div">
-					<br>
-					<strong>Combat Attributes</strong>
-					<div class="form-row">
+				<br>
+				<div class = "form-row">
+					<div id="combat-div" class="form-row">
 						<div id="combat-attributes">
+							<strong>Combat Attributes</strong>
 							<div class="form-group">
 								<label for="init">Initiative:</label>
 								<input type="number" id="init" name="init" min="0" max="10" value="0">
@@ -344,6 +342,7 @@
 							</div>
 						</div>
 						<div id="wounds-div">
+							<br>
 							<div class="form-row">
 								<label for="wound-max">Max Wounds:</label>
 								<input type="number" id="wound-max" name="wound-max" min="0" max="10" value="0">
@@ -358,6 +357,21 @@
 							</div>
 						</div>
 					</div>
+					<div id="surv-div">
+						<strong>Survival Attributes</strong>
+						<div class="form-row">
+							<div>
+								<label for="hunger">Hunger:</label>
+								<br>
+								<label for="mp">Metamorphosis:</label>
+							</div>
+							<div style="margin-left:10px">
+								<input type="number" id="hunger" name="hunger" min="0" max="10" value="0">
+								<br>
+								<input type="number" id="mp" name="mp" min="0" max="10" value="0">
+							</div>
+						</div>
+					</div>
 				</div>
 				<div id="atks-div">
 					<br>
@@ -367,14 +381,14 @@
 							<br>
 							<input type="text" id="atk1-name" name="atk1-name" placeholder="Slam Attack" class="long-text">
 							<br>
-							<textarea id="atk1-text" name="atk1-text" rows = "5" cols = "41">Place the details of the attack here.</textarea>
+							<textarea id="atk1-text" name="atk1-text" rows = "5" cols = "43">Place the details of the attack here.</textarea>
 						</div>
 						<div>
 							<strong>Attack #2</strong>
 							<br>
 							<input type="text" id="atk2-name" name="atk2-name" placeholder="Slam Attack" class="long-text">
 							<br>
-							<textarea id="atk2-text" name="atk2-text" rows = "5" cols = "41">Place the details of the attack here.</textarea>
+							<textarea id="atk2-text" name="atk2-text" rows = "5" cols = "43">Place the details of the attack here.</textarea>
 						</div>
 
 					</div>
@@ -384,60 +398,41 @@
 							<br>
 							<input type="text" id="atk3-name" name="atk3-name" placeholder="Slam Attack" class="long-text">
 							<br>
-							<textarea id="atk3-text" name="atk3-text" rows = "5" cols = "41">Place the details of the attack here.</textarea>
+							<textarea id="atk3-text" name="atk3-text" rows = "5" cols = "43">Place the details of the attack here.</textarea>
 						</div>
 						<div>
 							<strong>Attack #4</strong>
 							<br>
 							<input type="text" id="atk4-name" name="atk4-name" placeholder="Slam Attack" class="long-text">
 							<br>
-							<textarea id="atk4-text" name="atk4-text" rows = "5" cols = "41">Place the details of the attack here.</textarea>
+							<textarea id="atk4-text" name="atk4-text" rows = "5" cols = "43">Place the details of the attack here.</textarea>
 						</div>
 					</div>
 				</div>
-				<div id="surv-div">
-					<br>
-					<div class="form-row">
-						<div id="inv-div">
-							<strong>Inventory</strong>
-							<div class="form-group">
-								<input type="text" id="item1" name="item1" class="long-text">
-								<input type="number" id="item1-val" name="item1-val" min="0" max="10" value="0">
-							</div>
-							<div class="form-group">
-								<input type="text" id="item2" name="item2" class="long-text">
-								<input type="number" id="item2-val" name="item2-val" min="0" max="10" value="0">
-							</div>
-							<div class="form-group">
-								<input type="text" id="item3" name="item3" class="long-text">
-								<input type="number" id="item3-val" name="item3-val" min="0" max="10" value="0">
-							</div>
-							<div class="form-group">
-								<input type="text" id="item4" name="item4" class="long-text">
-								<input type="number" id="item4-val" name="item4-val" min="0" max="10" value="0">
-							</div>
-							<div class="form-group">
-								<input type="text" id="item5" name="item5" class="long-text">
-								<input type="number" id="item5-val" name="item5-val" min="0" max="10" value="0">
-							</div>
-						</div>
-						<div>
-							<div id="hunger-div">
-								<div class="form-row">
-									<label for="hunger"><strong>Hunger:</strong></label>
-									<input type="number" id="hunger" name="hunger" min="0" max="10" value="0">
-								</div>
-							</div>
-							<div id="xp-div">
-								<div class="form-row">
-									<label for="xp"><strong>Experience</strong></label>
-									<input type="number" id="xp" name="xp" min="0" max="10" value="0">
-								</div>
-							</div>
-						</div>
+				<br>
+				<div id="inv-div">
+					<strong>Inventory</strong>
+					<div class="form-group">
+						<input type="text" id="item1" name="item1" class="inv-text">
+						<input type="number" id="item1-val" name="item1-val" min="0" max="10" value="0">
+					</div>
+					<div class="form-group">
+						<input type="text" id="item2" name="item2" class="inv-text">
+						<input type="number" id="item2-val" name="item2-val" min="0" max="10" value="0">
+					</div>
+					<div class="form-group">
+						<input type="text" id="item3" name="item3" class="inv-text">
+						<input type="number" id="item3-val" name="item3-val" min="0" max="10" value="0">
+					</div>
+					<div class="form-group">
+						<input type="text" id="item4" name="item4" class="inv-text">
+						<input type="number" id="item4-val" name="item4-val" min="0" max="10" value="0">
+					</div>
+					<div class="form-group">
+						<input type="text" id="item5" name="item5" class="inv-text">
+						<input type="number" id="item5-val" name="item5-val" min="0" max="10" value="0">
 					</div>
 				</div>
-				
 				<br>
 				<button type="button" onclick="convertToJson()">Submit</button>
 				<script>
