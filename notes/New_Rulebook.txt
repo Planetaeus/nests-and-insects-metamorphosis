@@ -1843,13 +1843,35 @@ There are five types of Risk Events:
 
 5.0.0.0 Attacks
 
+	In Combat, Attacking is the main way to inflict Wounds upon Enemy Insects. Each Insect can know up to four attacks at once, and can only choose Attacks for which she Qualifies, which is to say that she meets its Requirements.
+	
+	This section describes a number of pre-made Attacks for the game. The Game Queen is free to work with her players to create new attacks if she wishes.
+
 	5.1.0.0 Reading Attacks
+
+		Attacks have four Attributes: Name, Range, Requirements, and Description. The following sections speak about these 
 		
 		5.1.1.0 Attack Names
+			
+			Each Attack has a name that is used to distinguish it from other attacks. The name is usually no longer than two words.
+			
+			When coming up with your own Attacks, do not forget to name them.
 		
-		5.1.2.0 Attack Requirements
+		5.1.2.0 Attack Ranges
+			
+			
 		
-		5.2.3.0 Attack Terminology
+		5.1.3.0 Attack Requirements
+		
+		5.1.4.0 Attack Description Glossary
+			
+			*Adjacent: The Insect or Hex is touching the Hex of interest, typically the Attacker or a chosen Hex.
+		
+			* Gains X for each Net Success: Represents an amount of Wounds or some Effect that is bestowed upon an Insect. This phrase may have more than one component, such as "gains Wounds and Immobile for each Net Success". In this case, all of the listed components are bestowed in the same amount.
+				
+			* Pushed X: The Insect is forcibly moved against its will X Hexes. If unspecified, the direction is directly away from the Attacker. It may be specified as directly away from a chosen Hex ("Pushed X from chosen Hex"), a direction of your choice ("Pushed X in any direction"), or directly towards the Attacker ("Pushed X towards you")
+		
+			* Within X Hexes: X represents a set number, or a Rating. A Hex is within X Hexes if it takes no more than X Hex-steps to move to that Hex.
 		
 	5.2.0.0 Lists of Attacks by Attribute
 		5.2.1.0 Core Attributes
