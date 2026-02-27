@@ -1882,8 +1882,11 @@ There are five types of Risk Events:
 				Hit and Run
 				Requirements: SPE 5
 				
+				Rhinoceros Gore
+				Requirements: SPE 6, STR 6
+				
 				Slicer
-				Requirements: SPE 5
+				Requirements: SPE 7
 				
 				Speedy Strike
 				Requirements: SPE 3
@@ -1893,7 +1896,13 @@ There are five types of Risk Events:
 				Requirements: STR 4, Flight 4
 				
 				Hercules Toss
+				Requirements: STR 7
+				
+				Mandible Crush
 				Requirements: STR 5
+				
+				Rhinoceros Gore
+				Requirements: SPE 6, STR 6
 				
 				Strong Strike
 				Requirements: STR 3
@@ -1908,6 +1917,9 @@ There are five types of Risk Events:
 				Plannéd Strike
 				Requirements: KEN 5
 				
+				Willéd Strike
+				Requirements: KEN 6, Psycho 6
+				
 			5.2.1.4 Passions Attacks
 				Bolster
 				Requirements: PAS 6, Leadership 3
@@ -1918,6 +1930,9 @@ There are five types of Risk Events:
 				Passion
 				Requirements: PAS 3
 				
+				Rout
+				Requirements: PAS 7, Signaling 3
+				
 		5.2.2.0 Special Attributes
 			5.2.2.1 Carapace Attacks
 				Armor Bash
@@ -1926,8 +1941,14 @@ There are five types of Risk Events:
 				Armored Charge
 				Requirements: SPE 4, Carapace 4
 				
-				Chitin Catapult
+				Armored Spikes
 				Requirements: Carapace 5
+				
+				Chitin Catapult
+				Requirements: Carapace 7
+				
+				Envenomed Spikes
+				Requirements: Carapace 6, Venom 6
 				
 				Reinforced Silk
 				Requirements: Carapace 6, Web 6
@@ -1939,8 +1960,11 @@ There are five types of Risk Events:
 				Ground Slam
 				Requirements: STR 6, Flight 6
 				
-				Twister
+				Gust
 				Requirements: Flight 5
+				
+				Twister
+				Requirements: Flight 7
 				
 			5.2.2.3 Swarming Attacks
 				Autothysis
@@ -1993,6 +2017,9 @@ There are five types of Risk Events:
 				Flaming Webs
 				Requirements: Heat 6, Web 6
 				
+				Searing Shine
+				Requirements: Heat 6, Light 6
+				
 			5.2.3.3 Hydro Attacks
 				Fontanellar Bomb
 				Requirements: Hydro 5
@@ -2000,12 +2027,18 @@ There are five types of Risk Events:
 				Fontanellar Gun
 				Requirements: Hydro 3
 				
+				Fontanellar Vortex
+				Requirements: Hydro 7
+				
 			5.2.3.4 Light Attacks
 				Bright Beam
 				Requirements: Light 5
 				
 				Point-Blank Flare
 				Requirements: Light 3
+				
+				Searing Shine
+				Requirements: Heat 6, Light 6
 				
 			5.2.3.5 Plant Attacks
 				
@@ -2015,7 +2048,11 @@ There are five types of Risk Events:
 				Sap Trap
 				Requirements: Plant 6, Web 6
 				
+				Vine Entwine
+				Requirements: Plant 5
+				
 			5.2.3.6 Static Attacks
+			
 				Line of Lightning
 				Requirements: Static 7
 				
@@ -2028,209 +2065,269 @@ There are five types of Risk Events:
 			5.2.3.7 Psycho Attacks
 				Psychic Mandibles
 				Requirements: Psycho 3
-				
+								
+				Willéd Strike
+				Requirements: KEN 6, Psycho 6
+
 			5.2.3.8 Vibe Attacks
 				Vibral Assault
 				Requirements: Vibe 3
 			
+				
 			
 	5.3.0.0 Attack Descriptions
 		
 		Armor Bash
 		Range: Close
 		Requirements: Carapace 3
-		Roll Carapace + TR vs. STR + SR against an adjacent insect. For each Net Success, the target gains Wounds and an adjacent Ally gains a positive modifier to her next Attack Resistance Roll.
+		Roll Carapace + TR vs. STR + SR against an adjacent Insect. For each Net Success, the target gains Wounds and an adjacent Ally gains a positive modifier to her next Attack Resistance Roll.
 		
 		Armored Charge
 		Range: Area
 		Requirements: SPE 4, Carapace 4
-		Move in a line of hexes up to your SPE. Roll SPE + Carapace + TR. Each Insect in that line must roll SPE + SR to Resist, then gains Wounds and is Pushed 1 for each Net Success.
+		Move in a line of Hexes up to your SPE. Roll SPE + Carapace + TR. Each Insect in that line must roll SPE + SR to Resist, then gains Wounds and is Pushed 1 for each Net Success.
+		
+		Armored Spikes
+		Range: Special
+		Requirements: Carapace 5
+		The next time you are Missed by a Close Attack before your next turn, the Attacker gains Wounds and Bleeding for each Net Failure
 		
 		Assuréd Strike
 		Range: Close
 		Requirements: KEN 7
-		Roll KEN + TR vs. KEN against an adjacent insect, ignoring Carapace. The target gains Wounds for each Net Success.
+		Roll KEN + TR vs. KEN against an adjacent Insect, ignoring Carapace. The target gains Wounds for each Net Success.
 		
 		Autothysis
 		Range: Area
 		Requirements: Swarming 3
-		Roll Swarming + TR and choose a hex within Swarming hexes. Each insect within one hex rolls SPE + SR to Resist, then gains Wounds for each Net Success. Lose one Swarms.
+		Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds and Immobile for each Net Success. Lose one Swarms.
 		
 		Bolster
 		Range: Close
 		Requirements: PAS 6, Leadership 3
-		Roll PAS + TR vs. PAS + SR against an adjacent insect. The target gains Wounds for each Net Success. Roll PAS + Leadership. Each Ally within Leadership hexes Rolls as if Resisting a Rally Action, then advances appropriately.
+		Roll PAS + TR vs. PAS + SR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Leadership. Each Ally within Leadership Hexes Rolls as if Resisting a Rally Action, then advances appropriately.
 		
 		Bright Beam
 		Range: Ranged
 		Requirements: Light 5
-		Roll Light + TR vs. PAS + SR against an insect within twice Light hexes. The target gains Wounds and Blind for each Net Success.
+		Roll Light + TR vs. PAS + SR against an Insect within twice Light Hexes. The target gains Wounds and Blind for each Net Success.
 		
 		Burning Blaze
 		Range: Area
 		Requirements: Heat 5
-		Roll Heat + TR. Each insect within Successes hexes Rolls SPE + TR to Resist, then gains Wounds and Burns for each Net Success.
+		Roll Heat + TR. Each Insect within Successes Hexes Rolls SPE + TR to Resist, then gains Wounds and Burns for each Net Success.
 		
 		Burning Blow
 		Range: Close
 		Requirements: Heat 3
-		Roll Heat + TR vs. SPE + TR against an adjacent insect. The target gains Wounds and Burns for each Net Success.
+		Roll Heat + TR vs. SPE + TR against an adjacent Insect. The target gains Wounds and Burns for each Net Success.
 		
 		Chilling Blast
 		Range: Area
 		Requirements: Chill 5
-		Choose a hex within Chill hexes. Roll Chill + TR. Each insect within one hex rolls STR + SR to Resist, then gains Wounds and Brittle for each Net Success.
+		Choose a Hex within Chill Hexes. Roll Chill + TR. Each Insect within one Hex rolls STR + SR to Resist, then gains Wounds and Brittle for each Net Success.
 		
 		Chilling Blow
 		Range: Close
 		Requirements: Chill 3
-		Roll Chill + TR vs. STR + SR against an adjacent insect. The target gains Wounds and Brittle for each Net Success.
+		Roll Chill + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Brittle for each Net Success.
 		
 		Chitin Catapult
 		Range: Ranged
-		Requirements: Carapace 5
-		Roll Carapace + TR vs. SPE + SR against an insect within Carapace hexes. The target gains Wounds and Brittle for each Net Success. You gain Brittle 2.
+		Requirements: Carapace 7
+		Roll Carapace + TR vs. SPE + SR against an Insect within Carapace Hexes. The target gains Wounds and Brittle for each Net Success. You gain Brittle 2.
+		
+		Envenomed Spikes
+		Range: Special
+		Requirements: Carapace 6, Venom 6
+		Add Venom as a positive modifier to your next Resistance Roll against a Close Attack before your next turn. If the Attack Misses, the Attacker gains Wounds and Poisoned for each Net Failure.
 		
 		Flaming Webs
 		Range: Area
 		Requirements: Heat 6, Web 6
-		Choose a hex within Web hexes and Roll Heat + Web + TR. Each insect within Successes hexes Rolls SPE + SR to Resist, then gains Wounds, Burns, and Immobilised equal to the Net Successes.
+		Choose a Hex within Web Hexes and Roll Heat + Web + TR. Each Insect within Successes Hexes Rolls SPE + SR to Resist, then gains Wounds, Burns, and Immobile equal to the Net Successes.
 		
 		Flythrough
 		Range: Close
 		Requirements: Flight 3
-		Move half Flight hexes. Roll Flight + TR vs. STR + TR against an adjacent insect. The target gains Wounds for each Net Success. Move half Flight hexes.
+		Move half Flight Hexes. Roll Flight + TR vs. STR + TR against an adjacent Insect. The target gains Wounds for each Net Success. Move half Flight Hexes.
 		
 		Fontanellar Bomb
 		Range: Area
 		Requirements: Hydro 5
-		Roll Hydro + TR and choose a hex within Hydro hexes. Each insect within Successes hexes Rolls STR + SR to Resist, then gains Wounds, Reduces Burns, and is pushed 1 from chosen hex for each Net Success.
+		Roll Hydro + TR and choose a Hex within Hydro Hexes. Each Insect within Successes Hexes Rolls STR + SR to Resist, then gains Wounds, Reduces Burns, and is Pushed 1 from chosen Hex for each Net Success.
 		
 		Fontanellar Gun
 		Range: Ranged
 		Requirements: Hydro 3
-		Choose an insect within Hydro hexes. Roll Hydro + TR vs. SPE + SR. The target gains Wounds, Reduces Burns, and is Pushed 1 for each Net Success.
+		Choose an Insect within Hydro Hexes. Roll Hydro + TR vs. SPE + SR. The target gains Wounds, Reduces Burns, and is Pushed 1 for each Net Success.
+		
+		Fontanellar Vortex
+		Range: Ranged
+		Requirements: Hydro 7
+		Roll Hydro + TR. Each Insect of your choice within Hydro Hexes Rolls Spe + SR to Resist, then gains wounds, Reduces Burns, and is Pushed 1 for each Net Success.
 		
 		Fungal Bungle
 		Range: Close
 		Requirements: Plant 3
-		Roll Plant + TR vs. STR + SR against an adjacent insect. The target gains Wounds and Infected for each Net Success.
+		Roll Plant + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Infected for each Net Success.
 		
 		Fury
 		Range: Close
 		Requirements: PAS 5
-		Roll PAS + TR + Current Wounds vs. STR + SR against an adjacent insect. The target gains Wounds for each Net Success. On a Success, Advance 1.
+		Roll PAS + TR + Current Wounds vs. STR + SR against an adjacent Insect. The target gains Wounds for each Net Success. On a Success, Advance 1.
 		
 		Ground Slam
 		Range: Area
 		Requirements: STR 4, Flight 4
-		Fly Flight hexes and land on the ground beneath. Roll STR + Flight. Each insect within Succeses hexes must roll SPE + SR to Resist, gaining Wounds for each Net Success.
+		Fly Flight Hexes and land on the ground beneath. Roll STR + Flight. Each Insect within Succeses Hexes must roll SPE + SR to Resist, gaining Wounds for each Net Success.
+		
+		Gust
+		Range: Area
+		Requirements: Flight 5
+		Roll Flight + TR. Each Insect in a line within Flight Hexes Rolls STR + TR to Resist, then gains Wounds and is Pushed 1 for each Net Success.
 		
 		Healing Dose
 		Range: Close
 		Requirements: Healing 3, Venom 3
-		Roll Venom + Healing + TR vs. PAS + SR against an adjacent insect. The target heals Wounds for each Net Success.
+		Roll Venom + Healing + TR vs. PAS + SR against an adjacent Insect. The target heals Wounds for each Net Success.
 		
 		Hercules Toss
 		Range: Close
-		Requirements: STR 5
-		Roll STR + TR vs. STR + SR against an adjacent insect. The target gains Wounds and is Pushed 1 for each Net Success.
+		Requirements: STR 7
+		Roll STR + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and is Pushed 1 in any direction for each Net Success. If the Insect collides with another Insect or an Obstacle before it stops moving, the Insect(s) gain Wounds equal to the remaining Hexes.
 		
 		Hit and Run
 		Range: Close
 		Requirements: SPE 5
-		Roll SPE + TR vs. SPE + TR against an adjacent insect. For each Net Success, the target gains Wounds and you may move that many hexes.
+		Roll SPE + TR vs. SPE + TR against an adjacent Insect. For each Net Success, the target gains Wounds and you may move that many Hexes.
 		
 		Hot-othysis
 		Range: Area
 		Requirements: Heat 6, Swarming 6
-		Roll Swarming + TR and choose a hex within Swarming hexes. Each insect in or adjacent the chosen hex rolls SPE + SR to Resist, gaining Wounds and Burns for each Net Success. Lose one Swarms.
+		Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls SPE + SR to Resist, gaining Wounds and Burns for each Net Success. Lose one Swarms.
 		
 		Inflict Stillness
 		Range: Close
 		Requirements: Venom 5
-		Roll Venom + TR vs. STR + SR against an adjacent insect. The target gains Wounds and Paralysed for each Net Success.
+		Roll Venom + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Paralysed for each Net Success.
 		
 		Kennéd Strike
 		Range: Close
 		Requirements: KEN 3
-		Roll KEN + TR vs. KEN + TR against an adjacent insect. The target gains Wounds for each Net Success.
+		Roll KEN + TR vs. KEN + TR against an adjacent Insect. The target gains Wounds for each Net Success.
 		
 		Line of Lightning
 		Range: Area
 		Requirements: Static 7
-		Choose two insects within Static hexes and Roll Static + TR. Chosen insects and each insect in a line between them Rolls PAS + TR, then gains Wounds and Shocks for each Net Success.
+		Choose two Insects within Static Hexes and Roll Static + TR. Chosen Insects and each Insect in a line between them Rolls PAS + TR, then gains Wounds and Shocks for each Net Success.
+		
+		Mandible Crush
+		Range: Close
+		Requires: Strength 5
+		Roll STR + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Immobile for each Net Success.
 		
 		Passion
+		Range: Close
 		Requirements: PAS 3
-		Roll PAS + TR vs. PAS + TR against an adjacent insect. The target gains Wounds for each Net Success.
+		Roll PAS + TR vs. PAS + TR against an adjacent Insect. The target gains Wounds for each Net Success.
 		
 		Plannéd Strike
+		Range: Close
 		Requirements: KEN 5
-		Roll KEN + TR vs. KEN + SR against an adjacent insect, ignoring Carapace. The target gains Wounds for each Net Success.
+		Roll KEN + TR vs. KEN + SR against an adjacent Insect, ignoring Carapace. The target gains Wounds for each Net Success.
 		
 		Point-Blank Flare
 		Range: Close
 		Requirements: Light 3
-		Roll Light + TR vs. PAS + SR against an adjacent insect. The target gains Wounds and Blind for each Net Success.
+		Roll Light + TR vs. PAS + SR against an adjacent Insect. The target gains Wounds and Blind for each Net Success.
 		
 		Polar Discharge
 		Range: Ranged
 		Requirements: Static 5
-		Roll Static + TR vs. PAS + TR against two insects within Static hexes. Each target gains Wounds and Shocks equal to the Net Successes.
+		Roll Static + TR vs. PAS + TR against two Insects within Static Hexes. Each target gains Wounds and Shocks equal to the Net Successes.
 		
 		Psychic Mandibles
+		Range: Close
 		Requirements: Psycho 3
-		Roll Psycho + TR vs. KEN + SR against an insect within Psycho hexes. The target gains Wounds and Confused for each Net Success.
+		Roll Psycho + TR vs. KEN + SR against an Insect within Psycho Hexes. The target gains Wounds and Confused for each Net Success.
+		
+		Rhinoceros Gore
+		Range: Close
+		Requirements: SPE 6, STR 6
+		Move in a line of Hexes up to your SPE. Roll SPE + STR + TR. Each Insect in that line Rolls SPE + SR to Resist, then gains Wounds and Bleeding for each Net Success.
 		
 		Reinforced Silk
 		Range: Area
 		Requirements: Carapace 6, Web 6
-		Roll Carapace + Web + TR. Each insect within Web hexes Rolls SPE + SR to Resist. Enemies gain Wounds and Immobilised for each Net Success. Allies Reduce Bleeding and gain a positive modifier to their next Attack Resistance for each Net Success.
+		Roll Carapace + Web + TR. Each Insect within Web Hexes Rolls SPE + SR to Resist. Enemies gain Wounds and Immobile for each Net Success. Allies Reduce Bleeding and gain a positive modifier to their next Attack Resistance for each Net Success.
+		
+		Rout
+		Range: Close
+		Requirements: PAS 7, Signaling 3
+		Roll PAS + TR vs. PAS + TR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Signaling. Each Enemy within Leadership Hexes Rolls as if Resisting an Intimidate Action, then Recoils appropriately.
 		
 		Sap Trap
 		Range: Area
 		Requirements: Plant 6, Web 6
-		Roll Plant + Web + TR. Each insect within Successes hexes STR + TR to Resist, then gains Wounds, Immobilised, and Infected for each Net Success.
+		Roll Plant + Web + TR. Each Insect within Successes Hexes STR + TR to Resist, then gains Wounds, Immobile, and Infected for each Net Success.
+		
+		Searing Shine
+		Range: Ranged
+		Requirements: Heat 6, Light 6
+		Roll Heat + Light + TR vs. PAS + SR against an Insect within twice Light Hexes. The target gains Wounds, Blind, and Burns for each Net Success.
 		
 		Slicer
 		Range: Close
 		Requirements: SPE 5
-		Roll SPE + TR vs. SPE + SR against an adjacent insect. The target gains Wounds and Bleeding for each Net Success.
+		Roll SPE + TR vs. SPE + SR against an adjacent Insect. The target gains Wounds and Bleeding for each Net Success.
 		
 		Speedy Strike
 		Range: Close
 		Requirements: SPE 3
-		Roll SPE + TR vs. SPE + TR against an adjacent insect. The target gains Wounds for each Net Success.
+		Roll SPE + TR vs. SPE + TR against an adjacent Insect. The target gains Wounds for each Net Success.
 		
 		Static Crunch
 		Range: Close
 		Requirements: Static 3
-		Roll Static + TR vs. PAS + SR against an adjacent insect. The target gains Wounds and Shocks for each Net Success.
+		Roll Static + TR vs. PAS + SR against an adjacent Insect. The target gains Wounds and Shocks for each Net Success.
 		
 		Strong Strike
 		Range: Close
 		Requirements: STR 3
-		Roll STR + TR vs. STR + TR against an adjacent insect. The target gains Wounds for each Net Success.
+		Roll STR + TR vs. STR + TR against an adjacent Insect. The target gains Wounds for each Net Success.
 		
 		Twister
 		Range: Area
-		Requirements: Flight 5
-		Roll Flight + TR. Each insect in a line within Flight hexes Rolls STR + TR to Resist, then gains Wounds and is Pushed 1 for each Net Success.
+		Requirements: Flight 7
+		Choose a Hex within Flight Hexes. Roll Flight + TR. Each Insect within Flight Hexes Rolls STR + TR to Resist, then gains Wounds and is pushed 1 for each Net Success.
 		
 		Venom Sting
+		Range: Close
 		Requirements: Venom 3
-		Roll Venom + TR vs. STR + SR against an adjacent insect. The target gains Wounds and Poisoned for each Net Success.
+		Roll Venom + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Poisoned for each Net Success.
 		
 		Vibral Assault
+		Range: Ranged
 		Requirements: Vibe 3
-		Roll Vibe + TR vs. PAS + SR against an insect within Vibe hexes. The target gains Wounds and Agony for each Net Success.
+		Roll Vibe + TR vs. PAS + SR against an Insect within Vibe Hexes. The target gains Wounds and Stunned for each Net Success.
+		
+		Vine Entwine
+		Range: Ranged
+		Requirements: Plant 5
+		Roll Plant + TR vs. STR + SR against an Insect within Plant Hexes. The target gains Wounds and is Pushed 1 towards you for each Net Success.
 		
 		Web Assault
+		Range: Area
 		Requirements: Web 5
-		Roll Web + TR and choose a hex within Web hexes. Each insect within Successes hexes Rolls SPE + SR to Resist. Enemies gain Wounds and Immobilised for each Net Success. Allies reduce Bleeding for each Net Success.
+		Roll Web + TR and choose a Hex within Web Hexes. Each Insect within Successes Hexes Rolls SPE + SR to Resist. Enemies gain Wounds and Immobile for each Net Success. Allies reduce Bleeding for each Net Success.
 		
 		Web Shot
+		Range: Ranged
 		Requirements: Web 3
-		Roll Web + TR vs. SPE + SR against an insect within Web hexes. If an enemy, target gains Wounds and Immobilised for each Net Success. If an ally, target reduces Bleeding for each Net Success.
-		
+		Roll Web + TR vs. SPE + SR against an Insect within Web Hexes. If an enemy, target gains Wounds and Immobile for each Net Success. If an ally, target reduces Bleeding for each Net Success.
+						
+		Willéd Strike
+		Range: Area
+		Requirements: KEN 6, Psycho 6
+		Roll KEN + Psycho + TR. Each Enemy within Psycho Hexes Rolls KEN + SR to Resist, then gains Wounds and Charmed for each Net Success.
