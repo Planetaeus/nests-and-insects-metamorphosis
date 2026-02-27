@@ -1,0 +1,182 @@
+Armored Spikes
+Range: Special
+Requires: Carapace 5
+
+The next time you are Missed by a Close Attack before your next turn, the Attacker gains Wounds and Bleeding for each Net Failure
+
+Envenomed Spikes
+Range: Special
+Requires: Carapace 6, Venom 6
+Add Venom as a positive modifier to your next Resistance Roll against a Close Attack before your next turn. If the Attack Misses, the Attacker gains Wounds and Poisoned for each Net Failure.
+
+Rename XP to MP for Metamorphosis Points?
+
+Flight attack: Twister
+
+Venomous Stingers on Bees, Wasps, Hornets
+Honey Bees will have nectar and honey and pollen
+Leaf-cutter ants will have Fungus and leaves, may have aphids
+Parasitic wasps eat nectar but feed their young by laying eggs in a host (Infected)
+
+Mantises are carnivores, closest related to roahces and termites
+Camouflage, ambush hunters, big grabby grabby
+
+Big Stick
+Remarkable camouflage
+peaceful
+
+Roaches & Termites
+Some species create their own antifreeze
+Termite Queens are ancient by bug standards
+
+Dragonflies
+Naiads are aquatic ambush predators
+Adults are expert flying predators
+
+Hemiptera
+cicadas
+waterboatman
+assassin bugs
+water bugs
+bed bugs and kissing bugs
+Pests like Leafhoppers, Mealybugs, and Aphids
+
+Orthoptera
+Crickets, Katydids, Giant Weta
+
+Coleoptera (Beetles)
+Various diets
+
+American Red Flat Bark Beetle
+Antifreeze in its blood
+Survive temperatures as low as -150 C
+
+Crustaceans are also arthropods
+
+Ladybird Signaling - Stinky bad taste
+Bed Bugs - They only come out at night
+Human Body Louse - Spreads Infected
+Kissing Bug - Spreads Infected
+Tsetse fly - Spreads Infected
+Red Fire Ant - Inflicts Stunned
+Brown Recluse - Venomous, aggressive, in the dark
+Asian Long-Horn Beetle - High Construction
+House Fly - Spread Infected
+Mosquito - Spread Infected, sap life
+Flea - Spreads High Infected
+
+Weapons:
+Mandibles - Crushing and crippling
+Chemical Warfare
+	Foul odors
+	Oily blister oil
+	Bombardier Beetle: Spew hot fluid
+Venom
+	Yellow jackets
+	Scorpions
+	Some caterpillars
+	
+Exoskeleton
+	
+Venom from Bees, Wasps, Ants, and Hornets cause more pain than damage.
+
+Ants:
+	Queens
+		Born with wings (lost after mating)
+		May have one Queen or multiple Queens depending on species
+	Workers
+		Females that are unable to mate
+		Forage food
+		Tend to queen and young
+		nest construction
+		Defend
+		Oldest forage outside
+		Younger forage in and near the nest
+		Youngest nurse
+	Colonies
+		Elaborate social structures
+		Specially adapted individuals
+		feeding
+		shelter
+		reproduction
+	Males
+		Reproduce
+		After mating, they wander outward and die
+	Pheromones
+		Trail that lets workers know where food is
+		Defense or alarm pheromones send workers into a frenzy
+	Competition
+		Camouflage - Ball up to look like soil or sand
+		Biting or ripping apart
+		Mandibles to open a wound, squirt venom in
+		Eat the dead, that's good protein.
+	Nests
+		"Maximum effort"
+		Underground nests are horizontal chambers connected by vertical tunnels
+		May be just below the surface
+		May be created in rotting or dead wood.
+		Eggs, larvae, and pupae are moved to warmest part of the nest
+		May have been introduced into a human home or forest
+	Colony Lifecycle
+		Founding Stage
+			Nuptial Flights between winged queens and males
+			Queens may return to their nests, or found a new one.
+		Ergonomic Stage
+			Grow the eColony
+			Moar Workers, not reproductives
+			Can take 1 year, or up to ten years
+		Reproductive Stage
+			Produce enough reproductives that some heirs will survive and found a new colony
+	Feeding
+		Trophallaxis
+		Workers ingest liquid food and water
+		Workers feed solid food to larvae
+		Larvae regurgitate solid food as liquid food
+		Workers feed liquid food and water to other workers
+
+Termites:
+	Soldiers
+		Immature males & females primarily focused on defense
+		enlarged head w long hard mandibles
+		wingless, blind, soft-bodied
+		fed by workers
+	Neotenics
+		under certain conditions, termites may mature sexually
+		No wings, no compound eyes, just sex.
+		Help increase numbers in the colony.
+	Primary Reproductives (King and Queen)
+		Swarm together in big flight
+		After swarming, lose wings and pair off.
+		Colonies can have one queen, several queens, and an undetermined number of kings.
+	Workers
+		Wingless
+		Locate and colonize food
+		excavation, repairs
+		childcare
+		Eat Wood
+	Subterranean Termites
+		Few adults, most are an immature mix of males and females
+		Three castes
+			Workers
+			Soldiers
+			Reproductives
+		Mobile nests
+			no centralized structure
+			move from food source to food source
+			often in dead wood to excavate and eat.
+	Life Cycle
+		Worker Termites
+			May remain workers their whole lives
+		Soldiers
+			Workers molt into pre-soldiers
+			pre-soldiers molt into soldiers
+		Nymphs
+			Worker molts into Nymph with wing buds
+			May regress back to a workers
+			May molt into Alates with wings
+		Neotenic Reproductives
+			Secondary come from nymphs, and have wing buds
+			Tertiary come from workers, without wing buds.
+			
+Bees!
+	
