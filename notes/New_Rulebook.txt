@@ -723,9 +723,9 @@
 					
 					When a Character Consumes a Food Item:
 					
-					* Make a Consumption Roll as described in Section
+					* Make a Consumption Roll as described in Section 2.6.9.6
 					
-					* Then, make a Quantification Roll to reduce the Character's Hunger Rating. Quantify with Hunger.
+					* Then, reduce the Character's Hunger for each Success on the Consumption Roll.
 					
 					_Effects of Consuming Food Items_ Some Food Items bestow an Effect or grant an Ability to the Consuming Character. Such Items' Effects trigger as soon as an Item is Consumed. Refer to SECTION for the rules of triggering Effects.
 					
@@ -803,7 +803,7 @@
 						
 					2.	Consume the Item and note its Effects.
 						
-						If the Boolean Roll to identify a Food Item's Function fails, the Item can only be Identified by Consuming it, either while paying a Hunger Cost or during a Resting & Healing minigame.
+						If the Boolean Roll to identify a Food Item's Function fails, the Item can only be Identified by Consuming it.
 						
 						Obviously, Consuming the Unknown Food Item carries a risk.
 						
