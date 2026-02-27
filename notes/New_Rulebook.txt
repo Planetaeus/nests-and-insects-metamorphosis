@@ -1547,8 +1547,9 @@
 ║ │ Darkness makes it harder to see things and to do things that require vision.          │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
-_Blind in the Dark_ If a Blind Character is affected by Darkness, only the greater of the two ratings is applied as a Negative Modifier to their Rolls.
 Each Room starts with a Darkness Rating equal to Level. While a Room has a Darkness rating, it applies as a Negative Modifier to all Actions that require vision, including Exploration Rolls.
+
+_Blind in the Dark_ If a Blind Character is affected by Darkness, only the greater of the two ratings is applied as a Negative Modifier to their Rolls.
 
 3.6.8.0 Risk Events
 
