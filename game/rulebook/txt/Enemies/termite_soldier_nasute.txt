@@ -1,30 +1,48 @@
-Name: Termite Soldier, Nasute
-
-Attributes    ║ Special       ║ Combat             ║ ○ Charging
-SPEED...:[_5] ║ Swarm...:[Lv] ║ INIT.........:[_3] ║ ○ +2d
-STRENGTH:[_3] ║ Carapace:[_5] ║ TR...........:[_5] ║ ○ +2d
-KEN.....:[_3] ║ DARKNESS:[_3] ║ SR...........:[_4] ║ ○ +1d  
-PASSIONS:[_3] ║ ........:[__] ║ WOUNDS..:[__]/[_5] ║ ○ +1d 
-              ║ ........:[__] ║ SWARMS..:[__]/[Lv] ║ ○ Holding
-Effects                                            ║ ○ -1d 
-...........:[__] ...........:[__]                  ║ ○ -1d
-...........:[__] ...........:[__]                  ║ ○ -2d
-...........:[__] ...........:[__]                  ║ ○ -2d
-...........:[__] ...........:[__]                  ║ ○ Retreating
-...........:[__] ...........:[__]                  ║
-
-
+╔═► Nests & Insects: Metamorphosis ◄════════════════════════════════════► Character Sheet ◄═╗
+║...........................................................................................║
+╠═► Core ◄═════════════╦═► Special ◄══════════╦═► Advanced ◄════════════════════════════════╣
+║ SPEED..........:[_5] ║ Carapace.......:[_3] ║ Chill...........:[__] Plant...........:[__] ║
+║ STRENGTH.......:[_2] ║ Flight.........:[__] ║ Heat............:[__] Psycho..........:[__] ║
+║ KEN............:[_3] ║ Swarming.......:[_3] ║ Hydro...........:[_5] Static..........:[__] ║
+║ PASSIONS.......:[_3] ║ Venom..........:[__] ║ Light...........:[__] Vibe............:[__] ║
+║ ...............:[__] ║ Web............:[__] ║ ................:[__] ................:[__] ║
+║                      ║                      ║                                             ║
+╠═► Common ◄═══════════╩══════════════════════╦═► Effects ◄═════════════════════════════════╣
+║ Construction....:[__] Hunting.........:[__] ║ 1. Bleeding.....:[__]  7. Immobile....:[__] ║
+║ Eusociology.....:[_2] Leadership......:[__] ║ 2. Blind........:[__]  8. Infected....:[__] ║
+║ Darksight.......:[_2] Perception......:[_3] ║ 3. Brittle......:[__]  9. Paralysed...:[__] ║
+║ Exploration.....:[__] Signaling.......:[__] ║ 4. Burns........:[__] 10. Poisoned....:[__] ║
+║ Foraging........:[__] Sneaking........:[__] ║ 5. Charmed......:[__] 11. Stunned.....:[__] ║
+║ Healing.........:[__] ................:[__] ║ 6. Confused.....:[__] 12. Shocks......:[__] ║
+║                                             ║                                             ║
+╠═► Combat ◄══════════════════════════════════╩══════════════╦═► Survival ◄═════════════════╣
+║    Initiative (Init).....:[_2] WOUNDS...........:[__]/[_3] ║ Metamorphosis Points..:[__]  ║
+║    Threat Rate (TR)......:[_2] SWARMS...........:[__]/[_3] ║ Hunger................:[__]  ║
+║    Survival Rate (SR)....:[_2] ......................:[__] ║ ......................:[__]  ║
+╠═► Disposition Track ◄══════════════════════════════════════╩════[ <- Recoil | Advance ->]═╣
+║         ○ Retreat     ○ -2d     ○ -1d     ○ Hold     ○ +1d     ○ +2d     ○ Charge         ║
+╠═► Attacks ◄═════════════════════════════════╦═════════════════════════════════════════════╣
 ║─────────────────[ Attack 1 ]────────────────║─────────────────[ Attack 2 ]────────────────║
-║ Name:.......................Fontanellar Gun ║ Name:.........................Swarming Call ║
-║ Details:.Roll SPE + TR vs. SPE + SR against ║ Details:...Roll SWARMS. On success, regain. ║
-║ insect within five hexes. Target gains..... ║ two Swarms. On three or more successes also ║
-║ wounds and Immobilised for each net success ║ summon one Major Termite Soldiers.......... ║
-║ Recoil one................................. ║ ........................................... ║
+║ Fontanellar Gum......................Ranged ║ Fontanellar Detonation.................Area ║
+║ Roll Hydro+TR vs. SPE+SR against an Insect. ║ Roll Hydro+Swarming+TR. Each Insect within. ║
+║ within Hydro Hexes. Target gains Wounds and ║ Successes Hexes must roll SPE+SR to Resist, ║
+║ Immobile for each net success.............. ║ then gains Wounds and Immobile for each Net ║
+║ ........................................... ║ Success. Attacker Loses One Swarm or Dies.. ║
 ║ ........................................... ║ ........................................... ║
-║─────────────────[ Attack 3 ]────────────────║
-║ Name:................Fontanellar Detonation ║
-║ Details:.Roll SPE+TR+Current SWARMS. Each.. ║
-║ insect within two hexes must roll SPE+SR... ║
-║ Insects gain wounds and Immobilised for...  ║
-║ each net success. Attacker Dies............ ║
-║ ........................................... ║
+║ ........................................... ║ ........................................... ║
+║─────────────────[ Attack 3 ]────────────────║─────────────────[ Attack 4 ]────────────────║
+║ Armor Bash............................Close ║ Swarming Call.......................Special ║
+║ Roll Carapace+TR vs. STR+SR against an..... ║ Roll Swarming. On a Success, regain two.....║
+║ adjacent Insect. For each Net Success, the. ║ SWARMS. On Total Success also summon one... ║
+║ target gains Wounds and an adjacent Ally... ║ Major Termite Soldiers with 0 SWARMS....... ║
+║ gains a Positive Modifier to her next...... ║ ........................................... ║
+║ Attack Resistance Roll..................... ║ ........................................... ║
+║ ........................................... ║ ........................................... ║
+╠═► Inventory ◄═══════════════════════════════╩═════════════════════════════════════════════╣
+║─[ Name ]───────────────────────────────────────────────────────[ Rating ]─┬[B]┬[L]┬[H]┬[C]║
+║ ___________________________________________________________________ [___] │ □ │ □ │ □ │ □ ║
+║ ___________________________________________________________________ [___] │ □ │ □ │ □ │ □ ║
+║ ___________________________________________________________________ [___] │ □ │ □ │ □ │ □ ║
+║ ___________________________________________________________________ [___] │ □ │ □ │ □ │ □ ║
+║ ___________________________________________________________________ [___] │ □ │ □ │ □ │ □ ║
+╚═══════════════════════════════════════════════════════════════════════════════════════════╝
