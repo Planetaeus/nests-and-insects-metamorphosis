@@ -6,13 +6,13 @@
 	Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One Player assumes the role of the Game Queen and describes the game world to the other players. The other players control Characters who explore and interact with the game world.
 
 	1.1.0.0 The Setting
-		Players' Characters are arthropods. Six pre-built Classes are provided in this document: Spider, Wasp, Scorpion, Ladybug, Betle, and Ants. The Characters are mercenaries; assassins and thugs, hired to invade a Nest and carry out a Job on behalf of some arthropod client. Nests are the homes of eusocial insects: the nests of Bees, Ants, and Termites. Common Jobs are to assassinate the Nest's Royalty; steal special food resources; steal or kill larvae; and retrieve an arthropod of interest.
+		Players' Characters are arthropods. Six pre-built Classes are provided in this document: Spider, Wasp, Scorpion, Ladybug, Betle, and Ants. The Characters are mercenaries; assassins and thugs, hired to invade a Nest and carry out a Job on behalf of some arthropod client. Nests are the homes of eusocial Insects: the nests of Bees, Ants, and Termites. Common Jobs are to assassinate the Nest's Royalty; steal special food resources; steal or kill larvae; and retrieve an arthropod of interest.
 		At the beginning of a new game, the players' Characters enter a Nest to carry out their Job armed with their natrual weapons and armor: mandibles, pincers, stingers, carapaces, wings, venoms, webs. During a Job, Characters must survive combat with the soldier castes guarding the Nests. They must also hunt or forage for food to avoid weakening and starving to death. While foraging, Characters may find food items, such as nectar and fungi, that can provide not only sustenance, but also healing and enhanced abilities.
 		
 	1.2.0.0
 		Nests & Insects is a Roguelike TTRPG. It is inspired by computer roleplaying games ofthe Roguelike genre, like Nethack, Angband, Moria, Ancient Domains of Mystery, and later games like Diablo and Darkest Dungeon. Nests & Insects: Metamorphosis is also inspired by Pokemon Mystery Dungeon and Dungeons & Dragons.
 		
-		Nests & Insects is designed to be played with no preparation other than reading some of the rules. At the start of a new game, players either choose a class that determines all of a Character's beginning stats (collectively called features), or takes steps to craft their own Character. The Game Queen (GQ) then Rolls to procedurally generate the first Room in the entrance to the first Level of the Nest, and the Characters enter to begin their Job. After visiting a Room and defeating its challenges, Characters get a chance to rest and recoup their strength, and players can use their experience to gain new and powerful Attacks. The game ends when the Characters fulfill the terms of the Job, surrender to the Nest, run away, or die.
+		Nests & Insects is designed to be played with no preparation other than reading some of the rules. At the start of a new game, players either choose a class that determines all of a Character's beginning stats (collectively called features), or takes steps to craft their own Character. The Game Queen (GQ) then Rolls to procedurally generate the first Room in the entrance to the first Level of the Nest, and the Characters enter to begin their Job. After visiting a Room and defeating its challenges, Characters get a chance to rest and recoup their strength, and players can use their Metamorphosis to gain new and powerful Attacks. The game ends when the Characters fulfill the terms of the Job, surrender to the Nest, run away, or die.
 		
 		Everything encountered by Characters during a Job is procedurally generated. If the GQ wishes, she can create hand-crafted Rooms, Levels, enemies, items, etc, and include them in the game, but that is not strictly necessary.
 		
@@ -95,7 +95,7 @@
 		The new Character can start as the same class as the old Character, even if it was a custom class.
 		
 		2.2.1.0 The Cost of Death
-			The only mechanical consequence of Character death is that a Player must start with a fresh Character, with base stats, without XP, and without any Items (though some of the Items in a dead Character's Inventory may remain on the floor of the Nest).
+			The only mechanical consequence of Character death is that a Player must start with a fresh Character, with base stats, without MP, and without any Items (though some of the Items in a dead Character's Inventory may remain on the floor of the Nest).
 			
 			If playing a custom class, it can be helpful to keep a record of what your Character looked like at creation if you intend to come back as the same class upon death.
 		
@@ -133,9 +133,9 @@
 			
 			* Flying: the Character can fly. Flying Characters are harder to hit in Combat by ranged Attackers. Beetle, Ladybug, and Wasp have Flying.
 			
-			* Swarming: the Character is a swarm of individual insects, or can summon conspecifics to assist her. In Combat, a Character with Swarming loses individuals from the Swarm before taking Wounds. Ants have Swarming.
+			* Swarming: the Character is a swarm of individual Insects, or can summon conspecifics to assist her. In Combat, a Character with Swarming loses individuals from the Swarm before taking Wounds. Ants have Swarming.
 			
-			* Venom: the Character has a venomous bite or sting that can bestow Effects such as Agony, Immobilised, Paralysed, or Poisoned to enemies. Scorpion, Spider, and Wasp have Venom.
+			* Venom: the Character has a venomous bite or sting that can bestow Effects such as Immobile, Paralysed, or Poisoned to enemies. Scorpion, Spider, and Wasp have Venom.
 			
 			* Web: The Character can weave webs. Webs can be used to set traps, bind enemies, or secure an area. Spider has Web.
 			
@@ -172,7 +172,7 @@
 			║ Blinded          ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
 			║ Charmed          ...will not Attack, but may take other Actions.                          ║
 			║ Confused         ...will only Attack and Move, will not take other actions.               ║
-			║ Immobilised      ...movement, Speed, and Flight restricted.                               ║
+			║ Immobile      ...movement, Speed, and Flight restricted.                               ║
 			║ Infected         ...acquires a random Effect each Turn this Effect Applies                ║
 			║ Paralysed        ...cannot take any Actions except to Resist                              ║
 			║ Poisoned         ...has a negative modifier equal to Poisoned to all Actions              ║
@@ -235,9 +235,9 @@
 				║ └<^Starving>──────────────┘  ║
 				║ ───────────────────────────  ║
 			
-			2.3.9.3 Experience Point (XP) Track
+			2.3.9.3 Metamorphosis Point (MP) Track
 				
-				Certain events in the course of exploring a Nest grant the Characters XP. During Resting & Healing (SECTION), Characters can spend XP to increase their Abilities and Attributes.
+				Certain events in the course of exploring a Nest grant the Characters MP. During Resting & Healing (SECTION), Characters can spend MP to increase their Abilities and Attributes.
 				
 	2.4.0.0 Character Classes (TBD)
 	
@@ -261,9 +261,9 @@
 			
 		2.5.2.0 Diet
 			
-			Insects have a variety of diets. Nests & Insects: Metamorphosis simplifies these diets into three classes: Herbivore, Insectivore, and Omnivore. These determine what kinds of food items an insect can Consume. Herbivores can only Consume plant-based foods, such as nectar or honey, while Insectivores can only Consume pieces of other bugs. Omnivores are able to mix their diet between Herbivore and Insectivore options.
+			Insects have a variety of diets. Nests & Insects: Metamorphosis simplifies these diets into three classes: Herbivore, Insectivore, and Omnivore. These determine what kinds of food items an Insect can Consume. Herbivores can only Consume plant-based foods, such as nectar or honey, while Insectivores can only Consume pieces of other bugs. Omnivores are able to mix their diet between Herbivore and Insectivore options.
 			
-			_Selecting Diet_ If your Character is based on a real-world insect, feel free to research its diet and classify it using the real-world species. Otherwise, choose Herbivore, Insectivore, or Omnivore, and consult with your GQ if the diet makes sense for your Character.
+			_Selecting Diet_ If your Character is based on a real-world Insect, feel free to research its diet and classify it using the real-world species. Otherwise, choose Herbivore, Insectivore, or Omnivore, and consult with your GQ if the diet makes sense for your Character.
 		
 		2.5.3.0 Assigning Core Attributes
 		
@@ -315,7 +315,7 @@
 			
 				Speed represents how fast a Character moves. This encapsulates moving across a distance as well as agility and maneuverability. Many Attacks will ask the Defender to make a Roll using Speed in order to move out of the way. Another common use for Speed is the Initiative Attribute.
 				
-				_Hex Grids_ If using gridded maps in Combat, Speed determines how many hexes a Character can move when they take the Move Action.
+				_Hex Grids_ If using gridded maps in Combat, Speed determines how many Hexes a Character can move when they take the Move Action.
 			
 			2.6.1.2 Strength
 			
@@ -419,7 +419,7 @@
 			
 			2.6.4.5 Web
 			
-				Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk. Web can be used to aid in the Construction of barriers and defenses, and can also be used to trap or bind Enemies. Web-based Attacks inflict the Immobilised Condition.
+				Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk. Web can be used to aid in the Construction of barriers and defenses, and can also be used to trap or bind Enemies. Web-based Attacks inflict the Immobile Condition.
 				
 		2.6.5.0 Advanced Attributes
 		
@@ -453,13 +453,15 @@
 			
 			2.6.5.8 Vibe
 			
-				Vibe is a Character's ability to generate loud, and sometimes focused, sounds. Loud enough to rupture the organs of unprepared insects. Characters with Vibe are also more sensitive to sounds.
+				Vibe is a Character's ability to generate loud, and sometimes focused, sounds. Loud enough to rupture the organs of unprepared Insects. Characters with Vibe are also more sensitive to sounds.
 			
 		2.6.6.0 Survival Features
 		
 			2.6.4.1 Inventory
 			
 			2.6.4.2 Hunger
+			
+				
 		
 		2.6.7.0 Attacks
 		
@@ -522,7 +524,7 @@
 				║ Burns            Speed + Chill                                   ║
 				║ Charmed            Passions + Psycho                               ║
 				║ Confused           Ken + Psycho                                    ║
-				║ Immobilised        Strength                                        ║
+				║ Immobile        Strength                                        ║
 				║ Infected           Strength + Plant                                ║
 				║ Paralysed          Speed                                           ║
 				║ Poisoned           Strength + Plant                                ║
@@ -589,13 +591,13 @@
 				
 				If the Character is not participating in Combat, Combat begins between the Confused Character and the other Characters in the Room.
 				
-			2.6.8.12 Immobilised
+			2.6.8.12 Immobile
 			
 				Resist with: STR
 				
-				When an Immobilised Effect triggers, nothing special happens.
+				When an Immobile Effect triggers, nothing special happens.
 				
-				However, an Immobilised Character received a penalty to their Speed and Flight equal to their Immobilised rating.
+				However, an Immobile Character received a penalty to their Speed and Flight equal to their Immobile rating.
 			
 			2.6.8.13 Infected
 			
@@ -649,7 +651,7 @@
 			
 			2.6.9.1 Carrying Items
 			
-				Inventory Items are carried about the Character's insect and kept track of in the Character's Inventory. A Character can only carry as many Items as there are entry "slots" in her Inventory. Characters' Inventories have nine Slots.
+				Inventory Items are carried about the Character's Insect and kept track of in the Character's Inventory. A Character can only carry as many Items as there are entry "slots" in her Inventory. Characters' Inventories have nine Slots.
 				
 				Inventory Slots are blank lines with a rating field and a depleted indicator (See Section "Consuming Items", later in this Chapter.
 				
@@ -801,7 +803,7 @@
 					
 					1.	Make a Boolean Roll to identify the Item's Function.
 					
-						The Player's Character uses Ken as the Effort for the Roll. They may instead use Foraging to Identify an herbivore Food Item, or Hunting to Identify an insectivore Food Item.
+						The Player's Character uses Ken as the Effort for the Roll. They may instead use Foraging to Identify an herbivore Food Item, or Hunting to Identify an Insectivore Food Item.
 						
 						If the Roll succeeds, the GQ Rolls to generate the Item's Function. the Item becomes Known to the Character who Identified it.
 						
@@ -821,7 +823,7 @@
 						
 						Once all Effects caused by Consuming an unknown Food Item have triggered, the Item is a Known Item.
 						
-						When an Item is Identified, the Identifying Character gains 1 XP.
+						When an Item is Identified, the Identifying Character gains 1 MP.
 						
 				2.6.9.7.5 Generating a Food Item's Function
 				
@@ -862,7 +864,7 @@
 					║ 13            Blindness - gain Blinded          ║
 					║ 14            Charming - gain Charmed           ║
 					║ 15            Confusion - gain Confused         ║
-					║ 16            Immobilisation - gain Immobilised ║
+					║ 16            Immobilisation - gain Immobile ║
 					║ 17            Infection - gain Infected         ║
 					║ 18            Paralysis - gain Paralysed        ║
 					║ 19            Poisonning - gain Poisoned        ║
@@ -930,7 +932,7 @@
 		
 		* The Hunting and foraging minigame defines rules for finding sustenance and medicinal Food Items.
 		
-		* The Resting & Healing minigame defines rules for healing from wounds and Effects, Consuming Food Items to reduce Hunger, and using XP to improve a Characters' Features.
+		* The Resting & Healing minigame defines rules for healing from wounds and Effects, Consuming Food Items to reduce Hunger, and using MP to improve a Characters' Features.
 		
 		3.5.1.0 Minigame Formulaic Actions
 		
@@ -1174,7 +1176,7 @@
 				To take a Manoeuver Action, describe the Combatant's Intent, then choose Effort and Resistance, and resolve the Action with a Qualification Roll, a Boolean Roll, or a Contested Boolean Roll. Feel free to add a Quantification Roll and bestow an Effect as a result of a Manoeuver. Any of a Combatant's Features can be used to take a Manoeuver Action. Below are some example Manoeuvers
 				
 				║ * Lift an enemy off the ground and throw her behind her allies' lines: Roll Strength vs.  ║
-				║   the enemy's Strength. The enemy is moved one hex for each Net Success.          		║
+				║   the enemy's Strength. The enemy is moved one Hex for each Net Success.          		║
 				║                                                                                           ║
 				║ * Lift an enemy off the ground, carry her, flying, behind her allies lines and drop her   ║
 				║   there: Roll Flight + Strength vs. the enemy's Strength. If the Roll succeeds, the enemy ║
@@ -1199,7 +1201,7 @@
 				║ │ interesting and challenging situations for the players to overcome. A Character's     │ ║
 				║ │ Intent, as described by her Player, should guide the GQ to "houserule" the            │ ║
 				║ │ Character's Actions. Accordingly the GQ should not hesitate to play the Nest's        │ ║
-				║ │ guardians as more than dumb automata, who can also use their (simple) insectoid       │ ║
+				║ │ guardians as more than dumb automata, who can also use their (simple) Insectoid       │ ║
 				║ │ brains to protect their home.                                                         │ ║
 				║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
@@ -1229,7 +1231,7 @@
 				
 				When Combat ends, all Combatants cease to be Combatants and the two Sides cease to exist for rules purposes.
 				
-	3.6.0.0 Survival and Exploration
+	3.6.0.0 Survival & Exploration
 			
 		║ The Survival and Exploration minigame defines rules for the procedural generation of a    ║
 		║ Nest's environment. During the Survival and Exploration minigame, Characters explore the  ║
@@ -1282,7 +1284,7 @@
 				
 			3.6.2.2 Rooms
 			
-				A Room is an enclosed area within a Level. In truth, eusocial insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans. 
+				A Room is an enclosed area within a Level. In truth, eusocial Insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans. 
 				
 				Room Events are Rewards and are only generated when a Character takes an Exploration Action.
 				
@@ -1857,7 +1859,7 @@ There are five types of Risk Events:
 
 		In between the dangers of exploring the Nest and Encounters with its Denizens, the Characters need some well-earned time to rest, recover, and reflect on how they've grown. This is encompassed by the Resting and Healing minigame.
 		
-		Before the Characters can rest, they need to first make a safe space to do so. Characters will have to choose a Room that has been cleared of all Risks and Secure it using Building Resources. Once they have a safe space, the Characters can Resist their Effects, Heal from Wounds, and Spend XP. During this safe time, they may also choose to swap their known Attacks.
+		Before the Characters can rest, they need to first make a safe space to do so. Characters will have to choose a Room that has been cleared of all Risks and Secure it using Building Resources. Once they have a safe space, the Characters can Resist their Effects, Heal from Wounds, and Spend MP. During this safe time, they may also choose to swap their known Attacks.
 		
 		3.8.1.0 Resting & Healing Steps
 		
@@ -1873,7 +1875,7 @@ There are five types of Risk Events:
 			
 			5. Each Character has an opportunity to Resist Effects.
 			
-			6. Each Character has an opportunity to Spend XP to improve their Attributes.
+			6. Each Character has an opportunity to Spend MP to improve their Attributes.
 			
 			7. Characters can change their set of Known Attacks.
 			
@@ -1909,11 +1911,11 @@ There are five types of Risk Events:
 		
 			Characters in the Resting & Healing minigame have an opportunity to Resist each Effect she suffers. See SECTION for the rules on Resisting Effects.
 		
-		3.8.7.0 Spend XP
+		3.8.7.0 Spend MP
 		
-			If a Character has any XP that they wish to spend, they may do so. To increase an Ability or Attribute costs a number of XP equal to the current rating plus one: It costs 6 XP to go from 5 to 6, but it costs 7 XP to go from 6 to 7.
+			If a Character has any MP that they wish to spend, they may do so. To increase an Ability or Attribute costs a number of MP equal to the current rating plus one: It costs 6 MP to go from 5 to 6, but it costs 7 MP to go from 6 to 7.
 			
-			_Gaining New Attributes_ Characters can spend XP to gain new Attributes starting at Rating 1. Common Attributes cost 1 XP to start. Special Attributes cost 3 XP to start. Advanced Attributes cost 5 XP to start.
+			_Gaining New Attributes_ Characters can spend MP to gain new Attributes starting at Rating 1. Common Attributes cost 1 MP to start. Special Attributes cost 3 MP to start. Advanced Attributes cost 5 MP to start.
 		
 		3.8.8.0 Change Attacks
 		
@@ -1976,7 +1978,7 @@ There are five types of Risk Events:
 				
 				Any Character may Consume a Food at this time to reduce her Hunger.
 				
-				If a Characer's Hunger is not reduced by Consuming Food:
+				If a Character's Hunger is not reduced by Consuming Food:
 				
 					* If a Character is Starving, she dies of starvation.
 				
