@@ -167,7 +167,6 @@
 
 			║ Effect           The Character...                                                         ║
 			║ ────────────────────────────────────────────────────────────────────────────              ║
-			║ Agony            ...is in agony and must overcome her pain to act                         ║
 			║ Bleeding         ...automatically takes a Wound each Combat Turn                          ║
 			║ Blinded          ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
 			║ Charmed          ...will not Attack, but may take other Actions.                          ║
@@ -415,7 +414,7 @@
 			
 			2.6.4.4 Venom
 			
-				Venom is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being envenomed. Unless it heals them. But it's still a weird experience. Attacks with Venom apply various Effects, like Agony, Poisoned, Infected, or Paralysed.
+				Venom is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being envenomed. Unless it heals them. But it's still a weird experience. Attacks with Venom apply various Effects, like Poisoned, Infected, or Paralysed.
 			
 			2.6.4.5 Web
 			
@@ -517,7 +516,6 @@
 				║                                                                    ║
 				║ Effect             Resist with                                     ║
 				║ ──────────────────────────────────────────────                     ║
-				║ Agony              Ken                                             ║
 				║ Bleeding           Strength                                        ║
 				║ Blind              Ken                                             ║
 				║ Brittle            Strength + Heat                                 ║
@@ -539,15 +537,7 @@
 				When the rules of a minigame say that Effects must be checked, all Effects a Character is subject to are checked simultaneously. For each Effect, make a Boolean Roll using that Effect's Rating. On a Success, the Effect Triggers.
 				
 				The next Sections describe how to handle Triggered Effects.
-				
-			2.6.8.5 Agony
 			
-				Resist with: KEN
-				
-				When an Agony Effect Triggers, the subject Character has a chance to become Stunned.
-				
-				Make a Roll using Agony. You receive Stunned equal to the number of Successes.
-				
 			2.6.8.6 Bleeding
 			
 				Resist with: STR
@@ -859,9 +849,9 @@
 					║ Table 14: Beneficial Abilities                                                            ║
 					║ d20 Result    Harmful Ability                                                             ║
 					║ ─────────────────────────────────────────────── ║
-					║ 11            Agony - gain Agony                ║
-					║ 12            Bleeding - gain Bleeding          ║
-					║ 13            Blindness - gain Blinded          ║
+					║ 11            Bleeding - gain Bleeding          ║
+					║ 12            Blindness - gain Blinded          ║
+					║ 13            Brittle - gain Brittle            ║
 					║ 14            Charming - gain Charmed           ║
 					║ 15            Confusion - gain Confused         ║
 					║ 16            Immobilisation - gain Immobile ║
@@ -895,7 +885,7 @@
 					
 					_Gaining Attributes_ When a Character Consumes a Food Item that grants an Attribute, she increases her rating in that Attribute by one, up to the rating of the Food Item she just Consumed.
 					
-					_Gaining Effects_ When a Character gains an Effect, such as Agony or Bleeding, Roll the Food Item's Rating to quantify the Effect bestowed.
+					_Gaining Effects_ When a Character gains an Effect, such as Bleeding, Roll the Food Item's Rating to quantify the Effect bestowed.
 
 3.0.0.0 System
 	
