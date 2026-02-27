@@ -1665,7 +1665,7 @@ There are five types of Risk Events:
 		║ Total Success      Add 2 to Item Rating        ║
 		║ Partial Success    Add 1 to Item rating                      ║
 		║ Partial Failure    Increase Hunger 1                                         ║
-		║ Total Failure      Increase Hunger 1, Room Depleted of Item.                 ║
+		║ Total Failure      Increase Hunger 2, Room Depleted of Item.                 ║
 		║ Critical Failure   Increase Hunger by Level, Room Depleted of Item.          ║
 		║ ───────────────────────────────────────── ║
 		║ Table 1: Four Degrees of Success.                     ║
