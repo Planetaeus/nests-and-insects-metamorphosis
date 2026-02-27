@@ -1269,8 +1269,6 @@
 				║ │ treasures and riches, rather they are things that help the Characters get their Job   │ ║
 				║ │ done.                                                                                 │ ║
 				║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-
-				_Shafts_ A Shaft is a tunnel heading downwards, or upwards, further into the Nest. A Shaft connects a Room from one level to a Room on another Level.
 				
 			3.6.2.2 Rooms
 			
@@ -1281,10 +1279,6 @@
 				Rooms have Features such as their Area, Height, or Darkness that require Quantification.
 				
 				_Passages_ A Passage is a tunnel or opening or some other kind of entryway connecting two Rooms in the same Level. Passages serve to remind the Players which Rooms are connected to each other.
-				
-			3.6.2.3 Shortcuts
-				
-				A Shortcut is a tunnel connecting the current Level with a level closer to the Job Target. In mechanical terms, a Shortcut is a Reward Event that can be spent to immediately find the target of the current Job.
 				
 		3.6.3.0 Event Generation
 						
@@ -1372,35 +1366,30 @@
 
 		3.6.6.0	Survival & Exploration Steps
 		
-			║ The Survival and Exploration minigame is carried out in distinct steps, listed below.     ║
-			║ Unlike Combat, Survival and Exploration is not divided into Rounds or Turns. Instead,     ║
-			║ each of the steps listed below is taken in the order in which it is listed, then the      ║
-			║ minigame ends. A new Survival and Exploration minigame can begin immediately afterwards,  ║
-			║ if the players so wish; otherwise, the players are free to control their Characters as    ║
-			║ they see fit.                                                                             ║
-			║                                                                                           ║
-			║ ┌[Survival and Exploration Steps]───────────────────────────────────────────────────────┐ ║
-			║ │                                                                                       │ ║
-			║ │ 1. Begin Survival and Exploration.                                                    │ ║
-			║ │                                                                                       │ ║
-			║ │ 2. Form an Exploration Party (decide which Characters go exploring).                  │ ║
-			║ │                                                                                       │ ║
-			║ │ 3. Spend a Room to pay the cost of the Exploration Action.                            │ ║
-			║ │                                                                                       │ ║
-			║ │ 4. Resolve the Exploration Action.                                                    │ ║
-			║ │                                                                                       │ ║
-			║ │ 5. Generate, then play Event 1, determined by the Exploration Action.                 │ ║
-			║ │                                                                                       │ ║
-			║ │ 6. Generate, then play Event 2, determined by the Exploration Action.                 │ ║
-			║ │                                                                                       │ ║
-			║ │ 7. Generate, then play Event 3, determined by the Exploration Action.                 │ ║
-			║ │                                                                                       │ ║
-			║ │ 8. Survival and Exploration Ends.                                                     │ ║
-			║ │                                                                                       │ ║
-			║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-			║                                                                                           ║
-			║ Each of the Steps in the Survival and Exploration Steps box above are described in detail ║
-			║ in the following Sections.                                                                ║
+
+║ ┌[Survival and Exploration Steps]───────────────────────────────────────────────────────┐ ║
+║ │                                                                                       │ ║
+║ │ 1. Begin Survival and Exploration.                                                    │ ║
+║ │                                                                                       │ ║
+║ │ 2. Form an Exploration Party (decide which Characters go exploring).                  │ ║
+║ │                                                                                       │ ║
+║ │ 3. Travel to an Unexplored Room. (See 3.9.0.0 Travel)                                 │ ║
+║ │                                                                                       │ ║
+║ │ 4. Spend the Room to pay the cost of the Exploration Action.                          │ ║
+║ │                                                                                       │ ║
+║ │ 5. Generate Features of the Room. (Size, Terrain, Darkness)                           │ ║
+║ │                                                                                       │ ║
+║ │ 6. Battle the Darkness                                                                │ ║
+║ │                                                                                       │ ║
+║ │ 7. Resolve the Exploration Action.                                                    │ ║
+║ │                                                                                       │ ║
+║ │ 8. Generate Risks, then resolve in order.                                             │ ║
+║ │                                                                                       │ ║
+║ │ 9. Generate Rewards, then resolve in order.                                           │ ║
+║ │                                                                                       │ ║
+║ │ 10. Survival and Exploration Ends.                                                    │ ║
+║ │                                                                                       │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
 		║ 3.6.6.1 Begin Survival and Exploration                                                    ║
 		║                                                                                           ║
@@ -1440,16 +1429,51 @@
 ║ the players can refer to the two parties as "the North Party" and the "South Party". The  ║
 ║ GQ will probably want to make a note of what Characters are in each Exploration Party.    ║
 
+3.6.6.3 Travel to an Unexplored Room
+	
+	The Exploration Party must physically travel to a Room before they can Explore it. See Section 3.9.0.0 Travel.
 
-║ 3.6.6.3 Spend a Room to take an Exploration Action                                        ║
+║ 3.6.6.4 Spend the Room to take an Exploration Action                                        ║
 ║                                                                                           ║
 ║ For one or more Characters to take an Exploration Action, their players must spend a free ║
 ║ Room from their Environment Pool. Mark a Room as "explored" in the pool, so that it is not    ║
 ║ spent again later. Then resolve the Exploration Action as described in the following      ║
 ║ Section.                                                                                  ║
 
+3.6.6.5 Generate Features of the Room
 
-║ 3.6.6.4 Resolve the Exploration Action                                                    ║
+	If playing without maps, you may skip this step.
+
+	In this step, the features of a Room are generated. First, the size and shape. Then, the room is filled with objects and obstacles to make for more dynamic fights.
+	
+	To generate the shape of a room, choose Hexagon, Rectangle, or Triangle. This could be an intentional choice or may be random if you so desire.
+	
+	Once you have chosen the shape of the room, its dimensions are equal to Level. You may also choose a different size. For a Hexagon, it has a central Hex with concentric layers of Hexes around it. The number of layers is equal to Level. For a Rectangle, it has Level rows and Level columns of Hexes. For a Triangle, it has Level Hexes on each side. 
+	
+	Then, the Height of the Room must be generated. Roll Level to set the Height. Every Room has a minimum Height of 1.
+	
+	If the GQ wishes to make fights more challenging or interesting, she can introduce some of the following obsctructions to the Room to shake things up. Block Obstructions rise from floor to ceiling, thus blocking Ranged and Area Attacks. Pit Obstructions are as deep as the Room is Tall, and must be circumvented, or jumped or flown across.
+	
+	1. Single-hex Obstruction
+	2. Three-Hex Line Obstruction
+	3. Three-Hex Triangle Obstruction
+	4. Dividing Obstruction. This Obstruction starts at one Hex on the edge of the Room and continues in a direction until it can't continue any further.
+		
+	__Block Obstructions__ Block Obstructions can be torn down as if they were Obstacles. See SECTION for more information.
+	
+	__Pit Filling__ Pit Obstructions can be covered using Resources. Make a Construction Roll plus Ken or Strength. For each Success, you may reduce your Resource Rating by one to cover up one hex of the Pit.
+	
+	__Ceilings and Walls__ For those feeling especially ambitious, you can use these same generation guidelines to populate the walls and even ceilings of your Rooms. Bugs can climb on walls, after all! This does significantly increase both preparation time and complexity of any encounters therein, so try and save this for more dramatic moments.	
+
+3.6.6.6 Battle the Darkness
+
+	The Room starts with Level Darkness. Players may Consume a Light Item to reduce the Room's Darkness. Each Success on the Consumption Roll reduces the Darkness Rating of the Room by one.
+	
+	Alternatively, Characters with the Light or Heat Attributes may exert themselves to use these Attributes and fight the Darkness. The Character Rolls the chosen Attribute, reducing the Darkness for each Success. The Character who rolled increases her hunger by one if she used Light, or two if she used Heat. This increase may result in the Character reaching 10 and Starving. If the Character is already Starving before this Increase, she DIES.
+	
+	See SECTION for more details on the effects of Darkness.
+
+║ 3.6.6.7 Resolve the Exploration Action                                                    ║
 ║                                                                                           ║
 ║ As described in earlier Sections, the Survival and Exploration minigame is initiated when ║
 ║ one or more players decides that their Characters will go exploring the Nest. During the  ║
@@ -1458,153 +1482,57 @@
 ║                                                                                           ║
 ║ _Party Scout_ When more than one Characters take part in the same Exploration Action,     ║
 ║ i.e. when an Exploration Party is formed, one Character is nominated as the Scout. Each
-  Player in the Exploration Party takes turns being the Party Scout.
-║                                                                                           ║
-║ The outcome of the Exploration Action determines the number, and type of Events that      ║
-║ occur as a result of the Action. Three Events of up to three different types will occur,  ║
-║ depending on the DoS of the Exploration Action. The formula for the Exploration Action is ║
-║ listed below.                                                                             ║
-║                                                                                           ║
-║ Name of the Minigame: ............... Survival and Exploration                            ║
-║ Participating Entities: ............. Characters, Nest Environment                        ║
-║ List of Minigame Intents: ........... Explore the Nest                                    ║
-║ List of Minigame Actions: ........... Explore                                             ║
-║ Effort Variables: ................... Exploration                                         ║
-║ Resistance Variables: ............... Nest Level                                          ║
-║                                                                                           ║
-║ Outcomes of the six Degrees of Success and Failure:                                       ║
-║                                                                                           ║
-║ Degree of Success            Outcome                                                      ║
-║ ───────────────────────────────────────────────────                                       ║
-║ Critical Success             Reward, Reward, Reward                                       ║
-║ Complete Success             Risk, Reward, Reward                                         ║
-║ Partial Success              Cost, Risk, Reward                                           ║
-║ Partial Failure              Cost, Risk, Risk                                             ║
-║ Complete Failure             Cost, Cost, Risk                                             ║
-║ Critical Failure             Cost, Cost, Cost                                             ║
-║ ───────────────────────────────────────────────────                                       ║
-║ Figure 24: Exploration Action Formula.                                                    ║
+  Player in the Exploration Party takes turns being the Party Scout. Each Player must take a Turn being the Party Scout before any Player may be the Party Scout a second time.
+  
+  Each Room starts with Level Risk Dice. The Party Scout makes a KEN + Exploration Roll. Each Success on the Roll turns one Risk Die into one Reward Die.
+  
+  Risk Generation:
+  d6     Risk         Description
+  ───────────────────────────────────────────────────────────────────────────────
+  1-3    Encounter    Meet the Nest's denizens
+    4    Obstacle     Prevents further Exploration until removed.
+    5    Spoilage     Food Items have a chance to be depleted.
+    6    Infection    Bestows the Infection Effect.
+	
+  Reward Generation:
+  d6     Reward         Description
+  ───────────────────────────────────────────────────────────────────────────────
+  1-3    Item           Find Resources or Food that can be Harvested.
+    4    Passage        Unlock a previously unknown passage to another discovered Room.
+    5    Room           Spend a Room to Explore, Hunt, or Forage.
+    6    Level          Entrance to a new, more advanced Nest Level.
 
-Cost Generation:	
-║ Cost                Chance         Description                                            ║
-║ ───────────────────────────────────────────────────────────────────────────────           ║
-║ 3.7.8.1 Hunger      10             Increase Hunger, deplete Food Items, bestow Starving   ║
-║ 3.7.8.5 Darkness    5 + Level      Deplete lighting Items or suffer in Darkness           ║
-║ 3.7.8.6 Spoilage    3 + Level      Food Items have a chance to become Spoiled             ║
-║ 3.7.8.3 Collapse    Level          A room is removed from the Room Pool.                  ║
+║ 3.6.6.8 Generate and face Risks                                                           ║
+║                                                                                           ║
+     If the Room has any Risk Dice, roll those dice and compare the results against TABLE.
+	 
+	 Risks are faced in the following Order:
+	 
+	 1. Infection
+	 
+	 2. Spoilage
+	 
+	 3. Encounter
+	 
+	 4. Obstacle
+	 
+	 __Multiple Risks__ It is possible for multiple instances of a Risk to be generated. In this case, simply resolve each one separately. For example, if two Infection Risks are faced, the Characters must Roll TWICE to resist Infection.
+	 
+	 __Multiple Encounters__ The one notable exception to this is Encounters. Encounters are all faced together, creating larger encounters than any individual Insect can be responsible for.
 
-Risk Generation:
-║ Risk                    Chance         Description                                        ║
-║ ───────────────────────────────────────────────────────────────────────────               ║
-║ 3.7.8.4 Effects         10             Apply, or modify the rating of deleterious Effects ║
-║ 2.11.6.8 Item (Unknown) 8 - Level      Find as yet unidentified Food Items ()             ║
-║ 3.7.9.3 Obstacle        6 + Level      Prevents further Exploration until removed (       ║
-║ 4.2.1.1 Encounter       4 + Level      Meet the nest's denizens ()                        ║
-║ 3.7.9.5 Infection       Level          Bestows the Infection Effect ()                    ║
-║ ───────────────────────────────────────────────────────────────────────────               ║
-
-Reward Generation:
-║ Reward                  Chance               Description                                  ║
-║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-║ 3.7.10.1 Room           11 - Level           Spend a Room to Explore, Hunt or Forage ()   ║
-║ 3.7.10.4 Item (Known)   9 - Level            Find a previously identified Food Item ()    ║
-║ 3.7.10.5 Resource       5 - Level            Materials to build a Shelter ()              ║
-║ 3.7.10.3 Level          Level                Entrance to a new, deeper Nest Level ()      ║
-║ 3.7.10.2 Shortcut       Level - 5            Takes you directly to the Job Target ()      ║
-║ ────────────────────────────────────────────────────────────────────────────────────────  ║
-
-║ ┌[Example 12]───────────────────────────────────────────────────────────────────────────┐ ║
-║ │ Brody's Wasp Character must pay a Cost as the result of an Exploration Action. Brody  │ ║
-║ │ Rolls a d10 and references the result on the Costs table (Table 24). The d10 result   │ ║
-║ │ is 4. This matches the Chance of the Hunger and Effects Costs, thus a Hunger Event    │ ║
-║ │ and a Effects Event are generated. Hunger comes before Effects in Table 24, thus      │ ║
-║ │ Brody's Wasp must first pay the Hunger Cost, then the Effects Cost must be paid.      │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-
-║ 3.6.6.5 Generate and pay Costs                                                            ║
-║                                                                                           ║
-║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
-║ includes one or more instances of the word "Cost", follow the steps below to generate,    ║
-║ and pay Costs.                                                                            ║
-║                                                                                           ║
-║    1. For each instance of the word "Cost":                                               ║
-║                                                                                           ║
-║    2. Roll d10.                                                                          ║
-║                                                                                           ║
-║    3. Look up the result on the Costs Table.                                              ║
-║                                                                                           ║
-║    4. Each Cost with a Chance that is equal to, or higher than the result of the d10     ║
-║    Roll is "generated".                                                                   ║
-║                                                                                           ║
-║    Costs are generated in the order in which they appear in the Costs table, Table        ║
-║    23, starting with the first Cost (Hunger) in the top row of the Table.                 ║
-║                                                                                           ║
-║    5. Each Character in the Exploration Party pays each generated Cost in order of        ║
-║    generation.                                                                            ║
-
-
-║ 3.6.6.6 Generate and face Risks                                                           ║
-║                                                                                           ║
-║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
-║ includes one or more instances of the word "Risk", follow the steps below to generate,    ║
-║ and face Risks.                                                                           ║
-║                                                                                           ║
-║    1. For each instance of the word "Risk":                                               ║
-║                                                                                           ║
-║    2. Roll d10.                                                                          ║
-║                                                                                           ║
-║    3. Look up the result on the Risks Table.                                              ║
-║                                                                                           ║
-║    4. Each Risk with a Chance that is equal to, or higher than the result of the          ║
-║       d10 Roll is "generated".                                                           ║
-║                                                                                           ║
-║       Risks are generated in the order in which they appear in the Risks table, Table     ║
-║       23, starting with the first Risk (Encounter) in the top row of the Table.           ║
-║                                                                                           ║
-║    5. All Characters in the Exploration Party face the first generated Risk; once the     ║
-║       first Risk is faced and all Actions or minigames resulting are resolved, all        ║
-║       Characters in the Exploration Party face the second generated Risk; and so on,      ║
-║       until all generated Risks have been faced.                                          ║
-║                                                                                           ║
-║ _Combat Risk_ Risks include the "Encounter" Event which may cause a Combat minigame to    ║
-║ begin. In that case, subsequent Risks are only faced once the Combat minigame has ended.  ║
-║                                                                                           ║
-║ _Missing Characters_ If some of the Characters in the Exploration Party that faced the    ║
-║ original Encounter Risk that initiated a Combat minigame are no longer in the same Room   ║
-║ as the rest of the Party (usually because they are fleeing from Combat) those missing     ║
-║ Characters do not face any subsequent Risks until they return to that Room.               ║
-
-║ 3.6.6.7 Generate and reap Rewards                                                         ║
-║                                                                                           ║
-║ If the Outcome column of the Degrees of Success Table of the Exploration Action formula   ║
-║ includes one or more instances of the word "Reward", follow the steps below to generate,  ║
-║ and reap Rewards.                                                                         ║
-║                                                                                           ║
-║    1. For each instance of the word "Reward":                                             ║
-║                                                                                           ║
-║    2. Roll d10.                                                                           ║
-║                                                                                           ║
-║    3. Look up the result on the Rewards Table.                                            ║
-║                                                                                           ║
-║    4. Each Reward with a Chance that is equal to, or higher than the result of the d10    ║
-║       Roll is "generated".                                                                ║
-║                                                                                           ║
-║       Rewards are generated in the order in which they appear in the Rewards table,       ║
-║       Table 31, starting with the first Reward (Room) in the top row of the Table.        ║
-║                                                                                           ║
-║    5. If a generated Reward is an Item, any Character may add the Item to her Inventory.  ║
-║       If no Character adds the Item to her Inventory the Item remains on the Room floor   ║
-║       as a "dropped" Item.                                                                ║
-║                                                                                           ║
-║       Which Character picks up which Item is left to the players to decide. There are no  ║
-║       specific rules to manage that decision.                                             ║
-║                                                                                           ║
-║    6. If a generated Reward is a Room, Shortcut, or Level, the Reward is added to the     ║
-║       Player Characters' communal Environment Pool.                                       ║
-║                                                                                           ║
-║    7. If a generated Reward is a Secret, follow the description of the Secret Event: this ║
-║       usually means that a new Event is generated.                                        ║
-
+║ 3.6.6.9 Generate and reap Rewards                                                         ║
+     If the Room has any Reward Dice, roll those dice and compare the results against TABLE.
+	 
+	 Rewards are reaped in the following Order:
+	 
+	 1. Item
+	 
+	 2. Passage
+	 
+	 3. Room
+	 
+	 4. Level
+	 
 ║ 3.6.6.8 Survival and Exploration Ends                                                     ║
 ║                                                                                           ║
 ║ Once all Costs, Risks and Rewards, are generated and dealt with as described in the       ║
@@ -1613,84 +1541,17 @@ Reward Generation:
 ║ Nothing special happens when Survival and Exploration ends. Players are free to control   ║
 ║ their Characters as before.                                                               ║
 
-
-║ 3.6.7.0 Cost Events                                                                       ║
-║ -------------------                                                                       ║
-║                                                                                           ║
-║ Cost Events stress the Characters' resources and test their endurance and resilience      ║
-║ while exploring the Nest.                                                                 ║
-║                                                                                           ║
-║ The following Sections define the rules for the various Cost Events generated during the  ║
-║ Survival and Exploration minigame.                                                        ║
-
-	There are four types of Cost Events:
-		
-		* Hunger
-		
-		* Darkness
-		
-		* Spoilage
-		
-		* Collapse
-
-║ 3.6.7.1 Hunger                                                                            ║
-║                                                                                           ║
-║ ┌[Effects of Hunger]────────────────────────────────────────────────────────────────────┐ ║
-║ │ Hunger can make a Character weak. Prolongued Hunger leads to starvation, which leads  │ ║
-║ │ to death from starvation.                                                             │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-║                                                                                           ║
-║ When a Hunger Cost is paid, the GQ Rolls Level to increase the Hunger of the Characters paying the Cost.
-
-Each Character may choose to Consume one Food Item from her Inventory. Each Success on the Consumption Roll reduces her Hunger by one.
-
-If the Character does not reduce her Hunger by Consuming a Food Item, then:
-	
-	* If the Character is at Hunger Rating 10, the Character DIES of starvation.
-	
-	* If the Character is at less than Hunger Rating 10, the Character adds Level to her Hunger. If this brings the Character to Hunger Rating 10, she is starving and is at risk of DEATH. 
-	
-	While a Character is Starving, she suffers a -1 modifier to each of her Rolls.
-		
-3.6.7.2 Darkness
-
+3.6.7.0 Darkness
 
 ║ ┌[Effects of Darkness]──────────────────────────────────────────────────────────────────┐ ║
 ║ │ Darkness makes it harder to see things and to do things that require vision.          │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 
-The Room has a Darkness Rating equal to Level. While a Room has a Darkness rating, it applies as a Negative Modifier to all Actions that require vision.
-
-When a Darkness Cost is paid, the Character paying the Cost may choose one Light Item from her Inventory. A Character who does not have a Light Item in her Inventory cannot pay a Darkness Cost.
-
-If a Character has a Light Rating, she may herself act as a Light Source.
-
-Once a Light Source has been chosen, the Character Rolls Light Source Rating. Each Success reduces the Darkness Rating by one.
-
-If a Light Item was used as the Light Source, make a Consumption Roll for that Item. Each Success on the Consumption Roll reduces the Darkness Rating by one.
-
-If a Character used her Light Rating as the Light Source, she gains 1 Hunger and Rolls Light. Each Success reduces the Darkness Rating by one.
-
 _Blind in the Dark_ If a Blind Character is affected by Darkness, only the greater of the two ratings is applied as a Negative Modifier to their Rolls.
+Each Room starts with a Darkness Rating equal to Level. While a Room has a Darkness rating, it applies as a Negative Modifier to all Actions that require vision, including Exploration Rolls.
 
-	3.6.7.3 Spoilage
-	
-		When a Spoilage Cost is paid, the Characters' Food Items will be depleted, and may become Spoiled.
-		
-		To pay a Spoilage Cost, a Player makes a separate Spoilage Roll for each Food Item in their Inventory. To do this, the Player Rolls the Food Item's Rating. The new Rating of the Food is the number of successes. If no successes are Rolled, the food's Rating does not change, but now the food is Spoiled.
-		
-		Spoiled Food is food that is expired, riddled with rot and mould and other unsavory microbes. As unappetizing as it is, Spoiled Food can still be Consumed as any other Food Item. Doing so comes with a risk, however. When a Character Consumes a Spoiled Food Item, they Roll to reduce Hunger as normal. Then, they Roll Strength vs. the Spoiled Food's Rating. If the Roll fails, the Character acquires Infected equal to the amount the Roll failed by.
-		
-	3.6.7.4 Collapse
-		
-		A Collapse cost represents the structure of the Nest changing. This can be due to renovations by the Nest Denizens, or destruction caused by outside forces, like water damage.
-		
-		When a Collapse Cost is paid, a Room in the Environment Pool is selected at random and removed from the game. Any Items in the room are lost. Any Characters currently in the room choose a connected Room to escape to. If the current Room is removed as part of the Collapse Cost, no more Costs, Risks, or Rewards are generated as a result of this Exploration Action.
-		
-		_Salvaged Passages_ Characters trapped by a Collapse can still find their way to the connected Passages of a Room. To do so, they must clear the Passage as if it was an Obstacle (See SECTION).
-	
 3.6.8.0 Risk Events
-	
+
 ║ Risk Events add a frisson of excitement to the otherwise drab and boring act of slogging  ║
 ║ through a Nest looking for the subject of a Job.                                          ║
 ║                                                                                           ║
@@ -1699,39 +1560,45 @@ _Blind in the Dark_ If a Blind Character is affected by Darkness, only the great
 
 There are five types of Risk Events:
 
-	* Obstacle
-	* Item (Unknown)
-	* Encounter
-	* Spoilage
 	* Infection
+	* Spoilage
+	* Obstacle
+	* Encounter
 	
-	3.6.8.1 Effects (Risk)
-
-		When an Effects Risk is faced, the Character facing the Risk must check all Effects she is subject to.
-		
-		When an Effect is Checked, there is a chance that it will Trigger.
-		
-		Refer to SECTION for the rules of Checking Effects. Refer to SECTIONS for the rules of Triggering Effects.
-		
-		A Character gains XP equal to Level if at least one of their Effects were Triggered.
-	
-	3.6.8.2 Unknown Item (Risk)
-	
-║ ┌[Finding Unknown Food Items]───────────────────────────────────────────────────────────┐ ║
-║ │ Food Items can be found while exploring a Nest. At first those Items are Unknown,     │ ║
-║ │ meaning that while their Form is known, their Function must be Identified.            │ ║
+║ 3.6.8.1 Infection                                                                         ║
+║                                                                                           ║
+║ ┌[Effects of Infection]─────────────────────────────────────────────────────────────────┐ ║
+║ │ A Character facing an Infection Risk may become Infected. If the Character is already │ ║
+║ │ Infected, her Infection may get worse.                                                │ ║
 ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
 ║                                                                                           ║
-║ When an Unknown Food Item Risk is faced, generate a new Food Item's Form, as explained in ║
-║ Sections 2.6.8.7.2 and 2.6.8.7.3.                                                         ║
+║ When an Infection Risk is faced, Roll Strength vs. Level. Characters suffer a negative modifier on the Roll equal to their current Infected Rating, if any.
+
+	If the Character fails the Roll, they gain Infected equal to the Net Failures. The Character gains MP equal to Level.
 	
-	3.6.8.4 Obstacle
+	See SECTION for the rules of the Infected Effect.
+	
+║ ┌[Note 9]───────────────────────────────────────────────────────────────────────────────┐ ║
+║ │ The risk of Infection while exploring a Nest comes from disease-causing               │ ║
+║ │ microorgranisms that inhabit the Nest. Common sources of infections are fungi and     │ ║
+║ │ bacteria that live in the soil or the air of the Nest. Characters may become Infected │ ║
+║ │ simply by walking into a new Room and coming into contact with the microorganisms     │ ║
+║ │ living in the Room.                                                                   │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+
+	3.6.7.2 Spoilage
+	
+		When a Spoilage Cost is paid, the Characters' Food Items will be depleted, and may become exhausted.
+		
+		To pay a Spoilage Cost, a Player makes a separate Spoilage Roll for each Food Item in their Inventory. To do this, the Player Rolls the Food Item's Rating. The new Rating of the Food is the number of successes. If an Item has a Rating of 0, the Item is exhausted.
+		
+	3.6.8.3 Obstacle
 	
 		When an Obstacle Risk is faced, the Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
 		
 		The Characters may Roll STR + Construction vs. Obstruction. If they succeed, they reduce the Obstruction Rating by the number of Net Successes. If a Character fails the Roll, they suffer 1 Wound. Each Character in the room must attempt the Construction Roll before any Character can try again. 
 		
-		If a Character Succeeds the Roll and reduces the Obstruction Rating to 0, the Obstacle is cleared. The Players gain XP equal to Level, and have a chance to gain Building Resources. Roll Level. One Character adds Building Resources equal to the successes.
+		If a Character Succeeds the Roll and reduces the Obstruction Rating to 0, the Obstacle is cleared. The Players gain MP equal to Level, and have a chance to gain Building Resources. Roll Level. One Character adds Building Resources equal to the successes.
 		
 		Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
 		
@@ -1748,71 +1615,43 @@ There are five types of Risk Events:
 ║ Encounter Tables are specific to each kind of Nest. Look for Encounter Tables in the      ║
 ║ Sections, later in this rulebook, on Termite, Bee, and Ant nests.                         ║
 
-	To Generate an Encounter, Roll Level a number of times depending on the current Nest Level. Then, compare the number of successes against the relevant Encounter Table to see which Encounter(s) are generated.
+		To Generate an Encounter, Roll Level d6. Then, compare the number of successes against the relevant Encounter Table to see which Encounter(s) are generated.
 	
-	Level			Encounter Rolls
-	1-2				1
-	3-4				2
-	5-7				3
-	8-10			4
-	
-		When all enemies in the Encounter are defeated or retreated, the Encounter has been cleared. The Characters gain XP equal to Level.
+		When all enemies in the Encounter are defeated or retreated, the Encounter has been cleared. The Characters gain MP equal to Level.
 
-║ 3.6.8.5 Infection                                                                         ║
-║                                                                                           ║
-║ ┌[Effects of Infection]─────────────────────────────────────────────────────────────────┐ ║
-║ │ A Character facing an Infection Risk may become Infected. If the Character is already │ ║
-║ │ Infected, her Infection may get worse.                                                │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-║                                                                                           ║
-║ When an Infection Risk is faced, Roll Strength + Healing vs. Level. Characters suffer a negative modifier on the Roll equal to their current Infected Rating, if any.
-
-	If the Character fails the Roll, they gain Infected equal to the Net Successes. The Character gains XP equal to Level.
-	
-	See SECTION for the rules of the Infected Effect.
-	
-║ ┌[Note 9]───────────────────────────────────────────────────────────────────────────────┐ ║
-║ │ The risk of Infection while exploring a Nest comes from disease-causing               │ ║
-║ │ microorgranisms that inhabit the Nest. Common sources of infections are fungi and     │ ║
-║ │ bacteria that live in the soil or the air of the Nest. Characters may become Infected │ ║
-║ │ simply by walking into a new Room and coming into contact with the microorganisms     │ ║
-║ │ living in the Room.                                                                   │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-
-║     3.6.9.0 Reward Events............................................................135 ║
+	3.6.9.0 Reward Events............................................................135 ║
 		Reward Events give the Characters the resources they need to complete their Job successfully.
 		
 		Remember that the Characters are not invading a Nest to become rich. Arthropod society does not understand the concept of "riches". They are here to prove their skills and complete a Job. Accordingly, the Reward Events generated while exploring a Nest are only designed to help the Characters complete their Job.
 		
 		The following Sections define the rules for the various Reward Events generated during the Survival and Exploration minigame.
-	
-║       3.6.9.1 Room (Reward)..........................................................136 ║
+							
+		3.6.9.1 Item.............................................................139 ║
 
-			When a Character reaps a Room Reward, add a Room to the Environment Pool.
+			When a Character reaps an Item Reward, make a Roll to determine the type of Item:
 			
-║       3.6.9.2 Shortcut...............................................................137 ║
+			d6     Item Type
+			1-2    Resources
+			3-4    Known Food Item
+			5-6    Unknown Food Item
 			
-			When a Character reaps a Shortcut Reward, they have discovered a Passage that leads directly to the Level of the Job Target. Look alive you ugly bugs, it's go time!
+			To generate a Known Food Item, 
 			
-║       3.6.9.3 Level (Reward).........................................................138 ║
+		3.6.9.2 Passage
+		
+			A Passage Reward represents the discovery of a previously unknown connection to another already discovered Room.
 			
-			When a Character reaps a Level Reward, Roll Level.
+			To reap a Passage Reward, the Player chooses another Room that is not already connected to the Current Room. A new passage exists linking the two Rooms, effectively reducing the distance between them.
 			
-			Add a Room to the Environment Pool. This new Room represents the Entrance to the new Level.
+			If all other Rooms are connected to the Current Room, the Player may instead reap a Room Reward.
 			
-║       3.6.9.4 Known Item.............................................................139 ║
+		3.6.9.3 Room (Reward)..........................................................136 ║
 
-			When a Character reaps a Known Item Reward, make a Roll to generate a Known Food Item.
+			When a Character reaps a Room Reward, add a Room to the Environment Pool connected to the current Room.
 			
-			Unlike other generated game entities and Features, there is no table to Roll on to generate Known Food Items. This is because the list of Known Food Items will change during a game and between games, as new Items are generated and Identified.
+║		3.6.9.4 Level (Reward).........................................................138 ║
 			
-			Players begin knowing their starting Food Items. As their Characters explore the Nest and Identify new Food Items, the list of Known Food Items expands.
-			
-			To generate a Known Food Item, randomly select one of the Food Items that any Character has Identified so far. The Room now has that Food Item among its resources that can be harvested in Hunting & Foraging.
-			
-║       3.6.9.5 Resource...............................................................140 ║
-
-			When a Character reaps a Resource Reward, the Room now has Building Resources among its resources that can be harvested during Hunting & Foraging.
+			When a Character reaps a Level Reward, add a new Room to the Environment Pool that has a Level of Current Level + 1. That new Room is connected to the Current Room. The new Room represents an entrance to the new Level. Levels may have multiple entrances.
 
 ║   3.7.0.0 Hunting and Foraging (TBD)..................................................142 ║
 	  

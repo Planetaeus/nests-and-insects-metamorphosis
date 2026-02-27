@@ -605,3 +605,62 @@ REWORK ENCOUNTER TABLE TO USE DICE POOL SUCCESSES INSTEAD OF PERCENTILES?
 		Prey
 			
 		Other Items
+		
+		
+Pay Costs whenever entering a Room
+Generate Risks whenever entering unexplored Room
+Generate Rewards whenever entering unexplored Room
+
+Pay Hunger whenever traveling to a Room
+Set Darkness whenever entering a New Room
+
+Risks (d6)
+1. Spoilage
+2. Infection
+3. Obstacle
+4-6. Encounter
+
+Rewards (d6)
+1-3. Item
+4. Room
+5. Passage
+6. Level
+
+║ ┌[Survival and Exploration Steps]───────────────────────────────────────────────────────┐ ║
+║ │                                                                                       │ ║
+║ │ 1. Begin Survival and Exploration.                                                    │ ║
+║ │                                                                                       │ ║
+║ │ 2. Form an Exploration Party (decide which Characters go exploring).                  │ ║
+║ │                                                                                       │ ║
+║ │ 3. Travel to an Unexplored Room. (See 3.9.0.0 Travel)                                 │ ║
+║ │                                                                                       │ ║
+║ │ 4. Spend the Room to pay the cost of the Exploration Action.                          │ ║
+║ │                                                                                       │ ║
+║ │ 5. Generate Features of the Room. (Size, Terrain, Darkness)                           │ ║
+║ │                                                                                       │ ║
+║ │ 6. Battle the Darkness                                                                │ ║
+║ │                                                                                       │ ║
+║ │ 7. Resolve the Exploration Action.                                                    │ ║
+║ │                                                                                       │ ║
+║ │ 8. Generate Risks, then resolve in order.                                             │ ║
+║ │                                                                                       │ ║
+║ │ 9. Generate Rewards, then resolve in order.                                           │ ║
+║ │                                                                                       │ ║
+║ │ 10. Survival and Exploration Ends.                                                    │ ║
+║ │                                                                                       │ ║
+║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+
+Features of a room:
+Shape & Size: Hex w Radius 2d6, Rectangle w sides 2d6 x 2d6, Triangle w sides 2d6
+Height: Roll Level (Min 1 hex tall)
+Darkness: Roll Level
+
+Each Room starts with a Risks Dice Pool equal to 1+Level, and a Rewards Dice Pool of 1.
+When the Exploration Roll is made, each Success turns a Risks die into a Rewards Die, down to a minimum of 1 Risks Die.
+
+Roll the Risks Dice to determine the Risks faced in the Room.
+Roll the Rewards Dice to determine the Rewards found in the Room.
+
+Characters must take turns Exploring Rooms:
+	After a Character has Explored a Room, that Character cannot Explore future Rooms until each other Character has Explored Rooms.
+	
