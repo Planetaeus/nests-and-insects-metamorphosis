@@ -2099,7 +2099,7 @@ There are five types of Risk Events:
 		Bolster
 		Range: Close
 		Requirements: PAS 6, Leadership 3
-		Roll PAS + TR vs. PAS + SR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Leadership. Each Ally within Leadership Hexes Rolls as if Resisting a Rally Action, then advances appropriately.
+		Roll PAS + TR vs. PAS + SR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Leadership. Each Ally within Leadership Hexes Rolls as if Resisting a Rally Action, then Advances appropriately.
 		
 		Bright Beam
 		Range: Ranged
