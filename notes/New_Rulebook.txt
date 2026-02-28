@@ -1921,6 +1921,9 @@ There are five types of Risk Events:
 				Fury
 				Requirements: PAS 5
 				
+				Overwhelm
+				Requirements: PAS 7, Swarming 7
+				
 				Passion
 				Requirements: PAS 3
 				
@@ -1966,6 +1969,9 @@ There are five types of Risk Events:
 				
 				Hot-othysis
 				Requirements: Heat 6, Swarming 6
+				
+				Overwhelm
+				Requirements: Swarming 7, Passions 7
 				
 			5.2.2.4 Venom Attacks
 				Healing Dose
@@ -2066,8 +2072,6 @@ There are five types of Risk Events:
 			5.2.3.8 Vibe Attacks
 				Vibral Assault
 				Requirements: Vibe 3
-			
-				
 			
 	5.3.0.0 Attack Descriptions
 		
@@ -2220,6 +2224,11 @@ There are five types of Risk Events:
 		Range: Close
 		Requires: Strength 5
 		Roll STR + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Immobile for each Net Success.
+		
+		Overwhelm
+		Range: Area
+		Requirement: PAS 7, Swarming 7
+		Roll PAS + Swarming + TR and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls PAS + SR to Resist, then gains Wounds and Recoils for each Net Success. Lose two Swarms or DIE.
 		
 		Passion
 		Range: Close
