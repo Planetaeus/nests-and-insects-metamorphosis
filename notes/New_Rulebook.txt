@@ -2259,7 +2259,7 @@ There are five types of Risk Events:
 		Rout
 		Range: Close
 		Requirements: PAS 7, Signaling 3
-		Roll PAS + TR vs. PAS + TR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Signaling. Each Enemy within Leadership Hexes Rolls as if Resisting an Intimidate Action, then Recoils appropriately.
+		Roll PAS + TR vs. PAS + TR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Signaling. Each Enemy within Signaling Hexes Rolls as if Resisting an Intimidate Action, then Recoils appropriately.
 		
 		Sap Trap
 		Range: Area
