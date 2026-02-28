@@ -2098,7 +2098,7 @@ There are five types of Risk Events:
 		Autothysis
 		Range: Area
 		Requirements: Swarming 3
-		Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds and Immobile for each Net Success. Lose one Swarms.
+		Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds and Immobile for each Net Success. Lose one Swarms or DIE.
 		
 		Bolster
 		Range: Close
@@ -2203,7 +2203,7 @@ There are five types of Risk Events:
 		Hot-othysis
 		Range: Area
 		Requirements: Heat 6, Swarming 6
-		Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls SPE + SR to Resist, gaining Wounds and Burns for each Net Success. Lose one Swarms.
+		Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls SPE + SR to Resist, gaining Wounds and Burns for each Net Success. Lose two Swarms or DIE.
 		
 		Inflict Stillness
 		Range: Close
