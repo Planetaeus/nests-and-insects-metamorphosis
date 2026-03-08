@@ -1446,9 +1446,7 @@
 
 	In this step, the features of a Room are generated. First, the size and shape. Then, the room is filled with objects and obstacles to make for more dynamic fights.
 	
-	To generate the shape of a room, choose Hexagon, Rectangle, or Triangle. This could be an intentional choice or may be random if you so desire.
-	
-	Once you have chosen the shape of the room, its dimensions are equal to Level. You may also choose a different size. For a Hexagon, it has a central Hex with concentric layers of Hexes around it. The number of layers is equal to Level. For a Rectangle, it has Level rows and Level columns of Hexes. For a Triangle, it has Level Hexes on each side. 
+	Rooms are made of Hexagons around a central Hex, in Level concentric layers. 
 	
 	Then, the Height of the Room must be generated. Roll Level to set the Height. Every Room has a minimum Height of 1.
 	
