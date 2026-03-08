@@ -1259,7 +1259,7 @@
 			
 			3.6.2.1 Nest Levels
 			
-				A Nest Level is a group of Rooms connected to each other by Passages and connected by Shortcuts and Shafts to different Levels. Rooms in the same Level are situated at about the same distance from the ground, much like a floor in a multi-story house.
+				A Nest Level is a group of Rooms connected to each other by Passages and connected by Shafts to different Levels. Rooms in the same Level are situated at about the same distance from the ground, much like a floor in a multi-story house.
 				
 				In mechanical terms, Levels have a decile rating that is used for a number of aspects of the Exploration Action. The Level is also used to quantify the results of certain Events, such as Obstacles or Infection. As the Characters delve further into the Nest, the Nest Level of the Rooms they visit increases. With it, the chance for Cost and Risk Events to occur increases, and the chance for Reward Events to occur decreases. Some Jobs will specify a Level where the Job Target may be found.
 				
