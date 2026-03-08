@@ -2247,7 +2247,7 @@ There are five types of Risk Events:
 		Polar Discharge
 		Range: Ranged
 		Requirements: Static 5
-		Roll Static + TR vs. PAS + TR against two Insects within Static Hexes. Each target gains Wounds and Shocks equal to the Net Successes.
+		Roll Static + TR vs. PAS + TR against two Insects within Static Hexes. Each target gains Wounds and Shocks for each Net Success.
 		
 		Psychic Mandibles
 		Range: Close
