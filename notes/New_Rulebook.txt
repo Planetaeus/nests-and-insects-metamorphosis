@@ -1907,6 +1907,61 @@ There are five types of Risk Events:
     4.2.1.7 Wasp Nests
 ║   4.3.0.0 Enemies (TBD)...............................................................148 ║
 ║   4.4.0.0 Ants (TBD)..................................................................149 ║
+  Carpenter Ants
+    Encounter Table
+    Carpenter Worker
+    Carpenter Soldier
+    Carpenter Drone
+    Carpenter Queen
+    Carpenter Empress
+  Fire Ants
+    Encounter Table
+    Fire Ant Worker
+      Low Heat
+      Low Venom
+      Low Swarming
+    Fire Ant Soldier
+      Low Heat
+      Medium Venom
+      Medium Swarming
+    Fire Ant Drone
+      Low Venom
+      Medium Heat
+      Medium Swarming
+      High Flight
+    Fire Ant Queen
+      Medium Venom
+      Medium Heat
+      High Swarming
+    Fire Ant Empress
+      High Heat
+      High Venom
+      High Swarming
+      Medium Flight
+  Winter Ants
+    Encounter Table
+    Winter Ant Worker
+      Low Chill
+      Low Hydro
+      Low Swarming
+    Winter Ant Soldier
+      Low Chill
+      Medium Hydro
+      Medium Swarming
+    Winter Ant Drone
+      Medium Chill
+      Low Hydro
+      High Flight
+      Medium Swarming
+    Winter Ant Queen
+      Medium Chill
+      Medium Hydro
+      High Swarming
+    Winter Ant Empress
+      High Chill
+      High Hydro
+      High Swarming
+      Medium Flight
 ║   4.5.0.0 Bees (TBD)..................................................................150 ║
 ║   4.6.0.0 Termites....................................................................151 ║
 ║     4.6.1.0 Worker Termite............................................................152 ║
