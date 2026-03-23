@@ -2104,6 +2104,7 @@ There are five types of Risk Events:
   4.7.0.0  Scorpions
   4.8.0.0 Spiders
 ║   4.7.0.0 Termites....................................................................151 ║
+    Encounter Table
 ║     4.6.1.0 Worker Termite............................................................152 ║
 ║     4.6.2.0 Minor Termite Soldier - Autothyte.........................................153 ║
 ║     4.6.3.0 Major Termite Soldier - Autothyte.........................................155 ║
