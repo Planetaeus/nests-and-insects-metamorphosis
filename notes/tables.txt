@@ -173,7 +173,9 @@ Generate a Food Item's Function:
 ║ Alates - Queen, tertiary              5      Cute Termite princess. Aaaw!         ║
 ║ Alates - Queen, secondary             6      Second in command                    ║
 ║ Alates - Queen, primary               7      Big honcho. Common Job target        ║
-
+Armored Spider
+Bullet Ant
+Chunky Scorpion
 ║ Nest Invader         			        3		       Armoured and venomous                ║
 ║ Termitophile		                    2		       Charming and affable                 ║
 ║ ────────────────────────────────────────────────────────────────────────────────────      ║
