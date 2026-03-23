@@ -1814,6 +1814,87 @@ There are five types of Risk Events:
       
 ║                                                                                           ║
 ║ 4.0.0.0 Setting (TBD).................................................................144 ║
+  
+  The Meadows
+  
+  Benevolent Bee Queendom
+    Hive resides in the Tree of Bee, an old and sacred Plum Tree that stands tall in the center of the meadows.
+    Ruled by Beeavalon, Queen of the Honeybees.
+    The hive is constructed by the Honeybees, who claim dominion over the meadows.
+    Within the Hive and the Tree, many species of Bee live together in harmony, sharing in the bounty of the Meadows.
+      Honey Bees
+        Honey traps.
+      Bumble Bees
+        Something with pollen. Probably healing.
+      Fireglass Bees
+        Swarming Heat
+      Stormshore Bees
+        Swarming Shock
+  
+  The warring Colonies of distant Ant Empires
+    Extractionist.
+    Territorial.
+    Respect the rules of engagement set forth by the Queen Bee:
+      The Ants can live, excavate, and forage in the Meadows
+      The Ants can war against other Ants
+      The Ants can enforce their territory against outsiders, but must provide warning before attacking.
+      The Ants shall not harm the Flowers or the Tree of Bee.
+      When attacking, must announce one day in advance to allow evacuation.
+    Colonies:
+      Carpenter Ants in various logs and stumps across the Meadows.
+      Winter Ants (Ants with Chill)
+      Fire Ants (Ants with Heat), don't give a damn about Queen Beeavalon's conditions. They keep pushing the limits of what they can get away with.
+  
+  Invasive Hornet Hordes
+    Wherever a nest pops up, destruction lies in its wake.
+    Plants die off from overharvesting of nectar.
+    Insects are captured and killed to feed the young.
+  
+  Mastercraft Termite Cathedrals
+    Towering structures
+    A quest to bring the earth up to the heavens.
+    The Alates have ambitions to become greater then the Queen Bee, but do not challenge her outright.
+  
+  Brutal Beetle Arenas
+    The Beetles of the Arenas grow up in a fight for resources and survival.
+    The greatest and grandest of Beetles, the Titans, rule unchallenged, for none can stand against them.
+    The Beetle Titans represent the largest and the strongest bugs in the Meadows.
+    Their influence keeps the Arenas from having to worry about the Ant Colonies
+  
+  Serene and Surreal Spider Communes
+    Just as their webs trap bugs, even mid-flight, so too do their minds trap ideas to contemplate and consider.
+    The Termites use their glorious labors to boast their place in the world.
+    Spiders contemplate the place OF the world.
+    Insects who enter may achieve enlightenment... if they survive to leave.
+  
+  Secretive Scorpion Burrows
+    The Scorpions are spoken of in hushed whispers throughout the meadows.
+    They are spectacular and efficient ambush hunters.
+    They move through the meadows, not staying in one place for long.
+    That means they could show up anywhere.
+  
+  Wandering Migrations
+    Moths & Butterflies
+    Dragonflies
+    Grasshoppers and Locusts
+    
+  The Florest
+  
+  The Berrydells
+    Blueberries
+    Mulberries
+    Cranberries
+    Raspberries
+    Strawberries
+    Huckleberries
+    Elderberries
+    Serviceberries
+    Ground-cherries
+    
+  The Vast Blue
+  
+  The Thicket
+    
 ║   4.1.0.0 Clients and Jobs (TBD)......................................................145 ║
 ║   4.2.0.0 Environment (TBD)...........................................................146 ║
 ║     4.2.1.0 Nests (TBD)...............................................................146 ║
