@@ -1963,7 +1963,144 @@ There are five types of Risk Events:
       High Swarming
       Medium Flight
 ║   4.5.0.0 Bees (TBD)..................................................................150 ║
-║   4.6.0.0 Termites....................................................................151 ║
+  Encounter Table
+  Honey Bees
+    Honey Bee Worker
+      High Construction
+      Medium Plant
+      Low Flight
+      Low Swarming
+    Honey Bee Soldier
+      Medium Construction
+      Medium Plant
+      Medium Flight
+      Medium Swarming
+    Honey Bee Princess
+      Medium Plant
+      High Flight
+      High Swarming
+    Honey Bee Queen
+      High Plant
+      Medium Flight
+      High Swarming
+    Queen Beeavalon
+      High Plant
+      High Flight
+      High Swarming
+  Bumble Bees
+    Bumble Worker
+      Low Plant
+      Medium Healing
+      Low Flight
+      Low Swarming
+    Bumble Soldier
+      Medium Plant
+      Medium Healing
+      Low Flight
+      Medium Swarming
+    Bumble Princess
+      Medium Plant
+      High Healing
+      Medium Flight
+    Bumble Queen
+      High Plant
+      High Healing
+      Low Flight
+  Fireglass Bees
+    Fireglass Worker
+      Low Heat
+      Low Swarming
+      Low Flight
+    Fireglass Soldier
+      Medium Heat
+      Medium Swarming
+      Medium Flight
+    Fireglass Princess
+      Medium Heat
+      High Swarming
+      High Flight
+    Fireglass Queen
+      High Heat
+      High Swarming
+      Low Flight
+  Stormshore Bees
+    Stormshore Worker
+      Low Shocks
+      Medium Flight
+      Low Swarming
+    Stormshore Soldier
+      Medium Shocks
+      High Flight
+      Medium Swarming
+    Stormshore Princess
+      Medium Shocks
+      High Flight
+      High Swarming
+    Stormshore Queen
+      High Shocks
+      Low Flight
+      High Swarming
+  4.6.0.0 Beetles (TBD)
+    Bark Beetles
+      High Chill
+      Medium Spe
+      Medium STR
+      Low Flight
+    Bark Titan
+      High Chill
+      Medium Spe
+      High STR
+      Medium Flight
+    Hercules Beetle
+      High STR
+      High Carapace
+      Medium Flight
+      Medium Spe
+    Hercules Titan
+      High STR
+      High Carapace
+      High Flight
+      High Spe
+    Ladybug
+      High speed
+      Medium Strength
+      Medium Carapace
+      Medium Flight
+    Ladybug Titan
+      High Speed
+      High Strength
+      Medium Carapace
+      High Flight
+    Rhinoceros Beetle
+      Low Spe
+      High STR
+      Medium Carapace
+      Low Flight
+    Rhinoceros Titan
+      Medium Spe
+      High STR
+      High Carapace
+      High Flight
+    Scarab
+      High Construction
+      Medium Spe
+      Medium STR
+      Medium Flight
+    Scarab Titan
+      High Construction
+      High Spe
+      High STR
+      Medium Flight
+    Titan Beetle
+      High STR
+      Medium Carapace
+      Medium Flight
+      Medium Spe
+    Titan of all Titans
+      High STR
+      High Carapace
+      High Flight
+      High Spe
 ║     4.6.1.0 Worker Termite............................................................152 ║
 ║     4.6.2.0 Minor Termite Soldier - Autothyte.........................................153 ║
 ║     4.6.3.0 Major Termite Soldier - Autothyte.........................................155 ║
