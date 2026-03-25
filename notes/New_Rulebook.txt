@@ -832,9 +832,9 @@
             
           ║ d20 Result    Beneficial Ability                                                          ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-          ║ 1-6           Mutation - Gain a Special or Advanced Ability. Exhausted once Consumed.     ║
-          ║   7           Healing - reduces Wounds by Net Successes when Consumed.                    ║
-          ║   8           Relief - reduce one Effect's rating to 0% (choose the Effect at random)     ║
+          ║ 1-6           Mutation - Gain a Special or Advanced Ability.                              ║
+          ║   7           Healing - reduces Wounds for each Rating Consumed.                          ║
+          ║   8           Relief - reduce one Effect's rating to 0% (Player chooses the Effect)       ║
           ║   9           Courage - start next Combat in Charging Disposition.                        ║
           ║  10           Light - can be used as a Light item.                                        ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
@@ -875,9 +875,9 @@
 
           _Food Item Abilities_ Food Items' Abilities take effect immediately upon being Consumed. This is true for both Known and Unknown Items.
           
-          _Gaining Attributes_ When a Character Consumes a Food Item that grants an Attribute, she increases her rating in that Attribute by one, up to the rating of the Food Item she just Consumed.
+          _Gaining Attributes_ When a Character Consumes a Food Item that grants an Attribute, she increases her rating in that Attribute for each Rating Consumed.
           
-          _Gaining Effects_ When a Character gains an Effect, such as Bleeding, Roll the Food Item's Rating to quantify the Effect bestowed.
+          _Gaining Effects_ When a Character Consumes a Food Item that bestows an Effect, she increases her rating in that Effect by one.
 
 3.0.0.0 System
   
