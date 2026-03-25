@@ -1695,9 +1695,7 @@ There are five types of Risk Events:
       
     3.8.2.0 Secure a Room
     
-      A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To Secure a Room, the Characters must have a Total Construction Rating equal to the Room's Level. They Consume Ratings of Building Resources equal to the Room's Level.
-      
-      _Secure a Room with Web_ If the Characters have a Total Web Rating equal to the Room's Level, they can Secure the Room without Consuming Resources. Instead, they consume that much Food.
+      A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To be able to Secure a Room, the Characters must have a combined Construction + Web rating equal to the Room's Level. Each Character contributing a Rating of Construction must Consume that many Ratings of Resources. Each Character contributing a Rating of Web must Consume that many Ratings of Food.
     
     3.8.3.0 Consume Food
     
