@@ -16,9 +16,9 @@
 ║ Healing.........:[__] ................:[__] ║ 6. Confused.....:[__] 12. Shocks......:[__] ║
 ║                                             ║                                             ║
 ╠═► Combat ◄══════════════════════════════════╩══════════════╦═► Survival ◄═════════════════╣
-║    Initiative (Init).....:[_1] WOUNDS...........:[__]/[_8] ║ Metamorphosis Points..:[__]  ║
-║    Threat Rate (TR)......:[_1] SWARMS...........:[__]/[10] ║ Hunger................:[__]  ║
-║    Survival Rate (SR)....:[_1] ......................:[__] ║ ......................:[__]  ║
+║    Initiative (Init).....:[_3] WOUNDS...........:[__]/[_8] ║ Metamorphosis Points..:[__]  ║
+║    Threat Rate (TR)......:[_3] SWARMS...........:[__]/[10] ║ Hunger................:[__]  ║
+║    Survival Rate (SR)....:[_3] ......................:[__] ║ ......................:[__]  ║
 ╠═► Disposition Track ◄══════════════════════════════════════╩════[ <- Recoil | Advance ->]═╣
 ║         ○ Retreat     ○ -2d     ○ -1d     ○ Hold     ○ +1d     ○ +2d     ○ Charge         ║
 ╠═► Attacks ◄═════════════════════════════════╦═════════════════════════════════════════════╣
@@ -31,13 +31,13 @@
 ║ ........................................... ║ Lose two SWARMS or Die..................... ║
 ║ ........................................... ║ ........................................... ║
 ║─────────────────[ Attack 3 ]────────────────║─────────────────[ Attack 4 ]────────────────║
-║ Bolster...............................Close ║ Hit and Run...........................Close ║
+║ Rout..................................Close ║ Hit and Run...........................Close ║
 ║ Roll PAS+TR vs. PAS+SR against an adjacent. ║ Roll SPE+TR vs SPE+SR against an adjacent.. ║
 ║ Insect. Target gains Wounds for each Net... ║ Insect. For each Net Success, target gains. ║
-║ Success. Roll PAS+Leadership. Each Ally.... ║ wounds and you may move that many Hexes.... ║
-║ within Leadership Hexes Rolls as if........ ║ ........................................... ║
-║ Resisting an Rally Action, then Recoils.... ║ ........................................... ║
-║ appropriately.............................. ║ ........................................... ║
+║ Success. Roll PAS+Signaling. Each Enemy.... ║ wounds and you may move that many Hexes.... ║
+║ within Signaling Hexes Rolls as if......... ║ ........................................... ║
+║ Resisting an Intimidate Action, then....... ║ ........................................... ║
+║ Recoils appropriately...................... ║ ........................................... ║
 ╠═► Inventory ◄═══════════════════════════════╩═════════════════════════════════════════════╣
 ║─[ Name ]───────────────────────────────────────────────────────[ Rating ]─┬[B]┬[L]┬[H]┬[C]║
 ║ ___________________________________________________________________ [___] │ □ │ □ │ □ │ □ ║
