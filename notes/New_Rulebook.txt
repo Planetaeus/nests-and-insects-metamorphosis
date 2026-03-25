@@ -1907,16 +1907,19 @@ There are five types of Risk Events:
     Fire Ant Worker
       Low Heat
       Low Venom
-      Low Swarming
+      Medium Strength
+      Medium Ken
+      Medium Swarming
     Fire Ant Soldier
       Low Heat
       Medium Venom
+      High Strength
       Medium Swarming
     Fire Ant Drone
       Low Venom
-      Medium Heat
-      Medium Swarming
-      High Flight
+      low Heat
+      low Swarming
+      Medium Flight
     Fire Ant Queen
       Medium Venom
       Medium Heat
