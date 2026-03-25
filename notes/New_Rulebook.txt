@@ -2240,6 +2240,12 @@ There are five types of Risk Events:
         Requirements: Swarming 7, Passions 7
         
       5.2.2.4 Venom Attacks
+        Corrosive Sacrifice
+        Requirements: Swarming 5, Venom 5
+        
+        Envenomed Spikes
+        Requirements: Carapace 6, Venom 6
+        
         Healing Dose
         Requirements: Healing 3, Venom 3
         
@@ -2400,6 +2406,11 @@ There are five types of Risk Events:
     Range: Ranged
     Requirements: Carapace 7
     Roll Carapace + TR vs. SPE + SR against an Insect within Carapace Hexes. The target gains Wounds and Brittle for each Net Success. You gain Brittle 2.
+    
+    Corrosive Sacrifice
+    Range: Area
+    Requirements: Swarming 6, Venom 6
+    Roll Swarming + Venom + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds, Immobile, and Brittle for each Net Success. Lose one Swarms or DIE.
     
     Envenomed Spikes
     Range: Special
