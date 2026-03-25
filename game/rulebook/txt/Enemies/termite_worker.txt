@@ -31,8 +31,8 @@
 ║ ........................................... ║ ........................................... ║
 ║ ........................................... ║ ........................................... ║
 ║─────────────────[ Attack 3 ]────────────────║─────────────────[ Attack 4 ]────────────────║
-║ Passion.................................... ║ Swarming Call.......................Special ║
-║ Roll PAS+TR vs. PAS+SR against an adjacent. ║ Roll Swarming. On a Success, regain two.....║
+║ Strong Strike.............................. ║ Swarming Call.......................Special ║
+║ Roll STR+TR vs. STR+SR against an adjacent. ║ Roll Swarming. On a Success, regain two.....║
 ║ Insect. Target gains Wounds for each Net... ║ SWARMS. On Total Success also summon one... ║
 ║ Success.................................... ║ Minor Termite Soldiers with 0 SWARMS....... ║
 ║ ........................................... ║ ........................................... ║
