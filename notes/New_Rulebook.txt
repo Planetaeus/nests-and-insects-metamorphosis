@@ -825,9 +825,9 @@
 
           2. Generate the Item's Alignment and Abilities
           
-            _Ordinary Items_ only reduce Hunger, and have no special properties.
+            _Ordinary Food_ only reduces Hunger, and have no special properties.
           
-            _Blessed Items_ bestow a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
+            _Blessed Food_ bestows a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
             
           ║ d20 Result    Blessings                                                                   ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
