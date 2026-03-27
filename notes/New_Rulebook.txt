@@ -813,13 +813,13 @@
           
           1.  Generate the Item's Condition.
           
-            Roll a d8 and match the Result on the Item Condition Table below.
+            Roll a d6 and match the Result on the Item Condition Table below.
 
-          ║ d8 Result   Condition   Description                                                       ║
+          ║ d6 Result   Condition   Description                                                       ║
           ║ ──────────────────────────────────────────────────────────────────────────────────        ║
-          ║   1-4       Ordinary    Nothing special, an ordinary Item.                                ║
-          ║   5-6       Blessed     Roll on the Blessings Table to determine special properties.      ║
-          ║   7-8       Cursed      Bestows a random Effect when Consumed; cannot be dropped.         ║
+          ║   1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.         ║
+          ║   3-4       Ordinary    Nothing special, an ordinary Item.                                ║
+          ║   5-6       Blessed     Roll on the Blessings Table to determine Blessing.                ║
           ║ ──────────────────────────────────────────────────────────────────────────────────        ║
           ║ Table 12: Item Conditions                                                                 ║
 
