@@ -813,50 +813,37 @@
           
           1.  Generate the Item's Condition.
           
-            Roll a d6 and match the Result on the Item Condition Table below.
+            Roll a d8 and match the Result on the Item Condition Table below.
 
-          ║ d6 Result  Condition   Description                                                       ║
+          ║ d8 Result   Condition   Description                                                       ║
           ║ ──────────────────────────────────────────────────────────────────────────────────        ║
-          ║   1         Ordinary    Nothing special, an ordinary Item                                 ║
-          ║   2         Blessed     Roll to increase amount if Beneficial; decrease if Harmful        ║
-          ║   3         Cursed      Roll to increase amount if Harmful; cannot be dropped             ║
-          ║   4         Spoiled     May bestow Infected when Consumed.                                ║
-          ║   5         Nutritious  Roll twice to decrease Hunger when Consumed.                      ║
-          ║   6         Extra       Roll Twice to determine Conditions.                               ║
+          ║   1-4       Ordinary    Nothing special, an ordinary Item.                                ║
+          ║   5-6       Blessed     Roll on the Blessings Table to determine special properties.      ║
+          ║   7-8       Cursed      Bestows a random Effect when Consumed; cannot be dropped.         ║
           ║ ──────────────────────────────────────────────────────────────────────────────────        ║
           ║ Table 12: Item Conditions                                                                 ║
 
           2. Generate the Item's Alignment and Abilities
           
-            Roll a d20 and match the Result on the Item Ability Table below.
+            _Ordinary Items_ only reduce Hunger, and have no special properties.
+          
+            _Blessed Items_ bestow a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
             
-          ║ d20 Result    Beneficial Ability                                                          ║
+          ║ d20 Result    Blessings                                                                   ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-          ║ 1-6           Mutation - Gain a Special or Advanced Ability.                              ║
-          ║   7           Healing - reduces Wounds for each Rating Consumed.                          ║
-          ║   8           Relief - reduce one Effect's rating to 0% (Player chooses the Effect)       ║
-          ║   9           Courage - start next Combat in Charging Disposition.                        ║
-          ║  10           Light - can be used as a Light item.                                        ║
+          ║   1-7         Mutation - Gain a Special or Advanced Ability. See Food of Mutation.        ║
+          ║  8-10         Healing - reduces Wounds for each Rating Consumed.                          ║
+          ║ 11-13         Relief - reduce one Effect's Rating for each Rating Consumed.               ║
+          ║ 14-16         Light - can be used as a Light item.                                        ║
+          ║ 17-20         Mutation - Gain a Special or Advanced Ability.                              ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-          ║ Table 14: Beneficial Abilities                                                            ║
-          ║ d20 Result    Harmful Ability                                                             ║
-          ║ ─────────────────────────────────────────────── ║
-          ║ 11            Bleeding - gain Bleeding          ║
-          ║ 12            Blindness - gain Blinded          ║
-          ║ 13            Brittle - gain Brittle            ║
-          ║ 14            Charming - gain Charmed           ║
-          ║ 15            Confusion - gain Confused         ║
-          ║ 16            Immobilisation - gain Immobile ║
-          ║ 17            Infection - gain Infected         ║
-          ║ 18            Paralysis - gain Paralysed        ║
-          ║ 19            Poisonning - gain Poisoned        ║
-          ║ 20            Stunning - gain Stunned           ║
-          ║ ─────────────────────────────────────────────── ║
-          ║ Table 15: Harmful Abilities                                                               ║
+          ║ Table 14: Blessings                                                                       ║
 
-          List of Special Abilities:
+          _Food of Mutation_ When a Mutation Item is generated, roll a d20 and compare against the Mutations Table to determine the Special or Advanced Attribute. When a Character Consumes the Food Item, she increases her rating in that Attribute for each Rating Consumed.
+          
+          List of Special and Advanced Attributes:
 
-          ║ d20 Result    Special Ability                                                             ║
+          ║ d20 Result    Attribute                                                                   ║
           ║ ───────────────────────────────────────────────                                           ║
           ║ 1-3           Armor - Gain Carapace    ║
           ║ 4-6           Flight - Gain Flight     ║
@@ -872,12 +859,8 @@
           ║ 19            Charge - Gain Static     ║
           ║ 20            Vibes - Gain Vibe        ║
           ║ ───────────────────────────────────────────────                                           ║
-
-          _Food Item Abilities_ Food Items' Abilities take effect immediately upon being Consumed. This is true for both Known and Unknown Items.
           
-          _Gaining Attributes_ When a Character Consumes a Food Item that grants an Attribute, she increases her rating in that Attribute for each Rating Consumed.
-          
-          _Gaining Effects_ When a Character Consumes a Food Item that bestows an Effect, she increases her rating in that Effect by one.
+          _Cursed Items_ When a Character Consumes a Cursed Food Item, she rolls a D12 to determine a Random Effect. She increases her rating in that Effect for each Item Rating consumed.
 
 3.0.0.0 System
   
