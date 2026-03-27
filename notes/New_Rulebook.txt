@@ -831,11 +831,10 @@
             
           ║ d20 Result    Blessings                                                                   ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-          ║   1-7         Mutation - Gain a Special or Advanced Ability. See Food of Mutation.        ║
-          ║  8-10         Healing - reduces Wounds for each Rating Consumed.                          ║
-          ║ 11-13         Relief - reduce one Effect's Rating for each Rating Consumed.               ║
-          ║ 14-16         Light - can be used as a Light item.                                        ║
-          ║ 17-20         Mutation - Gain a Special or Advanced Ability.                              ║
+          ║   1-4         Healing - reduces Wounds for each Rating Consumed.                          ║
+          ║   5-8         Relief - reduce one Effect's Rating for each Rating Consumed.               ║
+          ║  9-12         Light - can be used as a Light item.                                        ║
+          ║ 13-20         Mutation - Gain a Special or Advanced Ability. See Food of Mutation.        ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
           ║ Table 14: Blessings                                                                       ║
 
