@@ -3,7 +3,7 @@ import numpy as np
 import random as rnd
 import math
 
-layers = 20+1
+layers = 30+1
 
 hex_length = 0
 
@@ -18,7 +18,7 @@ rnd.seed()
 for i in range(1,hex_length):
     rnd_int = rnd.randrange(6)
     
-    if rnd_int > 3:
+    if rnd_int > 2:
         hexes[0,i] = 0
         
 
@@ -42,8 +42,10 @@ for i in range(layers):
             hex[0,3] = j
             good_hex = np.append(good_hex,hex,axis = 0)
             
-            ax.annotate(str(10-i) + "," + str(j+1),(x,y))
+            #ax.annotate(str(10-i) + "," + str(j+1),(x,y))
         index = index + 1
+
+edges = []
 
 for i in range(np.size(good_hex,axis = 0)):
     h1 = good_hex[i,:]
@@ -53,11 +55,12 @@ for i in range(np.size(good_hex,axis = 0)):
         i2 = h2[2]
         j1 = h1[3]
         j2 = h2[3]
+        plot = False
         if i2 == i1:
             if j2 - j1 == 1:
-                ax.plot([h1[0],h2[0]],[h1[1],h2[1]])
+                plot = True
             elif j2 - j1 == i2 * 6-1:
-                ax.plot([h1[0],h2[0]],[h1[1],h2[1]])
+                plot = True
         elif i2 - i1 == 1:
             s2 = int(j2 / i2)
             s1 = s2
@@ -65,15 +68,17 @@ for i in range(np.size(good_hex,axis = 0)):
                 s1 = int(j1 / i1)
             
             if j2 - j1 == s2:
-                ax.plot([h1[0],h2[0]],[h1[1],h2[1]])
+                plot = True
             elif j2 - j1 == i2 * 6 - 1:
-                ax.plot([h1[0],h2[0]],[h1[1],h2[1]])
+                plot = True
             elif s1 == s2:
                 if j2 % i2 - j1 % i1 == 1:
-                    ax.plot([h1[0],h2[0]],[h1[1],h2[1]])
+                    plot = True
         elif i2 - i1 > 1:
             break
-            
+        if plot == True:
+            ax.plot([h1[0],h2[0]],[h1[1],h2[1]])
+            edges.append([h1[2:3],h2[2:3]])
                     
 ax.scatter(good_hex[:,0],good_hex[:,1])
 plt.show()
