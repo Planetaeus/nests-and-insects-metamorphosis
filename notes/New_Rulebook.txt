@@ -631,7 +631,7 @@
       
       Inventory Items carried by a Character are recorded on the Character's sheet, in the Inventory box.
       
-      Like all Features, Inventory Items have a descriptive name and a rating that represents the amount of the relevant resource. Items also have types that describe their use, recorded in parentheses next to the Item's name. One type of Item are Food Items that can be eaten to fend off Hunger, or grant Special Abilities.
+      Like all Features, Inventory Items have a descriptive name and a rating that represents the amount of the relevant resource. Items also have types that describe their use, recorded in parentheses next to the Item's name. One type of Item are Food Items that can be eaten to fend off Hunger, or grant boons.
       
       2.6.9.1 Carrying Items
       
@@ -670,7 +670,7 @@
         ║ Item Type    Symbol    Description                                                        ║
         ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
         ║ Companion    [C]       A creature accompanying a Character. May be edible.                ║
-        ║ Food         [F]       Used to pay a Hunger Cost. May bestow Effects, grant Abilities.    ║
+        ║ Food         [F]       Used to pay a Hunger Cost. May bestow Effects, grant boons.        ║
         ║ Hint         [H]       May provide useful information.                                    ║
         ║ Light        [L]       Used to pay a Darkness Cost. May be edible.                        ║
         ║ Materials    [M]       Used to build a Shelter for Resting and Healing.                   ║
