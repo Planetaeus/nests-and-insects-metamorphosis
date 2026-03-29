@@ -3,11 +3,13 @@
   Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One Player assumes the role of the Game Queen and describes the game world to the other players. The other players control Characters who explore and interact with the game world.
 
   1.1.0.0 The Setting
+  
     Players' Characters are arthropods. Six pre-built Classes are provided in this document: Spider, Wasp, Scorpion, Ladybug, Betle, and Ants. The Characters are mercenaries; assassins and thugs, hired to invade a Nest and carry out a Job on behalf of some arthropod client. Nests are the homes of eusocial Insects: the nests of Bees, Ants, and Termites. Common Jobs are to assassinate the Nest's Royalty; steal special food resources; steal or kill larvae; or retrieve an arthropod of interest.
     
     At the beginning of a new Job, the players' Characters enter a Nest armed with their natural weapons and armor. During a Job, Characters must survive combat with the soldier castes guarding the Nests. They must also hunt or forage for food to avoid starving to death. While foraging, Characters may find food items, such as nectar and fungi, that can provide not only sustenance, but also healing and mutations.
     
   1.2.0.0
+  
     Nests & Insects is a Roguelike TTRPG. It is inspired by computer roleplaying games of the Roguelike genre, like Nethack, Angband, Moria, Ancient Domains of Mystery, and later games like Diablo and Darkest Dungeon. Nests & Insects: Metamorphosis is also inspired by Pokemon Mystery Dungeon, Dungeons & Dragons, and the World of Darkness.
     
     Nests & Insects is designed to be played with little preparation other than reading some of the rules. At the start of a new game, players either choose from among pre-built Classes or takes steps to craft their own Character. The Game Queen (GQ) then Rolls to generate the first Room in the entrance to the first Level of the Nest, and the Characters enter. After visiting a Room and defeating its challenges, Characters get a chance to rest and recoup their strength, as well as use their Metamorphosis Points to gain new and powerful Attacks. The Job ends when the Characters fulfill its terms, surrender to the Nest, run away, or die.
@@ -58,6 +60,7 @@
       Some Actions require Quantification of their results to see how great or how wicked their outcomes are. Some outcomes require a Quantification Roll, where the GQ or the Player Rolls a number of d6 based on an Attribute rating and counts the successes. Others use set numbers. Finally, some outcomes simply use the number of Net Successes from the original Action's Roll.
 
     1.3.4.0 Minigames
+    
       The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more variety, and more detail, to the basic rules, Nests & Insects defines a number of "minigames".
       
       Minigames are special sets of rules for situations that are of special interest to a game. There are four minigames in Nests & Insects: Combat, Survival & Exploration; Hunting & Foraging; and Resting & Healing.
@@ -65,6 +68,7 @@
       Minigames are described in detail in the Chapter 3.
   
 2.0.0.0 Characters
+
   In Nests & Insects, players each control a Character: an arthropod mercenary on a Job to infiltrate a Nest. Players control their Characters by describing their Character's actions, then the players Roll the dice to find out what happens. The Game Queen (GQ) rests the dice and determines the outcome of the Character's actions.
   
   Nests & Insects: Metamorphosis provides rules for players to create their own bugs of death. Players may also choose a Character from one of six classes: Ants, Beetle, Ladybug, Scorpion, Spider, and Wasp.
@@ -72,11 +76,13 @@
   The following sections describe the Nests & Insects Characters, their classes, their Features, and the Character sheets that record their Features.
   
   2.1.0.0 Character Selection
+  
     To begin playing the game, players can select one of the six Character classes. The class determines the Character's starting Features.
     
     If the players and the GQ prefer, a blank sheet is provided for creating custom starting Characters. Rules for Character creation can be found later in this Chapter.
     
   2.2.0.0 Character Death
+  
     When a Character dies, the Player is free to select or create a new Character.
     
     The new Character begins in the same Room of the Nest as the other players' Characters.
@@ -84,26 +90,46 @@
     The new Character can start as the same class as the old Character, even if it was a custom class.
     
     2.2.1.0 The Cost of Death
+    
       The only mechanical consequence of Character death is that a Player must start with a fresh Character, with base stats, without MP, and without any Items (though some of the Items in a dead Character's Inventory may remain on the floor of the Nest).
       
       If playing a custom class, it can be helpful to keep a record of what your Character looked like at creation if you intend to come back as the same class upon death.
     
   2.3.0.0 Character Sheet
+  
     In Nests & Insects, Characters are described by Features rated 0-10, listed in a Character sheet specific to that Character.
     
-    MAY BE REWORKED> NOT SETTLED YET.
-    There are five categories of Features: Core, Combat, Survival, Attributes, and Inventory. These are covered in more detail in the "System" Chapter. They are briefly covered here as they relate to the Character sheets.
+    The Character Sheet is broken down into several sections:
     
-    2.3.1.0 Class Header
-      The first area in a Character sheet is its Class Header, listing the name of the game and the name of a Character's class.
-      
-      INSERT FIGURE HERE
+    * Character Name
+    
+    * Core Attributes
+    
+    * Special Attributes
+    
+    * Advanced Attributes
+    
+    * Common Attributes
+    
+    * Effects
+    
+    * Disposition Track
+    
+    * Combat Attributes
+    
+    * Survival Attributes
+    
+    * Attacks
+    
+    * Inventory
+    
+    2.3.1.0 Character Name
+    
+      The first area in a Character sheet is its Character Name, listing the name of a Character's class.
       
     2.3.2.0 Core Attributes Area
-      Under the Class Header is the Core Attributes Area. Core Attributes are Features that represent innate abilities of Characters in a Class.
-      
-      Nests & Insects: Metamorphosis Characters have four Core Attributes
-      
+    
+      Under the Character Name is the Core Attributes Area. Core Attributes are Features that represent innate abilities of Characters in a Class. Nests & Insects: Metamorphosis Characters have four Core Attributes:
             
       ║ Core Attribute  Description                                                               ║
       ║ ───────────────────────────────────────────────────────────────────────────────────────   ║
@@ -114,6 +140,7 @@
       ║ ───────────────────────────────────────────────────────────────────────────────────────   ║
 
     2.3.3.0 Special Attributes Box
+    
       The Special Attributes box lists Attributes that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Special Attributes ratings.
       
       There are five Special Attributes that Character classes can have at creation/selection: Carapace, Flight, Swarming, Venom, or Web. These are briefly described below.
@@ -149,6 +176,7 @@
       ║ ─────────────────────────────────────────────────────────────────────────────────         ║
     
     2.3.5.0 Effects Box
+    
       The Effects Box lists ten Effects that a Character can be subject to.
       
       Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other minigames. The ten Effects in the Effect Box are listed below with a brief description of each.
@@ -176,6 +204,7 @@
       In Combat, Disposition acts as a positive or negative modifier on all Actions. At "Retreating", a Character is running away from combat and cannot take Actions other than Move. At "Charging", all of a Character's Actions receive one automatic success.
 
     2.3.7.0 Combat Attributes Box
+    
       The Combat box lists a Character's Initiative, Threat Rate, Survival Rate and Wounds. This is also where a Character with Swarming will keep track of their Swarms.
       
       * Initiative: Used to determine a Character's turn placement in Combat, as well as determine initial disposition when Combat begins.
@@ -189,25 +218,10 @@
       * Wounds: The current number of wounds a Character has received.
       
       * Swarms: Characters with the Swarming ability lose Swarms before taking Wounds. The maximum number of Swarms a Character can have is equal to their Swarming rating.
-    
-    2.3.8.0 Attack Boxes
-      
-      The Attack boxes list the details of a Character's two Attacks. Each Character Class starts with its own two Attacks. As their Features improve, Characters can learn new and stronger Attacks. The attributes of an Attack are briefly described below.
-      
-      * Name: The name of the Attack.
-      
-      * Description: Details the Effort, Resistance, and additional effects of the Attack.
-      
-    2.3.9.0 Survival Box
-      
-      2.3.9.1 Inventory
-        The Inventory Box lists a Character's possessions such as Food items, slaved Prey, and other items.
+     
+    2.3.8.0 Survival Attributes
         
-        Each line in the Inventory box has a "Depleted" tickbox that indicates whether the item has been depleted as a result of its use.
-        
-        Characters can only carry as many Items as there are lines in the Inventory box: that is 5 lines for 5 items.
-        
-      2.3.9.2 Hunger Track
+      2.3.8.2 Hunger Track
         
         The Food box lists the Character's Hunger rating. A Character is Starving when her Hunger rating reaches 10. While Starving, a Character reduces the outcome of all her Actions by 2 successes. If a Character receives more Hunger while Starving, she Dies.
         
@@ -217,9 +231,25 @@
         ║ └<^Starving>──────────────┘  ║
         ║ ───────────────────────────  ║
       
-      2.3.9.3 Metamorphosis Point (MP) Track
+      2.3.8.3 Metamorphosis Point (MP) Track
         
         Certain events in the course of exploring a Nest grant the Characters MP. During Resting & Healing (SECTION), Characters can spend MP to increase their Attributes.
+   
+   2.3.9.0 Attack Boxes
+      
+      The Attack boxes list the details of a Character's four Attacks. Each Character Class starts with its own set of Attacks. As their Features improve, Characters can learn new and stronger Attacks. The attributes of an Attack are briefly described below.
+      
+      * Name: The name of the Attack.
+      
+      * Description: Details the Effort, Resistance, and additional effects of the Attack.
+      
+   2.3.10.0 Inventory
+      
+      The Inventory Box lists a Character's possessions such as Food items, slaved Prey, and other items.
+      
+      Each line in the Inventory box has a "Depleted" tickbox that indicates whether the item has been depleted as a result of its use.
+      
+      Characters can only carry as many Items as there are lines in the Inventory box: that is 5 lines for 5 items.
         
   2.4.0.0 Character Classes (TBD)
   
