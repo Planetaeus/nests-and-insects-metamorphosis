@@ -1310,15 +1310,6 @@
 ║ For each Exploration Party, a separate Survival and Exploration Action is taken.          ║
 ║ Nominate one Character in each Exploration Party to be the "Scout" of the Party. The      ║
 ║ Scout's Exploration Feature is used as the Effort for the subsequent Exploration Action.  ║
-║                                                                                           ║
-║ _Tracking Exploration Parties_ To facilitate the distinction between Exploration Parties, ║
-║ if more than one are formed, the GQ or the players can assign names to each party, or     ║
-║ describe the direction where a party is heading (this is despite the fact that Nest       ║
-║ environments do not specify clear directions). Tere are no specific rules for this. As an ║
-║ example, if the Characters split into two Exploration Parties, the players can declare    ║
-║ that one party is exploring "to the North" and the other "to the South". Then the GQ and  ║
-║ the players can refer to the two parties as "the North Party" and the "South Party". The  ║
-║ GQ will probably want to make a note of what Characters are in each Exploration Party.    ║
 
 3.2.6.3 Travel to an Unexplored Room
   
