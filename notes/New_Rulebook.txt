@@ -1618,36 +1618,30 @@ There are five types of Risk Events:
       
       __Multiple Levels__ If multiple Level Rewards are Reaped at the same time, only one Room is Generated, but the Nest Level is increased that many times. Characters receive 1 MP for each Level.
 
-║   3.7.0.0 Hunting and Foraging (TBD)..................................................142 ║
+║   3.7.0.0 Hunting & Foraging (TBD)..................................................142 ║
     
     In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
     
-    Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they Roll the appropriate Attribute for that type of Item. Each Item in a Room can only be harvested by one Character at a time. The following Sections describe the different harvesting methods for Insectivore Food, Herbivore Food, and Building Resources.
+    Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they Roll the appropriate Attribute for that type of Item.
     
-    ║ Degree of Success  Outcome                       ║
-    ║ ───────────────────────────────────────── ║
-    ║ Critical Success   Add 1 + Level to Item Rating                 ║
-    ║ Total Success      Add 2 to Item Rating        ║
-    ║ Partial Success    Add 1 to Item rating                      ║
-    ║ Partial Failure    Increase Hunger 1                                         ║
-    ║ Total Failure      Increase Hunger 2, Room Depleted of Item.                 ║
-    ║ Critical Failure   Increase Hunger by Level, Room Depleted of Item.          ║
-    ║ ───────────────────────────────────────── ║
-    ║ Table 1: Four Degrees of Success.                     ║
+    ║ Degree of Success  Outcome                                                   ║
+    ║ ─────────────────────────────────────────                                    ║
+    ║ Critical Success   Add Level + 2 to Item Rating.                             ║
+    ║ Total Success      Add Level + 1 to Item Rating.                             ║
+    ║ Partial Success    Add Level to Item Rating.                                 ║
+    ║ Partial Failure    Room Depleted of Item.                                    ║
+    ║ Total Failure      Room Depleted of Item. Increase Hunger by 1.              ║
+    ║ Critical Failure   Room Depleted of Item. Increase Hunger by 2.              ║
+    ║ ─────────────────────────────────────────                                    ║
+    ║ Table 1: Four Degrees of Success.                                            ║
    
     The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts are wasted, shown by an increase in the Hunger rating. On a Total Failure, the Character is hungry, but they have also depleted any remnants of that Item that could be found in the Room. The Item can no longer be harvested in this Room. On a Critical Failure, the Character's Hunger is increased substantially on top of the Room being depleted of the Item.
     
-    3.7.1.0 Foraging Plants
+    _Foraging Plants_ Harvesting an Herbivore Food Item uses the Foraging Attribute. The Character Rolls KEN + Foraging vs Level.
     
-    Harvesting an Herbivore Food Item uses the Foraging Attribute. The Character Rolls KEN + Foraging vs Level.
+    _Hunting Prey_ Harvesting an Insectivore Food Item uses the Hunting Attribute. The Character Rolls SPE + Hunting vs Level.
     
-    3.7.2.0 Hunting Bugs
-   
-    Harvesting an Insectivore Food Item uses the Hunting Attribute. The Character Rolls SPE + Hunting vs Level.
-    
-    3.7.3.0 Collecting Building Resources
-    
-    Gathering Building Resources uses the Construction Attribute. The Character Rolls STR + Construction vs Level.
+    _Collecting Building Resources_ Gathering Building Resources uses the Construction Attribute. The Character Rolls STR + Construction vs Level.
     
 ║   3.8.0.0 Resting & Healing (TBD)...................................................143 ║
 
