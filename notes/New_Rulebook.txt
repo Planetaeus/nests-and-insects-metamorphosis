@@ -103,7 +103,7 @@
     In Nests & Insects, Characters are described by Features rated 0-10, listed in a Character sheet specific to that Character.
     
     MAY BE REWORKED> NOT SETTLED YET.
-    There are five categories of Features: Core, Combat, Survival, Abilities, and Inventory. These are covered in more detail in the "System" Chapter. They are briefly covered here as they relate to the Character sheets.
+    There are five categories of Features: Core, Combat, Survival, Attributes, and Inventory. These are covered in more detail in the "System" Chapter. They are briefly covered here as they relate to the Character sheets.
     
     2.3.1.0 Class Header
       The first area in a Character sheet is its Class Header, listing the name of the game and the name of a Character's class.
@@ -124,10 +124,10 @@
       ║ Passions (PAS)  Willpower, morale, strength of spirit, courage, and influence             ║
       ║ ───────────────────────────────────────────────────────────────────────────────────────   ║
 
-    2.3.3.0 Special Abilities Box
-      The Special Abilities box lists Abilities that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Specific Abilities ratings.
+    2.3.3.0 Special Attributes Box
+      The Special Attributes box lists Attributes that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Special Attributes ratings.
       
-      There are five Specific Abilities that Character classes can have at creation/selection: Carapace, Flight, Swarming, Venom, or Web. These are briefly described below.
+      There are five Special Attributes that Character classes can have at creation/selection: Carapace, Flight, Swarming, Venom, or Web. These are briefly described below.
       
       * Carapace: the Character has a hardened carapace that protects her in combat. Beetle, Ladybug, and Scorpion have Carapace.
       
@@ -236,7 +236,7 @@
       
       2.3.9.3 Metamorphosis Point (MP) Track
         
-        Certain events in the course of exploring a Nest grant the Characters MP. During Resting & Healing (SECTION), Characters can spend MP to increase their Abilities and Attributes.
+        Certain events in the course of exploring a Nest grant the Characters MP. During Resting & Healing (SECTION), Characters can spend MP to increase their Attributes.
         
   2.4.0.0 Character Classes (TBD)
   
