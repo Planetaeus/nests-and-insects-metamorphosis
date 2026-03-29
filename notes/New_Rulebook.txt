@@ -207,13 +207,7 @@
       
       * Name: The name of the Attack.
       
-      * Effort: The Attribute(s) used as the Effort for the Roll.
-      
-      * Max. Range: The maximum range of the Attack. Can be Close, or Ranged + a number.
-      
-      * Target: Indicates how many targets an Attack affects. Can also specify an area.
-      
-      * Partial Hit, Total Hit, Critical Hit: Specifies what additional effects occur when the Character Rolls a specific DoS for an Attack.
+      * Description: Details the Effort, Resistance, and additional effects of the Attack.
       
     2.3.9.0 Survival Box
       
