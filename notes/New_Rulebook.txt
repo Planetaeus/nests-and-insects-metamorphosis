@@ -818,23 +818,20 @@
           ║ d6 Result   Condition   Description                                                       ║
           ║ ──────────────────────────────────────────────────────────────────────────────────        ║
           ║   1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.         ║
-          ║   3-4       Ordinary    Nothing special, an ordinary Item.                                ║
-          ║   5-6       Blessed     Roll on the Blessings Table to determine Blessing.                ║
+          ║   4-6       Blessed     Roll on the Blessings Table to determine Blessing.                ║
           ║ ──────────────────────────────────────────────────────────────────────────────────        ║
           ║ Table 12: Item Conditions                                                                 ║
 
           2. Generate the Item's Alignment and Abilities
           
-            _Ordinary Food_ only reduces Hunger, and have no special properties.
-          
             _Blessed Food_ bestows a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
             
           ║ d20 Result    Blessings                                                                   ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-          ║   1-4         Healing - reduces Wounds for each Rating Consumed.                          ║
-          ║   5-8         Relief - reduce one Effect's Rating for each Rating Consumed.               ║
-          ║  9-12         Light - can be used as a Light item.                                        ║
-          ║ 13-20         Mutation - Gain a Special or Advanced Ability. See Food of Mutation.        ║
+          ║   1-4         Light - can be Consumed as a Light item.                                    ║
+          ║   5-8         Healing - reduces Wounds for each Rating Consumed.                          ║
+          ║  9-12         Relief - reduce one Effect's Rating for each Rating Consumed.               ║
+          ║ 13-20         Mutation - Gain one MP for each Rating Consumed.                            ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
           ║ Table 14: Blessings                                                                       ║
           
