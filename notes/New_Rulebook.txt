@@ -145,13 +145,13 @@
       
       There are five Special Attributes that Character classes can have at creation/selection: Carapace, Flight, Swarming, Venom, or Web. These are briefly described below.
       
-      * Carapace: the Character has a hardened carapace that protects her in combat. Beetle, Ladybug, and Scorpion have Carapace.
+      * Carapace: the Character has a hardened carapace that protects her in combat. Beetle has Carapace.
       
-      * Flying: the Character can fly. Flying Characters are harder to hit in Combat by ranged Attackers. Beetle, Ladybug, and Wasp have Flying.
+      * Flight: the Character can fly. Flight Characters are harder to hit in Combat by ranged Attackers. Wasp has Flight.
       
       * Swarming: the Character is a swarm of individual Insects, or can summon conspecifics to assist her. In Combat, a Character with Swarming loses individuals from the Swarm before taking Wounds. Ants have Swarming.
       
-      * Venom: the Character has a venomous bite or sting that can bestow Effects such as Immobile, Paralysed, or Poisoned to enemies. Scorpion, Spider, and Wasp have Venom.
+      * Venom: the Character has a venomous bite or sting that can bestow Effects such as Immobile, Paralysed, or Poisoned to enemies. Scorpion has Venom.
       
       * Web: The Character can weave webs. Webs can be used to set traps, bind enemies, or secure an area. Spider has Web.
       
@@ -254,16 +254,34 @@
   2.4.0.0 Character Classes (TBD)
   
     2.4.1.0 Ants
+      
+      Swarming
+      Ken
+      PAS
     
     2.4.2.0 Beetle
     
-    2.4.3.0 Ladybug
+      Carapace
+      STR
+      Ken
     
     2.4.4.0 Scorpion
     
+      Venom
+      PAS
+      STR
+    
     2.4.5.0 Spider
     
+      Web
+      KEN
+      SPE
+    
     2.4.6.0 Wasp
+      
+      Flight
+      SPE
+      PAS
     
   2.5.0.0 Character Creation
   
@@ -967,7 +985,7 @@
         
         In her Turn, a Combatant can take one Attack Action targeting an enemy with either of her Attacks.
         
-        To determine the outcome of an Attack, make a contested Roll using the Attack's Effort and Resistance. Characters with a nonzero Carapace rating add it as a positive modifier to their Resistance against Melee Attacks. Characters with a nonzero Flying rating add it as a Positive Modifier to their Resistance againse Ranged Attacks.
+        To determine the outcome of an Attack, make a contested Roll using the Attack's Effort and Resistance. Characters with a nonzero Carapace rating add it as a positive modifier to their Resistance against Melee Attacks. Characters with a nonzero Flight rating add it as a Positive Modifier to their Resistance againse Ranged Attacks.
         
         Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort is usually one of the four Core Attributes + Threat Rate (TR), and Resistance is usually one of the four Core Attributes + Survival Rate (SR). Certain Attacks may list other combinations of Attributes instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
         
@@ -975,7 +993,7 @@
         
         _Carapace_ If an Attack is Close Range and the target has a Carapace rating, the target's Carapace rating is a Positive Modifier to her Resistance against the Attack.
         
-        _Flying_ If an Attack is Ranged and the target has a Flight rating, the target's Flight rating is a Positive Modifier to her Resistance against the Attack.
+        _Flight_ If an Attack is Ranged and the target has a Flight rating, the target's Flight rating is a Positive Modifier to her Resistance against the Attack.
         
         _Swarming_ If a Character with Swarms is affected by an Area Attack, the target's Current Swarms is a Negative Modifier to her Resistance against the Attack.
         
@@ -1078,7 +1096,7 @@
         ║ * Lift an enemy off the ground and throw her behind her allies' lines: Roll Strength vs.  ║
         ║   the enemy's Strength. The enemy is moved one Hex for each Net Success.              ║
         ║                                                                                           ║
-        ║ * Lift an enemy off the ground, carry her, flying, behind her allies lines and drop her   ║
+        ║ * Lift an enemy off the ground, carry her, Flight, behind her allies lines and drop her   ║
         ║   there: Roll Flight + Strength vs. the enemy's Strength. If the Roll succeeds, the enemy ║
         ║   acquires Stunned.                                                                     ║
         ║                                                                                           ║
