@@ -2106,19 +2106,19 @@ There are five types of Risk Events:
         
       5.2.1.4 Passions Attacks
         Bolster
-        Requirements: PAS 6, Leadership 3
+        Requirements: PAS 6, Leadership 6
         
         Fury
         Requirements: PAS 5
         
         Overwhelm
-        Requirements: PAS 7, Swarming 7
+        Requirements: PAS 6, Swarming 6
         
         Passion
         Requirements: PAS 3
         
         Rout
-        Requirements: PAS 7, Signaling 3
+        Requirements: PAS 6, Signaling 6
         
     5.2.2.0 Special Attributes
       5.2.2.1 Carapace Attacks
@@ -2161,7 +2161,7 @@ There are five types of Risk Events:
         Requirements: Heat 6, Swarming 6
         
         Overwhelm
-        Requirements: Swarming 7, Passions 7
+        Requirements: Swarming 6, Passions 6
         
       5.2.2.4 Venom Attacks
         Corrosive Sacrifice
@@ -2180,6 +2180,10 @@ There are five types of Risk Events:
         Requirements: Venom 3
         
       5.2.2.5 Web Attacks
+        
+        Bandage
+        Requirements: Web 6, Healing 6
+        
         Flaming Webs
         Requirements: Heat 6, Web 6
         
@@ -2294,11 +2298,16 @@ There are five types of Risk Events:
     Autothysis
     Range: Area
     Requirements: Swarming 3
-    Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds and Immobile for each Net Success. Lose one Swarms or DIE.
+    Spend one Swarms and Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds and Immobile for each Net Success.
+    
+    Bandage
+    Range: Close
+    Requirements: Web 6, Healing 6
+    Roll Webs vs. Carapace + SR against an adjacent Ally. For each Net Success, target heals Wounds and reduces Bleeding.
     
     Bolster
     Range: Close
-    Requirements: PAS 6, Leadership 3
+    Requirements: PAS 6, Leadership 6
     Roll PAS + TR vs. PAS + SR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Leadership. Each Ally within Leadership Hexes Rolls as if Resisting a Rally Action, then Advances appropriately.
     
     Bright Beam
@@ -2334,7 +2343,7 @@ There are five types of Risk Events:
     Corrosive Sacrifice
     Range: Area
     Requirements: Swarming 6, Venom 6
-    Roll Swarming + Venom + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds, Immobile, and Brittle for each Net Success. Lose one Swarms or DIE.
+    Spend two Swarms and Roll Swarming + Venom + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds, Immobile, and Brittle for each Net Success.
     
     Envenomed Spikes
     Range: Special
@@ -2349,7 +2358,7 @@ There are five types of Risk Events:
     Flythrough
     Range: Close
     Requirements: Flight 3
-    Move half Flight Hexes. Roll Flight + TR vs. STR + TR against an adjacent Insect. The target gains Wounds for each Net Success. Move half Flight Hexes.
+    Roll Flight + TR vs. STR + TR against an adjacent Insect. The target gains Wounds for each Net Success. Move Flight Hexes.
     
     Fontanellar Bomb
     Range: Area
@@ -2404,7 +2413,7 @@ There are five types of Risk Events:
     Hot-othysis
     Range: Area
     Requirements: Heat 6, Swarming 6
-    Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls SPE + SR to Resist, gaining Wounds and Burns for each Net Success. Lose two Swarms or DIE.
+    Spend two Swarms and Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls SPE + SR to Resist, gaining Wounds and Burns for each Net Success.
     
     Inflict Stillness
     Range: Close
@@ -2429,7 +2438,7 @@ There are five types of Risk Events:
     Overwhelm
     Range: Area
     Requirement: PAS 7, Swarming 7
-    Roll PAS + Swarming + TR and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls PAS + SR to Resist, then gains Wounds and Recoils for each Net Success. Lose two Swarms or DIE.
+    Spend two Swarms and Roll PAS + Swarming + TR and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls PAS + SR to Resist, then gains Wounds and Recoils for each Net Success.
     
     Passion
     Range: Close
@@ -2468,7 +2477,7 @@ There are five types of Risk Events:
     
     Rout
     Range: Close
-    Requirements: PAS 7, Signaling 3
+    Requirements: PAS 6, Signaling 6
     Roll PAS + TR vs. PAS + TR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Signaling. Each Enemy within Signaling Hexes Rolls as if Resisting an Intimidate Action, then Recoils appropriately.
     
     Sap Trap
