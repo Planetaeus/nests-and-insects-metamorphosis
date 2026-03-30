@@ -125,7 +125,7 @@
     
     2.3.1.0 Character Name
     
-      The first area in a Character sheet is its Character Name, listing the name of a Character's class.
+      The first area in a Character sheet lists the name of a Character's Class.
       
     2.3.2.0 Core Attributes Area
     
@@ -155,55 +155,76 @@
       
       * Web: The Character can weave webs. Webs can be used to set traps, bind enemies, or secure an area. Spider has Web.
       
-    2.3.4.0 Common Attributes Box
+      SECTION describes the Special Attributes in more detail.
       
-      The Common Attributes box lists Attributes common to all Character classes.
-      
-      TABLE briefly describes Common Attributes and their use.
-      
-      ║ Common Attributes        Description                                                         ║
-      ║ ─────────────────────────────────────────────────────────────────────────────────         ║
-      ║ Construction          Make traps, secure a Room for Resting and Healing                   ║
-      ║ Eusociology           Knowledge of the ways of Nests and their inhabitants                ║
-      ║ Exploration           Search a Room, or scout ahead to unvisited Rooms                    ║
-      ║ Foraging              Search for sustenance, or Food Items with special abilities         ║
-      ║ Healing               Remove Wounds or detrimental Effects                                ║
-      ║ Hunting               Hunt prey for sustenance or other uses                              ║
-      ║ Leadership            Support allies and improve their Disposition in Combat              ║
-      ║ Perception            Find secrets and hidden items and Rooms                             ║
-      ║ Signalling            Display aposematic markings, emit pheromonic signals                ║
-      ║ Sneaking              Move and act with stealth                                           ║
-      ║ ─────────────────────────────────────────────────────────────────────────────────         ║
+    2.3.4.0 Advanced Attributes Box
     
-    2.3.5.0 Effects Box
+      The Advanced Attributes box lists Attributes that stretch the limits of what it means to be an Insect. Real-world insects and animals exhibit a number of seemingly fantastical adaptations and behaviors, like bioluminescence and the ability to generate significant electric potentials and currents. Nests & Insects: Metamorphosis takes these attributes to extremes in ways that feel right at home within fantasy.
+      
+      There are eight Advanced Attributes, described briefly below, and in more detail in SECTION.
+      
+      * Chill: The absence of heat. Makes chitin brittle.
+      
+      * Heat: The ability to create high temperatures. Can Ignite opponents.
+      
+      * Hydro: Control over Water and other fluids. Includes vast fluid reserves.
+      
+      * Light: Bioluminescence, cranked up to 11. Fireflies with laser beams.
+      
+      * Plant: Control and affinity for plants and fungi.
+      
+      * Psycho: Powers of the mind. Telekinesis, Telepathy, even mind control.
+      
+      * Static: The fundamental force of Electricity. Short circuit your foes' aim.
+      
+      * Vibe: Fine control over powerful waves of sound.
+      
+    2.3.5.0 Common Attributes Box
+      
+      The Common Attributes box lists Attributes common to all Character classes. TABLE briefly describes Common Attributes and their use. SECTION describes the Common Attributes in more detail.
+      
+      ║ Common Attributes  Description                                                 ║
+      ║ ────────────────────────────────────────────────────────────────────────────── ║
+      ║ Construction       Make traps, secure a Room for Resting and Healing           ║
+      ║ Darksight          See past the Darkness and through the Blidnness.            ║
+      ║ Eusociology        Knowledge of the ways of Nests and their inhabitants        ║
+      ║ Exploration        Search a Room, or scout ahead to unvisited Rooms            ║
+      ║ Foraging           Search for sustenance, or Food Items with special abilities ║
+      ║ Healing            Remove Wounds or detrimental Effects                        ║
+      ║ Hunting            Hunt prey for sustenance or other uses                      ║
+      ║ Leadership         Support allies and improve their Disposition in Combat      ║
+      ║ Perception         Find secrets and hidden items and Rooms                     ║
+      ║ Signalling         Display aposematic markings, emit pheromonic signals        ║
+      ║ Sneaking           Move and act with stealth                                   ║
+      ║ ────────────────────────────────────────────────────────────────────────────── ║
     
-      The Effects Box lists ten Effects that a Character can be subject to.
-      
-      Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other minigames. The ten Effects in the Effect Box are listed below with a brief description of each.
-      
-
-      ║ Effect           The Character...                                                         ║
-      ║ ────────────────────────────────────────────────────────────────────────────              ║
-      ║ Bleeding         ...automatically takes a Wound each Combat Turn                          ║
-      ║ Blinded          ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
-      ║ Charmed          ...will not Attack, but may take other Actions.                          ║
-      ║ Confused         ...will only Attack and Move, will not take other actions.               ║
-      ║ Immobile      ...movement, Speed, and Flight restricted.                               ║
-      ║ Infected         ...acquires a random Effect each Turn this Effect Applies                ║
-      ║ Paralysed        ...cannot take any Actions except to Resist                              ║
-      ║ Poisoned         ...has a negative modifier equal to Poisoned to all Actions              ║
-      ║ Stunned          ...loses her next Turn in Combat                                         ║
-      ║ ────────────────────────────────────────────────────────────────────────────              ║
-
-    2.3.6.0 Disposition Track
+    2.3.6.0 Effects Box
     
-      The Disposition Track follows a Character's Disposition, a representation of both position and morale in Combat.
-      
-      The Disposition Track includes reminder text to point out the direction in which Disposition Advances (increases) or Recoils (decreases) in Combat. Disposition is better the further it moves towards "Charging".
-      
-      In Combat, Disposition acts as a positive or negative modifier on all Actions. At "Retreating", a Character is running away from combat and cannot take Actions other than Move. At "Charging", all of a Character's Actions receive one automatic success.
+      The Effects Box lists ten Effects that a Character can be subject to. Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other minigames. The twelve Effects in the Effect Box are listed below with a brief description of each.
 
-    2.3.7.0 Combat Attributes Box
+      ║ Effect     The Character...                                                         ║
+      ║ ──────────────────────────────────────────────────────────────────────              ║
+      ║ Bleeding   ...automatically takes a Wound each Combat Turn                          ║
+      ║ Blinded    ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
+      ║ Brittle    ...has their reflexes and chitin weakened...                             ║
+      ║ Brittle    ...this bug is on fiyah...                                               ║
+      ║ Charmed    ...will not Attack, but may take other Actions.                          ║
+      ║ Confused   ...will only Attack and Move, will not take other actions.               ║
+      ║ Immobile   ...movement, Speed, and Flight restricted.                               ║
+      ║ Infected   ...acquires a random Effect each Turn this Effect Applies                ║
+      ║ Paralysed  ...cannot take any Actions except to Resist                              ║
+      ║ Poisoned   ...has a negative modifier equal to Poisoned to all Actions              ║
+      ║ Shocks     ...has Shocks as a negative modifier to all Close and Ranged Attacks     ║
+      ║ Stunned    ...loses her next Turn in Combat                                         ║
+      ║ ──────────────────────────────────────────────────────────────────────              ║
+
+    2.3.7.0 Disposition Track
+    
+      The Disposition Track follows a Character's Disposition, a representation of both turn order and morale in Combat. The Disposition Track includes reminder text to point out the direction in which Disposition Advances (increases) or Recoils (decreases) in Combat. Disposition is better the further it moves towards "Charging".
+      
+      In Combat, Disposition acts as a positive or negative modifier on all Effort Rolls. At "Retreating", a Character is running away from combat and cannot take Actions other than Move. At "Charging", all of a Character's Actions receive one automatic success.
+
+    2.3.8.0 Combat Attributes Box
     
       The Combat box lists a Character's Initiative, Threat Rate, Survival Rate and Wounds. This is also where a Character with Swarming will keep track of their Swarms.
       
@@ -219,11 +240,11 @@
       
       * Swarms: Characters with the Swarming ability lose Swarms before taking Wounds. The maximum number of Swarms a Character can have is equal to their Swarming rating.
      
-    2.3.8.0 Survival Attributes
+    2.3.9.0 Survival Attributes
         
-      2.3.8.2 Hunger Track
+      2.3.9.1 Hunger Track
         
-        The Food box lists the Character's Hunger rating. A Character is Starving when her Hunger rating reaches 10. While Starving, a Character reduces the outcome of all her Actions by 2 successes. If a Character receives more Hunger while Starving, she Dies.
+        The Hunger track lists the Character's Hunger rating. A Character is Starving when her Hunger rating reaches 10. While Starving, a Character reduces the outcome of all her Actions by 2 successes. If a Character receives more Hunger while Starving, she Dies.
         
         ║                              ║
         ║ ┌[Food]───────────────────┐  ║
@@ -231,11 +252,11 @@
         ║ └<^Starving>──────────────┘  ║
         ║ ───────────────────────────  ║
       
-      2.3.8.3 Metamorphosis Point (MP) Track
+      2.3.9.2 Metamorphosis Point (MP) Track
         
         Certain events in the course of exploring a Nest grant the Characters MP. During Resting & Healing (SECTION), Characters can spend MP to increase their Attributes.
    
-   2.3.9.0 Attack Boxes
+   2.3.10.0 Attack Boxes
       
       The Attack boxes list the details of a Character's four Attacks. Each Character Class starts with its own set of Attacks. As their Features improve, Characters can learn new and stronger Attacks. The attributes of an Attack are briefly described below.
       
@@ -243,7 +264,7 @@
       
       * Description: Details the Effort, Resistance, and additional effects of the Attack.
       
-   2.3.10.0 Inventory
+   2.3.11.0 Inventory
       
       The Inventory Box lists a Character's possessions such as Food items, slaved Prey, and other items.
       
@@ -550,10 +571,10 @@
         ║ Bleeding           Strength                                        ║
         ║ Blind              Ken                                             ║
         ║ Brittle            Strength + Heat                                 ║
-        ║ Burns            Speed + Chill                                   ║
+        ║ Burns              Speed + Chill                                   ║
         ║ Charmed            Passions + Psycho                               ║
         ║ Confused           Ken + Psycho                                    ║
-        ║ Immobile        Strength                                        ║
+        ║ Immobile           Strength                                        ║
         ║ Infected           Strength + Plant                                ║
         ║ Paralysed          Speed                                           ║
         ║ Poisoned           Strength + Plant                                ║
@@ -652,7 +673,7 @@
         
         When a Shocks Effect Triggers, nothing special happens.
         
-        However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Ranged Attacks.
+        However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Close or Ranged Attacks.
       
       2.6.8.17 Stunned
       
