@@ -2176,13 +2176,16 @@ There are five types of Risk Events:
         
       5.2.2.3 Swarming Attacks
         Autothysis
-        Requirements: Swarming 3
+        Requirements: Swarming 5
         
         Hot-othysis
         Requirements: Heat 6, Swarming 6
         
         Overwhelm
         Requirements: Swarming 6, Passions 6
+        
+        Swarming Call
+        Requirements: Swarming 3
         
       5.2.2.4 Venom Attacks
         Corrosive Sacrifice
@@ -2318,7 +2321,7 @@ There are five types of Risk Events:
     
     Autothysis
     Range: Area
-    Requirements: Swarming 3
+    Requirements: Swarming 5
     Spend one Swarms and Roll Swarming + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds and Immobile for each Net Success.
     
     Bandage
@@ -2530,6 +2533,11 @@ There are five types of Risk Events:
     Range: Close
     Requirements: STR 3
     Roll STR + TR vs. STR + TR against an adjacent Insect. The target gains Wounds for each Net Success.
+    
+    Swarming Call
+    Range: Special
+    Requirements: Swarming 3
+    Roll Swarming. On Partial Success, regain 1 Swarms. On Total Success, regain 2 Swarms. On Critical Success, regain 3 Swarms.
     
     Twister
     Range: Area
