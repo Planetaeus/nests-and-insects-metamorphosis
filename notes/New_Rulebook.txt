@@ -2537,7 +2537,7 @@ There are five types of Risk Events:
     Swarming Call
     Range: Special
     Requirements: Swarming 3
-    Roll Swarming. On Partial Success, regain 1 Swarms. On Total Success, regain 2 Swarms. On Critical Success, regain 3 Swarms.
+    Roll Swarming. On Partial/Total/Critical Success, regain 1/2/3 Swarms.
     
     Twister
     Range: Area
