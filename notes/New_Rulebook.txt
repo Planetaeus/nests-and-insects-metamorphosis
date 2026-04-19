@@ -1564,7 +1564,13 @@ There are five types of Risk Events:
       3-4    Known Food Item
       5-6    Unknown Food Item
       
-      To generate a Known Food Item, 
+      To generate a Known Food Item, randomly determine an item that the Characters have already identified.
+
+      To generate an Unknown Food Item, refer to SECTION.
+      
+      Generated Food Items have a Level equal to the Level of the Room they were found in.
+      
+      A Room can have each of its Items harvested Three Times before it is depleted.
       
     3.2.9.2 Room (Reward)..........................................................136 ║
 
