@@ -1594,19 +1594,19 @@ There are five types of Risk Events:
     ║ Critical Success   Add 3 to Item Rating.                                     ║
     ║ Total Success      Add 2 to Item Rating.                                     ║
     ║ Partial Success    Add 1 to Item Rating.                                     ║
-    ║ Partial Failure    Room Depleted of Item.                                    ║
-    ║ Total Failure      Room Depleted of Item. Increase Hunger by 1.              ║
-    ║ Critical Failure   Room Depleted of Item. Increase Hunger by 2.              ║
+    ║ Partial Failure    Nothing Happens.                                          ║
+    ║ Total Failure      Increase Hunger by 1.                                     ║
+    ║ Critical Failure   Increase Hunger by 2.                                     ║
     ║ ─────────────────────────────────────────                                    ║
     ║ Table 1: Four Degrees of Success.                                            ║
    
     The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts are wasted, shown by an increase in the Hunger rating. On a Total Failure, the Character is hungry, but they have also depleted any remnants of that Item that could be found in the Room. The Item can no longer be harvested in this Room. On a Critical Failure, the Character's Hunger is increased substantially on top of the Room being depleted of the Item.
     
-    _Foraging Plants_ Harvesting an Herbivore Food Item uses the Foraging Attribute. The Character Rolls KEN + Foraging vs Level.
+    _Foraging Plants_ Harvesting an Herbivore Food Item uses the Foraging Attribute. The Character Rolls (KEN or STR) + Foraging vs Level.
     
-    _Hunting Prey_ Harvesting an Insectivore Food Item uses the Hunting Attribute. The Character Rolls SPE + Hunting vs Level.
+    _Hunting Prey_ Harvesting an Insectivore Food Item uses the Hunting Attribute. The Character Rolls (SPE or PAS) + Hunting vs Level.
     
-    _Collecting Building Resources_ Gathering Building Resources uses the Construction Attribute. The Character Rolls STR + Construction vs Level.
+    _Collecting Building Resources_ Gathering Building Resources uses the Construction Attribute. The Character Rolls (STR or KEN) + Construction vs Level.
     
 ║   3.4.0.0 Resting & Healing (TBD)...................................................143 ║
 
