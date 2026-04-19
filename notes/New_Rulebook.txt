@@ -1399,9 +1399,9 @@
 
 3.2.6.6 Battle the Darkness
 
-  The Room starts with Level Darkness. Players may Consume a Light Item to reduce the Room's Darkness. Each Rating Consumed reduces the Darkness Rating of the Room by one.
+  The Room may start with Level Darkness. Players may Consume a Light Item to reduce the Room's Darkness. Each Rating Consumed reduces the Darkness Rating of the Room by one.
   
-  Alternatively, Characters with the Light or Heat Attributes may exert themselves to use these Attributes and fight the Darkness. The Character Rolls the chosen Attribute, reducing the Darkness for each Success. The Character who rolled increases her hunger by one if she used Light, or two if she used Heat. This increase may result in the Character reaching 10 and Starving. If the Character is already Starving before this Increase, she DIES.
+  Alternatively, Characters with the Light or Heat Attributes may exert themselves to use these Attributes and fight the Darkness. The Character Rolls the chosen Attribute, reducing the Darkness for each Success. The Character who rolled increases her hunger by one if she used Light, or two if she used Heat. This increase may result in the Character reaching 10 Hunger and Starving. If the Character is already Starving before this Increase, she DIES.
   
   See SECTION for more details on the effects of Darkness.
 
