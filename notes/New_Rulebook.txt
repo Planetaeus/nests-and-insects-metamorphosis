@@ -272,25 +272,19 @@
       
       Characters can only carry as many Items as there are lines in the Inventory box: that is 5 lines for 5 items.
         
-  2.4.0.0 Character Classes (TBD)
+  2.4.0.0 Character Classes
   
     2.4.1.0 Ants
       
-      Swarming
-      Ken
-      PAS
+      Clever little Ants swarm together to take on threats greater than themselves. Swarmlings take hits while the collective survives. And the Ants wouldn't get anywhere without their leader's Passions. If you want to play a supporting tank that can take hits, the Ants are right for you.
     
     2.4.2.0 Beetle
-    
-      Carapace
-      STR
-      Ken
+      
+      Beetles are larger than most other denizens of the Meadows. The Beetle is strong, raised in a culture of sparring to constantly improve. The Beetle is not just a dumb brute, however: a life of fighting has imparted wisdom and cunning. Their Carapace means that they can shrug off hits that would cripple other Bugs. If you want to play a tank that can shrug off damage and dish out plenty of its own, the Beetle is right for you.
     
     2.4.4.0 Scorpion
-    
-      Venom
-      PAS
-      STR
+      
+      The Scorpion is a wandering hunter through the Meadows, ambushing prey and standing up against larger foes with the threat of their Venomous stinger. The Scorpion is a skilled commander on the battlefield, bringing out the best of their Bugs and being able to intimidate down enemies as they lead the charge.
     
     2.4.5.0 Spider
     
