@@ -206,7 +206,7 @@
       ║ Bleeding   ...automatically takes a Wound each Combat Turn                          ║
       ║ Blinded    ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
       ║ Brittle    ...has their reflexes and chitin weakened...                             ║
-      ║ Brittle    ...this bug is on fiyah...                                               ║
+      ║ Burning    ...this bug is on fiyah...                                               ║
       ║ Charmed    ...will not Attack, but may take other Actions.                          ║
       ║ Confused   ...will only Attack and Move, will not take other actions.               ║
       ║ Immobile   ...movement, Speed, and Flight restricted.                               ║
