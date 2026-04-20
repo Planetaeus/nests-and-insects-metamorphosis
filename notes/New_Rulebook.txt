@@ -231,7 +231,7 @@
 
     2.3.7.0 Disposition Track
     
-      The Disposition Track follows a Character's Disposition, a representation of both turn order and morale in Combat. The Disposition Track includes reminder text to point out the direction in which Disposition Advances (increases) or Recoils (decreases) in Combat. Disposition is better the further it moves towards "Charging".
+      The Disposition Track follows a Character's Disposition, a representation of their morale in Combat. Disposition is better the further it moves towards "Charging".
       
       In Combat, Disposition acts as a positive or negative modifier on all Effort Rolls. At "Retreating", a Character is running away from combat and cannot take Actions other than Move. At "Charging", all of a Character's Actions receive one automatic success.
 
