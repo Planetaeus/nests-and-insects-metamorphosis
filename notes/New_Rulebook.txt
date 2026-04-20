@@ -12,7 +12,9 @@
   
     Nests & Insects is a Roguelike TTRPG. It is inspired by computer roleplaying games of the Roguelike genre, like Nethack, Angband, Moria, Ancient Domains of Mystery, and later games like Diablo and Darkest Dungeon. Nests & Insects: Metamorphosis is also inspired by Pokémon Mystery Dungeon, Dungeons & Dragons, and the Worlds of Darkness.
     
-    Nests & Insects is designed to be played with little preparation other than reading some of the rules. At the start of a new game, players either choose from among pre-built Classes or takes steps to craft their own Character. The Game Queen (GQ) then Rolls to generate the first Room in the entrance to the first Level of the Nest, and the Characters enter. After visiting a Room and defeating its challenges, Characters get a chance to rest and recoup their strength, as well as use their Metamorphosis Points to gain new and powerful Attacks. The Job ends when the Characters fulfill its terms, surrender to the Nest, run away, or die.
+  1.3.0.0 Gameplay Overview
+    
+    Nests & Insects is designed to be quick and easy to learn, with low preparation other than reading some of the rules. At the start of a new game, players either choose from among pre-built Classes or takes steps to craft their own Character. The Game Queen (GQ) generates the first Room in the entrance to the first Level of the Nest, and the Characters enter. After visiting a Room and defeating its challenges, Characters get a chance to rest and recoup their strength, as well as use their Metamorphosis Points to gain new and powerful Attacks. The Job ends when the Characters fulfill its terms, surrender to the Nest, run away, or die.
     
     This book provides rules to procedurally generate Nests, as well as guidance for crafting Nests of your own design.
     
