@@ -302,10 +302,8 @@
       The Spider is a member of a Commune somewhere in the Meadows. Spinning Webs with her sisters, she has caught much wisdom and prey in her time. Pairing this Ken with the Speed to strike decisively, the Spider can lay traps and control the field of battle.
     
     2.4.6.0 Wasp
-      
-      Flight
-      SPE
-      PAS
+
+      The Wasp is a fighter on the breeze, traveling here and there and living life as she pleases. She is as quick on her feet as she is in Flight, and Insects are often intimidated into giving her exactly what she wants. Zipping here and there, wherever she goes is probably the right place at the right time.
     
   2.5.0.0 Character Creation
   
