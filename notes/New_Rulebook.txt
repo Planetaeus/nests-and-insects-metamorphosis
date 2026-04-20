@@ -383,15 +383,15 @@
       
       2.6.2.2 Threat Rate
       
-        Threat Rate is the fighting instinct of an Insect. It is used as part of the Effort for most Attacks.
+        Threat Rate is the fighting instinct of an Insect. It is used as part of the Effort for all Attacks.
       
       2.6.2.3 Survival Rate
       
-        Survival Rate is the combined might of an Insects reflexes and defenses. It is used as part of the Resistance for most Attacks.
+        Survival Rate is the combined might of an Insect's reflexes and defenses. It is used as part of the Resistance for most Attacks.
       
       2.6.2.4 Wounds
       
-        Wounds mark how close an Insect is to DEATH. Each Character has a Max Wounds Rating. When her Wounds reaches her Max Wounds, she DIES. There is no penalty for having Wounds, other than being closer to DEATH.
+        Wounds mark how close an Insect is to DEATH. Each Character has a Max Wounds Rating. When she takes enough Wounds to reach her Max Wounds, she DIES. There is no penalty for having Wounds, other than being closer to DEATH.
       
       2.6.2.5 Swarms
       
