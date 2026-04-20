@@ -345,6 +345,8 @@
     
       Each Character starts with a rating of 1 in Initiative, Threat Rate, and Survival Rate. See Section 2.6.2.0 for more details on Combat Attributes.
       
+      Each Character starts with 3 max Wounds.
+      
     2.5.6.0 Selecting Attacks
     
       Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (SECTION) and selects the Three Attacks for which her Character qualifies based on her Core and Special Attributes.
