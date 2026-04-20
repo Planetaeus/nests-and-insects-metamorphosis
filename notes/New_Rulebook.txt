@@ -357,7 +357,7 @@
     
       2.6.1.1 Speed
       
-        Speed represents how fast a Character moves. This encapsulates moving across a distance as well as agility and maneuverability. Many Attacks will ask the Defender to make a Roll using Speed in order to move out of the way. Another common use for Speed is the Initiative Attribute.
+        Speed represents how fast a Character moves. This encapsulates moving across a distance as well as agility and maneuverability. Many Attacks will ask the Defender to make a Roll using Speed in order to move out of the way.
         
         _Hex Grids_ If using gridded maps in Combat, Speed determines how many Hexes a Character can move when they take the Move Action.
       
