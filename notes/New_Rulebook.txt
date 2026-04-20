@@ -309,21 +309,15 @@
   
     2.5.1.0 Selecting Species
       
-      Your arthropod merc can be any kind of bug an entomologist can list, or even some they can't! Choose a real-world arthropod to base your Character on, or come up with a new, strange form of bug all your own!
-      
-    2.5.2.0 Diet
-      
-      Insects have a variety of diets. Nests & Insects: Metamorphosis simplifies these diets into three classes: Herbivore, Insectivore, and Omnivore. These determine what kinds of food items an Insect can Consume. Herbivores can only Consume plant-based foods, such as nectar or honey, while Insectivores can only Consume pieces of other bugs. Omnivores are able to mix their diet between Herbivore and Insectivore options.
-      
-      _Selecting Diet_ If your Character is based on a real-world Insect, feel free to research its diet and classify it using the real-world species. Otherwise, choose Herbivore, Insectivore, or Omnivore, and consult with your GQ if the diet makes sense for your Character.
+      Your arthropod merc can be any kind of bug an entomologist can list, or even some they can't! You can choose an Insect, an Arachnid, or even a Crustacean to base your Character on, or come up with a new, strange form of bug all your own!
     
-    2.5.3.0 Assigning Core Attributes
+    2.5.2.0 Assigning Core Attributes
     
       Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 4, 3, 2, 1.
       
       See Section 2.6.1.0 for more details on Core Attributes.
     
-    2.5.4.0 Selecting Special Attributes
+    2.5.3.0 Selecting Special Attributes
     
       Characters start with one or two Special Attributes, choosing from the following list:
       
@@ -341,21 +335,21 @@
       
       See Section 2.6.4.0 for more details on Special Attributes.
       
-    2.5.5.0 Assigning Common Attributes
+    2.5.4.0 Assigning Common Attributes
     
       The Player chooses seven Common Attributes and assigns the following ratings among them as they choose: 4, 3, 3, 2, 2, 1, 1.
       
       See Section 2.6.3.0 for more details on Common Attributes.
     
-    2.5.6.0 Assigning Combat Conditions
+    2.5.5.0 Assigning Combat Conditions
     
       Each Character starts with a rating of 1 in Initiative, Threat Rate, and Survival Rate. See Section 2.6.2.0 for more details on Combat Attributes.
       
-    2.5.7.0 Selecting Attacks
+    2.5.6.0 Selecting Attacks
     
       Characters can know up to four Attacks. Many Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (SECTION) and selects up to four Attacks for which her Character qualifies.
     
-    2.5.8.0 Starting Inventory
+    2.5.7.0 Starting Inventory
     
       Each Character starts with a Rating-4 food item in their inventory that matches their diet. This starting food has no special properties, other than being delicious!
     
