@@ -319,7 +319,7 @@
     
     2.5.3.0 Selecting Special Attributes
     
-      Characters start with one or two Special Attributes, choosing from the following list:
+      Characters start with one Special Attribute, choosing from the following list:
       
       * Carapace
       
@@ -347,11 +347,7 @@
       
     2.5.6.0 Selecting Attacks
     
-      Characters can know up to four Attacks. Many Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (SECTION) and selects up to four Attacks for which her Character qualifies.
-    
-    2.5.7.0 Starting Inventory
-    
-      Each Character starts with a Rating-4 food item in their inventory that matches their diet. This starting food has no special properties, other than being delicious!
+      Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (SECTION) and selects the Three Attacks for which her Character qualifies based on her Core and Special Attributes.
     
   2.6.0.0 Character Features
   
