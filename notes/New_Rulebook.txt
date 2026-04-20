@@ -291,7 +291,7 @@
     
     2.4.2.0 Beetle
       
-      Beetles are larger than most other denizens of the Meadows. The Beetle is strong, raised in a culture of sparring to constantly improve. The Beetle is not just a dumb brute, however: a life of fighting has imparted wisdom and cunning. Their Carapace means that they can shrug off hits that would cripple other Bugs. If you want to play a tank that can shrug off damage and dish out plenty of its own, the Beetle is right for you.
+      Beetles are larger than most other denizens of the Meadows. The Beetle is strong, raised in a culture of sparring to constantly improve. The Beetle is not just a dumb brute, however: a life of fighting has imparted wisdom and cunning. Their Carapace makes it very hard to make attacks stick. If you want to play a tank that can shrug off damage and dish out plenty of its own, the Beetle is right for you.
     
     2.4.4.0 Scorpion
       
