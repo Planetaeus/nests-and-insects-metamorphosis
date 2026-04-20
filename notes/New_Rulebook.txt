@@ -81,9 +81,9 @@
   
 2.0.0.0 Characters
 
-  In Nests & Insects, players each control a Character: an arthropod mercenary on a Job to infiltrate a Nest. Players control their Characters by describing their Character's actions, then the players Roll the dice to find out what happens. The Game Queen (GQ) rests the dice and determines the outcome of the Character's actions.
+  In Nests & Insects, players each control a Character: an arthropod mercenary on a Job on behalf of the denizens of the Meadows. Players control their Characters by describing their Character's actions, then the players Roll the dice to find out what happens. The Game Queen (GQ) reads the dice and determines the outcome of the Character's actions.
   
-  Nests & Insects: Metamorphosis provides rules for players to create their own bugs of death. Players may also choose a Character from one of six classes: Ants, Beetle, Ladybug, Scorpion, Spider, and Wasp.
+  Nests & Insects: Metamorphosis provides rules for players to create their own bugs of death. Players may also choose a Character from one of five classes: Ants, Beetle, Scorpion, Spider, and Wasp.
   
   The following sections describe the Nests & Insects Characters, their classes, their Features, and the Character sheets that record their Features.
   
