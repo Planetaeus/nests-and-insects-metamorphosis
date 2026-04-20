@@ -155,7 +155,7 @@
     
       The Special Attributes box lists Attributes that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Special Attributes ratings.
       
-      There are five Special Attributes that Character classes can have at creation/selection: Carapace, Flight, Swarming, Venom, or Web. These are briefly described below.
+      There are five Special Attributes that Character classes can have at creation/selection: Carapace, Flight, Swarming, Toxic, or Web. These are briefly described below.
       
       * Carapace: the Character has a hardened carapace that protects her in combat. Beetle has Carapace.
       
@@ -163,7 +163,7 @@
       
       * Swarming: the Character is a swarm of individual Insects, or can summon conspecifics to assist her. In Combat, a Character with Swarming loses individuals from the Swarm before taking Wounds. Ants have Swarming.
       
-      * Venom: the Character has a venomous bite or sting that can bestow Effects such as Immobile, Paralysed, or Poisoned to enemies. Scorpion has Venom.
+      * Toxic: the Character has a venomous bite or poisonous substance that can bestow Effects such as Immobile, Paralysed, or Poisoned to enemies. Scorpion has Toxic.
       
       * Web: The Character can weave webs. Webs can be used to set traps, bind enemies, or secure an area. Spider has Web.
       
@@ -295,7 +295,7 @@
     
     2.4.4.0 Scorpion
       
-      The Scorpion is a wandering hunter through the Meadows, ambushing prey and standing up against larger foes with the threat of their Venomous stinger. The Scorpion is a skilled commander on the battlefield, bringing out the best of their Bugs and being able to intimidate down enemies as they lead the charge.
+      The Scorpion is a wandering hunter through the Meadows, ambushing prey and standing up against larger foes with the threat of their venomous stinger. The Scorpion is a skilled commander on the battlefield, bringing out the best of their Bugs and being able to intimidate down enemies as they lead the charge.
     
     2.4.5.0 Spider
     
@@ -337,7 +337,7 @@
       
       * Swarming
       
-      * Venom
+      * Toxic
       
       * Web
       
@@ -469,9 +469,9 @@
         
         _Swarms_ A Swarming Character starts with a number of Swarms equal to her Swarming rating. When a Character with Swarming takes Wounds, they can choose to lose that many Swarms instead. Once they reach zero Swarms, they take Wounds as normal. Attacks that use Swarming also reference the number of Current Swarms. A Swarming Character receives her Current Swarms as a negative modifier to her Roll to defend against Area Attacks.
       
-      2.6.4.4 Venom
+      2.6.4.4 Toxic
       
-        Venom is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being envenomed. Unless it heals them. But it's still a weird experience. Attacks with Venom apply various Effects, like Poisoned, Infected, or Paralysed.
+        Toxic is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being Poisoned or Envenomed. Unless it heals them. But it's still a weird experience. Attacks with Toxic apply various Effects, like Poisoned, Infected, or Paralysed.
       
       2.6.4.5 Web
       
@@ -1866,27 +1866,27 @@ There are five types of Risk Events:
     Encounter Table
     Fire Ant Worker
       Low Heat
-      Low Venom
+      Low Toxic
       Medium Strength
       Medium Ken
       Medium Swarming
     Fire Ant Soldier
       Low Heat
-      Medium Venom
+      Medium Toxic
       High Strength
       Medium Swarming
     Fire Ant Drone
-      Low Venom
+      Low Toxic
       low Heat
       low Swarming
       Medium Flight
     Fire Ant Queen
-      Medium Venom
+      Medium Toxic
       Medium Heat
       High Swarming
     Fire Ant Empress
       High Heat
-      High Venom
+      High Toxic
       High Swarming
       Medium Flight
   Winter Ants
@@ -2174,7 +2174,7 @@ There are five types of Risk Events:
         Requirements: Carapace 7
         
         Envenomed Spikes
-        Requirements: Carapace 6, Venom 6
+        Requirements: Carapace 6, Toxic 6
         
         Reinforced Silk
         Requirements: Carapace 6, Web 6
@@ -2205,21 +2205,21 @@ There are five types of Risk Events:
         Swarming Call
         Requirements: Swarming 3
         
-      5.2.2.4 Venom Attacks
+      5.2.2.4 Toxic Attacks
         Corrosive Sacrifice
-        Requirements: Swarming 5, Venom 5
+        Requirements: Swarming 5, Toxic 5
         
         Envenomed Spikes
-        Requirements: Carapace 6, Venom 6
+        Requirements: Carapace 6, Toxic 6
         
         Healing Dose
-        Requirements: Healing 3, Venom 3
+        Requirements: Healing 3, Toxic 3
         
         Inflict Stillness
-        Requirements: Venom 5
+        Requirements: Toxic 5
         
         Venom Sting
-        Requirements: Venom 3
+        Requirements: Toxic 3
         
       5.2.2.5 Web Attacks
         
@@ -2384,13 +2384,13 @@ There are five types of Risk Events:
     
     Corrosive Sacrifice
     Range: Area
-    Requirements: Swarming 6, Venom 6
-    Spend two Swarms and Roll Swarming + Venom + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds, Immobile, and Brittle for each Net Success.
+    Requirements: Swarming 6, Toxic 6
+    Spend two Swarms and Roll Swarming + Toxic + TR and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + SR to Resist, then gains Wounds, Immobile, and Brittle for each Net Success.
     
     Envenomed Spikes
     Range: Special
-    Requirements: Carapace 6, Venom 6
-    Add Venom as a positive modifier to your next Resistance Roll against a Close Attack before your next turn. If the Attack Misses, the Attacker gains Wounds and Poisoned for each Net Failure.
+    Requirements: Carapace 6, Toxic 6
+    Add Toxic as a positive modifier to your next Resistance Roll against a Close Attack before your next turn. If the Attack Misses, the Attacker gains Wounds and Poisoned for each Net Failure.
     
     Flaming Webs
     Range: Area
@@ -2439,8 +2439,8 @@ There are five types of Risk Events:
     
     Healing Dose
     Range: Close
-    Requirements: Healing 3, Venom 3
-    Roll Venom + Healing + TR vs. PAS + SR against an adjacent Insect. The target heals Wounds for each Net Success.
+    Requirements: Healing 3, Toxic 3
+    Roll Toxic + Healing + TR vs. PAS + SR against an adjacent Insect. The target heals Wounds for each Net Success.
     
     Hercules Toss
     Range: Close
@@ -2459,8 +2459,8 @@ There are five types of Risk Events:
     
     Inflict Stillness
     Range: Close
-    Requirements: Venom 5
-    Roll Venom + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Paralysed for each Net Success.
+    Requirements: Toxic 5
+    Roll Toxic + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Paralysed for each Net Success.
     
     Kennéd Strike
     Range: Close
@@ -2562,10 +2562,10 @@ There are five types of Risk Events:
     Requirements: Flight 7
     Choose a Hex within Flight Hexes. Roll Flight + TR. Each Insect within Flight Hexes Rolls STR + TR to Resist, then gains Wounds and is pushed 1 for each Net Success.
     
-    Venom Sting
+    Toxic Sting
     Range: Close
-    Requirements: Venom 3
-    Roll Venom + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Poisoned for each Net Success.
+    Requirements: Toxic 3
+    Roll Toxic + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and Poisoned for each Net Success.
     
     Vibral Assault
     Range: Ranged
