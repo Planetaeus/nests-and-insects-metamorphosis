@@ -239,7 +239,7 @@
     
       The Combat box lists a Character's Initiative, Threat Rate, Survival Rate and Wounds. This is also where a Character with Swarming will keep track of their Swarms.
       
-      * Initiative: Used to determine a Character's turn placement in Combat, as well as determine initial disposition when Combat begins.
+      * Initiative: Used to determine a Character's turn placement in Combat.
       
       * Threat Rate: An attribute used in the Effort for most Attacks.
       
