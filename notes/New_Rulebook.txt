@@ -18,9 +18,19 @@
     
     This book provides rules to procedurally generate Nests, as well as guidance for crafting Nests of your own design.
     
-  1.3.0.0 The System
+  1.4.0.0 The System
 
-    Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have Attributes rated from 0 to 10. Whenever the players take an action, the Game Queen declares the Effort and Resistance of the Roll. The Player consults their Effort Rating, then Rolls that many d6. The number of dice that come up as a "4", "5", or a "6" are counted as Successes. The GQ Rolls Resistance and subtracts her successes from the Player's Successes to obtain the Net Successes. If the Net Successes are greater than zero, the Roll succeeds. If there are zero or negative Net Successes, the Roll fails. In some cases, such as an Enemy Attack, the GQ Rolls Effort and the Player Rolls Resistance.
+    Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have Attributes rated from 0 to 10. Whenever the players take an action, the Game Queen declares the Effort of the Roll. The Player consults their Effort Rating(s), then Rolls that many d6s. The number of dice that come up as a "4", "5", or a "6" are counted as Successes. If the Player gets at least one Success, their Action is Successful! Zero Successes means the Action is a Failure.
+
+    1.4.1.0 Difficulty
+    
+    The GQ may give a Roll a Difficulty. Subtract the Difficulty from the number of Successes Rolled to get the Net Successes. If the Player gets at least one Net Success, their Action is Successful! Zero or negative Net Successes results in a Failure.
+    
+    1.4.2.0 Resistance
+    
+    Sometimes a Roll is opposed by another Character's Rating. The GQ determines what Rating or Ratings are used as the Resistance against the Effort. The GQ Rolls Resistance and subtracts her successes from the Player's Successes to obtain the Net Successes. If there is at least one Net Success, the Roll succeeds! If there are zero or negative Net Successes, the Roll fails. In some cases, such as an Enemy Attack, the GQ Rolls Effort and the Player Rolls Resistance.
+    
+    1.4.3.0 Degrees of Success
     
     The GQ may decide that the degree of success matters to determine the outcome of the Roll. This represents situations where the effectiveness of an action can be measured in more detail than a simple pass/fail.  In these cases, it can help to categorize the Degree of Success (DoS). There are six stages of DoS: Critical Failure, Total Failure, Partial Failure, Partial Success, Total Success, and Critical Success. Table 1 shows how the Net Successes of a Roll translates into the DoS of the result.
     
@@ -37,7 +47,7 @@
     
     In some cases, the number of Net Successes can directly be used to determine the outcome. When a Character makes a successful Attack, the Net Successes determine the Wounds bestowed on the targets.
 
-    1.3.1.0 Modifiers
+    1.4.4.0 Modifiers
       
       The dice pool for an Action is usually standard. Attacks use an Attribute + Threat Rate, for example. Circumstances and strategic decisions by the players can result in one or more modifiers being applied to a Roll.
       
@@ -47,7 +57,7 @@
       
       When a Character receives both a Positive and a Negative Modifier to the same Roll, they are applied in order. First the Character adds any Positive Modifier dice to their dice pool, and then removes the number of dice dictated by any Negative Modifiers.
     
-    1.3.2.0 Describing Results
+    1.4.5.0 Describing Results
     
       What the DoS of an action means depends on a Player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
       
@@ -57,11 +67,11 @@
       
       On a Partial Failure, the Character does not succeed, but there is an unintended boon that they have earned that keeps things moving forward. On a Total Failure, the player suffers the obvious consequences of failing their action. On a Critical Failure, the Character suffers the obvious consequences, in addition to an unexpected consequence that makes the situation more trying.
       
-    1.3.3.0 Quantification of Results.
+    1.4.6.0 Quantification of Results.
 
       Some Actions require Quantification of their results to see how great or how wicked their outcomes are. Some outcomes require a Quantification Roll, where the GQ or the Player Rolls a number of d6 based on an Attribute rating and counts the successes. Others use set numbers. Finally, some outcomes simply use the number of Net Successes from the original Action's Roll.
 
-    1.3.4.0 Minigames
+    1.4.7.0 Minigames
     
       The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more variety, and more detail, to the basic rules, Nests & Insects defines a number of "minigames".
       
