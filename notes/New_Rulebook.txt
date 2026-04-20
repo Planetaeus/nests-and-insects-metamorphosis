@@ -73,7 +73,7 @@
 
     1.4.7.0 Minigames
     
-      The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more variety, and more detail, to the basic rules, Nests & Insects defines a number of "minigames".
+      The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more detail to the basic rules, Nests & Insects defines a number of "minigames".
       
       Minigames are special sets of rules for situations that are of special interest to a game. There are four minigames in Nests & Insects: Combat, Survival & Exploration; Hunting & Foraging; and Resting & Healing.
       
