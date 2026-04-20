@@ -367,7 +367,7 @@
 
       2.6.1.3 Ken
       
-        Ken represents a Character's quick-thinking, collection of knowledge, and situational awareness. When a Player wants to know if their Character can know some information or solve a puzzle, the GQ may ask them to make some kind of Ken Roll. Ken is also used in Combat to Confuse enemies with quick thinking and fancy words.
+        Ken represents a Character's quick-thinking, collection of knowledge, and situational awareness. When a Player asks if their Character knows some information or can solve a puzzle, the GQ may ask them to make some kind of Ken Roll. Ken is also used in Combat to Confuse enemies with quick thinking and fancy words.
       
       2.6.1.4 Passions
       
