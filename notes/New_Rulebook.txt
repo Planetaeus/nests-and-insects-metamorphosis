@@ -875,7 +875,8 @@
           ║ d6 Result   Condition   Description                                                       ║
           ║ ──────────────────────────────────────────────────────────────────────────────────        ║
           ║   1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.         ║
-          ║   4-6       Blessed     Roll on the Blessings Table to determine Blessing.                ║
+          ║   3-4       Ordinary    No special properties.                                            ║
+          ║   5-6       Blessed     Roll on the Blessings Table to determine Blessing.                ║
           ║ ──────────────────────────────────────────────────────────────────────────────────        ║
           ║ Table 12: Item Conditions                                                                 ║
 
@@ -883,16 +884,22 @@
           
             _Blessed Food_ bestows a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
             
-          ║ d20 Result    Blessings                                                                   ║
+          ║ d6 Result    Blessings                                                                    ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-          ║   1-4         Light - can be Consumed as a Light item.                                    ║
-          ║   5-8         Healing - reduces Wounds for each Rating Consumed.                          ║
-          ║  9-12         Relief - reduce one Effect's Rating for each Rating Consumed.               ║
-          ║ 13-20         Mutation - Gain one MP for each Rating Consumed.                            ║
+          ║ 1-2          Healing - reduces Wounds.                                                    ║
+          ║ 3-4          Relief - reduce an Effect.                                                   ║
+          ║ 5-6          Metamorphosis - Party Gains MP.                                              ║
           ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
           ║ Table 14: Blessings                                                                       ║
           
-          _Cursed Items_ When a Character Consumes a Cursed Food Item, she rolls a D12 to determine a Random Effect. She increases her rating in that Effect for each Item Rating consumed.
+          _Healing Items_ When a Character Consumes a Food Item with the Healing Blessing, each dot consumed reduces her wounds by the Rating of the Item.
+          
+          _Relief Items_ When a Character Consumes a Food Item with the Relief Blessing, each dot consumed reduces one Effect of her choice by the Rating of the Item.
+          
+          _Metamorphosis Items_ When a Character Discovers an Item of Metamorphosis, or learns its properties for the first time, the entire Party gains MP equal to the Item Rating.
+          
+          _Cursed Items_ When a Character Consumes a Cursed Food Item, she rolls a D12 to determine a Random Effect. Each dot consumed bestows that Effect equal to the Rating of the Item.
+          
 
 3.0.0.0 Minigames
     Nests & Insects is organised around four "minigames". A minigame is a set of special rules for a special game situation that Nests & Insects: Metamorphosis wants to model with more detail than its standard system. Combat is the most detailed and elaborate of Nests & Insects' minigames. The other three are Survival and Exploration; Hunting and Foraging; and Resting and Healing. Brief descriptions are listed below.
