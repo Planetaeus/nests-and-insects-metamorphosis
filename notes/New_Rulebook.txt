@@ -8,9 +8,9 @@
     
     At the beginning of a new Job, the players' Characters enter a Nest armed with their natural weapons and armor. During a Job, Characters must survive combat with the soldier castes guarding the Nests. They must also hunt or forage for food to avoid starving to death. While foraging, Characters may find food items, such as nectar and fungi, that can provide not only sustenance, but also healing and mutations.
     
-  1.2.0.0
+  1.2.0.0 Inspiration
   
-    Nests & Insects is a Roguelike TTRPG. It is inspired by computer roleplaying games of the Roguelike genre, like Nethack, Angband, Moria, Ancient Domains of Mystery, and later games like Diablo and Darkest Dungeon. Nests & Insects: Metamorphosis is also inspired by Pokemon Mystery Dungeon, Dungeons & Dragons, and the World of Darkness.
+    Nests & Insects is a Roguelike TTRPG. It is inspired by computer roleplaying games of the Roguelike genre, like Nethack, Angband, Moria, Ancient Domains of Mystery, and later games like Diablo and Darkest Dungeon. Nests & Insects: Metamorphosis is also inspired by Pokémon Mystery Dungeon, Dungeons & Dragons, and the Worlds of Darkness.
     
     Nests & Insects is designed to be played with little preparation other than reading some of the rules. At the start of a new game, players either choose from among pre-built Classes or takes steps to craft their own Character. The Game Queen (GQ) then Rolls to generate the first Room in the entrance to the first Level of the Nest, and the Characters enter. After visiting a Room and defeating its challenges, Characters get a chance to rest and recoup their strength, as well as use their Metamorphosis Points to gain new and powerful Attacks. The Job ends when the Characters fulfill its terms, surrender to the Nest, run away, or die.
     
