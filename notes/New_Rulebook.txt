@@ -279,8 +279,6 @@
       
       The Inventory Box lists a Character's possessions such as Food items, slaved Prey, and other items.
       
-      Each line in the Inventory box has a "Depleted" tickbox that indicates whether the item has been depleted as a result of its use.
-      
       Characters can only carry as many Items as there are lines in the Inventory box: that is 5 lines for 5 items.
         
   2.4.0.0 Character Classes
