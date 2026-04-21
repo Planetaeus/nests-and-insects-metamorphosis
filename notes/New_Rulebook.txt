@@ -399,11 +399,11 @@
     
     2.6.3.0 Common Attributes
     
-      Common Attributes represent aspects that are relatively common among Insects. 
+      Common Attributes represent aspects that are relatively common among Insects. Any Insect can pick up a Common Attribute with ease. Learning a new Common Attribute costs 1 MP.
     
       2.6.3.1 Construction
       
-        Construction represents an Insect's ability to create barriers in their surroundings, and to knock them down in turn. Construction is used to destroy Obstacles during Survival & Exploration, as well as to Secure Rooms during Resting & Healing. During Combat, Characters may use Construction as part of manoeuvers to create shields, pits, or other obstructions to their Enemies.
+        Construction represents an Insect's ability to craft structures and objects out of raw materials, and to rip them apart as well. Construction is used to destroy Obstacles during Survival & Exploration, as well as to Secure Rooms during Resting & Healing. During Combat, Characters may use Construction as part of manoeuvers to create shields, pits, or other obstructions to their Enemies.
       
       2.6.3.2 Eusociology
       
@@ -439,7 +439,7 @@
       
       2.6.3.10 Sneaking
       
-        Sneaking is the age-old art of not being noticed. It can be used to escape overwhelming threats, or to get the jump on unsuspecting prey. Sneaking can be used to circumnavigate an Encounter. In such an Encounter, it can also be used to give Positive Modifiers to your Attacks, or Negative Modifiers to your Attackers.
+        Sneaking is the age-old art of not being noticed. It can be used to escape overwhelming threats, or to get the jump on unsuspecting prey. Sneaking can be used to circumnavigate an Encounter. In an Encounter, it can also be used to give Positive Modifiers to your Attacks, or Negative Modifiers to your Attackers.
       
     2.6.4.0 Special Attributes
       
