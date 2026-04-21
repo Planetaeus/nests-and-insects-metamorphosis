@@ -445,17 +445,17 @@
       
       2.6.4.1 Carapace
       
-        The armored warrior is favored in battle, and Carapace represents an Insect's reinforced exoskeleton. A Character adds their Carapace rating as a positive modifier to any Rolls made to defend against Close range Attacks. Attacks that use Carapace take advantage of the Character's hardened surface to keep her protected in otherwise risky techniques.
+        The armored warrior is favored in battle, and Carapace represents an Insect's reinforced exoskeleton. A Character with a Carapace rating adds it as a Positive Modifier when Resisting Attacks. Attacks that use Carapace take advantage of the Character's hardened surface to keep her protected in otherwise risky techniques.
       
       2.6.4.2 Flight
       
-        Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character receives her Flight rating as a positive modifier to any Rolls made to defend against Ranged Attacks, not including Area Attacks.
+        Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character with a Flight Rating adds it as a Positive Modifier when resisting Ranged and Area Attacks. Insects with a Flight Rating can move farther in Combat.
       
       2.6.4.3 Swarming
       
-        Swarming Characters can summon conspecifics to aid them on her Job. These conspecifics can soak up Wounds and unleash powerful group Attacks on her enemies. However, this benefit leaves them more susceptible to Area Attacks: Characters with Swarming receive their Current Swarms as a Negative Modifier to Resist Area Attacks. Attacks that use Swarming tend to cost Swarms to achieve their effects. But it is all worth it, as the sacrifice of the few leads to the victory of the many. Or at least the Character in charge of the Swarm.
+        Swarming Characters can summon conspecifics to aid them on her Job. These conspecifics can soak up Wounds and unleash powerful group Attacks on her enemies. However, this benefit leaves them more susceptible to Area Attacks. Attacks that use Swarming tend to cost Swarms to achieve their effects. But it is all worth it, as the sacrifice of the few leads to the victory of the many. Or at least the Character in charge of the Swarm.
         
-        _Swarms_ A Swarming Character starts with a number of Swarms equal to her Swarming rating. When a Character with Swarming takes Wounds, they can choose to lose that many Swarms instead. Once they reach zero Swarms, they take Wounds as normal. Attacks that use Swarming also reference the number of Current Swarms. A Swarming Character receives her Current Swarms as a negative modifier to her Roll to defend against Area Attacks.
+        _Swarms_ A Swarming Character starts with a number of Swarms equal to her Swarming rating. When a Character with Swarming takes Wounds, they can choose to lose that many Swarms instead. Once they reach zero Swarms, they take Wounds as normal. Attacks that use Swarming also reference the number of Current Swarms. A Swarming Character adds her Current Swarms as a negative modifier to her Roll to Resist Area Attacks.
       
       2.6.4.4 Toxic
       
