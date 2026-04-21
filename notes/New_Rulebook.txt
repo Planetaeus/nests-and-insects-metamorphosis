@@ -477,7 +477,7 @@
       
       2.6.5.3 Hydro
       
-        Hydro represents a Character's affinity for fluids, typically water. This can be used to spout high-pressure bursts of fluid, like a Nasute Termite's Fontanellar Gun Attack. This can also be used to represent a Character's ability to survive and move in water.
+        Hydro represents a Character's affinity for fluids, including water. This can be used to spout high-pressure bursts of fluid, like a Nasute Termite's Fontanellar Gun Attack. This can also be used to represent a Character's ability to survive and move in water.
       
       2.6.5.4 Light
       
@@ -493,11 +493,11 @@
       
       2.6.5.7 Psycho
       
-        Psycho is an enhancement of the mind. Psychokinesis, Telepathy, Mind Control, all are possible for a Psycho Insect. Insects with Psycho have stronger wills, and add Psycho as a Positive Modifier to their Resistance against Charm, Confuse, and Intimidate.
+        Psycho is an enhancement of the mind. Psychokinesis, Telepathy, Mind Control, all are possible for a Psycho Insect. Insects with Psycho have stronger wills, and add Psycho as a Positive Modifier when Resisting Charm, Confuse, and Intimidate.
       
       2.6.5.8 Vibe
       
-        Vibe is a Character's ability to generate loud, and sometimes focused, sounds. Loud enough to rupture the organs of unprepared Insects. Characters with Vibe are also more sensitive to sounds.
+        Vibe is a Character's ability to generate loud, and sometimes focused, sounds. Loud enough to rupture the organs of unprepared Insects. Characters with Vibe are also more perceptive of sounds.
       
     2.6.6.0 Survival Features
     
