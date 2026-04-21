@@ -167,7 +167,7 @@
       
       * Web: The Character can weave webs. Webs can be used to set traps, bind enemies, or secure an area. Spider has Web.
       
-      SECTION describes the Special Attributes in more detail.
+      Section 2.6.3.0 describes the Special Attributes in more detail.
       
     2.3.4.0 Advanced Attributes Box
     
@@ -191,9 +191,11 @@
       
       * Vibe: Fine control over powerful waves of sound.
       
+      Section 2.6.4.0 describes the Advanced Attributes in more detail.
+      
     2.3.5.0 Common Attributes Box
       
-      The Common Attributes box lists Attributes common to all Character classes. TABLE briefly describes Common Attributes and their use. SECTION describes the Common Attributes in more detail.
+      The Common Attributes box lists Attributes common to all Character classes. TABLE briefly describes Common Attributes and their use. Section 2.6.2.0 describes the Common Attributes in more detail.
       
       ║ Common Attributes  Description                                                 ║
       ║ ────────────────────────────────────────────────────────────────────────────── ║
@@ -255,7 +257,7 @@
         
       2.3.9.1 Hunger Track
         
-        The Hunger track lists the Character's Hunger rating. A Character is Starving when her Hunger rating reaches 10. While Starving, a Character reduces the outcome of all her Actions by 2 successes. If a Character receives more Hunger while Starving, she Dies.
+        The Hunger track lists the Character's Hunger rating. See Section 2.6.4.1
         
         ║                              ║
         ║ ┌[Food]───────────────────┐  ║
@@ -265,7 +267,7 @@
       
       2.3.9.2 Metamorphosis Point (MP) Track
         
-        Certain events in the course of exploring a Nest grant the Characters MP. During Resting & Healing (SECTION), Characters can spend MP to increase their Attributes.
+        Certain events in the course of exploring a Nest grant the Characters MP, and this is where they track it. See Section 2.6.4.2 for more information about MP.
    
    2.3.10.0 Attack Boxes
       
@@ -349,7 +351,7 @@
       
     2.5.6.0 Selecting Attacks
     
-      Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (SECTION) and selects the Three Attacks for which her Character qualifies based on her Core and Special Attributes.
+      Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (Chapter 5) and selects up to four Attacks for which her Character qualifies based on her Core and Special Attributes.
     
   2.6.0.0 Character Features
   
@@ -372,144 +374,146 @@
       2.6.1.4 Passions
       
         Passions is the unbridled fury of a bug against the world. Passions is the strength of a leader, or the aggression of a warrior. Passions is all about enforcing the Character's will on others. In Combat, Passions is used to Charm or Intimidate enemies.
-      
-    2.6.2.0 Combat Attributes
-      
-      Combat relies on four Attributes: Initiative, Threat Rate, Survival Rate, and Wounds. The Character Sheet also provides a place to keep track of Swarms.
     
-      2.6.2.1 Initiative
-      
-        Initiative dictates how quick a Character is to act, and their readiness to do so. When Combat begins, each Character Rolls their Initiative to determine their starting Disposition, which can determine the outcome of battle. The Initiative Rating then determines the order of Initiative, followed by Disposition.
-      
-      2.6.2.2 Threat Rate
-      
-        Threat Rate is the fighting instinct of an Insect. It is used as part of the Effort for all Attacks.
-      
-      2.6.2.3 Survival Rate
-      
-        Survival Rate is the combined might of an Insect's reflexes and defenses. It is used as part of the Resistance for most Attacks.
-      
-      2.6.2.4 Wounds
-      
-        Wounds mark how close an Insect is to DEATH. Each Character has a Max Wounds Rating. When she takes enough Wounds to reach her Max Wounds, she DIES. There is no penalty for having Wounds, other than being closer to DEATH.
-      
-      2.6.2.5 Swarms
-      
-        Swarming Characters have Swarms. The maximum Swarms a Character can have at any time is equal to her Swarming Rating. See the note in Section 2.6.4.4 for more information on Swarms.
-    
-    2.6.3.0 Common Attributes
+    2.6.2.0 Common Attributes
     
       Common Attributes represent aspects that are relatively common among Insects. Any Insect can pick up a Common Attribute with ease. Learning a new Common Attribute costs 1 MP.
     
-      2.6.3.1 Construction
+      2.6.2.1 Construction
       
         Construction represents an Insect's ability to craft structures and objects out of raw materials, and to rip them apart as well. Construction is used to destroy Obstacles during Survival & Exploration, as well as to Secure Rooms during Resting & Healing. During Combat, Characters may use Construction as part of manoeuvers to create shields, pits, or other obstructions to their Enemies.
       
-      2.6.3.2 Eusociology
+      2.6.2.2 Eusociology
       
         Eusociology is an Insect's knowledge of eusociety. This includes Bees, Wasps, Hornets, Ants, and Termites. This can be used to glean insight into the workings of a eucocial Insect's mind, or know things about a Nest. In Combat, Eusociology can be used to Confuse enemies with cunning application of what you know.
       
-      2.6.3.3 Exploration
+      2.6.2.3 Exploration
       
         Exploration is the drive for food and everything good in the world. It represents an instinct to avoid danger and seek bounty. Exploration's main use is in Survival & Exploration, where an Exploration Roll determines the Costs, Risks, and Rewards found along the way.
       
-      2.6.3.4 Foraging
+      2.6.2.4 Foraging
       
         Foraging is an Insect's knowledge and instincts for harvesting edible plant and fungus parts. It can be used to Identify unknown Herbivore Food Items, and is also used in Hunting & Foraging to gather such Items.
       
-      2.6.3.5 Healing
+      2.6.2.5 Healing
       
         Healing is an Insect's medical knowledge. In the "Real World", Insects have a difficult time recovering from many injuries. In Nests & Insects, the bugs know how to apply patches and salves to cover up wounds and keep their insides inside. During the Resting & Healing minigame, a Character can Roll Healing to reduce her Wounds or another Insect's Wounds.
       
-      2.6.3.6 Hunting
+      2.6.2.6 Hunting
       
         Hunting is an Insect's knowledge of prey and instincts for hunting them down. It can be used to Identify unknown Insectivore Food Items, and is also used in Hunting & Foraging to gather such items. At the GQ's discretion, Hunting may be used in place of Eusociology for certain Rolls.
       
-      2.6.3.7 Leadership
+      2.6.2.7 Leadership
       
         Leadership. A single implacable quality that defines a personality that Insects can Rally behind. Leadership is used to Rally allies in Combat to improve their Disposition, but it can also be used to try and persuade Insects that you are their friend, through the Charmed Effect. Powerful Leadership can keep the whole Team Charging and Enemies in awe of your cause.
       
-      2.6.3.8 Perception
+      2.6.2.8 Perception
       
         Perception is a collection of all of an Insect's senses. Sight, smell, hearing, pheromone reception, electrosensitivity, all are covered by Perception. The most common use for Perception is to spot Sneaking Insects, but it can also be used to temporarily negate the effects of Darkness or point out an Enemy's weak spots.
       
-      2.6.3.9 Signaling
+      2.6.2.9 Signaling
       
         Signaling is an Insect's communication with the world around her. It covers sending secret pheromone messages to allies, as well as intimidating displays of color and aposematism. In Combat, Signaling is used to Intimidate enemies to reduce their Disposition. It can also be used to communicate secret tactics without the knowledge of the Enemy.
       
-      2.6.3.10 Sneaking
+      2.6.2.10 Sneaking
       
         Sneaking is the age-old art of not being noticed. It can be used to escape overwhelming threats, or to get the jump on unsuspecting prey. Sneaking can be used to circumnavigate an Encounter. In an Encounter, it can also be used to give Positive Modifiers to your Attacks, or Negative Modifiers to your Attackers.
       
-    2.6.4.0 Special Attributes
+    2.6.3.0 Special Attributes
       
-      2.6.4.1 Carapace
+      2.6.3.1 Carapace
       
         The armored warrior is favored in battle, and Carapace represents an Insect's reinforced exoskeleton. A Character with a Carapace rating adds it as a Positive Modifier when Resisting Attacks. Attacks that use Carapace take advantage of the Character's hardened surface to keep her protected in otherwise risky techniques.
       
-      2.6.4.2 Flight
+      2.6.3.2 Flight
       
         Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character with a Flight Rating adds it as a Positive Modifier when resisting Ranged and Area Attacks. Insects with a Flight Rating can move farther in Combat.
       
-      2.6.4.3 Swarming
+      2.6.3.3 Swarming
       
         Swarming Characters can summon conspecifics to aid them on her Job. These conspecifics can soak up Wounds and unleash powerful group Attacks on her enemies. However, this benefit leaves them more susceptible to Area Attacks. Attacks that use Swarming tend to cost Swarms to achieve their effects. But it is all worth it, as the sacrifice of the few leads to the victory of the many. Or at least the Character in charge of the Swarm.
         
         _Swarms_ A Swarming Character starts with a number of Swarms equal to her Swarming rating. When a Character with Swarming takes Wounds, they can choose to lose that many Swarms instead. Once they reach zero Swarms, they take Wounds as normal. Attacks that use Swarming also reference the number of Current Swarms. A Swarming Character adds her Current Swarms as a negative modifier to her Roll to Resist Area Attacks.
       
-      2.6.4.4 Toxic
+      2.6.3.4 Toxic
       
         Toxic is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being Poisoned or Envenomed. Unless it heals them. But it's still a weird experience. Attacks with Toxic apply various Effects, like Poisoned, Infected, or Paralysed.
       
-      2.6.4.5 Web
+      2.6.3.5 Web
       
         Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk. Web can be used to aid in the Construction of barriers and defenses, and can also be used to trap or bind Enemies. Web-based Attacks inflict the Immobile Condition.
         
-    2.6.5.0 Advanced Attributes
+    2.6.4.0 Advanced Attributes
     
-      2.6.5.1 Chill
+      2.6.4.1 Chill
         
         Chill represents a Character's control of endothermic reactions. By absorbing heat from their surroundings, the Character can cause a dramatic drop in temperature. This can result in Characters gaining the Brittle Effect, which weakens their defenses.
       
-      2.6.5.2 Heat
+      2.6.4.2 Heat
       
         Heat represents a Character's control of exothermic reactions. Either by rapid vibrations or chemical reactions, the Character builds up a significant amount of Heat energy and disperses it into their unwitting foes. Attacks that use Heat often bestow the Burns Effect, which does damage over time.
       
-      2.6.5.3 Hydro
+      2.6.4.3 Hydro
       
         Hydro represents a Character's affinity for fluids, including water. This can be used to spout high-pressure bursts of fluid, like a Nasute Termite's Fontanellar Gun Attack. This can also be used to represent a Character's ability to survive and move in water.
       
-      2.6.5.4 Light
+      2.6.4.4 Light
       
         Bioluminescence. The art of life making light. This Attribute can be used to negate the effects of Darkness in a Room. It can also be used to shoot high-powered lasers at your enemies, Burns or Blinding them. Nature truly is beautiful.
       
-      2.6.5.5 Plant
+      2.6.4.5 Plant
       
         Characters with Plant have a close relationship with plants and fungus. They are more resistant to the Poisoned and Infected conditions. They can also use plants and fungus for more insidious purposes, like trapping an enemy in crushing roots.
       
-      2.6.5.6 Static
+      2.6.4.6 Static
       
         Zap. A terror of the bug world, given power. Bugs with Static are able to generate large electrostatic potentials and discharge them as blasts of lightning. Static can also be used to see beyond sight by sensing the electricity of life. I know it's more of an eel thing to generate electricity, but, come on. It's cool.
       
-      2.6.5.7 Psycho
+      2.6.4.7 Psycho
       
         Psycho is an enhancement of the mind. Psychokinesis, Telepathy, Mind Control, all are possible for a Psycho Insect. Insects with Psycho have stronger wills, and add Psycho as a Positive Modifier when Resisting Charm, Confuse, and Intimidate.
       
-      2.6.5.8 Vibe
+      2.6.4.8 Vibe
       
         Vibe is a Character's ability to generate loud, and sometimes focused, sounds. Loud enough to rupture the organs of unprepared Insects. Characters with Vibe are also more perceptive of sounds.
+            
+    2.6.5.0 Combat Attributes
       
+      Combat relies on four Attributes: Initiative, Threat Rate, Survival Rate, and Wounds. The Character Sheet also provides a place to keep track of Swarms.
+    
+      2.6.5.1 Initiative
+      
+        Initiative dictates how quick a Character is to act, and their readiness to do so. When Combat begins, each Character Rolls their Initiative to determine their starting Disposition, which can determine the outcome of battle. The Initiative Rating then determines the order of Initiative, followed by Disposition.
+      
+      2.6.5.2 Threat Rate
+      
+        Threat Rate is the fighting instinct of an Insect. It is used as part of the Effort for all Attacks.
+      
+      2.6.5.3 Survival Rate
+      
+        Survival Rate is the combined might of an Insect's reflexes and defenses. It is used as part of the Resistance for most Attacks.
+      
+      2.6.5.4 Max Wounds
+      
+        Wounds mark how close an Insect is to DEATH. Each Character has a Max Wounds Rating, and a space to track how many Wounds she has taken. When she takes enough Wounds to reach her Max Wounds, she DIES. There is no penalty for having Wounds, other than being closer to DEATH.
+      
+      2.6.5.5 Swarms
+      
+        Swarming Characters have Swarms. The maximum Swarms a Character can have at any time is equal to her Swarming Rating. See the note in Section 2.6.4.4 for more information on Swarms.
+        
     2.6.6.0 Survival Features
     
-      2.6.4.1 Inventory
+      2.6.4.1 Hunger
       
-      2.6.4.2 Hunger
+        Hunger. The constant threat against continued Survival. As Insects travel through the world and its Nests, they take on Hunger. When an Insect reaches 10 Hunger, she is said to be STARVING. She reduces the outcome of all her Rolls by 2 Successes. If an Insect is STARVING and takes on more Hunger, she DIES.
       
-        
+      2.6.4.2 Metamorphosis Points
+      
+        Actions over the course of the game earn Metamorphosis Points, or MP, for the Characters. Overcoming Jobs and Sub-Jobs are the most significant source of MP, but MP can also be earned by discovering Food of Metamorphosis. See 3.4.7.0 for spending Metamorphosis Points
     
     2.6.7.0 Attacks
     
-      See SECTION for a list of available Attacks and their requirements.
+      See Chapter 5 for a list of available Attacks and their requirements.
       
     2.6.8.0 Effects
     
@@ -764,7 +768,7 @@
         
         2.6.9.7.1 Consuming Food Items
           
-          Some Food Items bestow an Effect or grant an Ability to the Consuming Character. Such Items' Effects trigger as soon as an Item is Consumed. Refer to SECTION for the rules of triggering Effects.
+          Some Food Items bestow an Effect or grant an Ability to the Consuming Character. Such Items' Effects trigger as soon as an Item is Consumed. Refer to 2.6.8.0 for the rules of triggering Effects.
           
         2.6.9.7.2 Generating Food Items
         
@@ -786,7 +790,7 @@
             
             When a Food Item is Identified, the following Functions are generated: a) the Item's Condition; b) its Alignment; and c) its Abilities.
             
-          _Known Items_ Once a Food Item is Identified, it becomes a "Known" Item. Known Items are generated by simple randomisation. The circumstances in which Known or Unknown Food Items are described in SECTION. Unknown Food Items are generated as Risks while Known Food Items are generated as Rewards. TABLES in SECTION list the Chance to generate Food Items as Risks or Rewards during the Survival & Exploration minigame.
+          _Known Items_ Once a Food Item is Identified, it becomes a "Known" Item. Known Items are generated by simple randomisation among the list of Known Items. Both Unknown Food Items and Known Food Items are generated as Rewards. TABLES in 3.2.9.1 list the Chance to generate Food Items as Rewards during the Survival & Exploration minigame.
           
           The following Sections describe how to generate Food Items' Form and Function.
           
@@ -850,7 +854,7 @@
             
             Once all Effects caused by Consuming an unknown Food Item have triggered, the Item is a Known Item.
             
-            When an Item is Identified, the Identifying Character gains 1 MP.
+            When an Item is Identified, the Party gains 1 MP.
             
         2.6.9.7.5 Generating a Food Item's Function
         
@@ -1020,7 +1024,7 @@
         
         _Targeting Allies_ Some Attacks Heal or Help rather than Harm. These Attacks can target Allies, but may be more difficult when targeting more capable Allies.
         
-        Attacks are listed in SECTION. Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
+        Attacks are listed in Chapter 5. Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
         
       3.1.2.6 Suppress Action
         
@@ -1196,7 +1200,7 @@
       
       _Rolling for Events_ Once the type and number of Events is determined, the players Roll on the relevant Event tables to find which specific events occur. For each Event to be generated, Roll a d10 and look up the result on the relevant Table. Each Event with a Chance greater than or equal to the d10 Roll is generated. Thus, multiple Events may occur as a result of a single Exploration Action.
       
-      Events are listed in TABLES in SECTION. Nest Level ratings and their Quantification Dice are listed in TABLE, in SECTION.
+      Events are listed in TABLES in 3.2.6.0.
       
     3.2.2.0 The Nest Environment
     
@@ -1572,7 +1576,7 @@ There are five types of Risk Events:
       
       To generate a Known Food Item, randomly determine an item that the Characters have already identified.
 
-      To generate an Unknown Food Item, refer to SECTION.
+      To generate an Unknown Food Item, refer to 2.6.9.7.0.
       
       Generated Food Items have a Level equal to the Level of the Room they were found in.
       
@@ -1665,7 +1669,7 @@ There are five types of Risk Events:
     
     3.4.6.0 Resist Effects
     
-      Characters in the Resting & Healing minigame have an opportunity to Resist each Effect she suffers. See SECTION for the rules on Resisting Effects.
+      Characters in the Resting & Healing minigame have an opportunity to Resist each Effect she suffers. See 2.6.8.3 for the rules on Resisting specific Effects.
     
     3.4.7.0 Spend MP
     
@@ -1675,7 +1679,7 @@ There are five types of Risk Events:
     
     3.4.8.0 Change Attacks
     
-      A Character may decide to change their list of Known Attacks. See SECTION for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
+      A Character may decide to change their list of Known Attacks. See Chapter 5 for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
     
   3.5.0.0 Travel
     
