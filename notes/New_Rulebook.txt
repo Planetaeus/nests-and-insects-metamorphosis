@@ -173,7 +173,7 @@
     
       The Advanced Attributes box lists Attributes that stretch the limits of what it means to be an Insect. Real-world insects and animals exhibit a number of seemingly fantastical adaptations and behaviors, like bioluminescence and the ability to generate significant electric potentials and currents. Nests & Insects: Metamorphosis takes these attributes to extremes in ways that feel right at home within fantasy.
       
-      There are eight Advanced Attributes, described briefly below, and in more detail in SECTION.
+      There are eight Advanced Attributes, described briefly below, and in more detail in 2.6.4.0.
       
       * Chill: The absence of heat. Makes chitin brittle.
       
@@ -190,8 +190,6 @@
       * Static: The fundamental force of Electricity. Short circuit your foes' aim.
       
       * Vibe: Fine control over powerful waves of sound.
-      
-      Section 2.6.4.0 describes the Advanced Attributes in more detail.
       
     2.3.5.0 Common Attributes Box
       
@@ -1401,7 +1399,7 @@
   3. Three-Hex Triangle Obstruction
   4. Dividing Obstruction. This Obstruction starts at one Hex on the edge of the Room and continues in a direction until it can't continue any further.
     
-  __Block Obstructions__ Block Obstructions can be torn down as if they were Obstacles. See SECTION for more information.
+  __Block Obstructions__ Block Obstructions can be torn down as if they were Obstacles. See 3.2.8.3 for more information.
   
   __Pit Filling__ Pit Obstructions can be covered using Resources. Make a Construction Roll plus Ken or Strength. For each Success, you may reduce your Resource Rating by one to cover up one hex of the Pit.
   
@@ -1413,7 +1411,7 @@
   
   Alternatively, Characters with the Light or Heat Attributes may exert themselves to use these Attributes and fight the Darkness. The Character Rolls the chosen Attribute, reducing the Darkness for each Success. The Character who rolled increases her hunger by one if she used Light, or two if she used Heat. This increase may result in the Character reaching 10 Hunger and Starving. If the Character is already Starving before this Increase, she DIES.
   
-  See SECTION for more details on the effects of Darkness.
+  See 3.2.7.0 for more details on the effects of Darkness.
 
 ║ 3.2.6.7 Resolve the Exploration Action                                                    ║
 ║                                                                                           ║
@@ -1515,7 +1513,7 @@ There are five types of Risk Events:
 
   If the Character fails the Roll, they gain Infected equal to the Net Failures. The Character gains MP equal to Level.
   
-  See SECTION for the rules of the Infected Effect.
+  See 2.6.8.13 for the rules of the Infected Effect.
   
 ║ ┌[Note 9]───────────────────────────────────────────────────────────────────────────────┐ ║
 ║ │ The risk of Infection while exploring a Nest comes from disease-causing               │ ║
