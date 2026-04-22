@@ -216,7 +216,6 @@
       ║ Effect     The Character...                                                         ║
       ║ ──────────────────────────────────────────────────────────────────────              ║
       ║ Bleeding   ...automatically takes a Wound each Combat Turn                          ║
-      ║ Blinded    ...has their senses disrupted. Difficulty with sight, hearing, smell...  ║
       ║ Brittle    ...has their reflexes and chitin weakened...                             ║
       ║ Burns      ...this bug is on fiyah...                                               ║
       ║ Charmed    ...will not Attack, but may take other Actions.                          ║
@@ -226,7 +225,6 @@
       ║ Paralysed  ...cannot take any Actions except to Resist                              ║
       ║ Poisoned   ...has a negative modifier equal to Poisoned to all Actions              ║
       ║ Shocks     ...has Shocks as a negative modifier to all Close and Ranged Attacks     ║
-      ║ Stunned    ...loses her next Turn in Combat                                         ║
       ║ ──────────────────────────────────────────────────────────────────────              ║
 
     2.3.7.0 Disposition Track
@@ -564,7 +562,6 @@
         ║ Effect             Resist with                                     ║
         ║ ──────────────────────────────────────────────                     ║
         ║ Bleeding           Strength                                        ║
-        ║ Blind              Ken                                             ║
         ║ Brittle            Strength + Heat                                 ║
         ║ Burns              Speed + Chill                                   ║
         ║ Charmed            Passions + Psycho                               ║
@@ -574,7 +571,6 @@
         ║ Paralysed          Speed                                           ║
         ║ Poisoned           Strength + Plant                                ║
         ║ Shocked            Passions + Static                               ║
-        ║ Stunned            Passions                                        ║
         ║ ──────────────────────────────────────────────                     ║
       
       2.6.8.4 Checking Effects
@@ -591,17 +587,8 @@
         
         When a Bleeding Effect Triggers, the Character takes 1 Wound.
         
-      2.6.8.7 Blind
-      
-        Resist with: KEN
-        
-        When a Blinded Effect Triggers, nothing happens.
-        
-        However, a Blinded Character receives a Negative Modifier on Rolls that require awareness of their surroundings.
-        This includes Attacking, Defending, and Perception Rolls, but may also include other Rolls as the GQ sees fit.
-        
-      2.6.8.8 Brittle
-      
+      2.6.8.6 Brittle
+
         Resist with: STR + Heat
         
         When a Brittle Effect Triggers, nothing happens.
@@ -669,12 +656,6 @@
         When a Shocks Effect Triggers, nothing special happens.
         
         However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Close or Ranged Attacks.
-      
-      2.6.8.17 Stunned
-      
-        Resist with: PAS
-      
-        When a Stunned Effect triggers, the subject Character cannot take any Actions until the next time Effects are Checked.
         
     2.6.9.0 Inventory Items
       
@@ -1121,7 +1102,7 @@
         ║                                                                                           ║
         ║ * Lift an enemy off the ground, carry her, Flight, behind her allies lines and drop her   ║
         ║   there: Roll Flight + Strength vs. the enemy's Strength. If the Roll succeeds, the enemy ║
-        ║   acquires Stunned.                                                                     ║
+        ║   acquires Paralysed.                                                                     ║
         ║                                                                                           ║
         ║ * Direct an ally to hit an enemy where she has been previously wounded: Roll Ken +        ║
         ║   Signaling vs. Ken. If the Action succeeds, the ally ignores SR on her next Attack.      ║
@@ -2560,7 +2541,7 @@ There are five types of Risk Events:
     Vibral Assault
     Range: Ranged
     Requirements: Vibe 3
-    Roll Vibe + TR vs. PAS + SR against an Insect within Vibe Hexes. The target gains Wounds and Stunned for each Net Success.
+    Roll Vibe + TR vs. PAS + SR against an Insect within Vibe Hexes. The target gains Wounds and Paralysed for each Net Success.
     
     Vine Entwine
     Range: Ranged
