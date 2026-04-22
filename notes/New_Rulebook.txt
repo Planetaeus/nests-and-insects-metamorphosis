@@ -423,7 +423,9 @@
       
       2.6.3.2 Flight
       
-        Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character with a Flight Rating adds it as a Positive Modifier when resisting Ranged and Area Attacks. Insects with a Flight Rating can move farther in Combat.
+        Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character with a Flight Rating adds it as a Positive Modifier when resisting Ranged and Area Attacks.
+        
+        _Hex Grids_ If using gridded maps in Combat, Characters can move additional Hexes equal to their Flight Rating whenever they take the Move Action. They can also fly over other Insects and thus occupy the same Hex.
       
       2.6.3.3 Swarming
       
