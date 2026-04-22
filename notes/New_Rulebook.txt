@@ -509,7 +509,7 @@
     
     2.6.7.0 Attacks
     
-      See Chapter 5 for a list of available Attacks and their requirements.
+      See Chapter 5 for a list of available Attacks, their requirements, and their descriptions.
       
     2.6.8.0 Effects
     
