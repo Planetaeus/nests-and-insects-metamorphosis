@@ -375,7 +375,7 @@
     
       2.6.2.1 Construction
       
-        Construction represents an Insect's ability to craft structures and objects out of raw materials, and to rip them apart as well. Construction is used to destroy Obstacles during Survival & Exploration, as well as to Secure Rooms during Resting & Healing. During Combat, Characters may use Construction as part of manoeuvers to create shields, pits, or other obstructions to their Enemies.
+        Construction represents an Insect's ability to craft structures and objects out of raw materials, and to rip them apart as well. Construction is used to destroy Obstacles during Survival & Exploration, as well as to Secure Rooms during Resting & Healing. During Combat, Characters may use Construction as part of manoeuvers to create or destroy shields, pits, or other obstructions.
       
       2.6.2.2 Eusociology
       
@@ -391,7 +391,7 @@
       
       2.6.2.5 Healing
       
-        Healing is an Insect's medical knowledge. In the "Real World", Insects have a difficult time recovering from many injuries. In Nests & Insects, the bugs know how to apply patches and salves to cover up wounds and keep their insides inside. During the Resting & Healing minigame, a Character can Roll Healing to reduce her Wounds or another Insect's Wounds.
+        Healing is an Insect's medical knowledge. In the "Real World", Insects have a difficult time recovering from injuries. In Nests & Insects, the bugs know how to apply patches and salves to cover up wounds and keep their insides inside. During the Resting & Healing minigame, a Character can Roll Healing to reduce her Wounds or another Insect's Wounds.
       
       2.6.2.6 Hunting
       
