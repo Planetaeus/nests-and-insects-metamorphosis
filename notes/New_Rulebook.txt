@@ -648,13 +648,13 @@
       
       Inventory Items carried by a Character are recorded on the Character's sheet, in the Inventory box.
         
-      2.6.9.2 Acquiring Items
+      2.6.9.1 Acquiring Items
       
         Characters may come across new Inventory Items as Rewards generated during the Survival & Exploration Minigame, then harvest them during the Hunting & Foraging Minigame. In that case, an Item's initial Dots Rating is generated according to the rules of the minigame.
         
         _Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the Character's Inventory).
         
-      2.6.9.3 Dropping Items
+      2.6.9.2 Dropping Items
         
         Items may be "dropped" from a Character's Inventory either automatically, when the Character picks up an Item and her Inventory is already full; or voluntarily, when a Player decides it.
         
@@ -668,7 +668,7 @@
         
         _Cursed Items_ Some Items are cursed, and may not be removed from a Character's Inventory until their curse is lifted. If a Character acquires a Cursed Item while her Inventory is full, she MUST drop another Item that is not Cursed. If her Inventory is full of Cursed Items, her day MUST not be going too well, and she drops the new Cursed Item.
         
-      2.6.9.4 Consuming Items
+      2.6.9.3 Consuming Items
         
         Inventory Items are "Consumed" and may become "Exhausted" as a result of taking an Action or paying a Cost.
         
@@ -676,13 +676,13 @@
         
         _Exhausted Items_ When an Inventory Item is Exhausted, it can no longer be Consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other Characters.
         
-      2.6.9.5.0 Food Items
+      2.6.9.4.0 Food Items
         
-        2.6.9.5.1 Consuming Food Items
+        2.6.9.4.1 Consuming Food Items
           
           Some Food Items bestow an Effect or grant an Ability to the Consuming Character. Such Items' Effects trigger as soon as an Item is Consumed. Refer to 2.6.8.0 for the rules of triggering Effects.
           
-        2.6.9.5.2 Generating Food Items
+        2.6.9.4.2 Generating Food Items
         
           Nests & Insects Food Items are procedurally generated like everything else encountered during a Job.
           
@@ -706,7 +706,7 @@
           
           The following Sections describe how to generate Food Items' Form and Function.
           
-        2.6.9.5.3 Generating a Food Item's Form
+        2.6.9.4.3 Generating a Food Item's Form
             
           When an Item is first found, Roll to generate the Item's Form, as follows:
           
@@ -740,7 +740,7 @@
           ║ ──────────────────────  ────────────────────── ║
           ║ Table 11: Food Types                           ║
             
-        2.6.9.5.4 Identifying Food Items
+        2.6.9.4.4 Identifying Food Items
         
           Food Items start out as Unknown Items, whose Form is known, but whose Function is not known. A Character can identify a Food Item in one of two ways:
           
@@ -768,7 +768,7 @@
             
             When an Item is Identified, the Party gains 1 MP.
             
-        2.6.9.5.5 Generating a Food Item's Function
+        2.6.9.4.5 Generating a Food Item's Function
         
           When an Item is Identified in one of the two ways described in the previous Section, Roll to generate the Item's Function, as follows:
           
@@ -1488,7 +1488,7 @@ There are five types of Risk Events:
       
       To generate a Known Food Item, randomly determine an item that the Characters have already identified.
 
-      To generate an Unknown Food Item, refer to 2.6.9.7.0.
+      To generate an Unknown Food Item, refer to 2.6.9.4.0.
       
       Generated Food Items have a Level equal to the Level of the Room they were found in.
       
