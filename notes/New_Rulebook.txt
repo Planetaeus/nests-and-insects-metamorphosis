@@ -1585,7 +1585,7 @@ There are five types of Risk Events:
     
     3.4.7.0 Spend MP
     
-      If a Character has any MP that they wish to spend, they may do so. To increase an Ability or Attribute costs a number of MP equal to the current rating plus one: It costs 6 MP to go from 5 to 6, but it costs 7 MP to go from 6 to 7.
+      If a Character has any MP that they wish to spend, they may do so now. To increase an Ability or Attribute costs a number of MP equal to the current rating plus one: It costs 6 MP to go from 5 to 6, but it costs 7 MP to go from 6 to 7.
       
       _Gaining New Attributes_ Characters can spend MP to gain new Attributes starting at Rating 1. Common Attributes cost 1 MP to start. Special Attributes cost 3 MP to start. Advanced Attributes cost 5 MP to start.
     
