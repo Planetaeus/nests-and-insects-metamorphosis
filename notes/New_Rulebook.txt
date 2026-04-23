@@ -837,7 +837,7 @@
       Combat ends when all Combatants on one side are either Killed or Retreating.
       
     3.1.2.0 Combat Steps
-      The Combat Minigame plays out in NUMBER steps, two of which repeat until Combat ends. The NUMBER Combat Steps are summarised in the Rules Summary below, and discussed in detail in the following Sections.
+      The Combat Minigame plays out in nine steps, two of which repeat until Combat ends. The nine Combat Steps are summarised in the Rules Summary below, and discussed in detail in the following Sections.
       
       ║ ┌[Rules Summary 21: Combat Steps]───────────────────────────────────────────────────────┐ ║
       ║ │                                                                                       │ ║
