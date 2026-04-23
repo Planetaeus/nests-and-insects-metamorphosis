@@ -1559,15 +1559,15 @@ There are five types of Risk Events:
       
     3.4.2.0 Secure a Room
     
-      A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To be able to Secure a Room, the Characters must have a combined Construction + Web rating equal to the Room's Level. Each Character contributing a Rating of Construction must Consume that many Ratings of Resources. Each Character contributing a Rating of Web must Consume that many Ratings of Food.
+      A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To be able to Secure a Room, the Characters must have a combined Construction + Web rating equal to the Room's Level. Each Character contributing a Rating of Construction must Consume that many Dots of Resources. Each Character contributing a Rating of Web must Consume one Dot of Food.
     
     3.4.3.0 Consume Food
     
-      Each Character may choose a Food Item to Consume. Each Rating Consumed reduces her Hunger by one.
+      Each Character may choose a Food Item to Consume. Each Dot Consumed reduces her Hunger by one.
     
     3.4.4.0 Heal from Wounds
     
-      The Character may Consume one Rating of a Food Item to Heal one Wound.
+      The Character may Consume one Dot of a Food Item to Heal one Wound.
       
       If the Character Consumed a Food Item, the Character may roll Healing + KEN to Heal from additional Wounds. Each Success Heals one Wound.
       
@@ -1575,7 +1575,7 @@ There are five types of Risk Events:
     
     3.4.5.0 Summon Swarmlings
     
-      To attract and sustain a Swarm, Food is a must. To summon more Swarmlings to her aid, a Character must Consume one Rating of a Food Item.
+      To attract and sustain a Swarm, Food is a must. To summon more Swarmlings to her aid, a Character must Consume one Dot of a Food Item.
       
       To summon Swarmlings, the Character Rolls Swarming + Leadership or Eusociology. Each Success returns one Swarmling.
     
