@@ -515,25 +515,21 @@
     
       This Section defines the rules for handling Effects. Effects are physical or mental conditions that may affect a Character during the course of a game.
       
-      The Effects rules rely on the rules for Boolean Rolls in Section 3.4.2.1, and the rules for Quantification in Section 3.4.1.6.
-      
       2.6.8.1 Effects Ratings
       
-        Nests & Insects Characters may be subject to ten Effects, all of which are detrimental. The ten Effects are listed in the Character sheet, in the Effects box.
+        Nests & Insects Characters may be subject to ten different detrimental Effects. The Effects are listed in the Character sheet, in the Effects box.
         
-        Each Effect has a Rating. When the rating of an Effect on a Character's sheet is more than 0%, we say that the Character is "subject to" the Effect. Alternatively, we say that the Effect "applies to" the Character.
+        Each Effect has a Rating. A Character is subject to all of their Effects that have a Rating of more than zero.
         
       2.6.8.2 Acquiring Effects
       
-        Characters start with all Effects in their Character Sheet rated at 0%. A Character may acquire an Effect turing the course of the game. Characters acquire effects as a result of:
+        Characters start with all Effects in their Character Sheet rated at 0. A Character may acquire an Effect during the course of the game. Effects may be bestowed upon Characters as a result of:
         
         * their Actions,
         
         * the Actions of enemies,
         
         * the Events that occur while they Explore the Nest.
-        
-        When a Character acquires an effect, we say that the Effect is "bestowed" on the Character. When an effect is bestowed on a Character, the Effect's rating may increase above 0% and the Character may become subject to the Effect.
         
       2.6.8.3 Resisting Effects
       
@@ -542,14 +538,13 @@
         ║ List of Minigame Intents: ............ Ignore Effect temporarily   ║
         ║ List of Minigame Actions: ............ Resist Effect               ║
         ║ Effort Variables: .................... Effect-specific (see below) ║
-        ║ Resistance Variables: ................ Effect-specific             ║
-        ║ Modifier Variables: .................. None                        ║
+        ║ Resistance Variables: ................ Effect to be Resisted       ║
         ║                                                                    ║
         ║ Outcomes of the six Degrees of Success and Failure:                ║
         ║                                                                    ║
         ║ Degree of Success        Outcome                                   ║
         ║ ───────────────────────────────────────────────────────────────    ║
-        ║ Critical Success         Remove Effect                             ║
+        ║ Critical Success         Reduce Effect 3                           ║
         ║ Complete Success         Reduce Effect 2                           ║
         ║ Partial Success          Reduce Effect 1                           ║
         ║ Partial Failure          Effect remains                            ║
@@ -573,16 +568,14 @@
         ║ Shocked            Passions + Static                               ║
         ║ ──────────────────────────────────────────────                     ║
       
-      2.6.8.4 Checking Effects
+      2.6.8.4 Triggered Effect
         
-        When a Character is subject to one or more Effects, those Effects must be checked during Combat, Survival & Exploration, or Travel. Each minigame determines when Effects must be "checked".
+        When a Character is subject to one or more Effects, those Effects Trigger during Combat and Travel. Each minigame determines when Effects must be "Triggered". At that time, all Effects the Character is subject to trigger in order.
         
-        When the rules of a minigame say that Effects must be checked, all Effects a Character is subject to are checked simultaneously. For each Effect, make a Boolean Roll using that Effect's Rating. On a Success, the Effect Triggers.
-        
-        The next Sections describe how to handle Triggered Effects.
-      
-      2.6.8.6 Bleeding
-      
+        The next Sections describe what happens when each Effect Triggers.
+            
+      2.6.8.5 Bleeding
+
         Resist with: STR
         
         When a Bleeding Effect Triggers, the Character takes 1 Wound.
@@ -593,64 +586,62 @@
         
         When a Brittle Effect Triggers, nothing happens.
         
-        However, a Brittle Character receives a penalty to both their Survival Rating and Carapace equal to their Brittle Rating.
+        However, a Brittle Character receives a penalty to both her Survival Rating and Carapace equal to her Brittle Rating.
         
-      2.6.8.9 Burns
-      
+      2.6.8.7 Burns
+
         Resist with: SPE + Chill
         
-        When a Burns Effect Triggers, the Character takes 1 Wound and their Burns Rating decreases by 1.
+        When a Burns Effect Triggers, the Character takes 1 Wound and her Burns Rating decreases by 1.
         
-      2.6.8.10 Charmed
-      
+      2.6.8.8 Charmed
+
         Resist with: PAS + Psycho
         
-        When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. They may take other Actions and Manoeuvers as normal.
+        When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. She may take other Actions and Manoeuvers as normal.
         
-      2.6.8.11 Confused
-      
+      2.6.8.9 Confused
+
         Resist with: KEN + Psycho
         
-        When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack and Move Actions during their turn. Targets for Attacks are selected at random. If no targets are within range, the Character Moves towards the nearest target.
+        When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack Action during her turn. Targets for Attacks are selected at random. After Attacking, or if no targets are within range, she may also take either the Move or Resist Actions.
         
-        If the Character is not participating in Combat, Combat begins between the Confused Character and the other Characters in the Room.
-        
-      2.6.8.12 Immobile
-      
+      2.6.8.10 Immobile
+
         Resist with: STR
         
         When an Immobile Effect triggers, nothing special happens.
         
-        However, an Immobile Character received a penalty to their Speed and Flight equal to their Immobile rating.
-      
-      2.6.8.13 Infected
-      
+        However, an Immobile Character received a penalty to their Speed and Flight equal to their Immobile rating. 
+
+      2.6.8.11 Infected
+
         Resist with: STR + Plant
-      
+
         When an Infected Effect triggers, the subject Character is bestowed a random Effect.
         
-        Select an Effect at random (Roll a die). Roll the Character's Infected Rating to Set or Increase the selected Effect by the number of Successes.
+        Select an Effect at random (Roll a die). Roll the Character's Infected Rating to Increase the selected Effect by the number of Successes.
         
         The bestowed Effect triggers.
         
-      2.6.8.14 Paralysed
-      
+      2.6.8.12 Paralysed
+
         Resist with: SPE
-      
+
         When a Paralysed Effect Triggers, nothing special happens.
         
-        However, a Paralysed Character can only take the Resist Action until she is no longer Paralysed.
+        However, a Paralysed Character can only take the Resist Action until she is no longer Paralysed. A Paralysed 
         
-      2.6.8.15 Poisoned
-      
+      2.6.8.13 Poisoned
+
         Resist with: STR + Plant
-      
-        When a Poisoned Effect triggers, Roll to Increase Poisoning.
+
+        When a Poisoned Effect triggers, Roll Poisoned. Increase the Poisoned Rating by the number of Successes.
         
-        A Character subject to a Poisoned Effect has a negative modifier equal to her Poisoned rating to all Actions in Combat.
+        A Character subject to a Poisoned Effect suffers a Negative Modifier equal to her Poisoned rating to all Actions.
         
-      2.6.8.16 Shocked
-      
+      2.6.8.14 Shocked
+
         Resist with: PAS + Static
         
         When a Shocks Effect Triggers, nothing special happens.
@@ -1723,9 +1714,9 @@ There are five types of Risk Events:
         
           * If a Character is not Starving and the Roll would bring her to Hunger 10 or more, she is at Hunger 10 and she is Starving.
           
-      3.5.6.2 Check Effects
+      3.5.6.2 Trigger Effects
       
-        Each Character Rolls to check her Effects. See 2.6.8.4 for the rules of checking Effects.
+        Effects Trigger. See 2.6.8.4 for the rules of Triggered Effects.
         
     3.5.7.0 End Travel
     
