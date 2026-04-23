@@ -1566,7 +1566,7 @@ There are five types of Risk Events:
 
 ║   3.3.0.0 Hunting & Foraging (TBD)..................................................142 ║
     
-    In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
+    In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job. Each instance of an Item only has three Chances to be harvested.
     
     Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they Roll the appropriate Attribute for that type of Item.
     
@@ -1575,13 +1575,13 @@ There are five types of Risk Events:
     ║ Critical Success   Add 3 to Item Rating.                                     ║
     ║ Total Success      Add 2 to Item Rating.                                     ║
     ║ Partial Success    Add 1 to Item Rating.                                     ║
-    ║ Partial Failure    Nothing Happens.                                          ║
-    ║ Total Failure      Increase Hunger by 1.                                     ║
-    ║ Critical Failure   Increase Hunger by 2.                                     ║
+    ║ Partial Failure    Chance Wasted. Nothing Happens.                           ║
+    ║ Total Failure      Chance Wasted. Increase Hunger by 1.                      ║
+    ║ Critical Failure   Chance Wasted. Increase Hunger by 2.                      ║
     ║ ─────────────────────────────────────────                                    ║
     ║ Table 1: Four Degrees of Success.                                            ║
    
-    The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts are wasted, shown by an increase in the Hunger rating. On a Total Failure, the Character is hungry, but they have also depleted any remnants of that Item that could be found in the Room. The Item can no longer be harvested in this Room. On a Critical Failure, the Character's Hunger is increased substantially on top of the Room being depleted of the Item.
+    The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts have wasted one of the Room's Chances. On a Total Failure, the Character wastes her Chance and is also Hungry from the effort. On a Critical Failure, the Character's Chance is wasted and her Hunger is increased substantially.
     
     _Foraging Plants_ Harvesting an Herbivore Food Item uses the Foraging Attribute. The Character Rolls (KEN or STR) + Foraging vs Level.
     
