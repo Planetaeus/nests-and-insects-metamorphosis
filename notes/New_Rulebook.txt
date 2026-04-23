@@ -570,7 +570,7 @@
       
       2.6.8.4 Triggered Effect
         
-        When a Character is subject to one or more Effects, those Effects Trigger during Combat and Travel. Each minigame determines when Effects must be "Triggered". At that time, all Effects the Character is subject to trigger in order.
+        When a Character is subject to one or more Effects, those Effects Trigger during Combat and Travel. Each minigame determines when Effects must be "Triggered". At that time, all Effects the Character is subject to Trigger in order.
         
         The next Sections describe what happens when each Effect Triggers.
             
