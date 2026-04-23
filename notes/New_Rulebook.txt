@@ -1560,15 +1560,15 @@ There are five types of Risk Events:
 
 ║   3.3.0.0 Hunting & Foraging (TBD)..................................................142 ║
     
-    In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job. Each instance of an Item only has three Chances to be harvested.
+    In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job. Each instance of an Item only has one Chance to be harvested.
     
     Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they Roll the appropriate Attribute for that type of Item.
     
     ║ Degree of Success  Outcome                                                   ║
     ║ ─────────────────────────────────────────                                    ║
-    ║ Critical Success   Add 3 to Item Rating.                                     ║
-    ║ Total Success      Add 2 to Item Rating.                                     ║
-    ║ Partial Success    Add 1 to Item Rating.                                     ║
+    ║ Critical Success   Add 6 to Item Rating.                                     ║
+    ║ Total Success      Add 4 to Item Rating.                                     ║
+    ║ Partial Success    Add 2 to Item Rating.                                     ║
     ║ Partial Failure    Chance Wasted. Nothing Happens.                           ║
     ║ Total Failure      Chance Wasted. Increase Hunger by 1.                      ║
     ║ Critical Failure   Chance Wasted. Increase Hunger by 2.                      ║
