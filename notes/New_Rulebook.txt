@@ -1690,6 +1690,8 @@ There are five types of Risk Events:
     
       An Traveling Party consists of all Characters in the same Room who want to commence Travel to the same destination.
       
+      _Immobile and Paralysed Travel_ Immobile and Paralysed Characters cannot travel without the Assistance of another Character. When Hunger Comes Due, the Assisting Character gains one additional Hunger.
+      
     3.5.5.0 Risks Along the Route
     
       Sometimes the Characters will leave a Room without dealing decisively with the Risks they faced there. The two major examples of this are hostile Encounters that were fled or avoided, and the Infection Risk.
@@ -1702,17 +1704,13 @@ There are five types of Risk Events:
     
       The Characters arrive at their destination, and the strain of their journey takes its toll on them. They realize how Hungry they have gotten, and their Effects may trigger.
       
-      3.5.6.1 Roll for Hunger
+      3.5.6.1 Hunger Comes Due
         
-        The GQ makes a Roll to increase the Hunger for the Traveling Party. The dice pool is equal to the number of Rooms traversed during the Travel.
-        
-        Any Character may Consume a Food at this time to reduce her Hunger.
-        
-        If a Character's Hunger is not reduced by Consuming Food:
+        The Exploration Party gains one Hunger for each Room visited during the journey:
         
           * If a Character is Starving, she dies of starvation.
         
-          * If a Character is not Starving and the Roll would bring her to Hunger 10 or more, she is at Hunger 10 and she is Starving.
+          * If a Character is not Starving and the journey would bring her to Hunger 10 or more, she is at Hunger 10 and she is Starving.
           
       3.5.6.2 Trigger Effects
       
