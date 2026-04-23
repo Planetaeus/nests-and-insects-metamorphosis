@@ -682,45 +682,7 @@
         
         _Cursed Items_ Some Items are cursed, and may not be removed from a Character's Inventory until their curse is lifted. If a Character acquires a Cursed Item while her Inventory is full, she MUST drop another Item that is not Cursed. If her Inventory is full of Cursed Items, her day MUST not be going too well, and she drops the new Cursed Item.
         
-      2.6.9.4 Item Types
-      
-        Inventory Items can belong to one of six types. An Item's type is recorded next to its name on a Character's sheet, in square brackets. The six item types are listed in TABLE. below, along with a type symbol used to record the Item's type in a Character's Inventory, and a brief description of each type:
-                
-        ║ Item Type    Symbol    Description                                                        ║
-        ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-        ║ Companion    [C]       A creature accompanying a Character. May be edible.                ║
-        ║ Food         [F]       Used to pay a Hunger Cost. May bestow Effects, grant boons.        ║
-        ║ Hint         [H]       May provide useful information.                                    ║
-        ║ Light        [L]       Used to pay a Darkness Cost. May be edible.                        ║
-        ║ Materials    [M]       Used to build a Shelter for Resting and Healing.                   ║
-        ║ Message      [S]       Must be collected or delivered as part of a Job.                   ║
-        ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-
-        _Recording Item Types_ To record an item's type on a Character's Sheet, write its type symbol in square brackets next to the Item's Name in the Character's Inventory.
-        
-        _Items with Multiple Types_ Some Items may have multiple types, the "Food" type, and one or more other types. Such Items can be used to pay a Hunger Cost and perform another function, such as paying a Darkness Cost.
-        
-      2.6.9.5 Changing Item Types
-      
-        The types of an Item may change. This happens when an Item is eaten, or when it spoils.
-        
-        _Eaten Items_ When a Food item is eaten, all types it has other than Food are removed from it and the Item can henceforth only be used as a Food Item. The Item's name is changed to indicate it is only Food, by appending the word "Carcass" or "Remains" to its original name.
-        
-        ║ ┌[Example 2]────────────────────────────────────────────────────────────────────────────┐ ║
-        ║ │ Cody's Spider Character has a Gloworm: 45% Item in her Inventory. The Gloworm Item    │ ║
-        ║ │ has types Food and Light. Spider must pay a Hunger Cost and Cody decides that she     │ ║
-        ║ │ will eat some of the Gloworm to pay it. The Gloworm is now no longer a Light Item.    │ ║
-        ║ │ Cody changes the Gloworm's name on Spider's Character sheet to "Gloworm Carcass" as a │ ║
-        ║ │ reminder that the Gloworm is now only useable as Food.                                │ ║
-        ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-        ║                                                                                           ║
-        ║ ○ Gloworm [L,F]_________________:[__45%] │  ○ Gloworm Carcass [F]___________:[__45%] │    ║
-        ║ ──────────────────────────────────────────  ──────────────────────────────────────────    ║
-        ║ Figure 20: Spider's Gloworm (left) and its Carcass (right) after it was eaten.            ║
-
-        _Spoiled Items_ Food Items can become Spoiled as the result of paying a Spoilage Cost during the Survival & Exploration or Hunting & Foraging minigames. Spoiled Items are past their expiry date and cannot be Consumed without risking adverse effects. Make sure to include "Spoiled" in the item's name.
-        
-      2.6.9.6 Consuming Items
+      2.6.9.4 Consuming Items
         
         Inventory Items are "Consumed" and may become "Exhausted" as a result of taking an Action or paying a Cost.
         
@@ -728,13 +690,13 @@
         
         _Exhausted Items_ When an Inventory Item is Exhausted, it can no longer be Consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other Characters.
         
-      2.6.9.7.0 Food Items
+      2.6.9.5.0 Food Items
         
-        2.6.9.7.1 Consuming Food Items
+        2.6.9.5.1 Consuming Food Items
           
           Some Food Items bestow an Effect or grant an Ability to the Consuming Character. Such Items' Effects trigger as soon as an Item is Consumed. Refer to 2.6.8.0 for the rules of triggering Effects.
           
-        2.6.9.7.2 Generating Food Items
+        2.6.9.5.2 Generating Food Items
         
           Nests & Insects Food Items are procedurally generated like everything else encountered during a Job.
           
@@ -758,7 +720,7 @@
           
           The following Sections describe how to generate Food Items' Form and Function.
           
-        2.6.9.7.3 Generating a Food Item's Form
+        2.6.9.5.3 Generating a Food Item's Form
             
           When an Item is first found, Roll to generate the Item's Form, as follows:
           
@@ -792,7 +754,7 @@
           ║ ──────────────────────  ────────────────────── ║
           ║ Table 11: Food Types                           ║
             
-        2.6.9.7.4 Identifying Food Items
+        2.6.9.5.4 Identifying Food Items
         
           Food Items start out as Unknown Items, whose Form is known, but whose Function is not known. A Character can identify a Food Item in one of two ways:
           
@@ -820,7 +782,7 @@
             
             When an Item is Identified, the Party gains 1 MP.
             
-        2.6.9.7.5 Generating a Food Item's Function
+        2.6.9.5.5 Generating a Food Item's Function
         
           When an Item is Identified in one of the two ways described in the previous Section, Roll to generate the Item's Function, as follows:
           
