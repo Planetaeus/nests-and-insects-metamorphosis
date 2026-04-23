@@ -647,12 +647,6 @@
       Characters may find new Items during Survival & Exploration and gather them during Hunting & Foraging.
       
       Inventory Items carried by a Character are recorded on the Character's sheet, in the Inventory box.
-      
-      Like all Features, Inventory Items have a descriptive name and a rating that represents the amount of the relevant resource.
-      
-      2.6.9.1 Carrying Items
-      
-        Inventory Items are carried about the Character's Insect and kept track of in the Character's Inventory. A Character can only carry as many Items as there are entry "slots" in her Inventory. Characters' Inventories have Five Slots.
         
       2.6.9.2 Acquiring Items
       
