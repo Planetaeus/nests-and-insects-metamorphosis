@@ -604,7 +604,7 @@
 
         Resist with: KEN + Psycho
         
-        When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack Action during her turn. Targets for Attacks are selected at random. After Attacking, or if no targets are within range, she may also take either the Move or Resist Actions.
+        When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack Action during her turn. Targets for Attacks are selected at random. After Attacking, or if no targets are within range of any of her Attacks, she may also take either the Move or Resist Actions.
         
       2.6.8.10 Immobile
 
@@ -612,31 +612,25 @@
         
         When an Immobile Effect triggers, nothing special happens.
         
-        However, an Immobile Character received a penalty to their Speed and Flight equal to their Immobile rating. 
+        However, an Immobile Character received a penalty to her Speed and Flight equal to her Immobile rating. 
 
       2.6.8.11 Infected
 
         Resist with: STR + Plant
 
-        When an Infected Effect triggers, the subject Character is bestowed a random Effect.
-        
-        Select an Effect at random (Roll a die). Roll the Character's Infected Rating to Increase the selected Effect by the number of Successes.
-        
-        The bestowed Effect triggers.
+        When an Infected Effect triggers, the subject Character is bestowed an Effect. Choose an Effect at random (Roll a die). Roll Infected. On a Partial/Total/Critical Success, Increase the chosen Effect by 1/2/3. The bestowed Effect triggers.
         
       2.6.8.12 Paralysed
 
         Resist with: SPE
 
-        When a Paralysed Effect Triggers, nothing special happens.
-        
-        However, a Paralysed Character can only take the Resist Action until she is no longer Paralysed. A Paralysed 
+        When a Paralysed Effect Triggers, nothing special happens. However, a Paralysed Character can only take the Resist Action until she is no longer Paralysed. A Paralysed 
         
       2.6.8.13 Poisoned
 
         Resist with: STR + Plant
 
-        When a Poisoned Effect triggers, Roll Poisoned. Increase the Poisoned Rating by the number of Successes.
+        When a Poisoned Effect triggers, Roll Poisoned. On a Partial/Total/Critical Success, Increase Poisoned by 1/2/3.
         
         A Character subject to a Poisoned Effect suffers a Negative Modifier equal to her Poisoned rating to all Actions.
         
@@ -644,9 +638,7 @@
 
         Resist with: PAS + Static
         
-        When a Shocks Effect Triggers, nothing special happens.
-        
-        However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Close or Ranged Attacks.
+        When a Shocks Effect Triggers, nothing special happens. However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Close or Ranged Attacks.
         
     2.6.9.0 Inventory Items
       
