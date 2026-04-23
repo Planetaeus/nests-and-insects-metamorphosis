@@ -902,9 +902,9 @@
         
         Once Initiative Order is determined, the first Round of Combat begins and Combatants take Actions in Turn, in order of Initiative.
         
-        Combatants can take up to two Actions per Round:
+        Combatants can take up to two Actions during her Turn:
         
-        * Attack an Enemy to inflict Wounds.
+        * Attack an Enemy to inflict Wounds. This Action can only be taken ONCE per Turn.
         
         * Resist an Effect.
         
