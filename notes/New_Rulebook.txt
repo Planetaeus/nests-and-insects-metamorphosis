@@ -869,7 +869,7 @@
         
         All creatures of the same Species as the creature Attacking or Attacked by the Characters and in the same Room as that creature make up the other Side of Combat.
         
-        Characters or creatures on the same Side are "Allies", and those on the opposide Side are "Enemies"
+        Characters or creatures on the same Side are "Allies", and those on the opposite Side are "Enemies"
         
         All the creatures on the two Sides of Combat are Combatants for the duration of Combat.
         
