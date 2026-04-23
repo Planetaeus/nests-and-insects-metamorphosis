@@ -1654,7 +1654,7 @@ There are five types of Risk Events:
   3.5.0.0 Travel
     
     Once the Characters have explored a Room, they may wish to return. Perhaps there are Items they wish to harvest, or they wish to Explore a connected Room. The journey is relatively safe, as the Characters have probably cleared most of the Risks along the way.
-    The journey is not without its own costs, however. Characters have a chance to gain Hunger along the way.
+    The journey is not without its own costs, however. Characters will gain Hunger along the way.
     
     3.5.1.0 Steps of Travel
     
@@ -1670,9 +1670,9 @@ There are five types of Risk Events:
       
       5. Arrive at Destination.
       
-      6. Roll for Hunger.
+      6. Hunger Comes Due.
       
-      7. Check Effects.
+      7. Effects Trigger.
       
       8. End of Travel.
       
@@ -1712,7 +1712,7 @@ There are five types of Risk Events:
         
           * If a Character is not Starving and the journey would bring her to Hunger 10 or more, she is at Hunger 10 and she is Starving.
           
-      3.5.6.2 Trigger Effects
+      3.5.6.2 Effects Trigger
       
         Effects Trigger. See 2.6.8.4 for the rules of Triggered Effects.
         
