@@ -878,10 +878,10 @@
       3.1.2.2 Starting Disposition
         Before the start of the first Combat Round, each Player Rolls Initiative. The GQ makes a similar Roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances or Recoils their Disposition as described in TABLE.
         
-        ║ Initiative Roll Result        Starting Disposition                                        ║
+        ║ Initiative Roll Result           Starting Disposition                                     ║
         ║ ──────────────────────────────────────────────────                                        ║
-        ║ Success                       Advance 1 for every 2 Successes                             ║
-        ║ Failure                       Recoil 1.                                                   ║
+        ║ Partial/Total/Critical Success   Advance 1/2/3                                            ║
+        ║ Failure                          Recoil 1.                                                ║
         ║ ──────────────────────────────────────────────────                                        ║
         ║ Table 23: Starting Disposition.                                                           ║
 
