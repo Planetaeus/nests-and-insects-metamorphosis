@@ -1028,7 +1028,7 @@
 
       3.1.2.9 Manoeuver Action
         
-        ManoeuverActions provide a mechanism for players' Characters and Enemies contRolled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for ManoeuverActions and no Minigame formula for them. The GQ comes up with special rules on the fly.
+        Manoeuver Actions provide a mechanism for players' Characters and Enemies contRolled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for ManoeuverActions and no Minigame formula for them. The GQ comes up with special rules on the fly.
         
         To take a Manoeuver Action, describe the Combatant's Intent, then choose Effort and Resistance, and resolve the Action with a Qualification Roll, a Boolean Roll, or a Contested Boolean Roll. Feel free to add a Quantification Roll and bestow an Effect as a result of a Manoeuver. Any of a Combatant's Features can be used to take a Manoeuver Action. Below are some example Manoeuvers
         
