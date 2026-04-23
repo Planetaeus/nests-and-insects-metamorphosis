@@ -1963,7 +1963,7 @@ There are five types of Risk Events:
       Medium Carapace
       Medium Flight
       Medium Spe
-    Titan of all Titans
+    Titan of Titans
       High STR
       High Carapace
       High Flight
