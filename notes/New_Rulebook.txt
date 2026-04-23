@@ -73,9 +73,9 @@
 
     1.4.7.0 Minigames
     
-      The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more detail to the basic rules, Nests & Insects defines a number of "minigames".
+      The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more detail to the basic rules, Nests & Insects defines a number of "Minigames".
       
-      Minigames are special sets of rules for situations that are of special interest to a game. There are four minigames in Nests & Insects: Combat, Survival & Exploration; Hunting & Foraging; and Resting & Healing.
+      Minigames are special sets of rules for situations that are of special interest to a game. There are four Minigames in Nests & Insects: Combat, Survival & Exploration; Hunting & Foraging; and Resting & Healing.
       
       Minigames are described in detail in the Chapter 3.
   
@@ -211,7 +211,7 @@
     
     2.3.6.0 Effects Box
     
-      The Effects Box lists ten Effects that a Character can be subject to. Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other minigames. The twelve Effects in the Effect Box are listed below with a brief description of each.
+      The Effects Box lists ten Effects that a Character can be subject to. Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other Minigames. The twelve Effects in the Effect Box are listed below with a brief description of each.
 
       ║ Effect     The Character...                                                         ║
       ║ ──────────────────────────────────────────────────────────────────────              ║
@@ -391,7 +391,7 @@
       
       2.6.2.5 Healing
       
-        Healing is an Insect's medical knowledge. In the "Real World", Insects have a difficult time recovering from injuries. In Nests & Insects, the bugs know how to apply patches and salves to cover up wounds and keep their insides inside. During the Resting & Healing minigame, a Character can Roll Healing to reduce her Wounds or another Insect's Wounds.
+        Healing is an Insect's medical knowledge. In the "Real World", Insects have a difficult time recovering from injuries. In Nests & Insects, the bugs know how to apply patches and salves to cover up wounds and keep their insides inside. During the Resting & Healing Minigame, a Character can Roll Healing to reduce her Wounds or another Insect's Wounds.
       
       2.6.2.6 Hunting
       
@@ -570,7 +570,7 @@
       
       2.6.8.4 Triggered Effect
         
-        When a Character is subject to one or more Effects, those Effects Trigger during Combat and Travel. Each minigame determines when Effects must be "Triggered". At that time, all Effects the Character is subject to Trigger in order.
+        When a Character is subject to one or more Effects, those Effects Trigger during Combat and Travel. Each Minigame determines when Effects must be "Triggered". At that time, all Effects the Character is subject to Trigger in order.
         
         The next Sections describe what happens when each Effect Triggers.
             
@@ -642,7 +642,7 @@
         
     2.6.9.0 Inventory Items
       
-      Inventory Items are the Characters' Features representing Consumable resources carried by a Character and that the Character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing minigames.
+      Inventory Items are the Characters' Features representing Consumable resources carried by a Character and that the Character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing Minigames.
       
       Characters may find new Items during Survival & Exploration and gather them during Hunting & Foraging.
       
@@ -650,7 +650,7 @@
         
       2.6.9.1 Acquiring Items
       
-        Characters may come across new Inventory Items as Rewards generated during the Survival & Exploration Minigame, then harvest them during the Hunting & Foraging Minigame. In that case, an Item's initial Dots Rating is generated according to the rules of the minigame.
+        Characters may come across new Inventory Items as Rewards generated during the Survival & Exploration Minigame, then harvest them during the Hunting & Foraging Minigame. In that case, an Item's initial Dots Rating is generated according to the rules of the Minigame.
         
         _Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the Character's Inventory).
         
@@ -702,7 +702,7 @@
             
             When a Food Item is Identified, the following Functions are generated: a) the Item's Condition; b) its Alignment; and c) its Abilities.
             
-          _Known Items_ Once a Food Item is Identified, it becomes a "Known" Item. Known Items are generated by simple randomisation among the list of Known Items. Both Unknown Food Items and Known Food Items are generated as Rewards. TABLES in 3.2.9.1 list the Chance to generate Food Items as Rewards during the Survival & Exploration minigame.
+          _Known Items_ Once a Food Item is Identified, it becomes a "Known" Item. Known Items are generated by simple randomisation among the list of Known Items. Both Unknown Food Items and Known Food Items are generated as Rewards. TABLES in 3.2.9.1 list the Chance to generate Food Items as Rewards during the Survival & Exploration Minigame.
           
           The following Sections describe how to generate Food Items' Form and Function.
           
@@ -988,7 +988,7 @@
         
         3. Attempt to shake the Charmed Ally out of it: Roll Passions vs. the Ally's Charmed.
         
-        Following is the Combat minigame Formula for the Support Action:
+        Following is the Combat Minigame Formula for the Support Action:
         
         ║ Name of the Minigame: ................ Combat                                             ║
         ║ Participating Entities: .............. Characters, Allies                                 ║
@@ -1026,7 +1026,7 @@
 
       3.1.2.9 Manoeuver Action
         
-        ManoeuverActions provide a mechanism for players' Characters and Enemies contRolled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for ManoeuverActions and no minigame formula for them. The GQ comes up with special rules on the fly.
+        ManoeuverActions provide a mechanism for players' Characters and Enemies contRolled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for ManoeuverActions and no Minigame formula for them. The GQ comes up with special rules on the fly.
         
         To take a Manoeuver Action, describe the Combatant's Intent, then choose Effort and Resistance, and resolve the Action with a Qualification Roll, a Boolean Roll, or a Contested Boolean Roll. Feel free to add a Quantification Roll and bestow an Effect as a result of a Manoeuver. Any of a Combatant's Features can be used to take a Manoeuver Action. Below are some example Manoeuvers
         
@@ -1088,8 +1088,8 @@
         
   3.2.0.0 Survival & Exploration
       
-    ║ The Survival and Exploration minigame defines rules for the procedural generation of a    ║
-    ║ Nest's environment. During the Survival and Exploration minigame, Characters explore the  ║
+    ║ The Survival and Exploration Minigame defines rules for the procedural generation of a    ║
+    ║ Nest's environment. During the Survival and Exploration Minigame, Characters explore the  ║
     ║ Nest, while players and the GQ Roll dice to determine what the Characters find.           ║
 
     ║ In Nests & Insects procedural generation is an abstraction: no floor plans or maps are    ║
@@ -1210,7 +1210,7 @@
       ║                                                                                           ║
       ║ The "Spent" column records whether an Environment has been spent: either to pay a Cost,   ║
       ║ or to reap a Reward, or to initiate a Survival and Exploration, Hunting and Foraging or   ║
-      ║ Resting and Healing minigame.                                                             ║
+      ║ Resting and Healing Minigame.                                                             ║
       ║                                                                                           ║
       ║ _Going Back_ Environments can only be spent once from the Environment Pool, but           ║
       ║ Characters are free to visit them again for whatever reason, for example to try and harvest  ║
@@ -1266,7 +1266,7 @@
     ║ in her own words, as long as it's clear that the characer wants to go exploring. If       ║
     ║ that's not clear, the GQ can always ask the Player to clarify. If the Player isn't sure   ║
     ║ what her Character's Intent means in mechanical terms, the decision is made by the GQ     ║
-    ║ whether to start a Survival and Exploration minigame, or not.                             ║
+    ║ whether to start a Survival and Exploration Minigame, or not.                             ║
     ║                                                                                           ║
     ║ If more than one Player wish their Characters to explore the Nest, they can say so at     ║
     ║ this point. Otherwise they can do so in the next Step.                                    ║
@@ -1329,9 +1329,9 @@
 
 ║ 3.2.6.7 Resolve the Exploration Action                                                    ║
 ║                                                                                           ║
-║ As described in earlier Sections, the Survival and Exploration minigame is initiated when ║
+║ As described in earlier Sections, the Survival and Exploration Minigame is initiated when ║
 ║ one or more players decides that their Characters will go exploring the Nest. During the  ║
-║ Survival and Exploration minigame an Exploration Action is taken by the exploring         ║
+║ Survival and Exploration Minigame an Exploration Action is taken by the exploring         ║
 ║ Character, or Characters. This Section defines the formula for the Exploration Action.    ║
 ║                                                                                           ║
 ║ _Party Scout_ When more than one Characters take part in the same Exploration Action,     ║
@@ -1386,7 +1386,7 @@
 ║ 3.2.6.8 Survival and Exploration Ends                                                     ║
 ║                                                                                           ║
 ║ Once all Costs, Risks and Rewards, are generated and dealt with as described in the       ║
-║ previous Sections, the Survival and Exploration minigame ends.                            ║
+║ previous Sections, the Survival and Exploration Minigame ends.                            ║
 ║                                                                                           ║
 ║ Nothing special happens when Survival and Exploration ends. Players are free to control   ║
 ║ their Characters as before.                                                               ║
@@ -1407,7 +1407,7 @@ _Blind in the Dark_ If a Blind Character is affected by Darkness, only the great
 ║ through a Nest looking for the subject of a Job.                                          ║
 ║                                                                                           ║
 ║ The following Sections define the rules for the various Risk Events generated during the  ║
-║ Survival and Exploration minigame.                                                        ║
+║ Survival and Exploration Minigame.                                                        ║
 
 There are five types of Risk Events:
 
@@ -1475,7 +1475,7 @@ There are five types of Risk Events:
     
     Remember that the Characters are not invading a Nest to become rich. Arthropod society does not understand the concept of "riches". They are here to prove their skills and complete a Job. Accordingly, the Reward Events generated while exploring a Nest are only designed to help the Characters complete their Job.
     
-    The following Sections define the rules for the various Reward Events generated during the Survival and Exploration minigame.
+    The following Sections define the rules for the various Reward Events generated during the Survival and Exploration Minigame.
               
     3.2.9.1 Item.............................................................139 ║
 
@@ -1533,13 +1533,13 @@ There are five types of Risk Events:
     
 ║   3.4.0.0 Resting & Healing (TBD)...................................................143 ║
 
-    In between the dangers of exploring the Nest and Encounters with its Denizens, the Characters need some well-earned time to rest, recover, and reflect on how they've grown. This is encompassed by the Resting and Healing minigame.
+    In between the dangers of exploring the Nest and Encounters with its Denizens, the Characters need some well-earned time to rest, recover, and reflect on how they've grown. This is encompassed by the Resting and Healing Minigame.
     
     Before the Characters can rest, they need to first make a safe space to do so. Characters will have to choose a Room that has been cleared of all Risks and Secure it using Building Resources. Once they have a safe space, the Characters can Resist their Effects, Heal from Wounds, and Spend MP. During this safe time, they may also choose to swap their known Attacks.
     
     3.4.1.0 Resting & Healing Steps
     
-      The Resting & Healing minigame follows a formulaic set of steps in a given order:
+      The Resting & Healing Minigame follows a formulaic set of steps in a given order:
       
       1. The Characters spend Building Resources to Secure a Room.
       
@@ -1555,7 +1555,7 @@ There are five types of Risk Events:
       
       7. Characters can change their set of Known Attacks.
       
-      After all steps are complete, the Resting and Healing minigame is ended. Players are free to start a new Resting & Healing action immediately, or continue on their Job.
+      After all steps are complete, the Resting and Healing Minigame is ended. Players are free to start a new Resting & Healing action immediately, or continue on their Job.
       
     3.4.2.0 Secure a Room
     
@@ -1581,7 +1581,7 @@ There are five types of Risk Events:
     
     3.4.6.0 Resist Effects
     
-      Characters in the Resting & Healing minigame have an opportunity to Resist each Effect she suffers. See 2.6.8.3 for the rules on Resisting specific Effects.
+      Characters in the Resting & Healing Minigame have an opportunity to Resist each Effect she suffers. See 2.6.8.3 for the rules on Resisting specific Effects.
     
     3.4.7.0 Spend MP
     
@@ -1600,7 +1600,7 @@ There are five types of Risk Events:
     
     3.5.1.0 Steps of Travel
     
-      The Travel minigame follows a short series of steps.
+      The Travel Minigame follows a short series of steps.
       
       1. Begin Travel.
       
@@ -1622,7 +1622,7 @@ There are five types of Risk Events:
       
     3.5.2.0 Begin Travel
       
-      The Travel minigame begins when a Player expresses an intent to leave the current Room without starting Survival & Exploration.
+      The Travel Minigame begins when a Player expresses an intent to leave the current Room without starting Survival & Exploration.
       
     3.5.3.0 Choose Destination
     
@@ -1660,7 +1660,7 @@ There are five types of Risk Events:
         
     3.5.7.0 End Travel
     
-      Once the Traveling Party has arrived and has paid the costs of Travel, the minigame is over. Characters are free to take other Actions and initiate other minigames.
+      Once the Traveling Party has arrived and has paid the costs of Travel, the Minigame is over. Characters are free to take other Actions and initiate other Minigames.
       
 ║                                                                                           ║
 ║ 4.0.0.0 Setting (TBD).................................................................144 ║
