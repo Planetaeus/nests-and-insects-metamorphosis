@@ -922,17 +922,15 @@
         
       3.1.2.5 Attack Action
         
-        In her Turn, a Combatant can take one Attack Action targeting an enemy with either of her Attacks.
-        
-        To determine the outcome of an Attack, make a contested Roll using the Attack's Effort and Resistance. Characters with a nonzero Carapace rating add it as a positive modifier to their Resistance against Melee Attacks. Characters with a nonzero Flight rating add it as a Positive Modifier to their Resistance againse Ranged Attacks.
+        In her Turn, a Combatant can take one Attack Action targeting an enemy with any of her Attacks.
         
         Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort is usually one of the four Core Attributes + Threat Rate (TR), and Resistance is usually one of the four Core Attributes + Survival Rate (SR). Certain Attacks may list other combinations of Attributes instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
         
-        Once each the Effort and Resistance Dice Pools are established, the dice are Rolled. If the Effort Rolls more Successes than Resistance, the Attack Hits. Each Attack describes what happens when it Hits, such as how much damage the target takes. If the Resistance successes meet or exceed the Effort, the Attack misses and nothing happens. Some Attacks have penalties for a Miss.
+        Once each of the Effort and Resistance Dice Pools are established, the dice are Rolled. If the Effort Rolls more Successes than Resistance, the Attack Succeeds. Each Attack describes what happens when it Succeeds, such as how many Wounds the target takes. If the Resistance successes meet or exceed the Effort, the Attack Fails and nothing happens. Some Attacks have penalties for a Failure.
         
-        _Carapace_ If an Attack is Close Range and the target has a Carapace rating, the target's Carapace rating is a Positive Modifier to her Resistance against the Attack.
+        _Carapace_ If the Target of an Attack has a Carapace rating, the target's Carapace rating is a Positive Modifier to her Resistance against the Attack.
         
-        _Flight_ If an Attack is Ranged and the target has a Flight rating, the target's Flight rating is a Positive Modifier to her Resistance against the Attack.
+        _Flight_ If the target of a Ranged or Area Attack has a Flight rating, the target's Flight rating is a Positive Modifier to her Resistance against the Attack.
         
         _Swarming_ If a Character with Swarms is affected by an Area Attack, the target's Current Swarms is a Negative Modifier to her Resistance against the Attack.
         
@@ -944,21 +942,20 @@
         
         A Combatant can take one of the following Suppress Actions on her turn:
         
-        1. Attempt to Confuse the Enemy: Roll Ken vs. Ken to bestow a Confused Effect.
+        1. Attempt to Confuse the Enemy.
         
-        2. Attempt to Charm the Enemy: Roll Passions vs. Passions to bestow a Charmed Effect.
+        2. Attempt to Charm the Enemy.
         
-        3. Attempt to Intimidate the enemy: Roll Signaling vs. Passions to shift Disposition Down.
+        3. Attempt to Intimidate the enemy.
         
         Following is the Combat Minigame Formula for the Suppress Action.
         
         ║ Name of the Minigame ................ Combat                                              ║
         ║ Participating Entities .............. Characters, Enemies                                 ║
-        ║ List of Minigame Intents ............ Suppress enemy                                      ║
+        ║ List of Minigame Intents ............ Suppress enemy, Incite Frenzy, Sway Enemy           ║
         ║ List of Minigame Actions ............ Confuse, Charm, Intimidate                          ║
         ║ Effort Variables .................... Action-specific (see below)                         ║
         ║ Resistance Variables ................ Action-specific                                     ║
-        ║ Modifier Variables .................. Action-specific                                     ║
         ║                                                                                           ║
         ║ Outcomes of the six Degrees of Success and Failure:                                       ║
         ║                                                                                           ║
@@ -967,9 +964,9 @@
         ║ Critical Success     Target Recoils 3      Bestow Charmed / Confused: 3                   ║
         ║ Complete Success     Target Recoils 2      Bestow Charmed / Confused: 2                   ║
         ║ Partial Success      Target Recoils 1      Bestow Charmed / Confused: 1                   ║
-        ║ Partial Failure      Target Holds          Bestow Confused: 1                             ║
-        ║ Complete Failure     Target Advances 1     Bestow Confused: 2                             ║
-        ║ Critical Failure     Target Advances 2     Bestow Confused: 3                             ║
+        ║ Partial Failure      Target Holds          Nothing Happens                                ║
+        ║ Complete Failure     Target Advances 1     Gain Charmed / Confused: 1                     ║
+        ║ Critical Failure     Target Advances 2     Gain Charmed / Confused: 2                     ║
         ║ ──────────────────────────────────────────────────────────────────────────────            ║
         ║                                                                                           ║
         ║ Suppress Action-specific Effort, Resistance and modifier Features:                        ║
@@ -984,11 +981,11 @@
       3.1.2.7 Support Action
         A Combatant can take the following Support Actions at the start of an Ally's Turn:
         
-        1. Attempt to Rally the Ally: Roll Leadership vs. Passions.
+        1. Attempt to Rally the Ally.
         
-        2. Attempt to Focus the Confused Ally's mind: Roll Ken vs. the Ally's Confused.
+        2. Attempt to Focus the Confused Ally's mind.
         
-        3. Attempt to shake the Charmed Ally out of it: Roll Passions vs. the Ally's Charmed.
+        3. Attempt to shake the Charmed Ally out of it.
         
         Following is the Combat Minigame Formula for the Support Action:
         
@@ -1004,53 +1001,53 @@
         ║                                                                                           ║
         ║ Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                 ║
         ║ ───────────────────────────────────────────────────────────────────────────────────────── ║
-        ║ Critical Success     Ally Advances 3               Remove Effect and Shift Disposition Up ║
-        ║ Total Success        Ally Advances 2               Roll to Reduce Effect                  ║
-        ║ Partial Success      Ally Advances 1               Reduce Effect 1                ║
+        ║ Critical Success     Ally Advances 3               Reduce Effect 3                        ║
+        ║ Total Success        Ally Advances 2               Reduce Effect 2                        ║
+        ║ Partial Success      Ally Advances 1               Reduce Effect 1                        ║
         ║ Partial Failure      No Effect                     Effect remains                         ║
-        ║ Total Failure        Ally Recoils 1                Effect is increased 1            ║
-        ║ Critical Failure     Ally Recoils 2                Roll to Increase Effect          ║
-        ║ ───────────────────────────────────────────────────────────────────────────────────────── ║                                                                                          ║
+        ║ Total Failure        Ally Recoils 1                Increase Effect 1                      ║
+        ║ Critical Failure     Ally Recoils 2                Increase Effect 2                      ║
+        ║ ───────────────────────────────────────────────────────────────────────────────────────── ║                                                                                           ║
         ║                                                                                           ║
         ║ Support Action-specific Effort, Resistance and modifier Features:                         ║
         ║                                                                                           ║
-        ║ Action         Effort                Resistance                                      ║
+        ║ Action         Effort                  Resistance                                         ║
         ║ ───────────────────────────────────────────────────────────────                           ║
-        ║ Encourage      Passions + Leadership      Passions                                        ║
-        ║ Focus          Ken + Signaling         Confused                                        ║
-        ║ Shake          Passions + Eusociology   Charmed                                         ║
+        ║ Encourage      Passions + Leadership   Passions                                           ║
+        ║ Focus          Ken + Signaling         Confused                                           ║
+        ║ Shake          Passions + Eusociology  Charmed                                            ║
         ║ ───────────────────────────────────────────────────────────────                           ║
 
       3.1.2.8 Resist Action
       
-        A Combatant can take a Resist Action during their turn to overcome a single Effect.
-        
+        A Combatant can take a Resist Action during their turn to overcome a single Effect. See Section 2.6.8.3 for rules on Resisting Effects.
 
       3.1.2.9 Manoeuver Action
         
-        Manoeuver Actions provide a mechanism for players' Characters and Enemies contRolled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for ManoeuverActions and no Minigame formula for them. The GQ comes up with special rules on the fly.
+        Manoeuver Actions provide a mechanism for players' Characters and Enemies controlled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for Manoeuver Actions and no Minigame formula for them. The GQ comes up with special rules on the fly.
         
-        To take a Manoeuver Action, describe the Combatant's Intent, then choose Effort and Resistance, and resolve the Action with a Qualification Roll, a Boolean Roll, or a Contested Boolean Roll. Feel free to add a Quantification Roll and bestow an Effect as a result of a Manoeuver. Any of a Combatant's Features can be used to take a Manoeuver Action. Below are some example Manoeuvers
+        To take a Manoeuver Action, describe the Combatant's Intent, then choose Effort and Resistance, and resolve the Action with a Qualification Roll, a Boolean Roll, or a Contested Boolean Roll. Feel free to add a Quantification Roll and bestow an Effect as a result of a Manoeuver. Any of a Combatant's Features can be used to take a Manoeuver Action. Below are some example Manoeuvers.
+        
+        _Guidance for Outcomes_ Manoeuvers can achieve many more things than are listed here, but the way results are described can be categorized the same. See Section 1.4.0.0 for guidance on how you might choose to describe the results of a Manoeuver.
         
         ║ * Lift an enemy off the ground and throw her behind her allies' lines: Roll Strength vs.  ║
-        ║   the enemy's Strength. The enemy is moved one Hex for each Net Success.              ║
+        ║   the enemy's Strength. The enemy is moved one Hex for each Net Success.                  ║
         ║                                                                                           ║
         ║ * Lift an enemy off the ground, carry her, Flight, behind her allies lines and drop her   ║
-        ║   there: Roll Flight + Strength vs. the enemy's Strength. If the Roll succeeds, the enemy ║
-        ║   acquires Paralysed.                                                                     ║
+        ║   there: Roll Flight + Strength vs. the enemy's Strength. On a Partial/Total/Critical     ║
+        ║   Success, bestow Paralysed 1/2/3.                                                        ║
         ║                                                                                           ║
         ║ * Direct an ally to hit an enemy where she has been previously wounded: Roll Ken +        ║
-        ║   Signaling vs. Ken. If the Action succeeds, the ally ignores SR on her next Attack.      ║
+        ║   Signaling vs. Ken. On a Success, the ally ignores SR on her next Attack.                ║
         ║                                                                                           ║
-        ║ * Give an enemy the old run-around: Roll Speed vs. Speed to evade an enemy taking an      ║
-        ║   Attack Action targeting the Character. If the Roll Succeeds, the enemy's Turn is        ║
-        ║   postponed until the end of the Round.                                                   ║
+        ║ * Give an enemy the old run-around: Roll Speed vs. Speed to evade an enemy.               ║
+        ║   On a Success, the enemy's Turn is postponed until the end of the Round.                 ║
         ║                                                                                           ║
-        ║ * Bash together a barrier to protect the Character and her allies: Make a Boolean Roll    ║
-        ║   using Strength + Construction or Ken + Web Weaving. If the Roll succeeds, the Character ║
-        ║   and one ally can take cover behind the barrier, and the next Ranged Attack targeting    ║
-        ║   them has a negative modifier equal to the number of Successes on the Roll. After an     ║
-        ║   Attack targets the Characters behind the barrier, the barrier is destroyed.             ║
+        ║ * Bash together a barrier to protect the Character and her allies: Roll (Strength or KEN) ║
+        ║   + (Construction or Web Weaving). On a Partial/Total/Critical Success, the Character and ║
+        ║    one Ally can take cover behind the barrier, and the next Attack targeting them has a   ║
+        ║   Negative Modifier of 1/2/3. After an Attack Targets the Characters behind the barrier,  ║
+        ║   the barrier is destroyed.                                                               ║
         ║                                                                                           ║
         ║ ┌[Houseruling Manoeuvers]───────────────────────────────────────────────────────────────┐ ║
         ║ │ Manoeuvers are an opportunity for players to use their imagination to come up with    │ ║
@@ -1064,7 +1061,7 @@
 
       3.1.2.10 Breaking from Combat
         
-        A Combatant can Break from Combat as a Move Action once during her Turn.
+        A Combatant can Break from Combat by leaving the Room through one of its Exits as part of a Move Action.
                 
       3.1.2.11 Consuming Food in Combat
       
@@ -1074,7 +1071,7 @@
         
       3.1.2.12 Joining Combat.
       
-        A creature who is not in Combat can always Join Combat. The Creature may have Broeken from Combat previously, or she may have been hiding, or not in the same Room as her friends when Combat began. It doesn't really matter: a Creature can always join Combat.
+        A creature who is not in Combat can always Join Combat. The Creature may have Broken from Combat previously, or she may have been hiding, or not in the same Room as her friends when Combat began. It doesn't really matter: a Creature can always join Combat.
         
         Joining Combat requires no Roll. A creature who is not a Combatant joins Combat at the start of the next Combat Round. At the start of that Round, before any Combatants' Turn, determine the new Combatant's Disposition and Initiative Order, then she takes her first Turn in Initiative Order, as normal.
         
