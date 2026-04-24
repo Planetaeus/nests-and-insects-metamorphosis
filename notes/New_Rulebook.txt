@@ -69,7 +69,7 @@
       
     1.4.6.0 Quantification of Results.
 
-      Some Actions require Quantification of their results to see how great or how wicked their outcomes are. Some outcomes require a Quantification Roll, where the GQ or the Player Rolls a number of d6 based on an Attribute rating and counts the successes. Others use set numbers. Finally, some outcomes simply use the number of Net Successes from the original Action's Roll.
+      Some Actions require Quantification of their results to see how great or how wicked their outcomes are. Some outcomes require a Quantification Roll, where the GQ or the Player Rolls a number of d6 based on an Attribute rating and counts the successes. Others use set numbers, such as 1/2/3 for a Partial/Total/Critical Success and 0/-1/-2 for a Partial/Total/Critical Failure. Finally, some outcomes simply use the number of Net Successes from the original Action's Roll.
 
     1.4.7.0 Minigames
     
