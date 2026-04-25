@@ -1159,264 +1159,120 @@
         
         Table X+1 provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
         
-        _Passages_ A Passage is a tunnel or opening or some other kind of entryway connecting two Rooms in the same Level. Passages serve to remind the Players which Rooms are connected to each other.
+        _Moving Between Rooms_ The Travel Minigame (Section 3.5.0.0) establishes the rules for moving between Rooms. 
         
-    3.2.3.0 Event Generation
+    3.2.2.0 Survival & Exploration - Procedural Generation
+    
+      The core Mechanic of Procedural Generation is Rolling on Tables. The Playuers or the GQ Roll and cross-reference the result with the rows of a Table. The Table lists what the Characters find and what happens to them while they Explore the Nest.
+      
+      _Exploration Action_ Survival & Exploration starts with an Exploration Action. This Action is resolved by a Roll and its outcome determines the types and numbers of Events that occur as the Characters Explore the Nest. The two types of Events are Risks and Rewards. More Successes on the Exploration Roll means that fewer Risks and more Rewards will be Generated.
+      
+      _Rolling for Events_ Once the numbers of Risks and Rewards are determined, the Players Roll a set of Risk dice and a set of Reward dice, and refer to the Tables to see what they find.
+      
+      3.2.2.1 Procedural Generation Steps
+      
+        There are seven Steps to Procedurally Generated Survival & Exploration.
+        
+        1. Form an Exploration Party.
+        
+        2. Spend an Unexplored Exit and Travel to an Unexplored Room.
+        
+        3. Generate Features of the Room.
+        
+        4. Resolve the Exploration Action.
+        
+        5. Generate Risks.
+        
+        6. Generate Rewards.
+        
+        7. Face Risks.
+        
+        7. Survival & Exploration Ends.
+        
+      3.2.2.2 Form an Exploration Party
+      
+        It's common for more than one Character to Explore the Nest at a time, in particular, all the Player Characters may go Exploring together, or the Players may split their Characters into groups that will Explore the Nest separately. A group of Characters Exploring the Nest is an Exploration Party. To form an Exploration Party, the Players decide between them which Characters Explore the Nest Together.
+        
+        For each Exploration Party, a separate Survival & Exploration Action is taken. Each Party nominates one Character to be its "Scout".
+        
+      3.2.6.3 Travel to an Unexplored Room
+      
+        The Exploration Party must be in a Room with an Unexplored Exit. After selecting the Exit, the Exploration Party must physically travel to a Room before they can Explore it. See 3.5.0.0 Travel.
+        
+      3.2.2.4 Generate Features of the Room
+      
+        If playing without Maps, you may skip this Step.
+        
+        In this Step, the Features of a Room are Generated. Rooms are made of Hexagons (Hexes) around a central Hex, in a number of concentric layers equal to the Room's Level.
+        
+        If desired, the Height of the Room is Generated. Roll Level to set the Height. Every Room has a minimum Height of 1.
+        
+        Lastly, Roll Level D6 to determine how many Exits the Room has. It can help to number or label the Exits to keep track of how Rooms are Connected. Each Exit represents a connection to elsewhere in the Nest.
+        
+        If the GQ wishes to make fights more challenging or interesting, she can introduce some of the following Obstructions to the Room to shake things up. Block Obstructions rise from floor to ceiling, thus blocking Ranged and Area Attacks, as well as paths for Movement. Pit Obstructions have a Depth equal to the Room's Height, and must be circumvented, or jumped, or flown across.
+        
+        1. Single-Hex Obstruction.
+        2. N-Hex Line Obstruction. These can be however long or wide as the GQ wishes them to be.
+        3. N-Hex Triangle Obstruction.
+        4. N-Hex Hegagon Obstruction.
+        
+        _Block Obstructions_ Block Obstructions can be torn down as if they were Obstacles. See SECTION for more information.
+        
+        _Escaping Pits_ If a Character falls into a Pit, she can Climb out by Moving a number of Hexes equal to the Pit's Depth.
+        
+        _Pit Filling_ Pit Obstructions can be covered using Resources. Make a (STR or KEN) + Construction Roll. For each Success, you may spend one Resource Dot to cover one Hex of the Pit.
+        
+        _Ceilings and Walls_ For the especially ambitious GQ, you can use these same Generation Guidelines to populate the Walls and even Ceilings of your Rooms - bugs can climb on Walls, after all! This does significantly increase both preparation time and complexity of any encounters therein, so try and save this for more dramatic moments.
+        
+      3.2.2.5 Resolve the Exploration Action
+        
+        Each Room starts with Level Risk Dice. The Party Scout makes a KEN + Exploration Roll. Each Success on the Roll turns one Risk Die into one Reward Die, up to a maximum of Level Rewards Dice.
+        
+      3.2.2.6 Generate Risks
+        
+        If the Room has any Risk Dice, Roll those dice and compare the Results against TABLE.
             
-      ║ Costs, Risks, and Rewards are generated every time a Character takes an Exploration       ║
-      ║ Action. The Qualification Roll for the Exploration Action sets the number and type of     ║
-      ║ Events that occur during the Action. Then the players or the GQ Roll to generate Events   ║
-      ║ of the indicated types.                                                                   ║
-      ║                                                                                           ║
-      ║ To generate Events, the players or the GQ make a d10 Roll and reference the result on ║
-      ║ the appropriate Event tables, Tables 24-26 in the following Section.                      ║
-      ║                                                                                           ║
-      ║ Each Event table has a "Chance" column, listing the Chance for each Event to occur, as a  ║
-      ║ decile rating. This Chance rating is compared against the d10 Roll to                     ║
-      ║ generate Events. When the result of the d10 Roll is referenced on an Event table, all     ║
-      ║ Events in that table with a Chance that meet or exceet the Roll are generated.            ║
-      ║                                                                                           ║
-      ║ If multiple entries from a table are generated by the same                                ║
-      ║ d10 Roll, those Events are dealt with one-by-one, in the order in which they appear       ║
-      ║ in their respective Event table, starting with the Event at the top row of the table.     ║
-
-      ║ 3.7.4.0 Costs, Risks and Rewards                                                          ║
-      ║ --------------------------------                                                          ║
-      ║                                                                                           ║
-      ║ Tables 24-26, below, list Events along with a brief description of each. Detailed         ║
-      ║ descriptions and mechanics for each kind of Event follow in a subsequent Section.         ║
-
-    3.2.4.0 Level Rating
+        d6     Risk         Description
+        ───────────────────────────────────────────────────────────────────────────────
+        1-3    Encounter    Meet the Nest's denizens
+          4    Obstacle     Prevents further Exploration until removed.
+          5    Darkness     Obscures senses.
+          6    Infection    Bestows the Infection Effect.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table X+2: Risk Generation
+              
+        _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls multiple times to determine what Creatures the Players come across.
+        
+      3.2.2.7 Generate Rewards
+        
+        If the Room has any Reward Dice, Roll those Dice and compare the results against TABLE.
+        
+        Reward Generation:
+        d6     Reward         Description
+        ───────────────────────────────────────────────────────────────────────────────
+        1-3    Food Item      Find Food that can be Foraged or Hunted.
+        4-5    Resources      Find Resources that can be Harvested.
+          6    Level          Entrance to a new, more advanced Nest Level.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table X+3: Reward Generation
+        
+        _Multiple Food Items_ If multiple Food Item Rewards are Generated, each one beyond the first increases the Food's Level by 1.
+        
+      3.2.2.8 Face Risks.
+          
+        Risks are Faced in the following order. See SECTION for more details on Facing Risks.
+        
+        1. Obstacle
+        2. Infection
+        3. Darkness
+        4. Encounter
+        
+      3.2.2.9 Survival & Exploration Ends
       
-      When an Event or a Feature of the Nest Environment needs to be Quantified, the Quantification depends on the Nest Level. An example of a Nest Environment Feature that requires Quantification is the rating of Darkness in a Room, or the rating of an Obstacle.
-      
-      Each Nest Level has a decile rating equal to its Level. Some Events use this number as the rating for their Features, other Events require a Roll to be made using the Level Rating and use the number of Successes to determine the rating of their Feature.
-      
-      _Increasing Level Ratings_ The rating of the Nest Level changes every time a Character spends a Level Reward to explore a new Nest Level. At this time, the Characters add a new Room to their Environment Pool one level higher than their current Level.
-      
-    3.2.5.0 The Environment Pool
-    
-      As described in earlier Sections, Environments can be used as resources to pay Costs, reap Rewards, or initiate a Minigame. To track the Environments generated so-far in the game, Players have a communal Environment Pool. This pool is simply a list of all the Environments generated so far, and their properties.
-      ║ ┌[Tracking the Environment Pool]────────────────────────────────────────────────────────┐ ║
-      ║ │ Players are free to track their Environment Pool as best suits them, for example by   │ ║
-      ║ │ drawing a map of Environments and their connections and contents, etc.                │ ║
-      ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-      ║                                                                                           ║
-      ║ One way to track an Environment Pool is to tabulate its contents. Table 28 gives an       ║
-      ║ example of such tabulation.                                                               ║
-      ║                                                                                           ║
-      ║ Environment Id   Spent?   Found In     Connections   Notes                                ║
-      ║ ─────────────────────────────────────────────────────────────────────────────────────     ║
-      ║ Entrance Room    Yes      Start        Red Room                                           ║
-      ║ Red Room         Yes      Entrance     Black Room    Shelter built                        ║
-      ║ Black Room       No       Red Room     Red Room                                           ║
-      ║ Shortcut 1       Yes      Black Room   Level 30%     Connects Black Room to Level 30%     ║
-      ║ Level 43%        Yes      Black Room                                                      ║
-      ║ Passage Right    Yes      Entrance                   Connects Entrance to Red Room        ║
-      ║ Passage Left     Yes      Red Room                   Connects Red Room to Black Room      ║
-      ║ Passage Up       No       Red Room                                                        ║
-      ║ ─────────────────────────────────────────────────────────────────────────────────────     ║
-      ║ Table 28: Environment Pool                                                                ║
-      ║                                                                                           ║
-      ║ In Table 28, the "Environment Id" column lists a descriptive name for each generated      ║
-      ║ Environment (though one that should preferrably be kept short). This name is up to the    ║
-      ║ players to come up with. For example, a Room may be the "Black Fungus Room", because      ║
-      ║ Black Fungus was found while Foraging in it; or a Room may be the "Sad Aphids Farm",      ║
-      ║ because Aphids were found penned in the Room and they looked sad; and so on.              ║
-      ║                                                                                           ║
-      ║ The "Spent" column records whether an Environment has been spent: either to pay a Cost,   ║
-      ║ or to reap a Reward, or to initiate a Survival and Exploration, Hunting and Foraging or   ║
-      ║ Resting and Healing Minigame.                                                             ║
-      ║                                                                                           ║
-      ║ _Going Back_ Environments can only be spent once from the Environment Pool, but           ║
-      ║ Characters are free to visit them again for whatever reason, for example to try and harvest  ║
-      ║ an Item found in the Room. Additionally, a Character, or an enemy, may be    ║
-      ║ forced to retreat during Combat, in which case they will likely end up in a Room already  ║
-      ║ visited. In such cases a Character can move back in an Environment that has already been  ║
-      ║ spent, without spending it again.                                                         ║
-      ║ The "Found In" column notes the Room in which an Environment was generated as the result  ║
-      ║ of an Exploration Action.                                                                 ║
-      ║                                                                                           ║
-      ║ The "Connections" column notes the other Environments to which an Environment is          ║
-      ║ connected. "Connected" means that there exists: a Passage; or a Shortcut; or a Shaft;     ║
-      ║ that leads to the connected Environment.                                                  ║
-      ║                                                                                           ║
-      ║ The "Notes" column is for players to mark down anything they wish to remember about the   ║
-      ║ Environment. In the example in Table 28 above, the players have noted that a Shelter was  ║
-      ║ built into the Red Room, and the connections between Environments found so-far.           ║
-
-    3.2.6.0  Survival & Exploration Steps
-    
-
-║ ┌[Survival and Exploration Steps]───────────────────────────────────────────────────────┐ ║
-║ │                                                                                       │ ║
-║ │ 1. Begin Survival and Exploration.                                                    │ ║
-║ │                                                                                       │ ║
-║ │ 2. Form an Exploration Party (decide which Characters go exploring).                  │ ║
-║ │                                                                                       │ ║
-║ │ 3. Travel to an Unexplored Room. (See 3.9.0.0 Travel)                                 │ ║
-║ │                                                                                       │ ║
-║ │ 4. Spend the Room to pay the cost of the Exploration Action.                          │ ║
-║ │                                                                                       │ ║
-║ │ 5. Generate Features of the Room. (Size, Terrain, Darkness)                           │ ║
-║ │                                                                                       │ ║
-║ │ 6. Battle the Darkness                                                                │ ║
-║ │                                                                                       │ ║
-║ │ 7. Resolve the Exploration Action.                                                    │ ║
-║ │                                                                                       │ ║
-║ │ 8. Generate Risks, then resolve in order.                                             │ ║
-║ │                                                                                       │ ║
-║ │ 9. Generate Rewards, then resolve in order.                                           │ ║
-║ │                                                                                       │ ║
-║ │ 10. Survival and Exploration Ends.                                                    │ ║
-║ │                                                                                       │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-
-    ║ 3.2.6.1 Begin Survival and Exploration                                                    ║
-    ║                                                                                           ║
-    ║ Survival and Exploration begins when a Player declares that her Character's Intent is to  ║
-    ║ "Explore the Nest".                                                                       ║
-    ║                                                                                           ║
-    ║ "Explore the Nest" is the formulaic Intent of the Exploration Action (described in        ║
-    ║ Section 3.7.7.4). A Player is free to express her Character's Intent to explore the Nest  ║
-    ║ in her own words, as long as it's clear that the characer wants to go exploring. If       ║
-    ║ that's not clear, the GQ can always ask the Player to clarify. If the Player isn't sure   ║
-    ║ what her Character's Intent means in mechanical terms, the decision is made by the GQ     ║
-    ║ whether to start a Survival and Exploration Minigame, or not.                             ║
-    ║                                                                                           ║
-    ║ If more than one Player wish their Characters to explore the Nest, they can say so at     ║
-    ║ this point. Otherwise they can do so in the next Step.                                    ║
-
-║ 3.2.6.2 Form an Exploration Party                                                         ║
-║                                                                                           ║
-║ It's common for more than one Character to explore the Nest at a time. In particular, all ║
-║ the Player Characters may go exploring together, or the players may split their           ║
-║ Characters into groups that will explore the Nest separately.                             ║
-║                                                                                           ║
-║ A group of Characters exploring the Nest is an Exploration Party. To form an Exploration  ║
-║ Party the players decide between then which Characters explore the Nest together. For     ║
-║ each such group, one Exploration Party is formed.                                         ║
-║                                                                                           ║
-║ For each Exploration Party, a separate Survival and Exploration Action is taken.          ║
-║ Nominate one Character in each Exploration Party to be the "Scout" of the Party. The      ║
-║ Scout's Exploration Feature is used as the Effort for the subsequent Exploration Action.  ║
-
-3.2.6.3 Travel to an Unexplored Room
-  
-  The Exploration Party must physically travel to a Room before they can Explore it. See Section 3.9.0.0 Travel.
-
-║ 3.2.6.4 Spend the Room to take an Exploration Action                                        ║
-║                                                                                           ║
-║ For one or more Characters to take an Exploration Action, their players must spend a free ║
-║ Room from their Environment Pool. Mark a Room as "explored" in the pool, so that it is not    ║
-║ spent again later. Then resolve the Exploration Action as described in the following      ║
-║ Section.                                                                                  ║
-
-3.2.6.5 Generate Features of the Room
-
-  If playing without maps, you may skip this step.
-
-  In this step, the features of a Room are generated. First, the size and shape. Then, the room is filled with objects and obstacles to make for more dynamic fights.
-  
-  Rooms are made of Hexagons around a central Hex, in Level concentric layers. 
-  
-  Then, the Height of the Room must be generated. Roll Level to set the Height. Every Room has a minimum Height of 1.
-  
-  If the GQ wishes to make fights more challenging or interesting, she can introduce some of the following obsctructions to the Room to shake things up. Block Obstructions rise from floor to ceiling, thus blocking Ranged and Area Attacks. Pit Obstructions are as deep as the Room is Tall, and must be circumvented, or jumped or flown across.
-  
-  1. Single-hex Obstruction
-  2. Three-Hex Line Obstruction
-  3. Three-Hex Triangle Obstruction
-  4. Dividing Obstruction. This Obstruction starts at one Hex on the edge of the Room and continues in a direction until it can't continue any further.
-    
-  __Block Obstructions__ Block Obstructions can be torn down as if they were Obstacles. See 3.2.8.3 for more information.
-  
-  __Pit Filling__ Pit Obstructions can be covered using Resources. Make a Construction Roll plus Ken or Strength. For each Success, you may reduce your Resource Rating by one to cover up one hex of the Pit.
-  
-  __Ceilings and Walls__ For those feeling especially ambitious, you can use these same generation guidelines to populate the walls and even ceilings of your Rooms. Bugs can climb on walls, after all! This does significantly increase both preparation time and complexity of any encounters therein, so try and save this for more dramatic moments.  
-
-3.2.6.6 Battle the Darkness
-
-  The Room may start with Level Darkness. Players may Consume a Light Item to reduce the Room's Darkness. Each Rating Consumed reduces the Darkness Rating of the Room by one.
-  
-  Alternatively, Characters with the Light or Heat Attributes may exert themselves to use these Attributes and fight the Darkness. The Character Rolls the chosen Attribute, reducing the Darkness for each Success. The Character who rolled increases her hunger by one if she used Light, or two if she used Heat. This increase may result in the Character reaching 10 Hunger and Starving. If the Character is already Starving before this Increase, she DIES.
-  
-  See 3.2.7.0 for more details on the effects of Darkness.
-
-║ 3.2.6.7 Resolve the Exploration Action                                                    ║
-║                                                                                           ║
-║ As described in earlier Sections, the Survival and Exploration Minigame is initiated when ║
-║ one or more players decides that their Characters will go exploring the Nest. During the  ║
-║ Survival and Exploration Minigame an Exploration Action is taken by the exploring         ║
-║ Character, or Characters. This Section defines the formula for the Exploration Action.    ║
-║                                                                                           ║
-║ _Party Scout_ When more than one Characters take part in the same Exploration Action,     ║
-║ i.e. when an Exploration Party is formed, one Character is nominated as the Scout. Each
-  Player in the Exploration Party takes turns being the Party Scout. Each Player must take a Turn being the Party Scout before any Player may be the Party Scout a second time.
-  
-  Each Room starts with Level Risk Dice. The Party Scout makes a KEN + Exploration Roll. Each Success on the Roll turns one Risk Die into one Reward Die.
-  
-  Risk Generation:
-  d6     Risk         Description
-  ───────────────────────────────────────────────────────────────────────────────
-  1-3    Encounter    Meet the Nest's denizens
-  4-5    Obstacle     Prevents further Exploration until removed.
-    6    Infection    Bestows the Infection Effect.
-  
-  Reward Generation:
-  d6     Reward         Description
-  ───────────────────────────────────────────────────────────────────────────────
-  1-3    Room           Spend a Room to Explore, Hunt, or Forage.
-  4-5    Item           Find Resources or Food that can be Harvested.
-    6    Level          Entrance to a new, more advanced Nest Level.
-
-║ 3.2.6.8 Generate and face Risks                                                           ║
-║                                                                                           ║
-     If the Room has any Risk Dice, roll those dice and compare the results against TABLE.
-   
-   Risks are faced in the following Order:
-   
-   1. Infection
-   
-   2. Spoilage
-   
-   3. Encounter
-   
-   4. Obstacle
-   
-   __Multiple Risks__ It is possible for multiple instances of a Risk to be generated. In this case, simply resolve each one separately. For example, if two Infection Risks are faced, the Characters must Roll TWICE to resist Infection.
-   
-   __Multiple Encounters__ The one notable exception to this is Encounters. Encounters are all faced together, creating larger encounters than any individual Insect can be responsible for.
-
-║ 3.2.6.9 Generate and reap Rewards                                                         ║
-     If the Room has any Reward Dice, roll those dice and compare the results against TABLE.
-   
-   Rewards are reaped in the following Order:
-   
-   1. Item
-   
-   2. Room
-   
-   3. Level
-   
-║ 3.2.6.8 Survival and Exploration Ends                                                     ║
-║                                                                                           ║
-║ Once all Costs, Risks and Rewards, are generated and dealt with as described in the       ║
-║ previous Sections, the Survival and Exploration Minigame ends.                            ║
-║                                                                                           ║
-║ Nothing special happens when Survival and Exploration ends. Players are free to control   ║
-║ their Characters as before.                                                               ║
-
-3.2.7.0 Darkness
-
-║ ┌[Effects of Darkness]──────────────────────────────────────────────────────────────────┐ ║
-║ │ Darkness makes it harder to see things and to do things that require vision.          │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-
-Each Room starts with a Darkness Rating equal to Level. While a Room has a Darkness rating, it applies as a Negative Modifier to all Actions that require vision, including Exploration Rolls.
-
-_Blind in the Dark_ If a Blind Character is affected by Darkness, only the greater of the two ratings is applied as a Negative Modifier to their Rolls.
-
+        Once all Risks and Rewards are generated and dealt with, the Room can be marked as "Explored" and the Survival & Exploration Minigame ends.
+        
+        Nothing special happens when Survival and Exploration ends. Players are free to control their Characters as before.
+        
 3.2.8.0 Risk Events
 
 ║ Risk Events add a frisson of excitement to the otherwise drab and boring act of slogging  ║
