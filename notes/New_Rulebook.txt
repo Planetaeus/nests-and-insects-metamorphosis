@@ -1105,34 +1105,59 @@
     
     * 3.2.5.0 Reward Events
   
-    3.2.2.0 The Nest Environment
+    3.2.1.0 The Nest Environment
     
-      A Nest is an environment that consists of multiple Nest Levels,each comprised of one or more Rooms, as well as Passages, Shortcuts, and Shafts connecting Rooms between them, and connecting a Level to other Levels.
+      A Nest is an environment that consists of multiple Nest Levels, each comprised of one or more Rooms. Levels and Rooms are all explored by the Characters during the Survival & Exploration MiniGame. They are collectively known as Nest Environments.
       
-      Levels, Rooms, and Shortcuts are all generated as Events during the Survival and Exploration Minigame. They are collectively known as Nest Environment Events, or Environments.
+      Environments act as resources that can be spent to initiate Minigames, or to pay Costs. In particular, in order to initiate the Survival & Exploration Minigame itself, a Room must be Spent. The Nest always starts with a well-connected Room 0 - the Entrance of the Nest.
       
-      In Mechanical Terms, Environments act as resources that can be spent to initiate Minigames, or to pay Costs. In particular, in order to initiate the Survival and Exploration Minigame itself, a Room must be spent. The Characters always start the game with a room on Level 0: the Entrance of the Nest.
+      3.2.1.1 Rooms
       
-      3.2.2.1 Nest Levels
+        A Room is an enclosed area. In truth, eusocial Insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans.
+        
+        Rooms are discovered by the Players as part of an Exploration Action. Rooms have Features such as Area, Height, or Darkness that require Quantification when they are discovered.
+        
+        _Passages_ A Passage is an opening or tunnel connecting two Rooms. Passages serve to remind the Players which Rooms are connected to each other.
       
-        A Nest Level is a group of Rooms connected to each other by Passages and connected by Shafts to different Levels. Rooms in the same Level are situated at about the same distance from the ground, much like a floor in a multi-story house.
+      3.2.1.2 Nest Levels
         
-        In mechanical terms, Levels have a decile rating that is used for a number of aspects of the Exploration Action. The Level is also used to quantify the results of certain Events, such as Obstacles or Infection. As the Characters delve further into the Nest, the Nest Level of the Rooms they visit increases. With it, the chance for Cost and Risk Events to occur increases, and the chance for Reward Events to occur decreases. Some Jobs will specify a Level where the Job Target may be found.
+        A Nest Level, or Level, is a group of Rooms connected to each other by Passages, including Passages that may lead to other Levels. Rooms in the same Level are situated at about the same elevation above or below ground, much like a floor in a multi-story house.
         
-        ║ ┌[Note 7]───────────────────────────────────────────────────────────────────────────────┐ ║
-        ║ │ Remember that the players' Characters do not visit a Nest to loot. Rather, they are   │ ║
-        ║ │ hired to carry out a Job. Accordingly, Rewards they find during Exploration are not   │ ║
-        ║ │ treasures and riches, rather they are things that help the Characters get their Job   │ ║
-        ║ │ done.                                                                                 │ ║
-        ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+        In mechanical terms, Levels have a decile Rating that is used for a number of aspects of the Exploration Action. During Procedural and Manual Generation, the Level is used to quantify the results of certain Risks, such as Obstacles, Darkness, or Infection. As the Characters delve further into the Nest, the Nest Level of the Rooms they visit increases. With it, each Room may contain greater Rewards and Risks. Some Jobs will specify a Level where the Job Target may be found.
         
-      3.2.2.2 Rooms
-      
-        A Room is an enclosed area within a Level. In truth, eusocial Insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans. 
+        The Characters enter a Nest at Level 1, and must forge their own path to the Job Target from there. During Procedural Generation, Level Rewards are discovered as part of an Exploration Action. During Manual Generation, a Level can have as many or as few Rooms as you wish before you introduce an Entrance to the next Level.
         
-        Room Events are Rewards and are only generated when a Character takes an Exploration Action.
+      3.2.1.3 The Environment Pool
         
-        Rooms have Features such as their Area, Height, or Darkness that require Quantification.
+        To track the Environments discovered so far in the game, and what was discovered there, Players have a communal Environment Pool.
+        
+        Players are free to track their Environment Pool as best suits them, for example by drawing a map of Environments and their connections and contents.
+        
+        Another way to track an Environment Pool is to tabulate the Contents and Connections.
+        
+        Level Room  Explored?  Notes
+        ─────────────────────────────────────────────────────────────────────────────────────
+        01    00    Yes        
+        01    01    Yes        Secured, Cursed Red Fungus, Building Resources
+        01    02    No
+        03    00    No          
+        ─────────────────────────────────────────────────────────────────────────────────────
+        Table X: Environment Pool - Rooms and their Contents
+        
+        Room A  Exit  Room B  Exit
+        ─────────────────────────────────────────────────────────────────────────────────────
+          0100     0    0101     0
+          0101     0    0100     0
+          0101     1    0102     0
+          0102     0    0101     1
+          0101     2    0300     0
+          0300     0    0101     2
+        ─────────────────────────────────────────────────────────────────────────────────────
+        Table X+1: Environment Pool - Passages
+        
+        In Table X, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in Table X above, the Players have noted that Room 0101 was Secured, and what they found there.
+        
+        Table X+1 provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
         
         _Passages_ A Passage is a tunnel or opening or some other kind of entryway connecting two Rooms in the same Level. Passages serve to remind the Players which Rooms are connected to each other.
         
