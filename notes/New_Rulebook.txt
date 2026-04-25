@@ -34,16 +34,16 @@
     
     The GQ may decide that the degree of success matters to determine the outcome of the Roll. This represents situations where the effectiveness of an action can be measured in more detail than a simple pass/fail.  In these cases, it can help to categorize the Degree of Success (DoS). There are six stages of DoS: Critical Failure, Total Failure, Partial Failure, Partial Success, Total Success, and Critical Success. Table 1 shows how the Net Successes of a Roll translates into the DoS of the result.
     
-    ║ Net Successes    Degree of Success  Does it Work? ║
-    ║ ───────────────────────────────────────────────── ║
-    ║ +5 or more       Critical Success   Yes, and...   ║
-    ║ +3, +4           Total Success      Yes           ║
-    ║ +1, +2           Partial Success    Yes, but...   ║
-    ║ -1, 0            Partial Failure    No, but...    ║
-    ║ -2, -3           Total Failure      No            ║
-    ║ -4 or less       Critical Failure   No and...     ║
-    ║ ───────────────────────────────────────────────── ║
-    ║ Table 1: Degrees of Success.                      ║
+    Net Successes    Degree of Success  Does it Work?
+    ─────────────────────────────────────────────────
+    +5 or more       Critical Success   Yes, and...   
+    +3, +4           Total Success      Yes           
+    +1, +2           Partial Success    Yes, but...   
+    -1, 0            Partial Failure    No, but...    
+    -2, -3           Total Failure      No            
+    -4 or less       Critical Failure   No and...     
+    ───────────────────────────────────────────────── 
+    Table 1: Degrees of Success.                      
     
     In some cases, the number of Net Successes can directly be used to determine the outcome. When a Character makes a successful Attack, the Net Successes determine the Wounds bestowed on the targets.
 
@@ -143,13 +143,13 @@
     
       Under the Character Name is the Core Attributes Area. Core Attributes are Features that represent innate abilities of Characters in a Class. Nests & Insects: Metamorphosis Characters have four Core Attributes:
             
-      ║ Core Attribute  Description                                                               ║
-      ║ ───────────────────────────────────────────────────────────────────────────────────────   ║
-      ║ Speed    (SPE)  How fast the Character can move; Dexterity, precision, fine manipulation. ║
-      ║ Strength (STR)  Physical strength and toughness; Push, pull, break, and endure harm.      ║
-      ║ Ken      (KEN)  Wisdom and Logic; reasoning and knowledge of the world.                   ║
-      ║ Passions (PAS)  Willpower, morale, strength of spirit, courage, and influence             ║
-      ║ ───────────────────────────────────────────────────────────────────────────────────────   ║
+      Core Attribute  Description                                                               
+      ───────────────────────────────────────────────────────────────────────────────────────   
+      Speed    (SPE)  How fast the Character can move; Dexterity, precision, fine manipulation. 
+      Strength (STR)  Physical strength and toughness; Push, pull, break, and endure harm.      
+      Ken      (KEN)  Wisdom and Logic; reasoning and knowledge of the world.                   
+      Passions (PAS)  Willpower, morale, strength of spirit, courage, and influence             
+      ───────────────────────────────────────────────────────────────────────────────────────   
 
     2.3.3.0 Special Attributes Box
     
@@ -195,37 +195,37 @@
       
       The Common Attributes box lists Attributes common to all Character classes. TABLE briefly describes Common Attributes and their use. Section 2.6.2.0 describes the Common Attributes in more detail.
       
-      ║ Common Attributes  Description                                                 ║
-      ║ ────────────────────────────────────────────────────────────────────────────── ║
-      ║ Construction       Build and Demolish. Secure a Room for Resting and Healing.  ║
-      ║ Eusociology        Knowledge of the ways of Nests and their inhabitants        ║
-      ║ Exploration        Search a Room, or scout ahead to unvisited Rooms            ║
-      ║ Foraging           Search for sustenance, or Food Items with special abilities ║
-      ║ Healing            Remove Wounds or detrimental Effects                        ║
-      ║ Hunting            Hunt prey for sustenance or other uses                      ║
-      ║ Leadership         Support allies and improve their Disposition in Combat      ║
-      ║ Perception         Find secrets and hidden items and Rooms                     ║
-      ║ Signalling         Display aposematic markings, emit pheromonic signals        ║
-      ║ Sneaking           Move and act with stealth                                   ║
-      ║ ────────────────────────────────────────────────────────────────────────────── ║
+      Common Attributes  Description                                                
+      ──────────────────────────────────────────────────────────────────────────────
+      Construction       Build and Demolish. Secure a Room for Resting and Healing. 
+      Eusociology        Knowledge of the ways of Nests and their inhabitants       
+      Exploration        Search a Room, or scout ahead to unvisited Rooms           
+      Foraging           Search for sustenance, or Food Items with special abilities
+      Healing            Remove Wounds or detrimental Effects                       
+      Hunting            Hunt prey for sustenance or other uses                     
+      Leadership         Support allies and improve their Disposition in Combat     
+      Perception         Find secrets and hidden items and Rooms                    
+      Signalling         Display aposematic markings, emit pheromonic signals       
+      Sneaking           Move and act with stealth                                  
+      ──────────────────────────────────────────────────────────────────────────────
     
     2.3.6.0 Effects Box
     
       The Effects Box lists ten Effects that a Character can be subject to. Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other Minigames. The twelve Effects in the Effect Box are listed below with a brief description of each.
 
-      ║ Effect     The Character...                                                         ║
-      ║ ──────────────────────────────────────────────────────────────────────              ║
-      ║ Bleeding   ...automatically takes a Wound each Combat Turn                          ║
-      ║ Brittle    ...has their reflexes and chitin weakened...                             ║
-      ║ Burns      ...this bug is on fiyah...                                               ║
-      ║ Charmed    ...will not Attack, but may take other Actions.                          ║
-      ║ Confused   ...will only Attack and Move, will not take other actions.               ║
-      ║ Immobile   ...movement, Speed, and Flight restricted.                               ║
-      ║ Infected   ...acquires a random Effect each Turn this Effect Applies                ║
-      ║ Paralysed  ...cannot take any Actions except to Resist                              ║
-      ║ Poisoned   ...has a negative modifier equal to Poisoned to all Actions              ║
-      ║ Shocks     ...has Shocks as a negative modifier to all Close and Ranged Attacks     ║
-      ║ ──────────────────────────────────────────────────────────────────────              ║
+      Effect     The Character...                                                        
+      ──────────────────────────────────────────────────────────────────────             
+      Bleeding   ...automatically takes a Wound each Combat Turn                         
+      Brittle    ...has their reflexes and chitin weakened...                            
+      Burns      ...this bug is on fiyah...                                              
+      Charmed    ...will not Attack, but may take other Actions.                         
+      Confused   ...will only Attack and Move, will not take other actions.              
+      Immobile   ...movement, Speed, and Flight restricted.                              
+      Infected   ...acquires a random Effect each Turn this Effect Applies               
+      Paralysed  ...cannot take any Actions except to Resist                             
+      Poisoned   ...has a negative modifier equal to Poisoned to all Actions             
+      Shocks     ...has Shocks as a negative modifier to all Close and Ranged Attacks    
+      ──────────────────────────────────────────────────────────────────────             
 
     2.3.7.0 Disposition Track
     
@@ -253,17 +253,11 @@
         
       2.3.9.1 Hunger Track
         
-        The Hunger track lists the Character's Hunger rating. See Section 2.6.4.1
-        
-        ║                              ║
-        ║ ┌[Food]───────────────────┐  ║
-        ║ │ ○ Hunger...........[_0] │  ║
-        ║ └<^Starving>──────────────┘  ║
-        ║ ───────────────────────────  ║
+        The Hunger track lists the Character's Hunger rating. See Section 2.6.6.1 for more details on Hunger.
       
       2.3.9.2 Metamorphosis Point (MP) Track
         
-        Certain events in the course of exploring a Nest grant the Characters MP, and this is where they track it. See Section 2.6.4.2 for more information about MP.
+        Certain events in the course of exploring a Nest grant the Characters MP, and this is where they track it. See Section 2.6.6.2 for more information about MP.
    
    2.3.10.0 Attack Boxes
       
@@ -499,11 +493,11 @@
         
     2.6.6.0 Survival Features
     
-      2.6.4.1 Hunger
+      2.6.6.1 Hunger
       
         Hunger. The constant threat against continued Survival. As Insects travel through the world and its Nests, they take on Hunger. When an Insect reaches 10 Hunger, she is said to be STARVING. She reduces the outcome of all her Rolls by 2 Successes. If an Insect is STARVING and takes on more Hunger, she DIES.
       
-      2.6.4.2 Metamorphosis Points
+      2.6.6.2 Metamorphosis Points
       
         Actions over the course of the game earn Metamorphosis Points, or MP, for the Characters. Overcoming Jobs and Sub-Jobs are the most significant source of MP, but MP can also be earned by discovering Food of Metamorphosis. See 3.4.7.0 for spending Metamorphosis Points
     
@@ -533,40 +527,40 @@
         
       2.6.8.3 Resisting Effects
       
-        ║ Name of the Minigame: ................ Combat                      ║
-        ║ Participating Entities: .............. Character or enemy          ║
-        ║ List of Minigame Intents: ............ Ignore Effect temporarily   ║
-        ║ List of Minigame Actions: ............ Resist Effect               ║
-        ║ Effort Variables: .................... Effect-specific (see below) ║
-        ║ Resistance Variables: ................ Effect to be Resisted       ║
-        ║                                                                    ║
-        ║ Outcomes of the six Degrees of Success and Failure:                ║
-        ║                                                                    ║
-        ║ Degree of Success        Outcome                                   ║
-        ║ ───────────────────────────────────────────────────────────────    ║
-        ║ Critical Success         Reduce Effect 3                           ║
-        ║ Complete Success         Reduce Effect 2                           ║
-        ║ Partial Success          Reduce Effect 1                           ║
-        ║ Partial Failure          Effect remains                            ║
-        ║ Complete Failure         Effect Triggers.                          ║
-        ║ Critical Failure         Increase Effect 1. Effect Triggers.       ║
-        ║ ───────────────────────────────────────────────────────────────    ║
-        ║                                                                    ║
-        ║ Effect-specific Effort variables:                                  ║
-        ║                                                                    ║
-        ║ Effect             Resist with                                     ║
-        ║ ──────────────────────────────────────────────                     ║
-        ║ Bleeding           Strength                                        ║
-        ║ Brittle            Strength + Heat                                 ║
-        ║ Burns              Speed + Chill                                   ║
-        ║ Charmed            Passions + Psycho                               ║
-        ║ Confused           Ken + Psycho                                    ║
-        ║ Immobile           Strength                                        ║
-        ║ Infected           Strength + Plant                                ║
-        ║ Paralysed          Speed                                           ║
-        ║ Poisoned           Strength + Plant                                ║
-        ║ Shocked            Passions + Static                               ║
-        ║ ──────────────────────────────────────────────                     ║
+        Name of the Minigame: ................ Combat                     
+        Participating Entities: .............. Character or enemy         
+        List of Minigame Intents: ............ Ignore Effect temporarily  
+        List of Minigame Actions: ............ Resist Effect              
+        Effort Variables: .................... Effect-specific (see below)
+        Resistance Variables: ................ Effect to be Resisted      
+                                                                          
+        Outcomes of the six Degrees of Success and Failure:               
+                                                                          
+        Degree of Success        Outcome                                  
+        ───────────────────────────────────────────────────────────────   
+        Critical Success         Reduce Effect 3                          
+        Complete Success         Reduce Effect 2                          
+        Partial Success          Reduce Effect 1                          
+        Partial Failure          Effect remains                           
+        Complete Failure         Effect Triggers.                         
+        Critical Failure         Increase Effect 1. Effect Triggers.      
+        ───────────────────────────────────────────────────────────────   
+                                                                          
+        Effect-specific Effort variables:                                 
+                                                                          
+        Effect             Resist with                                    
+        ──────────────────────────────────────────────                    
+        Bleeding           Strength                                       
+        Brittle            Strength + Heat                                
+        Burns              Speed + Chill                                  
+        Charmed            Passions + Psycho                              
+        Confused           Ken + Psycho                                   
+        Immobile           Strength                                       
+        Infected           Strength + Plant                               
+        Paralysed          Speed                                          
+        Poisoned           Strength + Plant                               
+        Shocked            Passions + Static                              
+        ──────────────────────────────────────────────                    
       
       2.6.8.4 Triggered Effect
         
@@ -714,31 +708,31 @@
           
             Roll a d6 and match the result on the Food Colour Table below.
         
-          ║ d6        Food Colour     ║
-          ║ ───────────────────────── ║
-          ║ 1         Black           ║
-          ║ 2         Blue            ║
-          ║ 3         Green           ║
-          ║ 4         Red             ║
-          ║ 5         White           ║
-          ║ 6         Yellow          ║
-          ║ ───────────────────────── ║
-          ║ Table 10: Food Colours    ║
+          d6        Food Colour    
+          ─────────────────────────
+          1         Black          
+          2         Blue           
+          3         Green          
+          4         Red            
+          5         White          
+          6         Yellow         
+          ─────────────────────────
+          Table 10: Food Colours   
           
           2. Generate the Item's Food Type
           
             Roll a d10 and match the result on the Food Type Table below.
                       
 
-          ║ d10        Food Type    d10       Food Type    ║
-          ║ ──────────────────────  ────────────────────── ║
-          ║   1        Nectar         6       Aphid        ║
-          ║   2        Honey          7       Cricket      ║
-          ║   3        Honeydew       8       Fly          ║
-          ║   4        Fungus         9       Worm         ║
-          ║   5        Leaf          10       Larva        ║
-          ║ ──────────────────────  ────────────────────── ║
-          ║ Table 11: Food Types                           ║
+          d10        Food Type    d10       Food Type   
+          ──────────────────────  ──────────────────────
+            1        Nectar         6       Aphid       
+            2        Honey          7       Cricket     
+            3        Honeydew       8       Fly         
+            4        Fungus         9       Worm        
+            5        Leaf          10       Larva       
+          ──────────────────────  ──────────────────────
+          Table 11: Food Types                          
             
         2.6.9.4.4 Identifying Food Items
         
@@ -776,25 +770,25 @@
           
             Roll a d6 and match the Result on the Item Condition Table below.
 
-          ║ d6 Result   Condition   Description                                                       ║
-          ║ ──────────────────────────────────────────────────────────────────────────────────        ║
-          ║   1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.         ║
-          ║   3-4       Ordinary    No special properties.                                            ║
-          ║   5-6       Blessed     Roll on the Blessings Table to determine Blessing.                ║
-          ║ ──────────────────────────────────────────────────────────────────────────────────        ║
-          ║ Table 12: Item Conditions                                                                 ║
+          d6 Result   Condition   Description                                                      
+          ──────────────────────────────────────────────────────────────────────────────────       
+            1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.        
+            3-4       Ordinary    No special properties.                                           
+            5-6       Blessed     Roll on the Blessings Table to determine Blessing.               
+          ──────────────────────────────────────────────────────────────────────────────────       
+          Table 12: Item Conditions                                                                
 
           2. Generate the Item's Alignment and Abilities
           
             _Blessed Food_ bestows a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
             
-          ║ d6 Result    Blessings                                                                    ║
-          ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-          ║ 1-2          Healing - reduces Wounds.                                                    ║
-          ║ 3-4          Relief - reduce an Effect.                                                   ║
-          ║ 5-6          Metamorphosis - Party Gains MP.                                              ║
-          ║ ──────────────────────────────────────────────────────────────────────────────────────    ║
-          ║ Table 14: Blessings                                                                       ║
+          d6 Result    Blessings                                                                   
+          ──────────────────────────────────────────────────────────────────────────────────────   
+          1-2          Healing - reduces Wounds.                                                   
+          3-4          Relief - reduce an Effect.                                                  
+          5-6          Metamorphosis - Party Gains MP.                                             
+          ──────────────────────────────────────────────────────────────────────────────────────   
+          Table 14: Blessings                                                                      
           
           _Healing Items_ When a Character Consumes a Food Item with the Healing Blessing, each dot consumed reduces her wounds by the Rating of the Item.
           
@@ -806,6 +800,7 @@
           
 
 3.0.0.0 Minigames
+
     Nests & Insects is organised around five "Minigames". A Minigame is a set of special rules for a special game situation that Nests & Insects: Metamorphosis wants to model with more detail than its standard system. Combat is the most detailed and elaborate of Nests & Insects' Minigames. The other four are Survival & Exploration; Hunting & Foraging; Resting & Healing; and Travel. Brief descriptions are listed below.
     
     * The Combat Minigame defines rules for skirmishes between the players' Characters and a Nest's denizens.
@@ -819,7 +814,9 @@
     * The Travel Minigame defines how Insects traverse the Nest and go from Room to Room.
 
   3.1.0.0 Combat
+  
     3.1.1.0 Combat Summary
+    
       Combat begins when the Characters and a group of enemies Attack one another. Combat is divided into Rounds, divided into Turns in which Characters and enemies participating on Combat (Combatants) get to act, and players and the GQ Roll dice to decide the outcome of Combatants' Actions.
       
       At the start of Combat, before the first Round, Combatants' starting Disposition and Initiative Order are decided, then the first Round begins and Combatants take Turns in order of their Initiative. Combatants can take actions out of Turn, for example to Suppress an enemy; support an ally; or Resist an Effect.
@@ -837,30 +834,27 @@
       Combat ends when all Combatants on one side are either Killed or Retreating.
       
     3.1.2.0 Combat Steps
+    
       The Combat Minigame plays out in nine steps, two of which repeat until Combat ends. The nine Combat Steps are summarised in the Rules Summary below, and discussed in detail in the following Sections.
       
-      ║ ┌[Rules Summary 21: Combat Steps]───────────────────────────────────────────────────────┐ ║
-      ║ │                                                                                       │ ║
-      ║ │ 1. Determine Combat participants (Combatants) and the Sides they fight on.            │ ║
-      ║ │                                                                                       │ ║
-      ║ │ 2. Determine all Combatants' starting Disposition.                                    │ ║
-      ║ │                                                                                       │ ║
-      ║ │ 3. Determine Combatants' Initiative Order.                                            │ ║
-      ║ │                                                                                       │ ║
-      ║ │ 4. A new Combat Round begins.                                                         │ ║
-      ║ │                                                                                       │ ║
-      ║ │ 5. A new Combat Turn begins.                                                          │ ║
-      ║ │                                                                                       │ ║
-      ║ │ 6. The next Combatant in the Initiative Order takes a Turn.                           │ ║
-      ║ │                                                                                       │ ║
-      ║ │ 7. Repeat from Step 5 until all Combatants have taken a Turn, or passed.              │ ║
-      ║ │                                                                                       │ ║
-      ║ │ 8. Repeat from Step 4 until all Combatants on one side of Combat are killed, or       │ ║
-      ║ │    Retreating.                                                                        │ ║
-      ║ │                                                                                       │ ║
-      ║ │ 9. Combat Ends.                                                                       │ ║
-      ║ │                                                                                       │ ║
-      ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+      1. Determine Combat participants (Combatants) and the Sides they fight on.           
+                                                                                           
+      2. Determine all Combatants' starting Disposition.                                   
+                                                                                           
+      3. Determine Combatants' Initiative Order.                                           
+                                                                                           
+      4. A new Combat Round begins.                                                        
+                                                                                           
+      5. A new Combat Turn begins.                                                         
+                                                                                           
+      6. The next Combatant in the Initiative Order takes a Turn.                          
+                                                                                           
+      7. Repeat from Step 5 until all Combatants have taken a Turn, or passed.             
+                                                                                           
+      8. Repeat from Step 4 until all Combatants on one side of Combat are killed, or      
+         Retreating.                                                                       
+                                                                                           
+      9. Combat Ends.                                                                      
 
       3.1.2.1 Determine Combatants and Sides
         Combat begins when either the Characters or Nest creatures Attack one another.
@@ -878,14 +872,15 @@
       3.1.2.2 Starting Disposition
         Before the start of the first Combat Round, each Player Rolls Initiative. The GQ makes a similar Roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances or Recoils their Disposition as described in TABLE.
         
-        ║ Initiative Roll Result           Starting Disposition                                     ║
-        ║ ──────────────────────────────────────────────────                                        ║
-        ║ Partial/Total/Critical Success   Advance 1/2/3                                            ║
-        ║ Failure                          Recoil 1.                                                ║
-        ║ ──────────────────────────────────────────────────                                        ║
-        ║ Table 23: Starting Disposition.                                                           ║
+        Initiative Roll Result           Starting Disposition                                    
+        ──────────────────────────────────────────────────                                       
+        Partial/Total/Critical Success   Advance 1/2/3                                           
+        Failure                          Recoil 1.                                               
+        ──────────────────────────────────────────────────                                       
+        Table 23: Starting Disposition.                                                          
 
       3.1.2.3 Initiative Order
+      
         Before the start of the first Combat Round, and after Starting Disposition is Determined, the GQ decides the Initiative Order for all Combatants.
         
         Initiative Order is determined as follows:
@@ -950,35 +945,36 @@
         
         Following is the Combat Minigame Formula for the Suppress Action.
         
-        ║ Name of the Minigame ................ Combat                                              ║
-        ║ Participating Entities .............. Characters, Enemies                                 ║
-        ║ List of Minigame Intents ............ Suppress enemy, Incite Frenzy, Sway Enemy           ║
-        ║ List of Minigame Actions ............ Confuse, Charm, Intimidate                          ║
-        ║ Effort Variables .................... Action-specific (see below)                         ║
-        ║ Resistance Variables ................ Action-specific                                     ║
-        ║                                                                                           ║
-        ║ Outcomes of the six Degrees of Success and Failure:                                       ║
-        ║                                                                                           ║
-        ║ Degree of Success    Intimidate Outcome    Charm or Confuse Outcome                       ║
-        ║ ──────────────────────────────────────────────────────────────────────────────            ║
-        ║ Critical Success     Target Recoils 3      Bestow Charmed / Confused: 3                   ║
-        ║ Complete Success     Target Recoils 2      Bestow Charmed / Confused: 2                   ║
-        ║ Partial Success      Target Recoils 1      Bestow Charmed / Confused: 1                   ║
-        ║ Partial Failure      Target Holds          Nothing Happens                                ║
-        ║ Complete Failure     Target Advances 1     Gain Charmed / Confused: 1                     ║
-        ║ Critical Failure     Target Advances 2     Gain Charmed / Confused: 2                     ║
-        ║ ──────────────────────────────────────────────────────────────────────────────            ║
-        ║                                                                                           ║
-        ║ Suppress Action-specific Effort, Resistance and modifier Features:                        ║
-        ║                                                                                           ║
-        ║ Action        Effort                    Resistance                                        ║
-        ║ ──────────────────────────────────────────────────────────────                            ║
-        ║ Charm         Passions + Leadership     Passions + Psycho                                 ║
-        ║ Confuse       Ken + Eusociology         Ken + Psycho                                      ║
-        ║ Intimidate    Passions + Signaling      Passions + Psycho                                 ║
-        ║ ──────────────────────────────────────────────────────────────                            ║
+        Name of the Minigame ................ Combat                                             
+        Participating Entities .............. Characters, Enemies                                
+        List of Minigame Intents ............ Suppress enemy, Incite Frenzy, Sway Enemy          
+        List of Minigame Actions ............ Confuse, Charm, Intimidate                         
+        Effort Variables .................... Action-specific (see below)                        
+        Resistance Variables ................ Action-specific                                    
+                                                                                                 
+        Outcomes of the six Degrees of Success and Failure:                                      
+                                                                                                 
+        Degree of Success    Intimidate Outcome    Charm or Confuse Outcome                      
+        ──────────────────────────────────────────────────────────────────────────────           
+        Critical Success     Target Recoils 3      Bestow Charmed / Confused: 3                  
+        Complete Success     Target Recoils 2      Bestow Charmed / Confused: 2                  
+        Partial Success      Target Recoils 1      Bestow Charmed / Confused: 1                  
+        Partial Failure      Target Holds          Nothing Happens                               
+        Complete Failure     Target Advances 1     Gain Charmed / Confused: 1                    
+        Critical Failure     Target Advances 2     Gain Charmed / Confused: 2                    
+        ──────────────────────────────────────────────────────────────────────────────           
+                                                                                                 
+        Suppress Action-specific Effort, Resistance and modifier Features:                       
+                                                                                                 
+        Action        Effort                    Resistance                                       
+        ──────────────────────────────────────────────────────────────                           
+        Charm         Passions + Leadership     Passions + Psycho                                
+        Confuse       Ken + Eusociology         Ken + Psycho                                     
+        Intimidate    Passions + Signaling      Passions + Psycho                                
+        ──────────────────────────────────────────────────────────────                           
 
       3.1.2.7 Support Action
+      
         A Combatant can take the following Support Actions at the start of an Ally's Turn:
         
         1. Attempt to Rally the Ally.
@@ -989,34 +985,34 @@
         
         Following is the Combat Minigame Formula for the Support Action:
         
-        ║ Name of the Minigame: ................ Combat                                             ║
-        ║ Participating Entities: .............. Characters, Allies                                 ║
-        ║ List of Minigame Intents: ............ Support Ally                                       ║
-        ║ List of Minigame Actions: ............ Rally, Encourage, Focus, Shake                     ║
-        ║ Effort Variables: .................... Action-specific (listed below)                     ║
-        ║ Resistance Variables: ................ Action-specific                                    ║
-        ║ Modifier Variables: .................. Action-specific                                    ║
-        ║                                                                                           ║
-        ║ Outcomes of the six Degrees of Success and Failure:                                       ║
-        ║                                                                                           ║
-        ║ Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                 ║
-        ║ ───────────────────────────────────────────────────────────────────────────────────────── ║
-        ║ Critical Success     Ally Advances 3               Reduce Effect 3                        ║
-        ║ Total Success        Ally Advances 2               Reduce Effect 2                        ║
-        ║ Partial Success      Ally Advances 1               Reduce Effect 1                        ║
-        ║ Partial Failure      No Effect                     Effect remains                         ║
-        ║ Total Failure        Ally Recoils 1                Increase Effect 1                      ║
-        ║ Critical Failure     Ally Recoils 2                Increase Effect 2                      ║
-        ║ ───────────────────────────────────────────────────────────────────────────────────────── ║                                                                                           ║
-        ║                                                                                           ║
-        ║ Support Action-specific Effort, Resistance and modifier Features:                         ║
-        ║                                                                                           ║
-        ║ Action         Effort                  Resistance                                         ║
-        ║ ───────────────────────────────────────────────────────────────                           ║
-        ║ Encourage      Passions + Leadership   Passions                                           ║
-        ║ Focus          Ken + Signaling         Confused                                           ║
-        ║ Shake          Passions + Eusociology  Charmed                                            ║
-        ║ ───────────────────────────────────────────────────────────────                           ║
+        Name of the Minigame: ................ Combat                                            
+        Participating Entities: .............. Characters, Allies                                
+        List of Minigame Intents: ............ Support Ally                                      
+        List of Minigame Actions: ............ Rally, Encourage, Focus, Shake                    
+        Effort Variables: .................... Action-specific (listed below)                    
+        Resistance Variables: ................ Action-specific                                   
+        Modifier Variables: .................. Action-specific                                   
+                                                                                                 
+        Outcomes of the six Degrees of Success and Failure:                                      
+                                                                                                 
+        Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                
+        ─────────────────────────────────────────────────────────────────────────────────────────
+        Critical Success     Ally Advances 3               Reduce Effect 3                       
+        Total Success        Ally Advances 2               Reduce Effect 2                       
+        Partial Success      Ally Advances 1               Reduce Effect 1                       
+        Partial Failure      No Effect                     Effect remains                        
+        Total Failure        Ally Recoils 1                Increase Effect 1                     
+        Critical Failure     Ally Recoils 2                Increase Effect 2                     
+        ─────────────────────────────────────────────────────────────────────────────────────────                                                                                          
+                                                                                                 
+        Support Action-specific Effort, Resistance and modifier Features:                        
+                                                                                                 
+        Action         Effort                  Resistance                                        
+        ───────────────────────────────────────────────────────────────                          
+        Encourage      Passions + Leadership   Passions                                          
+        Focus          Ken + Signaling         Confused                                          
+        Shake          Passions + Eusociology  Charmed                                           
+        ───────────────────────────────────────────────────────────────                          
 
       3.1.2.8 Resist Action
       
@@ -1030,34 +1026,34 @@
         
         _Guidance for Outcomes_ Manoeuvers can achieve many more things than are listed here, but the way results are described can be categorized the same. See Section 1.4.0.0 for guidance on how you might choose to describe the results of a Manoeuver.
         
-        ║ * Lift an enemy off the ground and throw her behind her allies' lines: Roll Strength vs.  ║
-        ║   the enemy's Strength. The enemy is moved one Hex for each Net Success.                  ║
-        ║                                                                                           ║
-        ║ * Lift an enemy off the ground, carry her, Flight, behind her allies lines and drop her   ║
-        ║   there: Roll Flight + Strength vs. the enemy's Strength. On a Partial/Total/Critical     ║
-        ║   Success, bestow Paralysed 1/2/3.                                                        ║
-        ║                                                                                           ║
-        ║ * Direct an ally to hit an enemy where she has been previously wounded: Roll Ken +        ║
-        ║   Signaling vs. Ken. On a Success, the ally ignores SR on her next Attack.                ║
-        ║                                                                                           ║
-        ║ * Give an enemy the old run-around: Roll Speed vs. Speed to evade an enemy.               ║
-        ║   On a Success, the enemy's Turn is postponed until the end of the Round.                 ║
-        ║                                                                                           ║
-        ║ * Bash together a barrier to protect the Character and her allies: Roll (Strength or KEN) ║
-        ║   + (Construction or Web Weaving). On a Partial/Total/Critical Success, the Character and ║
-        ║    one Ally can take cover behind the barrier, and the next Attack targeting them has a   ║
-        ║   Negative Modifier of 1/2/3. After an Attack Targets the Characters behind the barrier,  ║
-        ║   the barrier is destroyed.                                                               ║
-        ║                                                                                           ║
-        ║ ┌[Houseruling Manoeuvers]───────────────────────────────────────────────────────────────┐ ║
-        ║ │ Manoeuvers are an opportunity for players to use their imagination to come up with    │ ║
-        ║ │ creative ways to gain an advantage in Combat, or for the GQ to use hers to create     │ ║
-        ║ │ interesting and challenging situations for the players to overcome. A Character's     │ ║
-        ║ │ Intent, as described by her Player, should guide the GQ to "houserule" the            │ ║
-        ║ │ Character's Actions. Accordingly the GQ should not hesitate to play the Nest's        │ ║
-        ║ │ guardians as more than dumb automata, who can also use their (simple) Insectoid       │ ║
-        ║ │ brains to protect their home.                                                         │ ║
-        ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+        * Lift an enemy off the ground and throw her behind her allies' lines: Roll Strength vs. 
+          the enemy's Strength. The enemy is moved one Hex for each Net Success.                 
+                                                                                                 
+        * Lift an enemy off the ground, carry her, Flight, behind her allies lines and drop her  
+          there: Roll Flight + Strength vs. the enemy's Strength. On a Partial/Total/Critical    
+          Success, bestow Paralysed 1/2/3.                                                       
+                                                                                                 
+        * Direct an ally to hit an enemy where she has been previously wounded: Roll Ken +       
+          Signaling vs. Ken. On a Success, the ally ignores SR on her next Attack.               
+                                                                                                 
+        * Give an enemy the old run-around: Roll Speed vs. Speed to evade an enemy.              
+          On a Success, the enemy's Turn is postponed until the end of the Round.                
+                                                                                                 
+        * Bash together a barrier to protect the Character and her allies: Roll (Strength or KEN)
+          + (Construction or Web Weaving). On a Partial/Total/Critical Success, the Character and
+           one Ally can take cover behind the barrier, and the next Attack targeting them has a  
+          Negative Modifier of 1/2/3. After an Attack Targets the Characters behind the barrier, 
+          the barrier is destroyed.                                                              
+                                                                                                 
+        ┌[Houseruling Manoeuvers]───────────────────────────────────────────────────────────────┐
+        Manoeuvers are an opportunity for players to use their imagination to come up with   
+        creative ways to gain an advantage in Combat, or for the GQ to use hers to create    
+        interesting and challenging situations for the players to overcome. A Character's    
+        Intent, as described by her Player, should guide the GQ to "houserule" the           
+        Character's Actions. Accordingly the GQ should not hesitate to play the Nest's       
+        guardians as more than dumb automata, who can also use their (simple) Insectoid      
+        brains to protect their home.                                                        
+        └───────────────────────────────────────────────────────────────────────────────────────┘
 
       3.1.2.10 Breaking from Combat
         
@@ -1075,11 +1071,11 @@
         
         Joining Combat requires no Roll. A creature who is not a Combatant joins Combat at the start of the next Combat Round. At the start of that Round, before any Combatants' Turn, determine the new Combatant's Disposition and Initiative Order, then she takes her first Turn in Initiative Order, as normal.
         
-        ║ ┌[Note 5]───────────────────────────────────────────────────────────────────────────────┐ ║
-        ║ │ A common reason for new Combatants to join Combat is when the Nest's Guardians summon │ ║
-        ║ │ their conspecifics to help them repell the intruders. In that case, when the summoned │ ║
-        ║ │ allies arrive, they Join Combat as described above.                                   │ ║
-        ║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
+        ┌[Note 5]───────────────────────────────────────────────────────────────────────────────┐
+        A common reason for new Combatants to join Combat is when the Nest's Guardians summon
+        their conspecifics to help them repell the intruders. In that case, when the summoned
+        allies arrive, they Join Combat as described above.                                  
+        └───────────────────────────────────────────────────────────────────────────────────────┘
 
       3.1.2.13 Combat Ends
         
@@ -1446,13 +1442,13 @@
     
       3.2.5.1 Food Item Reward
       
-        When a Food Reward is Generated, determine if it is a Known or Unknown Item. If it is a Known Item, randomly select a Food Item the Party has already Identified. If it is an Unknown Item, randomly determine its Form (See Section 2.6.9.4.3). In either case, use the Room's Level for the Food's Level.
+        When a Food Reward is Generated, determine if it is a Known or Unknown Item. If it is a Known Item, randomly select a Food Item the Party has already Identified. If it is an Unknown Item, randomly determine its Form (See Section 2.6.9.4.3). In either case, use the Room's Level for the Food's Level. A Food Reward may be Harvested up to three times before it is depleted.
         
         _Multiple Foods_ If multiple Food Rewards are Generated in a Room, they combine into one Food Reward. Increase the Level of the Food for each Food Reward beyond the First.
       
       3.2.5.2 Resource Reward
       
-        When a Resource Reward is generated, make a note that the Room has Building Resources available. Each Resource in the Room may be Harvested up to three times. See Section 3.3.0.0 for Hunting & Foraging.
+        When a Resource Reward is generated, make a note that the Room has Building Resources available. Each Resource in the Room may be Harvested up to three times before it is depleted. See Section 3.3.0.0 for Hunting & Foraging.
       
       3.2.5.3 Level Reward
       
@@ -1460,32 +1456,32 @@
         
         _Multiple Levels_ If multiple Level Rewards are Generated in a Room, they combine into a single Level Reward. For each Level Reward, the Level of the new Room increases by one.
           
-║   3.3.0.0 Hunting & Foraging (TBD)..................................................142 ║
+  3.3.0.0 Hunting & Foraging
     
-    In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job. Each instance of an Item only has one Chance to be harvested.
+    In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
     
     Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they Roll the appropriate Attribute for that type of Item.
     
-    ║ Degree of Success  Outcome                                                   ║
-    ║ ─────────────────────────────────────────                                    ║
-    ║ Critical Success   Add 6 to Item Rating.                                     ║
-    ║ Total Success      Add 4 to Item Rating.                                     ║
-    ║ Partial Success    Add 2 to Item Rating.                                     ║
-    ║ Partial Failure    Chance Wasted. Nothing Happens.                           ║
-    ║ Total Failure      Chance Wasted. Increase Hunger by 1.                      ║
-    ║ Critical Failure   Chance Wasted. Increase Hunger by 2.                      ║
-    ║ ─────────────────────────────────────────                                    ║
-    ║ Table 1: Four Degrees of Success.                                            ║
+    Degree of Success  Outcome                                                   
+    ─────────────────────────────────────────                                    
+    Critical Success   Add 3 to Item Rating.                                     
+    Total Success      Add 2 to Item Rating.                                     
+    Partial Success    Add 1 to Item Rating.                                     
+    Partial Failure    Chance Wasted. Nothing Happens.                           
+    Total Failure      Chance Wasted. Increase Hunger by 1.                      
+    Critical Failure   Chance Wasted. Increase Hunger by 2.                     
+    ─────────────────────────────────────────                                   
+    Table 1: Four Degrees of Success.                                            
    
     The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts have wasted one of the Room's Chances. On a Total Failure, the Character wastes her Chance and is also Hungry from the effort. On a Critical Failure, the Character's Chance is wasted and her Hunger is increased substantially.
     
-    _Foraging Plants_ Harvesting an Herbivore Food Item uses the Foraging Attribute. The Character Rolls (KEN or STR) + Foraging vs Level.
+    _Foraging Plants_ To Harvest an Herbivore Food Item, the Character Rolls (STR or KEN) + Foraging vs Level.
     
-    _Hunting Prey_ Harvesting an Insectivore Food Item uses the Hunting Attribute. The Character Rolls (SPE or PAS) + Hunting vs Level.
+    _Hunting Prey_ To Harvest an Insectivore Food Item, the Character Rolls (SPE or PAS) + Hunting vs Level.
     
-    _Collecting Building Resources_ Gathering Building Resources uses the Construction Attribute. The Character Rolls (STR or KEN) + Construction vs Level.
+    _Gathering Building Resources_ To Harvest Building Resources, the Character Rolls (STR or KEN) + Construction vs Level.
     
-║   3.4.0.0 Resting & Healing (TBD)...................................................143 ║
+  3.4.0.0 Resting & Healing
 
     In between the dangers of exploring the Nest and Encounters with its Denizens, the Characters need some well-earned time to rest, recover, and reflect on how they've grown. This is encompassed by the Resting and Healing Minigame.
     
@@ -1616,8 +1612,8 @@
     
       Once the Traveling Party has arrived and has paid the costs of Travel, the Minigame is over. Characters are free to take other Actions and initiate other Minigames.
       
-║                                                                                           ║
-║ 4.0.0.0 Setting (TBD).................................................................144 ║
+                                                                                         
+4.0.0.0 Setting
   
   The Meadows
   
@@ -1699,18 +1695,18 @@
   
   The Thicket
     
-║   4.1.0.0 Clients and Jobs (TBD)......................................................145 ║
-║   4.2.0.0 Environment (TBD)...........................................................146 ║
-║     4.2.1.0 Nests (TBD)...............................................................146 ║
+  4.1.0.0 Clients and Jobs
+  4.2.0.0 Environment
+    4.2.1.0 Nests
     4.2.1.1 Ant Colonies
     4.2.1.2 Bee Hives
     4.2.1.3 Beetle Arenas
     4.2.1.4 Spider Communes
     4.2.1.5 Scorpion Burrows
-║       4.2.1.6 Termite Nests...........................................................147 ║
+    4.2.1.6 Termite Nests
     4.2.1.7 Wasp Nests
-║   4.3.0.0 Enemies (TBD)...............................................................148 ║
-║   4.4.0.0 Ants (TBD)..................................................................149 ║
+  4.3.0.0 Enemies
+  4.4.0.0 Ants
   Carpenter Ants
     Encounter Table
     Carpenter Worker
@@ -1769,7 +1765,7 @@
       High Hydro
       High Swarming
       Medium Flight
-║   4.5.0.0 Bees (TBD)..................................................................150 ║
+  4.5.0.0 Bees
   Encounter Table
   Honey Bees
     Honey Bee Worker
@@ -1910,14 +1906,14 @@
       High Spe
   4.7.0.0  Scorpions
   4.8.0.0 Spiders
-║   4.7.0.0 Termites....................................................................151 ║
+  4.7.0.0 Termites
     Encounter Table
-║     4.6.1.0 Worker Termite............................................................152 ║
-║     4.6.2.0 Minor Termite Soldier - Autothyte.........................................153 ║
-║     4.6.3.0 Major Termite Soldier - Autothyte.........................................155 ║
-║     4.6.4.0 Nasute Soldier............................................................156 ║
-║     4.6.5.0 Alates - King (TBD).......................................................158 ║
-║     4.6.6.0 Alates - Queen (TBD)......................................................159 ║
+    4.6.1.0 Worker Termite
+    4.6.2.0 Minor Termite Soldier - Autothyte
+    4.6.3.0 Major Termite Soldier - Autothyte
+    4.6.4.0 Nasute Soldier
+    4.6.5.0 Alates - King (TBD)
+    4.6.6.0 Alates - Queen (TBD)
   4.10.0.0 Wasps
 
 5.0.0.0 Attacks
@@ -1941,6 +1937,8 @@
       
     
     5.1.3.0 Attack Requirements
+    
+    
     
     5.1.4.0 Attack Description Glossary
       
