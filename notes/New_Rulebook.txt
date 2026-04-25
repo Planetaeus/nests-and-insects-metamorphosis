@@ -1441,6 +1441,24 @@
           Table X+7: Negotiation Results
           
           _Companions_ A Companion is controlled by the Players. She Travels, Fights, and Explores by the Party's side. She does not gain Metamorphosis Points, but she does gain Hunger. Whenever Combat Ends, a Companion Rolls PAS + Hunger - Disposition against a PAS + Leadership Roll from one Character. If she Succeeds, she abandons the Party. When a Companion reaches 10 Hunger, she abandons the Party.
+
+    3.2.5.0 Reward Events
+    
+      3.2.5.1 Food Item Reward
+      
+        When a Food Reward is Generated, determine if it is a Known or Unknown Item. If it is a Known Item, randomly select a Food Item the Party has already Identified. If it is an Unknown Item, randomly determine its Form (See Section 2.6.9.4.3). In either case, use the Room's Level for the Food's Level.
+        
+        _Multiple Foods_ If multiple Food Rewards are Generated in a Room, they combine into one Food Reward. Increase the Level of the Food for each Food Reward beyond the First.
+      
+      3.2.5.2 Resource Reward
+      
+        When a Resource Reward is generated, make a note that the Room has Building Resources available. Each Resource in the Room may be Harvested up to three times. See Section 3.3.0.0 for Hunting & Foraging.
+      
+      3.2.5.3 Level Reward
+      
+        When a Level Reward is Generated, add an Exit to the Room that leads to a Room one Level higher.
+        
+        _Multiple Levels_ If multiple Level Rewards are Generated in a Room, they combine into a single Level Reward. For each Level Reward, the Level of the new Room increases by one.
           
 ║   3.3.0.0 Hunting & Foraging (TBD)..................................................142 ║
     
