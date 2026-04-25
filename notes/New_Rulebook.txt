@@ -1273,111 +1273,42 @@
         
         Nothing special happens when Survival and Exploration ends. Players are free to control their Characters as before.
         
-3.2.8.0 Risk Events
-
-║ Risk Events add a frisson of excitement to the otherwise drab and boring act of slogging  ║
-║ through a Nest looking for the subject of a Job.                                          ║
-║                                                                                           ║
-║ The following Sections define the rules for the various Risk Events generated during the  ║
-║ Survival and Exploration Minigame.                                                        ║
-
-There are five types of Risk Events:
-
-  * Infection
-  * Spoilage
-  * Obstacle
-  * Encounter
-  
-║ 3.2.8.1 Infection                                                                         ║
-║                                                                                           ║
-║ ┌[Effects of Infection]─────────────────────────────────────────────────────────────────┐ ║
-║ │ A Character facing an Infection Risk may become Infected. If the Character is already │ ║
-║ │ Infected, her Infection may get worse.                                                │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-║                                                                                           ║
-║ When an Infection Risk is faced, Roll Strength vs. Level. Characters suffer a negative modifier on the Roll equal to their current Infected Rating, if any.
-
-  If the Character fails the Roll, they gain Infected equal to the Net Failures. The Character gains MP equal to Level.
-  
-  See 2.6.8.13 for the rules of the Infected Effect.
-  
-║ ┌[Note 9]───────────────────────────────────────────────────────────────────────────────┐ ║
-║ │ The risk of Infection while exploring a Nest comes from disease-causing               │ ║
-║ │ microorgranisms that inhabit the Nest. Common sources of infections are fungi and     │ ║
-║ │ bacteria that live in the soil or the air of the Nest. Characters may become Infected │ ║
-║ │ simply by walking into a new Room and coming into contact with the microorganisms     │ ║
-║ │ living in the Room.                                                                   │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-
-  3.2.7.2 Spoilage
-  
-    When a Spoilage Cost is paid, the Characters' Food Items will be depleted, and may become exhausted.
-    
-    To pay a Spoilage Cost, a Player makes a separate Spoilage Roll for each Food Item in their Inventory. To do this, the Player Rolls the Food Item's Rating. The new Rating of the Food is the number of successes. If an Item has a Rating of 0, the Item is exhausted.
-    
-  3.2.8.3 Obstacle
-  
-    When an Obstacle Risk is faced, the Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
-    
-    The Characters may Roll STR + Construction vs. Obstruction. If they succeed, they reduce the Obstruction Rating by the number of Net Successes. If a Character fails the Roll, they suffer 1 Wound. Each Character in the room must attempt the Construction Roll before any Character can try again. 
-    
-    If a Character Succeeds the Roll and reduces the Obstruction Rating to 0, the Obstacle is cleared. The Players gain MP equal to Level, and have a chance to gain Building Resources. Roll Level. One Character adds Building Resources equal to the successes.
-    
-    Leaving a room with an Obstacle intact means that no further Risks or Rewards are generated. The room is already spent, and cannot be re-explored.
-    
-  3.2.8.4 Encounter
-
-║ ┌[Nest Encounters]──────────────────────────────────────────────────────────────────────┐ ║
-║ │ An "Encounter" is an impromptu meeting with a Nest's denizens: its guardians, or      │ ║
-║ │ their (wanted or unwanted) guests.                                                    │ ║
-║ └───────────────────────────────────────────────────────────────────────────────────────┘ ║
-║                                                                                           ║
-║ When an Encounter Risk is faced, generate an Encounter according to the Encounter         ║
-║ Table for the type of Nest in which the Characters are currently located.                 ║
-║                                                                                           ║
-║ Encounter Tables are specific to each kind of Nest. Look for Encounter Tables in the      ║
-║ Sections, later in this rulebook, on Termite, Bee, and Ant nests.                         ║
-
-    To Generate an Encounter, Roll Level d6. Then, compare the number of successes against the relevant Encounter Table to see which Encounter(s) are generated.
-  
-    When all enemies in the Encounter are defeated or retreated, the Encounter has been cleared. The Characters gain MP equal to Level.
-
-  3.2.9.0 Reward Events............................................................135 ║
-    Reward Events give the Characters the resources they need to complete their Job successfully.
-    
-    Remember that the Characters are not invading a Nest to become rich. Arthropod society does not understand the concept of "riches". They are here to prove their skills and complete a Job. Accordingly, the Reward Events generated while exploring a Nest are only designed to help the Characters complete their Job.
-    
-    The following Sections define the rules for the various Reward Events generated during the Survival and Exploration Minigame.
-              
-    3.2.9.1 Item.............................................................139 ║
-
-      When a Character reaps an Item Reward, make a Roll to determine the type of Item:
+    3.2.3.0 Survival & Exploration - Manual Generation
       
-      d6     Item Type
-      1-2    Resources
-      3-4    Known Food Item
-      5-6    Unknown Food Item
+        
       
-      To generate a Known Food Item, randomly determine an item that the Characters have already identified.
-
-      To generate an Unknown Food Item, refer to 2.6.9.4.0.
+      3.2.3.1 Generating the Nest
       
-      Generated Food Items have a Level equal to the Level of the Room they were found in.
+        
       
-      A Room can have each of its Items harvested Three Times before it is depleted.
+      3.2.3.2 Survival & Exploration Steps in a Manually Generated Nest
       
-    3.2.9.2 Room (Reward)..........................................................136 ║
-
-      When a Character reaps a Room Reward, add a Room to the Environment Pool connected to the Current Room.
+        1. Form an Exploration Party. This works exactly the same as in 3.2.2.2 for Procedural Generation.
+        
+        2. Resolve the Exploration Action.
+        
+        3. Travel to an Unexplored Room.
+        
+        4. Face Risks.
+        
+        5. Survival & Exploration Ends.
+        
+      3.2.3.4 Resolve the Exploration Action.
       
-      __Passages__ A Character Reaping a Room Reward may instead choose to spend that Room to create a Passage to a previously Explored Room, connecting it to the Current Room.
+        The Characters want to get somewhere, but they don't necessarily know what path to take. The Party Scout states the intent of what they hope to find and Rolls KEN + (Exploration or Eusociology) vs. Level. On a Success, the Character is able to determine which of this Room's Exits is the shortest path to the stated intent. For example, if the Scout is in a Room with two Exits and wants to find Food, a Success will show her which Exit is closer to Food. On a Failure, she gains one Hunger and no information. If what the Character seeks cannot be found in the Nest, a Success will let her know this.
       
-║    3.2.9.4 Level (Reward).........................................................138 ║
+      3.2.3.5 Travel
       
-      When a Character reaps a Level Reward, increase the Nest Level and add a new Room to the Environment Pool connected to the Current Room. The Characters receive 1 MP.
+        The Characters then Travel to either an Explored or Unexplored Room, based on what is closest to what they hope to find. See Section 3.5.0.0 Travel.
       
-      __Multiple Levels__ If multiple Level Rewards are Reaped at the same time, only one Room is Generated, but the Nest Level is increased that many times. Characters receive 1 MP for each Level.
-
+      3.2.3.6 Face Risks
+      
+        The Risks in the destination Room are faced. See 3.2.4.0 for more information on Risks.
+      
+      3.2.3.7 Survival & Exploration Ends
+      
+        Nothing special happens at the end of Survival & Exploration, except that the Room has now been Explored. Characters are now free to once again take any Actions they choose.
+        
 ║   3.3.0.0 Hunting & Foraging (TBD)..................................................142 ║
     
     In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job. Each instance of an Item only has one Chance to be harvested.
