@@ -1,268 +1,374 @@
-3.2.0.0 Survival & Exploration
+  3.2.0.0 Survival & Exploration
 
-  The Survival & Exploration Minigame defines rules for the manual or Procedural Generation of a Nest's Environment. During the Survival & Exploration Minigame, Characters explore the Nest and the GQ describes what the Characters find.
-  
-  Procedural Generation is an abstraction: no Floor Plans or Maps are Generated. Instead what is Generated are the Features of game entities, including the spaces inside the Nests, the Creatures that roam them, and Items that populate them.
-  
-  Nests & Insects: Metamorphosis provides rules for the basic Procedural Generation of Rooms and Floor Plans, as well as guidance for how to craft them by your own hand.
-  
-  This Section is divided into the following parts:
-  
-  * 3.2.1.0 The Nest Environment
-  
-  * 3.2.2.0 Survival & Exploration - Procedural Generation
-  
-  * 3.2.3.0 Survival & Exploration - Manual Generation
-  
-  * 3.2.4.0 Exploration Events
-  
-  3.2.1.0 The Nest Environment
-  
-    A Nest is an environment that consists of multiple Nest Levels, each comprised of one or more Rooms. Levels and Rooms are all explored by the Characters during the Survival & Exploration MiniGame. They are collectively known as Nest Environments.
+    The Survival & Exploration Minigame defines rules for the manual or Procedural Generation of a Nest's Environment. During the Survival & Exploration Minigame, Characters explore the Nest and the GQ describes what the Characters find.
     
-    Environments act as resources that can be spent to initiate Minigames, or to pay Costs. In particular, in order to initiate the Survival & Exploration Minigame itself, a Room must be Spent. The Nest always starts with a well-connected Room 0 - the Entrance of the Nest.
+    Procedural Generation is an abstraction: no Floor Plans or Maps are Generated. Instead what is Generated are the Features of game entities, including the spaces inside the Nests, the Creatures that roam them, and Items that populate them.
     
-    3.2.1.1 Rooms
+    Nests & Insects: Metamorphosis provides rules for the basic Procedural Generation of Rooms and Floor Plans, as well as guidance for how to craft them by your own hand.
     
-      A Room is an enclosed area. In truth, eusocial Insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans.
-      
-      Rooms are discovered by the Players as part of an Exploration Action. Rooms have Features such as Area, Height, or Darkness that require Quantification when they are discovered.
-      
-      _Passages_ A Passage is an opening or tunnel connecting two Rooms. Passages serve to remind the Players which Rooms are connected to each other.
+    This Section is divided into the following parts:
     
-    3.2.1.2 Nest Levels
-      
-      A Nest Level, or Level, is a group of Rooms connected to each other by Passages, including Passages that may lead to other Levels. Rooms in the same Level are situated at about the same elevation above or below ground, much like a floor in a multi-story house.
-      
-      In mechanical terms, Levels have a decile Rating that is used for a number of aspects of the Exploration Action. During Procedural and Manual Generation, the Level is used to quantify the results of certain Risks, such as Obstacles, Darkness, or Infection. As the Characters delve further into the Nest, the Nest Level of the Rooms they visit increases. With it, each Room may contain greater Rewards and Risks. Some Jobs will specify a Level where the Job Target may be found.
-      
-      The Characters enter a Nest at Level 1, and must forge their own path to the Job Target from there. During Procedural Generation, Level Rewards are discovered as part of an Exploration Action. During Manual Generation, a Level can have as many or as few Rooms as you wish before you introduce an Entrance to the next Level.
-      
-    3.2.1.3 The Environment Pool
-      
-      To track the Environments discovered so far in the game, and what was discovered there, Players have a communal Environment Pool.
-      
-      Players are free to track their Environment Pool as best suits them, for example by drawing a map of Environments and their connections and contents.
-      
-      Another way to track an Environment Pool is to tabulate the Contents and Connections.
-      
-      Level Room  Explored?  Notes
-      ─────────────────────────────────────────────────────────────────────────────────────
-      01    00    Yes        
-      01    01    Yes        Secured, Cursed Red Fungus, Building Resources
-      01    02    No
-      03    00    No          
-      ─────────────────────────────────────────────────────────────────────────────────────
-      Table X: Environment Pool - Rooms and their Contents
-      
-      Room A  Exit  Room B  Exit
-      ─────────────────────────────────────────────────────────────────────────────────────
-        0100     0    0101     0
-        0101     0    0100     0
-        0101     1    0102     0
-        0102     0    0101     1
-        0101     2    0300     0
-        0300     0    0101     2
-      ─────────────────────────────────────────────────────────────────────────────────────
-      Table X+1: Environment Pool - Passages
-      
-      In Table X, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in Table X above, the Players have noted that Room 0101 was Secured, and what they found there.
-      
-      Table X+1 provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
-      
-      _Moving Between Rooms_ The Travel Minigame (Section 3.5.0.0) establishes the rules for moving between Rooms. 
-      
-  3.2.2.0 Survival & Exploration - Procedural Generation
-  
-    The core Mechanic of Procedural Generation is Rolling on Tables. The Playuers or the GQ Roll and cross-reference the result with the rows of a Table. The Table lists what the Characters find and what happens to them while they Explore the Nest.
+    * 3.2.1.0 The Nest Environment
     
-    _Exploration Action_ Survival & Exploration starts with an Exploration Action. This Action is resolved by a Roll and its outcome determines the types and numbers of Events that occur as the Characters Explore the Nest. The two types of Events are Risks and Rewards. More Successes on the Exploration Roll means that fewer Risks and more Rewards will be Generated.
+    * 3.2.2.0 Survival & Exploration - Procedural Generation
     
-    _Rolling for Events_ Once the numbers of Risks and Rewards are determined, the Players Roll a set of Risk dice and a set of Reward dice, and refer to the Tables to see what they find.
+    * 3.2.3.0 Survival & Exploration - Manual Generation
     
-    3.2.2.1 Procedural Generation Steps
+    * 3.2.4.0 Risk Events
     
-      There are seven Steps to Procedurally Generated Survival & Exploration.
-      
-      1. Form an Exploration Party.
-      
-      2. Travel to an Unexplored Room.
-      
-      3. Generate Features of the Room.
-      
-      4. Resolve the Exploration Action.
-      
-      5. Generate Risks.
-      
-      6. Generate Rewards.
-      
-      7. Face Risks.
-      
-      7. Survival & Exploration Ends.
-      
-    3.2.2.2 Form an Exploration Party
+    * 3.2.5.0 Reward Events
     
-      It's common for more than one Character to Explore the Nest at a time, in particular, all the Player Characters may go Exploring together, or the Players may split their Characters into groups that will Explore the Nest separately. A group of Characters Exploring the Nest is an Exploration Party. To form an Exploration Party, the Players decide between them which Characters Explore the Nest Together.
-      
-      For each Exploration Party, a separate Survival & Exploration Action is taken. Each Party nominates one Character to be its "Scout".
-      
-    3.2.6.3 Travel to an Unexplored Room
+    3.2.1.0 The Nest Environment
     
-      The Exploration Party must physically travel to a Room before they can Explore it. See 3.5.0.0 Travel.
+      A Nest is an environment that consists of multiple Nest Levels, each comprised of one or more Rooms. Levels and Rooms are all explored by the Characters during the Survival & Exploration MiniGame. They are collectively known as Nest Environments.
       
-    3.2.2.4 Generate Features of the Room
-    
-      If playing without Maps, you may skip this Step.
+      Environments act as resources that can be spent to initiate Minigames, or to pay Costs. In particular, in order to initiate the Survival & Exploration Minigame itself, a Room must be Spent. The Nest always starts with a well-connected Room 0 - the Entrance of the Nest.
       
-      In this Step, the Features of a Room are Generated. Rooms are made of Hexagons (Hexes) around a central Hex, in a number of concentric layers equal to the Room's Level.
+      3.2.1.1 Rooms
       
-      If desired, the Height of the Room is Generated. Roll Level to set the Height. Every Room has a minimum Height of 1.
-      
-      Lastly, Roll Level D6 to determine how many Exits the Room has. It can help to number or label the Exits to keep track of how Rooms are Connected.
-      
-      If the GQ wishes to make fights more challenging or interesting, she can introduce some of the following Obstructions to the Room to shake things up. Block Obstructions rise from floor to ceiling, thus blocking Ranged and Area Attacks, as well as paths for Movement. Pit Obstructions have a Depth equal to the Room's Height, and must be circumvented, or jumped, or flown across.
-      
-      1. Single-Hex Obstruction.
-      2. N-Hex Line Obstruction. These can be however long or wide as the GQ wishes them to be.
-      3. N-Hex Triangle Obstruction.
-      4. N-Hex Hegagon Obstruction.
-      
-      _Block Obstructions_ Block Obstructions can be torn down as if they were Obstacles. See SECTION for more information.
-      
-      _Escaping Pits_ If a Character falls into a Pit, she can Climb out by Moving a number of Hexes equal to the Pit's Depth.
-      
-      _Pit Filling_ Pit Obstructions can be covered using Resources. Make a (STR or KEN) + Construction Roll. For each Success, you may spend one Resource Dot to cover one Hex of the Pit.
-      
-      _Ceilings and Walls_ For the especially ambitious GQ, you can use these same Generation Guidelines to populate the Walls and even Ceilings of your Rooms - bugs can climb on Walls, after all! This does significantly increase both preparation time and complexity of any encounters therein, so try and save this for more dramatic moments.
-      
-    3.2.2.5 Resolve the Exploration Action
-      
-      Each Room starts with Level Risk Dice. The Party Scout makes a KEN + Exploration Roll. Each Success on the Roll turns one Risk Die into one Reward Die, up to a maximum of Level Rewards Dice.
-      
-    3.2.2.6 Generate Risks
-      
-      If the Room has any Risk Dice, Roll those dice and compare the Results against TABLE.
-          
-      d6     Risk         Description
-      ───────────────────────────────────────────────────────────────────────────────
-      1-3    Encounter    Meet the Nest's denizens
-        4    Obstacle     Prevents further Exploration until removed.
-        5    Darkness     Obscures senses.
-        6    Infection    Bestows the Infection Effect.
-      ───────────────────────────────────────────────────────────────────────────────
-      Table X+2: Risk Generation
-            
-      _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls multiple times to determine what Creatures the Players come across.
-      
-    3.2.2.7 Generate Rewards
-      
-      If the Room has any Reward Dice, Roll those Dice and compare the results against TABLE.
-      
-      Reward Generation:
-      d6     Reward         Description
-      ───────────────────────────────────────────────────────────────────────────────
-      1-3    Food Item      Find Food that can be Foraged or Hunted.
-      4-5    Resources      Find Resources that can be Harvested.
-        6    Level          Entrance to a new, more advanced Nest Level.
-      ───────────────────────────────────────────────────────────────────────────────
-      Table X+3: Reward Generation
-      
-      _Multiple Food Items_ If multiple Food Item Rewards are Generated, each one beyond the first increases the Food's Level by 1.
-      
-    3.2.2.8 Face Risks.
+        A Room is an enclosed area. In truth, eusocial Insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans.
         
-      Risks are Faced in the following order. See SECTION for more details on Facing Risks.
+        Rooms are discovered by the Players as part of an Exploration Action. Rooms have Features such as Area, Height, or Darkness that require Quantification when they are discovered.
+        
+        _Passages_ A Passage is an opening or tunnel connecting two Rooms. Passages serve to remind the Players which Rooms are connected to each other.
       
-      1. Obstacle
-      2. Infection
-      3. Darkness
-      4. Encounter
-      
-    3.2.2.9 Survival & Exploration Ends
+      3.2.1.2 Nest Levels
+        
+        A Nest Level, or Level, is a group of Rooms connected to each other by Passages, including Passages that may lead to other Levels. Rooms in the same Level are situated at about the same elevation above or below ground, much like a floor in a multi-story house.
+        
+        In mechanical terms, Levels have a decile Rating that is used for a number of aspects of the Exploration Action. During Procedural and Manual Generation, the Level is used to quantify the results of certain Risks, such as Obstacles, Darkness, or Infection. As the Characters delve further into the Nest, the Nest Level of the Rooms they visit increases. With it, each Room may contain greater Rewards and Risks. Some Jobs will specify a Level where the Job Target may be found.
+        
+        The Characters enter a Nest at Level 1, and must forge their own path to the Job Target from there. During Procedural Generation, Level Rewards are discovered as part of an Exploration Action. During Manual Generation, a Level can have as many or as few Rooms as you wish before you introduce an Entrance to the next Level.
+        
+      3.2.1.3 The Environment Pool
+        
+        To track the Environments discovered so far in the game, and what was discovered there, Players have a communal Environment Pool.
+        
+        Players are free to track their Environment Pool as best suits them, for example by drawing a map of Environments and their connections and contents.
+        
+        Another way to track an Environment Pool is to tabulate the Contents and Connections.
+        
+        Level Room  Explored?  Notes
+        ─────────────────────────────────────────────────────────────────────────────────────
+        01    00    Yes        
+        01    01    Yes        Secured, Cursed Red Fungus, Building Resources
+        01    02    No
+        03    00    No          
+        ─────────────────────────────────────────────────────────────────────────────────────
+        Table X: Environment Pool - Rooms and their Contents
+        
+        Room A  Exit  Room B  Exit
+        ─────────────────────────────────────────────────────────────────────────────────────
+          0100     0    0101     0
+          0101     0    0100     0
+          0101     1    0102     0
+          0102     0    0101     1
+          0101     2    0300     0
+          0300     0    0101     2
+        ─────────────────────────────────────────────────────────────────────────────────────
+        Table X+1: Environment Pool - Passages
+        
+        In Table X, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in Table X above, the Players have noted that Room 0101 was Secured, and what they found there.
+        
+        Table X+1 provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
+        
+        _Moving Between Rooms_ The Travel Minigame (Section 3.5.0.0) establishes the rules for moving between Rooms. 
+        
+    3.2.2.0 Survival & Exploration - Procedural Generation
     
-      Once all Risks and Rewards are generated and dealt with, the Room can be marked as "Explored" and the Survival & Exploration Minigame ends.
+      The core Mechanic of Procedural Generation is Rolling on Tables. The Playuers or the GQ Roll and cross-reference the result with the rows of a Table. The Table lists what the Characters find and what happens to them while they Explore the Nest.
       
-      Nothing special happens when Survival and Exploration ends. Players are free to control their Characters as before.
+      _Exploration Action_ Survival & Exploration starts with an Exploration Action. This Action is resolved by a Roll and its outcome determines the types and numbers of Events that occur as the Characters Explore the Nest. The two types of Events are Risks and Rewards. More Successes on the Exploration Roll means that fewer Risks and more Rewards will be Generated.
       
-  3.2.3.0 Survival & Exploration - Manual Generation
+      _Rolling for Events_ Once the numbers of Risks and Rewards are determined, the Players Roll a set of Risk dice and a set of Reward dice, and refer to the Tables to see what they find.
+      
+      3.2.2.1 Procedural Generation Steps
+      
+        There are seven Steps to Procedurally Generated Survival & Exploration.
+        
+        1. Form an Exploration Party.
+        
+        2. Spend an Unexplored Exit and Travel to an Unexplored Room.
+        
+        3. Generate Features of the Room.
+        
+        4. Resolve the Exploration Action.
+        
+        5. Generate Risks.
+        
+        6. Generate Rewards.
+        
+        7. Face Risks.
+        
+        7. Survival & Exploration Ends.
+        
+      3.2.2.2 Form an Exploration Party
+      
+        It's common for more than one Character to Explore the Nest at a time, in particular, all the Player Characters may go Exploring together, or the Players may split their Characters into groups that will Explore the Nest separately. A group of Characters Exploring the Nest is an Exploration Party. To form an Exploration Party, the Players decide between them which Characters Explore the Nest Together.
+        
+        For each Exploration Party, a separate Survival & Exploration Action is taken. Each Party nominates one Character to be its "Scout".
+        
+      3.2.6.3 Travel to an Unexplored Room
+      
+        The Exploration Party must be in a Room with an Unexplored Exit. After selecting the Exit, the Exploration Party must physically travel to a Room before they can Explore it. See 3.5.0.0 Travel.
+        
+      3.2.2.4 Generate Features of the Room
+      
+        If playing without Maps, you may skip this Step.
+        
+        In this Step, the Features of a Room are Generated. Rooms are made of Hexagons (Hexes) around a central Hex, in a number of concentric layers equal to the Room's Level.
+        
+        If desired, the Height of the Room is Generated. Roll Level to set the Height. Every Room has a minimum Height of 1.
+        
+        Lastly, Roll Level D6 to determine how many Exits the Room has. It can help to number or label the Exits to keep track of how Rooms are Connected. Each Exit represents a connection to elsewhere in the Nest.
+        
+        If the GQ wishes to make fights more challenging or interesting, she can introduce some of the following Obstructions to the Room to shake things up. Block Obstructions rise from floor to ceiling, thus blocking Ranged and Area Attacks, as well as paths for Movement. Pit Obstructions have a Depth equal to the Room's Height, and must be circumvented, or jumped, or flown across.
+        
+        1. Single-Hex Obstruction.
+        2. N-Hex Line Obstruction. These can be however long or wide as the GQ wishes them to be.
+        3. N-Hex Triangle Obstruction.
+        4. N-Hex Hegagon Obstruction.
+        
+        _Block Obstructions_ Block Obstructions can be torn down as if they were Obstacles. See SECTION for more information.
+        
+        _Escaping Pits_ If a Character falls into a Pit, she can Climb out by Moving a number of Hexes equal to the Pit's Depth.
+        
+        _Pit Filling_ Pit Obstructions can be covered using Resources. Make a (STR or KEN) + Construction Roll. For each Success, you may spend one Resource Dot to cover one Hex of the Pit.
+        
+        _Ceilings and Walls_ For the especially ambitious GQ, you can use these same Generation Guidelines to populate the Walls and even Ceilings of your Rooms - bugs can climb on Walls, after all! This does significantly increase both preparation time and complexity of any encounters therein, so try and save this for more dramatic moments.
+        
+      3.2.2.5 Resolve the Exploration Action
+        
+        Each Room starts with Level Risk Dice. The Party Scout makes a KEN + Exploration Roll. Each Success on the Roll turns one Risk Die into one Reward Die, up to a maximum of Level Rewards Dice.
+        
+      3.2.2.6 Generate Risks
+        
+        If the Room has any Risk Dice, Roll those dice and compare the Results against TABLE.
+            
+        d6     Risk         Description
+        ───────────────────────────────────────────────────────────────────────────────
+        1-3    Encounter    Meet the Nest's denizens
+          4    Obstacle     Prevents further Exploration until removed.
+          5    Darkness     Obscures senses.
+          6    Infection    Bestows the Infection Effect.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table X+2: Risk Generation
+              
+        _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls multiple times to determine what Creatures the Players come across.
+        
+      3.2.2.7 Generate Rewards
+        
+        If the Room has any Reward Dice, Roll those Dice and compare the results against TABLE.
+        
+        Reward Generation:
+        d6     Reward         Description
+        ───────────────────────────────────────────────────────────────────────────────
+        1-3    Food Item      Find Food that can be Foraged or Hunted.
+        4-5    Resources      Find Resources that can be Harvested.
+          6    Level          Entrance to a new, more advanced Nest Level.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table X+3: Reward Generation
+        
+        _Multiple Food Items_ If multiple Food Item Rewards are Generated, each one beyond the first increases the Food's Level by 1.
+        
+      3.2.2.8 Face Risks.
+          
+        Risks are Faced in the following order. See SECTION for more details on Facing Risks.
+        
+        1. Obstacle
+        2. Infection
+        3. Darkness
+        4. Encounter
+        
+      3.2.2.9 Survival & Exploration Ends
+      
+        Once all Risks and Rewards are generated and dealt with, the Room can be marked as "Explored" and the Survival & Exploration Minigame ends.
+        
+        Nothing special happens when Survival and Exploration ends. Players are free to control their Characters as before.
+        
+    3.2.3.0 Survival & Exploration - Manual Generation
+      
+        
+      
+      3.2.3.1 Generating the Nest
+      
+        
+      
+      3.2.3.2 Survival & Exploration Steps in a Manually Generated Nest
+      
+        1. Form an Exploration Party. This works exactly the same as in 3.2.2.2 for Procedural Generation.
+        
+        2. Resolve the Exploration Action.
+        
+        3. Travel to an Unexplored Room.
+        
+        4. Face Risks.
+        
+        5. Survival & Exploration Ends.
+        
+      3.2.3.4 Resolve the Exploration Action.
+      
+        The Characters want to get somewhere, but they don't necessarily know what path to take. The Party Scout states the intent of what they hope to find and Rolls KEN + (Exploration or Eusociology) vs. Level. On a Success, the Character is able to determine which of this Room's Exits is the shortest path to the stated intent. For example, if the Scout is in a Room with two Exits and wants to find Food, a Success will show her which Exit is closer to Food. On a Failure, she gains one Hunger and no information. If what the Character seeks cannot be found in the Nest, a Success will let her know this.
+      
+      3.2.3.5 Travel
+      
+        The Characters then Travel to either an Explored or Unexplored Room, based on what is closest to what they hope to find. See Section 3.5.0.0 Travel.
+      
+      3.2.3.6 Face Risks
+      
+        The Risks in the destination Room are faced. See 3.2.4.0 for more information on Risks.
+      
+      3.2.3.7 Survival & Exploration Ends
+      
+        Nothing special happens at the end of Survival & Exploration, except that the Room has now been Explored. Characters are now free to once again take any Actions they choose.
+        
+    3.2.4.0 Risk Events
     
+      3.2.4.1 Obstacle Risk
       
+        When an Obstacle Risk is Faced, an Obstacle prevents the Characters from moving further into the Room. The Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
+        
+        A Character who wishes to Tear Down the Obstacle may Roll (STR or KEN) + Construction vs. Obstruction, and consult TABLE for the Outcome.
+        
+        DoS                 Outcome
+        ───────────────────────────────────────────────────────────────────────────────
+        Critical Success    Reduce Obstruction by 3
+        Total Success       Reduce Obstruction by 2
+        Partial Success     Reduce Obstruction by 1
+        Partial Failure     Nothing Happens
+        Total Failure       Take 1 Wound.
+        Critical Failure    Take 2 Wounds.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table X+4: Tearing Down Obstacles
+        
+        When the Characters reduce the Obstruction Rating to zero, the Obstacle is Cleared! The GQ Rolls Level. One Character adds Resources equal to the Successes.
+        
+        Leaving a Room with an Obstacle intact means that Entrance to the Room is unusable. No further Risks may be Faced until the Obstacle is torn down, or the Characters find another Entrance to the Room.
+        
+        _Multiple Obstacles_ If there are multiple Obstacle Risks to be faced in the same Room, they may be combined or assigned to different Exits. If the GQ decides to combine one or more Obstacles, she adds their Level together to create a single Obstacle. The GQ may combine and assign the Obstacles as she sees fit. If an Exit is blocked by an Obstacle, the Characters cannot leave through that Exit.
+      
+      3.2.4.2 Infection Risk
+      
+        When an Infection Risk is Faced, Roll STR + Healing vs. Level. A Character suffers a Negative Modifier to the Roll equal to her current Infected Rating, if any.
+        
+        If the Character Succeeds the Roll, nothing happens. If the Character Fails the Roll, she gains Infected equal to the Net Failures. See 2.6.8.11 for the rules on the Infected Effect.
+        
+        _Multiple Infection Risks_ If there are multiple Infection Risks to be faced in the same Room, their Levels add together and are faced as one. For Example, if two Level 3 Infection Risks are Generated, the Characters must Face a single Level 6 Infection Risk.
+      
+      3.2.4.3 Darkness Risk
+      
+        Some were born in the Darkness. Others have it thrust upon them. Darkness acts as a catchall force that acts against an Insect's senses. Sight, hearing, and even smell and touch are inhibited by the Darkness.
+        
+        When a Darkness Risk is Generated, the Room gains a Darkness Rating equal to the Level of the Room.
+        
+        A Character subject to Darkness suffers it as a Negative Modifier to all Efforts and Resistances that rely on awareness of her surroundings. This includes Perception Rolls, Attack Rolls, and Rolls to Resist Attacks. If a Character wishes to peer past the Darkness, she may Roll KEN + Perception. For each Success, she ignores that many Dots of Darkness.
+        
+        While in a Room with a Darkness Rating, a Character may Consume a Light Item to Reduce the Room's Darkness Rating by one for each Dot Consumed.
+        
+        Alternatively, Characters with the Light or Heat Attributes may exert themselves to use these Attributes to fight the Darkness. The Character Rolls the chosen Attribute and Reduces the Darkness for each Success. The Character then Increases her Hunger by one if she used Light, or two if she used Heat. This increase may result in the Character reaching 10 Hunger and Starving. If the Character is already Starving before this Increase, she DIES.
+        
+        _Multiple Darkness_ If the Characters face multiple Darkness Risks, the Darkness grows stronger. Add together the Levels of the Darkness Risks to achieve a single, greater Darkness, which the Characters must face.
+      
+      3.2.4.4.0 Encounter Risk
+      
+        You do not belong here. This is not your home. And it is dangerous. Or friendly. Or ambivalent. Whatever happens happens, you know?
+        
+        When an Encounter Risk is Faced, the GQ Rolls on the Encounter Table for the given Nest Type and Level, and places the chosen Creature in the Room.
+        
+        The Characters may devise many ways to engage with the Encounter. Here are several common possibilities and how to handle them:
+        
+        * Attack: Engage in Combat.
+        
+        * Avoid: Attempt to move through the Room without being noticed.
+        
+        * Intimidate: Convince the Creatures to flee the Room.
+        
+        * Negotiate: Convince the Creatures to provide an Item, Service, or Information.
+        
+        * Recruit: Convince the Creatures to Travel with the Party.
+        
+        This list is not meant to be all-encompassing, but will hopefully aid the budding GQ in navigating the infinite plans that the Characters may devise.
+        
+        3.2.4.4.1 Attack the Creatures
+        
+          The Characters charge in and Attack the Creatures. Combat begins between the Characters and any Hostile Creatures in the Room. See 3.1.0.0 for the rules on Combat.
+        
+        3.2.4.4.2 Avoid the Creatures
+        
+          The Characters may decide that they wish to Avoid the Encounter entirely. To do so, each Character in the Exploration Party Roll SPE + Stealth against the highest KEN + Perception among Creatures in the Room. Characters who Fail are discovered and the Creatures become Hostile - they must now try to weevil their way out of it or else engage in Combat. Characters who Succeed are Hidden, and may pass through the Room unseen. If Combat begins in the Room, the Hidden Characters begin Combat Hidden.
+          
+          If all of the Characters are Hidden, they may leave the Room without Engaging with the Creatures through any of the Room's Exits. The Creatures will remain if the Characters return to the Room later.
+          
+          Ambitious Characters may also wish to steal Food or Resources from under the antennae of the unwitting Creatures. To do so, they make the appropriate Roll to Harvest (See Section 3.3.0.0 Hunting & Foraging) as well as an additional SPE + Stealth vs. KEN + Perception Roll. If the Stealth Roll Succeeds, they Resolve the Harvest Action without being Discovered, and may continue being Hidden. If the Stealth Roll Fails, the Harvest Action is Resolved and the Character is immediately Discovered in the act.
+        
+        3.2.4.4.4 Intimidate the Creatures
+        
+          Mercenaries are tougher and scarier than many Bugs in the Meadows. Not everybug is equipped or willing for a fight. One Character Rolls PAS + Signaling. Each Creature in the Room rolls PAS + Psycho to Resist. Consult Table X+5 for guidance on the Outcome of the Roll:
+          
+          DoS                 Outcome
+          ───────────────────────────────────────────────────────────────────────────────
+          Critical Success    Creature Flees.
+          Total Success       Creature becomes Hostile and Recoils 2.
+          Partial Success     Creature becomes Hostile and Recoils 1.
+          Partial Failure     Creature becomes Hostile and Holds.
+          Total Failure       Creature becomes Hostile and Advances 1.
+          Critical Failure    Creature becomes Hostile and Advances 2.
+          ───────────────────────────────────────────────────────────────────────────────
+          Table X+5: Intimidation Results
+          
+          If a Creature Flees, she leaves through one of the Room's Exits. She may be encountered again if the Characters follow. Once Encountered again, she will be immediately Hostile, but will start at -1 Disposition.
+          
+          After any Creatures Flee, the "leader" of the remaining Creatures may Roll PAS + Signaling. Each Character Rolls PAS + Psycho to Resist. Consult Table X+5 for each Character. Combat then begins.
+          
+        3.2.4.4.4 Negotiate with the Creatures
+        
+          Characters may want what the Creatures guard, or may seek information. After stating the intent of their Negotiations with the Room's Creatures, one Character Rolls (KEN or PAS) + Eusociology. The "leader" of the Creatures in the Room Rolls PAS + Psycho to Resist. Consult Table X+6 for guidance on how to describe the Outcome of the Roll:
+          
+          DoS                 Outcome
+          ───────────────────────────────────────────────────────────────────────────────
+          Critical Success    Provide what is sought at no Cost;
+                              or at favorable Cost with an extra goodie on top. 
+          Total Success       Provide what is sought at favorable Cost.
+          Partial Success     Provide what is sought at reasonable Cost.
+          Partial Failure     Provide what is sought at a steep Cost.
+          Total Failure       No Deal.
+          Critical Failure    No Deal. The Creature becomes Hostile.
+          ───────────────────────────────────────────────────────────────────────────────
+          Table X+6: Negotiation Results
+          
+          Costs for Items, services, or information may come in the form of Food, Resources, or the Character's time (which is paid as an amount of Hunger). Alternatively, if the reward is significant enough, the Creatures may recruit the Characters for a sub-Job.
+          
+        3.2.4.4.5 Recruit the Creatures
     
-    3.2.3.1 Generating the Nest
+          Strength is in numbers, and numbers come from strength. The Characters may attempt to Recruit more Insects to their cause. One Character Rolls PAS + Leadership. Each Creature of her choice in the Room Rolls PAS + Psycho to Resist. Consult Table X+7 for guidance on Outcomes:
+          
+          DoS                 Outcome
+          ───────────────────────────────────────────────────────────────────────────────
+          Critical Success    Creature Advances 2 and Joins as a Companion.
+          Total Success       Creature Advances 1 and Joins as a Companion.
+          Partial Success     Creature Joins as a Companion.
+          Partial Failure     No Deal.
+          Total Failure       The Creature becomes Hostile.
+          Critical Failure    The Creature becomes Hostile and Advances 2.
+          ───────────────────────────────────────────────────────────────────────────────
+          Table X+7: Negotiation Results
+          
+          _Companions_ A Companion is controlled by the Players. She Travels, Fights, and Explores by the Party's side. She does not gain Metamorphosis Points, but she does gain Hunger. Whenever Combat Ends, a Companion Rolls PAS + Hunger - Disposition against a PAS + Leadership Roll from one Character. If she Succeeds, she abandons the Party. When a Companion reaches 10 Hunger, she abandons the Party.
+          
+    3.2.5.0 Reward Events
     
+      3.2.5.1 Food Item Reward
       
-    
-    3.2.3.2 Survival & Exploration Steps in a Manually Generated Nest
-    
-      1. Form an Exploration Party.
+        When a Food Reward is Generated, determine if it is a Known or Unknown Item. If it is a Known Item, randomly select a Food Item the Party has already Identified. If it is an Unknown Item, randomly determine its Form (See Section 2.6.9.4.3). In either case, use the Room's Level for the Food's Level.
+        
+        _Multiple Foods_ If multiple Food Rewards are Generated in a Room, they combine into one Food Reward. Increase the Level of the Food for each Food Reward beyond the First.
       
-      2. Resolve the Exploration Action.
+      3.2.5.2 Resource Reward
       
-      3. Face Risks.
+        When a Resource Reward is generated, make a note that the Room has Building Resources available. Each Resource in the Room may be Harvested up to three times. See Section 3.3.0.0 for Hunting & Foraging.
       
-      4. Survival & Exploration Ends.
+      3.2.5.3 Level Reward
       
-  3.2.4.0 Risk Events
-  
-    3.2.4.1 Obstacle Risk
-    
-      When an Obstacle Risk is Faced, an Obstacle prevents the Characters from moving further into the Room. The Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
-      
-      A Character who wishes to Tear Down the Obstacle may Roll (STR or KEN) + Construction vs. Obstruction, and consult TABLE for the Outcome.
-      
-      DoS                 Outcome
-      ───────────────────────────────────────────────────────────────────────────────
-      Critical Success    Reduce Obstruction by 3
-      Total Success       Reduce Obstruction by 2
-      Partial Success     Reduce Obstruction by 1
-      Partial Failure     Nothing Happens
-      Total Failure       Take 1 Wound.
-      Critical Failure    Take 2 Wounds.
-      ───────────────────────────────────────────────────────────────────────────────
-      Table X+4: Tearing Down Obstacles
-      
-      When the Characters reduce the Obstruction Rating to zero, the Obstacle is Cleared! The GQ Rolls Level. One Character adds Resources equal to the Successes.
-      
-      Leaving a Room with an Obstacle intact means that Entrance to the Room is unusable. No further Risks may be Faced until the Obstacle is torn down, or the Characters find another Entrance to the Room.
-      
-      _Multiple Obstacles_ If there are multiple Obstacle Risks to be faced in the same Room, they may be combined or assigned to different Exits. If the GQ decides to combine one or more Obstacles, she adds their Level together to create a single Obstacle. The GQ may combine and assign the Obstacles as she sees fit. If an Exit is blocked by an Obstacle, the Characters cannot leave through that Exit.
-    
-    3.2.4.2 Infection Risk
-    
-      When an Infection Risk is Faced, Roll STR + Healing vs. Level. A Character suffers a Negative Modifier to the Roll equal to her current Infected Rating, if any.
-      
-      If the Character Succeeds the Roll, nothing happens. If the Character Fails the Roll, she gains Infected equal to the Net Failures. See 2.6.8.11 for the rules on the Infected Effect.
-      
-      _Multiple Infection Risks_ If there are multiple Infection Risks to be faced in the same Room, their Levels add together and are faced as one. For Example, if two Level 3 Infection Risks are Generated, the Characters must Face a single Level 6 Infection Risk.
-    
-    3.2.4.3 Darkness Risk
-    
-      Some were born in the Darkness. Others have it thrust upon them. Darkness acts as a catchall force that acts against an Insect's senses. Sight, hearing, and even smell and touch are inhibited by the Darkness.
-      
-      When a Darkness Risk is Generated, the Room gains a Darkness Rating equal to the Level of the Room.
-      
-      A Character subject to Darkness suffers it as a Negative Modifier to all Efforts and Resistances that rely on awareness of her surroundings. This includes Perception Rolls, Attack Rolls, and Rolls to Resist Attacks. If a Character wishes to peer past the Darkness, she may Roll KEN + Perception. For each Success, she ignores that many Dots of Darkness.
-      
-      While in a Room with a Darkness Rating, a Character may Consume a Light Item to Reduce the Room's Darkness Rating by one for each Dot Consumed.
-      
-      Alternatively, Characters with the Light or Heat Attributes may exert themselves to use these Attributes to fight the Darkness. The Character Rolls the chosen Attribute and Reduces the Darkness for each Success. The Character then Increases her Hunger by one if she used Light, or two if she used Heat. This increase may result in the Character reaching 10 Hunger and Starving. If the Character is already Starving before this Increase, she DIES.
-      
-      _Multiple Darkness_ If the Characters face multiple Darkness Risks, the Darkness grows stronger. Add together the Levels of the Darkness Risks to achieve a single, greater Darkness, which the Characters must face.
-    
-    3.2.4.4 Encounter Risk
-    
-      You do not belong here. This is not your home. And it is dangerous. Or friendly. Or ambivalent. Whatever happens happens, you know?
-      
-      When an Encounter Risk is Faced, the GQ Rolls on the Encounter Table for the given Nest Type and Level, and places the chosen Creature in the Room.
-      
-      The Creature may initially be Friendly to the Characters, Hostile, or Neutral. Which of these it is depends on the GQ's interpretation of the situation.
-      
-      
-  
-  3.2.5.0 Reward Events
-  
-    3.2.5.1 Food Item Reward
-    
-    3.2.5.2 Resource Reward
-    
-    3.2.5.3 Level Reward
+        When a Level Reward is Generated, add an Exit to the Room that leads to a Room one Level higher.
+        
+        _Multiple Levels_ If multiple Level Rewards are Generated in a Room, they combine into a single Level Reward. For each Level Reward, the Level of the new Room increases by one.
