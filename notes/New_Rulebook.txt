@@ -1087,32 +1087,24 @@
         
   3.2.0.0 Survival & Exploration
       
-    ║ The Survival and Exploration Minigame defines rules for the procedural generation of a    ║
-    ║ Nest's environment. During the Survival and Exploration Minigame, Characters explore the  ║
-    ║ Nest, while players and the GQ Roll dice to determine what the Characters find.           ║
-
-    ║ In Nests & Insects procedural generation is an abstraction: no floor plans or maps are    ║
-    ║ generated. Instead what is generated are the Features of game entities, including the     ║
-    ║ spaces inside the Nests, the creatures that roam them, and items that populate them.      ║
-    Nest & Insects: Metamorphosis provides rules for the basic procedural generation of Rooms and Floor Plans.
-  
-    3.2.1.0 How Procedural Generation Works
+    The Survival & Exploration Minigame defines rules for the manual or Procedural Generation of a Nest's Environment. During the Survival & Exploration Minigame, Characters explore the Nest and the GQ describes what the Characters find.
     
-      The core mechanic of procedural generation is Rolling on tables. The players or the GQ Roll a d10 and cross-reference the result with the rows of a table. The table lists what the Characters find and what happens to them while they Explore the Nest.
-      
-      ║ _Exploration Action_ Survival and Exploration starts with an Exploration Action. This     ║
-      ║ Action is resolved by a full Qualification Roll and its outcome determines the types, and ║
-      ║ numbers, of Events that occur as the Characters explore the Nest. There are three types   ║
-      ║ of Events: Costs, Risks and Rewards. Each Exploration Action may cause up to three Events  ║
-      ║ to occur. A better DoS to the Exploration Action causes more Rewards to occur while a     ║
-      ║ worse one causes more Costs and Risks to occur.                                           ║
-      
-      _Chance of Events_ The Chance for an Event to occur can change depending on the current Nest Level. Each Event has a base number, and either adds or subtracts the current Nest Level. In this way, Events become more likely the further the Characters venture further, while some become less likely.
-      
-      _Rolling for Events_ Once the type and number of Events is determined, the players Roll on the relevant Event tables to find which specific events occur. For each Event to be generated, Roll a d10 and look up the result on the relevant Table. Each Event with a Chance greater than or equal to the d10 Roll is generated. Thus, multiple Events may occur as a result of a single Exploration Action.
-      
-      Events are listed in TABLES in 3.2.6.0.
-      
+    Procedural Generation is an abstraction: no Floor Plans or Maps are Generated. Instead what is Generated are the Features of game entities, including the spaces inside the Nests, the Creatures that roam them, and Items that populate them.
+    
+    Nests & Insects: Metamorphosis provides rules for the basic Procedural Generation of Rooms and Floor Plans, as well as guidance for how to craft them by your own hand.
+    
+    This Section is divided into the following parts:
+    
+    * 3.2.1.0 The Nest Environment
+    
+    * 3.2.2.0 Survival & Exploration - Procedural Generation
+    
+    * 3.2.3.0 Survival & Exploration - Manual Generation
+    
+    * 3.2.4.0 Risk Events
+    
+    * 3.2.5.0 Reward Events
+  
     3.2.2.0 The Nest Environment
     
       A Nest is an environment that consists of multiple Nest Levels,each comprised of one or more Rooms, as well as Passages, Shortcuts, and Shafts connecting Rooms between them, and connecting a Level to other Levels.
