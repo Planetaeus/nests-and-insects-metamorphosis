@@ -1309,6 +1309,139 @@
       
         Nothing special happens at the end of Survival & Exploration, except that the Room has now been Explored. Characters are now free to once again take any Actions they choose.
         
+    3.2.4.0 Risk Events
+    
+      3.2.4.1 Obstacle Risk
+      
+        When an Obstacle Risk is Faced, an Obstacle prevents the Characters from moving further into the Room. The Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
+        
+        A Character who wishes to Tear Down the Obstacle may Roll (STR or KEN) + Construction vs. Obstruction, and consult TABLE for the Outcome.
+        
+        DoS                 Outcome
+        ───────────────────────────────────────────────────────────────────────────────
+        Critical Success    Reduce Obstruction by 3
+        Total Success       Reduce Obstruction by 2
+        Partial Success     Reduce Obstruction by 1
+        Partial Failure     Nothing Happens
+        Total Failure       Take 1 Wound.
+        Critical Failure    Take 2 Wounds.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table X+4: Tearing Down Obstacles
+        
+        When the Characters reduce the Obstruction Rating to zero, the Obstacle is Cleared! The GQ Rolls Level. One Character adds Resources equal to the Successes.
+        
+        Leaving a Room with an Obstacle intact means that Entrance to the Room is unusable. No further Risks may be Faced until the Obstacle is torn down, or the Characters find another Entrance to the Room.
+        
+        _Multiple Obstacles_ If there are multiple Obstacle Risks to be faced in the same Room, they may be combined or assigned to different Exits. If the GQ decides to combine one or more Obstacles, she adds their Level together to create a single Obstacle. The GQ may combine and assign the Obstacles as she sees fit. If an Exit is blocked by an Obstacle, the Characters cannot leave through that Exit.
+      
+      3.2.4.2 Infection Risk
+      
+        When an Infection Risk is Faced, Roll STR + Healing vs. Level. A Character suffers a Negative Modifier to the Roll equal to her current Infected Rating, if any.
+        
+        If the Character Succeeds the Roll, nothing happens. If the Character Fails the Roll, she gains Infected equal to the Net Failures. See 2.6.8.11 for the rules on the Infected Effect.
+        
+        _Multiple Infection Risks_ If there are multiple Infection Risks to be faced in the same Room, their Levels add together and are faced as one. For Example, if two Level 3 Infection Risks are Generated, the Characters must Face a single Level 6 Infection Risk.
+      
+      3.2.4.3 Darkness Risk
+      
+        Some were born in the Darkness. Others have it thrust upon them. Darkness acts as a catchall force that acts against an Insect's senses. Sight, hearing, and even smell and touch are inhibited by the Darkness.
+        
+        When a Darkness Risk is Generated, the Room gains a Darkness Rating equal to the Level of the Room.
+        
+        A Character subject to Darkness suffers it as a Negative Modifier to all Efforts and Resistances that rely on awareness of her surroundings. This includes Perception Rolls, Attack Rolls, and Rolls to Resist Attacks. If a Character wishes to peer past the Darkness, she may Roll KEN + Perception. For each Success, she ignores that many Dots of Darkness.
+        
+        While in a Room with a Darkness Rating, a Character may Consume a Light Item to Reduce the Room's Darkness Rating by one for each Dot Consumed.
+        
+        Alternatively, Characters with the Light or Heat Attributes may exert themselves to use these Attributes to fight the Darkness. The Character Rolls the chosen Attribute and Reduces the Darkness for each Success. The Character then Increases her Hunger by one if she used Light, or two if she used Heat. This increase may result in the Character reaching 10 Hunger and Starving. If the Character is already Starving before this Increase, she DIES.
+        
+        _Multiple Darkness_ If the Characters face multiple Darkness Risks, the Darkness grows stronger. Add together the Levels of the Darkness Risks to achieve a single, greater Darkness, which the Characters must face.
+      
+      3.2.4.4.0 Encounter Risk
+      
+        You do not belong here. This is not your home. And it is dangerous. Or friendly. Or ambivalent. Whatever happens happens, you know?
+        
+        When an Encounter Risk is Faced, the GQ Rolls on the Encounter Table for the given Nest Type and Level, and places the chosen Creature in the Room.
+        
+        The Characters may devise many ways to engage with the Encounter. Here are several common possibilities and how to handle them:
+        
+        * Attack: Engage in Combat.
+        
+        * Avoid: Attempt to move through the Room without being noticed.
+        
+        * Intimidate: Convince the Creatures to flee the Room.
+        
+        * Negotiate: Convince the Creatures to provide an Item, Service, or Information.
+        
+        * Recruit: Convince the Creatures to Travel with the Party.
+        
+        This list is not meant to be all-encompassing, but will hopefully aid the budding GQ in navigating the infinite plans that the Characters may devise.
+        
+        3.2.4.4.1 Attack the Creatures
+        
+          The Characters charge in and Attack the Creatures. Combat begins between the Characters and any Hostile Creatures in the Room. See 3.1.0.0 for the rules on Combat.
+        
+        3.2.4.4.2 Avoid the Creatures
+        
+          The Characters may decide that they wish to Avoid the Encounter entirely. To do so, each Character in the Exploration Party Roll SPE + Stealth against the highest KEN + Perception among Creatures in the Room. Characters who Fail are discovered and the Creatures become Hostile - they must now try to weevil their way out of it or else engage in Combat. Characters who Succeed are Hidden, and may pass through the Room unseen. If Combat begins in the Room, the Hidden Characters begin Combat Hidden.
+          
+          If all of the Characters are Hidden, they may leave the Room without Engaging with the Creatures through any of the Room's Exits. The Creatures will remain if the Characters return to the Room later.
+          
+          Ambitious Characters may also wish to steal Food or Resources from under the antennae of the unwitting Creatures. To do so, they make the appropriate Roll to Harvest (See Section 3.3.0.0 Hunting & Foraging) as well as an additional SPE + Stealth vs. KEN + Perception Roll. If the Stealth Roll Succeeds, they Resolve the Harvest Action without being Discovered, and may continue being Hidden. If the Stealth Roll Fails, the Harvest Action is Resolved and the Character is immediately Discovered in the act.
+        
+        3.2.4.4.4 Intimidate the Creatures
+        
+          Mercenaries are tougher and scarier than many Bugs in the Meadows. Not everybug is equipped or willing for a fight. One Character Rolls PAS + Signaling. Each Creature in the Room rolls PAS + Psycho to Resist. Consult Table X+5 for guidance on the Outcome of the Roll:
+          
+          DoS                 Outcome
+          ───────────────────────────────────────────────────────────────────────────────
+          Critical Success    Creature Flees.
+          Total Success       Creature becomes Hostile and Recoils 2.
+          Partial Success     Creature becomes Hostile and Recoils 1.
+          Partial Failure     Creature becomes Hostile and Holds.
+          Total Failure       Creature becomes Hostile and Advances 1.
+          Critical Failure    Creature becomes Hostile and Advances 2.
+          ───────────────────────────────────────────────────────────────────────────────
+          Table X+5: Intimidation Results
+          
+          If a Creature Flees, she leaves through one of the Room's Exits. She may be encountered again if the Characters follow. Once Encountered again, she will be immediately Hostile, but will start at -1 Disposition.
+          
+          After any Creatures Flee, the "leader" of the remaining Creatures may Roll PAS + Signaling. Each Character Rolls PAS + Psycho to Resist. Consult Table X+5 for each Character. Combat then begins.
+          
+        3.2.4.4.4 Negotiate with the Creatures
+        
+          Characters may want what the Creatures guard, or may seek information. After stating the intent of their Negotiations with the Room's Creatures, one Character Rolls (KEN or PAS) + Eusociology. The "leader" of the Creatures in the Room Rolls PAS + Psycho to Resist. Consult Table X+6 for guidance on how to describe the Outcome of the Roll:
+          
+          DoS                 Outcome
+          ───────────────────────────────────────────────────────────────────────────────
+          Critical Success    Provide what is sought at no Cost;
+                              or at favorable Cost with an extra goodie on top. 
+          Total Success       Provide what is sought at favorable Cost.
+          Partial Success     Provide what is sought at reasonable Cost.
+          Partial Failure     Provide what is sought at a steep Cost.
+          Total Failure       No Deal.
+          Critical Failure    No Deal. The Creature becomes Hostile.
+          ───────────────────────────────────────────────────────────────────────────────
+          Table X+6: Negotiation Results
+          
+          Costs for Items, services, or information may come in the form of Food, Resources, or the Character's time (which is paid as an amount of Hunger). Alternatively, if the reward is significant enough, the Creatures may recruit the Characters for a sub-Job.
+          
+        3.2.4.4.5 Recruit the Creatures
+    
+          Strength is in numbers, and numbers come from strength. The Characters may attempt to Recruit more Insects to their cause. One Character Rolls PAS + Leadership. Each Creature of her choice in the Room Rolls PAS + Psycho to Resist. Consult Table X+7 for guidance on Outcomes:
+          
+          DoS                 Outcome
+          ───────────────────────────────────────────────────────────────────────────────
+          Critical Success    Creature Advances 2 and Joins as a Companion.
+          Total Success       Creature Advances 1 and Joins as a Companion.
+          Partial Success     Creature Joins as a Companion.
+          Partial Failure     No Deal.
+          Total Failure       The Creature becomes Hostile.
+          Critical Failure    The Creature becomes Hostile and Advances 2.
+          ───────────────────────────────────────────────────────────────────────────────
+          Table X+7: Negotiation Results
+          
+          _Companions_ A Companion is controlled by the Players. She Travels, Fights, and Explores by the Party's side. She does not gain Metamorphosis Points, but she does gain Hunger. Whenever Combat Ends, a Companion Rolls PAS + Hunger - Disposition against a PAS + Leadership Roll from one Character. If she Succeeds, she abandons the Party. When a Companion reaches 10 Hunger, she abandons the Party.
+          
 ║   3.3.0.0 Hunting & Foraging (TBD)..................................................142 ║
     
     In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job. Each instance of an Item only has one Chance to be harvested.
