@@ -149,7 +149,8 @@
       Strength (STR)  Physical strength and toughness; Push, pull, break, and endure harm.      
       Ken      (KEN)  Wisdom and Logic; reasoning and knowledge of the world.                   
       Passions (PAS)  Willpower, morale, strength of spirit, courage, and influence             
-      ───────────────────────────────────────────────────────────────────────────────────────   
+      ───────────────────────────────────────────────────────────────────────────────────────  
+      Table 2: Core Attributes
 
     2.3.3.0 Special Attributes Box
     
@@ -193,7 +194,7 @@
       
     2.3.5.0 Common Attributes Box
       
-      The Common Attributes box lists Attributes common to all Character classes. TABLE briefly describes Common Attributes and their use. Section 2.6.2.0 describes the Common Attributes in more detail.
+      The Common Attributes box lists Attributes common to all Character classes. Table 2 briefly lists Common Attributes and their use. Section 2.6.2.0 describes the Common Attributes in more detail.
       
       Common Attributes  Description                                                
       ──────────────────────────────────────────────────────────────────────────────
@@ -208,6 +209,7 @@
       Signalling         Display aposematic markings, emit pheromonic signals       
       Sneaking           Move and act with stealth                                  
       ──────────────────────────────────────────────────────────────────────────────
+      Table 3: Common Attributes.
     
     2.3.6.0 Effects Box
     
@@ -225,7 +227,8 @@
       Paralysed  ...cannot take any Actions except to Resist                             
       Poisoned   ...has a negative modifier equal to Poisoned to all Actions             
       Shocks     ...has Shocks as a negative modifier to all Close and Ranged Attacks    
-      ──────────────────────────────────────────────────────────────────────             
+      ──────────────────────────────────────────────────────────────────────       
+      Table 4: Effects.
 
     2.3.7.0 Disposition Track
     
@@ -544,7 +547,8 @@
         Partial Failure          Effect remains                           
         Complete Failure         Effect Triggers.                         
         Critical Failure         Increase Effect 1. Effect Triggers.      
-        ───────────────────────────────────────────────────────────────   
+        ───────────────────────────────────────────────────────────────
+        Table 5: DoS for Resisting Effects.
                                                                           
         Effect-specific Effort variables:                                 
                                                                           
@@ -560,7 +564,8 @@
         Paralysed          Speed                                          
         Poisoned           Strength + Plant                               
         Shocked            Passions + Static                              
-        ──────────────────────────────────────────────                    
+        ──────────────────────────────────────────────
+        Table 6: Effort Variables to Resist Effects.
       
       2.6.8.4 Triggered Effect
         
@@ -717,7 +722,7 @@
           5         White          
           6         Yellow         
           ─────────────────────────
-          Table 10: Food Colours   
+          Table 7: Food Colours   
           
           2. Generate the Item's Food Type
           
@@ -732,7 +737,7 @@
             4        Fungus         9       Worm        
             5        Leaf          10       Larva       
           ──────────────────────  ──────────────────────
-          Table 11: Food Types                          
+          Table 8: Food Types                          
             
         2.6.9.4.4 Identifying Food Items
         
@@ -776,7 +781,7 @@
             3-4       Ordinary    No special properties.                                           
             5-6       Blessed     Roll on the Blessings Table to determine Blessing.               
           ──────────────────────────────────────────────────────────────────────────────────       
-          Table 12: Item Conditions                                                                
+          Table 9: Item Conditions                                                                
 
           2. Generate the Item's Alignment and Abilities
           
@@ -788,7 +793,7 @@
           3-4          Relief - reduce an Effect.                                                  
           5-6          Metamorphosis - Party Gains MP.                                             
           ──────────────────────────────────────────────────────────────────────────────────────   
-          Table 14: Blessings                                                                      
+          Table 10: Blessings                                                                      
           
           _Healing Items_ When a Character Consumes a Food Item with the Healing Blessing, each dot consumed reduces her wounds by the Rating of the Item.
           
@@ -877,7 +882,7 @@
         Partial/Total/Critical Success   Advance 1/2/3                                           
         Failure                          Recoil 1.                                               
         ──────────────────────────────────────────────────                                       
-        Table 23: Starting Disposition.                                                          
+        Table 11: Starting Disposition.                                                          
 
       3.1.2.3 Initiative Order
       
@@ -962,7 +967,8 @@
         Partial Failure      Target Holds          Nothing Happens                               
         Complete Failure     Target Advances 1     Gain Charmed / Confused: 1                    
         Critical Failure     Target Advances 2     Gain Charmed / Confused: 2                    
-        ──────────────────────────────────────────────────────────────────────────────           
+        ──────────────────────────────────────────────────────────────────────────────
+        Table 12: DoS for Suppress Action
                                                                                                  
         Suppress Action-specific Effort, Resistance and modifier Features:                       
                                                                                                  
@@ -971,7 +977,8 @@
         Charm         Passions + Leadership     Passions + Psycho                                
         Confuse       Ken + Eusociology         Ken + Psycho                                     
         Intimidate    Passions + Signaling      Passions + Psycho                                
-        ──────────────────────────────────────────────────────────────                           
+        ──────────────────────────────────────────────────────────────
+        Table 13: Effort Variables for Suppress Action
 
       3.1.2.7 Support Action
       
@@ -1003,7 +1010,8 @@
         Partial Failure      No Effect                     Effect remains                        
         Total Failure        Ally Recoils 1                Increase Effect 1                     
         Critical Failure     Ally Recoils 2                Increase Effect 2                     
-        ─────────────────────────────────────────────────────────────────────────────────────────                                                                                          
+        ─────────────────────────────────────────────────────────────────────────────────────────
+        Table 14: DoS for Support Action
                                                                                                  
         Support Action-specific Effort, Resistance and modifier Features:                        
                                                                                                  
@@ -1012,7 +1020,8 @@
         Encourage      Passions + Leadership   Passions                                          
         Focus          Ken + Signaling         Confused                                          
         Shake          Passions + Eusociology  Charmed                                           
-        ───────────────────────────────────────────────────────────────                          
+        ───────────────────────────────────────────────────────────────
+        Table 15: Effort Variables for Support Action
 
       3.1.2.8 Resist Action
       
@@ -1138,7 +1147,7 @@
         01    02    No
         03    00    No          
         ─────────────────────────────────────────────────────────────────────────────────────
-        Table X: Environment Pool - Rooms and their Contents
+        Table 16: Environment Pool - Rooms and their Contents
         
         Room A  Exit  Room B  Exit
         ─────────────────────────────────────────────────────────────────────────────────────
@@ -1149,7 +1158,7 @@
           0101     2    0300     0
           0300     0    0101     2
         ─────────────────────────────────────────────────────────────────────────────────────
-        Table X+1: Environment Pool - Passages
+        Table 17: Environment Pool - Passages
         
         In Table X, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in Table X above, the Players have noted that Room 0101 was Secured, and what they found there.
         
@@ -1235,7 +1244,7 @@
           5    Darkness     Obscures senses.
           6    Infection    Bestows the Infection Effect.
         ───────────────────────────────────────────────────────────────────────────────
-        Table X+2: Risk Generation
+        Table 18: Risk Generation
               
         _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls multiple times to determine what Creatures the Players come across.
         
@@ -1250,7 +1259,7 @@
         4-5    Resources      Find Resources that can be Harvested.
           6    Level          Entrance to a new, more advanced Nest Level.
         ───────────────────────────────────────────────────────────────────────────────
-        Table X+3: Reward Generation
+        Table 19: Reward Generation
         
         _Multiple Food Items_ If multiple Food Item Rewards are Generated, each one beyond the first increases the Food's Level by 1.
         
@@ -1322,7 +1331,7 @@
         Total Failure       Take 1 Wound.
         Critical Failure    Take 2 Wounds.
         ───────────────────────────────────────────────────────────────────────────────
-        Table X+4: Tearing Down Obstacles
+        Table 20: Tearing Down Obstacles
         
         When the Characters reduce the Obstruction Rating to zero, the Obstacle is Cleared! The GQ Rolls Level. One Character adds Resources equal to the Successes.
         
@@ -1397,7 +1406,7 @@
           Total Failure       Creature becomes Hostile and Advances 1.
           Critical Failure    Creature becomes Hostile and Advances 2.
           ───────────────────────────────────────────────────────────────────────────────
-          Table X+5: Intimidation Results
+          Table 21: Intimidation Results
           
           If a Creature Flees, she leaves through one of the Room's Exits. She may be encountered again if the Characters follow. Once Encountered again, she will be immediately Hostile, but will start at -1 Disposition.
           
@@ -1417,7 +1426,7 @@
           Total Failure       No Deal.
           Critical Failure    No Deal. The Creature becomes Hostile.
           ───────────────────────────────────────────────────────────────────────────────
-          Table X+6: Negotiation Results
+          Table 22: Negotiation Results
           
           Costs for Items, services, or information may come in the form of Food, Resources, or the Character's time (which is paid as an amount of Hunger). Alternatively, if the reward is significant enough, the Creatures may recruit the Characters for a sub-Job.
           
@@ -1434,7 +1443,7 @@
           Total Failure       The Creature becomes Hostile.
           Critical Failure    The Creature becomes Hostile and Advances 2.
           ───────────────────────────────────────────────────────────────────────────────
-          Table X+7: Negotiation Results
+          Table 23: Negotiation Results
           
           _Companions_ A Companion is controlled by the Players. She Travels, Fights, and Explores by the Party's side. She does not gain Metamorphosis Points, but she does gain Hunger. Whenever Combat Ends, a Companion Rolls PAS + Hunger - Disposition against a PAS + Leadership Roll from one Character. If she Succeeds, she abandons the Party. When a Companion reaches 10 Hunger, she abandons the Party.
 
