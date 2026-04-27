@@ -1467,9 +1467,9 @@
           
   3.3.0.0 Hunting & Foraging
     
-    In Exploration & Survival the Characters determine what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
+    In Exploration & Survival the Characters discover what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
     
-    Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest and they Roll the appropriate Attribute for that type of Item.
+    Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest. The Effort of the Roll will change depending on whether they want to Forage for Plant or Fungus matter, Hunt or Scavenge for prey, or Gather Resources.
     
     Degree of Success  Outcome                                                   
     ─────────────────────────────────────────                                    
@@ -1480,15 +1480,17 @@
     Total Failure      Chance Wasted. Increase Hunger by 1.                      
     Critical Failure   Chance Wasted. Increase Hunger by 2.                     
     ─────────────────────────────────────────                                   
-    Table 1: Four Degrees of Success.                                            
+    Table 24: Hunting & Foraging Degrees of Success. 
+                                                                               
+    Action            Effort                        Resistance                                        
+    ───────────────────────────────────────────────────────────────                          
+    Forage or Harvest (STR or KEN) + Foraging       Level                                          
+    Hunt or Scavenge  (SPE or PAS) + Hunting        Level
+    Gather            (STR or KEN) + Construction   Level
+    ───────────────────────────────────────────────────────────────                                    
+    Table 25: Hunting & Foraging Effort Variables. 
    
     The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts have wasted one of the Room's Chances. On a Total Failure, the Character wastes her Chance and is also Hungry from the effort. On a Critical Failure, the Character's Chance is wasted and her Hunger is increased substantially.
-    
-    _Foraging Plants_ To Harvest an Herbivore Food Item, the Character Rolls (STR or KEN) + Foraging vs Level.
-    
-    _Hunting Prey_ To Harvest an Insectivore Food Item, the Character Rolls (SPE or PAS) + Hunting vs Level.
-    
-    _Gathering Building Resources_ To Harvest Building Resources, the Character Rolls (STR or KEN) + Construction vs Level.
     
   3.4.0.0 Resting & Healing
 
