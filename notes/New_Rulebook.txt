@@ -2150,6 +2150,9 @@
         Fungal Bungle
         Requirements: Plant 3
         
+        Healing Honey
+        Requirements: Plant 3, Healing 3
+        
         Sap Trap
         Requirements: Plant 6, Web 6
         
