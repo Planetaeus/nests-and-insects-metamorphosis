@@ -2008,7 +2008,7 @@
         
       5.2.1.4 Passions Attacks
         Bolster
-        Requirements: PAS 6, Leadership 6
+        Requirements: PAS 4, Leadership 4
         
         Fury
         Requirements: PAS 5
@@ -2020,7 +2020,7 @@
         Requirements: PAS 3
         
         Rout
-        Requirements: PAS 6, Signaling 6
+        Requirements: PAS 4, Signaling 4
         
     5.2.2.0 Special Attributes
       5.2.2.1 Carapace Attacks
