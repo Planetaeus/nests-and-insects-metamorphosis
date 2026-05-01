@@ -1162,7 +1162,7 @@
         
         In Table X, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in Table X above, the Players have noted that Room 0101 was Secured, and what they found there.
         
-        Table X+1 provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
+        Table 17 provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
         
         _Moving Between Rooms_ The Travel Minigame (Section 3.5.0.0) establishes the rules for moving between Rooms. 
         
@@ -1395,7 +1395,7 @@
         
         3.2.4.4.4 Intimidate the Creatures
         
-          Mercenaries are tougher and scarier than many Bugs in the Meadows. Not everybug is equipped or willing for a fight. One Character Rolls PAS + Signaling. Each Creature in the Room rolls PAS + Psycho to Resist. Consult Table X+5 for guidance on the Outcome of the Roll:
+          Mercenaries are tougher and scarier than many Bugs in the Meadows. Not everybug is equipped or willing for a fight. One Character Rolls PAS + Signaling. Each Creature in the Room Rolls PAS + Psycho to Resist. Consult Table 21 for guidance on the Outcome of the Roll for each Creature:
           
           DoS                 Outcome
           ───────────────────────────────────────────────────────────────────────────────
@@ -1410,7 +1410,7 @@
           
           If a Creature Flees, she leaves through one of the Room's Exits. She may be encountered again if the Characters follow. Once Encountered again, she will be immediately Hostile, but will start at -1 Disposition.
           
-          After any Creatures Flee, the "leader" of the remaining Creatures may Roll PAS + Signaling. Each Character Rolls PAS + Psycho to Resist. Consult Table X+5 for each Character. Combat then begins.
+          After any Creatures Flee, the "leader" of the remaining Creatures may Roll PAS + Signaling. Each Character Rolls PAS + Psycho to Resist. Consult Table 21 for each Character. Combat then begins.
           
         3.2.4.4.4 Negotiate with the Creatures
         
