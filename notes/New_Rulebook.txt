@@ -1414,7 +1414,7 @@
           
         3.2.4.4.4 Negotiate with the Creatures
         
-          Characters may want what the Creatures guard, or may seek information. After stating the intent of their Negotiations with the Room's Creatures, one Character Rolls (KEN or PAS) + Eusociology. The "leader" of the Creatures in the Room Rolls PAS + Psycho to Resist. Consult Table X+6 for guidance on how to describe the Outcome of the Roll:
+          Characters may want what the Creatures guard, or may seek information. After stating the intent of their Negotiations with the Room's Creatures, one Character Rolls (KEN or PAS) + Eusociology. The "leader" of the Creatures in the Room Rolls PAS + Psycho to Resist. Consult Table 22 for guidance on how to describe the Outcome of the Roll:
           
           DoS                 Outcome
           ───────────────────────────────────────────────────────────────────────────────
@@ -1432,7 +1432,7 @@
           
         3.2.4.4.5 Recruit the Creatures
     
-          Strength is in numbers, and numbers come from strength. The Characters may attempt to Recruit more Insects to their cause. One Character Rolls PAS + Leadership. Each Creature of her choice in the Room Rolls PAS + Psycho to Resist. Consult Table X+7 for guidance on Outcomes:
+          Strength is in numbers, and numbers come from strength. The Characters may attempt to Recruit more Insects to their cause. One Character Rolls PAS + Leadership. Each Creature of her choice in the Room Rolls PAS + Psycho to Resist. Consult Table 23 for guidance on Outcomes:
           
           DoS                 Outcome
           ───────────────────────────────────────────────────────────────────────────────
