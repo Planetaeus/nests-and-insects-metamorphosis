@@ -2133,12 +2133,12 @@
     Burning Blaze
     Range: Area
     Requirements: Heat 5
-    Roll Heat + TR. Each Insect within Successes Hexes Rolls SPE + TR to Resist, then gains Wounds and Burns for each Net Success.
+    Roll Heat + TR. Each Insect within Successes Hexes Rolls SPE + SR to Resist, then gains Wounds and Burns for each Net Success.
     
     Burning Blow
     Range: Close
     Requirements: Heat 3
-    Roll Heat + TR vs. SPE + TR against an adjacent Insect. The target gains Wounds and Burns for each Net Success.
+    Roll Heat + TR vs. SPE + SR against an adjacent Insect. The target gains Wounds and Burns for each Net Success.
     
     Chilling Blast
     Range: Area
@@ -2173,7 +2173,7 @@
     Flythrough
     Range: Close
     Requirements: Flight 3
-    Roll Flight + TR vs. STR + TR against an adjacent Insect. The target gains Wounds for each Net Success. Move Flight Hexes.
+    Roll Flight + TR vs. STR + SR against an adjacent Insect. The target gains Wounds for each Net Success. Move Flight Hexes.
     
     Fontanellar Bomb
     Range: Area
@@ -2208,22 +2208,27 @@
     Gust
     Range: Area
     Requirements: Flight 5
-    Roll Flight + TR. Each Insect in a line within Flight Hexes Rolls STR + TR to Resist, then gains Wounds and is Pushed 1 for each Net Success.
+    Roll Flight + TR. Each Insect in a line within Flight Hexes Rolls STR + SR to Resist, then gains Wounds and is Pushed 1 for each Net Success.
     
     Healing Dose
     Range: Close
-    Requirements: Healing 3, Toxic 3
+    Requirements: Healing 4, Toxic 4
     Roll Toxic + Healing + TR vs. PAS + SR against an adjacent Insect. The target heals Wounds for each Net Success.
+    
+    Healing Honey
+    Range: Close
+    Requirements: Healing 4, Plant 4
+    Roll Plant + Healing + TR vs. STR + SR against an adjacent Insect. The target heals Wounds for each Net Success.
     
     Hercules Toss
     Range: Close
     Requirements: STR 7
-    Roll STR + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and is Pushed 1 in any direction for each Net Success. If the Insect collides with another Insect or an Obstacle before it stops moving, the Insect(s) gain Wounds equal to the remaining Hexes.
+    Roll STR + TR vs. STR + SR against an adjacent Insect. The target gains Wounds and is Pushed 1 in any direction for each Net Success. If the Insect collides with another Insect or an Obstacle before it stops moving, the Insect(s) gain Wounds equal to the Hexes not yet moved, and the Insect stops moving.
     
     Hit and Run
     Range: Close
     Requirements: SPE 5
-    Roll SPE + TR vs. SPE + TR against an adjacent Insect. For each Net Success, the target gains Wounds and you may move that many Hexes.
+    Roll SPE + TR vs. SPE + SR against an adjacent Insect. For each Net Success, the target gains Wounds and you may move that many Hexes.
     
     Hot-othysis
     Range: Area
@@ -2238,12 +2243,12 @@
     Kennéd Strike
     Range: Close
     Requirements: KEN 3
-    Roll KEN + TR vs. KEN + TR against an adjacent Insect. The target gains Wounds for each Net Success.
+    Roll KEN + TR vs. KEN + SR against an adjacent Insect. The target gains Wounds for each Net Success.
     
     Line of Lightning
     Range: Area
     Requirements: Static 7
-    Choose two Insects within Static Hexes and Roll Static + TR. Chosen Insects and each Insect in a line between them Rolls PAS + TR, then gains Wounds and Shocks for each Net Success.
+    Choose two Insects within Static Hexes and Roll Static + TR. Chosen Insects and each Insect in a line between them Rolls PAS + SR, then gains Wounds and Shocks for each Net Success.
     
     Mandible Crush
     Range: Close
@@ -2258,7 +2263,7 @@
     Passion
     Range: Close
     Requirements: PAS 3
-    Roll PAS + TR vs. PAS + TR against an adjacent Insect. The target gains Wounds for each Net Success.
+    Roll PAS + TR vs. PAS + SR against an adjacent Insect. The target gains Wounds for each Net Success.
     
     Plannéd Strike
     Range: Close
@@ -2273,7 +2278,7 @@
     Polar Discharge
     Range: Ranged
     Requirements: Static 5
-    Roll Static + TR vs. PAS + TR against two Insects within Static Hexes. Each target gains Wounds and Shocks for each Net Success.
+    Roll Static + TR vs. PAS + SR against two Insects within Static Hexes. Each target gains Wounds and Shocks for each Net Success.
     
     Psychic Mandibles
     Range: Close
@@ -2292,13 +2297,13 @@
     
     Rout
     Range: Close
-    Requirements: PAS 6, Signaling 6
-    Roll PAS + TR vs. PAS + TR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Signaling. Each Enemy within Signaling Hexes Rolls as if Resisting an Intimidate Action, then Recoils appropriately.
+    Requirements: PAS 4, Signaling 4
+    Roll PAS + TR vs. PAS + SR against an adjacent Insect. The target gains Wounds for each Net Success. Roll PAS + Signaling. Each Enemy within Signaling Hexes Rolls as if Resisting an Intimidate Action, then Recoils appropriately.
     
     Sap Trap
     Range: Area
     Requirements: Plant 6, Web 6
-    Roll Plant + Web + TR. Each Insect within Successes Hexes STR + TR to Resist, then gains Wounds, Immobile, and Infected for each Net Success.
+    Roll Plant + Web + TR. Each Insect within Successes Hexes Rolls STR + SR to Resist, then gains Wounds, Immobile, and Infected for each Net Success.
     
     Searing Shine
     Range: Ranged
@@ -2313,7 +2318,7 @@
     Speedy Strike
     Range: Close
     Requirements: SPE 3
-    Roll SPE + TR vs. SPE + TR against an adjacent Insect. The target gains Wounds for each Net Success.
+    Roll SPE + TR vs. SPE + SR against an adjacent Insect. The target gains Wounds for each Net Success.
     
     Static Crunch
     Range: Close
@@ -2323,7 +2328,7 @@
     Strong Strike
     Range: Close
     Requirements: STR 3
-    Roll STR + TR vs. STR + TR against an adjacent Insect. The target gains Wounds for each Net Success.
+    Roll STR + TR vs. STR + SR against an adjacent Insect. The target gains Wounds for each Net Success.
     
     Swarming Call
     Range: Special
