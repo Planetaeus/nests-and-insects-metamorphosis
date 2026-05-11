@@ -801,7 +801,7 @@
           
           _Metamorphosis Items_ When a Character Discovers an Item of Metamorphosis, or learns its properties for the first time, the entire Party gains MP equal to the Item Rating.
           
-          _Cursed Items_ When a Character first Identifies a Cursed Food Item, she rolls a D12 to determine a Random Effect. Each time the Food is Consumed, the Consuming Character is bestowed that Effect equal to the number of dots consumed.
+          _Cursed Items_ When a Character first Identifies a Cursed Food Item, she rolls a D12 to determine a Random Effect. Each time the Food is Consumed, the Consuming Character is bestowed that Effect equal to the number of dots consumed. Cursed Items cannot be dropped or shared.
           
 
 3.0.0.0 Minigames
