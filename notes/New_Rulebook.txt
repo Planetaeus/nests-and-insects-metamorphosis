@@ -408,7 +408,7 @@
       
       2.6.3.2 Flight
       
-        Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character with a Flight Rating adds it as a Positive Modifier when resisting Ranged and Area Attacks.
+        Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character with a Flight Rating adds it as a Positive Modifier when resisting Ranged Attacks.
         
         _Hex Grids_ If using gridded maps in Combat, Characters can move additional Hexes equal to their Flight Rating whenever they take the Move Action. They can also fly over other Insects and thus occupy the same Hex.
       
@@ -920,7 +920,7 @@
         
         _Carapace_ If the Target of an Attack has a Carapace rating, the target's Carapace rating is a Positive Modifier to her Resistance against the Attack.
         
-        _Flight_ If the target of a Ranged or Area Attack has a Flight rating, the target's Flight rating is a Positive Modifier to her Resistance against the Attack.
+        _Flight_ If the target of a Ranged Attack has a Flight rating, the target's Flight rating is a Positive Modifier to her Resistance against the Attack.
         
         _Swarming_ If a Character with Swarms is affected by an Area Attack, the target's Current Swarms is a Negative Modifier to her Resistance against the Attack.
         
