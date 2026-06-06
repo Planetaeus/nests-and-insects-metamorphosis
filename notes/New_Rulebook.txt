@@ -378,7 +378,7 @@
       
       2.6.2.4 Foraging
       
-        Foraging is an Insect's knowledge and instincts for harvesting edible plant and fungus parts. It can be used to Identify unknown Herbivore Food Items, and is also used in Hunting & Foraging to gather such Items.
+        Foraging is an Insect's knowledge and instincts for harvesting edible resources. It can be used to Identify unknown Food Items, and is also used in Hunting & Foraging to gather such Items.
       
       2.6.2.5 Healing
       
@@ -735,9 +735,9 @@
           
           1.  Make a Boolean Roll to identify the Item's Function.
           
-            The Player's Character uses Ken as the Effort for the Roll. They may instead use Foraging to Identify an herbivore Food Item, or Hunting to Identify an Insectivore Food Item.
+            The Player's Character Rolls KEN or Foraging.
             
-            If the Roll succeeds, the GQ Rolls to generate the Item's Function. the Item becomes Known to the Character who Identified it.
+            If the Roll succeeds, the GQ Rolls to generate the Item's Function. the Item becomes Known to the Characters.
             
             Otherwise, the Item remains Unknown. The Character may now only Identify the Item by Consuming it, as described below.
             
