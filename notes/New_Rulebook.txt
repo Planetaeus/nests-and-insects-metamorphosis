@@ -1884,6 +1884,9 @@
         Speedy Strike
         Requirements: SPE 3
         
+        Supreme Speed
+        Requirements: SPE 7
+        
       5.2.1.2 Strength Attacks
         Ground Slam
         Requirements: STR 4, Flight 4
