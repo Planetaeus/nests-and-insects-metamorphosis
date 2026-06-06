@@ -13,10 +13,16 @@ def double_digits(d):
 player = ["\\()/",
           "-()-",
           "/()\\"]
-          
 
-        
-def place_player(grid,cc,rr):
+pit = ["****",
+       "****",
+       "****"]
+       
+pillar = ["/--\\",
+          "|--|",
+          "\\--/"]
+          
+def place_in_grid(grid, cc, rr, source):
     start_line = 0
     start_index = 0
     if int((len(grid)-1)/6)-1 % 2 == 1:
@@ -32,17 +38,15 @@ def place_player(grid,cc,rr):
             start_line = rr * 6
             start_index = 6 + 9 * cc - 2
         elif cc % 2 == 1:
-            print("Yes?")
             start_line = rr * 6 + 3
             start_index = 6 + 9 * cc - 2
     
-    for (l,p) in zip(range(start_line, start_line + 3),player):
+    for (l,s) in zip(range(start_line, start_line + 3),source):
         line = grid[l]
-        line = line[0:start_index] + p + line[start_index+4:]
+        line = line[0:start_index] + s + line[start_index+4:]
         grid[l] = line
     return grid
     
-
 layers = 5
 ascii_hex = ["   ______   ",
              "  / CCRR \\  ",
@@ -54,8 +58,6 @@ ascii_hex = ["   ______   ",
 # Hexagon courtesy of https://ascii.co.uk/art/hexagon
 
 blank_space = 9 * " "
-for line in ascii_hex:
-    print(line)
     
 hex_grid = [""] * (1 + (len(ascii_hex)-1) * (2*layers + 1))
 layer_tracker = (layers + 1) * [-1]
@@ -108,11 +110,12 @@ for i in range(len(hex_grid)):
             cc = cc + 2
         line = l
         hex_grid[i] = line
-                
-    print(line)
+               
     
-new_grid = place_player(hex_grid,7,6)
+new_grid = place_in_grid(hex_grid,7,6,pit)
+new_grid = place_in_grid(new_grid,4,2,pillar)
+player_grid = place_in_grid(new_grid,5,8,player)
 
-for line in new_grid:
+for line in player_grid:
     print(line)
             
