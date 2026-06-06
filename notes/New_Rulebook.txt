@@ -1884,7 +1884,7 @@
         Requirements: SPE 6, STR 6
         
         Slicer
-        Requirements: SPE 7
+        Requirements: SPE 5
         
         Speedy Strike
         Requirements: SPE 3
