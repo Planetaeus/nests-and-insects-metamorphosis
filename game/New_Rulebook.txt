@@ -194,7 +194,7 @@
       
     2.3.5.0 Common Attributes Box
       
-      The Common Attributes box lists Attributes common to all Character classes. Table 2 briefly lists Common Attributes and their use. Section 2.6.2.0 describes the Common Attributes in more detail.
+      The Common Attributes box lists Attributes common to all Character classes. Table 3 briefly lists Common Attributes and their use. Section 2.6.2.0 describes the Common Attributes in more detail.
       
       Common Attributes  Description                                                
       ──────────────────────────────────────────────────────────────────────────────
@@ -865,9 +865,9 @@
         It is possible for a creature to be in the same room as Combat and not be a Combatant. These Bystanders can be recruited or incited to fight for either Side.
         
       3.1.2.2 Starting Disposition
-        Before the start of the first Combat Round, each Player Rolls Initiative. The GQ makes a similar Roll using Initiative for each of the enemies. Each Combatant begins at Holding Disposition, then Advances or Recoils their Disposition as described in TABLE.
+        Before the start of the first Combat Round, each Player Rolls SPE or PAS. The GQ makes a similar Roll for each of the enemies. Each Combatant begins at Holding Disposition, then Advances or Recoils their Disposition as described in TABLE.
         
-        Initiative Roll Result           Starting Disposition                                    
+        SPE or PAS Roll Result           Starting Disposition                                    
         ──────────────────────────────────────────────────                                       
         Partial/Total/Critical Success   Advance 1/2/3                                           
         Failure                          Recoil 1.                                               
@@ -1150,7 +1150,7 @@
         ─────────────────────────────────────────────────────────────────────────────────────
         Table 17: Environment Pool - Passages
         
-        In Table X, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in Table X above, the Players have noted that Room 0101 was Secured, and what they found there.
+        In Table 16, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in Table 16 above, the Players have noted that Room 0101 was Secured, and what they found there.
         
         Table 17 provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
         
@@ -1158,7 +1158,7 @@
         
     3.2.2.0 Survival & Exploration - Procedural Generation
     
-      The core Mechanic of Procedural Generation is Rolling on Tables. The Playuers or the GQ Roll and cross-reference the result with the rows of a Table. The Table lists what the Characters find and what happens to them while they Explore the Nest.
+      The core Mechanic of Procedural Generation is Rolling on Tables. The Players or the GQ Roll and cross-reference the result with the rows of a Table. The Table lists what the Characters find and what happens to them while they Explore the Nest.
       
       _Exploration Action_ Survival & Exploration starts with an Exploration Action. This Action is resolved by a Roll and its outcome determines the types and numbers of Events that occur as the Characters Explore the Nest. The two types of Events are Risks and Rewards. More Successes on the Exploration Roll means that fewer Risks and more Rewards will be Generated.
       
@@ -1312,14 +1312,11 @@
         
         A Character who wishes to Tear Down the Obstacle may Roll (STR or KEN) + Construction vs. Obstruction, and consult TABLE for the Outcome.
         
-        DoS                 Outcome
+        DoS                               Outcome
         ───────────────────────────────────────────────────────────────────────────────
-        Critical Success    Reduce Obstruction by 3
-        Total Success       Reduce Obstruction by 2
-        Partial Success     Reduce Obstruction by 1
-        Partial Failure     Nothing Happens
-        Total Failure       Take 1 Wound.
-        Critical Failure    Take 2 Wounds.
+        Partial/Total/Critical Success    Reduce Obstruction by 1/2/3
+        Partial Failure                   Nothing Happens
+        Total/Critical Failure            Take 1/2 Wounds.
         ───────────────────────────────────────────────────────────────────────────────
         Table 20: Tearing Down Obstacles
         
@@ -1461,14 +1458,12 @@
     
     Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest. The Effort of the Roll will change depending on whether they want to Forage for Plant or Fungus matter, Hunt or Scavenge for prey, or Gather Resources.
     
-    Degree of Success  Outcome                                                   
+    Degree of Success                Outcome                                                   
     ─────────────────────────────────────────                                    
-    Critical Success   Add 3 to Item Rating.                                     
-    Total Success      Add 2 to Item Rating.                                     
-    Partial Success    Add 1 to Item Rating.                                     
-    Partial Failure    Chance Wasted. Nothing Happens.                           
-    Total Failure      Chance Wasted. Increase Hunger by 1.                      
-    Critical Failure   Chance Wasted. Increase Hunger by 2.                     
+    Partial/Total/Critical Success   Add 1/2/3 to Item Rating.                                    
+    Partial Failure                  Chance Wasted. Nothing Happens.                           
+    Total Failure                    Chance Wasted. Increase Hunger by 1.                      
+    Critical Failure                 Chance Wasted. Increase Hunger by 2.                     
     ─────────────────────────────────────────                                   
     Table 24: Hunting & Foraging Degrees of Success. 
                                                                                
