@@ -312,15 +312,15 @@
     
       Characters start with one Special Attribute, choosing from the following list:
       
-      * Carapace
+      * Carapace: Protective plates make you harder to hit in Melee.
       
-      * Flight
+      * Flight: Extra verticality and extra movement.
       
-      * Swarming
+      * Swarming: Swarmlings will take hits for you to keep the collective alive.
       
-      * Toxic
+      * Toxic: Poison, corrode, or paralyze your foes!
       
-      * Web
+      * Web: Real stick-to-it-iveness.
       
       The Player chooses one Special Attribute from the list above and sets its rating to 3.
       
