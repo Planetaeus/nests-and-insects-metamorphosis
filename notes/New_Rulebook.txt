@@ -1850,6 +1850,11 @@
     
     5.1.2.0 Attack Ranges
       
+      * Melee: Melee Attacks require the Attacker to be Adjacent to the target of the Attack.
+      
+      * Ranged: Ranged attacks specify a maximum range they can target opponents from. Ranged attacks cannot target Adjacent Insects.
+      
+      * Area: Affects all Insects within a specified area. 
       
     
     5.1.3.0 Attack Requirements
