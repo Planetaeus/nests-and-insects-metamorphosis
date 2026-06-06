@@ -1534,9 +1534,19 @@
     
     3.4.7.0 Spend MP
     
-      If a Character has any MP that they wish to spend, they may do so now. To increase an Ability or Attribute costs a number of MP equal to the current rating plus one: It costs 6 MP to go from 5 to 6, but it costs 7 MP to go from 6 to 7.
+      If a Character has any MP that they wish to spend, they may do so now. The base cost of improving an attribute is equal to the new Rating. Thus, the base cost to increase an attribute from 5 to 6 is 6 MP, and the cost to go from 6 to 7 is 7 MP. Each type of Attribute then multiplies this Base Cost to get the total cost:
       
-      _Gaining New Attributes_ Characters can spend MP to gain new Attributes starting at Rating 1. Common Attributes cost 1 MP to start. Special Attributes cost 3 MP to start. Advanced Attributes cost 5 MP to start.
+      * Common Attributes: Multiply the Base MP Cost by 1.
+      
+      * Special Attributes: Multiply the Base MP Cost by 2.
+      
+      * Advanced Attributes: Multiply the Base MP Cost by 3.
+      
+      * Core Attributes: Multiply the Base MP Cost by 4.
+      
+      _Gaining New Attributes_ Characters can spend MP to gain new Special or Advanced Attributes. They must spend MP to go from 0 to 1, and so on.
+      
+      _Adjusting MP Costs_ If the GQ has a desire to play a shorter, faster game, she is free to decrease the MP costs of improving Attributes. Conversely, if she desires to play a longer grind-game, she is free to increase the MP costs. She must make sure she communicates any changes to the Players.
     
     3.4.8.0 Change Attacks
     
