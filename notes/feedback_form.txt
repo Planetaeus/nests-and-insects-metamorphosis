@@ -44,7 +44,7 @@ Recruiting
 Extra objectives on a level or in a Room.
 How many prompts would the players get for making Safe Havens.
 
-To replenish rooms, find spores, seeds, carcasses, food
+To replenish rooms, find spores, seeds, carcasses, larvae.
 
 Food, not quite all the way there. Either too pressing or not pressing at all.
 Exploration rolls felt like a guaranteed success, which made it feel like a formality
@@ -52,3 +52,7 @@ Super easy to easy breezy.
 Side quests
 
 When you tell the players where to find their objective, they go straight there.
+Exploration allows you to identify where to find food
+Rip off Legend of Zelda: Hidden map, make them find "keys"
+Bribe mechanic?
+Item shop in the dungeon.
