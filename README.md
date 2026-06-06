@@ -22,12 +22,12 @@ Reading the rulebook
 
 The in-progress new rulebook is in the following path:
 ```
-<project root>/New_Rulebook.txt
+<project root>/game/New_Rulebook.txt
 ```
 
 A list of Attack Descriptions can be found in:
 ```
-<project root>/Attack_Index.txt
+<project root>/game/Attack_Index.txt
 ```
 
 The Game
