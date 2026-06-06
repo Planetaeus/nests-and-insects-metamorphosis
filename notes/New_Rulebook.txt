@@ -1837,6 +1837,8 @@
   In Combat, Attacking is the main way to inflict Wounds upon Enemy Insects. Each Insect can know up to four attacks at once, and can only choose Attacks for which she Qualifies, which is to say that she meets its Requirements.
   
   This section describes a number of pre-made Attacks for the game. The Game Queen is free to work with her players to create new attacks if she wishes.
+  
+  The list of available Attacks is available in Section 5.2.0.0. Detailed descriptions of these attacks are available in Attack_Index.txt.
 
   5.1.0.0 Reading Attacks
 
