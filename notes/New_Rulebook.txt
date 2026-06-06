@@ -2002,7 +2002,7 @@
       5.2.2.5 Web Attacks
         
         Bandage
-        Requirements: Web 6, Healing 6
+        Requirements: Web 4, Healing 4
         
         Flaming Webs
         Requirements: Heat 6, Web 6
