@@ -22,7 +22,12 @@ Reading the rulebook
 
 The in-progress new rulebook is in the following path:
 ```
-<project root>/notes/New_Rulebook.txt
+<project root>/New_Rulebook.txt
+```
+
+A list of Attack Descriptions can be found in:
+```
+<project root>/Attack_Index.txt
 ```
 
 The Game
@@ -78,7 +83,7 @@ borrows: weird dice; tortuous terminology with Pompous Capitalisation;
 over-engineered rules; unclear motivation to learn yet another roleplaying
 system; and crunch Crunch CRrRUNCH!
 
-Nests & Insects: Metamorphosis also derives
+Nests & Insects: Metamorphosis is also inspired by Pokémon Mystery Dungeon, Dungeons & Dragons, and the Worlds of Darkness.
 
 License matters
 ---------------
@@ -88,7 +93,7 @@ General Public License version 3 (GNU GPL v.3 for short-er). The GNU GPL v.3 is
 a "copyleft license for software and other kinds of works" therefore I assume
 and hereby declare my conviction that it also covers the contents of the game/
 directory, which are not, strictly speaking, "software" in the commonly
-understood sense of "source code writte in a programming language".
+understood sense of "source code written in a programming language".
 
 In particular, where the word "software" appears in the GNU GPL v.3 ", and for
 the puproses of licensing Nests & Insects, that word should be interpreted as
