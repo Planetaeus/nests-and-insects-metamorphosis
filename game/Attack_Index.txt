@@ -143,7 +143,7 @@
   Hot-othysis
   Range: Area
   Requirements: Heat 1, Swarming 1
-  Spend two Swarms and Roll Swarming + Heat and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls SPE + Heat to Resist, gaining Wounds and Burns for each Net Success.
+  Spend two Swarms and Roll Swarming + Heat and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + Heat to Resist, gaining Wounds and Burns for each Net Success.
   
   Inflict Stillness
   Range: Close
@@ -163,7 +163,7 @@
   Overwhelm
   Range: Area
   Requirement: Swarming 1
-  Spend two Swarms and Roll PAS + Swarming and choose a Hex within Swarming Hexes. Each Insect in or adjacent the chosen Hex rolls PAS + Carapace to Resist, then gains Wounds and Recoils for each Net Success.
+  Spend two Swarms and Roll PAS + Swarming and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls PAS + Carapace to Resist, then gains Wounds and Recoils for each Net Success.
   
   Plannéd Strike
   Range: Close
