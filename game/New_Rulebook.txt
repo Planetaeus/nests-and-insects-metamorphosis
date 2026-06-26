@@ -306,7 +306,7 @@
     
       Characters start with one Special Attribute, choosing from the following list:
       
-      * Carapace: Protective plates make you harder to hit in Melee.
+      * Carapace: Protective plates make it harder for most attacks to hit.
       
       * Flight: Extra verticality and extra movement.
       
@@ -898,9 +898,7 @@
         
         Once each of the Effort and Resistance Dice Pools are established, the dice are Rolled. If the Effort Rolls more Successes than Resistance, the Attack Succeeds. Each Attack describes what happens when it Succeeds, such as how many Wounds the target takes. If the Resistance successes meet or exceed the Effort, the Attack Fails and nothing happens. Some Attacks have penalties for a Failure.
         
-        _Carapace_ If the Target of an Attack has a Carapace rating, the target's Carapace rating is a Positive Modifier to her Resistance against the Attack.
-        
-        _Flight_ If the target of a Ranged Attack has a Flight rating, the target's Flight rating is a Positive Modifier to her Resistance against the Attack.
+        _Carapace_ A Character's Carapace Rating applies to her Resistance against most Attacks. This is included in Attack descriptions.
         
         _Swarming_ If a Character with Swarms is affected by an Area Attack, the target's Current Swarms is a Negative Modifier to her Resistance against the Attack.
         
