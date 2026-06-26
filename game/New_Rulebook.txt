@@ -849,12 +849,14 @@
       3.1.2.2 Starting Disposition
         Before the start of the first Combat Round, each Player Rolls SPE or PAS. The GQ makes a similar Roll for each of the enemies. Each Combatant begins at Holding Disposition, then Advances or Recoils their Disposition as described in TABLE.
         
-        SPE or PAS Roll Result           Starting Disposition                                    
+        SPE or PAS Roll Result  Starting Disposition                                    
         ──────────────────────────────────────────────────                                       
-        Partial/Total/Critical Success   Advance 1/2/3                                           
-        Failure                          Recoil 1.                                               
+        Critical Success        Advance 3                                           
+        Total Success           Advance 2
+        Partial Success         Advance 1
+        Failure                 Recoil 1.                                               
         ──────────────────────────────────────────────────                                       
-        Table 11: Starting Disposition.                                                          
+        Table 11: Starting Disposition.                                                           
 
       3.1.2.3 Initiative Order
       
@@ -1292,11 +1294,14 @@
         
         A Character who wishes to Tear Down the Obstacle may Roll (STR or KEN) + Construction vs. Obstruction, and consult TABLE for the Outcome.
         
-        DoS                               Outcome
+        DoS                 Outcome
         ───────────────────────────────────────────────────────────────────────────────
-        Partial/Total/Critical Success    Reduce Obstruction by 1/2/3
-        Partial Failure                   Nothing Happens
-        Total/Critical Failure            Take 1/2 Wounds.
+        Critical Success    Reduce Obstruction by 3
+        Total Success       Reduce Obstruction by 2
+        Partial Success     Reduce Obstruction by 1
+        Partial Failure     Nothing Happens
+        Total Failure       Take 1 Wound.
+        Critical Failure    Take 2 Wounds.
         ───────────────────────────────────────────────────────────────────────────────
         Table 20: Tearing Down Obstacles
         
@@ -1410,7 +1415,7 @@
           Total Failure       The Creature becomes Hostile.
           Critical Failure    The Creature becomes Hostile and Advances 2.
           ───────────────────────────────────────────────────────────────────────────────
-          Table 23: Negotiation Results
+          Table 23: Recruitment Results
           
           _Companions_ A Companion is controlled by the Players. She Travels, Fights, and Explores by the Party's side. She does not gain Metamorphosis Points, but she does gain Hunger. Whenever Combat Ends, a Companion Rolls PAS + Hunger - Disposition against a PAS + Leadership Roll from one Character. If she Succeeds, she abandons the Party. When a Companion reaches 10 Hunger, she abandons the Party.
 
@@ -1438,14 +1443,15 @@
     
     Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest. The Effort of the Roll will change depending on whether they want to Forage for Plant or Fungus matter, Hunt or Scavenge for prey, or Gather Resources.
     
-    Degree of Success                Outcome                                                   
+    Degree of Success   Outcome                                                   
     ─────────────────────────────────────────                                    
-    Partial/Total/Critical Success   Add 1/2/3 to Item Rating.                                    
-    Partial Failure                  Chance Wasted. Nothing Happens.                           
-    Total Failure                    Chance Wasted. Increase Hunger by 1.                      
-    Critical Failure                 Chance Wasted. Increase Hunger by 2.                     
-    ─────────────────────────────────────────                                   
-    Table 24: Hunting & Foraging Degrees of Success. 
+    Critical Success    Add 3 to Item Rating.                                    
+    Total Success       Add 2 to Item Rating.                                    
+    Partial Success     Add 1/2/3 to Item Rating.                                    
+    Partial Failure     Chance Wasted. Nothing Happens.                           
+    Total Failure       Chance Wasted. Increase Hunger by 1.                      
+    Critical Failure    Chance Wasted. Increase Hunger by 2.                     
+    ─────────────────────────────────────────     
                                                                                
     Action            Effort                        Resistance                                        
     ───────────────────────────────────────────────────────────────                          

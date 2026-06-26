@@ -109,10 +109,12 @@
     ──────────────────────────────────────────────────────────────────────────────────────   
     Table 10: Blessings 
     
-    SPE or PAS Roll Result           Starting Disposition                                    
+    SPE or PAS Roll Result  Starting Disposition                                    
     ──────────────────────────────────────────────────                                       
-    Partial/Total/Critical Success   Advance 1/2/3                                           
-    Failure                          Recoil 1.                                               
+    Critical Success        Advance 3                                           
+    Total Success           Advance 2
+    Partial Success         Advance 1
+    Failure                 Recoil 1.                                               
     ──────────────────────────────────────────────────                                       
     Table 11: Starting Disposition.     
 
@@ -191,12 +193,14 @@
     ───────────────────────────────────────────────────────────────────────────────
     Table 19: Reward Generation
     
-    DoS                               Outcome
+    DoS                 Outcome
     ───────────────────────────────────────────────────────────────────────────────
-    Partial/Total/Critical Success    Reduce Obstruction by 1/2/3
-    Partial Failure                   Nothing Happens
-    Total Failure                     Take 1 Wound.
-    Critical Failure                  Take 2 Wounds.
+    Critical Success    Reduce Obstruction by 3
+    Total Success       Reduce Obstruction by 2
+    Partial Success     Reduce Obstruction by 1
+    Partial Failure     Nothing Happens
+    Total Failure       Take 1 Wound.
+    Critical Failure    Take 2 Wounds.
     ───────────────────────────────────────────────────────────────────────────────
     Table 20: Tearing Down Obstacles
     
@@ -232,14 +236,16 @@
     Total Failure       The Creature becomes Hostile.
     Critical Failure    The Creature becomes Hostile and Advances 2.
     ───────────────────────────────────────────────────────────────────────────────
-    Table 23: Negotiation Results
+    Table 23: Recruitment Results
     
-    Degree of Success                Outcome                                                   
+    Degree of Success   Outcome                                                   
     ─────────────────────────────────────────                                    
-    Partial/Total/Critical Success   Add 1/2/3 to Item Rating.                                    
-    Partial Failure                  Chance Wasted. Nothing Happens.                           
-    Total Failure                    Chance Wasted. Increase Hunger by 1.                      
-    Critical Failure                 Chance Wasted. Increase Hunger by 2.                     
+    Critical Success    Add 3 to Item Rating.                                    
+    Total Success       Add 2 to Item Rating.                                    
+    Partial Success     Add 1 to Item Rating.                                    
+    Partial Failure     Chance Wasted. Nothing Happens.                           
+    Total Failure       Chance Wasted. Increase Hunger by 1.                      
+    Critical Failure    Chance Wasted. Increase Hunger by 2.                     
     ─────────────────────────────────────────                                   
     Table 24: Hunting & Foraging Degrees of Success.
     
