@@ -49,7 +49,7 @@
 
     1.4.4.0 Modifiers
       
-      The dice pool for an Action is usually standard. Attacks use an Attribute + Threat Rate, for example. Circumstances and strategic decisions by the players can result in one or more modifiers being applied to a Roll.
+      The dice pool for an Action is usually standard. Attacks use predetermined Attributes, for example. Circumstances and strategic decisions by the players can result in one or more modifiers being applied to a Roll.
       
       Positive Modifiers add extra dice to the Character's dice pool. They increase the odds of the Player doing well, and can bring them to surpass what they would otherwise be capable of, possibly turning an overwhelming obstacle into an achievable feat.
       
@@ -236,13 +236,7 @@
 
     2.3.8.0 Combat Attributes Box
     
-      The Combat box lists a Character's Initiative, Threat Rate, Survival Rate and Wounds. This is also where a Character with Swarming will keep track of their Swarms.
-      
-      * Initiative: Used to determine a Character's turn placement in Combat.
-      
-      * Threat Rate: An attribute used in the Effort for most Attacks.
-      
-      * Survival Rate: Used in the Resistance for most Attacks.
+      The Combat box lists a Character's Max Wounds and Current Wounds. This is also where a Character with Swarming will keep track of their Swarms.
       
       * Max Wounds: The maximum number of wounds a Character can take before death.
       
@@ -333,8 +327,6 @@
       See Section 2.6.3.0 for more details on Common Attributes.
     
     2.5.5.0 Assigning Combat Conditions
-    
-      Each Character starts with a rating of 1 in Initiative, Threat Rate, and Survival Rate. See Section 2.6.2.0 for more details on Combat Attributes.
       
       Each Character starts with 3 max Wounds.
       
@@ -462,25 +454,13 @@
             
     2.6.5.0 Combat Attributes
       
-      Combat relies on four Attributes: Initiative, Threat Rate, Survival Rate, and Wounds. The Character Sheet also provides a place to keep track of Swarms.
-    
-      2.6.5.1 Initiative
+      Combat is primarily focused on the dealing of Wounds. The Character Sheet also provides a place to keep track of Swarms.
       
-        Initiative dictates how quick a Character is to act, and their readiness to do so. When Combat begins, each Character Rolls their Initiative to determine their starting Disposition, which can determine the outcome of battle. The Initiative Rating then determines the order of Initiative, followed by Disposition.
-      
-      2.6.5.2 Threat Rate
-      
-        Threat Rate is the fighting instinct of an Insect. It is used as part of the Effort for all Attacks.
-      
-      2.6.5.3 Survival Rate
-      
-        Survival Rate is the combined might of an Insect's reflexes and defenses. It is used as part of the Resistance for most Attacks.
-      
-      2.6.5.4 Max Wounds
+      2.6.5.1 Max Wounds
       
         Wounds mark how close an Insect is to DEATH. Each Character has a Max Wounds Rating, and a space to track how many Wounds she has taken. When she takes enough Wounds to reach her Max Wounds, she DIES. There is no penalty for having Wounds, other than being closer to DEATH.
       
-      2.6.5.5 Swarms
+      2.6.5.2 Swarms
       
         Swarming Characters have Swarms. The maximum Swarms a Character can have at any time is equal to her Swarming Rating. See the note in Section 2.6.4.4 for more information on Swarms.
         
@@ -575,7 +555,7 @@
         
         When a Brittle Effect Triggers, nothing happens.
         
-        However, a Brittle Character receives a penalty to both her Survival Rating and Carapace equal to her Brittle Rating.
+        However, a Brittle Character receives a penalty to both her Carapace Rating equal to her Brittle Rating.
         
       2.6.8.7 Burns
 
@@ -914,7 +894,7 @@
         
         In her Turn, a Combatant can take one Attack Action targeting an enemy with any of her Attacks.
         
-        Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort is usually one of the four Core Attributes + Threat Rate (TR), and Resistance is usually one of the four Core Attributes + Survival Rate (SR). Certain Attacks may list other combinations of Attributes instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
+        Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort can be a Core Attribute, Special Attribute, or Advanced Attribute, in any combination; and Resistance is usually, but not always, the same Attribute(s) rolled for the Effort. Certain Attacks may list other combinations of Attributes instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
         
         Once each of the Effort and Resistance Dice Pools are established, the dice are Rolled. If the Effort Rolls more Successes than Resistance, the Attack Succeeds. Each Attack describes what happens when it Succeeds, such as how many Wounds the target takes. If the Resistance successes meet or exceed the Effort, the Attack Fails and nothing happens. Some Attacks have penalties for a Failure.
         
