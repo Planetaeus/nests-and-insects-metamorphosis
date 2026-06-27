@@ -8,7 +8,7 @@
     -4 or less       Critical Failure   No and...     
     ───────────────────────────────────────────────── 
     Table 1: Degrees of Success.
-    
+
     Core Attribute  Description                                                               
     ───────────────────────────────────────────────────────────────────────────────────────   
     Speed    (SPE)  How fast the Character can move; Dexterity, precision, fine manipulation. 
@@ -17,7 +17,7 @@
     Passions (PAS)  Willpower, morale, strength of spirit, courage, and influence             
     ───────────────────────────────────────────────────────────────────────────────────────  
     Table 2: Core Attributes
-    
+
     Common Attributes  Description                                                
     ──────────────────────────────────────────────────────────────────────────────
     Construction       Build and Demolish. Secure a Room for Resting and Healing. 
@@ -33,19 +33,19 @@
 
     Effect     The Character...                                                        
     ──────────────────────────────────────────────────────────────────────             
-    Bleeding   ...automatically takes a Wound each Combat Turn                         
-    Brittle    ...has their reflexes and chitin weakened...                            
-    Burns      ...this bug is on fiyah...                                              
+    Bleeding   ...automatically takes a Wound each Combat Turn.
+    Brittle    ...has their reflexes and chitin weakened.                        
+    Burns      ...is on fiyah.                        
     Charmed    ...will not Attack, but may take other Actions.                         
     Confused   ...will only Attack and Move, will not take other actions.              
     Immobile   ...movement, Speed, and Flight restricted.                              
     Infected   ...acquires a random Effect each Turn this Effect Applies               
     Paralysed  ...cannot take any Actions except to Resist                             
-    Poisoned   ...has a negative modifier equal to Poisoned to all Actions             
+    Poisoned   ...has Poisoned as a negative modifier to all Action Efforts             
     Shocks     ...has Shocks as a negative modifier to all Close and Ranged Attacks    
     ──────────────────────────────────────────────────────────────────────       
     Table 4: Effects.
-    
+
     Degree of Success        Outcome                                  
     ───────────────────────────────────────────────────────────────   
     Critical Success         Reduce Effect 3                          
@@ -71,7 +71,7 @@
     Shocked            Passions + Static                              
     ──────────────────────────────────────────────
     Table 6: Effort Variables to Resist Effects.
-    
+
     d6        Food Colour    
     ─────────────────────────
     1         Black          
@@ -82,7 +82,7 @@
     6         Yellow         
     ─────────────────────────
     Table 7: Food Colours 
-    
+
     d10        Food Type    d10       Food Type   
     ──────────────────────  ──────────────────────
       1        Nectar         6       Aphid       
@@ -92,7 +92,7 @@
       5        Leaf          10       Larva       
     ──────────────────────  ──────────────────────
     Table 8: Food Types        
-    
+
     d6 Result   Condition   Description                                                      
     ──────────────────────────────────────────────────────────────────────────────────       
       1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.        
@@ -100,7 +100,7 @@
       5-6       Blessed     Roll on the Blessings Table to determine Blessing.               
     ──────────────────────────────────────────────────────────────────────────────────       
     Table 9: Item Conditions
-    
+
     d6 Result    Blessings                                                                   
     ──────────────────────────────────────────────────────────────────────────────────────   
     1-2          Healing - reduces Wounds.                                                   
@@ -108,7 +108,7 @@
     5-6          Metamorphosis - Party Gains MP.                                             
     ──────────────────────────────────────────────────────────────────────────────────────   
     Table 10: Blessings 
-    
+
     SPE or PAS Roll Result  Starting Disposition                                    
     ──────────────────────────────────────────────────                                       
     Critical Success        Advance 3                                           
@@ -136,7 +136,7 @@
     Intimidate    Passions + Signaling      Passions + Psycho                                
     ──────────────────────────────────────────────────────────────
     Table 13: Effort Variables for Suppress Action    
-    
+
     Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                
     ─────────────────────────────────────────────────────────────────────────────────────────
     Critical Success     Ally Advances 3               Reduce Effect 3                       
@@ -147,7 +147,7 @@
     Critical Failure     Ally Recoils 2                Increase Effect 2                     
     ─────────────────────────────────────────────────────────────────────────────────────────
     Table 14: DoS for Support Action
-    
+
     Action         Effort                  Resistance                                        
     ───────────────────────────────────────────────────────────────                          
     Encourage      Passions + Leadership   Passions                                          
@@ -155,7 +155,7 @@
     Shake          Passions + Eusociology  Charmed                                           
     ───────────────────────────────────────────────────────────────
     Table 15: Effort Variables for Support Action
-    
+
     Level Room  Explored?  Notes
     ─────────────────────────────────────────────────────────────────────────────────────
     01    00    Yes        
@@ -164,7 +164,7 @@
     03    00    No          
     ─────────────────────────────────────────────────────────────────────────────────────
     Table 16: Environment Pool - Rooms and their Contents
-    
+
     Room A  Exit  Room B  Exit
     ─────────────────────────────────────────────────────────────────────────────────────
       0100     0    0101     0
@@ -175,7 +175,7 @@
       0300     0    0101     2
     ─────────────────────────────────────────────────────────────────────────────────────
     Table 17: Environment Pool - Passages
-    
+
     d6     Risk         Description
     ───────────────────────────────────────────────────────────────────────────────
     1-3    Encounter    Meet the Nest's denizens
@@ -184,7 +184,7 @@
       6    Infection    Bestows the Infection Effect.
     ───────────────────────────────────────────────────────────────────────────────
     Table 18: Risk Generation
-    
+
     d6     Reward         Description
     ───────────────────────────────────────────────────────────────────────────────
     1-3    Food Item      Find Food that can be Foraged or Hunted.
@@ -192,7 +192,7 @@
       6    Level          Entrance to a new, more advanced Nest Level.
     ───────────────────────────────────────────────────────────────────────────────
     Table 19: Reward Generation
-    
+
     DoS                 Outcome
     ───────────────────────────────────────────────────────────────────────────────
     Critical Success    Reduce Obstruction by 3
@@ -203,7 +203,7 @@
     Critical Failure    Take 2 Wounds.
     ───────────────────────────────────────────────────────────────────────────────
     Table 20: Tearing Down Obstacles
-    
+
     DoS                 Outcome
     ───────────────────────────────────────────────────────────────────────────────
     Critical Success    Creature Flees.
@@ -214,7 +214,7 @@
     Critical Failure    Creature becomes Hostile and Advances 2.
     ───────────────────────────────────────────────────────────────────────────────
     Table 21: Intimidation Results
-    
+
     DoS                 Outcome
     ───────────────────────────────────────────────────────────────────────────────
     Critical Success    Provide what is sought at no Cost;
@@ -226,7 +226,7 @@
     Critical Failure    No Deal. The Creature becomes Hostile.
     ───────────────────────────────────────────────────────────────────────────────
     Table 22: Negotiation Results
-    
+
     DoS                 Outcome
     ───────────────────────────────────────────────────────────────────────────────
     Critical Success    Creature Advances 2 and Joins as a Companion.
@@ -237,7 +237,7 @@
     Critical Failure    The Creature becomes Hostile and Advances 2.
     ───────────────────────────────────────────────────────────────────────────────
     Table 23: Recruitment Results
-    
+
     Degree of Success   Outcome                                                   
     ─────────────────────────────────────────                                    
     Critical Success    Add 3 to Item Rating.                                    
@@ -248,7 +248,7 @@
     Critical Failure    Chance Wasted. Increase Hunger by 2.                     
     ─────────────────────────────────────────                                   
     Table 24: Hunting & Foraging Degrees of Success.
-    
+
     Action            Effort                        Resistance                                        
     ───────────────────────────────────────────────────────────────                          
     Forage or Harvest (STR or KEN) + Foraging       Level                                          
@@ -256,3 +256,4 @@
     Gather            (STR or KEN) + Construction   Level
     ───────────────────────────────────────────────────────────────                                    
     Table 25: Hunting & Foraging Effort Variables.
+

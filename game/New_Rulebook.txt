@@ -215,15 +215,15 @@
 
       Effect     The Character...                                                        
       ──────────────────────────────────────────────────────────────────────             
-      Bleeding   ...automatically takes a Wound each Combat Turn                         
-      Brittle    ...has their reflexes and chitin weakened...                            
-      Burns      ...this bug is on fiyah...                                              
+      Bleeding   ...automatically takes a Wound each Combat Turn.
+      Brittle    ...has their reflexes and chitin weakened.                        
+      Burns      ...is on fiyah.                        
       Charmed    ...will not Attack, but may take other Actions.                         
       Confused   ...will only Attack and Move, will not take other actions.              
       Immobile   ...movement, Speed, and Flight restricted.                              
       Infected   ...acquires a random Effect each Turn this Effect Applies               
       Paralysed  ...cannot take any Actions except to Resist                             
-      Poisoned   ...has a negative modifier equal to Poisoned to all Actions             
+      Poisoned   ...has Poisoned as a negative modifier to all Action Efforts             
       Shocks     ...has Shocks as a negative modifier to all Close and Ranged Attacks    
       ──────────────────────────────────────────────────────────────────────       
       Table 4: Effects.
