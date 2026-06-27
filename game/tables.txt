@@ -9,7 +9,7 @@
     ───────────────────────────────────────────────── 
     Table 1: Degrees of Success.
 
-    Core Attribute  Description                                                               
+    Core Attribute  Description
     ───────────────────────────────────────────────────────────────────────────────────────   
     Speed    (SPE)  How fast the Character can move; Dexterity, precision, fine manipulation. 
     Strength (STR)  Physical strength and toughness; Push, pull, break, and endure harm.      
@@ -18,7 +18,7 @@
     ───────────────────────────────────────────────────────────────────────────────────────  
     Table 2: Core Attributes
 
-    Common Attributes  Description                                                
+    Common Attributes  Description
     ──────────────────────────────────────────────────────────────────────────────
     Construction       Build and Demolish. Secure a Room for Resting and Healing. 
     Eusociology        Knowledge of the ways of Nests and their inhabitants       
@@ -31,7 +31,7 @@
     ──────────────────────────────────────────────────────────────────────────────
     Table 3: Common Attributes.
 
-    Effect     The Character...                                                        
+    Effect     The Character...
     ──────────────────────────────────────────────────────────────────────             
     Bleeding   ...automatically takes a Wound each Combat Turn.
     Brittle    ...has their reflexes and chitin weakened.                        
@@ -46,7 +46,7 @@
     ──────────────────────────────────────────────────────────────────────       
     Table 4: Effects.
 
-    Degree of Success        Outcome                                  
+    Degree of Success        Outcome
     ───────────────────────────────────────────────────────────────   
     Critical Success         Reduce Effect 3                          
     Complete Success         Reduce Effect 2                          
@@ -57,7 +57,7 @@
     ───────────────────────────────────────────────────────────────
     Table 5: DoS for Resisting Effects.                              
                                                                       
-    Effect             Resist with                                    
+    Effect             Resist with
     ──────────────────────────────────────────────                    
     Bleeding           Strength                                       
     Brittle            Strength + Heat                                
@@ -72,7 +72,7 @@
     ──────────────────────────────────────────────
     Table 6: Effort Variables to Resist Effects.
 
-    d6        Food Colour    
+    d6        Food Colour
     ─────────────────────────
     1         Black          
     2         Blue           
@@ -83,7 +83,7 @@
     ─────────────────────────
     Table 7: Food Colours 
 
-    d10        Food Type    d10       Food Type   
+    d10        Food Type    d10       Food Type
     ──────────────────────  ──────────────────────
       1        Nectar         6       Aphid       
       2        Honey          7       Cricket     
@@ -93,7 +93,7 @@
     ──────────────────────  ──────────────────────
     Table 8: Food Types        
 
-    d6 Result   Condition   Description                                                      
+    d6 Result   Condition   Description
     ──────────────────────────────────────────────────────────────────────────────────       
       1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.        
       3-4       Ordinary    No special properties.                                           
@@ -101,7 +101,7 @@
     ──────────────────────────────────────────────────────────────────────────────────       
     Table 9: Item Conditions
 
-    d6 Result    Blessings                                                                   
+    d6 Result    Blessings
     ──────────────────────────────────────────────────────────────────────────────────────   
     1-2          Healing - reduces Wounds.                                                   
     3-4          Relief - reduce an Effect.                                                  
@@ -109,7 +109,7 @@
     ──────────────────────────────────────────────────────────────────────────────────────   
     Table 10: Blessings 
 
-    SPE or PAS Roll Result  Starting Disposition                                    
+    SPE or PAS Roll Result  Starting Disposition
     ──────────────────────────────────────────────────                                       
     Critical Success        Advance 3                                           
     Total Success           Advance 2
@@ -118,7 +118,7 @@
     ──────────────────────────────────────────────────                                       
     Table 11: Starting Disposition.     
 
-    Degree of Success    Intimidate Outcome    Charm or Confuse Outcome                      
+    Degree of Success    Intimidate Outcome    Charm or Confuse Outcome
     ──────────────────────────────────────────────────────────────────────────────           
     Critical Success     Target Recoils 3      Bestow Charmed / Confused: 3                  
     Complete Success     Target Recoils 2      Bestow Charmed / Confused: 2                  
@@ -137,7 +137,7 @@
     ──────────────────────────────────────────────────────────────
     Table 13: Effort Variables for Suppress Action    
 
-    Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome                
+    Degree of Success    Rally or Encourage Outcome    Focus or Shake Outcome
     ─────────────────────────────────────────────────────────────────────────────────────────
     Critical Success     Ally Advances 3               Reduce Effect 3                       
     Total Success        Ally Advances 2               Reduce Effect 2                       
@@ -148,7 +148,7 @@
     ─────────────────────────────────────────────────────────────────────────────────────────
     Table 14: DoS for Support Action
 
-    Action         Effort                  Resistance                                        
+    Action         Effort                  Resistance
     ───────────────────────────────────────────────────────────────                          
     Encourage      Passions + Leadership   Passions                                          
     Focus          Ken + Signaling         Confused                                          
@@ -238,7 +238,7 @@
     ───────────────────────────────────────────────────────────────────────────────
     Table 23: Recruitment Results
 
-    Degree of Success   Outcome                                                   
+    Degree of Success   Outcome
     ─────────────────────────────────────────                                    
     Critical Success    Add 3 to Item Rating.                                    
     Total Success       Add 2 to Item Rating.                                    
@@ -249,7 +249,7 @@
     ─────────────────────────────────────────                                   
     Table 24: Hunting & Foraging Degrees of Success.
 
-    Action            Effort                        Resistance                                        
+    Action            Effort                        Resistance
     ───────────────────────────────────────────────────────────────                          
     Forage or Harvest (STR or KEN) + Foraging       Level                                          
     Hunt or Scavenge  (SPE or PAS) + Foraging       Level
@@ -257,3 +257,4 @@
     ───────────────────────────────────────────────────────────────                                    
     Table 25: Hunting & Foraging Effort Variables.
 
+    
