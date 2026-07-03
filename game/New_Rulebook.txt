@@ -775,6 +775,31 @@
           
           _Cursed Items_ When a Character first Identifies a Cursed Food Item, she rolls a D12 to determine a Random Effect. Each time the Food is Consumed, the Consuming Character is bestowed that Effect equal to the number of dots consumed. Cursed Items cannot be dropped or shared.
           
+  
+  4.6.0.0 Tool Items
+  
+    Tool Items represent bits and bobs that are designed to aid Insects in performing certain feats.
+    Each Tool Item has three qualities:
+    
+    * Attribute: The Core, Common, Special, or Advanced Attribute it boosts
+    * Dice Pool: The Dice Pool Rating determines how many dice are added to your Dice Pool when the Item is Consumed.
+    * Dots: The Dots of a Tool Item are used to keep track of how many uses it has left.
+    
+    When an Insect holding a Tool Item makes a Roll using that Item's Attribute, she may choose to Consume one Dot of the Item to gain Dice equal to the Item's Dice Pool.
+    
+    When a Tool Item's last Dot is Consumed, it breaks, is spent, and is otherwise unusable.
+  
+  4.7.0.0 Attack Ambers
+  
+    Fragments of Amber contain the knowledge and power of Insects long past. These Attack Ambers grant the holder the ability to unleash this power upon their foes.
+    
+    Each Attack Amber has an Attack, a Dice Pool, and a Dots Rating.
+    
+    When an Insect holding an Attack Amber is in Combat and takes the Attack Action, she may choose to Consume one Dot of the Amber and use the Attack stored in the Amber instead of one of her own Attacks. When she does so, she uses the Amber's Dice Pool to make the Attack, which otherwise behaves as if she were using the Attack normally.
+    
+    If an Amber's Attack references one or more Attributes, such as in the Range of the Attack, use the Dice Pool Rating in place of that Attribute.
+    
+    When an Attack Amber has no Dots remaining, it becomes an inert piece of mundane amber. It may still be used for Bartering with other Insects.
 
 3.0.0.0 Minigames
 
