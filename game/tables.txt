@@ -254,7 +254,44 @@
     Forage or Harvest (STR or KEN) + Foraging       Level                                          
     Hunt or Scavenge  (SPE or PAS) + Foraging       Level
     Gather            (STR or KEN) + Construction   Level
-    ───────────────────────────────────────────────────────────────                                    
+    ───────────────────────────────────────────────────────────────       
     Table 25: Hunting & Foraging Effort Variables.
 
+    d8    Insect Type
+    ─────────────────────
+    1     Ants
+    2     Bee(s)
+    3     Beetle
+    4     Spider
+    5     Scorpion
+    6     Termite
+    7     Wasp(s)
+    8     Other
+    ─────────────────────
+    Table 26: Clients
+    
+    d6    Job Type
+    ─────────────────────
+    1     Find an Item
+    2     Deliver an Item
+    3     Find an Insect
+    4     Escort an Insect
+    5     Reach a Level
+    6     Combination
+    ─────────────────────
+    Table 27: Job Types
+    
+    d8    Job Location
+    ─────────────────────
+    1     Ant Colony
+    2     Bee Hive
+    3     Beetle Arena
+    4     Scorpion Burrows
+    5     Spider Commune
+    6     Termite Nest
+    7     Wasp Nests
+    8     Wilderness
+    ─────────────────────
+    Table 28: Job Locations
+    
     

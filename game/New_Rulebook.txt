@@ -1607,7 +1607,10 @@
 
   4.1.0.0 Clients and Jobs
   
-    
+    - Client: Type of Insect
+        
+    - Type of Job
+    - Location of Job
     
   4.2.0.0 Environment
     4.2.1.0 Nests
