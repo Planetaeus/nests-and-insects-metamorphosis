@@ -480,301 +480,314 @@
     
       See Chapter 5 for a list of available Attacks, their requirements, and their descriptions.
       
-    2.6.8.0 Effects
+3.0.0.0 Effects
+
+  This Section defines the rules for handling Effects. Effects are physical or mental conditions that may affect a Character during the course of a game.
+  
+  3.1.0.0 Effects Ratings
+  
+    Nests & Insects Characters may be subject to ten different detrimental Effects. The Effects are listed in the Character sheet, in the Effects box.
     
-      This Section defines the rules for handling Effects. Effects are physical or mental conditions that may affect a Character during the course of a game.
+    Each Effect has a Rating. A Character is subject to all of their Effects that have a Rating of more than zero.
+    
+  3.2.0.0 Acquiring Effects
+  
+    Characters start with all Effects in their Character Sheet rated at 0. A Character may acquire an Effect during the course of the game. Effects may be bestowed upon Characters as a result of:
+    
+    * their Actions,
+    
+    * the Actions of enemies,
+    
+    * the Events that occur while they Explore the Nest.
+    
+  3.3.0.0 Resisting Effects
+  
+    Name of the Minigame: ................ Combat                     
+    Participating Entities: .............. Character or enemy         
+    List of Minigame Intents: ............ Ignore Effect temporarily  
+    List of Minigame Actions: ............ Resist Effect              
+    Effort Variables: .................... Effect-specific (see below)
+    Resistance Variables: ................ Effect to be Resisted      
+                                                                      
+    Outcomes of the six Degrees of Success and Failure:               
+                                                                      
+    Degree of Success        Outcome                                  
+    ───────────────────────────────────────────────────────────────   
+    Critical Success         Reduce Effect 3                          
+    Complete Success         Reduce Effect 2                          
+    Partial Success          Reduce Effect 1                          
+    Partial Failure          Effect remains                           
+    Complete Failure         Effect Triggers.                         
+    Critical Failure         Increase Effect 1. Effect Triggers.      
+    ───────────────────────────────────────────────────────────────
+    Table 5: DoS for Resisting Effects.
+                                                                      
+    Effect-specific Effort variables:                                 
+                                                                      
+    Effect             Resist with                                    
+    ──────────────────────────────────────────────                    
+    Bleeding           Strength                                       
+    Brittle            Strength + Heat                                
+    Burns              Speed + Chill                                  
+    Charmed            Passions + Psycho                              
+    Confused           Ken + Psycho                                   
+    Immobile           Strength                                       
+    Infected           Strength + Plant                               
+    Paralysed          Speed                                          
+    Poisoned           Strength + Plant                               
+    Shocked            Passions + Static                              
+    ──────────────────────────────────────────────
+    Table 6: Effort Variables to Resist Effects.
+  
+  3.4.0.0 Effect Details
+    
+    When a Character is subject to one or more Effects, those Effects Trigger during Combat and Travel. Each Minigame determines when Effects must be "Triggered". At that time, all Effects the Character is subject to Trigger in order.
+    
+    The next Sections describe what happens when each Effect Triggers, as well as the details for certain passive Effects that don't do anything when they Trigger.
+        
+  3.4.1.0 Bleeding
+
+    Resist with: STR
+    
+    When a Bleeding Effect Triggers, the Character takes 1 Wound.
+    
+  3.4.2.0 Brittle
+
+    Resist with: STR + Heat
+    
+    When a Brittle Effect Triggers, nothing happens.
+    
+    However, a Brittle Character receives a penalty to both her Carapace Rating equal to her Brittle Rating.
+    
+  3.4.3.0 Burns
+
+    Resist with: SPE + Chill
+    
+    When a Burns Effect Triggers, the Character takes 1 Wound and her Burns Rating decreases by 1.
+    
+  3.4.4.0 Charmed
+
+    Resist with: PAS + Psycho
+    
+    When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. She may take other Actions and Manoeuvers as normal.
+    
+  3.4.5.0 Confused
+
+    Resist with: KEN + Psycho
+    
+    When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack Action during her turn. Targets for Attacks are selected at random. After Attacking, or if no targets are within range of any of her Attacks, she may also take either the Move or Resist Actions.
+    
+  3.4.6.0 Immobile
+
+    Resist with: STR
+    
+    When an Immobile Effect triggers, nothing special happens.
+    
+    However, an Immobile Character received a penalty to her Speed and Flight equal to her Immobile rating. 
+
+  3.4.7.0 Infected
+
+    Resist with: STR + Plant
+
+    When an Infected Effect triggers, the subject Character is bestowed an Effect. Choose an Effect at random (Roll a die). Roll Infected. On a Partial/Total/Critical Success, Increase the chosen Effect by 1/2/3. The bestowed Effect triggers.
+    
+  3.4.8.0 Paralysed
+
+    Resist with: SPE
+
+    When a Paralysed Effect Triggers, nothing special happens. However, a Paralysed Character can only take the Resist Action until she is no longer Paralysed. A Paralysed 
+    
+  3.4.9.0 Poisoned
+
+    Resist with: STR + Plant
+
+    When a Poisoned Effect triggers, Roll Poisoned. On a Partial/Total/Critical Success, Increase Poisoned by 1/2/3.
+    
+    A Character subject to a Poisoned Effect suffers a Negative Modifier equal to her Poisoned rating to all Actions.
+    
+  3.4.10.0 Shocked
+
+    Resist with: PAS + Static
+    
+    When a Shocks Effect Triggers, nothing special happens. However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Close or Ranged Attacks.
+        
+4.0.0.0 Inventory Items
+  
+  Inventory Items are the Characters' Features representing Consumable resources carried by a Character and that the Character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing Minigames.
+  
+  Characters may find new Items during Survival & Exploration and gather them during Hunting & Foraging.
+  
+  Inventory Items carried by a Character are recorded on the Character's sheet, in the Inventory box.
+    
+  4.1.0.0 Acquiring Items
+  
+    Characters may come across new Inventory Items as Rewards generated during the Survival & Exploration Minigame, then harvest them during the Hunting & Foraging Minigame. In that case, an Item's initial Dots Rating is generated according to the rules of the Minigame.
+    
+    _Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the Character's Inventory).
+    
+  4.2.0.0 Dropping Items
+    
+    Items may be "dropped" from a Character's Inventory either automatically, when the Character picks up an Item and her Inventory is already full; or voluntarily, when a Player decides it.
+    
+    _Dropped Items_ Dropped Items are removed from a Character's Inventory and cannot be used anymore, unless they are picked up again.
+    
+    _Automatically Dropping Items_ When a Character tries to pick up a new Item and her Inventory is already full, the item is "dropped" instead. No entry is made for the Item in the Character's Inventory.
+    
+    _Voluntarily Dropping Items_ A Character is free to drop Items from her Inventory at any time.
+    
+    _Inert Items_ When an Inventory Item is Dropped, it is left lying on the floor of the Nest in the current Room. Characters, including the Character who dropped an Item, or Nest Denizens, may pick up dropped Items and add them to their own Inventory.
+    
+    _Cursed Items_ Some Items are cursed, and may not be removed from a Character's Inventory until their curse is lifted. If a Character acquires a Cursed Item while her Inventory is full, she MUST drop another Item that is not Cursed. If her Inventory is full of Cursed Items, her day MUST not be going too well, and she drops the new Cursed Item.
+    
+  4.3.0.0 Consuming Items
+    
+    Inventory Items are "Consumed" and may become "Exhausted" as a result of taking an Action or paying a Cost.
+    
+    To Consume an Inventory Item to take an Action or pay a Cost, reduce the Item's Dots Rating by 1 or more. An Item with zero Dots is Exhausted.
+    
+    _Exhausted Items_ When an Inventory Item is Exhausted, it can no longer be Consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other Characters.
+    
+  4.4.0.0 Food Items
+    
+    4.4.1.0 Consuming Food Items
       
-      2.6.8.1 Effects Ratings
+      Some Food Items bestow an Effect or grant an Ability to the Consuming Character. Such Items' Effects trigger as soon as an Item is Consumed. Refer to 2.6.8.0 for the rules of triggering Effects.
       
-        Nests & Insects Characters may be subject to ten different detrimental Effects. The Effects are listed in the Character sheet, in the Effects box.
-        
-        Each Effect has a Rating. A Character is subject to all of their Effects that have a Rating of more than zero.
-        
-      2.6.8.2 Acquiring Effects
+    4.4.2.0 Generating Food Items
+    
+      Nests & Insects Food Items are procedurally generated like everything else encountered during a Job.
       
-        Characters start with all Effects in their Character Sheet rated at 0. A Character may acquire an Effect during the course of the game. Effects may be bestowed upon Characters as a result of:
-        
-        * their Actions,
-        
-        * the Actions of enemies,
-        
-        * the Events that occur while they Explore the Nest.
-        
-      2.6.8.3 Resisting Effects
+      Generating a Food Item is done in two steps:
       
-        Name of the Minigame: ................ Combat                     
-        Participating Entities: .............. Character or enemy         
-        List of Minigame Intents: ............ Ignore Effect temporarily  
-        List of Minigame Actions: ............ Resist Effect              
-        Effort Variables: .................... Effect-specific (see below)
-        Resistance Variables: ................ Effect to be Resisted      
-                                                                          
-        Outcomes of the six Degrees of Success and Failure:               
-                                                                          
-        Degree of Success        Outcome                                  
-        ───────────────────────────────────────────────────────────────   
-        Critical Success         Reduce Effect 3                          
-        Complete Success         Reduce Effect 2                          
-        Partial Success          Reduce Effect 1                          
-        Partial Failure          Effect remains                           
-        Complete Failure         Effect Triggers.                         
-        Critical Failure         Increase Effect 1. Effect Triggers.      
-        ───────────────────────────────────────────────────────────────
-        Table 5: DoS for Resisting Effects.
-                                                                          
-        Effect-specific Effort variables:                                 
-                                                                          
-        Effect             Resist with                                    
-        ──────────────────────────────────────────────                    
-        Bleeding           Strength                                       
-        Brittle            Strength + Heat                                
-        Burns              Speed + Chill                                  
-        Charmed            Passions + Psycho                              
-        Confused           Ken + Psycho                                   
-        Immobile           Strength                                       
-        Infected           Strength + Plant                               
-        Paralysed          Speed                                          
-        Poisoned           Strength + Plant                               
-        Shocked            Passions + Static                              
-        ──────────────────────────────────────────────
-        Table 6: Effort Variables to Resist Effects.
+      1.  Generate the Food Item's Form.
       
-      2.6.8.4 Triggered Effect
+        When a Food Item is first generated, all a Character knows of the Item is what it looks like.
         
-        When a Character is subject to one or more Effects, those Effects Trigger during Combat and Travel. Each Minigame determines when Effects must be "Triggered". At that time, all Effects the Character is subject to Trigger in order.
+        A Food Item's Form includes: a) the Item's colour; b) the Item's type; and c) the amount of the Item found.
         
-        The next Sections describe what happens when each Effect Triggers.
-            
-      2.6.8.5 Bleeding
-
-        Resist with: STR
-        
-        When a Bleeding Effect Triggers, the Character takes 1 Wound.
-        
-      2.6.8.6 Brittle
-
-        Resist with: STR + Heat
-        
-        When a Brittle Effect Triggers, nothing happens.
-        
-        However, a Brittle Character receives a penalty to both her Carapace Rating equal to her Brittle Rating.
-        
-      2.6.8.7 Burns
-
-        Resist with: SPE + Chill
-        
-        When a Burns Effect Triggers, the Character takes 1 Wound and her Burns Rating decreases by 1.
-        
-      2.6.8.8 Charmed
-
-        Resist with: PAS + Psycho
-        
-        When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. She may take other Actions and Manoeuvers as normal.
-        
-      2.6.8.9 Confused
-
-        Resist with: KEN + Psycho
-        
-        When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack Action during her turn. Targets for Attacks are selected at random. After Attacking, or if no targets are within range of any of her Attacks, she may also take either the Move or Resist Actions.
-        
-      2.6.8.10 Immobile
-
-        Resist with: STR
-        
-        When an Immobile Effect triggers, nothing special happens.
-        
-        However, an Immobile Character received a penalty to her Speed and Flight equal to her Immobile rating. 
-
-      2.6.8.11 Infected
-
-        Resist with: STR + Plant
-
-        When an Infected Effect triggers, the subject Character is bestowed an Effect. Choose an Effect at random (Roll a die). Roll Infected. On a Partial/Total/Critical Success, Increase the chosen Effect by 1/2/3. The bestowed Effect triggers.
-        
-      2.6.8.12 Paralysed
-
-        Resist with: SPE
-
-        When a Paralysed Effect Triggers, nothing special happens. However, a Paralysed Character can only take the Resist Action until she is no longer Paralysed. A Paralysed 
-        
-      2.6.8.13 Poisoned
-
-        Resist with: STR + Plant
-
-        When a Poisoned Effect triggers, Roll Poisoned. On a Partial/Total/Critical Success, Increase Poisoned by 1/2/3.
-        
-        A Character subject to a Poisoned Effect suffers a Negative Modifier equal to her Poisoned rating to all Actions.
-        
-      2.6.8.14 Shocked
-
-        Resist with: PAS + Static
-        
-        When a Shocks Effect Triggers, nothing special happens. However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Close or Ranged Attacks.
-        
-    2.6.9.0 Inventory Items
+      2.   Generate the Food Item's Function.
       
-      Inventory Items are the Characters' Features representing Consumable resources carried by a Character and that the Character must use in order to take certain Actions, or to pay certain Costs during the Survival & Exploration, Hunting & Foraging, or Resting and Healing Minigames.
+        When a Food Item is first generated, the Item is "Unknown" and a Character must examine it, or Consume it, to determine its Function.
+        
+        In general, to determine a Food Item's Function is to "Identify" the Food Item.
+        
+        When a Food Item is Identified, the following Functions are generated: a) the Item's Condition; b) its Alignment; and c) its Abilities.
+        
+      _Known Items_ Once a Food Item is Identified, it becomes a "Known" Item. Known Items are generated by simple randomisation among the list of Known Items. Both Unknown Food Items and Known Food Items are generated as Rewards. Section 3.2.5.1 describes Generating Food Items as Rewards during the Survival & Exploration Minigame.
       
-      Characters may find new Items during Survival & Exploration and gather them during Hunting & Foraging.
+      The following Sections describe how to generate Food Items' Form and Function.
       
-      Inventory Items carried by a Character are recorded on the Character's sheet, in the Inventory box.
+    4.4.3.0 Generating a Food Item's Form
         
-      2.6.9.1 Acquiring Items
+      When an Item is first found, Roll to generate the Item's Form, as follows:
       
-        Characters may come across new Inventory Items as Rewards generated during the Survival & Exploration Minigame, then harvest them during the Hunting & Foraging Minigame. In that case, an Item's initial Dots Rating is generated according to the rules of the Minigame.
-        
-        _Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the Character's Inventory).
-        
-      2.6.9.2 Dropping Items
-        
-        Items may be "dropped" from a Character's Inventory either automatically, when the Character picks up an Item and her Inventory is already full; or voluntarily, when a Player decides it.
-        
-        _Dropped Items_ Dropped Items are removed from a Character's Inventory and cannot be used anymore, unless they are picked up again.
-        
-        _Automatically Dropping Items_ When a Character tries to pick up a new Item and her Inventory is already full, the item is "dropped" instead. No entry is made for the Item in the Character's Inventory.
-        
-        _Voluntarily Dropping Items_ A Character is free to drop Items from her Inventory at any time.
-        
-        _Inert Items_ When an Inventory Item is Dropped, it is left lying on the floor of the Nest in the current Room. Characters, including the Character who dropped an Item, or Nest Denizens, may pick up dropped Items and add them to their own Inventory.
-        
-        _Cursed Items_ Some Items are cursed, and may not be removed from a Character's Inventory until their curse is lifted. If a Character acquires a Cursed Item while her Inventory is full, she MUST drop another Item that is not Cursed. If her Inventory is full of Cursed Items, her day MUST not be going too well, and she drops the new Cursed Item.
-        
-      2.6.9.3 Consuming Items
-        
-        Inventory Items are "Consumed" and may become "Exhausted" as a result of taking an Action or paying a Cost.
-        
-        To Consume an Inventory Item to take an Action or pay a Cost, reduce the Item's Dots Rating by 1 or more. An Item with zero Dots is Exhausted.
-        
-        _Exhausted Items_ When an Inventory Item is Exhausted, it can no longer be Consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other Characters.
-        
-      2.6.9.4.0 Food Items
-        
-        2.6.9.4.1 Consuming Food Items
-          
-          Some Food Items bestow an Effect or grant an Ability to the Consuming Character. Such Items' Effects trigger as soon as an Item is Consumed. Refer to 2.6.8.0 for the rules of triggering Effects.
-          
-        2.6.9.4.2 Generating Food Items
-        
-          Nests & Insects Food Items are procedurally generated like everything else encountered during a Job.
-          
-          Generating a Food Item is done in two steps:
-          
-          1.  Generate the Food Item's Form.
-          
-            When a Food Item is first generated, all a Character knows of the Item is what it looks like.
-            
-            A Food Item's Form includes: a) the Item's colour; b) the Item's type; and c) the amount of the Item found.
-            
-          2.   Generate the Food Item's Function.
-          
-            When a Food Item is first generated, the Item is "Unknown" and a Character must examine it, or Consume it, to determine its Function.
-            
-            In general, to determine a Food Item's Function is to "Identify" the Food Item.
-            
-            When a Food Item is Identified, the following Functions are generated: a) the Item's Condition; b) its Alignment; and c) its Abilities.
-            
-          _Known Items_ Once a Food Item is Identified, it becomes a "Known" Item. Known Items are generated by simple randomisation among the list of Known Items. Both Unknown Food Items and Known Food Items are generated as Rewards. Section 3.2.5.1 describes Generating Food Items as Rewards during the Survival & Exploration Minigame.
-          
-          The following Sections describe how to generate Food Items' Form and Function.
-          
-        2.6.9.4.3 Generating a Food Item's Form
-            
-          When an Item is first found, Roll to generate the Item's Form, as follows:
-          
-          1. Generate the Item's Colour.
-          
-            Roll a d6 and match the result on the Food Colour Table below.
-        
-          d6        Food Colour    
-          ─────────────────────────
-          1         Black          
-          2         Blue           
-          3         Green          
-          4         Red            
-          5         White          
-          6         Yellow         
-          ─────────────────────────
-          Table 7: Food Colours   
-          
-          2. Generate the Item's Food Type
-          
-            Roll a d10 and match the result on the Food Type Table below.
-                      
+      1. Generate the Item's Colour.
+      
+        Roll a d6 and match the result on the Food Colour Table below.
+    
+      d6        Food Colour    
+      ─────────────────────────
+      1         Black          
+      2         Blue           
+      3         Green          
+      4         Red            
+      5         White          
+      6         Yellow         
+      ─────────────────────────
+      Table 7: Food Colours   
+      
+      2. Generate the Item's Food Type
+      
+        Roll a d10 and match the result on the Food Type Table below.
+                  
 
-          d10        Food Type    d10       Food Type   
-          ──────────────────────  ──────────────────────
-            1        Nectar         6       Aphid       
-            2        Honey          7       Cricket     
-            3        Honeydew       8       Fly         
-            4        Fungus         9       Worm        
-            5        Leaf          10       Larva       
-          ──────────────────────  ──────────────────────
-          Table 8: Food Types                          
-            
-        2.6.9.4.4 Identifying Food Items
+      d10        Food Type    d10       Food Type   
+      ──────────────────────  ──────────────────────
+        1        Nectar         6       Aphid       
+        2        Honey          7       Cricket     
+        3        Honeydew       8       Fly         
+        4        Fungus         9       Worm        
+        5        Leaf          10       Larva       
+      ──────────────────────  ──────────────────────
+      Table 8: Food Types                          
         
-          Food Items start out as Unknown Items, whose Form is known, but whose Function is not known. A Character can identify a Food Item in one of two ways:
-          
-          1.  Make a Boolean Roll to identify the Item's Function.
-          
-            The Player's Character Rolls KEN or Foraging.
-            
-            If the Roll succeeds, the GQ Rolls to generate the Item's Function. the Item becomes Known to the Characters.
-            
-            Otherwise, the Item remains Unknown. The Character may now only Identify the Item by Consuming it, as described below.
-            
-            Other Characters are free to attempt to Identify the Item using their own Rolls.
-            
-          2.  Consume the Item and note its Effects.
-            
-            If the Boolean Roll to identify a Food Item's Function fails, the Item can only be Identified by Consuming it.
-            
-            Obviously, Consuming the Unknown Food Item carries a risk.
-            
-            If a Character Consumes an Item to Identify it, generate the Item's Function as described in the following Section.
-            
-            Any Effects determined by a Food Item's Function trigger when the Item is Consumed.
-            
-            Once all Effects caused by Consuming an unknown Food Item have triggered, the Item is a Known Item.
-            
-            When an Item is Identified, the Party gains 1 MP.
-            
-        2.6.9.4.5 Generating a Food Item's Function
+    4.4.4.0 Identifying Food Items
+    
+      Food Items start out as Unknown Items, whose Form is known, but whose Function is not known. A Character can identify a Food Item in one of two ways:
+      
+      1.  Make a Boolean Roll to identify the Item's Function.
+      
+        The Player's Character Rolls KEN or Foraging.
         
-          When an Item is Identified in one of the two ways described in the previous Section, Roll to generate the Item's Function, as follows:
-          
-          1.  Generate the Item's Condition.
-          
-            Roll a d6 and match the Result on the Item Condition Table below.
+        If the Roll succeeds, the GQ Rolls to generate the Item's Function. the Item becomes Known to the Characters.
+        
+        Otherwise, the Item remains Unknown. The Character may now only Identify the Item by Consuming it, as described below.
+        
+        Other Characters are free to attempt to Identify the Item using their own Rolls.
+        
+      2.  Consume the Item and note its Effects.
+        
+        If the Boolean Roll to identify a Food Item's Function fails, the Item can only be Identified by Consuming it.
+        
+        Obviously, Consuming the Unknown Food Item carries a risk.
+        
+        If a Character Consumes an Item to Identify it, generate the Item's Function as described in the following Section.
+        
+        Any Effects determined by a Food Item's Function trigger when the Item is Consumed.
+        
+        Once all Effects caused by Consuming an unknown Food Item have triggered, the Item is a Known Item.
+        
+        When an Item is Identified, the Party gains 1 MP.
+        
+    4.4.5.0 Generating a Food Item's Function
+    
+      When an Item is Identified in one of the two ways described in the previous Section, Roll to generate the Item's Function, as follows:
+      
+      1.  Generate the Item's Condition.
+      
+        Roll a d6 and match the Result on the Item Condition Table below.
 
-          d6 Result   Condition   Description                                                      
-          ──────────────────────────────────────────────────────────────────────────────────       
-            1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.        
-            3-4       Ordinary    No special properties.                                           
-            5-6       Blessed     Roll on the Blessings Table to determine Blessing.               
-          ──────────────────────────────────────────────────────────────────────────────────       
-          Table 9: Item Conditions                                                                
+      d6 Result   Condition   Description                                                      
+      ──────────────────────────────────────────────────────────────────────────────────       
+        1-2       Cursed      Bestows a random Effect when Consumed; cannot be dropped.        
+        3-4       Ordinary    No special properties.                                           
+        5-6       Blessed     Roll on the Blessings Table to determine Blessing.               
+      ──────────────────────────────────────────────────────────────────────────────────       
+      Table 9: Item Conditions                                                                
 
-          2. Generate the Item's Alignment and Abilities
-          
-            _Blessed Food_ bestows a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
-            
-          d6 Result    Blessings                                                                   
-          ──────────────────────────────────────────────────────────────────────────────────────   
-          1-2          Healing - reduces Wounds.                                                   
-          3-4          Relief - reduce an Effect.                                                  
-          5-6          Metamorphosis - Party Gains MP.                                             
-          ──────────────────────────────────────────────────────────────────────────────────────   
-          Table 10: Blessings                                                                      
-          
-          _Healing Items_ When a Character Consumes a Food Item with the Healing Blessing, each dot consumed reduces her wounds by the Rating of the Item.
-          
-          _Relief Items_ When a Character Consumes a Food Item with the Relief Blessing, each dot consumed reduces one Effect of her choice by the Rating of the Item.
-          
-          _Metamorphosis Items_ When a Character Discovers an Item of Metamorphosis, or learns its properties for the first time, the entire Party gains MP equal to the Item Rating.
-          
-          _Cursed Items_ When a Character first Identifies a Cursed Food Item, she rolls a D12 to determine a Random Effect. Each time the Food is Consumed, the Consuming Character is bestowed that Effect equal to the number of dots consumed. Cursed Items cannot be dropped or shared.
-          
+      2. Generate the Item's Alignment and Abilities
+      
+        _Blessed Food_ bestows a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
+        
+      d6 Result    Blessings                                                                   
+      ──────────────────────────────────────────────────────────────────────────────────────   
+      1-2          Healing - reduces Wounds.                                                   
+      3-4          Relief - reduce an Effect.                                                  
+      5-6          Metamorphosis - Party Gains MP.                                             
+      ──────────────────────────────────────────────────────────────────────────────────────   
+      Table 10: Blessings                                                                      
+      
+      _Healing Items_ When a Character Consumes a Food Item with the Healing Blessing, each dot consumed reduces her wounds by the Rating of the Item.
+      
+      _Relief Items_ When a Character Consumes a Food Item with the Relief Blessing, each dot consumed reduces one Effect of her choice by the Rating of the Item.
+      
+      _Metamorphosis Items_ When a Character Discovers an Item of Metamorphosis, or learns its properties for the first time, the entire Party gains MP equal to the Item Rating.
+      
+      _Cursed Items_ When a Character first Identifies a Cursed Food Item, she rolls a D12 to determine a Random Effect. Each time the Food is Consumed, the Consuming Character is bestowed that Effect equal to the number of dots consumed. Cursed Items cannot be dropped or shared.
+      
+  4.5.0.0 Building Resources
+  
+    Building Resources can be found in stockpiles, or in the rubble of smashed Obstacles.
+    
+    Building Resources can be spent to secure Rooms for Resting & Healing, to raise structures such as bridges across pits or paths across dangerous terrain, and create Barriers or Traps.
+    
+    For more information about Securing a Room, see Section 3.4.0.0 Resting & Healing.
+    
+    To create a Structure using Building Resources requires an amount of Building Resources and Successes equal to the number of Hexes covered. When an Insect contributes to a Structure, she Rolls STR or KEN + Construction. The number of successes determines the Maxiumum number of Hexes she can cover in that Action. To do so, she must Consume up to that many Dots of Building Resources.
+    
+    The construction of Barriers in Combat is covered in Section 3.1.2.9 Manoeuver Actions, and constructing a Trap would also count as a Manoeuver.
+    
+    When the last Dot of a Building Resource is consumed, the Building Resource is all used up and is removed from the Inventory.
   
   4.6.0.0 Tool Items
   
