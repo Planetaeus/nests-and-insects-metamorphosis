@@ -56,8 +56,12 @@
       Negative modifiers remove dice from the Character's dice pool. Negative Modifiers represent conditions that reduce the effectiveness of the Character's actions, possibly turning an easy task into a real challenge. If a Character has enough negative modifiers, they may end up not Rolling any dice at all!
       
       When a Character receives both a Positive and a Negative Modifier to the same Roll, they are applied in order. First the Character adds any Positive Modifier dice to their dice pool, and then removes the number of dice dictated by any Negative Modifiers.
+      
+    1.4.5.0 Automatic Successes
     
-    1.4.5.0 Describing Results
+      After a Player has Rolled her Dice Pool, but before the Results are described, the player may Exert herself to gain additional successes. To Exert, the Character gains one Hunger, which allows them to add two successes to their Result. A Character can only Exert herself once per Roll.
+    
+    1.4.6.0 Describing Results
     
       What the DoS of an action means depends on a Player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
       
@@ -67,17 +71,17 @@
       
       On a Partial Failure, the Character does not succeed, but there is an unintended boon that they have earned that keeps things moving forward. On a Total Failure, the player suffers the obvious consequences of failing their action. On a Critical Failure, the Character suffers the obvious consequences, in addition to an unexpected consequence that makes the situation more trying.
       
-    1.4.6.0 Quantification of Results.
+    1.4.7.0 Quantification of Results.
 
       Some Actions require Quantification of their results to see how great or how wicked their outcomes are. Some outcomes require a Quantification Roll, where the GQ or the Player Rolls a number of d6 based on an Attribute rating and counts the successes. Others use set numbers, such as 1/2/3 for a Partial/Total/Critical Success and 0/-1/-2 for a Partial/Total/Critical Failure. Finally, some outcomes simply use the number of Net Successes from the original Action's Roll.
 
-    1.4.7.0 Minigames
+    1.4.8.0 Dice Pools for Minigames
     
       The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more detail to the basic rules, Nests & Insects defines a number of "Minigames".
       
       Minigames are special sets of rules for situations that are of special interest to a game. There are four Minigames in Nests & Insects: Combat, Survival & Exploration; Hunting & Foraging; and Resting & Healing.
       
-      Minigames are described in detail in the Chapter 3.
+      Minigames are described in detail in the Chapter 5.
   
 2.0.0.0 Characters
 
