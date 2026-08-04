@@ -2,35 +2,35 @@
 
   Nests & Insects is a tabletop Roleplaying Game (TTRPG) for 2 to 7 players. One Player assumes the role of the Game Queen and describes the game world to the other players. The other players control Characters who explore and interact with the game world.
 
-  1.1.0.0 The Setting
+1.1.0.0 The Setting
   
     Players' Characters are arthropods. Six pre-built Classes are provided in this document: Spider, Wasp, Scorpion, Ladybug, Betle, and Ants. The Characters are mercenaries; assassins and thugs, hired to invade a Nest and carry out a Job on behalf of some arthropod client. Nests are the homes of eusocial Insects: the nests of Bees, Ants, and Termites. Common Jobs are to assassinate the Nest's Royalty; steal special food resources; steal or kill larvae; or retrieve an arthropod of interest.
     
     At the beginning of a new Job, the players' Characters enter a Nest armed with their natural weapons and armor. During a Job, Characters must survive combat with the soldier castes guarding the Nests. They must also hunt or forage for food to avoid starving to death. While foraging, Characters may find food items, such as nectar and fungi, that can provide not only sustenance, but also healing and mutations.
     
-  1.2.0.0 Inspiration
+1.2.0.0 Inspiration
   
     Nests & Insects is a Roguelike TTRPG. It is inspired by computer roleplaying games of the Roguelike genre, like Nethack, Angband, Moria, Ancient Domains of Mystery, and later games like Diablo and Darkest Dungeon. Nests & Insects: Metamorphosis is also inspired by Pokémon Mystery Dungeon, Dungeons & Dragons, and the Worlds of Darkness.
     
-  1.3.0.0 Gameplay Overview
+1.3.0.0 Gameplay Overview
     
     Nests & Insects is designed to be quick and easy to learn, with low preparation other than reading some of the rules. At the start of a new game, players either choose from among pre-built Classes or takes steps to craft their own Character. The Game Queen (GQ) generates the first Room in the entrance to the first Level of the Nest, and the Characters enter. After visiting a Room and defeating its challenges, Characters get a chance to rest and recoup their strength, as well as use their Metamorphosis Points to gain new and powerful Attacks. The Job ends when the Characters fulfill its terms, surrender to the Nest, run away, or die.
     
     This book provides rules to procedurally generate Nests, as well as guidance for crafting Nests of your own design.
     
-  1.4.0.0 The System
+1.4.0.0 The System
 
     Nests & Insects: Metamorphosis uses a dice pool system to decide the outcome of Characters' actions. Characters have Attributes rated from 0 to 10. Whenever the players take an action, the Game Queen declares the Effort of the Roll. The Player consults their Effort Rating(s), then Rolls that many d6s. The number of dice that come up as a "4", "5", or a "6" are counted as Successes. If the Player gets at least one Success, their Action is Successful! Zero Successes means the Action is a Failure.
 
-    1.4.1.0 Difficulty
+1.4.1.0 Difficulty
     
     The GQ may give a Roll a Difficulty. Subtract the Difficulty from the number of Successes Rolled to get the Net Successes. If the Player gets at least one Net Success, their Action is Successful! Zero or negative Net Successes results in a Failure.
     
-    1.4.2.0 Resistance
+1.4.2.0 Resistance
     
     Sometimes a Roll is opposed by another Character's Rating. The GQ determines what Rating or Ratings are used as the Resistance against the Effort. The GQ Rolls Resistance and subtracts her successes from the Player's Successes to obtain the Net Successes. If there is at least one Net Success, the Roll succeeds! If there are zero or negative Net Successes, the Roll fails. In some cases, such as an Enemy Attack, the GQ Rolls Effort and the Player Rolls Resistance.
     
-    1.4.3.0 Degrees of Success
+1.4.3.0 Degrees of Success
     
     The GQ may decide that the degree of success matters to determine the outcome of the Roll. This represents situations where the effectiveness of an action can be measured in more detail than a simple pass/fail.  In these cases, it can help to categorize the Degree of Success (DoS). There are six stages of DoS: Critical Failure, Total Failure, Partial Failure, Partial Success, Total Success, and Critical Success. Table 1 shows how the Net Successes of a Roll translates into the DoS of the result.
     
@@ -47,7 +47,7 @@
     
     In some cases, the number of Net Successes can directly be used to determine the outcome. When a Character makes a successful Attack, the Net Successes determine the Wounds bestowed on the targets.
 
-    1.4.4.0 Modifiers
+1.4.4.0 Modifiers
       
       The dice pool for an Action is usually standard. Attacks use predetermined Attributes, for example. Circumstances and strategic decisions by the players can result in one or more modifiers being applied to a Roll.
       
@@ -57,11 +57,11 @@
       
       When a Character receives both a Positive and a Negative Modifier to the same Roll, they are applied in order. First the Character adds any Positive Modifier dice to their dice pool, and then removes the number of dice dictated by any Negative Modifiers.
       
-    1.4.5.0 Automatic Successes
+1.4.5.0 Automatic Successes
     
       After a Player has Rolled her Dice Pool, but before the Results are described, the player may Exert herself to gain additional successes. To Exert, the Character gains one Hunger, which allows them to add two successes to their Result. A Character can only Exert herself once per Roll.
     
-    1.4.6.0 Describing Results
+1.4.6.0 Describing Results
     
       What the DoS of an action means depends on a Player's description of her Character's Intent. Once the final DoS of an action is known, the GQ describes what happens as a result of the action, taking into account the Character's Intent and the DoS. The better the DoS, the closer the result of an action comes to fully satisfying the Character's Intent.
       
@@ -71,11 +71,11 @@
       
       On a Partial Failure, the Character does not succeed, but there is an unintended boon that they have earned that keeps things moving forward. On a Total Failure, the player suffers the obvious consequences of failing their action. On a Critical Failure, the Character suffers the obvious consequences, in addition to an unexpected consequence that makes the situation more trying.
       
-    1.4.7.0 Quantification of Results.
+1.4.7.0 Quantification of Results.
 
       Some Actions require Quantification of their results to see how great or how wicked their outcomes are. Some outcomes require a Quantification Roll, where the GQ or the Player Rolls a number of d6 based on an Attribute rating and counts the successes. Others use set numbers, such as 1/2/3 for a Partial/Total/Critical Success and 0/-1/-2 for a Partial/Total/Critical Failure. Finally, some outcomes simply use the number of Net Successes from the original Action's Roll.
 
-    1.4.8.0 Dice Pools for Minigames
+1.4.8.0 Dice Pools for Minigames
     
       The dice pool rules outlined in the previous sections suffice to resolve most actions a Character may take. To add more detail to the basic rules, Nests & Insects defines a number of "Minigames".
       
@@ -91,13 +91,13 @@
   
   The following sections describe the Nests & Insects Characters, their classes, their Features, and the Character sheets that record their Features.
   
-  2.1.0.0 Character Selection
+2.1.0.0 Character Selection
   
     To begin playing the game, players can select one of the six Character classes. The class determines the Character's starting Features.
     
     If the players and the GQ prefer, a blank sheet is provided for creating custom starting Characters. Rules for Character creation can be found later in this Chapter.
     
-  2.2.0.0 Character Death
+2.2.0.0 Character Death
   
     When a Character dies, the Player is free to select or create a new Character.
     
@@ -105,13 +105,13 @@
     
     The new Character can start as the same class as the old Character, even if it was a custom class.
     
-    2.2.1.0 The Cost of Death
+2.2.1.0 The Cost of Death
     
       The only mechanical penalty of Character death is that a Player must start with a fresh Character, with base stats, without MP, and without any Items (though some of the Items in a dead Character's Inventory may remain on the floor of the Nest). The one benefit of death is that your Hunger is set to zero.
       
       If playing a custom class, it can be helpful to keep a record of what your Character looked like at creation if you intend to come back as the same class upon death.
     
-  2.3.0.0 Character Sheet
+2.3.0.0 Character Sheet
   
     In Nests & Insects, Characters are described by Features rated 0-10, listed in a Character sheet specific to that Character.
     
@@ -139,11 +139,11 @@
     
     * Inventory
     
-    2.3.1.0 Character Name
+2.3.1.0 Character Name
     
       The first area in a Character sheet lists the name of a Character's Class.
       
-    2.3.2.0 Core Attributes Area
+2.3.2.0 Core Attributes Area
     
       Under the Character Name is the Core Attributes Area. Core Attributes are Features that represent innate abilities of Characters in a Class. Nests & Insects: Metamorphosis Characters have four Core Attributes:
             
@@ -156,7 +156,7 @@
       ───────────────────────────────────────────────────────────────────────────────────────  
       Table 2: Core Attributes
 
-    2.3.3.0 Special Attributes Box
+2.3.3.0 Special Attributes Box
     
       The Special Attributes box lists Attributes that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Special Attributes ratings.
       
@@ -174,7 +174,7 @@
       
       Section 2.6.3.0 describes the Special Attributes in more detail.
       
-    2.3.4.0 Advanced Attributes Box
+2.3.4.0 Advanced Attributes Box
     
       The Advanced Attributes box lists Attributes that stretch the limits of what it means to be an Insect. Real-world insects and animals exhibit a number of seemingly fantastical adaptations and behaviors, like bioluminescence and the ability to generate significant electric potentials and currents. Nests & Insects: Metamorphosis takes these attributes to extremes in ways that feel right at home within fantasy.
       
@@ -196,7 +196,7 @@
       
       * Vibe: Fine control over powerful waves of sound.
       
-    2.3.5.0 Common Attributes Box
+2.3.5.0 Common Attributes Box
       
       The Common Attributes box lists Attributes common to all Character classes. Table 3 briefly lists Common Attributes and their use. Section 2.6.2.0 describes the Common Attributes in more detail.
       
@@ -213,7 +213,7 @@
       ──────────────────────────────────────────────────────────────────────────────
       Table 3: Common Attributes.
     
-    2.3.6.0 Effects Box
+2.3.6.0 Effects Box
     
       The Effects Box lists ten Effects that a Character can be subject to. Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other Minigames. The twelve Effects in the Effect Box are listed below with a brief description of each.
 
@@ -232,13 +232,13 @@
       ──────────────────────────────────────────────────────────────────────       
       Table 4: Effects.
 
-    2.3.7.0 Disposition Track
+2.3.7.0 Disposition Track
     
       The Disposition Track follows a Character's Disposition, a representation of their morale in Combat. Disposition is better the further it moves towards "Charging".
       
       In Combat, Disposition acts as a positive or negative modifier on all Effort Rolls. At "Retreating", a Character is running away from combat and cannot take Actions other than Move. At "Charging", all of a Character's Actions receive one automatic success.
 
-    2.3.8.0 Combat Attributes Box
+2.3.8.0 Combat Attributes Box
     
       The Combat box lists a Character's Max Wounds and Current Wounds. This is also where a Character with Swarming will keep track of their Swarms.
       
@@ -248,17 +248,17 @@
       
       * Swarms: Characters with the Swarming ability lose Swarms before taking Wounds. The maximum number of Swarms a Character can have is equal to their Swarming rating.
      
-    2.3.9.0 Survival Attributes
+2.3.9.0 Survival Attributes
         
-      2.3.9.1 Hunger Track
+2.3.9.1 Hunger Track
         
         The Hunger track lists the Character's Hunger rating. See Section 2.6.6.1 for more details on Hunger.
       
-      2.3.9.2 Metamorphosis Point (MP) Track
+2.3.9.2 Metamorphosis Point (MP) Track
         
         Certain events in the course of exploring a Nest grant the Characters MP, and this is where they track it. See Section 2.6.6.2 for more information about MP.
    
-   2.3.10.0 Attack Boxes
+2.3.10.0 Attack Boxes
       
       The Attack boxes list the details of a Character's four Attacks. Each Character Class starts with its own set of Attacks. As their Features improve, Characters can learn new and stronger Attacks. The attributes of an Attack are briefly described below.
       
@@ -266,47 +266,47 @@
       
       * Description: Details the Effort, Resistance, and additional effects of the Attack.
       
-   2.3.11.0 Inventory
+2.3.11.0 Inventory
       
       The Inventory Box lists a Character's possessions such as Food items, slaved Prey, and other items.
       
       Characters can only carry as many Items as there are lines in the Inventory box: that is 5 lines for 5 items.
         
-  2.4.0.0 Character Classes
+2.4.0.0 Character Classes
   
-    2.4.1.0 Ants
+2.4.1.0 Ants
       
       Clever little Ants swarm together to take on threats greater than themselves. Swarmlings take hits while the collective survives. And the Ants wouldn't get anywhere without their leader's Passions. If you want to play a supporting tank that can take hits, the Ants are right for you.
     
-    2.4.2.0 Beetle
+2.4.2.0 Beetle
       
       Beetles are larger than most other denizens of the Meadows. The Beetle is strong, raised in a culture of sparring to constantly improve. The Beetle is not just a dumb brute, however: a life of fighting has imparted wisdom and cunning. Their Carapace makes it very hard to make attacks stick. If you want to play a tank that can shrug off damage and dish out plenty of its own, the Beetle is right for you.
     
-    2.4.4.0 Scorpion
+2.4.4.0 Scorpion
       
       The Scorpion is a wandering hunter through the Meadows, ambushing prey and standing up against larger foes with the threat of their venomous stinger. The Scorpion is a skilled commander on the battlefield, bringing out the best of their Bugs and being able to intimidate down enemies as they lead the charge.
     
-    2.4.5.0 Spider
+2.4.5.0 Spider
     
       The Spider is a member of a Commune somewhere in the Meadows. Spinning Webs with her sisters, she has caught much wisdom and prey in her time. Pairing this Ken with the Speed to strike decisively, the Spider can lay traps and control the field of battle.
     
-    2.4.6.0 Wasp
+2.4.6.0 Wasp
 
       The Wasp is a fighter on the breeze, traveling here and there and living life as she pleases. She is as quick on her feet as she is in Flight, and Insects are often intimidated into giving her exactly what she wants. Zipping here and there, wherever she goes is probably the right place at the right time.
     
-  2.5.0.0 Character Creation
+2.5.0.0 Character Creation
   
-    2.5.1.0 Selecting Species
+2.5.1.0 Selecting Species
       
       Your arthropod merc can be any kind of bug an entomologist can list, or even some they can't! You can choose an Insect, an Arachnid, or even a Crustacean to base your Character on, or come up with a new, strange form of bug all your own!
     
-    2.5.2.0 Assigning Core Attributes
+2.5.2.0 Assigning Core Attributes
     
       Characters start the game with all of the Core Attributes. Players assign the following ratings to their Core Attributes as they choose: 4, 3, 2, 1.
       
       See Section 2.6.1.0 for more details on Core Attributes.
     
-    2.5.3.0 Selecting Special Attributes
+2.5.3.0 Selecting Special Attributes
     
       Characters start with one Special Attribute, choosing from the following list:
       
@@ -324,7 +324,7 @@
       
       See Section 2.6.4.0 for more details on Special Attributes.
       
-    2.5.4.0 Assigning Common Attributes
+2.5.4.0 Assigning Common Attributes
     
       The Player chooses seven Common Attributes and assigns the following ratings among them as they choose: 4, 3, 3, 2, 2, 1, 1.
       
@@ -336,151 +336,151 @@
       
       Each Character with a Swarming Rating starts with her Max Swarms.
       
-    2.5.6.0 Selecting Attacks
+2.5.6.0 Selecting Attacks
     
       Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (Chapter 5) and selects up to four Attacks for which her Character qualifies based on her Core and Special Attributes.
     
-  2.6.0.0 Character Features
+2.6.0.0 Character Features
   
-    2.6.1.0 Core Attributes
+2.6.1.0 Core Attributes
     
-      2.6.1.1 Speed
+2.6.1.1 Speed
       
         Speed represents how fast a Character moves. This encapsulates moving across a distance as well as agility and maneuverability. Many Attacks will ask the Defender to make a Roll using Speed in order to move out of the way.
         
         _Hex Grids_ If using gridded maps in Combat, Speed determines how many Hexes a Character can move when they take the Move Action.
       
-      2.6.1.2 Strength
+2.6.1.2 Strength
       
         Strength represents the ability of the Character to exert force on their surroundings. Strength is used in the Construction Roll to break down an Obstacle. Strength is the basis for many Attacks that are about physically moving other Characters. Any time a Character tries to lift or move something heavy, they will probably have to make a Strength Roll.
 
-      2.6.1.3 Ken
+2.6.1.3 Ken
       
         Ken represents a Character's quick-thinking, collection of knowledge, and situational awareness. When a Player asks if their Character knows some information or can solve a puzzle, the GQ may ask them to make some kind of Ken Roll. Ken is also used in Combat to Confuse enemies with quick thinking and fancy words.
       
-      2.6.1.4 Passions
+2.6.1.4 Passions
       
         Passions is the unbridled fury of a bug against the world. Passions is the strength of a leader, or the aggression of a warrior. Passions is all about enforcing the Character's will on others. In Combat, Passions is used to Charm or Intimidate enemies.
     
-    2.6.2.0 Common Attributes
+2.6.2.0 Common Attributes
     
       Common Attributes represent aspects that are relatively common among Insects. Any Insect can pick up a Common Attribute with ease. Learning a new Common Attribute costs 1 MP.
     
-      2.6.2.1 Construction
+2.6.2.1 Construction
       
         Construction represents an Insect's ability to craft structures and objects out of raw materials, and to rip them apart as well. Construction is used to destroy Obstacles during Survival & Exploration, as well as to Secure Rooms during Resting & Healing. During Combat, Characters may use Construction as part of manoeuvers to create or destroy shields, pits, or other obstructions.
       
-      2.6.2.2 Eusociology
+2.6.2.2 Eusociology
       
         Eusociology is an Insect's knowledge of eusociety. This includes Bees, Wasps, Hornets, Ants, and Termites. This can be used to glean insight into the workings of a eucocial Insect's mind, or know things about a Nest. In Combat, Eusociology can be used to Confuse enemies with cunning application of what you know.
       
-      2.6.2.4 Foraging
+2.6.2.4 Foraging
       
         Foraging is an Insect's knowledge and instincts for harvesting edible resources. It can be used to Identify unknown Food Items, and is also used in Hunting & Foraging to gather such Items.
       
-      2.6.2.5 Healing
+2.6.2.5 Healing
       
         Healing is an Insect's medical knowledge. In the "Real World", Insects have a difficult time recovering from injuries. In Nests & Insects, the bugs know how to apply patches and salves to cover up wounds and keep their insides inside. During the Resting & Healing Minigame, a Character can Roll Healing to reduce her Wounds or another Insect's Wounds.
       
-      2.6.2.7 Leadership
+2.6.2.7 Leadership
       
         Leadership. A single implacable quality that defines a personality that Insects can Rally behind. Leadership is used to Rally allies in Combat to improve their Disposition, but it can also be used to try and persuade Insects that you are their friend, through the Charmed Effect. Powerful Leadership can keep the whole Team Charging and Enemies in awe of your cause.
       
-      2.6.2.8 Perception
+2.6.2.8 Perception
       
         Perception is a collection of all of an Insect's senses. Sight, smell, hearing, pheromone reception, electrosensitivity, all are covered by Perception. The most common use for Perception is to spot Sneaking Insects, but it can also be used to temporarily negate the effects of Darkness or point out an Enemy's weak spots.
       
-      2.6.2.9 Signaling
+2.6.2.9 Signaling
       
         Signaling is an Insect's communication with the world around her. It covers sending secret pheromone messages to allies, as well as intimidating displays of color and aposematism. In Combat, Signaling is used to Intimidate enemies to reduce their Disposition. It can also be used to communicate secret tactics without the knowledge of the Enemy.
       
-      2.6.2.10 Sneaking
+2.6.2.10 Sneaking
       
         Sneaking is the age-old art of not being noticed. It can be used to escape overwhelming threats, or to get the jump on unsuspecting prey. Sneaking can be used to circumnavigate an Encounter. In an Encounter, it can also be used to give Positive Modifiers to your Attacks, or Negative Modifiers to your Attackers.
       
-    2.6.3.0 Special Attributes
+2.6.3.0 Special Attributes
       
-      2.6.3.1 Carapace
+2.6.3.1 Carapace
       
         The armored warrior is favored in battle, and Carapace represents an Insect's reinforced exoskeleton. A Character with a Carapace rating adds it as a Positive Modifier when Resisting Attacks. Attacks that use Carapace take advantage of the Character's hardened surface to keep her protected in otherwise risky techniques.
       
-      2.6.3.2 Flight
+2.6.3.2 Flight
       
         Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character with a Flight Rating adds it as a Positive Modifier when resisting Ranged Attacks.
         
         _Hex Grids_ If using gridded maps in Combat, Characters can move additional Hexes equal to their Flight Rating whenever they take the Move Action. They can also fly over other Insects and thus occupy the same Hex.
       
-      2.6.3.3 Swarming
+2.6.3.3 Swarming
       
         Swarming Characters can summon conspecifics to aid them on her Job. These conspecifics can soak up Wounds and unleash powerful group Attacks on her enemies. However, this benefit leaves them more susceptible to Area Attacks. Attacks that use Swarming tend to cost Swarms to achieve their effects. But it is all worth it, as the sacrifice of the few leads to the victory of the many. Or at least the Character in charge of the Swarm.
         
         _Swarms_ A Swarming Character starts with a number of Swarms equal to her Swarming rating. When a Character with Swarming takes Wounds, they can choose to lose that many Swarms instead. Once they reach zero Swarms, they take Wounds as normal. Attacks that use Swarming also reference the number of Current Swarms. A Swarming Character adds her Current Swarms as a negative modifier to her Roll to Resist Area Attacks.
       
-      2.6.3.4 Toxic
+2.6.3.4 Toxic
       
         Toxic is deadly, and potent. It breaks down the minds and bodies of its victims. It can even jump start the metabolism to rush healing. Characters do not like being Poisoned or Envenomed. Unless it heals them. But it's still a weird experience. Attacks with Toxic apply various Effects, like Poisoned, Infected, or Paralysed.
       
-      2.6.3.5 Web
+2.6.3.5 Web
       
         Web is a signature feature of Spiders, but they are not the only Insects that spin sticky strands of silk. Web can be used to aid in the Construction of barriers and defenses, and can also be used to trap or bind Enemies. Web-based Attacks inflict the Immobile Condition.
         
-    2.6.4.0 Advanced Attributes
+2.6.4.0 Advanced Attributes
     
-      2.6.4.1 Chill
+2.6.4.1 Chill
         
         Chill represents a Character's control of endothermic reactions. By absorbing heat from their surroundings, the Character can cause a dramatic drop in temperature. This can result in Characters gaining the Brittle Effect, which weakens their defenses.
       
-      2.6.4.2 Heat
+2.6.4.2 Heat
       
         Heat represents a Character's control of exothermic reactions. Either by rapid vibrations or chemical reactions, the Character builds up a significant amount of Heat energy and disperses it into their unwitting foes. Attacks that use Heat often bestow the Burns Effect, which does damage over time.
       
-      2.6.4.3 Hydro
+2.6.4.3 Hydro
       
         Hydro represents a Character's affinity for fluids, including water. This can be used to spout high-pressure bursts of fluid, like a Nasute Termite's Fontanellar Gun Attack. This can also be used to represent a Character's ability to survive and move in water.
       
-      2.6.4.4 Light
+2.6.4.4 Light
       
         Bioluminescence. The art of life making light. This Attribute can be used to negate the effects of Darkness in a Room. It can also be used to shoot high-powered lasers at your enemies, Burns or Blinding them. Nature truly is beautiful.
       
-      2.6.4.5 Plant
+2.6.4.5 Plant
       
         Characters with Plant have a close relationship with plants and fungus. They are more resistant to the Poisoned and Infected conditions. They can also use plants and fungus for more insidious purposes, like trapping an enemy in crushing roots.
       
-      2.6.4.6 Static
+2.6.4.6 Static
       
         Zap. A terror of the bug world, given power. Bugs with Static are able to generate large electrostatic potentials and discharge them as blasts of lightning. Static can also be used to see beyond sight by sensing the electricity of life. I know it's more of an eel thing to generate electricity, but, come on. It's cool.
       
-      2.6.4.7 Psycho
+2.6.4.7 Psycho
       
         Psycho is an enhancement of the mind. Psychokinesis, Telepathy, Mind Control, all are possible for a Psycho Insect. Insects with Psycho have stronger wills, and add Psycho as a Positive Modifier when Resisting Charm, Confuse, and Intimidate.
       
-      2.6.4.8 Vibe
+2.6.4.8 Vibe
       
         Vibe is a Character's ability to generate loud, and sometimes focused, sounds. Loud enough to rupture the organs of unprepared Insects. Characters with Vibe are also more perceptive of sounds.
             
-    2.6.5.0 Combat Attributes
+2.6.5.0 Combat Attributes
       
       Combat is primarily focused on the dealing of Wounds. The Character Sheet also provides a place to keep track of Swarms.
       
-      2.6.5.1 Max Wounds
+2.6.5.1 Max Wounds
       
         Wounds mark how close an Insect is to DEATH. Each Character has a Max Wounds Rating, and a space to track how many Wounds she has taken. When she takes enough Wounds to reach her Max Wounds, she DIES. There is no penalty for having Wounds, other than being closer to DEATH.
       
-      2.6.5.2 Swarms
+2.6.5.2 Swarms
       
         Swarming Characters have Swarms. The maximum Swarms a Character can have at any time is equal to her Swarming Rating. See the note in Section 2.6.4.4 for more information on Swarms.
         
-    2.6.6.0 Survival Features
+2.6.6.0 Survival Features
     
-      2.6.6.1 Hunger
+2.6.6.1 Hunger
       
         Hunger. The constant threat against continued Survival. As Insects travel through the world and its Nests, they take on Hunger. When an Insect reaches 10 Hunger, she is said to be STARVING. She reduces the outcome of all her Rolls by 2 Successes. If an Insect is STARVING and takes on more Hunger, she DIES.
       
-      2.6.6.2 Metamorphosis Points
+2.6.6.2 Metamorphosis Points
       
         Actions over the course of the game earn Metamorphosis Points, or MP, for the Characters. Overcoming Jobs and Sub-Jobs are the most significant source of MP, but MP can also be earned by discovering Food of Metamorphosis. See 3.4.7.0 for spending Metamorphosis Points
     
-    2.6.7.0 Attacks
+2.6.7.0 Attacks
     
       See Chapter 5 for a list of available Attacks, their requirements, and their descriptions.
       
@@ -488,13 +488,13 @@
 
   This Section defines the rules for handling Effects. Effects are physical or mental conditions that may affect a Character during the course of a game.
   
-  3.1.0.0 Effects Ratings
+3.1.0.0 Effects Ratings
   
     Nests & Insects Characters may be subject to ten different detrimental Effects. The Effects are listed in the Character sheet, in the Effects box.
     
     Each Effect has a Rating. A Character is subject to all of their Effects that have a Rating of more than zero.
     
-  3.2.0.0 Acquiring Effects
+3.2.0.0 Acquiring Effects
   
     Characters start with all Effects in their Character Sheet rated at 0. A Character may acquire an Effect during the course of the game. Effects may be bestowed upon Characters as a result of:
     
@@ -504,7 +504,7 @@
     
     * the Events that occur while they Explore the Nest.
     
-  3.3.0.0 Resisting Effects
+3.3.0.0 Resisting Effects
   
     Name of the Minigame: ................ Combat                     
     Participating Entities: .............. Character or enemy         
@@ -549,13 +549,13 @@
     
     The next Sections describe what happens when each Effect Triggers, as well as the details for certain passive Effects that don't do anything when they Trigger.
         
-  3.4.1.0 Bleeding
+3.4.1.0 Bleeding
 
     Resist with: STR
     
     When a Bleeding Effect Triggers, the Character takes 1 Wound.
     
-  3.4.2.0 Brittle
+3.4.2.0 Brittle
 
     Resist with: STR + Heat
     
@@ -563,25 +563,25 @@
     
     However, a Brittle Character receives a penalty to both her Carapace Rating equal to her Brittle Rating.
     
-  3.4.3.0 Burns
+3.4.3.0 Burns
 
     Resist with: SPE + Chill
     
     When a Burns Effect Triggers, the Character takes 1 Wound and her Burns Rating decreases by 1.
     
-  3.4.4.0 Charmed
+3.4.4.0 Charmed
 
     Resist with: PAS + Psycho
     
     When a Charmed Effect triggers, the subject Character cannot make Attacks during the current turn. She may take other Actions and Manoeuvers as normal.
     
-  3.4.5.0 Confused
+3.4.5.0 Confused
 
     Resist with: KEN + Psycho
     
     When a Confused Effect triggers, the subject Character is driven into a frenzy and can only take Attack Action during her turn. Targets for Attacks are selected at random. After Attacking, or if no targets are within range of any of her Attacks, she may also take either the Move or Resist Actions.
     
-  3.4.6.0 Immobile
+3.4.6.0 Immobile
 
     Resist with: STR
     
@@ -589,19 +589,19 @@
     
     However, an Immobile Character received a penalty to her Speed and Flight equal to her Immobile rating. 
 
-  3.4.7.0 Infected
+3.4.7.0 Infected
 
     Resist with: STR + Plant
 
     When an Infected Effect triggers, the subject Character is bestowed an Effect. Choose an Effect at random (Roll a die). Roll Infected. On a Partial/Total/Critical Success, Increase the chosen Effect by 1/2/3. The bestowed Effect triggers.
     
-  3.4.8.0 Paralysed
+3.4.8.0 Paralysed
 
     Resist with: SPE
 
     When a Paralysed Effect Triggers, nothing special happens. However, a Paralysed Character can only take the Resist Action until she is no longer Paralysed. A Paralysed 
     
-  3.4.9.0 Poisoned
+3.4.9.0 Poisoned
 
     Resist with: STR + Plant
 
@@ -609,7 +609,7 @@
     
     A Character subject to a Poisoned Effect suffers a Negative Modifier equal to her Poisoned rating to all Actions.
     
-  3.4.10.0 Shocked
+3.4.10.0 Shocked
 
     Resist with: PAS + Static
     
@@ -623,13 +623,13 @@
   
   Inventory Items carried by a Character are recorded on the Character's sheet, in the Inventory box.
     
-  4.1.0.0 Acquiring Items
+4.1.0.0 Acquiring Items
   
     Characters may come across new Inventory Items as Rewards generated during the Survival & Exploration Minigame, then harvest them during the Hunting & Foraging Minigame. In that case, an Item's initial Dots Rating is generated according to the rules of the Minigame.
     
     _Recording New Items_ When a new Item is acquired, add an entry for it in an empty Slot in the Character's Inventory. If the Character's Inventory is full, the item is dropped instead (no entry is made for it in the Character's Inventory).
     
-  4.2.0.0 Dropping Items
+4.2.0.0 Dropping Items
     
     Items may be "dropped" from a Character's Inventory either automatically, when the Character picks up an Item and her Inventory is already full; or voluntarily, when a Player decides it.
     
@@ -643,7 +643,7 @@
     
     _Cursed Items_ Some Items are cursed, and may not be removed from a Character's Inventory until their curse is lifted. If a Character acquires a Cursed Item while her Inventory is full, she MUST drop another Item that is not Cursed. If her Inventory is full of Cursed Items, her day MUST not be going too well, and she drops the new Cursed Item.
     
-  4.3.0.0 Consuming Items
+4.3.0.0 Consuming Items
     
     Inventory Items are "Consumed" and may become "Exhausted" as a result of taking an Action or paying a Cost.
     
@@ -651,7 +651,7 @@
     
     _Exhausted Items_ When an Inventory Item is Exhausted, it can no longer be Consumed to take Actions or pay Costs. Exhausted Items are not "dropped": they just disappear and cannot be picked up by other Characters.
     
-  4.4.0.0 Food Items
+4.4.0.0 Food Items
     
     4.4.1.0 Consuming Food Items
       
@@ -681,7 +681,7 @@
       
       The following Sections describe how to generate Food Items' Form and Function.
       
-    4.4.3.0 Generating a Food Item's Form
+4.4.3.0 Generating a Food Item's Form
         
       When an Item is first found, Roll to generate the Item's Form, as follows:
       
@@ -715,7 +715,7 @@
       ──────────────────────  ──────────────────────
       Table 8: Food Types                          
         
-    4.4.4.0 Identifying Food Items
+4.4.4.0 Identifying Food Items
     
       Food Items start out as Unknown Items, whose Form is known, but whose Function is not known. A Character can identify a Food Item in one of two ways:
       
@@ -743,7 +743,7 @@
         
         When an Item is Identified, the Party gains 1 MP.
         
-    4.4.5.0 Generating a Food Item's Function
+4.4.5.0 Generating a Food Item's Function
     
       When an Item is Identified in one of the two ways described in the previous Section, Roll to generate the Item's Function, as follows:
       
@@ -779,7 +779,7 @@
       
       _Cursed Items_ When a Character first Identifies a Cursed Food Item, she rolls a D12 to determine a Random Effect. Each time the Food is Consumed, the Consuming Character is bestowed that Effect equal to the number of dots consumed. Cursed Items cannot be dropped or shared.
       
-  4.5.0.0 Building Resources
+4.5.0.0 Building Resources
   
     Building Resources can be found in stockpiles, or in the rubble of smashed Obstacles.
     
@@ -793,7 +793,7 @@
     
     When the last Dot of a Building Resource is consumed, the Building Resource is all used up and is removed from the Inventory.
   
-  4.6.0.0 Tool Items
+4.6.0.0 Tool Items
   
     Tool Items represent bits and bobs that are designed to aid Insects in performing certain feats.
     Each Tool Item has three qualities:
@@ -806,7 +806,7 @@
     
     When a Tool Item's last Dot is Consumed, it breaks, is spent, and is otherwise unusable.
   
-  4.7.0.0 Attack Ambers
+4.7.0.0 Attack Ambers
   
     Fragments of Amber contain the knowledge and power of Insects long past. These Attack Ambers grant the holder the ability to unleash this power upon their foes.
     
@@ -818,7 +818,7 @@
     
     When an Attack Amber has no Dots remaining, it becomes an inert piece of mundane amber. It may still be used for Bartering with other Insects.
 
-3.0.0.0 Minigames
+5.0.0.0 Minigames
 
     Nests & Insects is organised around five "Minigames". A Minigame is a set of special rules for a special game situation that Nests & Insects: Metamorphosis wants to model with more detail than its standard system. Combat is the most detailed and elaborate of Nests & Insects' Minigames. The other four are Survival & Exploration; Hunting & Foraging; Resting & Healing; and Travel. Brief descriptions are listed below.
     
@@ -832,9 +832,9 @@
     
     * The Travel Minigame defines how Insects traverse the Nest and go from Room to Room.
 
-  3.1.0.0 Combat
+  5.1.0.0 Combat
   
-    3.1.1.0 Combat Summary
+    5.1.1.0 Combat Summary
     
       Combat begins when the Characters and a group of enemies Attack one another. Combat is divided into Rounds, divided into Turns in which Characters and enemies participating on Combat (Combatants) get to act, and players and the GQ Roll dice to decide the outcome of Combatants' Actions.
       
@@ -852,7 +852,7 @@
       
       Combat ends when all Combatants on one side are either Killed or Retreating.
       
-    3.1.2.0 Combat Steps
+    5.1.2.0 Combat Steps
     
       The Combat Minigame plays out in nine steps, two of which repeat until Combat ends. The nine Combat Steps are summarised in the Rules Summary below, and discussed in detail in the following Sections.
       
@@ -873,9 +873,11 @@
       8. Repeat from Step 4 until all Combatants on one side of Combat are killed, or      
          Retreating.                                                                       
                                                                                            
-      9. Combat Ends.                                                                      
+      9. Combat Ends.
 
-      3.1.2.1 Determine Combatants and Sides
+      10. Award MP.
+
+      5.1.2.1 Determine Combatants and Sides
         Combat begins when either the Characters or Nest creatures Attack one another.
         
         All Characters in the Room where Combat is taking place make up one Side of Combat.
@@ -888,7 +890,7 @@
         
         It is possible for a creature to be in the same room as Combat and not be a Combatant. These Bystanders can be recruited or incited to fight for either Side.
         
-      3.1.2.2 Starting Disposition
+      5.1.2.2 Starting Disposition
         Before the start of the first Combat Round, each Player Rolls SPE or PAS. The GQ makes a similar Roll for each of the enemies. Each Combatant begins at Holding Disposition, then Advances or Recoils their Disposition as described in TABLE.
         
         SPE or PAS Roll Result  Starting Disposition                                    
@@ -900,7 +902,7 @@
         ──────────────────────────────────────────────────                                       
         Table 11: Starting Disposition.                                                           
 
-      3.1.2.3 Initiative Order
+      5.1.2.3 Initiative Order
       
         Before the start of the first Combat Round, and after Starting Disposition is Determined, the GQ decides the Initiative Order for all Combatants.
         
@@ -914,7 +916,7 @@
         
         The Combatant with the highest Initiative Order takes the First Turn, the one with the next highest Initiative Order takes the Second Turn, and so on.
         
-      3.1.2.4 Combat Rounds
+      5.1.2.4 Combat Rounds
         
         Once Initiative Order is determined, the first Round of Combat begins and Combatants take Actions in Turn, in order of Initiative.
         
@@ -952,7 +954,7 @@
         
         Attacks are listed in Chapter 5. Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
         
-      3.1.2.6 Suppress Action
+      5.1.3.2 Suppress Action
         
         A Combatant can take one of the following Suppress Actions on her turn:
         
@@ -994,7 +996,7 @@
         ──────────────────────────────────────────────────────────────
         Table 13: Effort Variables for Suppress Action
 
-      3.1.2.7 Support Action
+      5.1.3.3 Support Action
       
         A Combatant can take the following Support Actions at the start of an Ally's Turn:
         
@@ -1037,11 +1039,11 @@
         ───────────────────────────────────────────────────────────────
         Table 15: Effort Variables for Support Action
 
-      3.1.2.8 Resist Action
+      5.1.3.4 Resist Action
       
         A Combatant can take a Resist Action during their turn to overcome a single Effect. See Section 2.6.8.3 for rules on Resisting Effects.
 
-      3.1.2.9 Manoeuver Action
+      5.1.3.6 Manoeuver Action
         
         Manoeuver Actions provide a mechanism for players' Characters and Enemies controlled by the GQ to take improvides actions, outside of the Formulaic Actions of the Combat Minigame. For this reason, there are no special rules for Manoeuver Actions and no Minigame formula for them. The GQ comes up with special rules on the fly.
         
@@ -1078,33 +1080,7 @@
         brains to protect their home.                                                        
         └───────────────────────────────────────────────────────────────────────────────────────┘
 
-      3.1.2.10 Breaking from Combat
-        
-        A Combatant can Break from Combat by leaving the Room through one of its Exits as part of a Move Action.
-                
-      3.1.2.11 Consuming Food in Combat
-      
-        There is no Formulaic Combat Action that allows a Combatant to Consume a Food Item during Combat. War is no picnic! Combatants are also not allowed to Consume Food as a Manoeuver.
-        
-        If a Combatant wishes to Consume a Food Item, the Combatant must first Break from Combat.
-        
-      3.1.2.12 Joining Combat.
-      
-        A creature who is not in Combat can always Join Combat. The Creature may have Broken from Combat previously, or she may have been hiding, or not in the same Room as her friends when Combat began. It doesn't really matter: a Creature can always join Combat.
-        
-        Joining Combat requires no Roll. A creature who is not a Combatant joins Combat at the start of the next Combat Round. At the start of that Round, before any Combatants' Turn, determine the new Combatant's Disposition and Initiative Order, then she takes her first Turn in Initiative Order, as normal.
-        
-        ┌[Note 5]───────────────────────────────────────────────────────────────────────────────┐
-        A common reason for new Combatants to join Combat is when the Nest's Guardians summon
-        their conspecifics to help them repell the intruders. In that case, when the summoned
-        allies arrive, they Join Combat as described above.                                  
-        └───────────────────────────────────────────────────────────────────────────────────────┘
-
-      3.1.2.13 Combat Ends
-        
-        When Combat ends, all Combatants cease to be Combatants and the two Sides cease to exist for rules purposes.
-        
-  3.2.0.0 Survival & Exploration
+  5.2.0.0 Survival & Exploration
       
     The Survival & Exploration Minigame defines rules for the manual or Procedural Generation of a Nest's Environment. During the Survival & Exploration Minigame, Characters explore the Nest and the GQ describes what the Characters find.
     
@@ -1114,23 +1090,25 @@
     
     This Section is divided into the following parts:
     
-    * 3.2.1.0 The Nest Environment
+    * 5.2.1.0 The Nest Environment
     
-    * 3.2.2.0 Survival & Exploration - Procedural Generation
+    * 5.2.2.0 Survival & Exploration - Procedural Generation
     
-    * 3.2.3.0 Survival & Exploration - Manual Generation
+    * 5.2.3.0 Survival & Exploration - Manual Generation
     
-    * 3.2.4.0 Risk Events
+    * 5.2.4.0 Risk Events
     
-    * 3.2.5.0 Reward Events
+    * 5.2.5.0 Reward Events
+    
+    * 5.2.6.0 Encounters
   
-    3.2.1.0 The Nest Environment
+    5.2.1.0 The Nest Environment
     
       A Nest is an environment that consists of multiple Nest Levels, each comprised of one or more Rooms. Levels and Rooms are all explored by the Characters during the Survival & Exploration MiniGame. They are collectively known as Nest Environments.
       
       Environments act as resources that can be spent to initiate Minigames, or to pay Costs. In particular, in order to initiate the Survival & Exploration Minigame itself, a Room must be Spent. The Nest always starts with a well-connected Room 0 - the Entrance of the Nest.
       
-      3.2.1.1 Rooms
+      5.2.1.1 Rooms
       
         A Room is an enclosed area. In truth, eusocial Insect nests don't ordinarily have many distinct rooms and are mainly composed of tunnels. Nests & Insects takes a fantastical approach to Nest architecture, pretending that Insects have floorplans and designs of a similar (but not identical) nature to Humans.
         
@@ -1138,7 +1116,7 @@
         
         _Passages_ A Passage is an opening or tunnel connecting two Rooms. Passages serve to remind the Players which Rooms are connected to each other.
       
-      3.2.1.2 Nest Levels
+      5.2.1.2 Nest Levels
         
         A Nest Level, or Level, is a group of Rooms connected to each other by Passages, including Passages that may lead to other Levels. Rooms in the same Level are situated at about the same elevation above or below ground, much like a floor in a multi-story house.
         
@@ -1146,7 +1124,7 @@
         
         The Characters enter a Nest at Level 1, and must forge their own path to the Job Target from there. During Procedural Generation, Level Rewards are discovered as part of an Exploration Action. During Manual Generation, a Level can have as many or as few Rooms as you wish before you introduce an Entrance to the next Level.
         
-      3.2.1.3 The Environment Pool
+      5.2.1.3 The Environment Pool
         
         To track the Environments discovered so far in the game, and what was discovered there, Players have a communal Environment Pool.
         
@@ -1180,7 +1158,7 @@
         
         _Moving Between Rooms_ The Travel Minigame (Section 3.5.0.0) establishes the rules for moving between Rooms. 
         
-    3.2.2.0 Survival & Exploration - Procedural Generation
+    5.2.2.0 Survival & Exploration - Procedural Generation
     
       The core Mechanic of Procedural Generation is Rolling on Tables. The Players or the GQ Roll and cross-reference the result with the rows of a Table. The Table lists what the Characters find and what happens to them while they Explore the Nest.
       
@@ -1188,7 +1166,7 @@
       
       _Rolling for Events_ Once the numbers of Risks and Rewards are determined, the Players Roll a set of Risk dice and a set of Reward dice, and refer to the Tables to see what they find.
       
-      3.2.2.1 Procedural Generation Steps
+      5.2.2.1 Procedural Generation Steps
       
         There are seven Steps to Procedurally Generated Survival & Exploration.
         
@@ -1208,17 +1186,17 @@
         
         7. Survival & Exploration Ends.
         
-      3.2.2.2 Form an Exploration Party
+      5.2.2.2 Form an Exploration Party
       
         It's common for more than one Character to Explore the Nest at a time, in particular, all the Player Characters may go Exploring together, or the Players may split their Characters into groups that will Explore the Nest separately. A group of Characters Exploring the Nest is an Exploration Party. To form an Exploration Party, the Players decide between them which Characters Explore the Nest Together.
         
         For each Exploration Party, a separate Survival & Exploration Action is taken. Each Party nominates one Character to be its "Scout".
         
-      3.2.6.3 Travel to an Unexplored Room
+      5.2.6.3 Travel to an Unexplored Room
       
         The Exploration Party must be in a Room with an Unexplored Exit. After selecting the Exit, the Exploration Party must physically travel to a Room before they can Explore it. See 3.5.0.0 Travel.
         
-      3.2.2.4 Generate Features of the Room
+      5.2.2.4 Generate Features of the Room
       
         If playing without Maps, you may skip this Step.
         
@@ -1243,11 +1221,11 @@
         
         _Ceilings and Walls_ For the especially ambitious GQ, you can use these same Generation Guidelines to populate the Walls and even Ceilings of your Rooms - bugs can climb on Walls, after all! This does significantly increase both preparation time and complexity of any encounters therein, so try and save this for more dramatic moments.
         
-      3.2.2.5 Resolve the Exploration Action
+      5.2.2.5 Resolve the Exploration Action
         
         Each Room starts with Level Risk Dice. The Party Scout makes a KEN Roll. Each Success on the Roll turns one Risk Die into one Reward Die, up to a maximum of Level Rewards Dice.
         
-      3.2.2.6 Generate Risks
+      5.2.2.6 Generate Risks
         
         If the Room has any Risk Dice, Roll those dice and compare the Results against TABLE.
             
@@ -1262,7 +1240,7 @@
               
         _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls multiple times to determine what Creatures the Players come across.
         
-      3.2.2.7 Generate Rewards
+      5.2.2.7 Generate Rewards
         
         If the Room has any Reward Dice, Roll those Dice and compare the results against TABLE.
         
@@ -1277,7 +1255,7 @@
         
         _Multiple Food Items_ If multiple Food Item Rewards are Generated, each one beyond the first increases the Food's Level by 1.
         
-      3.2.2.8 Face Risks.
+      5.2.2.8 Face Risks.
           
         Risks are Faced in the following order. See SECTION for more details on Facing Risks.
         
@@ -1286,21 +1264,21 @@
         3. Darkness
         4. Encounter
         
-      3.2.2.9 Survival & Exploration Ends
+      5.2.2.9 Survival & Exploration Ends
       
         Once all Risks and Rewards are generated and dealt with, the Room can be marked as "Explored" and the Survival & Exploration Minigame ends.
         
         Nothing special happens when Survival and Exploration ends. Players are free to control their Characters as before.
         
-    3.2.3.0 Survival & Exploration - Manual Generation
+    5.2.3.0 Survival & Exploration - Manual Generation
       
         
       
-      3.2.3.1 Generating the Nest
+      5.2.3.1 Generating the Nest
       
         
       
-      3.2.3.2 Survival & Exploration Steps in a Manually Generated Nest
+      5.2.3.2 Survival & Exploration Steps in a Manually Generated Nest
       
         1. Form an Exploration Party. This works exactly the same as in 3.2.2.2 for Procedural Generation.
         
@@ -1312,25 +1290,25 @@
         
         5. Survival & Exploration Ends.
         
-      3.2.3.4 Resolve the Exploration Action.
+      5.2.3.4 Resolve the Exploration Action.
       
         The Characters want to get somewhere, but they don't necessarily know what path to take. The Party Scout states the intent of what they hope to find and Rolls KEN + (Exploration or Eusociology) vs. Level. On a Success, the Character is able to determine which of this Room's Exits is the shortest path to the stated intent. For example, if the Scout is in a Room with two Exits and wants to find Food, a Success will show her which Exit is closer to Food. On a Failure, she gains one Hunger and no information. If what the Character seeks cannot be found in the Nest, a Success will let her know this.
       
-      3.2.3.5 Travel
+      5.2.3.5 Travel
       
         The Characters then Travel to either an Explored or Unexplored Room, based on what is closest to what they hope to find. See Section 3.5.0.0 Travel.
       
-      3.2.3.6 Face Risks
+      5.2.3.6 Face Risks
       
         The Risks in the destination Room are faced. See 3.2.4.0 for more information on Risks.
       
-      3.2.3.7 Survival & Exploration Ends
+      5.2.3.7 Survival & Exploration Ends
       
         Nothing special happens at the end of Survival & Exploration, except that the Room has now been Explored. Characters are now free to once again take any Actions they choose.
         
-    3.2.4.0 Risk Events
+    5.2.4.0 Risk Events
     
-      3.2.4.1 Obstacle Risk
+      5.2.4.1 Obstacle Risk
       
         When an Obstacle Risk is Faced, an Obstacle prevents the Characters from moving further into the Room. The Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
         
@@ -1353,7 +1331,7 @@
         
         _Multiple Obstacles_ If there are multiple Obstacle Risks to be faced in the same Room, they may be combined or assigned to different Exits. If the GQ decides to combine one or more Obstacles, she adds their Level together to create a single Obstacle. The GQ may combine and assign the Obstacles as she sees fit. If an Exit is blocked by an Obstacle, the Characters cannot leave through that Exit.
       
-      3.2.4.2 Infection Risk
+      5.2.4.2 Infection Risk
       
         When an Infection Risk is Faced, Roll STR + Healing vs. Level. A Character suffers a Negative Modifier to the Roll equal to her current Infected Rating, if any.
         
@@ -1361,7 +1339,7 @@
         
         _Multiple Infection Risks_ If there are multiple Infection Risks to be faced in the same Room, their Levels add together and are faced as one. For Example, if two Level 3 Infection Risks are Generated, the Characters must Face a single Level 6 Infection Risk.
       
-      3.2.4.3 Darkness Risk
+      5.2.4.3 Darkness Risk
       
         Some were born in the Darkness. Others have it thrust upon them. Darkness acts as a catchall force that acts against an Insect's senses. Sight, hearing, and even smell and touch are inhibited by the Darkness.
         
@@ -1375,7 +1353,13 @@
         
         _Multiple Darkness_ If the Characters face multiple Darkness Risks, the Darkness grows stronger. Add together the Levels of the Darkness Risks to achieve a single, greater Darkness, which the Characters must face.
       
-      3.2.4.4.0 Encounter Risk
+      5.2.4.4 Hostile Encounter Risk
+
+        
+
+    5.2.5.0 Reward Events
+    
+      5.2.5.1 Food Item Reward
       
         You do not belong here. This is not your home. And it is dangerous. Or friendly. Or ambivalent. Whatever happens happens, you know?
         
@@ -1387,7 +1371,7 @@
         
         * Avoid: Attempt to move through the Room without being noticed.
         
-        * Intimidate: Convince the Creatures to flee the Room.
+    5.2.6.0 Encounters
         
         * Negotiate: Convince the Creatures to provide an Item, Service, or Information.
         
@@ -1479,7 +1463,7 @@
         
         _Multiple Levels_ If multiple Level Rewards are Generated in a Room, they combine into a single Level Reward. For each Level Reward, the Level of the new Room increases by one.
           
-  3.3.0.0 Hunting & Foraging
+  5.3.0.0 Hunting & Foraging
     
     In Exploration & Survival the Characters discover what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
     
@@ -1505,13 +1489,13 @@
    
     The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts have wasted one of the Room's Chances. On a Total Failure, the Character wastes her Chance and is also Hungry from the effort. On a Critical Failure, the Character's Chance is wasted and her Hunger is increased substantially.
     
-  3.4.0.0 Resting & Healing
+  5.4.0.0 Resting & Healing
 
     In between the dangers of exploring the Nest and Encounters with its Denizens, the Characters need some well-earned time to rest, recover, and reflect on how they've grown. This is encompassed by the Resting and Healing Minigame.
     
     Before the Characters can rest, they need to first make a safe space to do so. Characters will have to choose a Room that has been cleared of all Risks and Secure it using Building Resources. Once they have a safe space, the Characters can Resist their Effects, Heal from Wounds, and Spend MP. During this safe time, they may also choose to swap their known Attacks.
     
-    3.4.1.0 Resting & Healing Steps
+    5.4.1.0 Resting & Healing Steps
     
       The Resting & Healing Minigame follows a formulaic set of steps in a given order:
       
@@ -1531,31 +1515,31 @@
       
       After all steps are complete, the Resting and Healing Minigame is ended. Players are free to start a new Resting & Healing action immediately, or continue on their Job.
       
-    3.4.2.0 Secure a Room
+    5.4.2.0 Secure a Room
     
       A Nest is a dangerous place to try and rest if you don't belong. The Characters need to Secure a Room if they want to be able to rest safely. To Secure a Room, the Characters must have a combined Construction + Web Rating equal to the Room's Level. Each Character contributing a Dot of Construction must Consume that many Dots of Resources. Each Character contributing a Dot of Web gains that much Hunger.
       
       Once a Room has been Secured by the Characters, it will remain Secured until the Characters leave the Nest. Characters can return to a previously Secured Room to begin Resting & Healing without spending additional hunger or Resources.
     
-    3.4.3.0 Consume Food
+    5.4.3.0 Consume Food
     
       Each Character may Consume one or more Food Items. Each Dot Consumed reduces her Hunger by one.
     
-    3.4.4.0 Heal from Wounds
+    5.4.4.0 Heal from Wounds
     
       The Character may Consume one Dot of Food to Heal one Wound. If she does, she may KEN + Healing to Heal from additional Wounds. Each Success Heals one Wound.
       
       _Group Healing_ If a Character rolls more Successes than they have wounds, they can distribute their Successes among other Characters who consumed Food Items.
     
-    3.4.5.0 Summon Swarmlings
+    5.4.5.0 Summon Swarmlings
     
       If a Character has a Swarming Rating, she may consume one Dot of Food to summon one Swarms, then Roll Swarming + (Leadership or Eusociology). Each Success summons one additional Swarms.
     
-    3.4.6.0 Resist Effects
+    5.4.6.0 Resist Effects
     
       A Character in the Resting & Healing Minigame has an opportunity to Resist once for each Effect she suffers. See 2.6.8.3 for the rules on Resisting specific Effects.
     
-    3.4.7.0 Spend MP
+    5.4.7.0 Spend MP
     
       If a Character has any MP that they wish to spend, they may do so now. The base cost of improving an attribute is equal to the new Rating. Thus, the base cost to increase an attribute from 5 to 6 is 6 MP, and the cost to go from 6 to 7 is 7 MP. Each type of Attribute then multiplies this Base Cost to get the total cost:
       
@@ -1571,16 +1555,16 @@
       
       _Adjusting MP Costs_ If the GQ has a desire to play a shorter, faster game, she is free to decrease the MP costs of improving Attributes. Conversely, if she desires to play a longer grind-game, she is free to increase the MP costs. She must make sure she communicates any changes to the Players.
     
-    3.4.8.0 Change Attacks
+    5.4.8.0 Change Attacks
     
       A Character may decide to change their list of Known Attacks. See Chapter 5 for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
     
-  3.5.0.0 Travel
+  5.5.0.0 Travel
     
     Once the Characters have explored a Room, they may wish to return. Perhaps there are Items they wish to harvest, or they wish to Explore a connected Room. The journey is relatively safe, as the Characters have probably cleared most of the Risks along the way.
     The journey is not without its own costs, however. Characters will gain Hunger along the way.
     
-    3.5.1.0 Steps of Travel
+    5.5.1.0 Steps of Travel
     
       The Travel Minigame follows a short series of steps.
       
@@ -1602,21 +1586,21 @@
       
       The following Sections describe these steps in more detail.
       
-    3.5.2.0 Begin Travel
+    5.5.2.0 Begin Travel
       
       The Travel Minigame begins when a Player expresses an intent to leave the current Room without starting Survival & Exploration.
       
-    3.5.3.0 Choose Destination
+    5.5.3.0 Choose Destination
     
       The Character who initiated Travel declares which Room in the Environment Pool they would like to set as their destination.
       
-    3.5.4.0 Form Traveling Party
+    5.5.4.0 Form Traveling Party
     
       An Traveling Party consists of all Characters in the same Room who want to commence Travel to the same destination.
       
       _Immobile and Paralysed Travel_ Immobile and Paralysed Characters cannot travel without the Assistance of another Character. When Hunger Comes Due, the Assisting Character gains one additional Hunger.
       
-    3.5.5.0 Risks Along the Route
+    5.5.5.0 Risks Along the Route
     
       Sometimes the Characters will leave a Room without dealing decisively with the Risks they faced there. The two major examples of this are hostile Encounters that were fled or avoided, and the Infection Risk.
       
@@ -1624,11 +1608,11 @@
       
       For each Room along the Route with an Infection Risk, the Characters will have to face the Infection Risk again as they pass through that Room.
       
-    3.5.6.0 Arrive at Destination
+    5.5.6.0 Arrive at Destination
     
       The Characters arrive at their destination, and the strain of their journey takes its toll on them. They realize how Hungry they have gotten, and their Effects may trigger.
       
-      3.5.6.1 Hunger Comes Due
+      5.5.6.1 Hunger Comes Due
         
         The Exploration Party gains one Hunger for each Room visited during the journey:
         
@@ -1636,35 +1620,35 @@
         
           * If a Character is not Starving and the journey would bring her to Hunger 10 or more, she is at Hunger 10 and she is Starving.
           
-      3.5.6.2 Effects Trigger
+      5.5.6.2 Effects Trigger
       
         Effects Trigger. See 2.6.8.4 for the rules of Triggered Effects.
         
-    3.5.7.0 End Travel
+    5.5.7.0 End Travel
     
       Once the Traveling Party has arrived and has paid the costs of Travel, the Minigame is over. Characters are free to take other Actions and initiate other Minigames.
       
                                                                                          
-4.0.0.0 Setting
+6.0.0.0 Setting
 
-  4.1.0.0 Clients and Jobs
+  6.1.0.0 Clients and Jobs
   
     - Client: Type of Insect
         
     - Type of Job
     - Location of Job
     
-  4.2.0.0 Environment
-    4.2.1.0 Nests
-    4.2.1.1 Ant Colonies
-    4.2.1.2 Bee Hives
-    4.2.1.3 Beetle Arenas
-    4.2.1.4 Spider Communes
-    4.2.1.5 Scorpion Burrows
-    4.2.1.6 Termite Nests
-    4.2.1.7 Wasp Nests
-  4.3.0.0 Enemies
-  4.4.0.0 Ants
+  6.2.0.0 Environment
+    6.2.1.0 Nests
+    6.2.1.1 Ant Colonies
+    6.2.1.2 Bee Hives
+    6.2.1.3 Beetle Arenas
+    6.2.1.4 Spider Communes
+    6.2.1.5 Scorpion Burrows
+    6.2.1.6 Termite Nests
+    6.2.1.7 Wasp Nests
+  6.3.0.0 Enemies
+  6.4.0.0 Ants
   Ant Drone
   Carpenter Ants
     Encounter Table
@@ -1686,7 +1670,7 @@
     Winter Ant Drone
     Winter Ant Queen
     Winter Ant Empress
-  4.5.0.0 Bees
+  6.5.0.0 Bees
   Encounter Table
   Honey Bees
     Honey Bee Worker
@@ -1708,7 +1692,7 @@
     Stormshore Soldier
     Stormshore Princess
     Queen Thundara, Stormshore Queen
-  4.6.0.0 Beetles (TBD)
+  6.6.0.0 Beetles (TBD)
     Bark Beetles
       High Chill
       Medium Spe
@@ -1769,19 +1753,19 @@
       High Carapace
       High Flight
       High Spe
-  4.7.0.0  Scorpions
-  4.8.0.0 Spiders
-  4.7.0.0 Termites
+  6.7.0.0  Scorpions
+  6.8.0.0 Spiders
+  6.7.0.0 Termites
     Encounter Table
-    4.6.1.0 Worker Termite
-    4.6.2.0 Minor Termite Soldier - Autothyte
-    4.6.3.0 Major Termite Soldier - Autothyte
-    4.6.4.0 Nasute Soldier
-    4.6.5.0 Alates - King (TBD)
-    4.6.6.0 Alates - Queen (TBD)
-  4.10.0.0 Wasps
+    6.6.1.0 Worker Termite
+    6.6.2.0 Minor Termite Soldier - Autothyte
+    6.6.3.0 Major Termite Soldier - Autothyte
+    6.6.4.0 Nasute Soldier
+    6.6.5.0 Alates - King (TBD)
+    6.6.6.0 Alates - Queen (TBD)
+  6.10.0.0 Wasps
 
-5.0.0.0 Attacks
+7.0.0.0 Attacks
 
   In Combat, Attacking is the main way to inflict Wounds upon Enemy Insects. Each Insect can know up to four attacks at once, and can only choose Attacks for which she Qualifies, which is to say that she meets its Requirements.
   
@@ -1789,17 +1773,17 @@
   
   The list of available Attacks is available in Section 5.2.0.0. Detailed descriptions of these attacks are available in Attack_Index.txt.
 
-  5.1.0.0 Reading Attacks
+  7.1.0.0 Reading Attacks
 
     Attacks have four Attributes: Name, Range, Requirements, and Description. The following sections speak about these 
     
-    5.1.1.0 Attack Names
+    7.1.1.0 Attack Names
       
       Each Attack has a name that is used to distinguish it from other attacks. The name is usually no longer than two words.
       
       When coming up with your own Attacks, do not forget to name them.
     
-    5.1.2.0 Attack Ranges
+    7.1.2.0 Attack Ranges
       
       * Melee: Melee Attacks require the Attacker to be Adjacent to the target of the Attack.
       
@@ -1807,11 +1791,11 @@
       
       * Area: Affects all Insects within a specified area. 
       
-    5.1.3.0 Attack Requirements
+    7.1.3.0 Attack Requirements
     
       
     
-    5.1.4.0 Attack Description Glossary
+    7.1.4.0 Attack Description Glossary
       
       *Adjacent: The Insect or Hex is touching the Hex of interest, typically the Attacker or a chosen Hex.
     
@@ -1821,9 +1805,9 @@
     
       * Within X Hexes: X represents a set number, or a Rating. A Hex is within X Hexes if it takes no more than X Hex-steps to move to that Hex.
     
-  5.2.0.0 Lists of Attacks by Attribute
-    5.2.1.0 Core Attributes
-      5.2.1.1 Speed Attacks
+  7.2.0.0 Lists of Attacks by Attribute
+    7.2.1.0 Core Attributes
+      7.2.1.1 Speed Attacks
         Armored Charge
         Requirements: SPE 4, Carapace 4
         
@@ -1842,7 +1826,7 @@
         Supreme Speed
         Requirements: SPE 7
         
-      5.2.1.2 Strength Attacks
+      7.2.1.2 Strength Attacks
         Ground Slam
         Requirements: STR 4, Flight 4
         
@@ -1858,7 +1842,7 @@
         Strong Strike
         Requirements: STR 3
         
-      5.2.1.3 Ken Attacks
+      7.2.1.3 Ken Attacks
         Assuréd Strike
         Requirements: KEN 7
       
@@ -1871,7 +1855,7 @@
         Willéd Strike
         Requirements: KEN 6, Psycho 6
         
-      5.2.1.4 Passions Attacks
+      7.2.1.4 Passions Attacks
         Bolster
         Requirements: PAS 4, Leadership 4
         
@@ -1887,8 +1871,8 @@
         Rout
         Requirements: PAS 4, Signaling 4
         
-    5.2.2.0 Special Attributes
-      5.2.2.1 Carapace Attacks
+    7.2.2.0 Special Attributes
+      7.2.2.1 Carapace Attacks
         Armor Bash
         Requirements: Carapace 3
         
@@ -1907,7 +1891,7 @@
         Reinforced Silk
         Requirements: Carapace 6, Web 6
         
-      5.2.2.2 Flight Attacks
+      7.2.2.2 Flight Attacks
         Flythrough
         Requirements: Flight 3
       
@@ -1920,7 +1904,7 @@
         Twister
         Requirements: Flight 7
         
-      5.2.2.3 Swarming Attacks
+      7.2.2.3 Swarming Attacks
         Autothysis
         Requirements: Swarming 5
         
@@ -1933,7 +1917,7 @@
         Swarming Call
         Requirements: Swarming 3
         
-      5.2.2.4 Toxic Attacks
+      7.2.2.4 Toxic Attacks
         Corrosive Sacrifice
         Requirements: Swarming 5, Toxic 5
         
@@ -1949,7 +1933,7 @@
         Venom Sting
         Requirements: Toxic 3
         
-      5.2.2.5 Web Attacks
+      7.2.2.5 Web Attacks
         
         Bandage
         Requirements: Web 4, Healing 4
@@ -1969,15 +1953,15 @@
         Web Shot
         Requirements: Web 3
         
-    5.2.3.0 Advanced Attributes
-      5.2.3.1 Chill Attacks
+    7.2.3.0 Advanced Attributes
+      7.2.3.1 Chill Attacks
         Chilling Blast
         Requirements: Chill 5
         
         Chilling Blow
         Requirements: Chill 3
         
-      5.2.3.2 Heat Attacks
+      7.2.3.2 Heat Attacks
         Burning Blaze
         Requirements: Heat 5
         
@@ -1990,7 +1974,7 @@
         Searing Shine
         Requirements: Heat 6, Light 6
         
-      5.2.3.3 Hydro Attacks
+      7.2.3.3 Hydro Attacks
         Fontanellar Bomb
         Requirements: Hydro 5
       
@@ -2000,7 +1984,7 @@
         Fontanellar Vortex
         Requirements: Hydro 7
         
-      5.2.3.4 Light Attacks
+      7.2.3.4 Light Attacks
         Bright Beam
         Requirements: Light 5
         
@@ -2010,7 +1994,7 @@
         Searing Shine
         Requirements: Heat 6, Light 6
         
-      5.2.3.5 Plant Attacks
+      7.2.3.5 Plant Attacks
         
         Fungal Bungle
         Requirements: Plant 3
@@ -2024,7 +2008,7 @@
         Vine Entwine
         Requirements: Plant 5
         
-      5.2.3.6 Static Attacks
+      7.2.3.6 Static Attacks
       
         Line of Lightning
         Requirements: Static 7
@@ -2035,13 +2019,13 @@
         Static Crunch
         Requirements: Static 3
         
-      5.2.3.7 Psycho Attacks
+      7.2.3.7 Psycho Attacks
         Psychic Mandibles
         Requirements: Psycho 3
                 
         Willéd Strike
         Requirements: KEN 6, Psycho 6
 
-      5.2.3.8 Vibe Attacks
+      7.2.3.8 Vibe Attacks
         Vibral Assault
         Requirements: Vibe 3
