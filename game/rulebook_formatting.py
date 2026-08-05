@@ -3,7 +3,7 @@
 raw_filename = 'New_Rulebook_Raw.txt'
 out_filename = 'Nests_And_Insects_Metamorphosis.txt'
 
-page_header = '╔══► Nests & Insects: Metamorphosis ◄═════════════════════════════════════════► Rulebook ◄══╗'
+page_header = '╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗'
 page_footer_left = '╚═══════════════════════════════════════════'
 page_footer_right = '═══════════════════════════════════════════╝'
 margin_left = '║ '
