@@ -113,7 +113,7 @@ def format_cols(columns):
 
 def format_table_header(table_num, rl):
     tn = table_num + 1
-    wl = 'Table ' + str(tn) + ': ' + rl[3:]
+    wl = 'Table ' + str(tn) + ': ' + rl[7:]
     
     return tn, wl
     
