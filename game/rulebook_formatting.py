@@ -177,7 +177,17 @@ def format_page_footer(page_num):
         
     return page_footer_left + num_string + page_footer_right
 
-with open(raw_filename, 'r', encoding='utf-8') as raw_file, open(out_filename, 'w', encoding='utf-8') as out_file:
+def format_toc_line(title,page):
+    diff = page_width - len(str(title)) - len(str(page))
+    out_line = str(title) + diff * '.' + str(page)
+    return out_line
+
+headers = []
+header_pages = []
+tables = []
+table_pages = []
+
+with open(raw_filename, 'r', encoding='utf-8') as raw_file, open(temp_filename, 'w', encoding='utf-8') as temp_file:
     read_line = '' 
     write_line = ''
     line_index = 0
