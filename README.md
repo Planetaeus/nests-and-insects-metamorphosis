@@ -22,7 +22,7 @@ Reading the rulebook
 
 The in-progress new rulebook is in the following path:
 ```
-<project root>/game/New_Rulebook.txt
+<project root>/game/Nests_And_Insects_Metamorphosis.txt
 ```
 
 A list of Attack Descriptions can be found in:
