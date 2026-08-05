@@ -208,25 +208,15 @@ with open(raw_filename, 'r', encoding='utf-8') as raw_file, open(temp_filename, 
             for wl in write_lines:
                 write_line = wl
                 
-                if line_index % 48 == 0:
-                    out_file.write(page_header + u'\n')
-                    
-                out_file.write(write_line + u'\n')
+                temp_file.write(write_line + u'\n')
                 
+                line_index = line_index + 1
                 if line_index % 48 == 47:
                     page_index = page_index + 1
-                    footer = format_page_footer(page_index)
-                    out_file.write(footer + u'\n')
-                
-                line_index = line_index + 1    
     write_line = margin_left + page_width * ' ' + margin_right
 
-    while line_index % 48 != 0:
         out_file.write(write_line + u'\n')
         if line_index % 48 == 47:
-            page_index = page_index + 1
-            footer = format_page_footer(page_index)
-            out_file.write(footer + u'\n')
         line_index = line_index + 1
     
        
