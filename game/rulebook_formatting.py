@@ -214,10 +214,103 @@ with open(raw_filename, 'r', encoding='utf-8') as raw_file, open(temp_filename, 
                 line_index = line_index + 1
                 if line_index % 48 == 47:
                     page_index = page_index + 1
+    
+with open(temp_filename, 'r', encoding='utf-8') as temp_file, open(out_filename, 'w', encoding='utf-8') as out_file:
+    read_line = ''
+    write_line = ''
+    line_index = 0
+    page_index = 0
+    
+    #Title Page
+    
+    #Table of contents
+    out_file.write(page_header + u'\n')
     write_line = margin_left + page_width * ' ' + margin_right
-
+    out_file.write(write_line + u'\n')
+    write_line = 'Table of Contents'
+    write_line = pad_right(write_line,page_width)
+    write_line = add_margins(write_line)
+    out_file.write(write_line + u'\n')
+    write_line = margin_left + page_width * ' ' + margin_right
+    out_file.write(write_line + u'\n')
+    line_index = line_index + 4
+    
+    for header, header_page in zip(headers, header_pages):
+        write_line = format_toc_line(header,header_page)
+        write_line = adds_margins(write_line)
+        
+        if line_index % 48 == 0:
+            out_file.write(page_header + u'\n')
+            
         out_file.write(write_line + u'\n')
+        
         if line_index % 48 == 47:
+            out_file.write(page_footer + u'\n')
+            
+        line_index = line_index + 1
+
+    #Table of Tables
+    write_line = margin_left + page_width * ' ' + margin_right
+    out_file.write(write_line + u'\n')
+    
+    write_line = 'Table of Tables'
+    write_line = pad_right(write_line,page_width)
+    write_line = add_margins(write_line)
+    out_file.write(write_line + u'\n')
+    write_line = margin_left + page_width * ' ' + margin_right
+    out_file.write(write_line + u'\n')
+    line_index = line_index + 4
+    
+    for table, table_page in zip(tables, table_pages):
+        write_line = format_toc_line(table,table_page)
+        write_line = adds_margins(write_line)
+        
+        if line_index % 48 == 0:
+            out_file.write(page_header + u'\n')
+            
+        out_file.write(write_line + u'\n')
+        
+        if line_index % 48 == 47:
+            out_file.write(page_footer + u'\n')
+            
         line_index = line_index + 1
     
-       
+    write_line = margin_left + page_width * ' ' + margin_right
+    while line_index % 48 < 47:
+        out_file.write(write_line + u'\n')
+        line_index = line_index + 1
+        
+    out_file.write(write_line + u'\n')
+    line_index = line_index + 1
+    out_file.write(page_footer + u'\n')
+    
+    
+    #Rest of the book
+    
+    while True:
+        read_line = temp_file.readline()
+        lines_read = lines_read + 1
+        if read_line == '': # Is the string empty?
+            break
+        else:
+            if line_index % 48 == 0:
+                out_file.write(page_header + u'\n')
+            
+            write_line = read_line
+            out_file.write(write_line)
+            if line_index % 48 == 47:
+                page_index = page_index + 1
+                footer = format_page_footer(page_index)
+                out_file.write(footer + u'\n')
+            
+            line_index = line_index + 1
+    write_line = margin_left + page_width * ' ' + margin_right
+    while line_index % 48 < 47:
+        out_file.write(write_line + u'\n')
+        line_index = line_index + 1
+        
+
+    page_index = page_index + 1
+    footer = format_page_footer(page_index)
+    out_file.write(footer + u'\n')
+                
