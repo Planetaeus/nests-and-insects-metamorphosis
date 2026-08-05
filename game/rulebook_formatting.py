@@ -2,6 +2,7 @@
 
 raw_filename = 'New_Rulebook_Raw.txt'
 out_filename = 'Nests_And_Insects_Metamorphosis.txt'
+temp_filename = 'NIM_Temp.txt'
 
 page_header = '╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗'
 page_footer_left = '╚═══════════════════════════════════════════'
