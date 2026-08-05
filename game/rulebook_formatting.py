@@ -14,36 +14,41 @@ line_break = '─' * page_width
 
 def update_header(headers, rl):
     hs = headers
+    h_level = 0
     if '/h1' in rl: # Header 1
         hs[0] = hs[0] + 1
         hs[1] = 0
         hs[2] = 0
         hs[3] = 0
+        h_level = 1
     elif '/h2' in rl: # Header 2
         hs[1] = hs[1] + 1
         hs[2] = 0
         hs[3] = 0
+        h_level = 2
     elif '/h3' in rl: # Header 3
         hs[2] = hs[2] + 1
         hs[3] = 0
+        h_level = 3
     elif '/h4' in rl: # Header 4
         hs[3] = hs[3] + 1
+        h_level = 4
     else:
         hs = [0,0,0,0]
     
-    return hs
+    return hs, h_level
      
 def header_to_string(hs):
     return str(hs[0]) + '.' + str(hs[1]) + '.' + str(hs[2]) + '.' + str(hs[3])
     
-def format_header(headers, rl):
-    hs = update_header(headers, rl)
+def format_header(h_nums, rl):
+    hn, h_level = update_header(h_nums, rl)
 
-    hs_string = header_to_string(hs)
+    hn_string = header_to_string(hn)
     
-    wl = hs_string + rl[3:]
+    wl = h_level * '  ' + hn_string + rl[3:]
     
-    return hs, wl
+    return hn, wl, h_level
     
 def pad_right(s, target_width):
     len_diff = target_width - len(s)
