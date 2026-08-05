@@ -144,15 +144,19 @@ def trim_line(lines):
     
     return out_lines
     
-def format_line(hs, tn, rl):
+def format_line(headers, header_pages, h_nums, tables, t_num, t_pages, p_num, rl):
     wl = ''
     rl = rl.strip()
     if len(rl) > 0:
-        if '/' in rl[0]: # Is formatting character present?
+        if '/' in rl[0]: # Does the line start with the formatting character?
             if 'h' in rl[1]:
-                hs, wl = format_header(hs, rl)
-            elif 't' in rl[1]:
-                tn, wl = format_table_header(tn, rl)
+                h_nums, wl, hl = format_header(h_nums, rl)
+                headers.append(wl)
+                header_pages.append(str(p_num))
+            elif '/table' in rl:
+                t_num, wl = format_table_header(t_num, rl)
+                tables.append(wl)
+                t_pages.append(str(p_num))
             elif '/cols' in rl:
                 wl = format_cols(rl[6:])
         else:
@@ -160,7 +164,7 @@ def format_line(hs, tn, rl):
     wl = trim_line(wl)
     wl = pads_right(wl, page_width)
     wl = adds_margins(wl)
-    return hs, tn, wl
+    return headers, t_num, wl
 
 def format_page_footer(page_num):
     num_string = ''
