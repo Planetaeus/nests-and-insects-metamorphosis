@@ -190,11 +190,11 @@ table_pages = []
 with open(raw_filename, 'r', encoding='utf-8') as raw_file, open(temp_filename, 'w', encoding='utf-8') as temp_file:
     read_line = '' 
     write_line = ''
+    header_num = [0,0,0,0]
     line_index = 0
     lines_read = 0
-    page_index = 0
     headers = [0,0,0,0]
-    table_num = 0
+    page_index = 1
     
     while True:
         
