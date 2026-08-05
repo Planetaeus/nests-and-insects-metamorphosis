@@ -203,7 +203,8 @@ with open(raw_filename, 'r', encoding='utf-8') as raw_file, open(temp_filename, 
         if read_line == '': # Is the string empty?
             break
         else:
-            headers, table_num, write_lines = format_line(headers, table_num, read_line)
+            headers, table_num, write_lines = format_line(headers, header_pages, header_num, tables, table_num, table_pages, page_index, read_line)
+            
             for wl in write_lines:
                 write_line = wl
                 
