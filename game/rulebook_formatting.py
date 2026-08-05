@@ -6,6 +6,7 @@ out_filename = 'Nests_And_Insects_Metamorphosis.txt'
 page_header = '╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗'
 page_footer_left = '╚═══════════════════════════════════════════'
 page_footer_right = '═══════════════════════════════════════════╝'
+page_footer = page_footer_left + '═════' + page_footer_right
 margin_left = '║ '
 margin_right = ' ║'
 page_width = 89
