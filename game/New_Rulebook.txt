@@ -338,7 +338,7 @@
       
 2.5.6.0 Selecting Attacks
     
-      Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (Chapter 5) and selects up to four Attacks for which her Character qualifies based on her Core and Special Attributes.
+      Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (Chapter 7) and selects up to four Attacks for which her Character qualifies based on her Core and Special Attributes.
     
 2.6.0.0 Character Features
   
@@ -478,11 +478,11 @@
       
 2.6.6.2 Metamorphosis Points
       
-        Actions over the course of the game earn Metamorphosis Points, or MP, for the Characters. Overcoming Jobs and Sub-Jobs are the most significant source of MP, but MP can also be earned by discovering Food of Metamorphosis. See 3.4.7.0 for spending Metamorphosis Points
+        Actions over the course of the game earn Metamorphosis Points, or MP, for the Characters. Overcoming Jobs and Sub-Jobs are the most significant source of MP, but MP can also be earned by discovering Food of Metamorphosis. See 5.4.7.0 for spending Metamorphosis Points
     
 2.6.7.0 Attacks
     
-      See Chapter 5 for a list of available Attacks, their requirements, and their descriptions.
+      See Chapter 7 for a list of available Attacks, their requirements, and their descriptions.
       
 3.0.0.0 Effects
 
@@ -543,7 +543,7 @@
     ──────────────────────────────────────────────
     Table 6: Effort Variables to Resist Effects.
   
-  3.4.0.0 Effect Details
+3.4.0.0 Effect Details
     
     When a Character is subject to one or more Effects, those Effects Trigger during Combat and Travel. Each Minigame determines when Effects must be "Triggered". At that time, all Effects the Character is subject to Trigger in order.
     
@@ -908,7 +908,7 @@
         
         Initiative Order is determined as follows:
         
-        * For Each Combatant, her Initiative Order is equal to her Initiative Rating.
+        * For Each Combatant, her Initiative Order is equal to SPE + PAS.
         
         * If two or more Combatants are tied for Initiative Rating, the Combatant with the higher Starting Disposition takes a Turn before the other Combatants.
         
@@ -936,10 +936,46 @@
         
         Characters can pass the chance to take one or both of her Actions and can take them in any combination, with the restriction that a Character can only make one Attack Action per round.
         
-        _Movement_ If using a grid, the Character may move a number of spaces up to her Speed rating. A Character with a Flight rating can move additional spaces up to her Flight rating. If playing without a grid, assume that the Character can move to the manner of position she wants to take.
+        The Actions a Character can take in Combat are defined in detail in Section 5.1.3.0.
+                
+      5.1.2.5 Breaking from Combat
         
-      3.1.2.5 Attack Action
+        A Combatant can Break from Combat by leaving the Room through one of its Exits as part of a Move Action.
+                
+      5.1.2.6 Consuming Food in Combat
+      
+        There is no Formulaic Combat Action that allows a Combatant to Consume a Food Item during Combat. War is no picnic! Combatants are also not allowed to Consume Food as a Manoeuver.
         
+        If a Combatant wishes to Consume a Food Item, the Combatant must first Break from Combat.
+        
+      5.1.2.7 Joining Combat.
+      
+        A creature who is not in Combat can always Join Combat. The Creature may have Broken from Combat previously, or she may have been hiding, or not in the same Room as her friends when Combat began. It doesn't really matter: a Creature can always join Combat.
+        
+        Joining Combat requires no Roll. A creature who is not a Combatant joins Combat at the start of the next Combat Round. At the start of that Round, before any Combatants' Turn, determine the new Combatant's Disposition and Initiative Order, then she takes her first Turn in Initiative Order, as normal.
+        
+        ┌[Note 5]───────────────────────────────────────────────────────────────────────────────┐
+        A common reason for new Combatants to join Combat is when the Nest's Guardians summon
+        their conspecifics to help them repell the intruders. In that case, when the summoned
+        allies arrive, they Join Combat as described above.                                  
+        └───────────────────────────────────────────────────────────────────────────────────────┘
+
+      5.1.2.8 Combat Ends
+        
+        When Combat ends, all Combatants cease to be Combatants and the two Sides cease to exist for rules purposes.
+        
+      5.1.2.9 Award MP
+      
+        After Combat has Ended, the GQ awards Metamorphosis Points to the Surviving Characters.
+        
+        Characters are awarded one twentieth (5%) of defeated Enemies's MP value, at least 1 MP per Enemy defeated.
+        
+        Characters are awarded half MP for Routed Enemies, at least 1 MP per Enemy Routed.
+        
+    5.1.3.0 Actions in Combat
+    
+      5.1.3.1 Attack Action
+      
         In her Turn, a Combatant can take one Attack Action targeting an enemy with any of her Attacks.
         
         Each Attack will specify what Features are used for Effort and Resistance Dice Pools. Effort can be a Core Attribute, Special Attribute, or Advanced Attribute, in any combination; and Resistance is usually, but not always, the same Attribute(s) rolled for the Effort. Certain Attacks may list other combinations of Attributes instead. The GQ decides if there are any Modifiers that need to apply to one or both sides.
@@ -952,17 +988,17 @@
         
         _Targeting Allies_ Some Attacks Heal or Help rather than Harm. These Attacks can target Allies, but may be more difficult when targeting more capable Allies.
         
-        Attacks are listed in Chapter 5. Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
+        Attacks are listed in Chapter 7. Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
         
       5.1.3.2 Suppress Action
         
         A Combatant can take one of the following Suppress Actions on her turn:
         
-        1. Attempt to Confuse the Enemy.
+        * Attempt to Confuse the Enemy.
         
-        2. Attempt to Charm the Enemy.
+        * Attempt to Charm the Enemy.
         
-        3. Attempt to Intimidate the enemy.
+        * Attempt to Intimidate the enemy.
         
         Following is the Combat Minigame Formula for the Suppress Action.
         
@@ -1000,11 +1036,11 @@
       
         A Combatant can take the following Support Actions at the start of an Ally's Turn:
         
-        1. Attempt to Rally the Ally.
+        * Attempt to Rally the Ally.
         
-        2. Attempt to Focus the Confused Ally's mind.
+        * Attempt to Focus the Confused Ally's mind.
         
-        3. Attempt to shake the Charmed Ally out of it.
+        * Attempt to shake the Charmed Ally out of it.
         
         Following is the Combat Minigame Formula for the Support Action:
         
@@ -1042,6 +1078,10 @@
       5.1.3.4 Resist Action
       
         A Combatant can take a Resist Action during their turn to overcome a single Effect. See Section 2.6.8.3 for rules on Resisting Effects.
+        
+      5.1.3.5 Move Action
+      
+        If using a grid, the Character may move a number of spaces up to her Speed rating. A Character with a Flight rating can move additional spaces up to her Flight rating. If playing without a grid, assume that the Character can move to the manner of position she wants to take.
 
       5.1.3.6 Manoeuver Action
         
@@ -1156,7 +1196,7 @@
         
         Table 17 provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
         
-        _Moving Between Rooms_ The Travel Minigame (Section 3.5.0.0) establishes the rules for moving between Rooms. 
+        _Moving Between Rooms_ The Travel Minigame (Section 5.5.0.0) establishes the rules for moving between Rooms. 
         
     5.2.2.0 Survival & Exploration - Procedural Generation
     
@@ -1194,7 +1234,7 @@
         
       5.2.6.3 Travel to an Unexplored Room
       
-        The Exploration Party must be in a Room with an Unexplored Exit. After selecting the Exit, the Exploration Party must physically travel to a Room before they can Explore it. See 3.5.0.0 Travel.
+        The Exploration Party must be in a Room with an Unexplored Exit. After selecting the Exit, the Exploration Party must physically travel to a Room before they can Explore it. See 5.5.0.0 Travel.
         
       5.2.2.4 Generate Features of the Room
       
@@ -1280,7 +1320,7 @@
       
       5.2.3.2 Survival & Exploration Steps in a Manually Generated Nest
       
-        1. Form an Exploration Party. This works exactly the same as in 3.2.2.2 for Procedural Generation.
+        1. Form an Exploration Party. This works exactly the same as in 5.2.2.2 for Procedural Generation.
         
         2. Resolve the Exploration Action.
         
@@ -1296,11 +1336,11 @@
       
       5.2.3.5 Travel
       
-        The Characters then Travel to either an Explored or Unexplored Room, based on what is closest to what they hope to find. See Section 3.5.0.0 Travel.
+        The Characters then Travel to either an Explored or Unexplored Room, based on what is closest to what they hope to find. See Section 5.5.0.0 Travel.
       
       5.2.3.6 Face Risks
       
-        The Risks in the destination Room are faced. See 3.2.4.0 for more information on Risks.
+        The Risks in the destination Room are faced. See 5.2.4.0 for more information on Risks.
       
       5.2.3.7 Survival & Exploration Ends
       
@@ -1361,107 +1401,117 @@
     
       5.2.5.1 Food Item Reward
       
-        You do not belong here. This is not your home. And it is dangerous. Or friendly. Or ambivalent. Whatever happens happens, you know?
-        
-        When an Encounter Risk is Faced, the GQ Rolls on the Encounter Table for the given Nest Type and Level, and places the chosen Creature in the Room.
-        
-        The Characters may devise many ways to engage with the Encounter. Here are several common possibilities and how to handle them:
-        
-        * Attack: Engage in Combat.
-        
-        * Avoid: Attempt to move through the Room without being noticed.
-        
-    5.2.6.0 Encounters
-        
-        * Negotiate: Convince the Creatures to provide an Item, Service, or Information.
-        
-        * Recruit: Convince the Creatures to Travel with the Party.
-        
-        This list is not meant to be all-encompassing, but will hopefully aid the budding GQ in navigating the infinite plans that the Characters may devise.
-        
-        3.2.4.4.1 Attack the Creatures
-        
-          The Characters charge in and Attack the Creatures. Combat begins between the Characters and any Hostile Creatures in the Room. See 3.1.0.0 for the rules on Combat.
-        
-        3.2.4.4.2 Avoid the Creatures
-        
-          The Characters may decide that they wish to Avoid the Encounter entirely. To do so, each Character in the Exploration Party Roll SPE + Stealth against the highest KEN + Perception among Creatures in the Room. Characters who Fail are discovered and the Creatures become Hostile - they must now try to weevil their way out of it or else engage in Combat. Characters who Succeed are Hidden, and may pass through the Room unseen. If Combat begins in the Room, the Hidden Characters begin Combat Hidden.
-          
-          If all of the Characters are Hidden, they may leave the Room without Engaging with the Creatures through any of the Room's Exits. The Creatures will remain if the Characters return to the Room later.
-          
-          Ambitious Characters may also wish to steal Food or Resources from under the antennae of the unwitting Creatures. To do so, they make the appropriate Roll to Harvest (See Section 3.3.0.0 Hunting & Foraging) as well as an additional SPE + Stealth vs. KEN + Perception Roll. If the Stealth Roll Succeeds, they Resolve the Harvest Action without being Discovered, and may continue being Hidden. If the Stealth Roll Fails, the Harvest Action is Resolved and the Character is immediately Discovered in the act.
-        
-        3.2.4.4.4 Intimidate the Creatures
-        
-          Mercenaries are tougher and scarier than many Bugs in the Meadows. Not everybug is equipped or willing for a fight. One Character Rolls PAS + Signaling. Each Creature in the Room Rolls PAS + Psycho to Resist. Consult Table 21 for guidance on the Outcome of the Roll for each Creature:
-          
-          DoS                 Outcome
-          ───────────────────────────────────────────────────────────────────────────────
-          Critical Success    Creature Flees.
-          Total Success       Creature becomes Hostile and Recoils 2.
-          Partial Success     Creature becomes Hostile and Recoils 1.
-          Partial Failure     Creature becomes Hostile and Holds.
-          Total Failure       Creature becomes Hostile and Advances 1.
-          Critical Failure    Creature becomes Hostile and Advances 2.
-          ───────────────────────────────────────────────────────────────────────────────
-          Table 21: Intimidation Results
-          
-          If a Creature Flees, she leaves through one of the Room's Exits. She may be encountered again if the Characters follow. Once Encountered again, she will be immediately Hostile, but will start at -1 Disposition.
-          
-          After any Creatures Flee, the "leader" of the remaining Creatures may Roll PAS + Signaling. Each Character Rolls PAS + Psycho to Resist. Consult Table 21 for each Character. Combat then begins.
-          
-        3.2.4.4.4 Negotiate with the Creatures
-        
-          Characters may want what the Creatures guard, or may seek information. After stating the intent of their Negotiations with the Room's Creatures, one Character Rolls (KEN or PAS) + Eusociology. The "leader" of the Creatures in the Room Rolls PAS + Psycho to Resist. Consult Table 22 for guidance on how to describe the Outcome of the Roll:
-          
-          DoS                 Outcome
-          ───────────────────────────────────────────────────────────────────────────────
-          Critical Success    Provide what is sought at no Cost;
-                              or at favorable Cost with an extra goodie on top. 
-          Total Success       Provide what is sought at favorable Cost.
-          Partial Success     Provide what is sought at reasonable Cost.
-          Partial Failure     Provide what is sought at a steep Cost.
-          Total Failure       No Deal.
-          Critical Failure    No Deal. The Creature becomes Hostile.
-          ───────────────────────────────────────────────────────────────────────────────
-          Table 22: Negotiation Results
-          
-          Costs for Items, services, or information may come in the form of Food, Resources, or the Character's time (which is paid as an amount of Hunger). Alternatively, if the reward is significant enough, the Creatures may recruit the Characters for a sub-Job.
-          
-        3.2.4.4.5 Recruit the Creatures
-    
-          Strength is in numbers, and numbers come from strength. The Characters may attempt to Recruit more Insects to their cause. One Character Rolls PAS + Leadership. Each Creature of her choice in the Room Rolls PAS + Psycho to Resist. Consult Table 23 for guidance on Outcomes:
-          
-          DoS                 Outcome
-          ───────────────────────────────────────────────────────────────────────────────
-          Critical Success    Creature Advances 2 and Joins as a Companion.
-          Total Success       Creature Advances 1 and Joins as a Companion.
-          Partial Success     Creature Joins as a Companion.
-          Partial Failure     No Deal.
-          Total Failure       The Creature becomes Hostile.
-          Critical Failure    The Creature becomes Hostile and Advances 2.
-          ───────────────────────────────────────────────────────────────────────────────
-          Table 23: Recruitment Results
-          
-          _Companions_ A Companion is controlled by the Players. She Travels, Fights, and Explores by the Party's side. She does not gain Metamorphosis Points, but she does gain Hunger. Whenever Combat Ends, a Companion Rolls PAS + Hunger - Disposition against a PAS + Leadership Roll from one Character. If she Succeeds, she abandons the Party. When a Companion reaches 10 Hunger, she abandons the Party.
-
-    3.2.5.0 Reward Events
-    
-      3.2.5.1 Food Item Reward
-      
         When a Food Reward is Generated, determine if it is a Known or Unknown Item. If it is a Known Item, randomly select a Food Item the Party has already Identified. If it is an Unknown Item, randomly determine its Form (See Section 2.6.9.4.3). In either case, use the Room's Level for the Food's Level. A Food Reward may be Harvested up to three times before it is depleted.
         
         _Multiple Foods_ If multiple Food Rewards are Generated in a Room, they combine into one Food Reward. Increase the Level of the Food for each Food Reward beyond the First.
       
-      3.2.5.2 Resource Reward
+      5.2.5.2 Resource Reward
       
-        When a Resource Reward is generated, make a note that the Room has Building Resources available. Each Resource in the Room may be Harvested up to three times before it is depleted. See Section 3.3.0.0 for Hunting & Foraging.
+        When a Resource Reward is generated, make a note that the Room has Building Resources available. Each Resource in the Room may be Harvested up to three times before it is depleted. See Section 5.3.0.0 for Hunting & Foraging.
+        
+      5.2.5.3 Non-Hostile Encounter Reward
       
-      3.2.5.3 Level Reward
+        A Non-Hostile Encounter represents one or more Insects who do not see the Party as a threat. This may be due to a number of reasons. She may be a lazy or corrupt Nest Denizen. She may be another Nest Invader, or a prisoner, who enjoys the thought of seeing others who aren't supposed to be here. Or she may be a guest who has no interest in enforcing the Nest's security. Regardless of the reason, she is willing to talk to the Party.
+        
+        When running a Non-Hostile Encounter, the Players receive a +1 Positive Modifier to friendly actions, such as Avoid, Negotiate, or Recruit.
+      
+      5.2.5.4 Level Reward
       
         When a Level Reward is Generated, add an Exit to the Room that leads to a Room one Level higher.
         
         _Multiple Levels_ If multiple Level Rewards are Generated in a Room, they combine into a single Level Reward. For each Level Reward, the Level of the new Room increases by one.
+        
+    5.2.6.0 Encounters
+        
+      You do not belong here. This is not your home. And it is dangerous. Or friendly. Whatever happens happens, you know?
+      
+      When an Encounter Risk is Faced, the GQ Rolls on the Encounter Table for the given Nest Type and Level, and places the chosen Insect(s) in the Room.
+      
+      The Characters may devise many ways to engage with the Encounter. Here are several common possibilities and how to handle them:
+      
+      * Attack: Engage in Combat.
+      
+      * Avoid: Attempt to move through the Room without being noticed.
+      
+      * Intimidate: Convince the Creatures to flee the Room.
+      
+      * Negotiate: Convince the Creatures to provide an Item, Service, or Information.
+      
+      * Recruit: Convince the Creatures to Travel with the Party.
+      
+      This list is not meant to be all-encompassing, but will hopefully aid the budding GQ in navigating the infinite plans that the Characters may devise.
+      
+      5.2.6.1 Attack the Creatures
+      
+        The Characters charge in and Attack the Creatures. Combat begins between the Characters and any Hostile Creatures in the Room. See 5.1.0.0 for the rules on Combat. MP is awarded at the End of Combat as defined in the Combat Rules.
+      
+      5.2.6.2 Avoid the Creatures
+      
+        The Characters may decide that they wish to Avoid the Encounter entirely. To do so, each Character in the Exploration Party Roll SPE + Stealth against the highest KEN + Perception among Creatures in the Room. Characters who Fail are discovered and the Creatures become Hostile - they must now try to weevil their way out of it or else engage in Combat. Characters who Succeed are Hidden, and may pass through the Room unseen. If Combat begins in the Room, the Hidden Characters begin Combat Hidden.
+        
+        If all of the Characters are Hidden, they may leave the Room without Engaging with the Creatures through any of the Room's Exits. The Creatures will remain if the Characters return to the Room later.
+        
+        Ambitious Characters may also wish to steal Food or Resources from under the antennae of the unwitting Creatures. To do so, they make the appropriate Roll to Harvest (See Section 5.3.0.0 Hunting & Foraging) as well as an additional SPE + Stealth vs. KEN + Perception Roll. If the Stealth Roll Succeeds, they Resolve the Harvest Action without being Discovered, may continue being Hidden, and the Party receives 1 MP. If the Stealth Roll Fails, the Harvest Action is Resolved and the Character is immediately Discovered in the act.
+      
+      5.2.6.4 Intimidate the Creatures
+      
+        Mercenaries are tougher and scarier than many Bugs in the Meadows. Not everybug is equipped or willing for a fight. One Character Rolls PAS + Signaling. Each Creature in the Room Rolls PAS + Psycho to Resist. Consult Table 21 for guidance on the Outcome of the Roll for each Creature:
+        
+        DoS                 Outcome
+        ───────────────────────────────────────────────────────────────────────────────
+        Critical Success    Creature Flees.
+        Total Success       Creature becomes Hostile and Recoils 2.
+        Partial Success     Creature becomes Hostile and Recoils 1.
+        Partial Failure     Creature becomes Hostile and Holds.
+        Total Failure       Creature becomes Hostile and Advances 1.
+        Critical Failure    Creature becomes Hostile and Advances 2.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table 21: Intimidation Results
+        
+        If a Creature Flees, she leaves through one of the Room's Exits. She may be encountered again if the Characters follow. Once Encountered again, she will be immediately Hostile, but will start at -1 Disposition.
+        
+        The GQ Awards the Characters one fourtieth (2.5%) of the MP value of Routed Insects, at least 1 MP per Insect Routed.
+        
+        After any Creatures Flee, the "leader" of the remaining Creatures may Roll PAS + Signaling. Each Character Rolls PAS + Psycho to Resist. Consult Table 21 for each Character. Combat then begins.
+        
+      5.2.6.4 Negotiate with the Creatures
+      
+        Characters may want what the Creatures guard, or may seek information. After stating the intent of their Negotiations with the Room's Creatures, one Character Rolls (KEN or PAS) + Eusociology. The "leader" of the Creatures in the Room Rolls PAS + Psycho to Resist. Consult Table 22 for guidance on how to describe the Outcome of the Roll:
+        
+        DoS                 Outcome
+        ───────────────────────────────────────────────────────────────────────────────
+        Critical Success    Provide what is sought at no Cost;
+                            or at favorable Cost with an extra goodie on top. 
+        Total Success       Provide what is sought at favorable Cost.
+        Partial Success     Provide what is sought at reasonable Cost.
+        Partial Failure     Provide what is sought at a steep Cost.
+        Total Failure       No Deal.
+        Critical Failure    No Deal. The Creature becomes Hostile.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table 22: Negotiation Results
+        
+        Costs for Items, services, or information may come in the form of Food, Resources, or the Character's time (which is paid as an amount of Hunger). Alternatively the Insects may recruit the Characters for a sub-Job worth valuable MP. Sub-Jobs should not be worth more MP than five times the current Nest Level.
+        
+      5.2.6.5 Recruit the Creatures
+  
+        Strength is in numbers, and numbers come from strength. The Characters may attempt to Recruit more Insects to their cause. One Character Rolls PAS + Leadership. Each Insect of her choice in the Room Rolls PAS + Psycho to Resist. Consult Table 23 for guidance on Outcomes:
+        
+        DoS                 Outcome
+        ───────────────────────────────────────────────────────────────────────────────
+        Critical Success    Insect Advances 2 and Joins as a Companion.
+        Total Success       Insect Advances 1 and Joins as a Companion.
+        Partial Success     Insect Joins as a Companion.
+        Partial Failure     No Deal.
+        Total Failure       The Insect becomes Hostile.
+        Critical Failure    The Insect becomes Hostile and Advances 2.
+        ───────────────────────────────────────────────────────────────────────────────
+        Table 23: Recruitment Results
+        
+        Each Companion Recruited awards the Characters MP equal to one twentieth her MP value, at least 1 MP per Companion Recruited.
+        
+        _Companions_ A Companion is controlled by the Players. She Travels, Fights, and Explores by the Party's side. She does not gain Metamorphosis Points, but she does gain Hunger and track Disposition. When a Companion reaches 10 Hunger, she abandons the Party. When a Companion reaches the Fleeing Disposition, she abandons the Party.
+        
+        _Abandoned Companions_ Companions may leave the Party for any number of reasons. Once a Companion abandons the Party, she flees the Room and cannot be followed. She may appear elsewhere, either as a Hostile or Non-Hostile Encounter. Her reappearance could be in the same Nest, or in a different Nest. It can be useful for the GQ to keep a list of Abandoned Companions to reuse in later preparation, along with what made her special.
           
   5.3.0.0 Hunting & Foraging
     
@@ -1557,7 +1607,7 @@
     
     5.4.8.0 Change Attacks
     
-      A Character may decide to change their list of Known Attacks. See Chapter 5 for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
+      A Character may decide to change their list of Known Attacks. See Chapter 7 for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
     
   5.5.0.0 Travel
     
@@ -1771,7 +1821,7 @@
   
   This section describes a number of pre-made Attacks for the game. The Game Queen is free to work with her players to create new attacks if she wishes.
   
-  The list of available Attacks is available in Section 5.2.0.0. Detailed descriptions of these attacks are available in Attack_Index.txt.
+  The list of available Attacks is available in Section 7.2.0.0. Detailed descriptions of these attacks are available in Attack_Index.txt.
 
   7.1.0.0 Reading Attacks
 
