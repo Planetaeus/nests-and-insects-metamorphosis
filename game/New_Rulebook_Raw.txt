@@ -1574,12 +1574,14 @@ High Carapace
 High Flight
 /h3 Scarab
 High Construction
-Medium Spe
+Medium KEN
+Medium SPE
 Medium STR
 Medium Flight
 /h4 Scarab Titan
 High Construction
-High Spe
+High KEN
+High SPE
 High STR
 Medium Flight
 /h3 Titan Beetle
