@@ -1467,49 +1467,54 @@ Effects Trigger. See 2.6.8.4 for the rules of Triggered Effects.
 
 Once the Traveling Party has arrived and has paid the costs of Travel, the Minigame is over. Characters are free to take other Actions and initiate other Minigames.
 
- 
-/h1 Setting
 
-/h2 Clients and Jobs
+/h1 Clients & Jobs
 
 - Client: Type of Insect
 
 - Type of Job
 - Location of Job
 
-/h2 Environment
-/h3 Nests
-/h4 Ant Colonies
-/h4 Bee Hives
-/h4 Beetle Arenas
-/h4 Spider Communes
-/h4 Scorpion Burrows
-/h4 Termite Nests
-/h4 Wasp Nests
-/h2 Enemies
+
+/h1 Nests
+/h2 Ant Colonies
+/table Carpenter Colony Encounters
+/table Fire Colony Encounters
+/table Winter Colony Encounters
+/h2 Bee Hives
+/table Bee Hive Encounters
+/h2 Beetle Arenas
+/table Beetle Arena Encounters
+/h2 Scorpion Burrows
+/table Scorpion Burrow Encounters
+/h2 Spider Communes
+/table Spider Commune Encounters
+/h2 Termite Cathedrals
+/table Termite Cathedral Encounters
+/h2 Wasp Nests
+/table Wasp Nest Encounters
+
+
+/h1 Insects
 /h2 Ants
 /h3 Ant Drone
 /h3 Carpenter Ants
-/table Carpenter Ant Encounters
-/h4 Carpenter Worker
-/h4 Carpenter Soldier
-/h4 Carpenter Queen
-/h4 Carpenter Empress
+/h3 Carpenter Worker
+/h3 Carpenter Soldier
+/h3 Carpenter Queen
+/h3 Carpenter Empress
 /h3 Fire Ants
-/table Fire Ant Encounters
 /h4 Fire Ant Workerg
 /h4 Fire Ant Soldier
 /h4 Fire Ant Queen
 /h4 Fire Ant Empress
 /h3 Winter Ants
-/table Winter Ant Encounters
 /h4 Winter Ant Worker
 /h4 Winter Ant Soldier
 /h4 Winter Ant Drone
 /h4 Winter Ant Queen
 /h4 Winter Ant Empress
 /h2 Bees
-/table Bee Encounters
 /h3 Honey Bees
 /h4 Honey Bee Worker
 /h4 Honey Bee Soldier
@@ -1531,7 +1536,6 @@ Once the Traveling Party has arrived and has paid the costs of Travel, the Minig
 /h4 Stormshore Princess
 /h4 Queen Thundara, Stormshore Queen
 /h2 Beetles (TBD)
-/table Beetle Encounters
 /h3 Bark Beetles
 High Chill
 Medium Spe
@@ -1597,7 +1601,6 @@ High Spe
 /h2 Scorpions
 /h2 Spiders
 /h2 Termites
-/table Termite Encounters
 /h3 Worker Termite
 /h3 Minor Termite Soldier - Autothyte
 /h3 Major Termite Soldier - Autothyte
@@ -1605,7 +1608,6 @@ High Spe
 /h3 Alates - King (TBD)
 /h3 Alates - Queen (TBD)
 /h2 Wasps
-/table Wasp Encounters
 
 /h1 Attacks
 
