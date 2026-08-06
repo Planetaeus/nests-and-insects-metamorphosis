@@ -75,6 +75,7 @@ Minigames are special sets of rules for situations that are of special interest 
 
 Minigames are described in detail in the Chapter "Minigames".
 
+
 /h1 Characters
 
 In Nests & Insects, players each control a Character: an arthropod mercenary on a Job on behalf of the denizens of the Meadows. Players control their Characters by describing their Character's actions, then the players Roll the dice to find out what happens. The Game Queen (GQ) reads the dice and determines the outcome of the Character's actions.
@@ -445,6 +446,7 @@ Actions over the course of the game earn Metamorphosis Points, or MP, for the Ch
 
 See Chapter "Attacks" for a list of available Attacks, their requirements, and their descriptions.
 
+
 /h1 Effects
 
 This Section defines the rules for handling Effects. Effects are physical or mental conditions that may affect a Character during the course of a game.
@@ -553,6 +555,7 @@ A Character subject to a Poisoned Effect suffers a Negative Modifier equal to he
 Resist with: PAS + Static
 
 When a Shocks Effect Triggers, nothing special happens. However, a Shocked Character suffers Shocks as a Negative Modifier when she uses Close or Ranged Attacks.
+
 
 /h1 Inventory Items
 
@@ -726,6 +729,7 @@ When an Insect holding an Attack Amber is in Combat and takes the Attack Action,
 If an Amber's Attack references one or more Attributes, such as in the Range of the Attack, use the Dice Pool Rating in place of that Attribute.
 
 When an Attack Amber has no Dots remaining, it becomes an inert piece of mundane amber. It may still be used for Bartering with other Insects.
+
 
 /h1 Minigames
 
@@ -1608,6 +1612,7 @@ High Spe
 /h3 Alates - King (TBD)
 /h3 Alates - Queen (TBD)
 /h2 Wasps
+
 
 /h1 Attacks
 
