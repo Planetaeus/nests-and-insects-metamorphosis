@@ -364,13 +364,13 @@ Sneaking is the age-old art of not being noticed. It can be used to escape overw
 
 /h4 Carapace
 
-The armored warrior is favored in battle, and Carapace represents an Insect's reinforced exoskeleton. A Character with a Carapace rating adds it as a Positive Modifier when Resisting Attacks. Attacks that use Carapace take advantage of the Character's hardened surface to keep her protected in otherwise risky techniques.
+The armored warrior is favored in battle, and Carapace represents an Insect's reinforced exoskeleton. A Character's Carapace Rating is included when Resisting Close Attacks. Attacks that use Carapace take advantage of the Character's hardened surface to keep her protected in otherwise risky techniques.
 
 /h4 Flight
 
-Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character with a Flight Rating adds it as a Positive Modifier when resisting Ranged Attacks.
+Insects were the first animals to develop the power of Flight, and they carry it with them to this day. Flight allows Insects to move beyond the reach of others, and to reach where they otherwise mightn't. A Character's Flight Rating is included when Resisting Ranged Attacks.
 
-_Hex Grids_ If using gridded maps in Combat, Characters can move additional Hexes equal to their Flight Rating whenever they take the Move Action. They can also fly over other Insects and thus occupy the same Hex.
+_Flight on Hex Grids_ If using gridded maps in Combat, Characters can move additional Hexes equal to their Flight Rating whenever they take the Move Action. They can also fly over other Insects and thus occupy the same Hex.
 
 /h4 Swarming
 

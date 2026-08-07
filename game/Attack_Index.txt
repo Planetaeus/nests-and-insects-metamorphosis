@@ -8,7 +8,7 @@ Attack Descriptions
   Armored Charge
   Range: Area
   Requirements: Carapace 1
-  Move in a line of Hexes up to your SPE. Roll SPE + Carapace. Each Insect in that line must roll SPE + Carapace to Resist, then gains Wounds and is Pushed 1 for each Net Success.
+  Move in a line of Hexes up to your SPE. Roll SPE - Swarming. Each Insect in that line must roll SPE + Carapace to Resist, then gains Wounds and is Pushed 1 for each Net Success.
   
   Armored Spikes
   Range: Special
@@ -23,7 +23,7 @@ Attack Descriptions
   Autothysis
   Range: Area
   Requirements: Swarming 1
-  Spend one Swarms and Roll KEN + Swarming and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE to Resist, then gains Wounds and Immobile for each Net Success.
+  Spend one Swarms and Roll KEN + Swarming and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE - Swarming to Resist, then gains Wounds and Immobile for each Net Success.
   
   Bandage
   Range: Close
@@ -38,12 +38,12 @@ Attack Descriptions
   Bright Beam
   Range: Ranged
   Requirements: Light 1
-  Roll PAS + Light vs. PAS + Light + Carapace against an Insect within twice Light Hexes. The target gains Wounds and Blind for each Net Success.
+  Roll PAS + Light vs. PAS + Light + Flight against an Insect within twice Light Hexes. The target gains Wounds and Blind for each Net Success.
   
   Burning Blaze
   Range: Area
   Requirements: Heat 1
-  Roll PAS + Heat. Each Insect within Successes Hexes Rolls SPE + Heat + Carapace to Resist, then gains Wounds and Burns for each Net Success.
+  Roll PAS + Heat. Each Insect within Successes Hexes Rolls SPE + Heat - Swarming to Resist, then gains Wounds and Burns for each Net Success.
   
   Burning Blow
   Range: Close
@@ -53,7 +53,7 @@ Attack Descriptions
   Chilling Blast
   Range: Area
   Requirements: Chill 1
-  Choose a Hex within Chill Hexes. Roll KEN + Chill. Each Insect within one Hex rolls STR + Chill to Resist, then gains Wounds and Brittle for each Net Success.
+  Choose a Hex within Chill Hexes. Roll KEN + Chill. Each Insect within one Hex rolls STR + Chill - Swarming to Resist, then gains Wounds and Brittle for each Net Success.
   
   Chilling Blow
   Range: Close
@@ -63,12 +63,12 @@ Attack Descriptions
   Chitin Catapult
   Range: Ranged
   Requirements: Carapace 1
-  Roll KEN + Carapace vs. SPE against an Insect within Carapace Hexes. The target gains Wounds and Brittle for each Net Success. You gain Brittle 2.
+  Roll KEN + Carapace vs. SPE + Flight against an Insect within Carapace Hexes. The target gains Wounds and Brittle for each Net Success. You gain Brittle 2.
   
   Corrosive Sacrifice
   Range: Area
   Requirements: Swarming 1, Toxic 1
-  Spend two Swarms and Roll Swarming + Toxic and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + Carapace + Toxic to Resist, then gains Wounds, Immobile, and Brittle for each Net Success.
+  Spend two Swarms and Roll Swarming + Toxic and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + Toxic - Swarming to Resist, then gains Wounds, Immobile, and Brittle for each Net Success.
   
   Envenomed Spikes
   Range: Special
@@ -78,27 +78,27 @@ Attack Descriptions
   Flaming Web
   Range: Area
   Requirements: Heat 1, Web 1
-  Choose a Hex within Web Hexes and Roll Heat + Web. Each Insect within Successes Hexes Rolls SPE + Heat + Carapace to Resist, then gains Wounds, Burns, and Immobile equal to the Net Successes.
+  Choose a Hex within Web Hexes and Roll Heat + Web. Each Insect within Successes Hexes Rolls SPE + Heat - Swarming to Resist, then gains Wounds, Burns, and Immobile equal to the Net Successes.
   
   Flythrough
   Range: Close
   Requirements: Flight 1
-  Roll SPE + Flight vs. STR + Carapace + Flight against an adjacent Insect. The target gains Wounds for each Net Success. Move Flight Hexes.
+  Roll SPE + Flight vs. STR + Carapace against an adjacent Insect. The target gains Wounds for each Net Success. Move Flight Hexes.
   
   Fontanellar Bomb
   Range: Area
   Requirements: Hydro 1
-  Roll PAS + Hydro and choose a Hex within Hydro Hexes. Each Insect within Successes Hexes Rolls STR + Hydro + Carapace to Resist, then gains Wounds, Reduces Burns, and is Pushed 1 from chosen Hex for each Net Success.
+  Roll PAS + Hydro and choose a Hex within Hydro Hexes. Each Insect within Successes Hexes Rolls STR + Hydro - Swarming to Resist, then gains Wounds, Reduces Burns, and is Pushed 1 from chosen Hex for each Net Success.
   
   Fontanellar Gun
   Range: Ranged
   Requirements: Hydro 1
-  Choose an Insect within Hydro Hexes. Roll KEN + Hydro vs. SPE + Hydro. The target gains Wounds, Reduces Burns, and is Pushed 1 for each Net Success.
+  Choose an Insect within Hydro Hexes. Roll KEN + Hydro vs. SPE + Hydro + Flight. The target gains Wounds, Reduces Burns, and is Pushed 1 for each Net Success.
   
   Fontanellar Vortex
-  Range: Ranged
+  Range: Area
   Requirements: Hydro 1
-  Roll STR + Hydro. Each Insect of your choice within Hydro Hexes Rolls STR + Hydro + Carapace to Resist, then gains wounds, Reduces Burns, and is Pushed 1 for each Net Success.
+  Roll STR + Hydro. Each Insect of your choice within Hydro Hexes Rolls STR + Hydro - Swarming to Resist, then gains wounds, Reduces Burns, and is Pushed 1 for each Net Success.
   
   Fungal Bungle
   Range: Close
@@ -113,12 +113,12 @@ Attack Descriptions
   Ground Slam
   Range: Area
   Requirements: Flight 1
-  Fly Flight Hexes and land on the ground beneath. Roll STR + Flight. Each Insect within Successes Hexes must roll SPE + Carapace + Flight to Resist, gaining Wounds for each Net Success.
+  Fly Flight Hexes and land on the ground beneath. Roll STR + Flight. Each Insect within Successes Hexes must roll SPE + Flight - Swarming to Resist, gaining Wounds for each Net Success.
   
   Gust
   Range: Area
   Requirements: Flight 1
-  Roll PAS + Flight. Each Insect in a line within Flight Hexes Rolls STR + Carapace + Flight to Resist, then gains Wounds and is Pushed 1 for each Net Success.
+  Roll PAS + Flight. Each Insect in a line within Flight Hexes Rolls STR + Flight - Swarming to Resist, then gains Wounds and is Pushed 1 for each Net Success.
   
   Healing Dose
   Range: Close
@@ -143,7 +143,7 @@ Attack Descriptions
   Hot-othysis
   Range: Area
   Requirements: Heat 1, Swarming 1
-  Spend two Swarms and Roll Swarming + Heat and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + Heat to Resist, gaining Wounds and Burns for each Net Success.
+  Spend two Swarms and Roll Swarming + Heat and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls SPE + Heat - Swarming to Resist, gaining Wounds and Burns for each Net Success.
   
   Inflict Stillness
   Range: Close
@@ -153,7 +153,7 @@ Attack Descriptions
   Line of Lightning
   Range: Area
   Requirements: Static 1
-  Choose two Insects within Static Hexes and Roll PAS + Static. Chosen Insects and each Insect in a line between them Rolls PAS + Static + Carapace, then gains Wounds and Shocks for each Net Success.
+  Choose two Insects within Static Hexes and Roll PAS + Static. Chosen Insects and each Insect in a line between them Rolls PAS + Static - Swarming, then gains Wounds and Shocks for each Net Success.
   
   Mandible Crush
   Range: Close
@@ -163,7 +163,7 @@ Attack Descriptions
   Overwhelm
   Range: Area
   Requirement: Swarming 1
-  Spend two Swarms and Roll PAS + Swarming and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls PAS + Carapace to Resist, then gains Wounds and Recoils for each Net Success.
+  Spend two Swarms and Roll PAS + Swarming and choose a Hex within Swarming Hexes. Each Insect within one Hex rolls PAS - Swarming to Resist, then gains Wounds and Recoils for each Net Success.
   
   Plannéd Strike
   Range: Close
@@ -178,7 +178,7 @@ Attack Descriptions
   Polar Discharge
   Range: Ranged
   Requirements: Static 1
-  Roll KEN + Static vs. PAS + Static against two Insects within Static Hexes. Each target gains Wounds and Shocks for each Net Success.
+  Roll KEN + Static vs. PAS + Static + Flight against two Insects within Static Hexes. Each target gains Wounds and Shocks for each Net Success.
   
   Psychic Mandibles
   Range: Close
@@ -186,14 +186,14 @@ Attack Descriptions
   Roll KEN + Psycho vs. KEN + Psycho against an Insect within Psycho Hexes. The target gains Wounds and Confused for each Net Success.
   
   Rhinoceros Gore
-  Range: Close
+  Range: Area
   Requirements:
-  Move in a line of Hexes up to your SPE. Roll SPE + STR. Each Insect in that line Rolls SPE + Carapace to Resist, then gains Wounds and Bleeding for each Net Success.
+  Move in a line of Hexes up to your SPE. Roll SPE + STR. Each Insect in that line Rolls SPE - Swarming to Resist, then gains Wounds and Bleeding for each Net Success.
   
   Reinforced Silk
   Range: Area
   Requirements: Carapace 1, Web 1
-  Roll Carapace + Web. Each Insect within one Hex Rolls SPE + Carapace + Web to Resist. Enemies gain Wounds and Immobile for each Net Success. Allies Reduce Bleeding and gain a positive modifier to their next Attack Resistance for each Net Success.
+  Roll Carapace + Web. Each Insect within one Hex Rolls SPE + Web - Swarming to Resist. Enemies gain Wounds and Immobile for each Net Success. Allies Reduce Bleeding and gain a positive modifier to their next Attack Resistance for each Net Success.
   
   Rout
   Range: Close
@@ -203,12 +203,12 @@ Attack Descriptions
   Sap Trap
   Range: Area
   Requirements: Plant 1, Web 1
-  Roll Plant + Web. Each Insect within one Hex Rolls STR + Plant + Web to Resist, then gains Wounds, Immobile, and Infected for each Net Success.
+  Roll Plant + Web. Each Insect within one Hex Rolls STR + Plant + Web - Swarming to Resist, then gains Wounds, Immobile, and Infected for each Net Success.
   
   Searing Shine
   Range: Ranged
   Requirements: Heat 1, Light 1
-  Roll Heat + Light vs. Heat + Light + Carapace against an Insect within twice Light Hexes. The target gains Wounds, Blind, and Burns for each Net Success.
+  Roll Heat + Light vs. Heat + Light + Flight against an Insect within twice Light Hexes. The target gains Wounds, Blind, and Burns for each Net Success.
   
   Slicer
   Range: Close
@@ -238,27 +238,27 @@ Attack Descriptions
   Twister
   Range: Area
   Requirements: Flight 1
-  Choose a Hex within Flight Hexes. Roll STR + Flight. Each Insect within one Hex Rolls STR + Flight + Carapace to Resist, then gains Wounds and is pushed 1 for each Net Success.
+  Choose a Hex within Flight Hexes. Roll STR + Flight. Each Insect within one Hex Rolls STR + Flight - Swarming to Resist, then gains Wounds and is pushed 1 for each Net Success.
   
   Vibral Assault
   Range: Ranged
   Requirements: Vibe 1
-  Roll PAS + Vibe vs. PAS + Vibe + Carapace against an Insect within Vibe Hexes. The target gains Wounds and Paralysed for each Net Success.
+  Roll PAS + Vibe vs. PAS + Vibe + Flight against an Insect within Vibe Hexes. The target gains Wounds and Paralysed for each Net Success.
   
   Vine Entwine
   Range: Ranged
   Requirements: Plant 1
-  Roll STR + Plant vs. STR + Plant + Carapace against an Insect within Plant Hexes. The target gains Wounds and is Pushed 1 towards you for each Net Success.
+  Roll STR + Plant vs. STR + Plant + Flight against an Insect within Plant Hexes. The target gains Wounds and is Pushed 1 towards you for each Net Success.
   
   Web Assault
   Range: Area
   Requirements: Web 1
-  Roll SPE + Web and choose a Hex within Web Hexes. Each Insect within one Hex Rolls SPE + Web + Carapace to Resist. Enemies gain Wounds and Immobile for each Net Success. Allies reduce Bleeding for each Net Success.
+  Roll SPE + Web and choose a Hex within Web Hexes. Each Insect within one Hex Rolls SPE + Web - Swarming to Resist. Enemies gain Wounds and Immobile for each Net Success. Allies reduce Bleeding for each Net Success.
   
   Web Shot
   Range: Ranged
   Requirements: Web 1
-  Roll KEN + Web vs. SPE + Web against an Insect within Web Hexes. If an enemy, target gains Wounds and Immobile for each Net Success. If an ally, target reduces Bleeding for each Net Success.
+  Roll KEN + Web vs. SPE + Web + Flight against an Insect within Web Hexes. If an enemy, target gains Wounds and Immobile for each Net Success. If an ally, target reduces Bleeding for each Net Success.
   
   Willéd Strike
   Range: Area
