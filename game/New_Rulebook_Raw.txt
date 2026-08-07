@@ -456,12 +456,12 @@ Effort Variables: .................... Effect-specific (see below)
 Resistance Variables: ................ Effect to be Resisted
 
 Outcomes of the six Degrees of Success and Failure:
-/cols Degree of Success;Critical Success;Complete Success;Partial Success;Partial Failure;Complete Failure;Critical Failure|Outcome;Reduce Effect 3;Reduce Effect 2;Reduce Effect 1;Effect remains;Effect Triggers.;Increase Effect 1. Effect Triggers
 /table DoS for Resisting Effects.
+/cols Degree of Success;Critical Success;Complete Success;Partial Success;Partial Failure;Complete Failure;Critical Failure|Outcome;Reduce Effect 3;Reduce Effect 2;Reduce Effect 1;Effect remains;Effect Triggers.;Increase Effect 1. Effect Triggers
 
 Effect-specific Effort variables: 
-/cols Effect;Bleeding;Brittle;Burns;Charmed;Confused;Immobile;Infected;Paralysed;Poisoned;Shocked|Resist with;Strength;Strength + Heat;Speed + Chill;Passions + Psycho;Ken + Psycho;Strength;Strength + Plant;Speed;Strength + Plant;Passions + Static
 /table Effort Variables to Resist Effects.
+/cols Effect;Bleeding;Brittle;Burns;Charmed;Confused;Immobile;Infected;Paralysed;Poisoned;Shocked|Resist with;Strength;Strength + Heat;Speed + Chill;Passions + Psycho;Ken + Psycho;Strength;Strength + Plant;Speed;Strength + Plant;Passions + Static
 
 /h2 Effect Details
 
@@ -609,14 +609,14 @@ When an Item is first found, Roll to generate the Item's Form, as follows:
 1. Generate the Item's Colour.
 
 Roll a d6 and match the result on the Food Colour Table below.
-/cols d6;1;2;3;4;5;6|Food Colour;Black;Blue;Green;Red;White;Yellow 
 /table Food Colours 
+/cols d6;1;2;3;4;5;6|Food Colour;Black;Blue;Green;Red;White;Yellow 
 
 2. Generate the Item's Food Type
 
 Roll a d10 and match the result on the Food Type Table below.
-/cols d10;1;2;3;4;5|Food Type;Nectar;Honey;Honeydew;Fungus;Leaf|d10;6;7;8;9;10|Food Type;Aphid;Cricket;Fly;Worm;Larva
 /table Food Types
+/cols d10;1;2;3;4;5|Food Type;Nectar;Honey;Honeydew;Fungus;Leaf|d10;6;7;8;9;10|Food Type;Aphid;Cricket;Fly;Worm;Larva
 
 /h3 Identifying Food Items
 
@@ -653,14 +653,14 @@ When an Item is Identified in one of the two ways described in the previous Sect
 1.Generate the Item's Condition.
 
 Roll a d6 and match the Result on the Item Condition Table below.
-/cols d6 Result;1-2;3-4;5-6|Condition;Cursed;Ordinary;Blessed|Description;Bestows a random Effect and cannot be dropped.;No special properties.;Roll on the Blessings Table to determine Blessing. 
 /table Item Conditions
+/cols d6 Result;1-2;3-4;5-6|Condition;Cursed;Ordinary;Blessed|Description;Bestows a random Effect and cannot be dropped.;No special properties.;Roll on the Blessings Table to determine Blessing. 
 
 2. Generate the Item's Alignment and Abilities
 
 _Blessed Food_ bestows a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
-/colsd6 Result;1-2;3-4;5-6|Blessings;Healing - reduces Wounds.;Relief - reduce an Effect.;Metamorphosis - Party Gains MP.
 /table Blessings
+/colsd6 Result;1-2;3-4;5-6|Blessings;Healing - reduces Wounds.;Relief - reduce an Effect.;Metamorphosis - Party Gains MP.
 
 _Healing Items_ When a Character Consumes a Food Item with the Healing Blessing, each dot consumed reduces her wounds by the Rating of the Item.
 
@@ -784,8 +784,8 @@ It is possible for a creature to be in the same room as Combat and not be a Comb
 
 /h4 Starting Disposition
 Before the start of the first Combat Round, each Player Rolls SPE or PAS. The GQ makes a similar Roll for each of the enemies. Each Combatant begins at Holding Disposition, then Advances or Recoils their Disposition as described in the following Table.
-/cols SPE or PAS Roll Result;Critical Success;Total Success;Partial Success;Failure|Starting Disposition;Advance 3;Advance 2;Advance 1;Recoil 1.
 /table Starting Disposition. 
+/cols SPE or PAS Roll Result;Critical Success;Total Success;Partial Success;Failure|Starting Disposition;Advance 3;Advance 2;Advance 1;Recoil 1.
 
 /h4 Initiative Order
 
@@ -892,12 +892,12 @@ Effort Variables .................... Action-specific (see below)
 Resistance Variables ................ Action-specific
  
 Outcomes of the six Degrees of Success and Failure:
-/cols Degree of Success;Critical Success;Complete Success;Partial Success;Partial Failure;Complete Failure;Critical Failure|Intimidate Outcome;Target Recoils 3;Target Recoils 2;Target Recoils 1;Target Holds;Target Advances 1;Target Advances 2|Charm or Confuse Outcome;Bestow Charmed / Confused: 3;Bestow Charmed / Confused: 2;Bestow Charmed / Confused: 1;Nothing Happens;Gain Charmed / Confused: 1;Gain Charmed / Confused: 2
 /table DoS for Suppress Action
+/cols Degree of Success;Critical Success;Complete Success;Partial Success;Partial Failure;Complete Failure;Critical Failure|Intimidate Outcome;Target Recoils 3;Target Recoils 2;Target Recoils 1;Target Holds;Target Advances 1;Target Advances 2|Charm or Confuse Outcome;Bestow Charmed / Confused: 3;Bestow Charmed / Confused: 2;Bestow Charmed / Confused: 1;Nothing Happens;Gain Charmed / Confused: 1;Gain Charmed / Confused: 2
  
 Suppress Action-specific Effort, Resistance and modifier Features: 
-/cols Action;Charm;Confuse;Intimidate|Effort;Passions + Leadership;Ken + Eusociology;Passions + Signaling|Resistance;Passions + Psycho;Ken + Psycho;Passions + Psycho
 /table Effort Variables for Suppress Action
+/cols Action;Charm;Confuse;Intimidate|Effort;Passions + Leadership;Ken + Eusociology;Passions + Signaling|Resistance;Passions + Psycho;Ken + Psycho;Passions + Psycho
 
 /h4 Support Action
 
@@ -920,12 +920,12 @@ Resistance Variables: ................ Action-specific
 Modifier Variables: .................. Action-specific 
  
 Outcomes of the six Degrees of Success and Failure:
-/cols Degree of Success;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Rally or Encourage Outcome;Ally Advances 3;Ally Advances 2;Ally Advances 1;No Effect;Ally Recoils 1;Ally Recoils 2|Focus or Shake Outcome;Reduce Effect 3;Reduce Effect 2;Reduce Effect 1;Effect Remains;Increase Effect 1;Increase Effect 2
 /table DoS for Support Action
+/cols Degree of Success;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Rally or Encourage Outcome;Ally Advances 3;Ally Advances 2;Ally Advances 1;No Effect;Ally Recoils 1;Ally Recoils 2|Focus or Shake Outcome;Reduce Effect 3;Reduce Effect 2;Reduce Effect 1;Effect Remains;Increase Effect 1;Increase Effect 2
  
 Support Action-specific Effort, Resistance and modifier Features:
-/cols Action;Encourage;Focus;Shake|Effort;Passions + Leadership;Ken + Signaling;Passions + Eusociology|Resistance;Passions;Confused;Charmed
 /table Effort Variables for Support Action
+/cols Action;Encourage;Focus;Shake|Effort;Passions + Leadership;Ken + Signaling;Passions + Eusociology|Resistance;Passions;Confused;Charmed
 
 /h4 Resist Action
 
@@ -1023,12 +1023,12 @@ To track the Environments discovered so far in the game, and what was discovered
 Players are free to track their Environment Pool as best suits them, for example by drawing a map of Environments and their connections and contents.
 
 Another way to track an Environment Pool is to tabulate the Contents and Connections.
-/cols Level;01;01;01;03|Room;00;01;02;00|Explored?;Yes;Yes;No;No|Notes;;Secured, Cursed Red Fungus, Building Resources;;
 /table Environment Pool - Rooms and their Contents
+/cols Level;01;01;01;03|Room;00;01;02;00|Explored?;Yes;Yes;No;No|Notes;;Secured, Cursed Red Fungus, Building Resources;;
 
 In the table above, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in the table above, the Players have noted that Room 0101 was Secured, and what they found there.
-/cols Room A;0100;0101;0101;0102;0101;0300|Exit;0;0;1;0;2;0|Room B;0101;0100;0102;0101;0300;0101|Exit;0;0;0;1;0;2
 /table Environment Pool - Passages
+/cols Room A;0100;0101;0101;0102;0101;0300|Exit;0;0;1;0;2;0|Room B;0101;0100;0102;0101;0300;0101|Exit;0;0;0;1;0;2
 
 The table above provides an example of tabulating the Passages between Rooms and Levels. "Room A" lists the Room in which the Passage was found, while the Exit column numbers which exit is represented by the Passage. Room B provides the same information for the Room on the other end of the Passage. Passages are entered twice, one from each direction, to make it easier to search for all the Passages connected to each Room.
 
@@ -1104,16 +1104,16 @@ Each Room starts with Level Risk Dice. The Party Scout makes a KEN Roll. Each Su
 /h4 Generate Risks
 
 If the Room has any Risk Dice, Roll those dice and compare the Results against the following table.
-/cols d6;1-3;4;5;6|Risk;Encounter;Obstacle;Darkness;Infection|Description;Meet the Nest's denizens;Prevents further Exploration until removed.;Obscures senses.;Bestows the Infected Effect.
 /table Risk Generation
+/cols d6;1-3;4;5;6|Risk;Encounter;Obstacle;Darkness;Infection|Description;Meet the Nest's denizens;Prevents further Exploration until removed.;Obscures senses.;Bestows the Infected Effect.
 
 _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls multiple times to determine what Creatures the Players come across.
 
 /h4 Generate Rewards
 
 If the Room has any Reward Dice, Roll those Dice and compare the results against the following table.
-/cols d6;1-3;4-5;6|Reward;Food Item;Resources;Level|Description;Find Food that can be Foraged.;Find Resources that can be Harvested.;Entrance to a new, more advanced Nest Level.
 /table Reward Generation
+/cols d6;1-3;4-5;6|Reward;Food Item;Resources;Level|Description;Find Food that can be Foraged.;Find Resources that can be Harvested.;Entrance to a new, more advanced Nest Level.
 
 _Multiple Food Items_ If multiple Food Item Rewards are Generated, each one beyond the first increases the Food's Level by 1.
 
@@ -1175,9 +1175,8 @@ Nothing special happens at the end of Survival & Exploration, except that the Ro
 When an Obstacle Risk is Faced, an Obstacle prevents the Characters from moving further into the Room. The Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
 
 A Character who wishes to Tear Down the Obstacle may Roll (STR or KEN) + Construction vs. Obstruction, and consult the following table for the Outcome.
-
-/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Reduce Obstruction by 3;Reduce Obstruction by 2;Reduce Obstruction by 1;Nothing Happens;Take 1 Wound.;Take 2 Wounds.
 /table Tearing Down Obstacles
+/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Reduce Obstruction by 3;Reduce Obstruction by 2;Reduce Obstruction by 1;Nothing Happens;Take 1 Wound.;Take 2 Wounds.
 
 When the Characters reduce the Obstruction Rating to zero, the Obstacle is Cleared! The GQ Rolls Level. One Character adds Resources equal to the Successes.
 
@@ -1270,8 +1269,8 @@ Ambitious Characters may also wish to steal Food or Resources from under the ant
 /h4 Intimidate the Creatures
 
 Mercenaries are tougher and scarier than many Bugs in the Meadows. Not everybug is equipped or willing for a fight. One Character Rolls PAS + Signaling. Each Creature in the Room Rolls PAS + Psycho to Resist. Consult the following Table for guidance on the Outcome of the Roll for each Creature:
-/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Creature Flees.;Creature becomes Hostile and Recoils 2.;Creature becomes Hostile and Recoils 1.;Creature becomes Hostile and Holds.;Creature becomes Hostile and Advances 1.;Creature becomes Hostile and Advances 2.
 /table Intimidation Results
+/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Creature Flees.;Creature becomes Hostile and Recoils 2.;Creature becomes Hostile and Recoils 1.;Creature becomes Hostile and Holds.;Creature becomes Hostile and Advances 1.;Creature becomes Hostile and Advances 2.
 
 If a Creature Flees, she leaves through one of the Room's Exits. She may be encountered again if the Characters follow. Once Encountered again, she will be immediately Hostile, but will start at -1 Disposition.
 
@@ -1282,16 +1281,16 @@ After any Creatures Flee, the "leader" of the remaining Creatures may Roll PAS +
 /h4 Negotiate with the Creatures
 
 Characters may want what the Creatures guard, or may seek information. After stating the intent of their Negotiations with the Room's Creatures, one Character Rolls (KEN or PAS) + Eusociology. The "leader" of the Creatures in the Room Rolls PAS + Psycho to Resist. Consult Table Negotiation Results for guidance on how to describe the Outcome of the Roll:
-/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;A favorable deal plus extra.;A favorable deal.;A reasonable deal.;A bad deal.;No Deal.;No Deal. The Creature becomes Hostile.
 /table Negotiation Results
+/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;A favorable deal plus extra.;A favorable deal.;A reasonable deal.;A bad deal.;No Deal.;No Deal. The Creature becomes Hostile.
 
 Costs for Items, services, or information may come in the form of Food, Resources, or the Character's time (which is paid as an amount of Hunger). Alternatively the Insects may recruit the Characters for a sub-Job worth valuable MP. Sub-Jobs should not be worth more MP than five times the current Nest Level.
 
 /h4 Recruit the Creatures
 
 Strength is in numbers, and numbers come from strength. The Characters may attempt to Recruit more Insects to their cause. One Character Rolls PAS + Leadership. Each Insect of her choice in the Room Rolls PAS + Psycho to Resist. Consult Table 23 for guidance on Outcomes:
-/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Insect Advances 2 and Joins as a Companion.;Insect Advances 1 and Joins as a Companion.;Insect Joins as a Companion.;No Deal.;The Insect becomes Hostile.;The Insect becomes Hostile and Advances 2.
 /table Recruitment Results
+/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Insect Advances 2 and Joins as a Companion.;Insect Advances 1 and Joins as a Companion.;Insect Joins as a Companion.;No Deal.;The Insect becomes Hostile.;The Insect becomes Hostile and Advances 2.
 
 Each Companion Recruited awards the Characters MP equal to one twentieth her MP value, at least 1 MP per Companion Recruited.
 
@@ -1304,10 +1303,10 @@ _Abandoned Companions_ Companions may leave the Party for any number of reasons.
 In Exploration & Survival the Characters discover what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
 
 Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest. The Effort of the Roll will change depending on whether they want to Forage for Plant or Fungus matter, Hunt or Scavenge for prey, or Gather Resources.
-/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Add 3 to Item Rating.;Add 2 to Item Rating.;Add 1 to Item Rating.;Chance Wasted. Nothing Happens.;Chance Wasted. Increase Hunger by 1.;Chance Wasted. Increase Hunger by 2. 
 /table Hunting & Foraging DoS
+/cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Add 3 to Item Rating.;Add 2 to Item Rating.;Add 1 to Item Rating.;Chance Wasted. Nothing Happens.;Chance Wasted. Increase Hunger by 1.;Chance Wasted. Increase Hunger by 2.
+/table Hunting & Foraging Effort Variables.  
 /cols Action;Forage or Harvest;Hunt or Scavenge;Gather|Effort;(STR or KEN) + Foraging;(SPE or PAS) + Foraging;(STR or KEN) + Construction|Resistance;Level;Level;Level
-/table Hunting & Foraging Effort Variables. 
  
 The above table details the outcomes of Hunting & Foraging based on the DoS of the Roll. On Successes, the Character gains more of the Item. On a Partial Failure, the Character's efforts have wasted one of the Room's Chances. On a Total Failure, the Character wastes her Chance and is also Hungry from the effort. On a Critical Failure, the Character's Chance is wasted and her Hunger is increased substantially.
 
@@ -1460,25 +1459,38 @@ Once the Traveling Party has arrived and has paid the costs of Travel, the Minig
 
 
 /h1 Nests
+The majority of the adventures your intrepid Bugs will journey upon will take place inside some variety of Nest. A Nest is a place marked by one or more Insects, carved and shaped into conditions that are just right for their living space and hunting grounds.
+
 /h2 Ant Colonies
+
 /table Carpenter Colony Encounters
+
 /table Fire Colony Encounters
+
 /table Winter Colony Encounters
+
 /h2 Bee Hives
 /table Bee Hive Encounters
+
 /h2 Beetle Arenas
 /table Beetle Arena Encounters
+
 /h2 Scorpion Burrows
 /table Scorpion Burrow Encounters
+
 /h2 Spider Communes
 /table Spider Commune Encounters
+
 /h2 Termite Cathedrals
 /table Termite Cathedral Encounters
+
 /h2 Wasp Nests
 /table Wasp Nest Encounters
 
 
 /h1 Insects
+What good is a Nest without any Insects to creep and crawl around? 
+/table Insects by MP
 /h2 Ants
 /h3 Ant Drone
 /h3 Carpenter Ants
@@ -1591,6 +1603,7 @@ High Spe
 /h3 Alates - King (TBD)
 /h3 Alates - Queen (TBD)
 /h2 Wasps
+/h2 Miscellaneous
 
 
 /h1 Attacks
