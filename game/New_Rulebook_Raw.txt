@@ -34,8 +34,8 @@ Sometimes a Roll is opposed by another Character's Rating. The GQ determines wha
 /h3 Degrees of Success
 
 The GQ may decide that the degree of success matters to determine the outcome of the Roll. This represents situations where the effectiveness of an action can be measured in more detail than a simple pass/fail.In these cases, it can help to categorize the Degree of Success (DoS). There are six stages of DoS: Critical Failure, Total Failure, Partial Failure, Partial Success, Total Success, and Critical Success. Table 1 shows how the Net Successes of a Roll translates into the DoS of the result.
-/cols Net Successes;+5 or more;+3, +4;+1, +2;-1, 0;-2, -3;-4 or less|Degree of Success;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure; Critical Failure|Does it Work?;Yes, and...;Yes;Yes, but...;No, but...;No;No, and...
 /table Degrees of Success.
+/cols Net Successes;+5 or more;+3, +4;+1, +2;-1, 0;-2, -3;-4 or less|Degree of Success;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure; Critical Failure|Does it Work?;Yes, and...;Yes;Yes, but...;No, but...;No;No, and...
 
 In some cases, the number of Net Successes can directly be used to determine the outcome. When a Character makes a successful Attack, the Net Successes determine the Wounds bestowed on the targets.
 
@@ -139,24 +139,16 @@ The first area in a Character sheet lists the name of a Character's Class.
 /h3 Core Attributes Area
 
 Under the Character Name is the Core Attributes Area. Core Attributes are Features that represent innate abilities of Characters in a Class. Nests & Insects: Metamorphosis Characters have four Core Attributes:
+/table Core Attributes Summary
 /cols Core Attribute;Speed(SPE);Strength (STR);Ken(KEN);Passions (PAS)|Description;Speed of movement: Dexterity, precision, fine manipulation.;Physical strength and toughness: Push, pull, break, and endure harm.;Wisdom and Logic: reasoning and knowledge of the world.;Willpower, morale, strength of spirit, courage, and influence 
-/table Core Attributes
 
 /h3 Special Attributes Box
 
 The Special Attributes box lists Attributes that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Special Attributes ratings.
 
 There are five Special Attributes that Character classes can have at creation/selection: Carapace, Flight, Swarming, Toxic, or Web. These are briefly described below.
-
-* Carapace: the Character has a hardened carapace that protects her in combat. Beetle has Carapace.
-
-* Flight: the Character can fly. Flight Characters are harder to hit in Combat by ranged Attackers. Wasp has Flight.
-
-* Swarming: the Character is a swarm of individual Insects, or can summon conspecifics to assist her. In Combat, a Character with Swarming loses individuals from the Swarm before taking Wounds. Ants have Swarming.
-
-* Toxic: the Character has a venomous bite or poisonous substance that can bestow Effects such as Immobile, Paralysed, or Poisoned to enemies. Scorpion has Toxic.
-
-* Web: The Character can weave webs. Webs can be used to set traps, bind enemies, or secure an area. Spider has Web.
+/table Special Attributes Summary
+/cols Attribute;Carapace;Flight;Swarming;;Toxic;;Web;|The Character...;...has a hardened carapace that protects her.;...can fly. Flight Characters are harder to hit by ranged Attackers.;...is a swarm of individual Insects, or can summon conspecifics to assist;her and take Wounds in her stead;...has a venomous bite or poisonous substance that can bestow Effects;such as Immobile, Paralysed, or Poisoned to enemies.;...can weave webs. Webs set traps, bind enemies, or secure an area.;
 
 Section "Special Attributes" describes the Special Attributes in more detail.
 
@@ -164,35 +156,22 @@ Section "Special Attributes" describes the Special Attributes in more detail.
 
 The Advanced Attributes box lists Attributes that stretch the limits of what it means to be an Insect. Real-world insects and animals exhibit a number of seemingly fantastical adaptations and behaviors, like bioluminescence and the ability to generate significant electric potentials and currents. Nests & Insects: Metamorphosis takes these attributes to extremes in ways that feel right at home within fantasy.
 
-There are eight Advanced Attributes, described briefly below, and in more detail in 2.6.4.0.
+There are eight Advanced Attributes, described briefly below, and in more detail in Section Ädvanced Attributes".
 
-* Chill: The absence of heat. Makes chitin brittle.
-
-* Heat: The ability to create high temperatures. Can Ignite opponents.
-
-* Hydro: Control over Water and other fluids. Includes vast fluid reserves.
-
-* Light: Bioluminescence, cranked up to 11. Fireflies with laser beams.
-
-* Plant: Control and affinity for plants and fungi.
-
-* Psycho: Powers of the mind. Telekinesis, Telepathy, even mind control.
-
-* Static: The fundamental force of Electricity. Short circuit your foes' aim.
-
-* Vibe: Fine control over powerful waves of sound.
+/table Advanced Attributes Summary
+/cols Attribute;Chill;Heat;Hydro;Light;Plant;Psycho;Static;Vibe|Description;The absence of heat. Makes chitin brittle.;The ability to create high temperatures. Can Ignite opponents.;Control over Water and other fluids. Includes vast fluid reserves.;Bioluminescence, cranked up to 11. Fireflies with laser beams.;Control and affinity for plants and fungi.;Powers of the mind. Telekinesis, Telepathy, even mind control.;The fundamental force of Electricity. Short circuit your foes' aim.;Fine control over powerful waves of sound.
 
 /h3 Common Attributes Box
 
 The Common Attributes box lists Attributes common to all Character classes. Table "Common Attributes" briefly lists Common Attributes and their use. Section "Common Attributes" describes the Common Attributes in more detail.
+/table Common Attributes Summary
 /cols Common Attributes;Construction;Eusociology;Foraging;Healing;Leadership;Perception;Signalling;Sneaking|Description;Build and Demolish. Secure a Room for Resting and Healing.;Knowledge of the ways of Nests and their inhabitants;Search for sustenance, or Food Items with special abilities;Remove Wounds or detrimental Effects;Support allies and improve their Disposition in Combat;Find secrets and hidden items and Rooms;Display aposematic markings, emit pheromonic signals;Move and act with stealth
-/table Common Attributes.
 
 /h3 Effects Box
 
 The Effects Box lists ten Effects that a Character can be subject to. Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other Minigames. The twelve Effects in the Effect Box are listed below with a brief description of each.
+/table Effects Summary
 /cols Effect;Bleeding;Brittle;Burns;Charmed;Confused;Immobile;Infected;Paralysed;Poisoned;Shocks|The Character...;...automatically takes a Wound each Combat Turn.;...has their reflexes and chitin weakened.;...is on fiyah.;...will not Attack, but may take other Actions.;...will only Attack and Move, will not take other actions.;...movement, Speed, and Flight restricted.;...acquires a random Effect each Turn this Effect Applies;...cannot take any Actions except to Resist;...has Poisoned as a negative modifier to all Action Efforts;...has Shocks as a negative modifier to all Close and Ranged Attacks
-/table Effects.
 
 /h3 Disposition Track
 
@@ -272,7 +251,7 @@ See Section "Core Attributes" for more details on Core Attributes.
 
 Characters start with one Special Attribute, choosing from the following list:
 
-* Carapace: Protective plates make it harder for most attacks to hit.
+* Carapace: Protective plates make it harder for melee attacks to hit.
 
 * Flight: Extra verticality and extra movement.
 
