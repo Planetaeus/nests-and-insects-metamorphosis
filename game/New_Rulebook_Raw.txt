@@ -1464,13 +1464,27 @@ The majority of the adventures your intrepid Bugs will journey upon will take pl
 /h2 Ant Colonies
 
 /table Carpenter Colony Encounters
+/cols Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;51 - 60;61 - 70;71 - 90;91 - 120;121 - 140;141 - 200|Insect(s);Ant Drone;Nest Invader(s);Carpenter Ant Worker;Nest Invader(s);Carpenter Ant Soldier;Nest Invader(s);Carpenter Ant Princess*;Nest Invader(s);Carpenter Ant Queen*;Nest Invader;Carpenter Ant Empress*|MP;12;0 - 40;38;41 - 120;121;121 - 300;327;301 - 450;441;451 - 600;688
 
 /table Fire Colony Encounters
+/cols Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;51 - 60;61 - 70;71 - 90;91 - 120;121 - 140;141 - 200|Insect(s);Ant Drone;Nest Invader(s);Fire Ant Worker;Nest Invader(s);Fire Ant Soldier;Nest Invader(s);Fire Ant Princess*;Nest Invader(s);Fire Ant Queen*;Nest Invader;Fire Ant Empress*|MP;12;0 - 40;38;41 - 120;121;121 - 300;327;301 - 450;441;451 - 600;688
 
 /table Winter Colony Encounters
+/cols Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;51 - 60;61 - 70;71 - 90;91 - 120;121 - 140;141 - 200|Insect(s);Ant Drone;Nest Invader(s);Carpenter Ant Worker;Nest Invader(s);Carpenter Ant Soldier;Nest Invader(s);Carpenter Ant Princess*;Nest Invader(s);Carpenter Ant Queen*;Nest Invader;Carpenter Ant Empress*|MP;12;0 - 40;38;41 - 120;121;121 - 300;327;301 - 450;441;451 - 600;688
 
 /h2 Bee Hives
-/table Bee Hive Encounters
+
+/table Bumble Hive Encounters
+/cols Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;41 - 50;51 - 55;56 - 60;61 - 80;81 - 90;91 - 100;101 - 130;131 - 170;171 - 200|Insect(s);Bee Drone;Nest Invader(s);Bumble Bee Worker;Nest Invader(s);Other Bee Worker;Bumble Bee Soldier;Nest Invader(s);Other Bee Soldier;Bumble Bee Princess*';Nest Invader(s);Other Bee Princess;Nest Invader(s);Queen Bumbelle*;Other Queen Bee**|MP;0;0 - 40;47;41 - 80;41 - 80;128;81 - 150;81 - 150;288;151 - 300;151 - 350;301 - 600;375;351 - 600
+
+/table Honey Hive Encounters
+/cols Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;41 - 50;51 - 55;56 - 60;61 - 80;81 - 90;91 - 100;101 - 130;131 - 170;171 - 200|Insect(s);Bee Drone;Nest Invader(s);Honeybee Worker;Nest Invader(s);Other Bee Worker;Honeybee Soldier;Nest Invader(s);Other Bee Soldier;Honeybee Princess*;Nest Invader(s);Other Bee Princess;Nest Invader(s);Queen Beeavalon*;Other Queen Bee**|MP;0;0 - 40;50;41 - 80;41 - 80;146;81 - 150;81 - 150;299;151 - 300;151 - 350;301 - 600;552;351 - 600
+
+/table Fireglass Hive Encounters
+Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;41 - 50;51 - 55;56 - 60;61 - 80;81 - 90;91 - 100;101 - 130;131 - 170;171 - 200|Insect(s);Bee Drone;Nest Invader(s);Fireglass Bee Worker;Nest Invader(s);Other Bee Worker;Fireglass Bee Soldier;Nest Invader(s);Other Bee Soldier;Fireglass Bee Princess*;Nest Invader(s);Other Bee Princess;Nest Invader(s);Queen Firalice*;Other Queen Bee**|MP;0;0 - 40;54;41 - 80;41 - 80;141;81 - 150;81 - 150;306;151 - 300;151 - 350;301 - 600;483;351 - 600
+
+/table Stormshore Hive Encounters
+Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;41 - 50;51 - 55;56 - 60;61 - 80;81 - 90;91 - 100;101 - 130;131 - 170;171 - 200|Insect(s);Bee Drone;Nest Invader(s);Stormshore Bee Worker;Nest Invader(s);Other Bee Worker;Stormshore Bee Soldier;Nest Invader(s);Other Bee Soldier;Stormshore Bee Princess*;Nest Invader(s);Other Bee Princess;Nest Invader(s);Queen Thundara*;Other Queen Bee**|MP;0;0 - 40;60;41 - 80;41 - 80;139;81 - 150;81 - 150;258;151 - 300;151 - 350;301 - 600;381;351 - 600
 
 /h2 Beetle Arenas
 /table Beetle Arena Encounters
