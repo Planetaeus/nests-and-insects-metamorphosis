@@ -677,7 +677,7 @@ _Healing Items_ When a Character Consumes a Food Item with the Healing Blessing,
 
 _Relief Items_ When a Character Consumes a Food Item with the Relief Blessing, each dot consumed reduces one Effect of her choice by the Rating of the Item.
 
-_Metamorphosis Items_ When a Character Discovers an Item of Metamorphosis, or learns its properties for the first time, the entire Party gains MP equal to the Item Rating.
+_Metamorphosis Items_ When a Character Harvests an Item of Metamorphosis, or learns its properties for the first time, the entire Party gains MP equal to the Item Rating.
 
 _Cursed Items_ When a Character first Identifies a Cursed Food Item, she rolls a D12 to determine a Random Effect. Each time the Food is Consumed, the Consuming Character is bestowed that Effect equal to the number of dots consumed. Cursed Items cannot be dropped or shared.
 
