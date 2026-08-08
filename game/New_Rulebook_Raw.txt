@@ -1242,13 +1242,26 @@ _Multiple Darkness_ If the Characters face multiple Darkness Risks, the Darkness
 
 /h4 Item Reward
 
-When a Food Reward is Generated, determine if it is a Known or Unknown Item. If it is a Known Item, randomly select a Food Item the Party has already Identified. If it is an Unknown Item, randomly determine its Form (See Section "Generating Food Items"). In either case, use the Room's Level for the Food's Level. A Food Reward may be Harvested up to three times before it is depleted.
+When an Item Reward is generated, randomly determine the type of Item by rolling on the Table "Item Reward Types".
 
-_Multiple Foods_ If multiple Food Rewards are Generated in a Room, they combine into one Food Reward. Increase the Level of the Food for each Food Reward beyond the First.
+/table Item Reward Types
+/cols Result;1;2;3;4|Item Type;Food;Resource;Tool;Attack Amber
 
-/h4 Resource Reward
+When a Food Reward is Generated, determine if it is a Known or Unknown Item. This can be done randomly or at the GQ's discretion. If it is a Known Item, randomly select a Food Item the Party has already Identified. If it is an Unknown Item, randomly determine its Form (See Section "Generating Food Items"). A Food Reward may be Harvested up to three times before it is depleted. See Section "Hunting & Foraging".
+
+_Multiple Food Items_ If multiple Food Rewards are Generated in a Room, they combine into one Food Reward. For each Item Reward beyond the First, the Food Item can be Harvested an additional time.
 
 When a Resource Reward is generated, make a note that the Room has Building Resources available. Each Resource in the Room may be Harvested up to three times before it is depleted. See Section "Hunting & Foraging".
+
+_Multiple Resources_ If multiple Resource Rewards are Generated in a Room, they combine into one Resource Reward. For each Item Reward beyond the First, the Resource can be Harvested an additional time.
+
+When a Tool Reward is Generated, first determine the Attribute it boosts (See Section "Tool Items"). Then, use the Room's Level for the Tool's Dice Pool. Lastly, give it three Dots.
+
+_Multiple Tools_ If multiple Tool Rewards are Generated in a Room, they combine into one Tool. For each Item Reward beyond the First, the Tool receives one additional Dot.
+
+When an Attack Amber Reward is generated, determine what Attack it Holds. Then, use the Room's Level for the Amber's Attribute Level. Lastly, give it three Dots.
+
+_Multiple Ambers_ If Multiple Attack Amber Rewards are Generated in a Room, they combine into one Amber. For each Item Reward beyond the First, the Amber receives one additional Dot.
 
 /h4 Non-Hostile Encounter Reward
 
