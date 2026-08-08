@@ -704,7 +704,14 @@ Each Tool Item has three qualities:
 * Dice Pool: The Dice Pool Rating determines how many dice are added to your Dice Pool when the Item is Consumed.
 * Dots: The Dots of a Tool Item are used to keep track of how many uses it has left.
 
-When an Insect holding a Tool Item makes a Roll using that Item's Attribute, she may choose to Consume one Dot of the Item to gain Dice equal to the Item's Dice Pool.
+To determine what type of Attribute a Tool supports, roll a D12 and consult the Table "Tool Item Attributes", then randomly determine an Attribute from that type.
+
+/table Tool Item Attributes
+/cols Result;1;2 - 3;4 - 6;7 - 12|Attribute;Core;Advanced;Special;Common
+
+A Tool Item can be many things. It can be a reference guide scribbled on a leaf, it can be a cloak of finely woven silk that distracts the eyes. It is up to the GM and the Players to come up with a form for the Tool that makes sense for the Attribute it boosts.
+
+When an Insect holding a Tool Item makes a Roll using that Tool's Attribute, she may choose to Consume one Dot of the Tool to gain a Positive Modifier to the Roll equal to the Tool's Dice Pool.
 
 When a Tool Item's last Dot is Consumed, it breaks, is spent, and is otherwise unusable.
 
