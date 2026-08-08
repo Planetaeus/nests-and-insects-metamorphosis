@@ -34,6 +34,7 @@ Sometimes a Roll is opposed by another Character's Rating. The GQ determines wha
 /h3 Degrees of Success
 
 The GQ may decide that the degree of success matters to determine the outcome of the Roll. This represents situations where the effectiveness of an action can be measured in more detail than a simple pass/fail.In these cases, it can help to categorize the Degree of Success (DoS). There are six stages of DoS: Critical Failure, Total Failure, Partial Failure, Partial Success, Total Success, and Critical Success. Table 1 shows how the Net Successes of a Roll translates into the DoS of the result.
+
 /table Degrees of Success.
 /cols Net Successes;+5 or more;+3, +4;+1, +2;-1, 0;-2, -3;-4 or less|Degree of Success;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure; Critical Failure|Does it Work?;Yes, and...;Yes;Yes, but...;No, but...;No;No, and...
 
@@ -139,6 +140,7 @@ The first area in a Character sheet lists the name of a Character's Class.
 /h3 Core Attributes Area
 
 Under the Character Name is the Core Attributes Area. Core Attributes are Features that represent innate abilities of Characters in a Class. Nests & Insects: Metamorphosis Characters have four Core Attributes:
+
 /table Core Attributes Summary
 /cols Core Attribute;Speed(SPE);Strength (STR);Ken(KEN);Passions (PAS)|Description;Speed of movement: Dexterity, precision, fine manipulation.;Physical strength and toughness: Push, pull, break, and endure harm.;Wisdom and Logic: reasoning and knowledge of the world.;Willpower, morale, strength of spirit, courage, and influence 
 
@@ -147,6 +149,7 @@ Under the Character Name is the Core Attributes Area. Core Attributes are Featur
 The Special Attributes box lists Attributes that are particular to a Species. Nests & Insects classes model individuals of a species, hence each Character class has its own Special Attributes ratings.
 
 There are five Special Attributes that Character classes can have at creation/selection: Carapace, Flight, Swarming, Toxic, or Web. These are briefly described below.
+
 /table Special Attributes Summary
 /cols Attribute;Carapace;Flight;Swarming;;Toxic;;Web;|The Character...;...has a hardened carapace that protects her.;...can fly. Flight Characters are harder to hit by ranged Attackers.;...is a swarm of individual Insects, or can summon conspecifics to assist;her and take Wounds in her stead;...has a venomous bite or poisonous substance that can bestow Effects;such as Immobile, Paralysed, or Poisoned to enemies.;...can weave webs. Webs set traps, bind enemies, or secure an area.;
 
@@ -164,12 +167,14 @@ There are eight Advanced Attributes, described briefly below, and in more detail
 /h3 Common Attributes Box
 
 The Common Attributes box lists Attributes common to all Character classes. Table "Common Attributes" briefly lists Common Attributes and their use. Section "Common Attributes" describes the Common Attributes in more detail.
+
 /table Common Attributes Summary
 /cols Common Attributes;Construction;Eusociology;Foraging;Healing;Leadership;Perception;Signalling;Sneaking|Description;Build and Demolish. Secure a Room for Resting and Healing.;Knowledge of the ways of Nests and their inhabitants;Search for sustenance, or Food Items with special abilities;Remove Wounds or detrimental Effects;Support allies and improve their Disposition in Combat;Find secrets and hidden items and Rooms;Display aposematic markings, emit pheromonic signals;Move and act with stealth
 
 /h3 Effects Box
 
 The Effects Box lists ten Effects that a Character can be subject to. Effects are generally detrimental conditions that can affect a Character as a result of Attacks in Combat, and other Minigames. The twelve Effects in the Effect Box are listed below with a brief description of each.
+
 /table Effects Summary
 /cols Effect;Bleeding;Brittle;Burns;Charmed;Confused;Immobile;Infected;Paralysed;Poisoned;Shocks|The Character...;...automatically takes a Wound each Combat Turn.;...has their reflexes and chitin weakened.;...is on fiyah.;...will not Attack, but may take other Actions.;...will only Attack and Move, will not take other actions.;...movement, Speed, and Flight restricted.;...acquires a random Effect each Turn this Effect Applies;...cannot take any Actions except to Resist;...has Poisoned as a negative modifier to all Action Efforts;...has Shocks as a negative modifier to all Close and Ranged Attacks
 
@@ -456,10 +461,12 @@ Effort Variables: .................... Effect-specific (see below)
 Resistance Variables: ................ Effect to be Resisted
 
 Outcomes of the six Degrees of Success and Failure:
+
 /table DoS for Resisting Effects.
 /cols Degree of Success;Critical Success;Complete Success;Partial Success;Partial Failure;Complete Failure;Critical Failure|Outcome;Reduce Effect 3;Reduce Effect 2;Reduce Effect 1;Effect remains;Effect Triggers.;Increase Effect 1. Effect Triggers
 
 Effect-specific Effort variables: 
+
 /table Effort Variables to Resist Effects.
 /cols Effect;Bleeding;Brittle;Burns;Charmed;Confused;Immobile;Infected;Paralysed;Poisoned;Shocked|Resist with;Strength;Strength + Heat;Speed + Chill;Passions + Psycho;Ken + Psycho;Strength;Strength + Plant;Speed;Strength + Plant;Passions + Static
 
@@ -609,12 +616,14 @@ When an Item is first found, Roll to generate the Item's Form, as follows:
 1. Generate the Item's Colour.
 
 Roll a d6 and match the result on the Food Colour Table below.
+
 /table Food Colours 
 /cols d6;1;2;3;4;5;6|Food Colour;Black;Blue;Green;Red;White;Yellow 
 
 2. Generate the Item's Food Type
 
 Roll a d10 and match the result on the Food Type Table below.
+
 /table Food Types
 /cols d10;1;2;3;4;5|Food Type;Nectar;Honey;Honeydew;Fungus;Leaf|d10;6;7;8;9;10|Food Type;Aphid;Cricket;Fly;Worm;Larva
 
@@ -653,12 +662,14 @@ When an Item is Identified in one of the two ways described in the previous Sect
 1.Generate the Item's Condition.
 
 Roll a d6 and match the Result on the Item Condition Table below.
+
 /table Item Conditions
 /cols d6 Result;1-2;3-4;5-6|Condition;Cursed;Ordinary;Blessed|Description;Bestows a random Effect and cannot be dropped.;No special properties.;Roll on the Blessings Table to determine Blessing. 
 
 2. Generate the Item's Alignment and Abilities
 
 _Blessed Food_ bestows a boon upon the user. Roll a d20 and match the Result on the Blessings Table below. Blessings take effect immediately upon being consumed. This is true of both Known and Unknown Items.
+
 /table Blessings
 /colsd6 Result;1-2;3-4;5-6|Blessings;Healing - reduces Wounds.;Relief - reduce an Effect.;Metamorphosis - Party Gains MP.
 
@@ -784,6 +795,7 @@ It is possible for a creature to be in the same room as Combat and not be a Comb
 
 /h4 Starting Disposition
 Before the start of the first Combat Round, each Player Rolls SPE or PAS. The GQ makes a similar Roll for each of the enemies. Each Combatant begins at Holding Disposition, then Advances or Recoils their Disposition as described in the following Table.
+
 /table Starting Disposition. 
 /cols SPE or PAS Roll Result;Critical Success;Total Success;Partial Success;Failure|Starting Disposition;Advance 3;Advance 2;Advance 1;Recoil 1.
 
@@ -870,7 +882,7 @@ _Swarming_ If a Character with Swarms is affected by an Area Attack, the target'
 
 _Targeting Allies_ Some Attacks Heal or Help rather than Harm. These Attacks can target Allies, but may be more difficult when targeting more capable Allies.
 
-Attacks are listed in Chapter "Attacks". Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
+Attacks are listed in Appendix "Attack_Index". Each Attack has a Name, one or more required Attribute Ratings, and Attack Details.
 
 /h4 Suppress Action
 
@@ -892,10 +904,12 @@ Effort Variables .................... Action-specific (see below)
 Resistance Variables ................ Action-specific
  
 Outcomes of the six Degrees of Success and Failure:
+
 /table DoS for Suppress Action
 /cols Degree of Success;Critical Success;Complete Success;Partial Success;Partial Failure;Complete Failure;Critical Failure|Intimidate Outcome;Target Recoils 3;Target Recoils 2;Target Recoils 1;Target Holds;Target Advances 1;Target Advances 2|Charm or Confuse Outcome;Bestow Charmed / Confused: 3;Bestow Charmed / Confused: 2;Bestow Charmed / Confused: 1;Nothing Happens;Gain Charmed / Confused: 1;Gain Charmed / Confused: 2
  
 Suppress Action-specific Effort, Resistance and modifier Features: 
+
 /table Effort Variables for Suppress Action
 /cols Action;Charm;Confuse;Intimidate|Effort;Passions + Leadership;Ken + Eusociology;Passions + Signaling|Resistance;Passions + Psycho;Ken + Psycho;Passions + Psycho
 
@@ -920,10 +934,12 @@ Resistance Variables: ................ Action-specific
 Modifier Variables: .................. Action-specific 
  
 Outcomes of the six Degrees of Success and Failure:
+
 /table DoS for Support Action
 /cols Degree of Success;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Rally or Encourage Outcome;Ally Advances 3;Ally Advances 2;Ally Advances 1;No Effect;Ally Recoils 1;Ally Recoils 2|Focus or Shake Outcome;Reduce Effect 3;Reduce Effect 2;Reduce Effect 1;Effect Remains;Increase Effect 1;Increase Effect 2
  
 Support Action-specific Effort, Resistance and modifier Features:
+
 /table Effort Variables for Support Action
 /cols Action;Encourage;Focus;Shake|Effort;Passions + Leadership;Ken + Signaling;Passions + Eusociology|Resistance;Passions;Confused;Charmed
 
@@ -1023,10 +1039,12 @@ To track the Environments discovered so far in the game, and what was discovered
 Players are free to track their Environment Pool as best suits them, for example by drawing a map of Environments and their connections and contents.
 
 Another way to track an Environment Pool is to tabulate the Contents and Connections.
+
 /table Environment Pool - Rooms and their Contents
 /cols Level;01;01;01;03|Room;00;01;02;00|Explored?;Yes;Yes;No;No|Notes;;Secured, Cursed Red Fungus, Building Resources;;
 
 In the table above, the Level and Room numbers are tracked to differentiate the Rooms. The "Explored?" column records whether a Room has been Explored. The "Notes" column is for players to mark down anything they wish to remember about the Environment. In the example in the table above, the Players have noted that Room 0101 was Secured, and what they found there.
+
 /table Environment Pool - Passages
 /cols Room A;0100;0101;0101;0102;0101;0300|Exit;0;0;1;0;2;0|Room B;0101;0100;0102;0101;0300;0101|Exit;0;0;0;1;0;2
 
@@ -1104,6 +1122,7 @@ Each Room starts with Level Risk Dice. The Party Scout makes a KEN Roll. Each Su
 /h4 Generate Risks
 
 If the Room has any Risk Dice, Roll those dice and compare the Results against the following table.
+
 /table Risk Generation
 /cols d6;1-3;4;5;6|Risk;Encounter;Obstacle;Darkness;Infection|Description;Meet the Nest's denizens;Prevents further Exploration until removed.;Obscures senses.;Bestows the Infected Effect.
 
@@ -1112,6 +1131,7 @@ _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls 
 /h4 Generate Rewards
 
 If the Room has any Reward Dice, Roll those Dice and compare the results against the following table.
+
 /table Reward Generation
 /cols d6;1-3;4-5;6|Reward;Food Item;Resources;Level|Description;Find Food that can be Foraged.;Find Resources that can be Harvested.;Entrance to a new, more advanced Nest Level.
 
@@ -1175,6 +1195,7 @@ Nothing special happens at the end of Survival & Exploration, except that the Ro
 When an Obstacle Risk is Faced, an Obstacle prevents the Characters from moving further into the Room. The Obstacle starts with an Obstruction Rating equal to the current Level. An Obstacle with a Rating of 0 is torn down.
 
 A Character who wishes to Tear Down the Obstacle may Roll (STR or KEN) + Construction vs. Obstruction, and consult the following table for the Outcome.
+
 /table Tearing Down Obstacles
 /cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Reduce Obstruction by 3;Reduce Obstruction by 2;Reduce Obstruction by 1;Nothing Happens;Take 1 Wound.;Take 2 Wounds.
 
@@ -1269,6 +1290,7 @@ Ambitious Characters may also wish to steal Food or Resources from under the ant
 /h4 Intimidate the Creatures
 
 Mercenaries are tougher and scarier than many Bugs in the Meadows. Not everybug is equipped or willing for a fight. One Character Rolls PAS + Signaling. Each Creature in the Room Rolls PAS + Psycho to Resist. Consult the following Table for guidance on the Outcome of the Roll for each Creature:
+
 /table Intimidation Results
 /cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Creature Flees.;Creature becomes Hostile and Recoils 2.;Creature becomes Hostile and Recoils 1.;Creature becomes Hostile and Holds.;Creature becomes Hostile and Advances 1.;Creature becomes Hostile and Advances 2.
 
@@ -1281,6 +1303,7 @@ After any Creatures Flee, the "leader" of the remaining Creatures may Roll PAS +
 /h4 Negotiate with the Creatures
 
 Characters may want what the Creatures guard, or may seek information. After stating the intent of their Negotiations with the Room's Creatures, one Character Rolls (KEN or PAS) + Eusociology. The "leader" of the Creatures in the Room Rolls PAS + Psycho to Resist. Consult Table Negotiation Results for guidance on how to describe the Outcome of the Roll:
+
 /table Negotiation Results
 /cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;A favorable deal plus extra.;A favorable deal.;A reasonable deal.;A bad deal.;No Deal.;No Deal. The Creature becomes Hostile.
 
@@ -1289,6 +1312,7 @@ Costs for Items, services, or information may come in the form of Food, Resource
 /h4 Recruit the Creatures
 
 Strength is in numbers, and numbers come from strength. The Characters may attempt to Recruit more Insects to their cause. One Character Rolls PAS + Leadership. Each Insect of her choice in the Room Rolls PAS + Psycho to Resist. Consult Table 23 for guidance on Outcomes:
+
 /table Recruitment Results
 /cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Insect Advances 2 and Joins as a Companion.;Insect Advances 1 and Joins as a Companion.;Insect Joins as a Companion.;No Deal.;The Insect becomes Hostile.;The Insect becomes Hostile and Advances 2.
 
@@ -1303,8 +1327,10 @@ _Abandoned Companions_ Companions may leave the Party for any number of reasons.
 In Exploration & Survival the Characters discover what Food and Resources can be found where. In Hunting & Foraging, the Characters have opportunities to harvest those Items to support themselves on the way to their Job.
 
 Hunting & Foraging begins when the Characters are in a Room with one or more Food Items or Resources. Players choose which Item they would like to harvest. The Effort of the Roll will change depending on whether they want to Forage for Plant or Fungus matter, Hunt or Scavenge for prey, or Gather Resources.
+
 /table Hunting & Foraging DoS
 /cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Add 3 to Item Rating.;Add 2 to Item Rating.;Add 1 to Item Rating.;Chance Wasted. Nothing Happens.;Chance Wasted. Increase Hunger by 1.;Chance Wasted. Increase Hunger by 2.
+
 /table Hunting & Foraging Effort Variables.  
 /cols Action;Forage or Harvest;Hunt or Scavenge;Gather|Effort;(STR or KEN) + Foraging;(SPE or PAS) + Foraging;(STR or KEN) + Construction|Resistance;Level;Level;Level
  
@@ -1459,6 +1485,7 @@ Once the Traveling Party has arrived and has paid the costs of Travel, the Minig
 
 
 /h1 Nests
+
 The majority of the adventures your intrepid Bugs will journey upon will take place inside some variety of Nest. A Nest is a place marked by one or more Insects, carved and shaped into conditions that are just right for their living space and hunting grounds.
 
 /h2 Ant Colonies
@@ -1487,23 +1514,29 @@ Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;41 - 50;51 - 55;56 - 60;61 - 80;81
 Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;41 - 50;51 - 55;56 - 60;61 - 80;81 - 90;91 - 100;101 - 130;131 - 170;171 - 200|Insect(s);Bee Drone;Nest Invader(s);Stormshore Bee Worker;Nest Invader(s);Other Bee Worker;Stormshore Bee Soldier;Nest Invader(s);Other Bee Soldier;Stormshore Bee Princess*;Nest Invader(s);Other Bee Princess;Nest Invader(s);Queen Thundara*;Other Queen Bee**|MP;0;0 - 40;60;41 - 80;41 - 80;139;81 - 150;81 - 150;258;151 - 300;151 - 350;301 - 600;381;351 - 600
 
 /h2 Beetle Arenas
+
 /table Beetle Arena Encounters
 
 /h2 Scorpion Burrows
+
 /table Scorpion Burrow Encounters
 
 /h2 Spider Communes
+
 /table Spider Commune Encounters
 
 /h2 Termite Cathedrals
+
 /table Termite Cathedral Encounters
 
 /h2 Wasp Nests
+
 /table Wasp Nest Encounters
 
 
 /h1 Insects
 What good is a Nest without any Insects to creep and crawl around? 
+
 /table Insects by MP
 /h2 Ants
 /h3 Ant Drone
