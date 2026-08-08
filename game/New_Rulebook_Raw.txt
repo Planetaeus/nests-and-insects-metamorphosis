@@ -1206,7 +1206,7 @@ A Character who wishes to Tear Down the Obstacle may Roll (STR or KEN) + Constru
 /table Tearing Down Obstacles
 /cols DoS;Critical Success;Total Success;Partial Success;Partial Failure;Total Failure;Critical Failure|Outcome;Reduce Obstruction by 3;Reduce Obstruction by 2;Reduce Obstruction by 1;Nothing Happens;Take 1 Wound.;Take 2 Wounds.
 
-When the Characters reduce the Obstruction Rating to zero, the Obstacle is Cleared! The GQ Rolls Level. One Character adds Resources equal to the Successes.
+When the Characters reduce the Obstruction Rating to zero, the Obstacle is Cleared! The Room now has one Harvest of Resources available.
 
 Leaving a Room with an Obstacle intact means that Entrance to the Room is unusable. No further Risks may be Faced until the Obstacle is torn down, or the Characters find another Entrance to the Room.
 
