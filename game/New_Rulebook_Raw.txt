@@ -653,11 +653,11 @@ Any Effects determined by a Food Item's Function trigger when the Item is Consum
 
 Once all Effects caused by Consuming an unknown Food Item have triggered, the Item is a Known Item.
 
-When an Item is Identified, the Party gains 1 MP.
+When a Food Item is Identified, the Party gains 1 MP.
 
 /h3 Generating a Food Item's Function
 
-When an Item is Identified in one of the two ways described in the previous Section, Roll to generate the Item's Function, as follows:
+When a Food Item is Identified in one of the two ways described in the previous Section, Roll to generate the Item's Function, as follows:
 
 1.Generate the Item's Condition.
 
