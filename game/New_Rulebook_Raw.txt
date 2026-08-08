@@ -717,13 +717,15 @@ When a Tool Item's last Dot is Consumed, it breaks, is spent, and is otherwise u
 
 /h2 Attack Ambers
 
-Fragments of Amber contain the knowledge and power of Insects long past. These Attack Ambers grant the holder the ability to unleash this power upon their foes.
+Fragments of Amber contain the knowledge and power of Insects long past. These Attack Ambers grant the wielder the ability to unleash this power upon their foes.
 
-Each Attack Amber has an Attack, a Dice Pool, and a Dots Rating.
+Each Attack Amber has three qualities:
 
-When an Insect holding an Attack Amber is in Combat and takes the Attack Action, she may choose to Consume one Dot of the Amber and use the Attack stored in the Amber instead of one of her own Attacks. When she does so, she uses the Amber's Dice Pool to make the Attack, which otherwise behaves as if she were using the Attack normally.
+* Attack: The Name of the Attack the Amber Holds.
+* Attribute Rating: The Rating of any Attributes referenced in the Attack.
+* Dots: The Dots of an Attack Amber are used to keep track of how many uses it has left.
 
-If an Amber's Attack references one or more Attributes, such as in the Range of the Attack, use the Dice Pool Rating in place of that Attribute.
+When an Insect holding an Attack Amber is in Combat and takes the Attack Action, she may choose to Consume one Dot of the Amber and use the Attack stored in the Amber instead of one of her own Attacks. For the Attack, she may replace any or all of the Attack's Attributes with the Attribute Rating of the Amber. which otherwise behaves as if she were using the Attack normally.
 
 When an Attack Amber has no Dots remaining, it becomes an inert piece of mundane amber. It may still be used for Bartering with other Insects.
 
