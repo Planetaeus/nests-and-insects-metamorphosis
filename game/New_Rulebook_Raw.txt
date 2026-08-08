@@ -1133,7 +1133,7 @@ Each Room starts with Level Risk Dice. The Party Scout makes a KEN Roll. Each Su
 If the Room has any Risk Dice, Roll those dice and compare the Results against the following table.
 
 /table Risk Generation
-/cols d6;1-3;4;5;6|Risk;Encounter;Obstacle;Darkness;Infection|Description;Meet the Nest's denizens;Prevents further Exploration until removed.;Obscures senses.;Bestows the Infected Effect.
+/cols d6;1-3;4;5;6|Risk;Hostile Encounter;Obstacle;Darkness;Infection|Description;Meet the Nest's denizens;Prevents further Exploration until removed.;Obscures senses.;Bestows the Infected Effect.
 
 _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls multiple times to determine what Creatures the Players come across.
 
@@ -1142,9 +1142,7 @@ _Multiple Encounters_ When multiple Encounter Risks are generated, the GQ Rolls 
 If the Room has any Reward Dice, Roll those Dice and compare the results against the following table.
 
 /table Reward Generation
-/cols d6;1-3;4-5;6|Reward;Food Item;Resources;Level|Description;Find Food that can be Foraged.;Find Resources that can be Harvested.;Entrance to a new, more advanced Nest Level.
-
-_Multiple Food Items_ If multiple Food Item Rewards are Generated, each one beyond the first increases the Food's Level by 1.
+/cols d6;1-4;5;6|Reward;Item;Non-Hostile Encounter;Level|Description;Find Items that help survive and thrive;Fine someone who may be open to an arrangement;Entrance to a new, more advanced Nest Level.
 
 /h4 Face Risks.
 
@@ -1153,7 +1151,7 @@ Risks are Faced in the following order. See Section "Face Risks" for more detail
 1. Obstacle
 2. Infection
 3. Darkness
-4. Encounter
+4. Hostile Encounter
 
 /h4 Survival & Exploration Ends
 
