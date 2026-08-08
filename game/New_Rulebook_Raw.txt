@@ -1240,7 +1240,7 @@ _Multiple Darkness_ If the Characters face multiple Darkness Risks, the Darkness
 
 /h3 Reward Events
 
-/h4 Food Item Reward
+/h4 Item Reward
 
 When a Food Reward is Generated, determine if it is a Known or Unknown Item. If it is a Known Item, randomly select a Food Item the Party has already Identified. If it is an Unknown Item, randomly determine its Form (See Section "Generating Food Items"). In either case, use the Room's Level for the Food's Level. A Food Reward may be Harvested up to three times before it is depleted.
 
