@@ -118,26 +118,22 @@ def format_table_header(table_num, rl):
     return tn, wl
     
 def trim_line(lines):
-    out_lines = ['']
+    out_lines = []
     col = 0
-    line_index = 0
     if isinstance(lines,str):
-        l = lines.strip()
-        words = l.split()
+        words = lines.split()
+        if len(words) == 0:
+            out_lines.append('')
         for word in words:
-            if col + 1 + len(word) >= 89:
-                out_lines[line_index] = out_lines[line_index]
+            if col == 0:
                 col = len(word)
-                line_index = line_index + 1
                 out_lines.append(word)
-            elif col == 0:
+            elif col + 1 + len(word) > page_width:
                 col = len(word)
-                out_lines[line_index] = word
+                out_lines.append(word)
             else:
                 col = col + 1 + len(word)
-                out_lines[line_index] = out_lines[line_index] + ' ' + word
-            
-            out_lines[line_index].strip()
+                out_lines[-1] = out_lines[-1] + ' ' + word
     else:
         for line in lines:
             l = line.strip()
