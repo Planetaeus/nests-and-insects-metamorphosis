@@ -284,7 +284,7 @@ Each Character with a Swarming Rating starts with her Max Swarms.
 
 /h3 Selecting Attacks
 
-Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (Chapter "Attacks") and selects up to four Attacks for which her Character qualifies based on her Core and Special Attributes.
+Characters can know up to four Attacks. Attacks have a minimum Rating in one or more Attributes that a Character must have to qualify for the Attack. The Player looks at the list of Attacks (Appendix "Attack_Index") and selects up to four Attacks for which her Character qualifies based on her Core and Special Attributes.
 
 /h2 Character Features
 
@@ -428,7 +428,7 @@ Actions over the course of the game earn Metamorphosis Points, or MP, for the Ch
 
 /h3 Attacks
 
-See Chapter "Attacks" for a list of available Attacks, their requirements, and their descriptions.
+See Appendix "Attack_Index" for a list of available Attacks, their requirements, and their descriptions.
 
 
 /h1 Effects
@@ -1404,7 +1404,7 @@ _Adjusting MP Costs_ If the GQ has a desire to play a shorter, faster game, she 
 
 /h3 Change Attacks
 
-A Character may decide to change their list of Known Attacks. See Chapter "Attacks" for a list of Attacks, their descriptions, and their Ranks. Characters can only learn Attacks for which they meet the Rank. Characters can only know 4 Attacks at a given time. 
+A Character may decide to change their list of Known Attacks. See Appendix "Attack_Index" for a list of Attacks, their descriptions, and their Ranks. A Character can only learn Attacks for which they meet all requirements. A Character can only know 4 Attacks at a given time. 
 
 /h2 Travel
 
