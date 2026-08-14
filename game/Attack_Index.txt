@@ -264,7 +264,7 @@ Roll STR + Static vs. PAS + Static + Carapace against an adjacent Insect. The ta
 Supreme Speed
 Range: Close
 Requires: SPE 7
-Roll SPE vs. SPE + Carapace against an adjacent Insect. The target gains Wounds for each Net Success. On a Success, make another attack against an adjacent Insect (this can be the same as the original target).
+Roll SPE vs. SPE + Carapace against an adjacent Insect. The target gains Wounds for each Net Success. On a Success, repeat this attack against an adjacent Insect (this can be the same as the original target). Reduce the Dice Pool by 1 for each time the attack is repeated.
 
 Swarming Call
 Range: Special
