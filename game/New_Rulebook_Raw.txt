@@ -1559,115 +1559,161 @@ What good is a Nest without any Insects to creep and crawl around?
 
 /table Insects by MP
 /h2 Ants
+
 /h3 Ant Drone
+
 /h3 Carpenter Ants
-/h3 Carpenter Worker
-/h3 Carpenter Soldier
-/h3 Carpenter Queen
-/h3 Carpenter Empress
+
+/h4 Carpenter Worker
+
+/h4 Carpenter Soldier
+
+/h4 Carpenter Queen
+
+/h4 Carpenter Empress
+
 /h3 Fire Ants
-/h4 Fire Ant Workerg
+
+/h4 Fire Ant Worker
+
 /h4 Fire Ant Soldier
+
 /h4 Fire Ant Queen
+
 /h4 Fire Ant Empress
+
 /h3 Winter Ants
+
 /h4 Winter Ant Worker
+
 /h4 Winter Ant Soldier
+
 /h4 Winter Ant Drone
+
 /h4 Winter Ant Queen
+
 /h4 Winter Ant Empress
+
 /h2 Bees
+
 /h3 Honey Bees
+
 /h4 Honey Bee Worker
+
 /h4 Honey Bee Soldier
+
 /h4 Honey Bee Princess
+
 /h4 Queen Beeavalon, Queen Above Queens
+
 /h3 Bumble Bees
+
 /h4 Bumble Worker
+
 /h4 Bumble Soldier
+
 /h4 Bumble Princess
+
 /h4 Queen Bumbelle, Bumble Queen
+
 /h3 Fireglass Bees
+
 /h4 Fireglass Worker
+
 /h4 Fireglass Soldier
+
 /h4 Fireglass Princess
+
 /h4 Queen Firalice, Fireglass Queen
+
 /h3 Stormshore Bees
+
 /h4 Stormshore Worker
+
 /h4 Stormshore Soldier
+
 /h4 Stormshore Princess
+
 /h4 Queen Thundara, Stormshore Queen
+
 /h2 Beetles (TBD)
-/h3 Bark Beetles
-High Chill
-Medium Spe
-Medium STR
-Low Flight
-/h4 Bark Titan
-High Chill
-Medium Spe
-High STR
-Medium Flight
-/h3 Hercules Beetle
-High STR
-High Carapace
-Medium Flight
-Medium Spe
+
+/h3 Fireflies
+
+/h4 Firefly Grub
+
+/h4 Firefly
+
+/h4 Firefly Titan
+
+/h3 Hercules Beetles
+
+/h4 Hercules Grub
+
+/h4 Hercules Beetle
+
 /h4 Hercules Titan
-High STR
-High Carapace
-High Flight
-High Spe
+
 /h3 Ladybug
+
 High speed
 Medium Strength
 Medium Carapace
 Medium Flight
+
 /h4 Ladybug Titan
+
 High Speed
 High Strength
 Medium Carapace
 High Flight
-/h3 Rhinoceros Beetle
-Low Spe
-High STR
-Medium Carapace
-Low Flight
-/h4 Rhinoceros Titan
-Medium Spe
-High STR
-High Carapace
-High Flight
+
 /h3 Scarab
+
 High Construction
 Medium KEN
 Medium SPE
 Medium STR
 Medium Flight
+
 /h4 Scarab Titan
+
 High Construction
 High KEN
 High SPE
 High STR
 Medium Flight
+
+/h3 Stag Beetles
+
+/h4 Stag Grub
+
+/h4 Stag Beetle
+
+/h4 Stag Titan
+
 /h3 Titan Beetle
-High STR
-Medium Carapace
-Medium Flight
-Medium Spe
+
 /h4 Titan of Titans
-High STR
-High Carapace
-High Flight
-High Spe
+
 /h2 Scorpions
+
 /h2 Spiders
+
 /h2 Termites
+
 /h3 Worker Termite
+
 /h3 Minor Termite Soldier - Autothyte
+
 /h3 Major Termite Soldier - Autothyte
+
 /h3 Nasute Soldier
+
 /h3 Alates - King (TBD)
+
 /h3 Alates - Queen (TBD)
+
 /h2 Wasps
+
 /h2 Miscellaneous
