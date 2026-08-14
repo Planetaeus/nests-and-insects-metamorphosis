@@ -208,7 +208,7 @@ Spend two Swarms and Roll PAS + Swarming and choose a Hex within Swarming Hexes.
 
 Plannéd Strike
 Range: Close
-Requires: KEN 5
+Requires: KEN 1
 Roll KEN vs. KEN against an adjacent Insect. The target gains Wounds for each Net Success.
 
 Point-Blank Flare
