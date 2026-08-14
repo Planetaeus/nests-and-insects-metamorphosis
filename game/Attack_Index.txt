@@ -49,7 +49,7 @@ Roll STR + Carapace vs. STR + Carapace against an adjacent Insect. For each Net 
 Armored Charge
 Range: Area
 Requires: Carapace 1
-Move in a line of Hexes up to your SPE. Roll SPE - Swarming. Each Insect in that line must roll SPE + Carapace to Resist, then gains Wounds and is Pushed 1 for each Net Success.
+Move in a line of Hexes up to your SPE. Roll SPE + Carapace. Each Insect in that line must roll SPE - Swarming to Resist, then gains Wounds and is Pushed 1 for each Net Success.
 
 Armored Spikes
 Range: Special
