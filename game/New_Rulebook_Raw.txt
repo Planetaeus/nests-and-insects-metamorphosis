@@ -1555,165 +1555,328 @@ Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;41 - 50;51 - 55;56 - 60;61 - 80;81
 
 
 /h1 Insects
+
 What good is a Nest without any Insects to creep and crawl around? 
 
 /table Insects by MP
+
 /h2 Ants
 
 /h3 Ant Drone
 
+
 /h3 Carpenter Ants
+
+
 
 /h4 Carpenter Worker
 
+
+
 /h4 Carpenter Soldier
+
+
 
 /h4 Carpenter Queen
 
+
+
 /h4 Carpenter Empress
+
+
 
 /h3 Fire Ants
 
+
+
 /h4 Fire Ant Worker
+
+
 
 /h4 Fire Ant Soldier
 
+
+
 /h4 Fire Ant Queen
+
+
 
 /h4 Fire Ant Empress
 
+
+
 /h3 Winter Ants
+
+
 
 /h4 Winter Ant Worker
 
+
+
 /h4 Winter Ant Soldier
+
+
 
 /h4 Winter Ant Drone
 
+
+
 /h4 Winter Ant Queen
+
+
 
 /h4 Winter Ant Empress
 
+
+
 /h2 Bees
+
+
 
 /h3 Honey Bees
 
+
+
 /h4 Honey Bee Worker
+
+
 
 /h4 Honey Bee Soldier
 
+
+
 /h4 Honey Bee Princess
+
+
 
 /h4 Queen Beeavalon, Queen Above Queens
 
+
+
 /h3 Bumble Bees
+
+
 
 /h4 Bumble Worker
 
+
+
 /h4 Bumble Soldier
+
+
 
 /h4 Bumble Princess
 
+
+
 /h4 Queen Bumbelle, Bumble Queen
+
+
 
 /h3 Fireglass Bees
 
+
+
 /h4 Fireglass Worker
+
+
 
 /h4 Fireglass Soldier
 
+
+
 /h4 Fireglass Princess
+
+
 
 /h4 Queen Firalice, Fireglass Queen
 
+
+
 /h3 Stormshore Bees
+
+
 
 /h4 Stormshore Worker
 
+
+
 /h4 Stormshore Soldier
+
+
 
 /h4 Stormshore Princess
 
+
+
 /h4 Queen Thundara, Stormshore Queen
+
+
 
 /h2 Beetles (TBD)
 
+
+
 /h3 Fireflies
+
+
 
 /h4 Firefly Grub
 
-/h4 Firefly
+
+
+/h4 Firefly Adept
+
+
 
 /h4 Firefly Titan
 
+
+
 /h3 Hercules Beetles
+
+
 
 /h4 Hercules Grub
 
-/h4 Hercules Beetle
+
+
+/h4 Hercules Adept
+
+
 
 /h4 Hercules Titan
 
-/h3 Ladybug
 
-High speed
-Medium Strength
-Medium Carapace
-Medium Flight
+
+/h3 Ladybugs
+
+
+
+/h4 Ladybug Grub
+
+
+
+/h4 Ladybug Adept
+
+
 
 /h4 Ladybug Titan
 
-High Speed
-High Strength
-Medium Carapace
-High Flight
 
-/h3 Scarab
 
-High Construction
-Medium KEN
-Medium SPE
-Medium STR
-Medium Flight
+/h3 Scarabs
+
+
+
+/h3 Scarab Grub
+
+
+
+/h3 Scarab Adept
+
+
 
 /h4 Scarab Titan
 
-High Construction
-High KEN
-High SPE
-High STR
-Medium Flight
+
 
 /h3 Stag Beetles
 
+
+
 /h4 Stag Grub
+
+
 
 /h4 Stag Beetle
 
+
+
 /h4 Stag Titan
 
-/h3 Titan Beetle
+
+
+/h3 Titan Beetles
+
+
+
+/h4 Titan Grub
+
+
+
+/h4 Titan Adept
+
+
 
 /h4 Titan of Titans
 
+
+
 /h2 Scorpions
+
+
 
 /h2 Spiders
 
+
+
 /h2 Termites
 
-/h3 Worker Termite
 
-/h3 Minor Termite Soldier - Autothyte
 
-/h3 Major Termite Soldier - Autothyte
+/h3 Termite Worker
 
-/h3 Nasute Soldier
 
-/h3 Alates - King (TBD)
 
-/h3 Alates - Queen (TBD)
+/h3 Termite Autothyte Soldiers
+
+
+
+/h4 Termite Autothyte Minor
+
+
+
+/h4 Termite Autothyte Major
+
+
+
+/h3 Termite Nasutes
+
+
+
+/h4 Termite Nasute Minor
+
+
+
+/h4 Termite Nasute Major
+
+
+
+/h3 Termite Alates
+
+
+
+/h4 Termite Prince
+
+
+
+/h4 Termite Princess
+
+
+
+/h4 Termite King
+
+
+
+/h4 Termite Queen
+
+
 
 /h2 Wasps
 
+
+
 /h2 Miscellaneous
+
+
