@@ -1566,6 +1566,7 @@ Ants of one Species or another have a foothold over much of the world. Colonies 
 
 /h3 Ant Drone
 
+Male ants are called Drones, and they have but one purpose in life: mate. When he is mature, he will fly out in droves to find a Princess who will accept him as one of her Courtesans and mate with him. These Drones are unspecialized outside of flight and mating capabilities. In Nests & Insects Metamorphosis, this means that a Drone of any Species will use the same Stat Block.
 
 /h3 Carpenter Ants
 
