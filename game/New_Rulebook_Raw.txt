@@ -1556,7 +1556,9 @@ Result;1 - 10;11 - 20;21 - 30;31 - 40;41 - 50;41 - 50;51 - 55;56 - 60;61 - 80;81
 
 /h1 Insects
 
-What good is a Nest without any Insects to creep and crawl around? 
+What good is a Nest without any Insects to creep and crawl around? This Section provides Stat Blocks of a variety of Insects that can be used as Enemies, Allies, Clients, or Companions throughout the course of a Game. Each Section provides a description that includes aspects of their Real-World counterparts as well as fantastical aspects related to their place in the Game World, primarily the Meadows. If a Game Queen wishes to craft her own Game World, she can use these descriptions and Stat Blocks as reference and inspiration.
+
+All Stat Blocks are created using the same rules for Character Creation and Spending MP that Player Characters follow. As such, their relative difficulty and power level can be tracked by the total amount of MP it took to create the Insect. The table "Insects by MP" contains all of the Insects that have Stat Blocks in this Section, sorted by their MP Value.
 
 /table Insects by MP
 
