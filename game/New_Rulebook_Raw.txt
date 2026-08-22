@@ -1566,9 +1566,17 @@ All Stat Blocks are created using the same rules for Character Creation and Spen
 
 Ants of one Species or another have a foothold over much of the world. Colonies settle and grow, and send out missions for new Colonies. These related Colonies can form vast Empires. These Empires eventually shatter and fight among themselves when the colonies drift too far from each other. Three Species of Ant are described in this Section, each inspired by a real life Species.
 
+While each Ant Species has its unique individual traits, the Ants of Nests & Insects: Metamorphosis follow a similar pattern across Species. Both in the Real World and in the Game, Ants are renowned for their relentless Expansionism. An Ant Colony would never survive and thrive without Workers: Industrious Ants who work tirelessly to gather food and excavate bare soil into the Passages and Chambers of a mighty Colony.
+
+Many Ant Species have a second Caste, referred to as Majors, or Soldiers. These Ants are not only larger than Workers, but also have specializations that make them better suited to fending off Enemies. A proportionally larger head and prothorax allows for more powerful specialized Mandibles - all the better to kill all who would stand in the way of their Conquest across the world.
+
+Of course, where would any Ant Colony be without a Queen at its heart. A Queen lays eggs for the entire Colony, laying both fertilized and unfertilized eggs. Because of the sheer quantity of eggs she must lay, the Queen is the largest Ant in the Colony. In Nests & Insects, she is also the most dangerous. Though she is large, slow, and an easy target, her pheromones command a frenzy of Ants who will lay down their lives in her defense.
+
+Before an Ant becomes a Queen, she is a Princess. She is smaller than she will be, and with larger stronger wings.
+
 /h3 Ant Drone
 
-Male ants are called Drones, and they have but one purpose in life: mate. When he is mature, he will fly out in droves to find a Princess who will accept him as one of her Courtesans and mate with him. These Drones are unspecialized outside of flight and mating capabilities. In Nests & Insects Metamorphosis, this means that a Drone of any Species will use the same Stat Block.
+Male ants are called Drones, and they have but one purpose in life: mate. When he is mature, he will fly out in droves to find a Princess who will accept him as one of her Courtesans and mate with him. These Drones are unspecialized outside of flight and mating capabilities. In Nests & Insects Metamorphosis, this means that a Drone of any Ant Species will use the same Stat Block.
 
 /h3 Carpenter Ants
 
