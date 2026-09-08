@@ -211,7 +211,7 @@
 ║         8.1.2.1 Carpenter Worker.......................................................54 ║
 ║         8.1.2.2 Carpenter Soldier......................................................54 ║
 ║         8.1.2.3 Carpenter Queen........................................................54 ║
-║         8.1.2.4 Carpenter Empress......................................................54 ║
+║         8.1.2.4 Carpenter Empress......................................................55 ║
 ║       8.1.3.0 Fire Ants................................................................55 ║
 ║         8.1.3.1 Fire Ant Worker........................................................55 ║
 ║         8.1.3.2 Fire Ant Soldier.......................................................55 ║
@@ -223,7 +223,7 @@
 ║         8.1.4.3 Winter Ant Drone.......................................................55 ║
 ║         8.1.4.4 Winter Ant Queen.......................................................55 ║
 ║         8.1.4.5 Winter Ant Empress.....................................................55 ║
-║     8.2.0.0 Bees.......................................................................55 ║
+║     8.2.0.0 Bees.......................................................................56 ║
 ║       8.2.1.0 Honey Bees...............................................................56 ║
 ║         8.2.1.1 Honey Bee Worker.......................................................56 ║
 ║         8.2.1.2 Honey Bee Soldier......................................................56 ║
@@ -235,7 +235,7 @@
 ║         8.2.2.3 Bumble Princess........................................................56 ║
 ║         8.2.2.4 Queen Bumbelle, Bumble Queen...........................................56 ║
 ║       8.2.3.0 Fireglass Bees...........................................................56 ║
-║         8.2.3.1 Fireglass Worker.......................................................56 ║
+║         8.2.3.1 Fireglass Worker.......................................................57 ║
 ║         8.2.3.2 Fireglass Soldier......................................................57 ║
 ║         8.2.3.3 Fireglass Princess.....................................................57 ║
 ║         8.2.3.4 Queen Firalice, Fireglass Queen........................................57 ║
@@ -249,7 +249,7 @@
 ╚═══════════════════════════════════════════════════════════════════════════════════════════╝
 ╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗
 ║         8.3.1.1 Firefly Grub...........................................................57 ║
-║         8.3.1.2 Firefly Adept..........................................................57 ║
+║         8.3.1.2 Firefly Adept..........................................................58 ║
 ║         8.3.1.3 Firefly Titan..........................................................58 ║
 ║       8.3.2.0 Hercules Beetles.........................................................58 ║
 ║         8.3.2.1 Hercules Grub..........................................................58 ║
@@ -261,7 +261,7 @@
 ║         8.3.3.3 Ladybug Titan..........................................................58 ║
 ║       8.3.4.0 Scarabs..................................................................58 ║
 ║       8.3.5.0 Scarab Grub..............................................................58 ║
-║       8.3.6.0 Scarab Adept.............................................................58 ║
+║       8.3.6.0 Scarab Adept.............................................................59 ║
 ║         8.3.6.1 Scarab Titan...........................................................59 ║
 ║       8.3.7.0 Stag Beetles.............................................................59 ║
 ║         8.3.7.1 Stag Grub..............................................................59 ║
@@ -273,7 +273,7 @@
 ║         8.3.8.3 Titan of Titans........................................................59 ║
 ║     8.4.0.0 Scorpions..................................................................59 ║
 ║     8.5.0.0 Spiders....................................................................59 ║
-║     8.6.0.0 Termites...................................................................59 ║
+║     8.6.0.0 Termites...................................................................60 ║
 ║       8.6.1.0 Termite Worker...........................................................60 ║
 ║       8.6.2.0 Termite Autothyte Soldiers...............................................60 ║
 ║         8.6.2.1 Termite Autothyte Minor................................................60 ║
@@ -285,7 +285,7 @@
 ║         8.6.4.1 Termite Prince.........................................................60 ║
 ║         8.6.4.2 Termite Princess.......................................................60 ║
 ║         8.6.4.3 Termite King...........................................................60 ║
-║         8.6.4.4 Termite Queen..........................................................60 ║
+║         8.6.4.4 Termite Queen..........................................................61 ║
 ║     8.7.0.0 Wasps......................................................................61 ║
 ║     8.8.0.0 Miscellaneous..............................................................61 ║
 ║                                                                                           ║
@@ -3013,19 +3013,20 @@
 ║ with larger stronger wings. When she is mature, she will undertake the Nuptual Flight.    ║
 ║ There she will choose Male Drones to mate with and invite into her Entourage as           ║
 ║ Courtesans* (See Section "Ant Drone"). A freshly mated Princess quickly finds a place to  ║
-║ Nest and Found a Colony.                                                                  ║
+║ Nest and Found a Colony. There her wings wither and she begins laying Eggs that will      ║
+║ become Drones, Workers, Soldiers, and yes, new Princesses to continue the cycle.          ║
 ║                                                                                           ║
 ║ 8.1.1.0 Ant Drone                                                                         ║
 ║                                                                                           ║
 ║ Male ants are called Drones, and they have but one purpose in life: mate. When he is      ║
 ║ mature, he will fly out in droves to find a Princess who will accept him as one of her    ║
 ║ mates. In "Real Life", the Nuptual Flight results in the gruesome death of the Drones. In ║
-║ Nests & Insect: Metamorphosis, the ceremony is much less morbid. Instead, a Princess will ║
-║ choose one or more Drones to be her Courtesans, attending her until their last breath.    ║
-║ Which comes quickly, as their main purpose is served, and the Workers will refuse to feed ║
-║ them. Drones are unspecialized outside of flight and mating capabilities. In Nests &      ║
-║ Insects Metamorphosis, this means that a Drone of any Ant Species will use the same Stat  ║
-║ Block.                                                                                    ║
+║ Nests & Insect: Metamorphosis, the ceremony is somewhat less morbid. Instead, a Princess  ║
+║ will choose one or more Drones to be her Courtesans, attending her until their last       ║
+║ breath. Which comes quickly, as their main purpose is served, and the Workers will refuse ║
+║ to feed them. Drones are unspecialized outside of flight and mating capabilities. In      ║
+║ Nests & Insects Metamorphosis, this means that a Drone of any Ant Species will use the    ║
+║ same Stat Block.                                                                          ║
 ║                                                                                           ║
 ║ 8.1.2.0 Carpenter Ants                                                                    ║
 ║                                                                                           ║
@@ -3044,9 +3045,9 @@
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.1.2.4 Carpenter Empress                                                                 ║
-║                                                                                           ║
 ╚═══════════════════════════════════════════--54-═══════════════════════════════════════════╝
 ╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗
+║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.1.3.0 Fire Ants                                                                         ║
@@ -3094,9 +3095,9 @@
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.2.0.0 Bees                                                                              ║
-║                                                                                           ║
 ╚═══════════════════════════════════════════--55-═══════════════════════════════════════════╝
 ╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗
+║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.2.1.0 Honey Bees                                                                        ║
@@ -3144,9 +3145,9 @@
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.2.3.1 Fireglass Worker                                                                  ║
-║                                                                                           ║
 ╚═══════════════════════════════════════════--56-═══════════════════════════════════════════╝
 ╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗
+║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.2.3.2 Fireglass Soldier                                                                 ║
@@ -3194,9 +3195,9 @@
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.3.1.2 Firefly Adept                                                                     ║
-║                                                                                           ║
 ╚═══════════════════════════════════════════--57-═══════════════════════════════════════════╝
 ╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗
+║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.3.1.3 Firefly Titan                                                                     ║
@@ -3244,9 +3245,9 @@
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.3.6.0 Scarab Adept                                                                      ║
-║                                                                                           ║
 ╚═══════════════════════════════════════════--58-═══════════════════════════════════════════╝
 ╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗
+║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.3.6.1 Scarab Titan                                                                      ║
@@ -3294,9 +3295,9 @@
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.6.0.0 Termites                                                                          ║
-║                                                                                           ║
 ╚═══════════════════════════════════════════--59-═══════════════════════════════════════════╝
 ╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗
+║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.6.1.0 Termite Worker                                                                    ║
@@ -3344,9 +3345,9 @@
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.6.4.4 Termite Queen                                                                     ║
-║                                                                                           ║
 ╚═══════════════════════════════════════════--60-═══════════════════════════════════════════╝
 ╔══════► Nests & Insects: Metamorphosis ◄═════════════════════════════════════► Rulebook ◄══╗
+║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.7.0.0 Wasps                                                                             ║
@@ -3354,7 +3355,6 @@
 ║                                                                                           ║
 ║                                                                                           ║
 ║ 8.8.0.0 Miscellaneous                                                                     ║
-║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
 ║                                                                                           ║
